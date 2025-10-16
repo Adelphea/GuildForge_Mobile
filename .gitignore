@@ -1,54 +1,23 @@
-# ============================================
-# Godot Engine - caches, exports et temporaires
-# ============================================
+# -----------------------------
+# Fichiers temporaires générés par éditeurs ou IA
+# -----------------------------
+__pycache__/       # Python bytecode si scripts utilisés
+*.tmp              # Fichiers temporaires génériques
+*.log              # Fichiers de log
+.env               # Variables d'environnement sensibles
 
-# Cache d’import Godot
-GuildForge/.import/
+# -----------------------------
+# Fichiers générés par Godot ou outils similaires
+# -----------------------------
+*.import           # Fichiers d'import Godot
+*.converted        # Fichiers convertis automatiquement
+*.mono             # Dossier mono C# généré par Godot
+*.cache            # Cache temporaire Godot ou autre
+*.export           # Export temporaire du projet
 
-# Builds / exports
-GuildForge/export/
-GuildForge/*.pck
-GuildForge/*.apk
-GuildForge/*.exe
-GuildForge/*.zip
-
-# Fichiers temporaires
-GuildForge/.cache/
-GuildForge/*.tmp
-GuildForge/*.log
-
-# Sauvegardes automatiques de scènes et scripts
-GuildForge/*.tscn~
-GuildForge/*.gd~
-
-# ============================================
-# Documentation - fichiers temporaires IA
-# ============================================
-
-# Si tes scripts IA génèrent des fichiers temporaires ou logs
-documentation/**/*.tmp
-documentation/**/*.bak
-documentation/**/*.log
-
-# ============================================
-# IDE et environnement
-# ============================================
-
-# VSCode
-.vscode/
-
-# JetBrains / IntelliJ
-.idea/
-*.iml
-
-# Fichiers système
-.DS_Store
-Thumbs.db
-
-# ============================================
-# Optionnel : fichiers secrets / clés API
-# ============================================
-
-# Fichiers locaux contenant API keys, tokens, configurations locales
-*.env
-config_local.yaml
+# -----------------------------
+# Fichiers inutiles pour la documentation
+# -----------------------------
+*.swp              # Fichiers temporaires Vim/Éditeurs
+*.bak              # Sauvegardes
+*.orig             # Fichiers de fusion Git
