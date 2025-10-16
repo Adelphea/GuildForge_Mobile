@@ -1,0 +1,54 @@
+# ============================================
+# Godot Engine - caches, exports et temporaires
+# ============================================
+
+# Cache d’import Godot
+GuildForge/.import/
+
+# Builds / exports
+GuildForge/export/
+GuildForge/*.pck
+GuildForge/*.apk
+GuildForge/*.exe
+GuildForge/*.zip
+
+# Fichiers temporaires
+GuildForge/.cache/
+GuildForge/*.tmp
+GuildForge/*.log
+
+# Sauvegardes automatiques de scènes et scripts
+GuildForge/*.tscn~
+GuildForge/*.gd~
+
+# ============================================
+# Documentation - fichiers temporaires IA
+# ============================================
+
+# Si tes scripts IA génèrent des fichiers temporaires ou logs
+documentation/**/*.tmp
+documentation/**/*.bak
+documentation/**/*.log
+
+# ============================================
+# IDE et environnement
+# ============================================
+
+# VSCode
+.vscode/
+
+# JetBrains / IntelliJ
+.idea/
+*.iml
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Optionnel : fichiers secrets / clés API
+# ============================================
+
+# Fichiers locaux contenant API keys, tokens, configurations locales
+*.env
+config_local.yaml
