@@ -1,0 +1,122 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "None (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>None</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "Things (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>Things</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "FogOfWar (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>FogOfWar</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "Buildings (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>Buildings</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "GroundGlow (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>GroundGlow</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "Terrain (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>Terrain</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "Roofs (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>Roofs</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "Snow (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>Snow</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "Zone (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>Zone</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "Plan (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>Plan</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "PowerGrid (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>PowerGrid</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "BuildingsDamage (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>BuildingsDamage</defName>\n\n  </MapMeshFlagDef>"
+        },
+        {
+            "Title": "Gas (MapMeshFlagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_mesh_flag_defs/map_mesh_flag_defs.xml`",
+            "XML": "<MapMeshFlagDef>\n\n    <defName>Gas</defName>\n\n  </MapMeshFlagDef>"
+        }
+    ]
+}

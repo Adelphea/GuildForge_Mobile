@@ -1,0 +1,113 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "ThreatBig (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>ThreatBig</defName>\n\n    <sound>Message_ThreatBig</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "ThreatSmall (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>ThreatSmall</defName>\n\n    <sound>Message_ThreatSmall</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "PawnDeath (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>PawnDeath</defName>\n\n    <sound>Message_PawnDeath</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "NegativeHealthEvent (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>NegativeHealthEvent</defName>\n\n    <sound>Message_NegativeHealthEvent</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "NegativeEvent (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>NegativeEvent</defName>\n\n    <sound>Message_NegativeEvent</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "NeutralEvent (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>NeutralEvent</defName>\n\n    <sound>Message_NeutralEvent</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "TaskCompletion (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>TaskCompletion</defName>\n\n    <sound>Message_TaskCompletion</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "PositiveEvent (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>PositiveEvent</defName>\n\n    <sound>Message_PositiveEvent</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "SituationResolved (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>SituationResolved</defName>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "RejectInput (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>RejectInput</defName>\n\n    <sound>ClickReject</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "CautionInput (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>CautionInput</defName>\n\n    <sound>Message_NeutralEvent</sound>\n\n  </MessageTypeDef>"
+        },
+        {
+            "Title": "SilentInput (MessageTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/message_type_defs/message_type_def.xml`",
+            "XML": "<MessageTypeDef>\n\n    <defName>SilentInput</defName>\n\n  </MessageTypeDef>"
+        }
+    ]
+}

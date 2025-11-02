@@ -1,0 +1,293 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Tail (BodyPartGroupDef)",
+            "Label": "tail",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 180`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/bodies/bodies__griffon.xml`",
+            "XML": "<BodyPartGroupDef>\n\n\t\t<defName>Tail</defName>\n\n\t\t<label>tail</label>\n\n\t\t<listOrder>180</listOrder>\n\n\t</BodyPartGroupDef>"
+        },
+        {
+            "Title": "DankPyon_TailAttackTool (BodyPartGroupDef)",
+            "Label": "tail",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/bodies/body_part_group.xml`",
+            "XML": "<BodyPartGroupDef>\n\n\t\t<defName>DankPyon_TailAttackTool</defName>\n\n\t\t<label>tail</nlabel>\n\n\t</BodyPartGroupDef>"
+        },
+        {
+            "Title": "Torso (BodyPartGroupDef)",
+            "Label": "torso",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 100`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Torso</defName>\n\n    <label>torso</label>\n\n    <listOrder>100</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "UpperHead (BodyPartGroupDef)",
+            "Label": "upper head",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 200`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>UpperHead</defName>\n\n    <label>upper head</label>\n\n    <listOrder>200</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "FullHead (BodyPartGroupDef)",
+            "Label": "full head",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 199`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>FullHead</defName>\n\n    <label>full head</label>\n\n    <listOrder>199</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Eyes (BodyPartGroupDef)",
+            "Label": "eyes",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 198`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Eyes</defName>\n\n    <label>eyes</label>\n\n    <listOrder>198</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Teeth (BodyPartGroupDef)",
+            "Label": "teeth",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 197`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Teeth</defName>\n\n    <label>teeth</label>\n\n    <listOrder>197</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Mouth (BodyPartGroupDef)",
+            "Label": "mouth",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 196`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Mouth</defName>\n\n    <label>mouth</label>\n\n    <listOrder>196</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Neck (BodyPartGroupDef)",
+            "Label": "neck",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 180`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Neck</defName>\n\n    <label>neck</label>\n\n    <listOrder>180</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Arms (BodyPartGroupDef)",
+            "Label": "arms",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 90`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Arms</defName>\n\n    <label>arms</label>\n\n    <listOrder>90</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Shoulders (BodyPartGroupDef)",
+            "Label": "shoulders",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 85`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Shoulders</defName>\n\n    <label>shoulders</label>\n\n    <listOrder>85</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Hands (BodyPartGroupDef)",
+            "Label": "hands",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 80`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Hands</defName>\n\n    <label>hands</label>\n\n    <listOrder>80</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "LeftHand (BodyPartGroupDef)",
+            "Label": "left fist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 79`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>LeftHand</defName>\n\n    <label>left fist</label>\n\n    <labelShort>fist</labelShort>\n\n    <listOrder>79</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "RightHand (BodyPartGroupDef)",
+            "Label": "right fist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 78`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>RightHand</defName>\n\n    <label>right fist</label>\n\n    <labelShort>fist</labelShort>\n\n    <listOrder>78</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "MiddleFingers (BodyPartGroupDef)",
+            "Label": "middle finger",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 77`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>MiddleFingers</defName>\n\n    <label>middle finger</label>\n\n    <labelShort>finger</labelShort>\n\n    <listOrder>77</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Waist (BodyPartGroupDef)",
+            "Label": "utility slot",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 50`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Waist</defName>\n\n    <label>utility slot</label>\n\n    <listOrder>50</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Legs (BodyPartGroupDef)",
+            "Label": "legs",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 10`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Legs</defName>\n\n    <label>legs</label>\n\n    <listOrder>10</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Feet (BodyPartGroupDef)",
+            "Label": "feet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`listOrder: 9`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Feet</defName>\n\n    <label>feet</label>\n\n    <listOrder>9</listOrder>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "FrontLeftPaw (BodyPartGroupDef)",
+            "Label": "front left paw",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>FrontLeftPaw</defName>\n\n    <label>front left paw</label>\n\n    <labelShort>paw</labelShort>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "FrontRightPaw (BodyPartGroupDef)",
+            "Label": "front right paw",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>FrontRightPaw</defName>\n\n    <label>front right paw</label>\n\n    <labelShort>paw</labelShort>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "HeadAttackTool (BodyPartGroupDef)",
+            "Label": "head",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>HeadAttackTool</defName>\n\n    <label>head</label>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "FrontLeftLeg (BodyPartGroupDef)",
+            "Label": "front left leg",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>FrontLeftLeg</defName>\n\n    <label>front left leg</label>\n\n    <labelShort>leg</labelShort>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "FrontRightLeg (BodyPartGroupDef)",
+            "Label": "front right leg",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>FrontRightLeg</defName>\n\n    <label>front right leg</label>\n\n    <labelShort>leg</labelShort>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "FrontLeftClaws (BodyPartGroupDef)",
+            "Label": "front left claws",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>FrontLeftClaws</defName>\n\n    <label>front left claws</label>\n\n    <labelShort>claws</labelShort>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "FrontRightClaws (BodyPartGroupDef)",
+            "Label": "front right claws",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>FrontRightClaws</defName>\n\n    <label>front right claws</label>\n\n    <labelShort>claws</labelShort>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "LeftBlade (BodyPartGroupDef)",
+            "Label": "left blade",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>LeftBlade</defName>\n\n    <label>left blade</label>\n\n    <labelShort>blade</labelShort>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "RightBlade (BodyPartGroupDef)",
+            "Label": "right blade",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>RightBlade</defName>\n\n    <label>right blade</label>\n\n    <labelShort>blade</labelShort>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "TuskAttackTool (BodyPartGroupDef)",
+            "Label": "tusks",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>TuskAttackTool</defName>\n\n    <label>tusks</label>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "HornAttackTool (BodyPartGroupDef)",
+            "Label": "horn",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>HornAttackTool</defName>\n\n    <label>horn</label>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "HeadClaw (BodyPartGroupDef)",
+            "Label": "claw",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>HeadClaw</defName>\n\n    <label>claw</label>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "TurtleBeakAttackTool (BodyPartGroupDef)",
+            "Label": "beak",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>TurtleBeakAttackTool</defName>\n\n    <label>beak</label>\n\n  </BodyPartGroupDef>"
+        },
+        {
+            "Title": "Beak (BodyPartGroupDef)",
+            "Label": "beak",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/bodies/body_part_groups.xml`",
+            "XML": "<BodyPartGroupDef>\n\n    <defName>Beak</defName>\n\n    <label>beak</label>\n\n  </BodyPartGroupDef>"
+        }
+    ]
+}

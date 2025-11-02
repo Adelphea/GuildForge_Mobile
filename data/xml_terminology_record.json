@@ -1,0 +1,608 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Kills (RecordDef)",
+            "Label": "kills",
+            "Description Originale": "The number of creatures I have killed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>Kills</defName>\n\n    <label>kills</label>\n\n    <description>The number of creatures I have killed.</description>\n\n    <type>Int</type>\n\n    <displayOrder>0</displayOrder>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "KillsHumanlikes (RecordDef)",
+            "Label": "kills (humanlikes)",
+            "Description Originale": "The number of humanlike characters I have killed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>KillsHumanlikes</defName>\n\n    <label>kills (humanlikes)</label>\n\n    <description>The number of humanlike characters I have killed.</description>\n\n    <type>Int</type>\n\n    <displayOrder>0</displayOrder>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "KillsAnimals (RecordDef)",
+            "Label": "kills (animals)",
+            "Description Originale": "The number of animals I have killed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>KillsAnimals</defName>\n\n    <label>kills (animals)</label>\n\n    <description>The number of animals I have killed.</description>\n\n    <type>Int</type>\n\n    <displayOrder>0</displayOrder>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "KillsMechanoids (RecordDef)",
+            "Label": "kills (mechanoids)",
+            "Description Originale": "The number of mechanoids I have killed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>KillsMechanoids</defName>\n\n    <label>kills (mechanoids)</label>\n\n    <description>The number of mechanoids I have killed.</description>\n\n    <type>Int</type>\n\n    <displayOrder>0</displayOrder>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "PawnsDowned (RecordDef)",
+            "Label": "enemies downed",
+            "Description Originale": "The number of creatures I have downed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>PawnsDowned</defName>\n\n    <label>enemies downed</label>\n\n    <description>The number of creatures I have downed.</description>\n\n    <type>Int</type>\n\n    <displayOrder>1</displayOrder>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "PawnsDownedHumanlikes (RecordDef)",
+            "Label": "enemies downed (humanlikes)",
+            "Description Originale": "The number of humanlike creatures I have downed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>PawnsDownedHumanlikes</defName>\n\n    <label>enemies downed (humanlikes)</label>\n\n    <description>The number of humanlike creatures I have downed.</description>\n\n    <type>Int</type>\n\n    <displayOrder>1</displayOrder>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "PawnsDownedAnimals (RecordDef)",
+            "Label": "enemies downed (animals)",
+            "Description Originale": "The number of animals I have downed, whether hunting or in combat.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>PawnsDownedAnimals</defName>\n\n    <label>enemies downed (animals)</label>\n\n    <description>The number of animals I have downed, whether hunting or in combat.</description>\n\n    <type>Int</type>\n\n    <displayOrder>1</displayOrder>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "PawnsDownedMechanoids (RecordDef)",
+            "Label": "enemies downed (mechanoids)",
+            "Description Originale": "The number of mechanoids I have downed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>PawnsDownedMechanoids</defName>\n\n    <label>enemies downed (mechanoids)</label>\n\n    <description>The number of mechanoids I have downed.</description>\n\n    <type>Int</type>\n\n    <displayOrder>1</displayOrder>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ShotsFired (RecordDef)",
+            "Label": "shots fired",
+            "Description Originale": "The number of shots I have fired.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ShotsFired</defName>\n\n    <label>shots fired</label>\n\n    <description>The number of shots I have fired.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "Headshots (RecordDef)",
+            "Label": "headshots",
+            "Description Originale": "The number of headshots I have made.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>Headshots</defName>\n\n    <label>headshots</label>\n\n    <description>The number of headshots I have made.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "DamageDealt (RecordDef)",
+            "Label": "damage dealt",
+            "Description Originale": "The amount of damage I have dealt.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>DamageDealt</defName>\n\n    <label>damage dealt</label>\n\n    <description>The amount of damage I have dealt.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "DamageTaken (RecordDef)",
+            "Label": "damage taken",
+            "Description Originale": "The amount of damage I have taken.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>DamageTaken</defName>\n\n    <label>damage taken</label>\n\n    <description>The amount of damage I have taken.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimesInMentalState (RecordDef)",
+            "Label": "times in mental state",
+            "Description Originale": "How many times I have suffered a mental break.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimesInMentalState</defName>\n\n    <label>times in mental state</label>\n\n    <description>How many times I have suffered a mental break.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimesOnFire (RecordDef)",
+            "Label": "times on fire",
+            "Description Originale": "How many times I have been on fire.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimesOnFire</defName>\n\n    <label>times on fire</label>\n\n    <description>How many times I have been on fire.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "FiresExtinguished (RecordDef)",
+            "Label": "fires extinguished",
+            "Description Originale": "The number of fires I have extinguished.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>FiresExtinguished</defName>\n\n    <label>fires extinguished</label>\n\n    <description>The number of fires I have extinguished.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "OperationsReceived (RecordDef)",
+            "Label": "operations received",
+            "Description Originale": "How many times I have been medically operated on.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>OperationsReceived</defName>\n\n    <label>operations received</label>\n\n    <description>How many times I have been medically operated on.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "OperationsPerformed (RecordDef)",
+            "Label": "operations performed",
+            "Description Originale": "How many medical operations I have performed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>OperationsPerformed</defName>\n\n    <label>operations performed</label>\n\n    <description>How many medical operations I have performed.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimesTendedTo (RecordDef)",
+            "Label": "tends received",
+            "Description Originale": "How many times I have had my medical conditions tended.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimesTendedTo</defName>\n\n    <label>tends received</label>\n\n    <description>How many times I have had my medical conditions tended.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimesTendedOther (RecordDef)",
+            "Label": "tends given",
+            "Description Originale": "How many times I have tended to others' medical conditions.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimesTendedOther</defName>\n\n    <label>tends given</label>\n\n    <description>How many times I have tended to others' medical conditions.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "PeopleCaptured (RecordDef)",
+            "Label": "people captured",
+            "Description Originale": "The number of people I have captured.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>PeopleCaptured</defName>\n\n    <label>people captured</label>\n\n    <description>The number of people I have captured.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "PrisonersRecruited (RecordDef)",
+            "Label": "prisoners recruited",
+            "Description Originale": "The number of prisoners I have recruited.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>PrisonersRecruited</defName>\n\n    <label>prisoners recruited</label>\n\n    <description>The number of prisoners I have recruited.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "PrisonersChatted (RecordDef)",
+            "Label": "prisoners chatted",
+            "Description Originale": "How many times I have chatted with prisoners.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>PrisonersChatted</defName>\n\n    <label>prisoners chatted</label>\n\n    <description>How many times I have chatted with prisoners.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "AnimalsTamed (RecordDef)",
+            "Label": "animals tamed",
+            "Description Originale": "The number of animals I have tamed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>AnimalsTamed</defName>\n\n    <label>animals tamed</label>\n\n    <description>The number of animals I have tamed.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "AnimalsSlaughtered (RecordDef)",
+            "Label": "animals slaughtered",
+            "Description Originale": "The number of animals I have slaughtered.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>AnimalsSlaughtered</defName>\n\n    <label>animals slaughtered</label>\n\n    <description>The number of animals I have slaughtered.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "MealsCooked (RecordDef)",
+            "Label": "meals cooked",
+            "Description Originale": "The number of meals I have cooked.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>MealsCooked</defName>\n\n    <label>meals cooked</label>\n\n    <description>The number of meals I have cooked.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ThingsConstructed (RecordDef)",
+            "Label": "things constructed",
+            "Description Originale": "The number of things I have constructed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ThingsConstructed</defName>\n\n    <label>things constructed</label>\n\n    <description>The number of things I have constructed.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ThingsInstalled (RecordDef)",
+            "Label": "things installed",
+            "Description Originale": "The number of things I have installed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ThingsInstalled</defName>\n\n    <label>things installed</label>\n\n    <description>The number of things I have installed.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ThingsRepaired (RecordDef)",
+            "Label": "things repaired",
+            "Description Originale": "The number of things I have repaired.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ThingsRepaired</defName>\n\n    <label>things repaired</label>\n\n    <description>The number of things I have repaired.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ThingsCrafted (RecordDef)",
+            "Label": "things crafted",
+            "Description Originale": "The number of things I have crafted.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ThingsCrafted</defName>\n\n    <label>things crafted</label>\n\n    <description>The number of things I have crafted.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ThingsHauled (RecordDef)",
+            "Label": "things hauled",
+            "Description Originale": "The number of things I have hauled.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ThingsHauled</defName>\n\n    <label>things hauled</label>\n\n    <description>The number of things I have hauled.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "PlantsSown (RecordDef)",
+            "Label": "plants sown",
+            "Description Originale": "The number of plants I have sown.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>PlantsSown</defName>\n\n    <label>plants sown</label>\n\n    <description>The number of plants I have sown.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "PlantsHarvested (RecordDef)",
+            "Label": "plants harvested",
+            "Description Originale": "The number of plants I have harvested.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>PlantsHarvested</defName>\n\n    <label>plants harvested</label>\n\n    <description>The number of plants I have harvested.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "CellsMined (RecordDef)",
+            "Label": "cells mined",
+            "Description Originale": "The number of cells I have mined out.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>CellsMined</defName>\n\n    <label>cells mined</label>\n\n    <description>The number of cells I have mined out.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "MessesCleaned (RecordDef)",
+            "Label": "messes cleaned",
+            "Description Originale": "The number of messes I have cleaned up.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>MessesCleaned</defName>\n\n    <label>messes cleaned</label>\n\n    <description>The number of messes I have cleaned up.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ResearchPointsResearched (RecordDef)",
+            "Label": "research points researched",
+            "Description Originale": "The number of research points I have researched.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ResearchPointsResearched</defName>\n\n    <label>research points researched</label>\n\n    <description>The number of research points I have researched.</description>\n\n    <type>Float</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "CorpsesBuried (RecordDef)",
+            "Label": "corpses buried",
+            "Description Originale": "The number of corpses I have buried.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>CorpsesBuried</defName>\n\n    <label>corpses buried</label>\n\n    <description>The number of corpses I have buried.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "NutritionEaten (RecordDef)",
+            "Label": "nutrition eaten",
+            "Description Originale": "The amount of nutrition I have eaten.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>NutritionEaten</defName>\n\n    <label>nutrition eaten</label>\n\n    <description>The amount of nutrition I have eaten.</description>\n\n    <type>Float</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "BodiesStripped (RecordDef)",
+            "Label": "bodies stripped",
+            "Description Originale": "The number of bodies I have stripped.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>BodiesStripped</defName>\n\n    <label>bodies stripped</label>\n\n    <description>The number of bodies I have stripped.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ThingsUninstalled (RecordDef)",
+            "Label": "things uninstalled",
+            "Description Originale": "The number of things I have uninstalled.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ThingsUninstalled</defName>\n\n    <label>things uninstalled</label>\n\n    <description>The number of things I have uninstalled.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ThingsDeconstructed (RecordDef)",
+            "Label": "things deconstructed",
+            "Description Originale": "The number of things I have deconstructed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ThingsDeconstructed</defName>\n\n    <label>things deconstructed</label>\n\n    <description>The number of things I have deconstructed.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ArtifactsActivated (RecordDef)",
+            "Label": "artifacts activated",
+            "Description Originale": "The number of artifacts I have activated.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ArtifactsActivated</defName>\n\n    <label>artifacts activated</label>\n\n    <description>The number of artifacts I have activated.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "ContainersOpened (RecordDef)",
+            "Label": "containers opened",
+            "Description Originale": "The number of containers I have opened.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>ContainersOpened</defName>\n\n    <label>containers opened</label>\n\n    <description>The number of containers I have opened.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "SwitchesFlicked (RecordDef)",
+            "Label": "switches flicked",
+            "Description Originale": "The number of switches I have flicked.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_misc.xml`",
+            "XML": "<RecordDef>\n\n    <defName>SwitchesFlicked</defName>\n\n    <label>switches flicked</label>\n\n    <description>The number of switches I have flicked.</description>\n\n    <type>Int</type>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeAsColonistOrColonyAnimal (RecordDef)",
+            "Label": "time as a colonist",
+            "Description Originale": "Total time spent loyal to your community.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeAsColonistOrColonyAnimal</defName>\n\n    <label>time as a colonist</label>\n\n    <description>Total time spent loyal to your community.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeAsColonistOrColonyAnimal</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeAsQuestLodger (RecordDef)",
+            "Label": "time hosted",
+            "Description Originale": "Total time spent hosted by your community through a quest.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeAsQuestLodger</defName>\n\n    <label>time hosted</label>\n\n    <description>Total time spent hosted by your community through a quest.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeAsQuestLodger</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeAsPrisoner (RecordDef)",
+            "Label": "time as a prisoner",
+            "Description Originale": "Total time spent as a prisoner.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeAsPrisoner</defName>\n\n    <label>time as a prisoner</label>\n\n    <description>Total time spent as a prisoner.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeAsPrisoner</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeInBed (RecordDef)",
+            "Label": "time in a bed",
+            "Description Originale": "Total time spent in bed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeInBed</defName>\n\n    <label>time in a bed</label>\n\n    <description>Total time spent in bed.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeInBed</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeInBedForMedicalReasons (RecordDef)",
+            "Label": "time in a bed for medical reasons",
+            "Description Originale": "Total time spent in bed for medical reasons: awaiting treatment, recovering from injuries or being operated on.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeInBedForMedicalReasons</defName>\n\n    <label>time in a bed for medical reasons</label>\n\n    <description>Total time spent in bed for medical reasons: awaiting treatment, recovering from injuries or being operated on.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeInBedForMedicalReasons</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeDowned (RecordDef)",
+            "Label": "time downed",
+            "Description Originale": "Total time spent downed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeDowned</defName>\n\n    <label>time downed</label>\n\n    <description>Total time spent downed.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeDowned</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeGettingFood (RecordDef)",
+            "Label": "time finding food and eating",
+            "Description Originale": "Total time spent on finding food and eating.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeGettingFood</defName>\n\n    <label>time finding food and eating</label>\n\n    <description>Total time spent on finding food and eating.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>Ingest</li>\n\n      <li>PredatorHunt</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeGettingJoy (RecordDef)",
+            "Label": "time spent on entertainment",
+            "Description Originale": "Total time spent on entertainment.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeGettingJoy</defName>\n\n    <label>time spent on entertainment</label>\n\n    <description>Total time spent on entertainment.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeGettingJoy</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeUnderRoof (RecordDef)",
+            "Label": "time under a roof",
+            "Description Originale": "Total time spent under a roof.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeUnderRoof</defName>\n\n    <label>time under a roof</label>\n\n    <description>Total time spent under a roof.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeUnderRoof</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeDrafted (RecordDef)",
+            "Label": "time drafted",
+            "Description Originale": "Total time spent drafted.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeDrafted</defName>\n\n    <label>time drafted</label>\n\n    <description>Total time spent drafted.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeDrafted</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeOnFire (RecordDef)",
+            "Label": "time on fire",
+            "Description Originale": "Total time spent on fire.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeOnFire</defName>\n\n    <label>time on fire</label>\n\n    <description>Total time spent on fire.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeOnFire</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeInMentalState (RecordDef)",
+            "Label": "time in mental state",
+            "Description Originale": "Total time spent in an abnormal mental state.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeInMentalState</defName>\n\n    <label>time in mental state</label>\n\n    <description>Total time spent in an abnormal mental state.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeInMentalState</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeHauling (RecordDef)",
+            "Label": "time hauling",
+            "Description Originale": "Total time spent hauling things.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeHauling</defName>\n\n    <label>time hauling</label>\n\n    <description>Total time spent hauling things.</description>\n\n    <type>Time</type>\n\n    <workerClass>RecordWorker_TimeHauling</workerClass>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeHandlingAnimals (RecordDef)",
+            "Label": "time handling animals",
+            "Description Originale": "Total time spent handling animals.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeHandlingAnimals</defName>\n\n    <label>time handling animals</label>\n\n    <description>Total time spent handling animals.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>Slaughter</li>\n\n      <li>Milk</li>\n\n      <li>Shear</li>\n\n      <li>Tame</li>\n\n      <li>Train</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeFirefighting (RecordDef)",
+            "Label": "time firefighting",
+            "Description Originale": "Total time spent firefighting.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeFirefighting</defName>\n\n    <label>time firefighting</label>\n\n    <description>Total time spent firefighting.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>BeatFire</li>\n\n      <li>ExtinguishSelf</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeWardening (RecordDef)",
+            "Label": "time wardening",
+            "Description Originale": "Total time spent wardening.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeWardening</defName>\n\n    <label>time wardening</label>\n\n    <description>Total time spent wardening.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>PrisonerAttemptRecruit</li>\n\n      <li>PrisonerExecution</li>\n\n      <li>TakeWoundedPrisonerToBed</li>\n\n      <li>EscortPrisonerToBed</li>\n\n      <li>ReleasePrisoner</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Anomaly\">ActivitySuppression</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeHunting (RecordDef)",
+            "Label": "time hunting",
+            "Description Originale": "Total time spent hunting.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeHunting</defName>\n\n    <label>time hunting</label>\n\n    <description>Total time spent hunting.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>Hunt</li>\n\n      <li>PredatorHunt</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeConstructing (RecordDef)",
+            "Label": "time constructing",
+            "Description Originale": "Total time spent constructing and deconstructing buildings.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeConstructing</defName>\n\n    <label>time constructing</label>\n\n    <description>Total time spent constructing and deconstructing buildings.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>FinishFrame</li>\n\n      <li>PlaceNoCostFrame</li>\n\n      <li>Deconstruct</li>\n\n      <li>Uninstall</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeTreatingAndFeeding (RecordDef)",
+            "Label": "time treating and feeding",
+            "Description Originale": "Total time spent treating and feeding patients.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeTreatingAndFeeding</defName>\n\n    <label>time treating and feeding</label>\n\n    <description>Total time spent treating and feeding patients.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>TendPatient</li>\n\n      <li>FeedPatient</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeResearching (RecordDef)",
+            "Label": "time researching",
+            "Description Originale": "Total time spent researching.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeResearching</defName>\n\n    <label>time researching</label>\n\n    <description>Total time spent researching.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>Research</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeCleaning (RecordDef)",
+            "Label": "time cleaning",
+            "Description Originale": "Total time spent cleaning.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeCleaning</defName>\n\n    <label>time cleaning</label>\n\n    <description>Total time spent cleaning.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>Clean</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeRepairing (RecordDef)",
+            "Label": "time repairing",
+            "Description Originale": "Total time spent repairing.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeRepairing</defName>\n\n    <label>time repairing</label>\n\n    <description>Total time spent repairing.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>Repair</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeMining (RecordDef)",
+            "Label": "time mining",
+            "Description Originale": "Total time spent mining.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeMining</defName>\n\n    <label>time mining</label>\n\n    <description>Total time spent mining.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>Mine</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        },
+        {
+            "Title": "TimeSowingAndHarvesting (RecordDef)",
+            "Label": "time sowing and harvesting",
+            "Description Originale": "Total time spent sowing, harvesting and cutting plants.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/record_defs/records_time.xml`",
+            "XML": "<RecordDef>\n\n    <defName>TimeSowingAndHarvesting</defName>\n\n    <label>time sowing and harvesting</label>\n\n    <description>Total time spent sowing, harvesting and cutting plants.</description>\n\n    <type>Time</type>\n\n    <measuredTimeJobs>\n\n      <li>Sow</li>\n\n      <li>Harvest</li>\n\n      <li>CutPlant</li>\n\n    </measuredTimeJobs>\n\n  </RecordDef>"
+        }
+    ]
+}

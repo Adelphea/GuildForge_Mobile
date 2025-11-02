@@ -1,0 +1,374 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "SewerKid57 (BackstoryDef)",
+            "Label": "Sewerkid57",
+            "Description Originale": "[PAWN_nameDef] grew up in the sludge-smeared sewers of a polluted industrial world. \\n[PAWN_pronoun] befriended the strange insects in the darkness and learned to love them.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/insects_related_child.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>SewerKid57</defName>\n\n    <title>sewer kid</title>\n\n    <titleShort>sewer kid</titleShort>\n\n    <baseDesc>[PAWN_nameDef] grew up in the sludge-smeared sewers of a polluted industrial world. \\n[PAWN_pronoun] befriended the strange insects in the darkness and learned to love them.</baseDesc>\n\n    <bodyTypeGlobal>Thin</bodyTypeGlobal>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Animals</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Melee</skill>\n\n        <amount>1</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Caring</workDisables>\n\n    <spawnCategories><li>Child</li></spawnCategories>\n\n    <disallowedTraits>\n\n      <li><def>Kind</def></li>\n\n    </disallowedTraits>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "NavyScientist52 (BackstoryDef)",
+            "Label": "Navyscientist52",
+            "Description Originale": "Interstellar warfare is won by technology, so glitterworld navies are always at the peak of modern research. Even better, they occasionally find archotechnological artifacts floating in space.\\n\\n[PAWN_nameDef] worked in a navy lab.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>NavyScientist52</defName>\n\n    <title>navy scientist</title>\n\n    <titleShort>scientist</titleShort>\n\n    <baseDesc>Interstellar warfare is won by technology, so glitterworld navies are always at the peak of modern research. Even better, they occasionally find archotechnological artifacts floating in space.\\n\\n[PAWN_nameDef] worked in a navy lab.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Intellectual</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Shooting</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Artistic</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "GlitterworldEmpath26 (BackstoryDef)",
+            "Label": "Glitterworldempath26",
+            "Description Originale": "[PAWN_nameDef] found it easy to relate to others and mediate conflict. [PAWN_pronoun] was selected to train as an empath. The training intensified [PAWN_possessive] natural abilities, but [PAWN_pronoun] became unable to cause others pain.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>GlitterworldEmpath26</defName>\n\n    <title>glitterworld empath</title>\n\n    <titleShort>empath</titleShort>\n\n    <baseDesc>[PAWN_nameDef] found it easy to relate to others and mediate conflict. [PAWN_pronoun] was selected to train as an empath. The training intensified [PAWN_possessive] natural abilities, but [PAWN_pronoun] became unable to cause others pain.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Medicine</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Violent</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "GlitterworldSurgeon15 (BackstoryDef)",
+            "Label": "Glitterworldsurgeon15",
+            "Description Originale": "[PAWN_nameDef] worked as a surgeon on a world mostly free of disease and human suffering, so [PAWN_possessive] job focused on elaborate and creative cosmetic surgeries. \\n\\n[PAWN_pronoun] understands human biology, deeply, but has never had to remove a tumour — or a bullet.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>GlitterworldSurgeon15</defName>\n\n    <title>glitterworld surgeon</title>\n\n    <titleShort>surgeon</titleShort>\n\n    <baseDesc>[PAWN_nameDef] worked as a surgeon on a world mostly free of disease and human suffering, so [PAWN_possessive] job focused on elaborate and creative cosmetic surgeries. \\n\\n[PAWN_pronoun] understands human biology, deeply, but has never had to remove a tumour — or a bullet.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Medicine</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Intellectual</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualSkilled</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Novelist7 (BackstoryDef)",
+            "Label": "Novelist7",
+            "Description Originale": "[PAWN_nameDef] lived on a glitterworld, penning wildly successful novels. [PAWN_pronoun] lived a carefree lifestyle, spending [PAWN_possessive] days writing and [PAWN_possessive] nights partying - and has never done a day's manual labour in [PAWN_possessive] life.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Novelist7</defName>\n\n    <title>novelist</title>\n\n    <titleShort>novelist</titleShort>\n\n    <baseDesc>[PAWN_nameDef] lived on a glitterworld, penning wildly successful novels. [PAWN_pronoun] lived a carefree lifestyle, spending [PAWN_possessive] days writing and [PAWN_possessive] nights partying - and has never done a day's manual labour in [PAWN_possessive] life.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Artistic</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "CharityWorker36 (BackstoryDef)",
+            "Label": "Charityworker36",
+            "Description Originale": "Glitterworlds are havens of comfort for those lucky enough to live there, but [PAWN_nameDef] could not ignore the nearby trashworlds where the people suffered and starved. [PAWN_pronoun] spent [PAWN_possessive] life appealing for donations and supporting those in need.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>CharityWorker36</defName>\n\n    <title>charity worker</title>\n\n    <titleShort>charity worker</titleShort>\n\n    <baseDesc>Glitterworlds are havens of comfort for those lucky enough to live there, but [PAWN_nameDef] could not ignore the nearby trashworlds where the people suffered and starved. [PAWN_pronoun] spent [PAWN_possessive] life appealing for donations and supporting those in need.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Medicine</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Violent</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "GlitterworldOfficer60 (BackstoryDef)",
+            "Label": "Glitterworldofficer60",
+            "Description Originale": "Though glitterworlds are peaceful places, they often remain prepared for war. [PAWN_nameDef]'s unit rarely saw any real action.\\n\\nThough [PAWN_pronoun] pursued [PAWN_possessive] artistic hobbies, [PAWN_possessive] subordinates preferred to entertain themselves by brawling, so [PAWN_nameDef] got good at breaking up fights.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>GlitterworldOfficer60</defName>\n\n    <title>glitterworld officer</title>\n\n    <titleShort>officer</titleShort>\n\n    <baseDesc>Though glitterworlds are peaceful places, they often remain prepared for war. [PAWN_nameDef]'s unit rarely saw any real action.\\n\\nThough [PAWN_pronoun] pursued [PAWN_possessive] artistic hobbies, [PAWN_possessive] subordinates preferred to entertain themselves by brawling, so [PAWN_nameDef] got good at breaking up fights.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Melee</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Artistic</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "BiosphereManager95 (BackstoryDef)",
+            "Label": "Biospheremanager95",
+            "Description Originale": "[PAWN_nameDef] lived on a peaceful glitterworld where all menial work was done by robots, while the people mostly devoted themselves to leisure. [PAWN_pronoun] managed the plant and animal life of a sprawling park, where citizens came to admire nature's beauty.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>BiosphereManager95</defName>\n\n    <title>biosphere manager</title>\n\n    <titleShort>manager</titleShort>\n\n    <baseDesc>[PAWN_nameDef] lived on a peaceful glitterworld where all menial work was done by robots, while the people mostly devoted themselves to leisure. [PAWN_pronoun] managed the plant and animal life of a sprawling park, where citizens came to admire nature's beauty.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Plants</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Animals</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "VRDesigner87 (BackstoryDef)",
+            "Label": "Vrdesigner87",
+            "Description Originale": "[PAWN_nameDef] designed virtual reality simulations for glitterworld citizens. [PAWN_pronoun] put great effort into the details of [PAWN_possessive] virtual worlds, learning all [PAWN_pronoun] could about plant life to make [PAWN_possessive] landscapes as realistic as possible.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>VRDesigner87</defName>\n\n    <title>VR designer</title>\n\n    <titleShort>designer</titleShort>\n\n    <baseDesc>[PAWN_nameDef] designed virtual reality simulations for glitterworld citizens. [PAWN_pronoun] put great effort into the details of [PAWN_possessive] virtual worlds, learning all [PAWN_pronoun] could about plant life to make [PAWN_possessive] landscapes as realistic as possible.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Artistic</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Intellectual</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Architect28 (BackstoryDef)",
+            "Label": "Architect28",
+            "Description Originale": "[PAWN_nameDef] designed the construction of buildings. On [PAWN_possessive] glitterworld home, the technical aspect of architecture was handled by an AI, whilst the labour was done by robots. This freed [PAWN_objective] up to push the artistic limits of his craft, but also meant [PAWN_pronoun] never had to get [PAWN_possessive] hands dirty.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Architect28</defName>\n\n    <title>architect</title>\n\n    <titleShort>architect</titleShort>\n\n    <baseDesc>[PAWN_nameDef] designed the construction of buildings. On [PAWN_possessive] glitterworld home, the technical aspect of architecture was handled by an AI, whilst the labour was done by robots. This freed [PAWN_objective] up to push the artistic limits of his craft, but also meant [PAWN_pronoun] never had to get [PAWN_possessive] hands dirty.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Construction</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Artistic</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Sculptor63 (BackstoryDef)",
+            "Label": "Sculptor63",
+            "Description Originale": "[PAWN_nameDef] started off sculpting person-sized artworks, but [PAWN_pronoun] soon began to think bigger. With the help of mining robots, [PAWN_pronoun] learned how to carve huge monuments out of cliffsides. Soon the parks of the glitterworld where [PAWN_pronoun] lived were full of giant stone figures.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_glitterworld_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Sculptor63</defName>\n\n    <title>sculptor</title>\n\n    <titleShort>sculptor</titleShort>\n\n    <baseDesc>[PAWN_nameDef] started off sculpting person-sized artworks, but [PAWN_pronoun] soon began to think bigger. With the help of mining robots, [PAWN_pronoun] learned how to carve huge monuments out of cliffsides. Soon the parks of the glitterworld where [PAWN_pronoun] lived were full of giant stone figures.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Artistic</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Mining</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "MedievalFarmOaf58 (BackstoryDef)",
+            "Label": "Medievalfarmoaf58",
+            "Description Originale": "Tilling, hoeing, guiding ox carts, pushing wheelbarrows. Digging ditches, planting seeds, predicting the harvest.\\n\\nMedieval-level farmers aren't educated in the usual sense, but they know a lot about growing plants without technology. That said, such a life can leave one  incapable of participating in technology-driven activities.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>MedievalFarmOaf58</defName>\n\n    <title>medieval farm oaf</title>\n\n    <titleShort>farm oaf</titleShort>\n\n    <baseDesc>Tilling, hoeing, guiding ox carts, pushing wheelbarrows. Digging ditches, planting seeds, predicting the harvest.\\n\\nMedieval-level farmers aren't educated in the usual sense, but they know a lot about growing plants without technology. That said, such a life can leave one  incapable of participating in technology-driven activities.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Plants</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Animals</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Intellectual</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "MedievalLord57 (BackstoryDef)",
+            "Label": "Medievallord57",
+            "Description Originale": "[PAWN_nameDef] was a lord on a pre-industrial planet. [PAWN_pronoun] went to parties, managed the underlings, and even learned some swordplay.\\n\\n[PAWN_possessive] soft hands did not hold a tool once during that entire time. Now, [PAWN_pronoun] considers manual labor to be beneath [PAWN_objective].",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>MedievalLord57</defName>\n\n    <title>medieval lord</title>\n\n    <titleShort>lord</titleShort>\n\n    <baseDesc>[PAWN_nameDef] was a lord on a pre-industrial planet. [PAWN_pronoun] went to parties, managed the underlings, and even learned some swordplay.\\n\\n[PAWN_possessive] soft hands did not hold a tool once during that entire time. Now, [PAWN_pronoun] considers manual labor to be beneath [PAWN_objective].</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Melee</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "MedievalMinstrel95 (BackstoryDef)",
+            "Label": "Medievalminstrel95",
+            "Description Originale": "[PAWN_nameDef] was a traveling entertainer on a medieval world and [PAWN_pronoun] could always be found telling stories or singing songs.\\n\\nThe roads were dangerous, so [PAWN_pronoun] is capable of protecting [PAWN_objective]self. However, [PAWN_pronoun] would always move on when there was hard labour to be done.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>MedievalMinstrel95</defName>\n\n    <title>medieval minstrel</title>\n\n    <titleShort>minstrel</titleShort>\n\n    <baseDesc>[PAWN_nameDef] was a traveling entertainer on a medieval world and [PAWN_pronoun] could always be found telling stories or singing songs.\\n\\nThe roads were dangerous, so [PAWN_pronoun] is capable of protecting [PAWN_objective]self. However, [PAWN_pronoun] would always move on when there was hard labour to be done.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Artistic</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Taster16 (BackstoryDef)",
+            "Label": "Taster16",
+            "Description Originale": "As the food taster for a medieval king, [PAWN_nameDef] sampled any dish served at the royal table. [PAWN_pronoun] lived a decadent lifestyle at court, growing fat and doing very little real work.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Taster16</defName>\n\n    <title>taster</title>\n\n    <titleShort>taster</titleShort>\n\n    <baseDesc>As the food taster for a medieval king, [PAWN_nameDef] sampled any dish served at the royal table. [PAWN_pronoun] lived a decadent lifestyle at court, growing fat and doing very little real work.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Cooking</skill>\n\n        <amount>1</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Blacksmith72 (BackstoryDef)",
+            "Label": "Blacksmith72",
+            "Description Originale": "As a smith on a medieval world, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Blacksmith72</defName>\n\n    <title>blacksmith</title>\n\n    <titleShort>blacksmith</titleShort>\n\n    <baseDesc>As a smith on a medieval world, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Crafting</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Melee</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "MessageCarrier77 (BackstoryDef)",
+            "Label": "Messagecarrier77",
+            "Description Originale": "On a medieval world, the fastest way to send a message is to give it to somebody on a horse and hope they survive the journey. [PAWN_nameDef] was that somebody.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>MessageCarrier77</defName>\n\n    <title>message carrier</title>\n\n    <titleShort>carrier</titleShort>\n\n    <baseDesc>On a medieval world, the fastest way to send a message is to give it to somebody on a horse and hope they survive the journey. [PAWN_nameDef] was that somebody.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Animals</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Intellectual</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "MedievalDoctor40 (BackstoryDef)",
+            "Label": "Medievaldoctor40",
+            "Description Originale": "[PAWN_nameDef] worked as a doctor on a medieval planet. [PAWN_pronoun] firmly believes that most ailments can be cured with a little bloodletting.\\n\\n[PAWN_pronoun] was also a master anaesthetist, developing a specialty technique that involved a heavy blow to the head.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>MedievalDoctor40</defName>\n\n    <title>medieval doctor</title>\n\n    <titleShort>doctor</titleShort>\n\n    <baseDesc>[PAWN_nameDef] worked as a doctor on a medieval planet. [PAWN_pronoun] firmly believes that most ailments can be cured with a little bloodletting.\\n\\n[PAWN_pronoun] was also a master anaesthetist, developing a specialty technique that involved a heavy blow to the head.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Medicine</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Intellectual</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Herbalist54 (BackstoryDef)",
+            "Label": "Herbalist54",
+            "Description Originale": "[PAWN_nameDef] lived in the forest near a village. Though many of the villagers feared [PAWN_objective], sick villagers would come to [PAWN_objective] to purchase salves and poultices made from the herbs [PAWN_pronoun] grew in [PAWN_possessive] garden. [PAWN_pronoun] was happy to help them — for a price.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Herbalist54</defName>\n\n    <title>herbalist</title>\n\n    <titleShort>herbalist</titleShort>\n\n    <baseDesc>[PAWN_nameDef] lived in the forest near a village. Though many of the villagers feared [PAWN_objective], sick villagers would come to [PAWN_objective] to purchase salves and poultices made from the herbs [PAWN_pronoun] grew in [PAWN_possessive] garden. [PAWN_pronoun] was happy to help them — for a price.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Plants</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Medicine</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Social</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "MedievalSailor97 (BackstoryDef)",
+            "Label": "Medievalsailor97",
+            "Description Originale": "[PAWN_nameDef] explored the oceans on a wooden ship, seeking out plant and animal specimens from exotic places, and occasionally fending off pirates. [PAWN_pronoun] loved the sea so much [PAWN_pronoun] refused to do all but the barest minimum of work on land, except to sell the treasures [PAWN_pronoun] had collected.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>MedievalSailor97</defName>\n\n    <title>medieval sailor</title>\n\n    <titleShort>sailor</titleShort>\n\n    <baseDesc>[PAWN_nameDef] explored the oceans on a wooden ship, seeking out plant and animal specimens from exotic places, and occasionally fending off pirates. [PAWN_pronoun] loved the sea so much [PAWN_pronoun] refused to do all but the barest minimum of work on land, except to sell the treasures [PAWN_pronoun] had collected.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Animals</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Melee</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Intellectual</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "MedievalSlave49 (BackstoryDef)",
+            "Label": "Medievalslave49",
+            "Description Originale": "[PAWN_nameDef] grew up pulling carts and digging holes on a medieval world. Simple manual labor is [PAWN_possessive] oldest companion - along with the master's lash.\\n\\n[PAWN_pronoun] didn't learn to read until age nine.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_child.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>MedievalSlave49</defName>\n\n    <title>medieval slave</title>\n\n    <titleShort>slave</titleShort>\n\n    <baseDesc>[PAWN_nameDef] grew up pulling carts and digging holes on a medieval world. Simple manual labor is [PAWN_possessive] oldest companion - along with the master's lash.\\n\\n[PAWN_pronoun] didn't learn to read until age nine.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Mining</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Construction</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Intellectual</workDisables>\n\n    <spawnCategories><li>Child</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "MedievalLordling19 (BackstoryDef)",
+            "Label": "Medievallordling19",
+            "Description Originale": "[PAWN_nameDef] was a minor noble in an old kingdom on a medieval world. [PAWN_pronoun] grew up in a manor made of handcut stone, served by servants of the lower classes.\\n\\nSuch a life teaches no technical skills and instills a lifelong aversion to manual labor - but [PAWN_nameDef] learned early the ways of social manipulation.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_child.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>MedievalLordling19</defName>\n\n    <title>medieval lordling</title>\n\n    <titleShort>lordling</titleShort>\n\n    <baseDesc>[PAWN_nameDef] was a minor noble in an old kingdom on a medieval world. [PAWN_pronoun] grew up in a manor made of handcut stone, served by servants of the lower classes.\\n\\nSuch a life teaches no technical skills and instills a lifelong aversion to manual labor - but [PAWN_nameDef] learned early the ways of social manipulation.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Artistic</skill>\n\n        <amount>1</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Child</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "ConventChild16 (BackstoryDef)",
+            "Label": "Conventchild16",
+            "Description Originale": "The child of an illicit affair, [PAWN_nameDef] was brought up by ascetics in a medieval convent. [PAWN_pronoun] learned the value of hard work and submission, but was taught that technology is heretical and violence immoral.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_medieval_child.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>ConventChild16</defName>\n\n    <title>convent child</title>\n\n    <titleShort>convent child</titleShort>\n\n    <baseDesc>The child of an illicit affair, [PAWN_nameDef] was brought up by ascetics in a medieval convent. [PAWN_pronoun] learned the value of hard work and submission, but was taught that technology is heretical and violence immoral.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Plants</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>1</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Violent</workDisables>\n\n    <spawnCategories><li>Child</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Policeman45 (BackstoryDef)",
+            "Label": "Policeman45",
+            "Description Originale": "[PAWN_nameDef] kept the peace as a line officer in a municipal social enforcement unit. \\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Policeman45</defName>\n\n    <title>policeman</title>\n\n    <titleShort>policeman</titleShort>\n\n    <baseDesc>[PAWN_nameDef] kept the peace as a line officer in a municipal social enforcement unit. \\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Shooting</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Melee</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Artistic</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Chef52 (BackstoryDef)",
+            "Label": "Chef52",
+            "Description Originale": "[PAWN_nameDef] was the star chef at a high-class coreworld restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among the kitchen staff for [PAWN_possessive] casual disdain for grunt work.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Chef52</defName>\n\n    <title>chef</title>\n\n    <titleShort>chef</titleShort>\n\n    <baseDesc>[PAWN_nameDef] was the star chef at a high-class coreworld restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among the kitchen staff for [PAWN_possessive] casual disdain for grunt work.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Cooking</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Housemate8 (BackstoryDef)",
+            "Label": "Housemate8",
+            "Description Originale": "As an adult, [PAWN_nameDef] kept house and cared for [PAWN_possessive] children while [PAWN_possessive] spouse worked.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Housemate8</defName>\n\n    <title>housemate</title>\n\n    <titleShort>housemate</titleShort>\n\n    <baseDesc>As an adult, [PAWN_nameDef] kept house and cared for [PAWN_possessive] children while [PAWN_possessive] spouse worked.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Cooking</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>1</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Inventor6 (BackstoryDef)",
+            "Label": "Inventor6",
+            "Description Originale": "On [PAWN_possessive] homeworld, [PAWN_nameDef] worked as a moderately successful inventor. [PAWN_pronoun] developed several minor technologies.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Inventor6</defName>\n\n    <title>inventor</title>\n\n    <titleShort>inventor</titleShort>\n\n    <baseDesc>On [PAWN_possessive] homeworld, [PAWN_nameDef] worked as a moderately successful inventor. [PAWN_pronoun] developed several minor technologies.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Intellectual</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Crafting</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Teacher20 (BackstoryDef)",
+            "Label": "Teacher20",
+            "Description Originale": "[PAWN_nameDef] was educated in the liberal arts and taught at a public school. [PAWN_pronoun] was widely knowledgeable and well-liked by [PAWN_possessive] students.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Teacher20</defName>\n\n    <title>teacher</title>\n\n    <titleShort>teacher</titleShort>\n\n    <baseDesc>[PAWN_nameDef] was educated in the liberal arts and taught at a public school. [PAWN_pronoun] was widely knowledgeable and well-liked by [PAWN_possessive] students.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Intellectual</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "CivilServant2 (BackstoryDef)",
+            "Label": "Civilservant2",
+            "Description Originale": "[PAWN_nameDef] worked as a low-ranking administrator for a moribund government bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>CivilServant2</defName>\n\n    <title>civil servant</title>\n\n    <titleShort>civil servant</titleShort>\n\n    <baseDesc>[PAWN_nameDef] worked as a low-ranking administrator for a moribund government bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Intellectual</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Bartender62 (BackstoryDef)",
+            "Label": "Bartender62",
+            "Description Originale": "[PAWN_nameDef] worked as a bartender in a seedy establishment. The job was one part drink-mixing, one part diplomacy, and one part head-bashing.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Bartender62</defName>\n\n    <title>bartender</title>\n\n    <titleShort>bartender</titleShort>\n\n    <baseDesc>[PAWN_nameDef] worked as a bartender in a seedy establishment. The job was one part drink-mixing, one part diplomacy, and one part head-bashing.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Cooking</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Intellectual</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "ConceptualArtist39 (BackstoryDef)",
+            "Label": "Conceptualartist39",
+            "Description Originale": "[PAWN_nameDef] was well-known in art circles on [PAWN_possessive] home world for [PAWN_possessive] unique and creative conceptual artworks.\\n\\nNobody was sure exactly what [PAWN_pronoun] was trying to communicate, but [PAWN_possessive] pieces were highly valued by collectors.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>ConceptualArtist39</defName>\n\n    <title>conceptual artist</title>\n\n    <titleShort>artist</titleShort>\n\n    <baseDesc>[PAWN_nameDef] was well-known in art circles on [PAWN_possessive] home world for [PAWN_possessive] unique and creative conceptual artworks.\\n\\nNobody was sure exactly what [PAWN_pronoun] was trying to communicate, but [PAWN_possessive] pieces were highly valued by collectors.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Artistic</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>ManualDumb</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Evangelist39 (BackstoryDef)",
+            "Label": "Evangelist39",
+            "Description Originale": "As a youth, [PAWN_nameDef] experienced a religious awakening. [PAWN_pronoun] decided to spend the rest of [PAWN_possessive] life spreading the word of [PAWN_possessive] deity, the beauty of its culture, and its unusual medical tradition.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Evangelist39</defName>\n\n    <title>evangelist</title>\n\n    <titleShort>evangelist</titleShort>\n\n    <baseDesc>As a youth, [PAWN_nameDef] experienced a religious awakening. [PAWN_pronoun] decided to spend the rest of [PAWN_possessive] life spreading the word of [PAWN_possessive] deity, the beauty of its culture, and its unusual medical tradition.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Medicine</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Violent</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "AsceticPriest84 (BackstoryDef)",
+            "Label": "Asceticpriest84",
+            "Description Originale": "After taking a vow of silence, [PAWN_nameDef] joined a monastery to spend [PAWN_possessive] days in quiet contemplation.\\n\\n[PAWN_pronoun] found happiness growing vegetables in the garden and making cheese in the monastery cellars.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>AsceticPriest84</defName>\n\n    <title>ascetic priest</title>\n\n    <titleShort>priest</titleShort>\n\n    <baseDesc>After taking a vow of silence, [PAWN_nameDef] joined a monastery to spend [PAWN_possessive] days in quiet contemplation.\\n\\n[PAWN_pronoun] found happiness growing vegetables in the garden and making cheese in the monastery cellars.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Plants</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Cooking</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Social</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "EscapedConvict90 (BackstoryDef)",
+            "Label": "Escapedconvict90",
+            "Description Originale": "[PAWN_nameDef] denies involvement in the crimes that brought about [PAWN_possessive] incarceration in a brutal penal colony. [PAWN_pronoun] escaped by tunneling beneath the perimeter using modified cutlery.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>EscapedConvict90</defName>\n\n    <title>escaped convict</title>\n\n    <titleShort>convict</titleShort>\n\n    <baseDesc>[PAWN_nameDef] denies involvement in the crimes that brought about [PAWN_possessive] incarceration in a brutal penal colony. [PAWN_pronoun] escaped by tunneling beneath the perimeter using modified cutlery.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Melee</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Construction</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Social</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Nurse61 (BackstoryDef)",
+            "Label": "Nurse61",
+            "Description Originale": "[PAWN_nameDef] worked in a hospital, doing routine work such as changing bandages and taking temperatures.\\n\\nIt was a busy job, but [PAWN_pronoun] could always find time for a chat with a patient.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Nurse61</defName>\n\n    <title>nurse</title>\n\n    <titleShort>nurse</titleShort>\n\n    <baseDesc>[PAWN_nameDef] worked in a hospital, doing routine work such as changing bandages and taking temperatures.\\n\\nIt was a busy job, but [PAWN_pronoun] could always find time for a chat with a patient.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Medicine</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Violent</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "HouseServant63 (BackstoryDef)",
+            "Label": "Houseservant63",
+            "Description Originale": "[PAWN_nameDef] was a domestic servant to wealthy homeowners.\\n\\n[PAWN_pronoun] got to know the kitchens and basements of [PAWN_possessive] master's mansion well, but never did any work outside.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>HouseServant63</defName>\n\n    <title>house servant</title>\n\n    <titleShort>servant</titleShort>\n\n    <baseDesc>[PAWN_nameDef] was a domestic servant to wealthy homeowners.\\n\\n[PAWN_pronoun] got to know the kitchens and basements of [PAWN_possessive] master's mansion well, but never did any work outside.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Cooking</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Cleaning</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Intellectual</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Bodyguard58 (BackstoryDef)",
+            "Label": "Bodyguard58",
+            "Description Originale": "[PAWN_nameDef] protected whoever paid [PAWN_objective]. [PAWN_pronoun] gained proficiency in many different combat forms, and was known for [PAWN_possessive] ruthlessness against those who crossed [PAWN_objective].",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Bodyguard58</defName>\n\n    <title>bodyguard</title>\n\n    <titleShort>bodyguard</titleShort>\n\n    <baseDesc>[PAWN_nameDef] protected whoever paid [PAWN_objective]. [PAWN_pronoun] gained proficiency in many different combat forms, and was known for [PAWN_possessive] ruthlessness against those who crossed [PAWN_objective].</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Melee</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Shooting</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Artistic</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Mathematician6 (BackstoryDef)",
+            "Label": "Mathematician6",
+            "Description Originale": "[PAWN_nameDef] did mathematical research at a university.\\n\\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time immersed in shooting simulations, though [PAWN_pronoun] was frequently ridiculed by other players for [PAWN_possessive] terrible aim.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Mathematician6</defName>\n\n    <title>mathematician</title>\n\n    <titleShort>mathematician</titleShort>\n\n    <baseDesc>[PAWN_nameDef] did mathematical research at a university.\\n\\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time immersed in shooting simulations, though [PAWN_pronoun] was frequently ridiculed by other players for [PAWN_possessive] terrible aim.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Intellectual</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Shooting</skill>\n\n        <amount>1</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Artistic</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Paramedic45 (BackstoryDef)",
+            "Label": "Paramedic45",
+            "Description Originale": "[PAWN_nameDef]'s job was to respond rapidly to medical emergencies. [PAWN_pronoun] is used to dealing with severe injuries with only limited medical supplies.\\n\\n[PAWN_pronoun] treated so many gunshot wounds over the years that even seeing a gun made [PAWN_objective] uncomfortable.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Paramedic45</defName>\n\n    <title>paramedic</title>\n\n    <titleShort>paramedic</titleShort>\n\n    <baseDesc>[PAWN_nameDef]'s job was to respond rapidly to medical emergencies. [PAWN_pronoun] is used to dealing with severe injuries with only limited medical supplies.\\n\\n[PAWN_pronoun] treated so many gunshot wounds over the years that even seeing a gun made [PAWN_objective] uncomfortable.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Medicine</skill>\n\n        <amount>4</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Violent</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Gardener99 (BackstoryDef)",
+            "Label": "Gardener99",
+            "Description Originale": "[PAWN_nameDef] worked at the mansion of a powerful family, tending the lavish gardens as part of a team of servants.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Gardener99</defName>\n\n    <title>gardener</title>\n\n    <titleShort>gardener</titleShort>\n\n    <baseDesc>[PAWN_nameDef] worked at the mansion of a powerful family, tending the lavish gardens as part of a team of servants.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Plants</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Artistic</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Intellectual</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        },
+        {
+            "Title": "Torturer37 (BackstoryDef)",
+            "Label": "Torturer37",
+            "Description Originale": "Working for a tyrannical dictator, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently on their mind.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/backstory_defs/shuffled/offworld_nonspecific_adult.xml`",
+            "XML": "<BackstoryDef>\n\n    <defName>Torturer37</defName>\n\n    <title>torturer</title>\n\n    <titleShort>torturer</titleShort>\n\n    <baseDesc>Working for a tyrannical dictator, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently on their mind.</baseDesc>\n\n    <skillGains>\n\n      <li>\n\n        <skill>Social</skill>\n\n        <amount>3</amount>\n\n      </li>\n\n      <li>\n\n        <skill>Melee</skill>\n\n        <amount>2</amount>\n\n      </li>\n\n    </skillGains>\n\n    <workDisables>Caring</workDisables>\n\n    <spawnCategories><li>Adult</li></spawnCategories>\n\n    <male>true</male>\n\n    <female>true</female>\n\n  </BackstoryDef>"
+        }
+    ]
+}

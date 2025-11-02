@@ -1,0 +1,50 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Work (PawnTableDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_table_defs/pawn_tables.xml`",
+            "XML": "<PawnTableDef>\n\n    <defName>Work</defName>\n\n    <workerClass>PawnTable_PlayerPawns</workerClass>\n\n    <columns>\n\n      <li>LabelWithIcon</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Ideology\">Guest</li>\n\n      <li>Faction</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Ideology\">Ideo</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Biotech\">Xenotype</li>\n\n      <li>CopyPasteWorkPriorities</li>\n\n      <li>RemainingSpace</li>\n\n    </columns>\n\n  </PawnTableDef>"
+        },
+        {
+            "Title": "Assign (PawnTableDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_table_defs/pawn_tables.xml`",
+            "XML": "<PawnTableDef>\n\n    <defName>Assign</defName>\n\n    <workerClass>PawnTable_PlayerPawns</workerClass>\n\n    <columns>\n\n      <li>LabelShortWithIcon</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Ideology\">Ideo</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Biotech\">Xenotype</li>\n\n      <li>HostilityResponse</li>\n\n      <li>MedicalCare</li>\n\n      <li>GapTiny</li>\n\n      <li>Outfit</li>\n\n      <li>GapTiny</li>\n\n      <li>FoodRestriction</li>\n\n      <li>GapTiny</li>\n\n      <li>DrugPolicy</li>\n\n      <li>GapTiny</li>\n\n      <li>Reading</li>\n\n      <li>GapTiny</li>\n\n      <li>Carry</li>\n\n      <li>RemainingSpace</li>\n\n    </columns>\n\n  </PawnTableDef>"
+        },
+        {
+            "Title": "Restrict (PawnTableDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_table_defs/pawn_tables.xml`",
+            "XML": "<PawnTableDef>\n\n    <defName>Restrict</defName>\n\n    <workerClass>PawnTable_PlayerPawnsTimetable</workerClass>\n\n    <columns>\n\n      <li>LabelShortWithIcon</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Ideology\">Ideo</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Biotech\">Xenotype</li>\n\n      <li>CopyPasteTimetable</li>\n\n      <li>Timetable</li>\n\n      <li>GapTiny</li>\n\n      <li>AllowedArea</li>\n\n      <li>RemainingSpace</li>\n\n    </columns>\n\n  </PawnTableDef>"
+        },
+        {
+            "Title": "Animals (PawnTableDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_table_defs/pawn_tables.xml`",
+            "XML": "<PawnTableDef>\n\n    <defName>Animals</defName>\n\n    <workerClass>PawnTable_Animals</workerClass>\n\n    <columns>\n\n      <li>LabelWithIcon</li>\n\n      <li>Gender</li>\n\n      <li>Age</li>\n\n      <li>LifeStage</li>\n\n      <li>Pregnant</li>\n\n      <li>GapTiny</li>\n\n      <li>GapTiny</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">SpecialTrainable</li>\n\n      <li>FollowDrafted</li>\n\n      <li>FollowFieldwork</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">AnimalDig</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">AnimalForage</li>\n\n      <li>GapTiny</li>\n\n      <li>Master</li>\n\n      <li>MentalState</li>\n\n      <li>Bond</li>\n\n      <li>Sterile</li>\n\n      <li>Slaughter</li>\n\n      <li>MedicalCare</li>\n\n      <li>ReleaseAnimalToWild</li>\n\n      <li>GapTiny</li>\n\n      <li>AllowedAreaWide</li>\n\n      <li>RemainingSpace</li>\n\n    </columns>\n\n  </PawnTableDef>"
+        },
+        {
+            "Title": "Wildlife (PawnTableDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_table_defs/pawn_tables.xml`",
+            "XML": "<PawnTableDef>\n\n    <defName>Wildlife</defName>\n\n    <workerClass>PawnTable_Wildlife</workerClass>\n\n    <columns>\n\n      <li>LabelWithIcon</li>\n\n      <li>Gender</li>\n\n      <li>GapTiny</li>\n\n      <li>LifeStage</li>\n\n      <li>GapTiny</li>\n\n      <li>GapTiny</li>\n\n      <li>Hunt</li>\n\n      <li>ManhunterOnDamageChance</li>\n\n      <li>Tame</li>\n\n      <li>ManhunterOnTameFailChance</li>\n\n      <li>Predator</li>\n\n      <li>MentalState</li>\n\n      <li>Info</li>\n\n      <li>RemainingSpace</li>\n\n    </columns>\n\n    <minWidth>0</minWidth>\n\n  </PawnTableDef>"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "General (OptionCategoryDef)",
+            "Label": "general",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/option_category_defs/option_categories.xml`",
+            "XML": "<OptionCategoryDef>\n\n    <defName>General</defName>\n\n    <label>general</label>\n\n    <texPath>UI/Icons/Options/OptionsGeneral</texPath>\n\n  </OptionCategoryDef>"
+        },
+        {
+            "Title": "Graphics (OptionCategoryDef)",
+            "Label": "graphics",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/option_category_defs/option_categories.xml`",
+            "XML": "<OptionCategoryDef>\n\n    <defName>Graphics</defName>\n\n    <label>graphics</label>\n\n    <texPath>UI/Icons/Options/OptionsVideo</texPath>\n\n  </OptionCategoryDef>"
+        },
+        {
+            "Title": "Audio (OptionCategoryDef)",
+            "Label": "audio",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/option_category_defs/option_categories.xml`",
+            "XML": "<OptionCategoryDef>\n\n    <defName>Audio</defName>\n\n    <label>audio</label>\n\n    <texPath>UI/Icons/Options/OptionsAudio</texPath>\n\n  </OptionCategoryDef>"
+        },
+        {
+            "Title": "Gameplay (OptionCategoryDef)",
+            "Label": "gameplay",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/option_category_defs/option_categories.xml`",
+            "XML": "<OptionCategoryDef>\n\n    <defName>Gameplay</defName>\n\n    <label>gameplay</label>\n\n    <texPath>UI/Icons/Options/OptionsGameplay</texPath>\n\n  </OptionCategoryDef>"
+        },
+        {
+            "Title": "Interface (OptionCategoryDef)",
+            "Label": "interface",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/option_category_defs/option_categories.xml`",
+            "XML": "<OptionCategoryDef>\n\n    <defName>Interface</defName>\n\n    <label>interface</label>\n\n    <texPath>UI/Icons/Options/OptionsUI</texPath>\n\n  </OptionCategoryDef>"
+        },
+        {
+            "Title": "Controls (OptionCategoryDef)",
+            "Label": "controls",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/option_category_defs/option_categories.xml`",
+            "XML": "<OptionCategoryDef>\n\n    <defName>Controls</defName>\n\n    <label>controls</label>\n\n    <texPath>UI/Icons/Options/OptionsControls</texPath>\n\n  </OptionCategoryDef>"
+        },
+        {
+            "Title": "Dev (OptionCategoryDef)",
+            "Label": "dev",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/option_category_defs/option_categories.xml`",
+            "XML": "<OptionCategoryDef>\n\n    <defName>Dev</defName>\n\n    <label>dev</label>\n\n    <texPath>UI/Icons/Options/OptionsDev</texPath>\n\n    <isDev>true</isDev>\n\n  </OptionCategoryDef>"
+        },
+        {
+            "Title": "Mods (OptionCategoryDef)",
+            "Label": "mod options",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/option_category_defs/option_categories.xml`",
+            "XML": "<OptionCategoryDef>\n\n    <defName>Mods</defName>\n\n    <label>mod options</label>\n\n    <texPath>UI/Icons/Options/OptionsMod</texPath>\n\n  </OptionCategoryDef>"
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "FuneralStandard (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef>\n\n    <defName>FuneralStandard</defName>\n\n    <nameMaker>NamerRitualFuneral</nameMaker>\n\n    <ritualExpectedDesc>You can hold a {IDEOLIGION_adjective} funeral for {PAWN_nameDef}.</ritualExpectedDesc>\n\n    <ritualExpectedDescNoAdjective>You can hold a funeral for {PAWN_nameDef}.</ritualExpectedDescNoAdjective>\n\n    <ritualObligationTriggers>\n\n      <li Class=\"RitualObligationTrigger_MemberDiedProperties\">\n\n        <mustBePlayerIdeo>true</mustBePlayerIdeo>\n\n      </li>\n\n    </ritualObligationTriggers>\n\n    <ritualObligationTargetFilter>GraveWithTargetsCorpse</ritualObligationTargetFilter>\n\n    <ritualBehavior>Funeral</ritualBehavior>\n\n    <ritualOutcomeEffect>AttendedFuneral</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "FuneralNoCorpse (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef>\n\n    <defName>FuneralNoCorpse</defName>\n\n    <ritualExpectedDesc>You can hold a {IDEOLIGION_adjective} funeral for {PAWN_nameDef} even though the body was lost.</ritualExpectedDesc>\n\n    <ritualExpectedDescNoAdjective>You can hold a funeral for {PAWN_nameDef} even though the body was lost.</ritualExpectedDescNoAdjective>\n\n    <ritualObligationTriggers>\n\n      <li Class=\"RitualObligationTrigger_MemberCorpseDestroyedProperties\">\n\n        <mustBePlayerIdeo>true</mustBePlayerIdeo>\n\n      </li>\n\n    </ritualObligationTriggers>\n\n    <ritualObligationTargetFilter>AnyEmptyGrave</ritualObligationTargetFilter>\n\n    <ritualBehavior>Funeral</ritualBehavior>\n\n    <ritualOutcomeEffect>AttendedFuneralNoCorpse</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "TreeConnection (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef>\n\n    <defName>TreeConnection</defName>\n\n    <iconPathOverride>UI/Icons/Rituals/TreeConnection</iconPathOverride>\n\n    <alwaysStartAnytime>true</alwaysStartAnytime>\n\n    <ritualObligationTargetFilter>GauranlenTree</ritualObligationTargetFilter>\n\n    <ritualBehavior>TreeConnection</ritualBehavior>\n\n    <ritualOutcomeEffect>ConnectToTree</ritualOutcomeEffect>\n\n    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>\n\n    <tags>\n\n      <li>TreeConnection</li>\n\n    </tags>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "CelebrationPartyChat (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef Name=\"CelebrationPartyChat\">\n\n    <defName>CelebrationPartyChat</defName> \n\n    <nameMaker>NamerRitualFestival</nameMaker>\n\n    <ritualExpectedDesc>Every year on {DATE}, {MEMBERS} can have a special celebration.</ritualExpectedDesc>\n\n    <iconPathOverride>UI/Icons/Rituals/RitualFestival</iconPathOverride>\n\n    <canStartAnytime>true</canStartAnytime>\n\n    <ritualObligationTriggers>\n\n      <li Class=\"RitualObligationTrigger_DateProperties\">\n\n        <mustBePlayerIdeo>true</mustBePlayerIdeo>\n\n      </li>\n\n    </ritualObligationTriggers>\n\n    <ritualObligationTargetFilter>GatheringSpotOrAltar</ritualObligationTargetFilter>\n\n    <ritualBehavior>DateRitual</ritualBehavior>\n\n    <ritualOutcomeEffect>CelebratedDate</ritualOutcomeEffect>\n\n    <tags>\n\n      <li>CelebratedDate</li>\n\n    </tags>\n\n    <patternGroupTag>CelebratedDate</patternGroupTag>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "SacrificePrisoner (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"SacrificeBase\">\n\n    <defName>SacrificePrisoner</defName>\n\n    <ritualBehavior>SacrificePrisoner</ritualBehavior>\n\n    <shortDescOverride>prisoner sacrifice</shortDescOverride>\n\n    <descOverride>A ritualistic prisoner sacrifice. The organizer will give a speech to excite the crowd, then cut the prisoner's throat. Once the prisoner is dead, organizer will speak some finishing words.</descOverride>\n\n    <iconPathOverride>UI/Icons/Rituals/RitualPrisonerSacrifice</iconPathOverride>\n\n    <patternGroupTag />\n\n    <ritualOutcomeEffect>Sacrifice</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "SacrificeAnimal (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"SacrificeBase\">\n\n    <defName>SacrificeAnimal</defName>\n\n    <ritualBehavior>SacrificeAnimal</ritualBehavior>\n\n    <shortDescOverride>animal sacrifice</shortDescOverride>\n\n    <descOverride>A ritualistic animal sacrifice. The organizer will give a speech to excite the crowd, then cut the animal's throat. Once the animal is dead, the organizer will speak some finishing words.</descOverride>\n\n    <iconPathOverride>UI/Icons/Rituals/RitualAnimalSacrifice</iconPathOverride>\n\n    <patternGroupTag />\n\n    <ritualOutcomeEffect>Sacrifice</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "LeaderSpeech (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"SpeechPatternBase\">\n\n    <defName>LeaderSpeech</defName>\n\n    <ritualBehavior>LeaderSpeech</ritualBehavior>\n\n    <ritualObligationTargetFilter>AnyIdeoBuildingOrRitualSpot</ritualObligationTargetFilter>\n\n    <ritualTargetFilter>IdeoBuildingOrRitualSpot</ritualTargetFilter>\n\n    <alwaysStartAnytime>true</alwaysStartAnytime>\n\n    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>\n\n    <canMergeGizmosFromDifferentIdeos>false</canMergeGizmosFromDifferentIdeos>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "Trial (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"SpeechPatternBase\" Name=\"Trial\">\n\n    <defName>Trial</defName>\n\n    <ritualBehavior>Trial</ritualBehavior>\n\n    <ritualTargetFilter>IdeoBuildingOrRitualSpot</ritualTargetFilter>\n\n    <ritualOutcomeEffect>Trial</ritualOutcomeEffect>\n\n    <playsIdeoMusic>false</playsIdeoMusic>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "TrialPrisoner (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"Trial\">\n\n    <defName>TrialPrisoner</defName>\n\n    <ritualBehavior>TrialPrisoner</ritualBehavior>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "TrialMentalState (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"Trial\">\n\n    <defName>TrialMentalState</defName>\n\n    <ritualBehavior>TrialMentalState</ritualBehavior>\n\n    <ritualOutcomeEffect>TrialMentalState</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "Conversion (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef>\n\n    <defName>Conversion</defName>\n\n    <ritualBehavior>Conversion</ritualBehavior>\n\n    <ritualTargetFilter>AltarOrRitualSpot</ritualTargetFilter>\n\n    <ritualObligationTargetFilter>RitualSpotOrAltar</ritualObligationTargetFilter>\n\n    <ritualExplanation>In case of success, their certainty will be reduced or they will convert immediately. If it backfires, their certainty in own beliefs will increase.</ritualExplanation>\n\n    <ritualOutcomeEffect>Conversion</ritualOutcomeEffect>\n\n    <alwaysStartAnytime>true</alwaysStartAnytime>\n\n    <canMergeGizmosFromDifferentIdeos>false</canMergeGizmosFromDifferentIdeos>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "CelebrationPartyDanceTech (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"CelebrationPartyChat\">\n\n    <defName>CelebrationPartyDanceTech</defName>\n\n    <shortDescOverride>dance party</shortDescOverride>\n\n    <descOverride>A dance party with loud music. Participants will gather, socialize, and dance to have fun and connect with each other.</descOverride>\n\n    <iconPathOverride>UI/Icons/Rituals/CelebrationPartyDanceTech</iconPathOverride>\n\n    <canStartAnytime>true</canStartAnytime>\n\n    <ritualObligationTargetFilter>LightBall</ritualObligationTargetFilter>\n\n    <ritualBehavior>DancePartyTech</ritualBehavior>\n\n    <patternGroupTag>CelebratedDate</patternGroupTag>\n\n    <minTechLevel>Industrial</minTechLevel>\n\n    <ritualOutcomeEffect>CelebrationPartyDanceTech</ritualOutcomeEffect>\n\n    <playsIdeoMusic>false</playsIdeoMusic>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "CelebrationPartyDanceDrum (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"CelebrationPartyChat\">\n\n    <defName>CelebrationPartyDanceDrum</defName>\n\n    <shortDescOverride>drum party</shortDescOverride>\n\n    <descOverride>A dance party with drums. Participants will gather, socialize, play drums, and dance to have fun and connect with each other.</descOverride>\n\n    <iconPathOverride>UI/Icons/Rituals/CelebrationPartyDanceDrums</iconPathOverride>\n\n    <canStartAnytime>true</canStartAnytime>\n\n    <ritualObligationTargetFilter>RitualSpotOrCampfireParty</ritualObligationTargetFilter>\n\n    <ritualBehavior>CelebrationPartyDanceDrum</ritualBehavior>\n\n    <patternGroupTag>CelebratedDate</patternGroupTag>\n\n    <maxTechLevel>Neolithic</maxTechLevel>\n\n    <ritualOutcomeEffect>CelebrationPartyDanceDrum</ritualOutcomeEffect>\n\n    <playsIdeoMusic>false</playsIdeoMusic>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "CelebrationSkyLanterns (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"CelebrationPartyChat\">\n\n    <defName>CelebrationSkyLanterns</defName>\n\n    <shortDescOverride>skylantern festival</shortDescOverride>\n\n    <descOverride>A social ritual where people release skylanterns. Participants will assemble wooden skylanterns while socializing, then release them and watch them drift away.</descOverride>\n\n    <iconPathOverride>UI/Icons/Rituals/CelebrationPartySkylanterns</iconPathOverride>\n\n    <canStartAnytime>true</canStartAnytime>\n\n    <ritualObligationTargetFilter>CampfireSkylanterns</ritualObligationTargetFilter>\n\n    <ritualBehavior>CelebrationSkyLanterns</ritualBehavior>\n\n    <patternGroupTag>CelebratedDate</patternGroupTag>\n\n    <ritualOutcomeEffect>CelebrationSkyLanterns</ritualOutcomeEffect>\n\n    <layerBlacklist>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Orbit</li>\n\n    </layerBlacklist>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "CelebrationTree (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"CelebrationConsumable\">\n\n    <defName>CelebrationTree</defName>\n\n    <shortDescOverride>christmas tree party</shortDescOverride>\n\n    <descOverride>A party around a Christmas tree. Participants will gather around a Christmas tree and make merry.</descOverride>\n\n    <iconPathOverride>UI/Icons/Rituals/TreeCelebration</iconPathOverride>\n\n    <ritualObligationTargetFilter>ChristmasTree</ritualObligationTargetFilter>\n\n    <ritualBehavior>CelebrationTree</ritualBehavior>\n\n    <ignoreConsumableBuildingRequirement>true</ignoreConsumableBuildingRequirement>\n\n    <ritualOutcomeEffect>DestroyConsumableBuilding_ChristmasTree</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "BurnCircle (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"CelebrationConsumable\">\n\n    <defName>BurnCircle</defName>\n\n    <shortDescOverride>symbol burning</shortDescOverride>\n\n    <descOverride>A ritualistic burning of a hated symbol. Participants will gather around a sacrificial structure, light it on fire, and celebrate as it burns to ash.</descOverride>\n\n    <iconPathOverride>UI/Icons/Rituals/BurnCircle</iconPathOverride>\n\n    <ritualObligationTargetFilter>BurnTargets</ritualObligationTargetFilter>\n\n    <ritualBehavior>BurnCircle</ritualBehavior>\n\n    <ritualOutcomeEffect>DestroyConsumableBuilding_Pyre</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "SmokeCircle (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"CelebrationConsumable\">\n\n    <defName>SmokeCircle</defName>\n\n    <shortDescOverride>smokeleaf circle</shortDescOverride>\n\n    <descOverride>A ritualistic smoking of large amounts of smokeleaf. Participants will gather around a burnbong or incense shrine, light it on fire, and celebrate while inhaling the fumes.</descOverride>\n\n    <iconPathOverride>UI/Icons/Rituals/SmokeCircle</iconPathOverride>\n\n    <ritualObligationTargetFilter>SmokeCircle</ritualObligationTargetFilter>\n\n    <ritualBehavior>SmokeCircle</ritualBehavior>\n\n    <ritualOutcomeEffect>DestroyConsumableBuilding_Burnbong</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "GladiatorDuel (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef>\n\n    <defName>GladiatorDuel</defName>\n\n    <canStartAnytime>true</canStartAnytime>\n\n    <ritualObligationTargetFilter>AnyRitualSpot</ritualObligationTargetFilter>\n\n    <ritualBehavior>GladiatorDuel</ritualBehavior>\n\n    <alwaysStartAnytime>true</alwaysStartAnytime>\n\n    <nameMaker>NamerRitualGladiatorDuel</nameMaker>\n\n    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>\n\n    <ritualOutcomeEffect>GladiatorDuel</ritualOutcomeEffect>\n\n    <tags Inherit=\"False\" />\n\n    <playsIdeoMusic>false</playsIdeoMusic>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "FeastCannibal (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"CelebrationConsumable\">\n\n    <defName>FeastCannibal</defName>\n\n    <shortDescOverride>cannibal feast</shortDescOverride>\n\n    <descOverride>A ritualistic flesh-eating meal. Participants gather around a platter of human flesh and bloodily feast on it.</descOverride>\n\n    <iconPathOverride>UI/Icons/Rituals/CannibalFeast</iconPathOverride>\n\n    <ritualObligationTargetFilter>FeastCannibal</ritualObligationTargetFilter>\n\n    <ritualBehavior>FeastCannibal</ritualBehavior>\n\n    <ritualOutcomeEffect>DestroyConsumableBuilding_CannibalPlatter</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "ScarificationCeremony (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"MutilationBase\">\n\n    <defName>ScarificationCeremony</defName>\n\n    <ritualBehavior>ScarificationCeremony</ritualBehavior>\n\n    <ritualObligationTargetFilter>RitualSpotOrAltar_Scarification</ritualObligationTargetFilter>\n\n    <ritualOutcomeEffect>ScarificationCeremony</ritualOutcomeEffect>\n\n    <tags>\n\n      <li>ScarificationCeremony</li>\n\n    </tags>\n\n    <patternGroupTag>ScarificationCeremony</patternGroupTag>\n\n    <ritualObligationTriggers>\n\n      <li Class=\"RitualObligationTrigger_ScarificationProperties\">\n\n        <mustBePlayerIdeo>true</mustBePlayerIdeo>\n\n      </li>\n\n    </ritualObligationTriggers>\n\n    <mergeGizmosForObligations>true</mergeGizmosForObligations>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "BlindingCeremony (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"MutilationBase\">\n\n    <defName>BlindingCeremony</defName>\n\n    <ritualBehavior>BlindingCeremony</ritualBehavior>\n\n    <ritualObligationTargetFilter>RitualSpotOrAltar_Blinding</ritualObligationTargetFilter>\n\n    <ritualOutcomeEffect>BlindingCeremony</ritualOutcomeEffect>\n\n    <tags>\n\n      <li>BlindingCeremony</li>\n\n    </tags>\n\n    <patternGroupTag>BlindingCeremony</patternGroupTag>\n\n    <ritualObligationTriggers>\n\n      <li Class=\"RitualObligationTrigger_BlindingProperties\">\n\n        <mustBePlayerIdeo>true</mustBePlayerIdeo>\n\n      </li>\n\n    </ritualObligationTriggers>\n\n    <mergeGizmosForObligations>true</mergeGizmosForObligations>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "Execution (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef>\n\n    <defName>Execution</defName>\n\n    <alwaysStartAnytime>true</alwaysStartAnytime>\n\n    <ritualObligationTargetFilter>RitualSpotIdeogramOrAltar</ritualObligationTargetFilter>\n\n    <ritualBehavior>Execution</ritualBehavior>\n\n    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>\n\n    <ritualOutcomeEffect>Execution</ritualOutcomeEffect>\n\n    <tags>\n\n      <li>Execution</li>\n\n    </tags>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "RoleChange (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef>\n\n    <defName>RoleChange</defName>\n\n    <alwaysStartAnytime>true</alwaysStartAnytime>\n\n    <ritualObligationTargetFilter>RitualSpotIdeogramOrAltar</ritualObligationTargetFilter>\n\n    <ritualTargetFilter>AltarIdeogramOrRitualSpot</ritualTargetFilter>\n\n    <ritualBehavior>RoleChange</ritualBehavior>\n\n    <ritualOnlyForIdeoMembers>true</ritualOnlyForIdeoMembers>\n\n    <ritualOutcomeEffect>RoleChange</ritualOutcomeEffect>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "ThroneSpeech (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef ParentName=\"SpeechPatternBase\">\n\n    <defName>ThroneSpeech</defName>\n\n    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>\n\n    <ritualBehavior>ThroneSpeech</ritualBehavior>\n\n    <ritualTargetFilter>UsableThrone</ritualTargetFilter>\n\n    <playsIdeoMusic>false</playsIdeoMusic>\n\n  </RitualPatternDef>"
+        },
+        {
+            "Title": "AnimaTreeLinking (RitualPatternDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/precept_defs/ritual_pattern_defs/ritual_patterns.xml`",
+            "XML": "<RitualPatternDef>\n\n    <defName>AnimaTreeLinking</defName>\n\n    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>\n\n    <ritualBehavior>AnimaTreeLinking</ritualBehavior>\n\n    <ritualTargetFilter>SelectedThing</ritualTargetFilter>\n\n    <ritualObligationTargetFilter>AnimaTree</ritualObligationTargetFilter>\n\n    <ritualOutcomeEffect>AnimaTreeLinking</ritualOutcomeEffect>\n\n    <playsIdeoMusic>false</playsIdeoMusic>\n\n    <alwaysStartAnytime>true</alwaysStartAnytime>\n\n  </RitualPatternDef>"
+        }
+    ]
+}

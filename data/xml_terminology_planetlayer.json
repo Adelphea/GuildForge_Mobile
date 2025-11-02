@@ -1,0 +1,14 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Surface (PlanetLayerDef)",
+            "Label": "planet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/planet_layer_defs/planet_layers.xml`",
+            "XML": "<PlanetLayerDef>\n\n    <defName>Surface</defName>\n\n    <label>planet</label>\n\n    <viewGizmoTooltip>View locations that are on the surface.</viewGizmoTooltip>\n\n    <viewGizmoTexPath>UI/Commands/ViewPlanet</viewGizmoTexPath>\n\n    <layerType>SurfaceLayer</layerType>\n\n    <tileType>SurfaceTile</tileType>\n\n    <elevationString>{0}m</elevationString>\n\n    <gerundLabel>on the</gerundLabel>\n\n    <backgroundBiome>Ocean</backgroundBiome>\n\n    <worldGenSteps>\n\n      <li>Terrain</li>\n\n      <li>Lakes</li>\n\n      <li>Rivers</li>\n\n      <li>Mutators</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Landmarks</li>\n\n      <li>AncientSites</li>\n\n      <li>AncientRoads</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Biotech\">Pollution</li>\n\n      <li>Factions</li>\n\n      <li>Roads</li>\n\n      <li>Features</li>\n\n    </worldGenSteps>\n\n    <worldDrawLayers>\n\n      <li>WorldDrawLayer_CurrentMapTile</li>\n\n      <li>WorldDrawLayer_SelectedTile</li>\n\n      <li>WorldDrawLayer_SettleTile</li>\n\n      <li>WorldDrawLayer_MouseTile</li>\n\n      <li>WorldDrawLayer_ClosestTile</li>\n\n      <li>WorldDrawLayer_UngeneratedPlanetParts</li>\n\n      <li>WorldDrawLayer_WorldObjects_Expandable</li>\n\n      <li>WorldDrawLayer_WorldObjects_NonExpandable</li>\n\n      <li>WorldDrawLayer_DebugNoise</li>\n\n      <li>WorldDrawLayer_Landmarks</li>\n\n      <li>WorldDrawLayer_Glow</li>\n\n      <li>WorldDrawLayer_Hills</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Biotech\">WorldDrawLayer_Pollution</li>\n\n      <li>WorldDrawLayer_Rivers</li>\n\n      <li>WorldDrawLayer_Roads</li>\n\n      <li>WorldDrawLayer_Terrain</li>\n\n      <li>WorldDrawLayer_Clouds</li>\n\n    </worldDrawLayers>\n\n    <worldTabs>\n\n      <li>WITab_Terrain</li>\n\n      <li>WITab_Planet</li>\n\n    </worldTabs>\n\n  </PlanetLayerDef>"
+        }
+    ]
+}

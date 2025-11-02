@@ -1,0 +1,59 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Base_Faction (MapGeneratorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_generation/base_faction_map_generator.xml`",
+            "XML": "<MapGeneratorDef ParentName=\"MapCommonBase\">\n\n    <defName>Base_Faction</defName>\n\n    <genSteps>\n\n      <li>RocksFromGrid</li>\n\n      <li>Settlement</li>\n\n      <li>SettlementPower</li>\n\n    </genSteps>\n\n  </MapGeneratorDef>"
+        },
+        {
+            "Title": "Base_Player (MapGeneratorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_generation/base_player_map_generator.xml`",
+            "XML": "<MapGeneratorDef ParentName=\"MapCommonBase\" Name=\"Base_Player\">\n\n    <defName>Base_Player</defName>\n\n    <genSteps>\n\n      <li>RocksFromGrid</li>\n\n      <li>ScatterShrines</li>\n\n      <li>CaveHives</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Royalty\">AnimaTrees</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Biotech\">AncientExostriderRemains</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Biotech\">PoluxTrees</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Anomaly\">VoidMonolith</li>\n\n    </genSteps>\n\n  </MapGeneratorDef>"
+        },
+        {
+            "Title": "Encounter (MapGeneratorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_generation/encounter_map_generator.xml`",
+            "XML": "<MapGeneratorDef ParentName=\"MapCommonBase\">\n\n    <defName>Encounter</defName>\n\n    <genSteps>\n\n      <li>RocksFromGrid_NoMinerals</li> \n\n    </genSteps>\n\n  </MapGeneratorDef>"
+        },
+        {
+            "Title": "EscapeShip (MapGeneratorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_generation/escape_ship_map_generator.xml`",
+            "XML": "<MapGeneratorDef ParentName=\"MapCommonBase\">\n\n    <defName>EscapeShip</defName>\n\n    <genSteps>\n\n      <li>RocksFromGrid</li>\n\n      <li>EscapeShip</li>\n\n    </genSteps>\n\n  </MapGeneratorDef>"
+        },
+        {
+            "Title": "BasePlayer_SecondArchonexusCycle (MapGeneratorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/map_generation/base_player_map_generator.xml`",
+            "XML": "<MapGeneratorDef ParentName=\"Base_Player\">\n\n    <defName>BasePlayer_SecondArchonexusCycle</defName>\n\n    <genSteps>\n\n      <li>ArchonexusResearchBuildings_SecondCycle</li>\n\n    </genSteps>\n\n  </MapGeneratorDef>"
+        },
+        {
+            "Title": "BasePlayer_ThirdArchonexusCycle (MapGeneratorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/map_generation/base_player_map_generator.xml`",
+            "XML": "<MapGeneratorDef ParentName=\"Base_Player\">\n\n    <defName>BasePlayer_ThirdArchonexusCycle</defName>\n\n    <genSteps>\n\n      <li>ArchonexusResearchBuildings_ThirdCycle</li>\n\n    </genSteps>\n\n  </MapGeneratorDef>"
+        }
+    ]
+}

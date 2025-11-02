@@ -1,0 +1,32 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Running (HibernatableStateDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/hibernatable_state_defs/hibernatable_state_defs.xml`",
+            "XML": "<HibernatableStateDef>\n\n    <defName>Running</defName>\n\n  </HibernatableStateDef>"
+        },
+        {
+            "Title": "Starting (HibernatableStateDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/hibernatable_state_defs/hibernatable_state_defs.xml`",
+            "XML": "<HibernatableStateDef>\n\n    <defName>Starting</defName>\n\n  </HibernatableStateDef>"
+        },
+        {
+            "Title": "Hibernating (HibernatableStateDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/hibernatable_state_defs/hibernatable_state_defs.xml`",
+            "XML": "<HibernatableStateDef>\n\n    <defName>Hibernating</defName>\n\n  </HibernatableStateDef>"
+        }
+    ]
+}

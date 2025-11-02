@@ -1,0 +1,14 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Deity (IdeoFoundationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_foundation_defs/ideo_foundations.xml`",
+            "XML": "<IdeoFoundationDef>\n\n    <defName>Deity</defName>\n\n    <foundationClass>IdeoFoundation_Deity</foundationClass>\n\n  </IdeoFoundationDef>"
+        }
+    ]
+}

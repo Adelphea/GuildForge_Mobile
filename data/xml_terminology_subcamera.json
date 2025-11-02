@@ -1,0 +1,14 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "WaterDepth (SubcameraDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/subcamera_defs/subcameras.xml`",
+            "XML": "<SubcameraDef>\n\n    <defName>WaterDepth</defName>\n\n    <layer>WaterDepth</layer>\n\n    <depth>100</depth>\n\n    <format>RFloat</format>\n\n  </SubcameraDef>"
+        }
+    ]
+}

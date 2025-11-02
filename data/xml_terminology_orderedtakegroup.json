@@ -1,0 +1,23 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Medicine (OrderedTakeGroupDef)",
+            "Label": "medicine",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/ordered_take_group_defs/ordered_take_group_defs.xml`",
+            "XML": "<OrderedTakeGroupDef>\n\n    <defName>Medicine</defName>\n\n    <label>medicine</label>\n\n  </OrderedTakeGroupDef>"
+        },
+        {
+            "Title": "Drug (OrderedTakeGroupDef)",
+            "Label": "drug",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/ordered_take_group_defs/ordered_take_group_defs.xml`",
+            "XML": "<OrderedTakeGroupDef>\n\n    <defName>Drug</defName>\n\n    <label>drug</label>\n\n  </OrderedTakeGroupDef>"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_Hide (StuffCategoryDef)",
+            "Label": "hide",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/stuff_category_defs/stuff_categories.xml`",
+            "XML": "<StuffCategoryDef>\n\n\t\t<defName>DankPyon_Hide</defName>\n\n\t\t<label>hide</label>\n\n\t\t<destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>\n\n\t\t<destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>\n\n\t\t<destroySoundLarge>BuildingDestroyed_Metal_Big</destroySoundLarge>\n\n\t</StuffCategoryDef>"
+        },
+        {
+            "Title": "DankPyon_RawWood (StuffCategoryDef)",
+            "Label": "raw wood",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/stuff_category_defs/stuff_categories.xml`",
+            "XML": "<StuffCategoryDef>\n\n\t\t<defName>DankPyon_RawWood</defName>\n\n\t\t<label>raw wood</label>\n\n\t\t<destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>\n\n\t\t<destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>\n\n\t\t<destroySoundLarge>BuildingDestroyed_Metal_Big</destroySoundLarge>\n\n\t</StuffCategoryDef>"
+        },
+        {
+            "Title": "DankPyon_Gems (StuffCategoryDef)",
+            "Label": "gems",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/stuff_category_defs/stuff_categories.xml`",
+            "XML": "<StuffCategoryDef>\n\n\t\t<defName>DankPyon_Gems</defName>\n\n\t\t<label>gems</label>\n\n\t\t<destroySoundSmall>BuildingDestroyed_Stone_Small</destroySoundSmall>\n\n\t\t<destroySoundMedium>BuildingDestroyed_Stone_Medium</destroySoundMedium>\n\n\t\t<destroySoundLarge>BuildingDestroyed_Stone_Big</destroySoundLarge>\n\n\t</StuffCategoryDef>"
+        },
+        {
+            "Title": "Metallic (StuffCategoryDef)",
+            "Label": "metallic",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/stuff_category_defs/stuff_categories.xml`",
+            "XML": "<StuffCategoryDef>\n\n    <defName>Metallic</defName>\n\n    <label>metallic</label>\n\n    <noun>metal</noun>\n\n    <destroySoundSmall>BuildingDestroyed_Metal_Small</destroySoundSmall>\n\n    <destroySoundMedium>BuildingDestroyed_Metal_Medium</destroySoundMedium>\n\n    <destroySoundLarge>BuildingDestroyed_Metal_Big</destroySoundLarge>\n\n  </StuffCategoryDef>"
+        },
+        {
+            "Title": "Woody (StuffCategoryDef)",
+            "Label": "woody",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/stuff_category_defs/stuff_categories.xml`",
+            "XML": "<StuffCategoryDef>\n\n    <defName>Woody</defName>\n\n    <label>woody</label>\n\n    <noun>wood</noun>\n\n    <destroySoundSmall>BuildingDestroyed_Wood_Small</destroySoundSmall>\n\n    <destroySoundMedium>BuildingDestroyed_Wood_Medium</destroySoundMedium>\n\n    <destroySoundLarge>BuildingDestroyed_Wood_Big</destroySoundLarge>\n\n  </StuffCategoryDef>"
+        },
+        {
+            "Title": "Stony (StuffCategoryDef)",
+            "Label": "stony",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/stuff_category_defs/stuff_categories.xml`",
+            "XML": "<StuffCategoryDef>\n\n    <defName>Stony</defName>\n\n    <label>stony</label>\n\n    <noun>stone</noun>\n\n    <destroySoundSmall>BuildingDestroyed_Stone_Small</destroySoundSmall>\n\n    <destroySoundMedium>BuildingDestroyed_Stone_Medium</destroySoundMedium>\n\n    <destroySoundLarge>BuildingDestroyed_Stone_Big</destroySoundLarge>\n\n  </StuffCategoryDef>"
+        },
+        {
+            "Title": "Fabric (StuffCategoryDef)",
+            "Label": "fabric",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/stuff_category_defs/stuff_categories.xml`",
+            "XML": "<StuffCategoryDef>\n\n    <defName>Fabric</defName>\n\n    <label>fabric</label>\n\n    <noun>fabric</noun>\n\n    <destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>\n\n    <destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>\n\n  </StuffCategoryDef>"
+        },
+        {
+            "Title": "Leathery (StuffCategoryDef)",
+            "Label": "leathery",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/stuff_category_defs/stuff_categories.xml`",
+            "XML": "<StuffCategoryDef>\n\n    <defName>Leathery</defName>\n\n    <label>leathery</label>\n\n    <noun>leather</noun>\n\n    <destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>\n\n    <destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>\n\n  </StuffCategoryDef>"
+        }
+    ]
+}

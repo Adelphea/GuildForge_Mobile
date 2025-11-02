@@ -1,0 +1,50 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Mountain (TileMutatorDef)",
+            "Label": "mountain",
+            "Description Originale": "A mountain fills one side of this tile.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_generation/tile_mutators.xml`",
+            "XML": "<TileMutatorDef>\n\n    <defName>Mountain</defName>\n\n    <label>mountain</label>\n\n    <description>A mountain fills one side of this tile.</description>\n\n    <categories>\n\n      <li>Mountain</li>\n\n    </categories>\n\n    <workerClass>TileMutatorWorker_Mountain</workerClass>\n\n    <genOrder>-200</genOrder> \n\n  </TileMutatorDef>"
+        },
+        {
+            "Title": "Caves (TileMutatorDef)",
+            "Label": "caves",
+            "Description Originale": "Small cave networks can be found within the rocks.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_generation/tile_mutators.xml`",
+            "XML": "<TileMutatorDef>\n\n    <defName>Caves</defName>\n\n    <label>caves</label>\n\n    <description>Small cave networks can be found within the rocks.</description>\n\n    <categories>\n\n      <li>Caves</li>\n\n      <li>BaseCaves</li>\n\n    </categories>\n\n    <workerClass>TileMutatorWorker_Caves</workerClass>\n\n    <genOrder>-100</genOrder> \n\n  </TileMutatorDef>"
+        },
+        {
+            "Title": "Coast (TileMutatorDef)",
+            "Label": "coast",
+            "Description Originale": "This tile borders the coast.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_generation/tile_mutators.xml`",
+            "XML": "<TileMutatorDef>\n\n    <defName>Coast</defName>\n\n    <label>coast</label>\n\n    <description>This tile borders the coast.</description>\n\n    <categories>\n\n      <li>Coast</li>\n\n    </categories>\n\n    <workerClass>TileMutatorWorker_Coast</workerClass>\n\n    <genOrder>100</genOrder>\n\n  </TileMutatorDef>"
+        },
+        {
+            "Title": "River (TileMutatorDef)",
+            "Label": "river",
+            "Description Originale": "A stream of fresh water flows through here.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_generation/tile_mutators.xml`",
+            "XML": "<TileMutatorDef>\n\n    <defName>River</defName>\n\n    <label>river</label>\n\n    <description>A stream of fresh water flows through here.</description>\n\n    <categories>\n\n      <li>River</li>\n\n    </categories>\n\n    <workerClass>TileMutatorWorker_River</workerClass>\n\n    <genOrder>50</genOrder> \n\n  </TileMutatorDef>"
+        },
+        {
+            "Title": "UndergroundCave (TileMutatorDef)",
+            "Label": "underground cave",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/map_generation/tile_mutators.xml`",
+            "XML": "<TileMutatorDef>\n\n    <defName>UndergroundCave</defName>\n\n    <label>underground cave</label>\n\n    <categories>\n\n      <li>Caves</li>\n\n    </categories>\n\n    <priority>5</priority>\n\n    <workerClass>TileMutatorWorker_UndergroundCave</workerClass>\n\n    <genOrder>-100</genOrder> \n\n  </TileMutatorDef>"
+        }
+    ]
+}

@@ -1,0 +1,302 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Ambush (WorldObjectDef)",
+            "Label": "ambush",
+            "Description Originale": "An ongoing ambush battle.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_caravan_all.xml`",
+            "XML": "<WorldObjectDef ParentName=\"StaticWorldObjectBase\">\n\n    <defName>Ambush</defName>\n\n    <label>ambush</label>\n\n    <description>An ongoing ambush battle.</description>\n\n    <worldObjectClass>CaravansBattlefield</worldObjectClass>\n\n    <texture>World/WorldObjects/Ambush</texture>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/Ambush</expandingIconTexture>\n\n    <expandingIconPriority>80</expandingIconPriority>\n\n    <expandMore>true</expandMore>\n\n    <blockExitGridUntilBattleIsWon>true</blockExitGridUntilBattleIsWon>\n\n    <isTempIncidentMapOwner>true</isTempIncidentMapOwner>\n\n    <IncidentTargetTags>\n\n      <li>Map_TempIncident</li>\n\n    </IncidentTargetTags>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_FormCaravan\" />\n\n      <li Class=\"WorldObjectCompProperties_TimedDetectionRaids\" />\n\n    </comps>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "Caravan (WorldObjectDef)",
+            "Label": "caravan",
+            "Description Originale": "A group of traveling people.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef>\n\n    <defName>Caravan</defName>\n\n    <label>caravan</label>\n\n    <description>A group of traveling people.</description>\n\n    <worldObjectClass>Caravan</worldObjectClass>\n\n    <texture>World/WorldObjects/Caravan</texture>\n\n    <useDynamicDrawer>true</useDynamicDrawer>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/Caravan</expandingIconTexture>\n\n    <expandingIconPriority>100</expandingIconPriority>\n\n    <expandMore>true</expandMore>\n\n    <allowCaravanIncidentsWhichGenerateMap>true</allowCaravanIncidentsWhichGenerateMap>\n\n    <IncidentTargetTags>\n\n      <li>Caravan</li>\n\n    </IncidentTargetTags>\n\n    <inspectorTabs>\n\n      <li>WITab_Caravan_Health</li>\n\n      <li>WITab_Caravan_Needs</li>\n\n      <li>WITab_Caravan_Gear</li>\n\n      <li>WITab_Caravan_Social</li>\n\n      <li>WITab_Caravan_Items</li>\n\n      <li>WITab_Caravan_Feeding</li>\n\n    </inspectorTabs>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "Settlement (WorldObjectDef)",
+            "Label": "settlement",
+            "Description Originale": "A base of one of the factions.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef Name=\"Settlement\" ParentName=\"StaticWorldObjectBase\">\n\n    <defName>Settlement</defName>\n\n    <label>settlement</label>\n\n    <description>A base of one of the factions.</description>\n\n    <worldObjectClass>Settlement</worldObjectClass>\n\n    <fullyExpandedInSpace>true</fullyExpandedInSpace>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconPriority>10</expandingIconPriority>\n\n    <canBePlayerHome>true</canBePlayerHome>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_Abandon\" />\n\n      <li Class=\"WorldObjectCompProperties_TradeRequest\" />\n\n      <li Class=\"WorldObjectCompProperties_FormCaravan\" />\n\n      <li Class=\"WorldObjectCompProperties_TimedDetectionRaids\" />\n\n      <li Class=\"WorldObjectCompProperties_EnterCooldown\" />\n\n    </comps>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "AbandonedSettlement (WorldObjectDef)",
+            "Label": "abandoned settlement",
+            "Description Originale": "An abandoned settlement.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"StaticWorldObjectBase\">\n\n    <defName>AbandonedSettlement</defName>\n\n    <label>abandoned settlement</label>\n\n    <description>An abandoned settlement.</description>\n\n    <texture>World/WorldObjects/TribalSettlement</texture>\n\n    <worldObjectClass>AbandonedSettlement</worldObjectClass>\n\n    <canHaveMap>false</canHaveMap>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "DestroyedSettlement (WorldObjectDef)",
+            "Label": "destroyed settlement",
+            "Description Originale": "A destroyed settlement.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"StaticWorldObjectBase\">\n\n    <defName>DestroyedSettlement</defName>\n\n    <label>destroyed settlement</label>\n\n    <description>A destroyed settlement.</description>\n\n    <worldObjectClass>DestroyedSettlement</worldObjectClass>\n\n    <texture>World/WorldObjects/TribalSettlement</texture>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/DestroyedSettlement</expandingIconTexture>\n\n    <expandingIconPriority>20</expandingIconPriority>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_FormCaravan\" />\n\n      <li Class=\"WorldObjectCompProperties_TimedDetectionRaids\" />\n\n    </comps>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "EscapeShip (WorldObjectDef)",
+            "Label": "landed ship",
+            "Description Originale": "The location of a hidden ship which can help you escape the planet.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"StaticWorldObjectBase\">\n\n    <defName>EscapeShip</defName>\n\n    <label>landed ship</label>\n\n    <description>The location of a hidden ship which can help you escape the planet.</description>\n\n    <worldObjectClass>EscapeShip</worldObjectClass>\n\n    <texture>World/WorldObjects/JourneyDestination</texture>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/JourneyDestination</expandingIconTexture>\n\n    <expandingIconPriority>50</expandingIconPriority>\n\n    <expandMore>true</expandMore>\n\n    <IncidentTargetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </IncidentTargetTags>\n\n    <mapGenerator>EscapeShip</mapGenerator>\n\n    <canBePlayerHome>true</canBePlayerHome>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_Abandon\" />\n\n      <li Class=\"WorldObjectCompProperties_EscapeShip\" />\n\n      <li Class=\"WorldObjectCompProperties_FormCaravan\" />\n\n      <li Class=\"WorldObjectCompProperties_EnterCooldown\" />\n\n    </comps>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "AttackedNonPlayerCaravan (WorldObjectDef)",
+            "Label": "attacked caravan",
+            "Description Originale": "A caravan under attack.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"StaticWorldObjectBase\">\n\n    <defName>AttackedNonPlayerCaravan</defName>\n\n    <label>attacked caravan</label>\n\n    <description>A caravan under attack.</description>\n\n    <worldObjectClass>CaravansBattlefield</worldObjectClass>\n\n    <texture>World/WorldObjects/Ambush</texture>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/Ambush</expandingIconTexture>\n\n    <expandingIconPriority>80</expandingIconPriority>\n\n    <expandMore>true</expandMore>\n\n    <isTempIncidentMapOwner>true</isTempIncidentMapOwner>\n\n    <IncidentTargetTags>\n\n      <li>Map_TempIncident</li>\n\n    </IncidentTargetTags>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_FormCaravan\" />\n\n      <li Class=\"WorldObjectCompProperties_TimedDetectionRaids\" />\n\n    </comps>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "TravellingTransporters (WorldObjectDef)",
+            "Label": "transport pods",
+            "Description Originale": "Transport pods in flight.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef>\n\n    <defName>TravellingTransporters</defName>\n\n    <label>transport pods</label>\n\n    <description>Transport pods in flight.</description>\n\n    <worldObjectClass>TravellingTransporters</worldObjectClass>\n\n    <texture>World/WorldObjects/TravelingTransportPods</texture>\n\n    <useDynamicDrawer>true</useDynamicDrawer>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/TravelingTransportPods</expandingIconTexture>\n\n    <expandingIconPriority>60</expandingIconPriority>\n\n    <expandMore>true</expandMore>\n\n    <allowCaravanIncidentsWhichGenerateMap>true</allowCaravanIncidentsWhichGenerateMap>\n\n    <fullyExpandedInSpace>true</fullyExpandedInSpace>\n\n    <validLaunchTarget>false</validLaunchTarget>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "RoutePlannerWaypoint (WorldObjectDef)",
+            "Label": "waypoint",
+            "Description Originale": "A temporary waypoint.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef>\n\n    <defName>RoutePlannerWaypoint</defName>\n\n    <label>waypoint</label>\n\n    <description>A temporary waypoint.</description>\n\n    <worldObjectClass>RoutePlannerWaypoint</worldObjectClass>\n\n    <texture>World/WorldObjects/RoutePlannerWaypoint</texture>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/RoutePlannerWaypoint</expandingIconTexture>\n\n    <expandingIconPriority>1000</expandingIconPriority>\n\n    <allowCaravanIncidentsWhichGenerateMap>true</allowCaravanIncidentsWhichGenerateMap>\n\n    <saved>false</saved>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "Site (WorldObjectDef)",
+            "Label": "site",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef Name=\"Site\" ParentName=\"StaticWorldObjectBase\">\n\n    <defName>Site</defName>\n\n    <label>site</label>\n\n    <worldObjectClass>Site</worldObjectClass>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconPriority>70</expandingIconPriority>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_Timeout\" />\n\n      <li Class=\"WorldObjectCompProperties_DefeatAllEnemiesQuest\" />\n\n      <li Class=\"WorldObjectCompProperties_ItemStashContents\" />\n\n      <li Class=\"WorldObjectCompProperties_DownedRefugee\" />\n\n      <li Class=\"WorldObjectCompProperties_PrisonerWillingToJoin\" />\n\n      <li Class=\"WorldObjectCompProperties_FormCaravan\" />\n\n      <li Class=\"WorldObjectCompProperties_TimedDetectionRaids\" />\n\n      <li Class=\"WorldObjectCompProperties_EnterCooldown\" />\n\n      <li Class=\"WorldObjectCompProperties_TimedMakeFactionHostile\" />\n\n    </comps>\n\n    <IncidentTargetTags>\n\n      <li>Map_Misc</li>\n\n    </IncidentTargetTags>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "PeaceTalks (WorldObjectDef)",
+            "Label": "peace talks",
+            "Description Originale": "A site designated for peace talks.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"StaticWorldObjectBase\">\n\n    <defName>PeaceTalks</defName>\n\n    <label>peace talks</label>\n\n    <description>A site designated for peace talks.</description>\n\n    <worldObjectClass>PeaceTalks</worldObjectClass>\n\n    <texture>World/WorldObjects/PeaceTalks</texture>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/PeaceTalks</expandingIconTexture>\n\n    <expandingIconPriority>70</expandingIconPriority>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_Timeout\" />\n\n    </comps>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "PocketMap (WorldObjectDef)",
+            "Label": "pocket map",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef>\n\n    <defName>PocketMap</defName>\n\n    <label>pocket map</label> \n\n    <worldObjectClass>PocketMapParent</worldObjectClass>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "Camp (WorldObjectDef)",
+            "Label": "camp",
+            "Description Originale": "A caravan has set up camp here temporarily.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"StaticWorldObjectBase\">\n\n    <defName>Camp</defName>\n\n    <label>camp</label>\n\n    <worldObjectClass>Camp</worldObjectClass>\n\n    <description>A caravan has set up camp here temporarily.</description>\n\n    <texture>World/WorldObjects/Camp</texture>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/Camp</expandingIconTexture>\n\n    <expandingIconPriority>80</expandingIconPriority>\n\n    <expandMore>true</expandMore>\n\n    <isTempIncidentMapOwner>true</isTempIncidentMapOwner>\n\n    <overrideMapSize>(200, 1, 200)</overrideMapSize>\n\n    <IncidentTargetTags>\n\n      <li>Map_TempIncident</li>\n\n    </IncidentTargetTags>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_FormCaravan\" />\n\n      <li Class=\"WorldObjectCompProperties_TimedDetectionRaids\" />\n\n    </comps>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "AbandonedCamp (WorldObjectDef)",
+            "Label": "abandoned camp",
+            "Description Originale": "An abandoned camp.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"StaticWorldObjectBase\">\n\n    <defName>AbandonedCamp</defName>\n\n    <label>abandoned camp</label>\n\n    <description>An abandoned camp.</description>\n\n    <texture>World/WorldObjects/AbandonedCamp</texture>\n\n    <canHaveMap>false</canHaveMap>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_Timeout\" />\n\n    </comps>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "Debug_Arena (WorldObjectDef)",
+            "Label": "debug arena",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_object_defs/world_objects_debug.xml`",
+            "XML": "<WorldObjectDef>\n\n    <defName>Debug_Arena</defName>\n\n    <label>debug arena</label>\n\n    <worldObjectClass>MapParent</worldObjectClass>\n\n    <texture>World/WorldObjects/Ambush</texture>\n\n    <comps>\n\n      <li Class=\"WorldObjectCompProperties_DebugArena\" />\n\n    </comps>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "Settlement_SecondArchonexusCycle (WorldObjectDef)",
+            "Label": "second archonexus settlement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"Settlement\">\n\n    <defName>Settlement_SecondArchonexusCycle</defName>\n\n    <label>second archonexus settlement</label>\n\n    <mapGenerator>BasePlayer_SecondArchonexusCycle</mapGenerator>\n\n    <worldObjectClass>ArchotechSettlement</worldObjectClass>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "Settlement_ThirdArchonexusCycle (WorldObjectDef)",
+            "Label": "third archonexus settlement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"Settlement\">\n\n    <defName>Settlement_ThirdArchonexusCycle</defName>\n\n    <label>third archonexus settlement</label>\n\n    <mapGenerator>BasePlayer_ThirdArchonexusCycle</mapGenerator>\n\n    <worldObjectClass>ArchotechSettlement</worldObjectClass>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "AbandonedArchotechStructures (WorldObjectDef)",
+            "Label": "archotech structure",
+            "Description Originale": "An archotech structure that you can study.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"StaticWorldObjectBase\">\n\n    <defName>AbandonedArchotechStructures</defName>\n\n    <label>archotech structure</label>\n\n    <worldObjectClass>AbandonedArchotechStructures</worldObjectClass>\n\n    <description>An archotech structure that you can study.</description>\n\n    <texture>World/WorldObjects/ArchotechStructure</texture>\n\n    <expandingIcon>true</expandingIcon>\n\n    <expandingIconTexture>World/WorldObjects/Expanding/ArchotechStructure</expandingIconTexture>\n\n    <canBePlayerHome>true</canBePlayerHome>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "TravelingShuttle (WorldObjectDef)",
+            "Label": "imperial shuttle",
+            "Description Originale": "An imperial shuttle in flight.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/world_object_defs/world_objects.xml`",
+            "XML": "<WorldObjectDef ParentName=\"ShuttleWorldObjectBase\">\n\n    <defName>TravelingShuttle</defName>\n\n    <label>imperial shuttle</label>\n\n    <description>An imperial shuttle in flight.</description>\n\n    <expandingIconDrawSize>1</expandingIconDrawSize>\n\n  </WorldObjectDef>"
+        },
+        {
+            "Title": "2.1. Identification des Logiques Communes",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "2.2. Détection des Différences Structurelles",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "2.3. Recherche de Patterns Récurrents",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "2.4. Typologie des Données",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "2.1. Phase 1 : Extraction et Analyse Structurelle (Automatisée)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "2.2. Phase 2 : Analyse des Schémas de Données et de l'Héritage (Automatisée & Assistée)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "2.3. Phase 3 : Analyse des Relations et Dépendances (Automatisée & Assistée)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "2.4. Phase 4 : Optimisation et Adaptation pour Godot (Manuelle & Assistée)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "2.5. Phase 5 : Documentation et Rapports (Manuelle)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "2.1. Exemple de Structure XML (Référence)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": "<Defs>\n\n    <ItemDef>\n\n        <defName>IronSword</defName>\n\n        <label>Épée en Fer</label>\n\n        <description>Une épée simple en fer, efficace pour le combat rapproché.</description>\n\n        <graphicPath>items/weapons/iron_sword</graphicPath>\n\n        <statBases>\n\n            <MarketValue>150</MarketValue>\n\n            <MeleeDamage>10</MeleeDamage>\n\n            <Mass>2.5</Mass>\n\n        </statBases>\n\n        <techLevel>Medieval</techLevel>\n\n    </ItemDef>\n\n</Defs>"
+        },
+        {
+            "Title": "2.2. Avantages et Inconvénients du XML (Contexte Historique et d'Analyse)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "3.1. Principes de la Migration (Réaffirmés)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "3.2. Structure des Resources (Nouveau Système)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        },
+        {
+            "Title": "3.3. Exemple de Custom Resource (GDScript)",
+            "Label": "",
+            "Description Originale": "",
+            "Propriétés Clés": "",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "",
+            "XML": ""
+        }
+    ]
+}

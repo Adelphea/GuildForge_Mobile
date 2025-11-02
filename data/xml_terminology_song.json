@@ -1,0 +1,32 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "EntrySong (SongDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/song_defs/songs_entry.xml`",
+            "XML": "<SongDef>\n\n    <defName>EntrySong</defName>\n\n    <playOnMap>false</playOnMap>\n\n    <clipPath>Songs/Entry/Entry_Ambience_Full</clipPath>\n\n    <volume>0.9</volume>\n\n  </SongDef>"
+        },
+        {
+            "Title": "EndCreditsSong (SongDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/song_defs/songs_misc.xml`",
+            "XML": "<SongDef>\n\n    <defName>EndCreditsSong</defName>\n\n    <playOnMap>false</playOnMap>\n\n    <clipPath>Songs/Misc/End_Credits_Song</clipPath>\n\n    <volume>1.05</volume>\n\n  </SongDef>"
+        },
+        {
+            "Title": "ArchonexusVictorySong (SongDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/song_defs/songs_misc.xml`",
+            "XML": "<SongDef>\n\n    <defName>ArchonexusVictorySong</defName>\n\n    <playOnMap>false</playOnMap>\n\n    <clipPath>Songs/Misc/ArchonexusEndCredits</clipPath>\n\n    <volume>0.8</volume>\n\n  </SongDef>"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "RepeatCount (BillRepeatModeDef)",
+            "Label": "do X times",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/bill_defs/bill_repeat_mode_defs.xml`",
+            "XML": "<BillRepeatModeDef>\n\n    <defName>RepeatCount</defName>\n\n    <label>do X times</label>\n\n    <listOrder>0</listOrder>\n\n  </BillRepeatModeDef>"
+        },
+        {
+            "Title": "TargetCount (BillRepeatModeDef)",
+            "Label": "do until you have X",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/bill_defs/bill_repeat_mode_defs.xml`",
+            "XML": "<BillRepeatModeDef>\n\n    <defName>TargetCount</defName>\n\n    <label>do until you have X</label>\n\n    <listOrder>10</listOrder>\n\n  </BillRepeatModeDef>"
+        },
+        {
+            "Title": "Forever (BillRepeatModeDef)",
+            "Label": "do forever",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/bill_defs/bill_repeat_mode_defs.xml`",
+            "XML": "<BillRepeatModeDef>\n\n    <defName>Forever</defName>\n\n    <label>do forever</label>\n\n    <listOrder>20</listOrder>\n\n  </BillRepeatModeDef>"
+        }
+    ]
+}

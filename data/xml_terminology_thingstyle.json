@@ -1,0 +1,1022 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_AltarGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>DankPyon_AltarGrand</defName>\n\n    <graphicData>\n\n      <texPath>Building/BuildingStyles/EmperorFace</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <drawSize>(8,8)</drawSize>\n\n      <shadowData>\n\n        <volume>(2.4, 1, 1.6)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Christian_SculptureSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Christian_SculptureSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Christian/Sculptures/Small</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Christian_SculptureLarge (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Christian_SculptureLarge</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Christian/Sculptures/Large</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.6</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Christian_SculptureGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Christian_SculptureGrand</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Christian/Sculptures/Grand</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.23</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Christian_IdeogramA (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Christian_IdeogramA</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconChristian/IconChristianA</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Christian_IdeogramB (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Christian_IdeogramB</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconChristian/IconChristianB</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Islamic_SculptureSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Islamic_SculptureSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Islamic/Sculptures/Small</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Islamic_SculptureLarge (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Islamic_SculptureLarge</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Islamic/Sculptures/Large</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>2</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Islamic_SculptureGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Islamic_SculptureGrand</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Islamic/Sculptures/Grand</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.14</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Islamic_IdeogramA (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Islamic_IdeogramA</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconIslamic/IconIslamicA</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Islamic_IdeogramB (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Islamic_IdeogramB</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconIslamic/IconIslamicB</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Buddhist_SculptureSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Buddhist_SculptureSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Small</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Buddhist_SculptureLarge (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Buddhist_SculptureLarge</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Large</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.88</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Buddhist_SculptureGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Buddhist_SculptureGrand</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Grand</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.06</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Buddhist_IdeogramA (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Buddhist_IdeogramA</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconBuddhist/IconBuddhistA</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Buddhist_IdeogramB (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Buddhist_IdeogramB</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconBuddhist/IconBuddhistB</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Hindu_SimpleHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Hindu_SimpleHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetSimpleHindu/HelmetSimpleHindu</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetSimpleHindu/HelmetSimpleHindu</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Hindu_AdvancedHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Hindu_AdvancedHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetAdvancedHindu/HelmetAdvancedHindu</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetAdvancedHindu/HelmetAdvancedHindu</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Hindu_SculptureSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Hindu_SculptureSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Hindu/Sculptures/Small</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Hindu_SculptureLarge (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Hindu_SculptureLarge</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Hindu/Sculptures/Large</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>2</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Hindu_SculptureGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Hindu_SculptureGrand</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Hindu/Sculptures/Grand</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.33</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Hindu_IdeogramA (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Hindu_IdeogramA</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconHindu/IconHinduA</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Hindu_IdeogramB (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Hindu_IdeogramB</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconHindu/IconHinduB</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_SculptureSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_SculptureSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Sculptures/Small</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_SculptureLarge (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_SculptureLarge</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Sculptures/Large</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.77</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_SculptureGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_SculptureGrand</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Sculptures/Grand</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.14</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_AltarSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_AltarSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid1x1</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <shadowData>\n\n        <volume>(0.8, 1, 0.8)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_AltarMedium (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_AltarMedium</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid1x3</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <drawSize>(3,1)</drawSize>\n\n      <shadowData>\n\n        <volume>(2.4, 1, 0.8)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_AltarLarge (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_AltarLarge</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid2x3</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <drawSize>(3,2)</drawSize>\n\n      <shadowData>\n\n        <volume>(2.4, 1, 1.6)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_AltarGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_AltarGrand</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Altars/AltarMorbid3x3</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n      <shadowData>\n\n        <volume>(2.4, 1, 2.4)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_Stool (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_Stool</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Stool/MorbidStool</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <damageData>\n\n        <rectN>(0.125,0.296875,0.734375,0.421875)</rectN>\n\n        <rectS>(0.125,0.296875,0.734375,0.421875)</rectS>\n\n        <rectE>(0.234375,0.296875,0.5,0.546875)</rectE>\n\n        <rectW>(0.234375,0.296875,0.5,0.546875)</rectW>\n\n        <cornerTL>Damage/Corner</cornerTL>\n\n        <cornerTR>Damage/Corner</cornerTR>\n\n        <cornerBL>Damage/Corner</cornerBL>\n\n        <cornerBR>Damage/Corner</cornerBR>\n\n      </damageData>\n\n      <shadowData>\n\n        <volume>(0.18, 0.23, 0.18)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_Table1x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Morbid_Table1x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Tables/MorbidTable1x2</texPath>\n\n      <drawSize>(3,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_Table2x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Morbid_Table2x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Tables/MorbidTable2x2</texPath>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_Table2x4c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Morbid_Table2x4c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Tables/MorbidTable2x4</texPath>\n\n      <drawSize>(4,6)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_Table3x3c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Morbid_Table3x3c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/Tables/MorbidTable3x3</texPath>\n\n      <drawSize>(5,5)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_StandingLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_StandingLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/MorbidLampStanding</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_TorchLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_TorchLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/MorbidTorchLamp</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Morbid/MorbidTorchLamp_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_WallLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"WallLampStyleBase\">\n\n    <defName>Morbid_WallLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/WallLamp/WallLampMorbid</texPath>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Morbid/WallLamp/WallLampMorbid_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_WallTorch (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"WallLampStyleBase\">\n\n    <defName>Morbid_WallTorch</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/WallTorch/WallTorchMorbid</texPath>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Morbid/WallTorch/WallTorchMorbid_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_Column (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoColumnStyleBase\">\n\n    <defName>Morbid_Column</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Morbid/MorbidColumn</texPath>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_ReconHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_ReconHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetReconMorbid/HelmetReconMorbid</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetReconMorbid/HelmetReconMorbid</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_MarineHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_MarineHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetMarineMorbid/HelmetMarineMorbid</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetMarineMorbid/HelmetMarineMorbid</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_CataphractHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_CataphractHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetCataphractMorbid/HelmetCataphractMorbid</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetCataphractMorbid/HelmetCataphractMorbid</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_IdeogramA (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_IdeogramA</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconMorbid/IconMorbidA</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Morbid_IdeogramB (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Morbid_IdeogramB</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconMorbid/IconMorbidB</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_SculptureSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_SculptureSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Sculptures/Small</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_SculptureLarge (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_SculptureLarge</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Sculptures/Large</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>2</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_SculptureGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_SculptureGrand</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Sculptures/Grand</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.538</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_AltarSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_AltarSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Altars/AltarTotemic1x1</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <shadowData>\n\n        <volume>(0.8, 1, 0.8)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_AltarMedium (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_AltarMedium</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Altars/AltarTotemic1x3</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <drawSize>(3,1)</drawSize>\n\n      <shadowData>\n\n        <volume>(2.4, 1, 0.8)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_AltarLarge (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_AltarLarge</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Altars/AltarTotemic2x3</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <drawSize>(3,2)</drawSize>\n\n      <shadowData>\n\n        <volume>(2.4, 1, 1.6)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_AltarGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_AltarGrand</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Altars/AltarTotemic3x3</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n      <shadowData>\n\n        <volume>(2.4, 1, 2.4)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_Stool (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_Stool</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Stool/TotemicStool</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <damageData>\n\n        <rectN>(0.125,0.296875,0.734375,0.421875)</rectN>\n\n        <rectS>(0.125,0.296875,0.734375,0.421875)</rectS>\n\n        <rectE>(0.234375,0.296875,0.5,0.546875)</rectE>\n\n        <rectW>(0.234375,0.296875,0.5,0.546875)</rectW>\n\n        <cornerTL>Damage/Corner</cornerTL>\n\n        <cornerTR>Damage/Corner</cornerTR>\n\n        <cornerBL>Damage/Corner</cornerBL>\n\n        <cornerBR>Damage/Corner</cornerBR>\n\n      </damageData>\n\n      <shadowData>\n\n        <volume>(0.18, 0.23, 0.18)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_DiningChair (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_DiningChair</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/DiningChair/TotemicDiningChair</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <drawSize>(1,1)</drawSize>\n\n      <damageData>\n\n        <rectN>(0.25,0.234375,0.5,0.28125)</rectN>\n\n        <rectS>(0.25,0.234375,0.5,0.28125)</rectS>\n\n        <rectE>(0.28125,0.25,0.453125,0.25)</rectE>\n\n        <rectW>(0.28125,0.25,0.453125,0.25)</rectW>\n\n      </damageData>\n\n      <shadowData>\n\n        <volume>(0.23, 0.26, 0.23)</volume>\n\n      </shadowData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_Table1x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Totemic_Table1x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Tables/TotemicTable1x2</texPath>\n\n      <drawSize>(3,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_Table2x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Totemic_Table2x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Tables/TotemicTable2x2</texPath>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_Table2x4c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Totemic_Table2x4c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Tables/TotemicTable2x4</texPath>\n\n      <drawSize>(4,6)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_Table3x3c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Totemic_Table3x3c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/Tables/TotemicTable3x3</texPath>\n\n      <drawSize>(5,5)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_StandingLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_StandingLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/TotemicLampStanding</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_TorchLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_TorchLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/TotemicTorchLamp</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Totemic/TotemicTorchLamp_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_WallLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"WallLampStyleBase\">\n\n    <defName>Totemic_WallLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/WallLamp/WallLampTotemic</texPath>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Totemic/WallLamp/WallLampTotemic_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_WallTorch (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"WallLampStyleBase\">\n\n    <defName>Totemic_WallTorch</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/WallTorch/WallTorchTotemic</texPath>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Totemic/WallTorch/WallTorchTotemic_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_Column (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoColumnStyleBase\">\n\n    <defName>Totemic_Column</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Totemic/TotemicColumn</texPath>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_ReconHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_ReconHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetReconTotemic/HelmetReconTotemic</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetReconTotemic/HelmetReconTotemic</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_MarineHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_MarineHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetMarineTotemic/HelmetMarineTotemic</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetMarineTotemic/HelmetMarineTotemic</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_CataphractHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_CataphractHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetCataphractTotemic/HelmetCataphractTotemic</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetCataphractTotemic/HelmetCataphractTotemic</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_IdeogramA (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_IdeogramA</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconTotemic/IconTotemicA</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Totemic_IdeogramB (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Totemic_IdeogramB</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/Misc/Ideogram/IconTotemic/IconTotemicB</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_Table1x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Spikecore_Table1x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Spikecore/Tables/SpikecoreTable1x2</texPath>\n\n      <drawSize>(3,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_Table2x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Spikecore_Table2x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Spikecore/Tables/SpikecoreTable2x2</texPath>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_Table2x4c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Spikecore_Table2x4c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Spikecore/Tables/SpikecoreTable2x4</texPath>\n\n      <drawSize>(4,6)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_Table3x3c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Spikecore_Table3x3c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Spikecore/Tables/SpikecoreTable3x3</texPath>\n\n      <drawSize>(5,5)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_StandingLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Spikecore_StandingLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Spikecore/SpikecoreLampStanding</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_TorchLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Spikecore_TorchLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Spikecore/SpikecoreTorchLamp</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Spikecore/SpikecoreTorchLamp_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_WallLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"WallLampStyleBase\">\n\n    <defName>Spikecore_WallLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Spikecore/WallLamp/WallLampSpikecore</texPath>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Spikecore/WallLamp/WallLampSpikecore_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_WallTorch (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"WallLampStyleBase\">\n\n    <defName>Spikecore_WallTorch</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Spikecore/WallTorch/WallTorchSpikecore</texPath>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Spikecore/WallTorch/WallTorchSpikecore_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_Column (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoColumnStyleBase\">\n\n    <defName>Spikecore_Column</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Spikecore/SpikecoreColumn</texPath>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_SimpleHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Spikecore_SimpleHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetSimpleSpikecore/HelmetSimpleSpikecore</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetSimpleSpikecore/HelmetSimpleSpikecore</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>0.8</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_AdvancedHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Spikecore_AdvancedHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetAdvancedSpikecore/HelmetAdvancedSpikecore</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetAdvancedSpikecore/HelmetAdvancedSpikecore</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>0.8</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_FlakJacket (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Spikecore_FlakJacket</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/FlakJacketSpikecore/FlakJacketSpikecore</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/FlakJacketSpikecore/FlakJacketSpikecore</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_Duster (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Spikecore_Duster</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/DusterSpikecore/DusterSpikecore</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/DusterSpikecore/DusterSpikecore</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_Jacket (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Spikecore_Jacket</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/JacketSpikecore/JacketSpikecore</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/JacketSpikecore/JacketSpikecore</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Spikecore_Parka (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Spikecore_Parka</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/ParkaSpikecore/ParkaSpikecore</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/ParkaSpikecore/ParkaSpikecore</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_SimpleHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Rustic_SimpleHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetSimpleRustic/HelmetSimpleRustic</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetSimpleRustic/HelmetSimpleRustic</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_AdvancedHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Rustic_AdvancedHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetAdvancedRustic/HelmetAdvancedRustic</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetAdvancedRustic/HelmetAdvancedRustic</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_Column (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoColumnStyleBase\">\n\n    <defName>Rustic_Column</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Rustic/RusticColumn</texPath>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_StandingLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Rustic_StandingLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Rustic/RusticLampStanding</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_TorchLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Rustic_TorchLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Rustic/RusticTorchLamp</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Rustic/RusticTorchLamp_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_WallLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"WallLampStyleBase\">\n\n    <defName>Rustic_WallLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Rustic/WallLamp/WallLampRustic</texPath>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Rustic/WallLamp/WallLampRustic_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_WallTorch (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"WallLampStyleBase\">\n\n    <defName>Rustic_WallTorch</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Rustic/WallTorch/WallTorchRustic</texPath>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Rustic/WallTorch/WallTorchRustic_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_Table1x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Rustic_Table1x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Rustic/Tables/RusticTable1x2</texPath>\n\n      <drawSize>(3,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_Table2x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Rustic_Table2x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Rustic/Tables/RusticTable2x2</texPath>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_Table2x4c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Rustic_Table2x4c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Rustic/Tables/RusticTable2x4</texPath>\n\n      <drawSize>(4,6)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Rustic_Table3x3c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Rustic_Table3x3c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Rustic/Tables/RusticTable3x3</texPath>\n\n      <drawSize>(5,5)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Animalist_SculptureSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Animalist_SculptureSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Small</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Animalist_SculptureLarge (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Animalist_SculptureLarge</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Large</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(3,3)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>2.66</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Animalist_SculptureGrand (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Animalist_SculptureGrand</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Grand</texPath>\n\n      <graphicClass>Graphic_Random</graphicClass>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n    <uiIconScale>1.6</uiIconScale>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Animalist_ReconHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Animalist_ReconHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetReconAnimalist/HelmetReconAnimalist</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetReconAnimalist/HelmetReconAnimalist</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Animalist_MarineHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Animalist_MarineHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetMarineAnimalist/HelmetMarineAnimalist</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetMarineAnimalist/HelmetMarineAnimalist</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Animalist_CataphractHelmet (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Animalist_CataphractHelmet</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetCataphractAnimalist/HelmetCataphractAnimalist</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetCataphractAnimalist/HelmetCataphractAnimalist</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Animalist_WarMask (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Animalist_WarMask</defName>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/WarMaskAnimalist/WarMaskAnimalist</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/ApparelStyles/WarMaskAnimalist/WarMaskAnimalist</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_Column (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoColumnStyleBase\">\n\n    <defName>Techist_Column</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/TechistColumn</texPath>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_PlantPot (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Techist_PlantPot</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/TechistPlantPot</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <shadowData>\n\n        <volume>(0.65, 0.35, 0.3)</volume>\n\n        <offset>(0, 0, -0.28)</offset>\n\n      </shadowData>\n\n      <damageData>\n\n        <rect>(0.2,0.2,0.6,0.6)</rect>\n\n      </damageData>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_StandingLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Techist_StandingLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/TechistLampStanding</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_WallLamp (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"WallLampStyleBase\">\n\n    <defName>Techist_WallLamp</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/WallLamp/WallLampTechist</texPath>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Techist/WallLamp/WallLampTechist_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_Autodoor (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Techist_Autodoor</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/Autodoor/TechistAutodoor_Mover</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <damageData>\n\n        <enabled>false</enabled>\n\n      </damageData>\n\n    </graphicData>\n\n    <uiIconPath>Things/Building/BuildingStyles/Techist/Autodoor/TechistAutodoor_MenuIcon</uiIconPath>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_Shelf (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Techist_Shelf</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/Shelf/TechistShelf</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <drawSize>(3,2)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_ShelfSmall (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>Techist_ShelfSmall</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/ShelfSmall/TechistShelfSmall</texPath>\n\n      <graphicClass>Graphic_Multi</graphicClass>\n\n      <drawSize>(1.5,2)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_Table1x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Techist_Table1x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/Tables/TechistTable1x2</texPath>\n\n      <drawSize>(3,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_Table2x2c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Techist_Table2x2c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/Tables/TechistTable2x2</texPath>\n\n      <drawSize>(4,4)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_Table2x4c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Techist_Table2x4c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/Tables/TechistTable2x4</texPath>\n\n      <drawSize>(4,6)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "Techist_Table3x3c (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef ParentName=\"IdeoTableStyleBase\">\n\n    <defName>Techist_Table3x3c</defName>\n\n    <graphicData>\n\n      <texPath>Things/Building/BuildingStyles/Techist/Tables/TechistTable3x3</texPath>\n\n      <drawSize>(5,5)</drawSize>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        },
+        {
+            "Title": "PrestigeMarineHelmet_Samurai (ThingStyleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/thing_style_defs/thing_style_defs.xml`",
+            "XML": "<ThingStyleDef>\n\n    <defName>PrestigeMarineHelmet_Samurai</defName>\n\n    <overrideLabel>samurai helmet</overrideLabel>\n\n    <wornGraphicPath>Things/Pawn/Humanlike/Apparel/SamuraiHelmet/SamuraiHelmet</wornGraphicPath>\n\n    <graphicData>\n\n      <texPath>Things/Pawn/Humanlike/Apparel/SamuraiHelmet/SamuraiHelmet</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <shaderType>CutoutComplex</shaderType>\n\n    </graphicData>\n\n  </ThingStyleDef>"
+        }
+    ]
+}

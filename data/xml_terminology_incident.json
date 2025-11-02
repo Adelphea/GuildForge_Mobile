@@ -1,0 +1,725 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_DaerPasses (IncidentDef)",
+            "Label": "Rare daers",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/storyteller/incidents__map__misc.xml`",
+            "XML": "<IncidentDef>\n\n\t\t<defName>DankPyon_DaerPasses</defName>\n\n\t\t<label>Rare daers</label>\n\n\t\t<letterLabel>{0} wanders in</letterLabel>\n\n\t\t<letterText>A pack of {1} have wandered into the area, and will leave after a while. Be warned {1} are extremely dangerous but are highly sought after for their robust fur and majestic horns.</letterText>\n\n\t\t<letterDef>PositiveEvent</letterDef>\n\n\t\t<category>Misc</category>\n\n\t\t<targetTags>\n\n\t\t\t<li>Map_PlayerHome</li>\n\n\t\t</targetTags>\n\n\t\t<baseChance>0.7</baseChance>\n\n\t\t<minRefireDays>30</minRefireDays>\n\n\t\t<workerClass>MedievalOverhaul.IncidentWorker_GenericWandersIn</workerClass>\n\n\t\t<modExtensions>\n\n\t\t\t<li Class=\"MedievalOverhaul.IncidentProperties\">\n\n\t\t\t\t<kindDef>DankPyon_Daer</kindDef>\n\n\t\t\t\t<max>1~2</max>\n\n\t\t\t\t<leaveMapAfterTime>true</leaveMapAfterTime>\n\n\t\t\t</li>\n\n\t\t</modExtensions>\n\n\t</IncidentDef>"
+        },
+        {
+            "Title": "DankPyon_LindwurmPasses (IncidentDef)",
+            "Label": "rare lindwurms",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/storyteller/incidents__map__misc.xml`",
+            "XML": "<IncidentDef>\n\n\t\t<defName>DankPyon_LindwurmPasses</defName>\n\n\t\t<label>rare lindwurms</label>\n\n\t\t<letterLabel>{0} wanders in</letterLabel>\n\n\t\t<letterText>Astride the winds of fate, a pack of {1} have ventured into the area, gracing our realm for but a fleeting moment. These majestic creatures, with scales aglow like molten embers and a presence that commands awe, weave their sinuous path through the land. Beware, for {1} are formidable adversaries, their fiery breath and powerful coils posing a perilous threat to all who dare cross their path.</letterText>\n\n\t\t<letterDef>PositiveEvent</letterDef>\n\n\t\t<category>Misc</category>\n\n\t\t<targetTags>\n\n\t\t\t<li>Map_PlayerHome</li>\n\n\t\t</targetTags>\n\n\t\t<baseChance>0.7</baseChance>\n\n\t\t<minRefireDays>30</minRefireDays>\n\n\t\t<workerClass>MedievalOverhaul.IncidentWorker_GenericWandersIn</workerClass>\n\n\t\t<modExtensions>\n\n\t\t\t<li Class=\"MedievalOverhaul.IncidentProperties\">\n\n\t\t\t\t<kindDef>DankPyon_LindwurmForest</kindDef>\n\n\t\t\t\t<max>1~2</max>\n\n\t\t\t\t<leaveMapAfterTime>true</leaveMapAfterTime>\n\n\t\t\t</li>\n\n\t\t</modExtensions>\n\n\t</IncidentDef>"
+        },
+        {
+            "Title": "DankPyon_GriffonPasses (IncidentDef)",
+            "Label": "Rare griffons",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/storyteller/incidents__map__misc.xml`",
+            "XML": "<IncidentDef>\n\n\t\t<defName>DankPyon_GriffonPasses</defName>\n\n\t\t<label>Rare griffons</label>\n\n\t\t<letterLabel>{0} wanders in</letterLabel>\n\n\t\t<letterText>A pack of {1} have wandered into the area, and will leave after a while. Be warned {1} are extremely dangerous but are highly sought after for their ability as combat mounts.</letterText>\n\n\t\t<letterDef>PositiveEvent</letterDef>\n\n\t\t<category>Misc</category>\n\n\t\t<targetTags>\n\n\t\t\t<li>Map_PlayerHome</li>\n\n\t\t</targetTags>\n\n\t\t<baseChance>0.7</baseChance>\n\n\t\t<minRefireDays>30</minRefireDays>\n\n\t\t<workerClass>MedievalOverhaul.IncidentWorker_GenericWandersIn</workerClass>\n\n\t\t<modExtensions>\n\n\t\t\t<li Class=\"MedievalOverhaul.IncidentProperties\">\n\n\t\t\t\t<kindDef>DankPyon_Griffon</kindDef>\n\n\t\t\t\t<max>1~2</max>\n\n\t\t\t\t<leaveMapAfterTime>true</leaveMapAfterTime>\n\n\t\t\t</li>\n\n\t\t</modExtensions>\n\n\t</IncidentDef>"
+        },
+        {
+            "Title": "DankPyon_TrollPasses (IncidentDef)",
+            "Label": "Rare trolls",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/storyteller/incidents__map__misc.xml`",
+            "XML": "<IncidentDef>\n\n\t\t<defName>DankPyon_TrollPasses</defName>\n\n\t\t<label>Rare trolls</label>\n\n\t\t<letterLabel>{0} wanders in</letterLabel>\n\n\t\t<letterText>A pack of {1} have wandered into the area, and will leave after a while. Beware, for {1} are formidable adversaries, their ability to heal from injuries is unparalleled.</letterText>\n\n\t\t<letterDef>PositiveEvent</letterDef>\n\n\t\t<category>Misc</category>\n\n\t\t<targetTags>\n\n\t\t\t<li>Map_PlayerHome</li>\n\n\t\t</targetTags>\n\n\t\t<baseChance>0.7</baseChance>\n\n\t\t<minRefireDays>30</minRefireDays>\n\n\t\t<workerClass>MedievalOverhaul.IncidentWorker_GenericWandersIn</workerClass>\n\n\t\t<modExtensions>\n\n\t\t\t<li Class=\"MedievalOverhaul.IncidentProperties\">\n\n\t\t\t\t<kindDef>DankPyon_AncientTroll</kindDef>\n\n\t\t\t\t<max>1~2</max>\n\n\t\t\t\t<leaveMapAfterTime>true</leaveMapAfterTime>\n\n\t\t\t</li>\n\n\t\t</modExtensions>\n\n\t</IncidentDef>"
+        },
+        {
+            "Title": "DankPyon_GolemImpactor (IncidentDef)",
+            "Label": "strange meteorite impact",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/storyteller/incidents__map__misc.xml`",
+            "XML": "<IncidentDef>\n\n\t\t<defName>DankPyon_GolemImpactor</defName>\n\n\t\t<label>strange meteorite impact</label>\n\n\t\t<targetTags>\n\n\t\t\t<li>Map_PlayerHome</li>\n\n\t\t</targetTags>\n\n\t\t<workerClass>MedievalOverhaul.IncidentWorker_GolemImpactor</workerClass>\n\n\t\t<letterLabel>Strange meteor impact</letterLabel>\n\n\t\t<letterText>A strange meteor has impacted in the area. It looks like those massive creatures are dormant from the impact.</letterText>\n\n\t\t<letterDef>ThreatBig</letterDef>\n\n\t\t<baseChance>0.5</baseChance>\n\n\t\t<minThreatPoints>500</minThreatPoints>\n\n\t\t<pointsScaleable>true</pointsScaleable>\n\n\t\t<category>ThreatBig</category>\n\n\t\t<modExtensions>\n\n\t\t\t<li Class=\"MedievalOverhaul.MeteorProperties\">\n\n\t\t\t\t<factionDef>DankPyon_Forest_Faction</factionDef>\n\n\t\t\t\t<spawnAsPlayerFaction>false</spawnAsPlayerFaction>\n\n\t\t\t\t<golemDict>\n\n\t\t\t\t\t<li>\n\n\t\t\t\t\t\t<key>DankPyon_GolemRock_Iron_Incident</key>\n\n\t\t\t\t\t\t<value>DankPyon_Golem_Iron</value>\n\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\n\t\t\t\t\t\t<key>DankPyon_GolemRock_Silver_Incident</key>\n\n\t\t\t\t\t\t<value>DankPyon_Golem_Silver</value>\n\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\n\t\t\t\t\t\t<key>DankPyon_GolemRock_Gold_Incident</key>\n\n\t\t\t\t\t\t<value>DankPyon_Golem_Gold</value>\n\n\t\t\t\t\t</li>\n\n\t\t\t\t</golemDict>\n\n\t\t\t</li>\n\n\t\t</modExtensions>\n\n\t</IncidentDef>"
+        },
+        {
+            "Title": "DankPyon_Mineshaftfestation (IncidentDef)",
+            "Label": "mineshaft infestation",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/storyteller/incidents__map__misc.xml`",
+            "XML": "<IncidentDef>\n\n\t\t<defName>DankPyon_Mineshaftfestation</defName>\n\n\t\t<label>mineshaft infestation</label>\n\n\t\t<targetTags>\n\n\t\t\t<li>Map_PlayerHome</li>\n\n\t\t\t<li>Map_TempIncident</li>\n\n\t\t\t<li>Map_Misc</li>\n\n\t\t\t<li>Map_RaidBeacon</li>\n\n\t\t</targetTags>\n\n\t\t<workerClass>MedievalOverhaul.IncidentWorker_DeepDrillInfestation</workerClass>\n\n\t\t<letterLabel>Too deep: Infestation</letterLabel>\n\n\t\t<letterText>Delving too greedily and too deep has awoken some underground insects. Now they're tunneling upwards to seek revenge!\\n\\nBeware - the insects have been angered and will try to destroy your base.</letterText>\n\n\t\t<letterDef>ThreatBig</letterDef>\n\n\t\t<baseChance>1</baseChance>\n\n\t\t<category>DeepDrillInfestation</category>\n\n\t\t<pointsScaleable>true</pointsScaleable>\n\n\t\t<tale>Infestation</tale>\n\n\t</IncidentDef>"
+        },
+        {
+            "Title": "Ambush (IncidentDef)",
+            "Label": "ambush",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_caravan_all.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>Ambush</defName>\n\n    <label>ambush</label>\n\n    <category>ThreatBig</category>\n\n    <targetTags>\n\n      <li>Caravan</li>\n\n      <li>Map_TempIncident</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_Ambush_EnemyFaction</workerClass>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <minRefireDays>0.17</minRefireDays>\n\n    <letterText>{0} has been ambushed by {1} from {2}!</letterText>\n\n    <letterLabel>Caravan ambushed</letterLabel>\n\n    <letterDef>ThreatBig</letterDef>\n\n    <tale>CaravanAmbushedByHumanlike</tale>\n\n    <mtbDaysByBiome>\n\n      <TemperateForest>20</TemperateForest>\n\n      <BorealForest>20</BorealForest>\n\n      <TropicalRainforest>20</TropicalRainforest>\n\n      <AridShrubland>20</AridShrubland>\n\n      <Desert>30</Desert>\n\n      <Tundra>30</Tundra>\n\n      <TropicalSwamp>30</TropicalSwamp>\n\n      <TemperateSwamp>30</TemperateSwamp>\n\n      <ColdBog>35</ColdBog>\n\n      <ExtremeDesert>35</ExtremeDesert>\n\n      <IceSheet>40</IceSheet>\n\n      <SeaIce>60</SeaIce>\n\n    </mtbDaysByBiome>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "ManhunterAmbush (IncidentDef)",
+            "Label": "manhunter ambush",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_caravan_all.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>ManhunterAmbush</defName>\n\n    <label>manhunter ambush</label>\n\n    <category>ThreatBig</category>\n\n    <targetTags>\n\n      <li>Caravan</li>\n\n      <li>Map_TempIncident</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_Ambush_ManhunterPack</workerClass>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <minRefireDays>0.17</minRefireDays>\n\n    <letterText>{0} has been ambushed by scaria-infected manhunting {1}!</letterText>\n\n    <letterLabel>Caravan ambushed (manhunters)</letterLabel>\n\n    <letterDef>ThreatBig</letterDef>\n\n    <tale>CaravanAmbushedByManhunter</tale>\n\n    <letterHyperlinkHediffDefs>\n\n      <li>Scaria</li>\n\n    </letterHyperlinkHediffDefs>\n\n    <mtbDaysByBiome>\n\n      <TemperateForest>20</TemperateForest>\n\n      <BorealForest>20</BorealForest>\n\n      <TropicalRainforest>20</TropicalRainforest>\n\n      <AridShrubland>20</AridShrubland>\n\n      <Desert>30</Desert>\n\n      <Tundra>30</Tundra>\n\n      <TropicalSwamp>30</TropicalSwamp>\n\n      <TemperateSwamp>30</TemperateSwamp>\n\n      <ColdBog>35</ColdBog>\n\n      <ExtremeDesert>35</ExtremeDesert>\n\n      <IceSheet>40</IceSheet>\n\n      <SeaIce>60</SeaIce>\n\n    </mtbDaysByBiome>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "CaravanMeeting (IncidentDef)",
+            "Label": "caravan meeting",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_caravan_all.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>CaravanMeeting</defName>\n\n    <label>caravan meeting</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Caravan</li>\n\n      <li>Map_TempIncident</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_CaravanMeeting</workerClass>\n\n    <minRefireDays>0.17</minRefireDays>\n\n    <tale>CaravanMeeting</tale>\n\n    <mtbDaysByBiome>\n\n      <TemperateForest>10</TemperateForest>\n\n      <BorealForest>10</BorealForest>\n\n      <AridShrubland>10</AridShrubland>\n\n      <TropicalRainforest>10</TropicalRainforest>\n\n      <Desert>15</Desert>\n\n      <Tundra>15</Tundra>\n\n      <TropicalSwamp>15</TropicalSwamp>\n\n      <TemperateSwamp>15</TemperateSwamp>\n\n      <ColdBog>25</ColdBog>\n\n      <ExtremeDesert>25</ExtremeDesert>\n\n      <IceSheet>35</IceSheet>\n\n      <SeaIce>80</SeaIce>\n\n    </mtbDaysByBiome>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "CaravanDemand (IncidentDef)",
+            "Label": "payment demand",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_caravan_all.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>CaravanDemand</defName>\n\n    <label>payment demand</label>\n\n    <category>ThreatSmall</category>\n\n    <targetTags>\n\n      <li>Caravan</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_CaravanDemand</workerClass>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <tale>CaravanDemand</tale>\n\n    <mtbDaysByBiome>\n\n      <TemperateForest>20</TemperateForest>\n\n      <BorealForest>20</BorealForest>\n\n      <TropicalRainforest>20</TropicalRainforest>\n\n      <AridShrubland>20</AridShrubland>\n\n      <Desert>30</Desert>\n\n      <Tundra>30</Tundra>\n\n      <TropicalSwamp>30</TropicalSwamp>\n\n      <TemperateSwamp>30</TemperateSwamp>\n\n      <ColdBog>35</ColdBog>\n\n      <ExtremeDesert>35</ExtremeDesert>\n\n      <IceSheet>40</IceSheet>\n\n      <SeaIce>60</SeaIce>\n\n    </mtbDaysByBiome>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_Flu (IncidentDef)",
+            "Label": "flu",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_Flu</defName>\n\n    <label>flu</label>\n\n    <diseaseIncident>Flu</diseaseIncident>\n\n    <letterLabel>Disease: Flu</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_Plague (IncidentDef)",
+            "Label": "plague",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_Plague</defName>\n\n    <label>plague</label>\n\n    <diseaseIncident>Plague</diseaseIncident>\n\n    <letterLabel>Disease: Plague</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_Malaria (IncidentDef)",
+            "Label": "malaria",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_Malaria</defName>\n\n    <label>malaria</label>\n\n    <diseaseIncident>Malaria</diseaseIncident>\n\n    <letterLabel>Disease: Malaria</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_SleepingSickness (IncidentDef)",
+            "Label": "sleeping sickness",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_SleepingSickness</defName>\n\n    <label>sleeping sickness</label>\n\n    <diseaseIncident>SleepingSickness</diseaseIncident>\n\n    <letterLabel>Disease: Sleeping sickness</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_FibrousMechanites (IncidentDef)",
+            "Label": "fibrous mechanites",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_FibrousMechanites</defName>\n\n    <label>fibrous mechanites</label>\n\n    <diseaseIncident>FibrousMechanites</diseaseIncident>\n\n    <letterLabel>Disease: Fibrous mechanites</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_SensoryMechanites (IncidentDef)",
+            "Label": "sensory mechanites",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_SensoryMechanites</defName>\n\n    <label>sensory mechanites</label>\n\n    <diseaseIncident>SensoryMechanites</diseaseIncident>\n\n    <letterLabel>Disease: Sensory mechanites</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_GutWorms (IncidentDef)",
+            "Label": "gut worms",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_GutWorms</defName>\n\n    <label>gut worms</label>\n\n    <diseaseIncident>GutWorms</diseaseIncident>\n\n    <diseasePartsToAffect>\n\n      <li>Stomach</li>\n\n    </diseasePartsToAffect>\n\n    <letterLabel>Disease: Gut worms</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_MuscleParasites (IncidentDef)",
+            "Label": "muscle parasites",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_MuscleParasites</defName>\n\n    <label>muscle parasites</label>\n\n    <diseaseIncident>MuscleParasites</diseaseIncident>\n\n    <letterLabel>Disease: Muscle parasites</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_AnimalFlu (IncidentDef)",
+            "Label": "flu (animals)",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseAnimalIncident\">\n\n    <defName>Disease_AnimalFlu</defName>\n\n    <label>flu (animals)</label>\n\n    <diseaseIncident>Animal_Flu</diseaseIncident>\n\n    <letterLabel>Animal disease: Flu</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_AnimalPlague (IncidentDef)",
+            "Label": "plague (animals)",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseAnimalIncident\">\n\n    <defName>Disease_AnimalPlague</defName>\n\n    <label>plague (animals)</label>\n\n    <diseaseIncident>Animal_Plague</diseaseIncident>\n\n    <letterLabel>Animal disease: Plague</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_OrganDecay (IncidentDef)",
+            "Label": "organ decay",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_OrganDecay</defName>\n\n    <label>organ decay</label>\n\n    <diseaseIncident>OrganDecay</diseaseIncident>\n\n    <diseaseMaxVictims>1</diseaseMaxVictims>\n\n    <letterLabel>Organ decay: {PAWN_labelShort}</letterLabel>\n\n    <letterText>{PAWN_labelShort} has developed a flesh-eating infection known as organ decay in {PAWN_possessive} {2}!\\n\\nThe affected organ will slowly lose function over the next {3} days, before dying completely.\\n\\nIf you want {PAWN_labelShort} to stay healthy, install a replacement {2}. This could be a bionic, or a natural organ taken from a donor.</letterText>\n\n    <diseaseLethalLetterText>Without a cure or replacement of some kind, {PAWN_labelShort} will die.</diseaseLethalLetterText>\n\n    <letterSingularForm>true</letterSingularForm>\n\n    <ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>\n\n    <diseaseDevelopmentStage>Adult, Child</diseaseDevelopmentStage>\n\n    <diseasePartsToAffect>\n\n      <li>Heart</li>\n\n      <li>Lung</li>\n\n      <li>Kidney</li>\n\n    </diseasePartsToAffect>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "ResourcePodCrash (IncidentDef)",
+            "Label": "resource pod crash",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>ResourcePodCrash</defName>\n\n    <label>resource pod crash</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_ResourcePodCrash</workerClass>\n\n    <baseChance>1.0</baseChance>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "PsychicSoothe (IncidentDef)",
+            "Label": "psychic soothe",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>PsychicSoothe</defName>\n\n    <label>psychic soothe</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_PsychicSoothe</workerClass>\n\n    <baseChance>1.0</baseChance>\n\n    <minRefireDays>15</minRefireDays>\n\n    <durationDays>1.5~3.0</durationDays>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "SelfTame (IncidentDef)",
+            "Label": "self-tame",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>SelfTame</defName>\n\n    <label>self-tame</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_SelfTame</workerClass>\n\n    <baseChance>1.0</baseChance>\n\n    <requireColonistsPresent>true</requireColonistsPresent>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "AmbrosiaSprout (IncidentDef)",
+            "Label": "ambrosia sprout",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>AmbrosiaSprout</defName>\n\n    <label>ambrosia sprout</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_AmbrosiaSprout</workerClass>\n\n    <baseChance>1.0</baseChance>\n\n    <letterLabel>Ambrosia sprout</letterLabel>\n\n    <letterText>A grove of the mysterious ambrosia bush has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest the delicious, pleasurable, and slightly addictive fruit.</letterText>\n\n    <letterDef>PositiveEvent</letterDef>\n\n    <allowedBiomes>\n\n      <li>TropicalRainforest</li>\n\n      <li>TropicalSwamp</li>\n\n      <li>TemperateForest</li>\n\n      <li>TemperateSwamp</li>\n\n      <li>BorealForest</li>\n\n      <li>AridShrubland</li>\n\n    </allowedBiomes>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "FarmAnimalsWanderIn (IncidentDef)",
+            "Label": "farm animals wander in",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>FarmAnimalsWanderIn</defName>\n\n    <label>farm animals wander in</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_FarmAnimalsWanderIn</workerClass>\n\n    <baseChance>0.4</baseChance>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "WandererJoin (IncidentDef)",
+            "Label": "wanderer join",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>WandererJoin</defName>\n\n    <label>wanderer join</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_GiveQuest</workerClass>\n\n    <questScriptDef>WandererJoins</questScriptDef>\n\n    <baseChance>0.4</baseChance>\n\n    <pawnKind>Villager</pawnKind>\n\n    <populationEffect>IncreaseEasy</populationEffect>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "RefugeePodCrash (IncidentDef)",
+            "Label": "transport pod crash",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>RefugeePodCrash</defName>\n\n    <label>transport pod crash</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_GiveQuest</workerClass>\n\n    <questScriptDef>RefugeePodCrash</questScriptDef>\n\n    <baseChance>1.5</baseChance>\n\n    <populationEffect>IncreaseMedium</populationEffect>\n\n    <requireColonistsPresent>True</requireColonistsPresent>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "ThrumboPasses (IncidentDef)",
+            "Label": "thrumbos pass",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>ThrumboPasses</defName>\n\n    <label>thrumbos pass</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_ThrumboPasses</workerClass>\n\n    <baseChance>0.7</baseChance>\n\n    <minRefireDays>13</minRefireDays>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "RansomDemand (IncidentDef)",
+            "Label": "ransom demand",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>RansomDemand</defName>\n\n    <label>ransom demand</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_RansomDemand</workerClass>\n\n    <baseChance>2.0</baseChance>\n\n    <populationEffect>IncreaseHard</populationEffect>\n\n    <letterLabel>Ransom demand</letterLabel>\n\n    <letterDef>RansomDemand</letterDef>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "MeteoriteImpact (IncidentDef)",
+            "Label": "meteorite impact",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>MeteoriteImpact</defName>\n\n    <label>meteorite impact</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_MeteoriteImpact</workerClass>\n\n    <baseChance>0.5</baseChance>\n\n    <letterLabel>Meteorite</letterLabel>\n\n    <letterText>A large meteorite has struck ground in the area. It has left behind a lump of {0}.</letterText>\n\n    <tale>MeteoriteImpact</tale>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "HerdMigration (IncidentDef)",
+            "Label": "herd migration",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>HerdMigration</defName>\n\n    <label>herd migration</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <allowedBiomes>\n\n      <li>SeaIce</li>\n\n      <li>IceSheet</li>\n\n      <li>Tundra</li>\n\n      <li>Desert</li>\n\n      <li>ExtremeDesert</li>\n\n    </allowedBiomes>\n\n    <workerClass>IncidentWorker_HerdMigration</workerClass>\n\n    <baseChance>1.0</baseChance>\n\n    <letterLabel>Animal migration: {0}</letterLabel>\n\n    <letterText>A group of {0} is passing through the area.\\n\\nThey won't attack unless provoked.</letterText>\n\n    <letterDef>NeutralEvent</letterDef>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "WildManWandersIn (IncidentDef)",
+            "Label": "wild man wanders in",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>WildManWandersIn</defName>\n\n    <label>wild man wanders in</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_WildManWandersIn</workerClass>\n\n    <baseChance>1.0</baseChance>\n\n    <populationEffect>IncreaseMedium</populationEffect>\n\n    <letterLabel>{0} wanders in</letterLabel>\n\n    <letterText>A {1} living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\\n\\nYou can attempt to tame {PAWN_objective}.</letterText>\n\n    <letterDef>NeutralEvent</letterDef>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "PsychicDrone (IncidentDef)",
+            "Label": "psychic drone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>PsychicDrone</defName>\n\n    <label>psychic drone</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_PsychicDrone</workerClass>\n\n    <gameCondition>PsychicDrone</gameCondition>\n\n    <baseChance>1.0</baseChance>\n\n    <minRefireDays>15</minRefireDays>\n\n    <durationDays>0.75~1.75</durationDays>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "ToxicFallout (IncidentDef)",
+            "Label": "toxic fallout",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>ToxicFallout</defName>\n\n    <label>toxic fallout</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_MakeGameCondition</workerClass>\n\n    <gameCondition>ToxicFallout</gameCondition>\n\n    <letterLabel>Toxic fallout</letterLabel>\n\n    <letterDef>ThreatSmall</letterDef>\n\n    <baseChance>0.12</baseChance>\n\n    <earliestDay>60</earliestDay>\n\n    <minRefireDays>90</minRefireDays>\n\n    <disabledWhen>\n\n      <extremeWeatherIncidentsDisabled>true</extremeWeatherIncidentsDisabled>\n\n    </disabledWhen>\n\n    <durationDays>2.5~10.5</durationDays>\n\n    <tale>ToxicFallout</tale>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "VolcanicWinter (IncidentDef)",
+            "Label": "volcanic winter",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>VolcanicWinter</defName>\n\n    <label>volcanic winter</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_MakeGameCondition</workerClass>\n\n    <gameCondition>VolcanicWinter</gameCondition>\n\n    <letterLabel>Volcanic winter</letterLabel>\n\n    <letterDef>ThreatSmall</letterDef>\n\n    <baseChance>0.08</baseChance>\n\n    <earliestDay>60</earliestDay>\n\n    <minRefireDays>140</minRefireDays>\n\n    <disabledWhen>\n\n      <extremeWeatherIncidentsDisabled>true</extremeWeatherIncidentsDisabled>\n\n    </disabledWhen>\n\n    <durationDays>7.5~40</durationDays>\n\n    <tale>VolcanicWinter</tale>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "HeatWave (IncidentDef)",
+            "Label": "heat wave",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>HeatWave</defName>\n\n    <label>heat wave</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_HeatWave</workerClass>\n\n    <gameCondition>HeatWave</gameCondition>\n\n    <letterLabel>Heat wave</letterLabel>\n\n    <letterDef>ThreatSmall</letterDef>\n\n    <baseChance>1.0</baseChance>\n\n    <minRefireDays>30</minRefireDays>\n\n    <durationDays>1.5~3.5</durationDays>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "ColdSnap (IncidentDef)",
+            "Label": "cold snap",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>ColdSnap</defName>\n\n    <label>cold snap</label>\n\n    <category>Misc</category>\n\n        <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_ColdSnap</workerClass>\n\n    <gameCondition>ColdSnap</gameCondition>\n\n    <letterLabel>Cold snap</letterLabel>\n\n    <letterDef>ThreatSmall</letterDef>\n\n    <baseChance>1.0</baseChance>\n\n    <minRefireDays>30</minRefireDays>\n\n    <durationDays>1.5~3.5</durationDays>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Flashstorm (IncidentDef)",
+            "Label": "flashstorm",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>Flashstorm</defName>\n\n    <label>flashstorm</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_Flashstorm</workerClass>\n\n    <letterLabel>Flashstorm</letterLabel>\n\n    <letterDef>ThreatSmall</letterDef>\n\n    <baseChance>0.4</baseChance>\n\n    <minRefireDays>15</minRefireDays>\n\n    <disabledWhen>\n\n      <extremeWeatherIncidentsDisabled>true</extremeWeatherIncidentsDisabled>\n\n    </disabledWhen>\n\n    <durationDays>0.075~0.1</durationDays>\n\n    <tale>Flashstorm</tale>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "ShortCircuit (IncidentDef)",
+            "Label": "short circuit",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>ShortCircuit</defName>\n\n    <label>short circuit</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_ShortCircuit</workerClass>\n\n    <baseChance>1.0</baseChance>\n\n    <minRefireDays>8</minRefireDays>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "CropBlight (IncidentDef)",
+            "Label": "crop blight",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>CropBlight</defName>\n\n    <label>crop blight</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_CropBlight</workerClass>\n\n    <baseChance>0.3</baseChance>\n\n    <minRefireDays>30</minRefireDays>\n\n    <pointsScaleable>true</pointsScaleable>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Alphabeavers (IncidentDef)",
+            "Label": "alphabeavers",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>Alphabeavers</defName>\n\n    <label>alphabeavers</label>\n\n    <category>Misc</category>\n\n    <allowedBiomes>\n\n      <li>Tundra</li>\n\n      <li>AridShrubland</li>\n\n    </allowedBiomes>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_Alphabeavers</workerClass>\n\n    <baseChance>0.5</baseChance>\n\n    <minRefireDays>30</minRefireDays>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "ShipChunkDrop (IncidentDef)",
+            "Label": "ship chunk drop",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>ShipChunkDrop</defName>\n\n    <label>ship chunk drop</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_ShipChunkDrop</workerClass>\n\n    <category>ShipChunkDrop</category>\n\n    <baseChance>3</baseChance>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "OrbitalTraderArrival (IncidentDef)",
+            "Label": "orbital trader arrival",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>OrbitalTraderArrival</defName>\n\n    <label>orbital trader arrival</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_OrbitalTraderArrival</workerClass>\n\n    <category>OrbitalVisitor</category>\n\n    <baseChance>3</baseChance>\n\n    <requireColonistsPresent>True</requireColonistsPresent>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "TraderCaravanArrival (IncidentDef)",
+            "Label": "trader caravan arrival",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>TraderCaravanArrival</defName>\n\n    <label>trader caravan arrival</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_TraderCaravanArrival</workerClass>\n\n    <category>FactionArrival</category>\n\n    <baseChance>4</baseChance>\n\n    <requireColonistsPresent>True</requireColonistsPresent>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "VisitorGroup (IncidentDef)",
+            "Label": "visitor group",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>VisitorGroup</defName>\n\n    <label>visitor group</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_VisitorGroup</workerClass>\n\n    <category>FactionArrival</category>\n\n    <baseChance>4</baseChance>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <requireColonistsPresent>True</requireColonistsPresent>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "TravelerGroup (IncidentDef)",
+            "Label": "traveler group",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>TravelerGroup</defName>\n\n    <label>traveler group</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_TravelerGroup</workerClass>\n\n    <category>FactionArrival</category>\n\n    <baseChance>4</baseChance>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <requireColonistsPresent>True</requireColonistsPresent>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "RaidFriendly (IncidentDef)",
+            "Label": "friendly raid",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>RaidFriendly</defName>\n\n    <label>friendly raid</label>\n\n    <category>AllyAssistance</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n      <li>Map_RaidBeacon</li>\n\n      <li>Map_TempIncident</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_RaidFriendly</workerClass>\n\n    <baseChance>3.0</baseChance>\n\n    <pointsScaleable>true</pointsScaleable>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "StrangerInBlackJoin (IncidentDef)",
+            "Label": "man in black",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>StrangerInBlackJoin</defName>\n\n    <label>man in black</label>\n\n    <category>Special</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_WandererJoin</workerClass>\n\n    <letterLabel>Man in black</letterLabel>\n\n    <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\\n\\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>\n\n    <baseChance>0</baseChance>\n\n    <minRefireDays>60</minRefireDays>\n\n    <minGreatestPopulation>3</minGreatestPopulation>\n\n    <pawnKind>StrangerInBlack</pawnKind>\n\n    <pawnFixedGender>Male</pawnFixedGender>\n\n    <pawnMustBeCapableOfViolence>true</pawnMustBeCapableOfViolence>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GameEndedWanderersJoin (IncidentDef)",
+            "Label": "wanderers join",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>GameEndedWanderersJoin</defName>\n\n    <label>wanderers join</label>\n\n    <category>Special</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_GameEndedWanderersJoin</workerClass>\n\n    <letterLabel>Wanderers join</letterLabel>\n\n    <letterText>A few wanderers have stumbled across the remains of the colony and decided to stay.\\n\\nPerhaps they will be able to continue its story.</letterText>\n\n    <baseChance>0</baseChance>\n\n    <minRefireDays>60</minRefireDays>\n\n    <minGreatestPopulation>3</minGreatestPopulation>\n\n    <pawnKind>StrangerInBlack</pawnKind>\n\n    <pawnFixedGender>Male</pawnFixedGender>\n\n    <pawnMustBeCapableOfViolence>true</pawnMustBeCapableOfViolence>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "RaidEnemy (IncidentDef)",
+            "Label": "enemy raid",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_threats.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>RaidEnemy</defName>\n\n    <label>enemy raid</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_RaidEnemy</workerClass>\n\n    <baseChance>7.4</baseChance>\n\n    <category>ThreatBig</category>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <tale>Raid</tale>\n\n    <ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Infestation (IncidentDef)",
+            "Label": "infestation",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_threats.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>Infestation</defName>\n\n    <label>infestation</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_Infestation</workerClass>\n\n    <letterLabel>Infestation</letterLabel>\n\n    <letterText>Giant insects are tunneling towards you! They will break through in a few seconds and plant hives.\\n\\nThe hives will spawn more insects and more hives.\\n\\nIf you don't want the insects to infest the whole area, destroy the hives. But beware - the bugs will defend their home.</letterText>\n\n    <letterDef>ThreatBig</letterDef>\n\n    <baseChance>2.7</baseChance>\n\n    <minRefireDays>20</minRefireDays>\n\n    <category>ThreatBig</category>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <minThreatPoints>400</minThreatPoints>\n\n    <tale>Infestation</tale>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "DeepDrillInfestation (IncidentDef)",
+            "Label": "deep drill infestation",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_threats.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>DeepDrillInfestation</defName>\n\n    <label>deep drill infestation</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n      <li>Map_TempIncident</li>\n\n      <li>Map_Misc</li>\n\n      <li>Map_RaidBeacon</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_DeepDrillInfestation</workerClass>\n\n    <letterLabel>Too deep: Infestation</letterLabel>\n\n    <letterText>Vibrations from your deep drills have angered some underground insects. Now they're tunneling upwards to seek revenge!\\n\\nBeware - the insects have been angered and will try to destroy your base.</letterText>\n\n    <letterDef>ThreatBig</letterDef>\n\n    <baseChance>1</baseChance>\n\n    <category>DeepDrillInfestation</category>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <tale>Infestation</tale>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "ManhunterPack (IncidentDef)",
+            "Label": "manhunter pack",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_threats.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>ManhunterPack</defName>\n\n    <label>manhunter pack</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_AggressiveAnimals</workerClass>\n\n    <baseChance>2.0</baseChance>\n\n    <category>ThreatBig</category>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <tale>ManhunterPack</tale>\n\n    <letterHyperlinkHediffDefs>\n\n      <li>Scaria</li>\n\n    </letterHyperlinkHediffDefs>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "DefoliatorShipPartCrash (IncidentDef)",
+            "Label": "ship part crash (defoliator)",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_threats.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>DefoliatorShipPartCrash</defName>\n\n    <label>ship part crash (defoliator)</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_CrashedShipPart</workerClass>\n\n    <letterLabel>Defoliator ship</letterLabel>\n\n    <letterText>A large piece of an ancient ship has crashed nearby.\\n\\nIts mysterious influence will kill all plants in an expanding circle around itself.\\n\\nDestroy it as soon as possible. But beware - it will probably defend itself.</letterText>\n\n    <letterDef>ThreatSmall</letterDef>\n\n    <baseChance>2.0</baseChance>\n\n    <baseChanceWithRoyalty>0.4</baseChanceWithRoyalty>\n\n    <minRefireDays>15</minRefireDays>\n\n    <tags>\n\n      <li>MechanoidShip</li>\n\n    </tags>\n\n    <refireCheckTags>\n\n      <li>MechanoidShip</li>\n\n    </refireCheckTags>\n\n    <category>ThreatBig</category>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <minThreatPoints>400</minThreatPoints>\n\n    <mechClusterBuilding>DefoliatorShipPart</mechClusterBuilding>\n\n    <tale>ShipPartCrash</tale>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "PsychicEmanatorShipPartCrash (IncidentDef)",
+            "Label": "ship part crash (psychic)",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_threats.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>PsychicEmanatorShipPartCrash</defName>\n\n    <label>ship part crash (psychic)</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_CrashedShipPart</workerClass>\n\n    <letterLabel>Psychic ship</letterLabel>\n\n    <letterText>A large piece of an ancient ship has crashed nearby.\\n\\nYour colonists can feel it in the back of their mind, exhorting unspeakable acts. It must have an onboard machine persona with psychic projection ability. And this persona is not friendly.\\n\\nDestroy it as soon as possible. But beware - it will probably defend itself.</letterText>\n\n    <letterDef>ThreatSmall</letterDef>\n\n    <baseChance>2.0</baseChance>\n\n    <baseChanceWithRoyalty>0.4</baseChanceWithRoyalty>\n\n    <minRefireDays>15</minRefireDays>\n\n    <tags>\n\n      <li>MechanoidShip</li>\n\n    </tags>\n\n    <refireCheckTags>\n\n      <li>MechanoidShip</li>\n\n    </refireCheckTags>\n\n    <category>ThreatBig</category>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <minThreatPoints>400</minThreatPoints>\n\n    <mechClusterBuilding>PsychicDronerShipPart</mechClusterBuilding>\n\n    <tale>ShipPartCrash</tale>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "AnimalInsanityMass (IncidentDef)",
+            "Label": "mass animal insanity",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_threats.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>AnimalInsanityMass</defName>\n\n    <label>mass animal insanity</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_AnimalInsanityMass</workerClass>\n\n    <baseChance>1.3</baseChance>\n\n    <minRefireDays>1</minRefireDays>\n\n    <category>ThreatBig</category>\n\n    <pointsScaleable>true</pointsScaleable>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "AnimalInsanitySingle (IncidentDef)",
+            "Label": "single animal insanity",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_map_threats.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>AnimalInsanitySingle</defName>\n\n    <label>single animal insanity</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_AnimalInsanitySingle</workerClass>\n\n    <baseChance>5</baseChance>\n\n    <minRefireDays>2</minRefireDays>\n\n    <category>ThreatSmall</category>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Eclipse (IncidentDef)",
+            "Label": "eclipse",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_world_conditions.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>Eclipse</defName>\n\n    <label>eclipse</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>World</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_MakeGameCondition</workerClass>\n\n    <gameCondition>Eclipse</gameCondition>\n\n    <letterLabel>Eclipse</letterLabel>\n\n    <letterDef>NegativeEvent</letterDef>\n\n    <baseChance>1.5</baseChance>\n\n    <minRefireDays>15</minRefireDays>\n\n    <durationDays>0.75~1.25</durationDays>\n\n    <tale>Eclipse</tale>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "SolarFlare (IncidentDef)",
+            "Label": "solar flare",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_world_conditions.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>SolarFlare</defName>\n\n    <label>solar flare</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>World</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_MakeGameCondition</workerClass>\n\n    <gameCondition>SolarFlare</gameCondition>\n\n    <letterLabel>Solar flare</letterLabel>\n\n    <letterDef>NegativeEvent</letterDef>\n\n    <baseChance>1.3</baseChance>\n\n    <minRefireDays>15</minRefireDays>\n\n    <durationDays>0.15~0.5</durationDays>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Aurora (IncidentDef)",
+            "Label": "aurora",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_world_conditions.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>Aurora</defName>\n\n    <label>aurora</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>World</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_Aurora</workerClass>\n\n    <gameCondition>Aurora</gameCondition>\n\n    <letterLabel>Aurora</letterLabel>\n\n    <letterDef>PositiveEvent</letterDef>\n\n    <baseChance>1.2</baseChance>\n\n    <minRefireDays>15</minRefireDays>\n\n    <durationDays>0.125~0.35</durationDays>\n\n    <tale>Aurora</tale>\n\n    <canOccurOnAllPlanetLayers>true</canOccurOnAllPlanetLayers>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GiveQuest_Random (IncidentDef)",
+            "Label": "quest",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_world_quests.xml`",
+            "XML": "<IncidentDef ParentName=\"GiveQuestBase\">\n\n    <defName>GiveQuest_Random</defName>\n\n    <label>quest</label>\n\n    <earliestDay>2</earliestDay>\n\n    <letterLabel>Quest available</letterLabel>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GiveQuest_EndGame_ShipEscape (IncidentDef)",
+            "Label": "journey offer",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/storyteller/incidents_world_quests.xml`",
+            "XML": "<IncidentDef ParentName=\"GiveQuestBase\">\n\n    <defName>GiveQuest_EndGame_ShipEscape</defName>\n\n    <label>journey offer</label>\n\n    <letterLabel>Journey offer</letterLabel>\n\n    <questScriptDef>EndGame_ShipEscape</questScriptDef>\n\n    <baseChance>0</baseChance> \n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GiveQuest_Beggars (IncidentDef)",
+            "Label": "beggars arrive",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/incident_defs/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>GiveQuest_Beggars</defName>\n\n    <category>GiveQuest</category>\n\n    <label>beggars arrive</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <letterLabel>beggars arrive</letterLabel>\n\n    <questScriptDef>Beggars</questScriptDef>\n\n    <workerClass>IncidentWorker_GiveQuest</workerClass>\n\n    <baseChance>0</baseChance> \n\n    <requireColonistsPresent>True</requireColonistsPresent>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GiveQuest_ReliquaryPilgrims (IncidentDef)",
+            "Label": "pilgrims arrive",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/incident_defs/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>GiveQuest_ReliquaryPilgrims</defName>\n\n    <category>GiveQuest</category>\n\n    <label>pilgrims arrive</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <letterLabel>pilgrims arrive</letterLabel>\n\n    <questScriptDef>ReliquaryPilgrims</questScriptDef>\n\n    <workerClass>IncidentWorker_GiveQuest</workerClass>\n\n    <baseChance>0</baseChance> \n\n    <requireColonistsPresent>True</requireColonistsPresent>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GauranlenPodSpawn (IncidentDef)",
+            "Label": "Gauranlen pod sprout",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/incident_defs/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>GauranlenPodSpawn</defName>\n\n    <label>Gauranlen pod sprout</label>\n\n    <category>Special</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_GauranlenPodSpawn</workerClass>\n\n    <letterLabel>Gauranlen pod sprout</letterLabel>\n\n    <letterText>A Gauranlen pod has sprouted nearby!\\n\\nHarvest it to collect a Gauranlen seed. This special seed can be used to plant the majestic Gauranlen tree.\\n\\nYour colonists can connect with Gauranlen trees and make them spawn resources and helpful dryads to work or fight for you.</letterText>\n\n    <letterDef>PositiveEvent</letterDef>\n\n    <disallowedBiomes>\n\n      <li>SeaIce</li>\n\n      <li>IceSheet</li>\n\n    </disallowedBiomes>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Infestation_Jelly (IncidentDef)",
+            "Label": "insect jelly",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/incident_defs/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>Infestation_Jelly</defName>\n\n    <label>insect jelly</label>\n\n    <category>Special</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_InsectJelly</workerClass>\n\n    <baseChance>0</baseChance> \n\n    <letterLabel>Insect jelly</letterLabel>\n\n    <letterText>Giant insects have tunneled up from underneath and deposited some surplus insect jelly on the surface.</letterText>\n\n    <letterDef>PositiveEvent</letterDef>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "WanderersSkylantern (IncidentDef)",
+            "Label": "Wanderers",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/incident_defs/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>WanderersSkylantern</defName>\n\n    <label>Wanderers</label>\n\n    <category>Special</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_WanderersSkylanterns</workerClass>\n\n    <baseChance>0</baseChance> \n\n    <letterLabel>Friendly visitors</letterLabel>\n\n    <letterText>Your skylanterns have attracted some friendly travelers. The travelers were amazed by the spectacle you created and hope they'll get to participate next time.\\n\\nThey will visit and leave a gift.</letterText>\n\n    <letterDef>PositiveEvent</letterDef>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GiveQuest_WorkSite (IncidentDef)",
+            "Label": "work site",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/sites/work_sites.xml`",
+            "XML": "<IncidentDef ParentName=\"GiveQuestBase\">\n\n    <defName>GiveQuest_WorkSite</defName>\n\n    <label>work site</label>\n\n    <letterLabel>Work site</letterLabel>\n\n    <questScriptDef>OpportunitySite_WorkSite</questScriptDef>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <baseChance>0</baseChance> \n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GiveQuest_EndGame_ArchonexusVictory (IncidentDef)",
+            "Label": "archonexus victory",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/storyteller/incidents_world_quests.xml`",
+            "XML": "<IncidentDef ParentName=\"GiveQuestBase\">\n\n    <defName>GiveQuest_EndGame_ArchonexusVictory</defName>\n\n    <label>archonexus victory</label>\n\n    <letterLabel>archonexus victory</letterLabel>\n\n    <questScriptDef>EndGame_ArchonexusVictory</questScriptDef>\n\n    <baseChance>0</baseChance> \n\n  </IncidentDef>"
+        },
+        {
+            "Title": "WandererJoinAbasia (IncidentDef)",
+            "Label": "abasia join",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/incident_defs/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>WandererJoinAbasia</defName>\n\n    <label>abasia join</label>\n\n    <category>Misc</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_GiveQuest</workerClass>\n\n    <questScriptDef>WandererJoinAbasia</questScriptDef>\n\n    <baseChance>0.4</baseChance>\n\n    <populationEffect>IncreaseEasy</populationEffect>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "MechCluster (IncidentDef)",
+            "Label": "mech cluster",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/incident_defs/incidents_map_misc.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>MechCluster</defName>\n\n    <label>mech cluster</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_MechCluster</workerClass>\n\n    <letterLabel>Mechanoid cluster</letterLabel>\n\n    <letterText>A mechanoid combat cluster is landing nearby. The cluster will be initially dormant, so you can take time to decide how to attack it.\\n\\nIt may remain dormant until disturbed, or it may have a timer or proximity activators.\\n\\nEven dormant mech clusters aren't harmless. A dormant cluster may assemble mechanoid attackers from time to time, or have some broader negative effect that must be dealt with eventually.</letterText>\n\n    <letterDef>ThreatBig</letterDef>\n\n    <baseChance>0.0</baseChance>\n\n    <baseChanceWithRoyalty>1.9</baseChanceWithRoyalty>\n\n    <minThreatPoints>400</minThreatPoints>\n\n    <pointsScaleable>true</pointsScaleable>\n\n    <category>ThreatBig</category>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "CaravanArrivalTributeCollector (IncidentDef)",
+            "Label": "tribute collector caravan arrival",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/incident_defs/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>CaravanArrivalTributeCollector</defName>\n\n    <label>tribute collector caravan arrival</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_CaravanArrivalTributeCollector</workerClass>\n\n    <category>FactionArrival</category>\n\n    <baseChance>0</baseChance> \n\n    <requireColonistsPresent>True</requireColonistsPresent>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "AnimaTreeSpawn (IncidentDef)",
+            "Label": "anima tree",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/incident_defs/incidents_map_special.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>AnimaTreeSpawn</defName>\n\n    <label>anima tree</label>\n\n    <category>Special</category>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_AnimaTreeSpawn</workerClass>\n\n    <treeDef>Plant_TreeAnima</treeDef>\n\n    <treeGenStepDef>AnimaTrees</treeGenStepDef>\n\n    <treeGrowth>0.05</treeGrowth>\n\n    <letterLabel>Anima tree</letterLabel>\n\n    <letterText>An anima tree has sprouted nearby.\\n\\nTribal peoples can use this as a powerful meditation focus, but only if artificial structures are not placed nearby.</letterText>\n\n    <letterDef>PositiveEvent</letterDef>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GiveQuest_EndGame_RoyalAscent (IncidentDef)",
+            "Label": "royal ascent",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/incident_defs/incidents_world_quests.xml`",
+            "XML": "<IncidentDef ParentName=\"GiveQuestBase\">\n\n    <defName>GiveQuest_EndGame_RoyalAscent</defName>\n\n    <label>royal ascent</label>\n\n    <questScriptDef>EndGame_RoyalAscent</questScriptDef>\n\n    <baseChance>0</baseChance> \n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GiveQuest_Intro_Wimp (IncidentDef)",
+            "Label": "imperial wimp",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/incident_defs/incidents_world_quests.xml`",
+            "XML": "<IncidentDef ParentName=\"GiveQuestBase\">\n\n    <defName>GiveQuest_Intro_Wimp</defName>\n\n    <label>imperial wimp</label>\n\n    <questScriptDef>Intro_Wimp</questScriptDef>\n\n    <baseChance>0</baseChance> \n\n  </IncidentDef>"
+        },
+        {
+            "Title": "GiveQuest_Intro_Deserter (IncidentDef)",
+            "Label": "imperial deserter",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/incident_defs/incidents_world_quests.xml`",
+            "XML": "<IncidentDef ParentName=\"GiveQuestBase\">\n\n    <defName>GiveQuest_Intro_Deserter</defName>\n\n    <label>imperial deserter</label>\n\n    <questScriptDef>Intro_Deserter</questScriptDef>\n\n    <baseChance>0</baseChance> \n\n  </IncidentDef>"
+        },
+        {
+            "Title": "ProblemCauser (IncidentDef)",
+            "Label": "problem causer",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/incident_defs/incidents_world_quests.xml`",
+            "XML": "<IncidentDef>\n\n    <defName>ProblemCauser</defName>\n\n    <label>problem causer</label>\n\n    <targetTags>\n\n      <li>Map_PlayerHome</li>\n\n    </targetTags>\n\n    <workerClass>IncidentWorker_GiveQuest_Map</workerClass>\n\n    <questScriptDef>ProblemCauser</questScriptDef>\n\n    <baseChance>0</baseChance>\n\n    <letterDef>NewQuest_ThreatBig</letterDef>\n\n    <baseChanceWithRoyalty>0.95</baseChanceWithRoyalty>\n\n    <category>ThreatBig</category>\n\n    <minThreatPoints>400</minThreatPoints>\n\n    <minPopulation>4</minPopulation>\n\n    <minRefireDays>30</minRefireDays>\n\n    <earliestDay>20</earliestDay>\n\n    <pointsScaleable>true</pointsScaleable>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_Abasia (IncidentDef)",
+            "Label": "paralytic abasia",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/story_teller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_Abasia</defName>\n\n    <label>paralytic abasia</label>\n\n    <diseaseIncident>Abasia</diseaseIncident>\n\n    <letterLabel>Disease: Paralytic abasia</letterLabel>\n\n    <diseaseVictimFractionRange>0~0.25</diseaseVictimFractionRange>\n\n    <minThreatPoints>300</minThreatPoints>\n\n    <minPopulation>4</minPopulation>\n\n  </IncidentDef>"
+        },
+        {
+            "Title": "Disease_BloodRot (IncidentDef)",
+            "Label": "blood rot",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/story_teller/incidents_map_disease.xml`",
+            "XML": "<IncidentDef ParentName=\"DiseaseIncident\">\n\n    <defName>Disease_BloodRot</defName>\n\n    <label>blood rot</label>\n\n    <diseaseIncident>BloodRot</diseaseIncident>\n\n    <letterLabel>Disease: Blood rot</letterLabel>\n\n    <diseaseVictimFractionRange>0~0.2</diseaseVictimFractionRange>\n\n    <minThreatPoints>700</minThreatPoints>\n\n    <minPopulation>4</minPopulation>\n\n  </IncidentDef>"
+        }
+    ]
+}

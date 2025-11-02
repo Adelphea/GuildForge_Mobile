@@ -1,0 +1,14 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Surface (PlanetLayerSettingsDef)",
+            "Label": "Default surface",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/world_layer_settings_defs/planet_layer_settings.xml`",
+            "XML": "<PlanetLayerSettingsDef>\n\n    <defName>Surface</defName>\n\n    <label>Default surface</label>\n\n    <settings>\n\n      <radius>100</radius>\n\n      <subdivisions>10</subdivisions>\n\n      <useSurfaceViewAngle>true</useSurfaceViewAngle>\n\n    </settings>\n\n  </PlanetLayerSettingsDef>"
+        }
+    ]
+}

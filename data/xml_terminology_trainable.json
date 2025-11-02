@@ -1,0 +1,50 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Obedience (TrainableDef)",
+            "Label": "guard",
+            "Description Originale": "The animal can be assigned a master whom it will follow and defend.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trainable_defs/trainables.xml`",
+            "XML": "<TrainableDef>\n\n    <defName>Obedience</defName>\n\n    <label>guard</label>\n\n    <description>The animal can be assigned a master whom it will follow and defend.</description>\n\n    <icon>UI/Icons/Trainables/Obedience</icon>\n\n    <listPriority>1000</listPriority>\n\n    <difficulty>100</difficulty>\n\n    <requiredTrainability>Intermediate</requiredTrainability>\n\n    <steps>3</steps>\n\n    <prerequisites>\n\n      <li>Tameness</li>\n\n    </prerequisites>\n\n    <defaultTrainable>true</defaultTrainable>\n\n    <tags>\n\n      <li>Basic</li>\n\n    </tags>\n\n  </TrainableDef>"
+        },
+        {
+            "Title": "Release (TrainableDef)",
+            "Label": "attack",
+            "Description Originale": "The animal can be released to attack distant targets instead of just guarding its master.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trainable_defs/trainables.xml`",
+            "XML": "<TrainableDef>\n\n    <defName>Release</defName>\n\n    <label>attack</label>\n\n    <description>The animal can be released to attack distant targets instead of just guarding its master.</description>\n\n    <icon>UI/Icons/Trainables/Release</icon>\n\n    <listPriority>800</listPriority>\n\n    <difficulty>100</difficulty>\n\n    <requiredTrainability>Intermediate</requiredTrainability>\n\n    <steps>2</steps>\n\n    <prerequisites>\n\n      <li>Obedience</li>\n\n    </prerequisites>\n\n    <defaultTrainable>true</defaultTrainable>\n\n    <tags>\n\n      <li>Combat</li>\n\n    </tags>\n\n  </TrainableDef>"
+        },
+        {
+            "Title": "Rescue (TrainableDef)",
+            "Label": "rescue",
+            "Description Originale": "The animal will rescue wounded allies and drag them to safety.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trainable_defs/trainables.xml`",
+            "XML": "<TrainableDef>\n\n    <defName>Rescue</defName>\n\n    <label>rescue</label>\n\n    <description>The animal will rescue wounded allies and drag them to safety.</description>\n\n    <icon>UI/Icons/Trainables/Rescue</icon>\n\n    <listPriority>600</listPriority>\n\n    <difficulty>200</difficulty>\n\n    <requiredTrainability>Advanced</requiredTrainability>\n\n    <steps>2</steps>\n\n    <prerequisites>\n\n      <li>Obedience</li>\n\n    </prerequisites>\n\n    <minBodySize>0.65</minBodySize>\n\n    <defaultTrainable>true</defaultTrainable>\n\n    <tags>\n\n      <li>Combat</li>\n\n      <li>Help</li>\n\n    </tags>\n\n  </TrainableDef>"
+        },
+        {
+            "Title": "Haul (TrainableDef)",
+            "Label": "haul",
+            "Description Originale": "The animal will randomly haul items from time to time (though it can't be directed to haul specific items).",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trainable_defs/trainables.xml`",
+            "XML": "<TrainableDef>\n\n    <defName>Haul</defName>\n\n    <label>haul</label>\n\n    <description>The animal will randomly haul items from time to time (though it can't be directed to haul specific items).</description>\n\n    <icon>UI/Icons/Trainables/Haul</icon>\n\n    <listPriority>400</listPriority>\n\n    <difficulty>300</difficulty>\n\n    <requiredTrainability>Advanced</requiredTrainability>\n\n    <steps>7</steps>\n\n    <prerequisites>\n\n      <li>Obedience</li>\n\n    </prerequisites>\n\n    <minBodySize>0.40</minBodySize>\n\n    <defaultTrainable>true</defaultTrainable>\n\n    <tags>\n\n      <li>Work</li>\n\n    </tags>\n\n  </TrainableDef>"
+        },
+        {
+            "Title": "Tameness (TrainableDef)",
+            "Label": "tameness",
+            "Description Originale": "The animal can learn to consider itself a member of your colony.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trainable_defs/trainables.xml`",
+            "XML": "<TrainableDef>\n\n    <defName>Tameness</defName>\n\n    <label>tameness</label>\n\n    <description>The animal can learn to consider itself a member of your colony.</description>\n\n    <icon>UI/Icons/Trainables/Tameness</icon>\n\n    <listPriority>2000</listPriority>\n\n    <difficulty>100</difficulty>\n\n    <requiredTrainability>None</requiredTrainability>\n\n    <steps>5</steps>\n\n    <defaultTrainable>true</defaultTrainable>\n\n  </TrainableDef>"
+        }
+    ]
+}

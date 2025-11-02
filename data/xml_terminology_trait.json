@@ -1,0 +1,419 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Hygienic (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/traits/traits__spectrum.xml`",
+            "XML": "<TraitDef>\n\n\t\t<defName>Hygienic</defName>\n\n\t\t<commonality>2</commonality>\n\n\t\t<degreeDatas>\n\n\t\t\t<li>\n\n\t\t\t\t<label>germaphobe</label>\n\n\t\t\t\t<description>[PAWN_nameDef] is obsessed with germs and will wash much more frequently than normal.</description>\n\n\t\t\t\t<degree>2</degree>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<label>hygienic</label>\n\n\t\t\t\t<description>[PAWN_nameDef] is very hygienic and will wash more frequently.</description>\n\n\t\t\t\t<degree>1</degree>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<label>unhygienic</label>\n\n\t\t\t\t<description>[PAWN_nameDef] is very unhygienic and will wash less frequently.</description>\n\n\t\t\t\t<degree>-1</degree>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<label>slob</label>\n\n\t\t\t\t<description>[PAWN_nameDef] has very low standards of cleanliness and will only wash when they absolutely have to.</description>\n\n\t\t\t\t<degree>-2</degree>\n\n\t\t\t</li>\n\n\t\t</degreeDatas>\n\n\t</TraitDef>"
+        },
+        {
+            "Title": "DankPyon_Fighter (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/trait_defs/traits__singular.xml`",
+            "XML": "<TraitDef>\n\n\t\t<defName>DankPyon_Fighter</defName>\n\n\t\t<commonality>0.2</commonality>\n\n\t\t<degreeDatas>\n\n\t\t\t<li>\n\n\t\t\t\t<label>fighter</label>\n\n\t\t\t\t<description>[PAWN_nameDef] is a formidable fighter. [PAWN_pronoun] knows how to effectively handle a weapon and take blows.</description>\n\n\t\t\t\t<statOffsets>\n\n\t\t\t\t\t<ShootingAccuracyPawn>2</ShootingAccuracyPawn>\n\n\t\t\t\t\t<AimingDelayFactor>-0.15</AimingDelayFactor>\n\n\t\t\t\t\t<MeleeHitChance>4</MeleeHitChance>\n\n\t\t\t\t\t<MeleeDodgeChance>6</MeleeDodgeChance>\n\n\t\t\t\t\t<IncomingDamageFactor>-0.10</IncomingDamageFactor>\n\n\t\t\t\t\t<PawnTrapSpringChance>-0.1</PawnTrapSpringChance>\n\n\t\t\t\t\t<MentalBreakThreshold>-0.9</MentalBreakThreshold>\n\n\t\t\t\t\t<PainShockThreshold>0.10</PainShockThreshold>\n\n\t\t\t\t</statOffsets>\n\n\t\t\t\t<statFactors>\n\n\t\t\t\t\t<CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">0.05</CertaintyLossFactor>\n\n\t\t\t\t</statFactors>\n\n\t\t\t\t\n\n\t\t\t</li>\n\n\t\t</degreeDatas>\n\n\t</TraitDef>"
+        },
+        {
+            "Title": "DankPyon_Veteran (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/trait_defs/traits__singular.xml`",
+            "XML": "<TraitDef>\n\n\t\t<defName>DankPyon_Veteran</defName>\n\n\t\t<commonality>0.1</commonality>\n\n\t\t<degreeDatas>\n\n\t\t\t<li>\n\n\t\t\t\t<label>veteran</label>\n\n\t\t\t\t<description>[PAWN_nameDef] is a veteran. [PAWN_pronoun] has experienced countless of horrifying battles enough to break a common man.</description>\n\n\t\t\t\t<statOffsets>\n\n\t\t\t\t\t<ShootingAccuracyPawn>6</ShootingAccuracyPawn>\n\n\t\t\t\t\t<AimingDelayFactor>-0.25</AimingDelayFactor>\n\n\t\t\t\t\t<MeleeHitChance>8</MeleeHitChance>\n\n\t\t\t\t\t<MeleeDodgeChance>12</MeleeDodgeChance>\n\n\t\t\t\t\t<MedicalTendQuality>0.10</MedicalTendQuality>\n\n\t\t\t\t\t<IncomingDamageFactor>-0.30</IncomingDamageFactor>\n\n\t\t\t\t\t<MoveSpeed>0.3</MoveSpeed>\n\n\t\t\t\t\t<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>\n\n\t\t\t\t\t<MentalBreakThreshold>-0.15</MentalBreakThreshold>\n\n\t\t\t\t\t<PainShockThreshold>0.30</PainShockThreshold>\n\n\t\t\t\t</statOffsets>\n\n\t\t\t\t<statFactors>\n\n\t\t\t\t\t<CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">0.25</CertaintyLossFactor>\n\n\t\t\t\t</statFactors>\n\n\t\t\t</li>\n\n\t\t</degreeDatas>\n\n\t</TraitDef>"
+        },
+        {
+            "Title": "Nudist (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Nudist</defName>\n\n    <commonality>0.7</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>nudist</label>\n\n        <description>{PAWN_nameDef} enjoys the feeling of freedom that comes from being nude. {PAWN_pronoun} can handle clothing, but will be happier without it.</description>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Bloodlust (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Bloodlust</defName>\n\n    <commonality>0.8</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>bloodlust</label>\n\n        <description>{PAWN_nameDef} gets a rush from hurting people, and never minds the sight of blood or death. {PAWN_pronoun} is four times as likely to start a social fight as others.</description>\n\n        <socialFightChanceFactor>4</socialFightChanceFactor>\n\n        <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>\n\n        <possessions>\n\n          <MeleeWeapon_Axe MayRequire=\"Ludeon.RimWorld.Royalty\" />\n\n          <MeleeWeapon_LongSword />\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n    <requiredWorkTags>\n\n      <li>Violent</li>\n\n    </requiredWorkTags>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Kind (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Kind</defName>\n\n    <commonality>2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>kind</label>\n\n        <description>{PAWN_nameDef} is an exceptionally agreeable and giving person. {PAWN_pronoun} rarely insults others or starts fights, and will sometimes offer kind words to brighten the moods of those around {PAWN_objective}. {PAWN_pronoun} also never judges people by their appearance.</description>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">2</CertaintyLossFactor>\n\n        </statFactors>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Abrasive</li>\n\n      <li>Psychopath</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Psychopath (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Psychopath</defName>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>psychopath</label>\n\n        <description>{PAWN_nameDef} has no empathy. The suffering of others doesn't bother {PAWN_objective} at all. {PAWN_pronoun} doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects {PAWN_objective}. {PAWN_pronoun} also feels no mood boost from socializing.</description>\n\n        <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">0.5</CertaintyLossFactor>\n\n        </statFactors>\n\n        <possessions>\n\n          <Skull />\n\n          <Heart />\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Cannibal (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Cannibal</defName>\n\n    <commonality>0.6</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>cannibal</label>\n\n        <description>{PAWN_nameDef} was taught that eating human meat is wrong and horrible. But one time, long ago, {PAWN_pronoun} tried it... and {PAWN_pronoun} liked it.</description>\n\n        <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>\n\n        <disallowedThoughtsFromIngestion>\n\n          <li>\n\n            <meatSource>Humanlike</meatSource>\n\n            <thoughts>\n\n              <li>AteRawFood</li>\n\n              <li>AteHumanlikeMeatDirect</li>\n\n              <li>AteHumanlikeMeatAsIngredient</li>\n\n            </thoughts>\n\n          </li>\n\n        </disallowedThoughtsFromIngestion>\n\n        <extraThoughtsFromIngestion>\n\n          <li>\n\n            <meatSource>Humanlike</meatSource>\n\n            <thoughtsDirect>\n\n              <li>AteHumanlikeMeatDirectCannibal</li>\n\n            </thoughtsDirect>\n\n            <thoughtsAsIngredient>\n\n              <li>AteHumanlikeMeatAsIngredientCannibal</li>\n\n            </thoughtsAsIngredient>\n\n          </li>\n\n        </extraThoughtsFromIngestion>\n\n        <possessions>\n\n          <Meat_Human>30~60</Meat_Human>\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Abrasive (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Abrasive</defName>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>abrasive</label>\n\n        <description>{PAWN_nameDef} always says exactly what's on {PAWN_possessive} mind, especially if it's bugging {PAWN_objective}. That tends to rub people the wrong way.</description>\n\n        <marketValueFactorOffset>-0.15</marketValueFactorOffset>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">0.5</CertaintyLossFactor>\n\n        </statFactors>\n\n      </li>\n\n    </degreeDatas>\n\n    <requiredWorkTags>\n\n      <li>Social</li>\n\n    </requiredWorkTags>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "TooSmart (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>TooSmart</defName>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>too smart</label>\n\n        <description>{PAWN_nameDef} is too smart for {PAWN_possessive} own good. {PAWN_pronoun} learns everything much faster than everyone, but can be quite eccentric.</description>\n\n        <statOffsets>\n\n          <GlobalLearningFactor>0.75</GlobalLearningFactor>\n\n          <MentalBreakThreshold>0.12</MentalBreakThreshold>\n\n        </statOffsets>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">0.5</CertaintyLossFactor>\n\n        </statFactors>\n\n        <possessions>\n\n          <Schematic />\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Nerves</li>\n\n      <li>SlowLearner</li>\n\n    </conflictingTraits>\n\n    <requiredWorkTags>\n\n      <li>Intellectual</li>\n\n    </requiredWorkTags>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Brawler (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Brawler</defName>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>brawler</label>\n\n        <description>{PAWN_nameDef} likes to fight up close and personal. {PAWN_possessive} accuracy is greatly increased in melee combat, but {PAWN_pronoun}'ll be very unhappy if asked to carry a ranged weapon.</description>\n\n        <statOffsets>\n\n          <MeleeHitChance>4</MeleeHitChance>\n\n        </statOffsets>\n\n        <skillGains>\n\n          <Melee>4</Melee>\n\n          <Shooting>-10</Shooting>\n\n        </skillGains>\n\n        <disallowedInspirations>\n\n          <li>Frenzy_Shoot</li>\n\n        </disallowedInspirations>\n\n        <possessions>\n\n          <MeleeWeapon_Knife />\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>ShootingAccuracy</li>\n\n      <li>Wimp</li>\n\n    </conflictingTraits>\n\n    <requiredWorkTags>\n\n      <li>Violent</li>\n\n    </requiredWorkTags>\n\n    <conflictingPassions>\n\n      <li>Shooting</li>\n\n    </conflictingPassions>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Masochist (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Masochist</defName>\n\n    <commonality>0.5</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>masochist</label>\n\n        <description>For {PAWN_nameDef}, there's something exciting about getting hurt. {PAWN_pronoun} doesn't know why, {PAWN_pronoun}'s just wired differently.</description>\n\n        <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Wimp</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "NightOwl (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>NightOwl</defName>\n\n    <commonality>1.3</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>night owl</label>\n\n        <description>{PAWN_nameDef} likes to be up during the night, and sleep during the day.\\n\\n{PAWN_pronoun} gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\\n\\n{PAWN_pronoun} doesn't get a mood penalty for being in the dark.</description>\n\n        <possessions>\n\n          <WakeUp>5~10</WakeUp>\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Greedy (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Greedy</defName>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>greedy</label>\n\n        <description>{PAWN_nameDef} needs a really impressive bedroom. {PAWN_pronoun} gets a mood loss if {PAWN_pronoun} doesn't get what {PAWN_pronoun} wants.</description>\n\n        <possessions>\n\n          <Gold>10~20</Gold>\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Ascetic</li>\n\n      <li>Jealous</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Jealous (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Jealous</defName>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>jealous</label>\n\n        <description>For {PAWN_nameDef}, it's degrading to have a less impressive bedroom than someone else. {PAWN_pronoun} gets a mood loss if any colonist has a more impressive bedroom.</description>\n\n        <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Ascetic</li>\n\n      <li>Greedy</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Ascetic (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Ascetic</defName>\n\n    <commonality>0.7</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>ascetic</label>\n\n        <description>{PAWN_nameDef} has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. {PAWN_pronoun} will become unhappy if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw. {PAWN_pronoun} never judges others by their appearance.</description>\n\n        <allowedMeditationFocusTypes><li>Minimal</li></allowedMeditationFocusTypes>\n\n        <disallowedMeditationFocusTypes><li>Artistic</li></disallowedMeditationFocusTypes>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">0.5</CertaintyLossFactor>\n\n        </statFactors>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Greedy</li>\n\n      <li>Jealous</li>\n\n      <li>Gourmand</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Gay (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Gay</defName>\n\n    <commonality>0.3</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>gay</label>\n\n        <description>{PAWN_nameDef} is romantically attracted to people of {PAWN_possessive} own gender.</description>\n\n      </li>\n\n    </degreeDatas>\n\n    <exclusionTags>\n\n      <li>SexualOrientation</li>\n\n    </exclusionTags>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Bisexual (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Bisexual</defName>\n\n    <commonality>0.2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>bisexual</label>\n\n        <description>{PAWN_nameDef} is romantically attracted to both men and women.</description>\n\n      </li>\n\n    </degreeDatas>\n\n    <exclusionTags>\n\n      <li>SexualOrientation</li>\n\n    </exclusionTags>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Asexual (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Asexual</defName>\n\n    <commonality>0.2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>asexual</label>\n\n        <description>{PAWN_nameDef} has no sexual attraction to anyone at all.</description>\n\n      </li>\n\n    </degreeDatas>\n\n    <exclusionTags>\n\n      <li>SexualOrientation</li>\n\n    </exclusionTags>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "AnnoyingVoice (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>AnnoyingVoice</defName>\n\n    <commonality>0.5</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>annoying voice</label>\n\n        <description>{PAWN_nameDef}'s voice has a particularly grating, nasal quality to it, and {PAWN_pronoun} tends to talk in barked, garbled phrases. This predisposes others to dislike {PAWN_objective}.</description>\n\n        <marketValueFactorOffset>-0.2</marketValueFactorOffset>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "CreepyBreathing (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>CreepyBreathing</defName>\n\n    <commonality>0.5</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>creepy breathing</label>\n\n        <description>{PAWN_nameDef} breathes heavily all the time, and sweats constantly. People find it creepy.</description>\n\n        <marketValueFactorOffset>-0.1</marketValueFactorOffset>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Pyromaniac (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Pyromaniac</defName>\n\n    <commonality>0.8</commonality>\n\n    <disabledWorkTags>Firefighting</disabledWorkTags>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>pyromaniac</label>\n\n        <description>{PAWN_nameDef} loves fire. {PAWN_pronoun} will never extinguish fires, and will occasionally go on random fire starting sprees. {PAWN_pronoun} will be happy around flames, and happier when wielding an incendiary weapon.</description>\n\n        <theOnlyAllowedMentalBreaks>\n\n          <li>FireStartingSpree</li>\n\n        </theOnlyAllowedMentalBreaks>\n\n        <randomMentalState>FireStartingSpree</randomMentalState>\n\n        <randomMentalStateMtbDaysMoodCurve>\n\n          <points>\n\n            <li>(0, 50)</li>\n\n          </points>\n\n        </randomMentalStateMtbDaysMoodCurve>\n\n        <marketValueFactorOffset>-0.2</marketValueFactorOffset>\n\n        <allowedMeditationFocusTypes><li>Flame</li></allowedMeditationFocusTypes>\n\n        <possessions>\n\n          <Weapon_GrenadeMolotov />\n\n          <Chemfuel>10~20</Chemfuel>\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Wimp (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Wimp</defName>\n\n    <allowOnHostileSpawn>false</allowOnHostileSpawn>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>wimp</label>\n\n        <description>{PAWN_nameDef} is weak and cowardly. Even a little pain will immobilize {PAWN_objective}.</description>\n\n        <statOffsets>\n\n          <PainShockThreshold>-0.50</PainShockThreshold>\n\n        </statOffsets>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">2</CertaintyLossFactor>\n\n        </statFactors>\n\n        <marketValueFactorOffset>-0.15</marketValueFactorOffset>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Brawler</li>\n\n      <li>Masochist</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Nimble (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Nimble</defName>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>nimble</label>\n\n        <description>{PAWN_nameDef} has remarkable kinesthetic intelligence. {PAWN_pronoun} seems to dance around danger with preternatural grace.</description>\n\n        <statOffsets>\n\n          <MeleeDodgeChance>15</MeleeDodgeChance>\n\n        </statOffsets>\n\n        <statFactors>\n\n          <PawnTrapSpringChance>0.1</PawnTrapSpringChance>\n\n        </statFactors>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "FastLearner (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>FastLearner</defName>\n\n    <exclusionTags>\n\n      <li>SlowFastLearner</li>\n\n    </exclusionTags>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>fast learner</label>\n\n        <description>{PAWN_nameDef} has a knack for learning. {PAWN_pronoun} picks things up much faster than others.</description>\n\n        <statOffsets>\n\n          <GlobalLearningFactor>0.75</GlobalLearningFactor>\n\n        </statOffsets>\n\n        <possessions>\n\n          <TextBook />\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "SlowLearner (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>SlowLearner</defName>\n\n    <exclusionTags>\n\n      <li>SlowFastLearner</li>\n\n    </exclusionTags>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>slow learner</label>\n\n        <description>{PAWN_nameDef} is slow on the uptake. {PAWN_pronoun} learns much slower than others.</description>\n\n        <statOffsets>\n\n          <GlobalLearningFactor>-0.75</GlobalLearningFactor>\n\n        </statOffsets>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">0.5</CertaintyLossFactor>\n\n        </statFactors>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>TooSmart</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Undergrounder (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Undergrounder</defName>\n\n    <commonality>0.2</commonality> \n\n    <degreeDatas>\n\n      <li>\n\n        <label>undergrounder</label>\n\n        <description>{PAWN_nameDef} has no need to experience the outdoors or light. {PAWN_pronoun} will never feel cooped up or get cabin fever and is not bothered by darkness. However, {PAWN_nameDef} will be unhappy while outdoors.</description>\n\n        <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>\n\n        <enablesNeeds>\n\n          <li>Indoors</li>\n\n        </enablesNeeds>\n\n        <disablesNeeds>\n\n          <li>Outdoors</li>\n\n        </disablesNeeds>\n\n        <possessions>\n\n          <RawFungus>30~60</RawFungus>\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Transhumanist (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Transhumanist</defName>\n\n    <commonality>0.9</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>body modder</label>\n\n        <description>{PAWN_nameDef} feels limited in {PAWN_possessive} feeble human body. {PAWN_pronoun} often dreams of being enhanced with artificial body parts or xenogenetics.</description>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>BodyPurist</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "BodyPurist (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>BodyPurist</defName>\n\n    <commonality>0.7</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>body purist</label>\n\n        <description>{PAWN_nameDef} believes the human body is limited for a reason. To {PAWN_objective}, artificial body parts and xenogenes are unethical and disgusting.</description>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Transhumanist</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "DislikesMen (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>DislikesMen</defName>\n\n    <commonality>0.3</commonality>\n\n    <commonalityFemale>1.7</commonalityFemale>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>misandrist</label>\n\n        <description>{PAWN_nameDef} really dislikes and distrusts men.</description>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "DislikesWomen (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>DislikesWomen</defName>\n\n    <commonality>1.7</commonality>\n\n    <commonalityFemale>0.3</commonalityFemale>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>misogynist</label>\n\n        <description>{PAWN_nameDef} really dislikes and distrusts women.</description>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "GreatMemory (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>GreatMemory</defName>\n\n    <commonality>1.1</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>great memory</label>\n\n        <description>{PAWN_nameDef} has a fantastic memory for detail. {PAWN_pronoun} will lose unused skills at half the rate of other people.</description>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Tough (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Tough</defName>\n\n    <commonality>1.1</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>tough</label>\n\n        <description>{PAWN_nameDef} has thick skin, dense flesh, and durable bones. {PAWN_pronoun} takes much less damage than other people from the same blows. {PAWN_pronoun} is extremely hard to kill.</description>\n\n        <statFactors>\n\n          <IncomingDamageFactor>0.5</IncomingDamageFactor>\n\n        </statFactors>\n\n      </li>\n\n    </degreeDatas>\n\n    <exclusionTags>\n\n      <li>Toughness</li>\n\n    </exclusionTags>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "TorturedArtist (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>TorturedArtist</defName>\n\n    <commonality>0.6</commonality>\n\n    <forcedPassions>\n\n      <li>Artistic</li>\n\n    </forcedPassions>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>tortured artist</label>\n\n        <description>{PAWN_nameDef} feels alienated and misunderstood by other human beings. {PAWN_pronoun} will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.</description>\n\n        <mentalBreakInspirationGainSet>\n\n          <li>Inspired_Creativity</li>\n\n        </mentalBreakInspirationGainSet>\n\n        <mentalBreakInspirationGainReasonText>As a suffering tortured artist, [PAWN_nameIndef] has experienced an inspiration.</mentalBreakInspirationGainReasonText>\n\n        <mentalBreakInspirationGainChance>0.5</mentalBreakInspirationGainChance>\n\n        <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>\n\n        <possessions>\n\n          <Dye>10~20</Dye>\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Gourmand (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Gourmand</defName>\n\n    <commonality>1.0</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>gourmand</label>\n\n        <description>{PAWN_nameDef}'s life revolves around food. {PAWN_pronoun} gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.</description>\n\n        <theOnlyAllowedMentalBreaks>\n\n          <li>Binging_Food</li>\n\n        </theOnlyAllowedMentalBreaks>\n\n        <randomMentalState>Binging_Food</randomMentalState>\n\n        <randomMentalStateMtbDaysMoodCurve>\n\n          <points>\n\n            <li>(0, 50)</li>\n\n          </points>\n\n        </randomMentalStateMtbDaysMoodCurve>\n\n        <skillGains>\n\n          <Cooking>4</Cooking>\n\n        </skillGains>\n\n        <hungerRateFactor>1.5</hungerRateFactor>\n\n        <possessions>\n\n          <MealFine>1~3</MealFine>\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Ascetic</li>\n\n    </conflictingTraits>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "QuickSleeper (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_singular.xml`",
+            "XML": "<TraitDef>\n\n    <defName>QuickSleeper</defName>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>quick sleeper</label>\n\n        <description>{PAWN_nameDef} doesn't need as much sleep as the average person. Whether {PAWN_pronoun}'s sleeping on a bed or on the ground, {PAWN_pronoun} will be fully rested in about two thirds the usual time.</description>\n\n        <statOffsets>\n\n          <RestRateMultiplier>0.50</RestRateMultiplier>\n\n        </statOffsets>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "SpeedOffset (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>SpeedOffset</defName>\n\n    <commonality>2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>slowpoke</label>\n\n        <description>[PAWN_nameDef] is always falling behind the group whenever [PAWN_pronoun] goes anywhere.</description>\n\n        <degree>-1</degree>\n\n        <statOffsets>\n\n          <MoveSpeed>-0.2</MoveSpeed>\n\n        </statOffsets>\n\n        <disallowedInspirations>\n\n          <li>Frenzy_Go</li>\n\n        </disallowedInspirations>\n\n      </li>\n\n      <li>\n\n        <label>fast walker</label>\n\n        <description>[PAWN_nameDef] likes to be where [PAWN_pronoun]'s going. [PAWN_pronoun] walks quicker than most people.</description>\n\n        <degree>1</degree>\n\n        <statOffsets>\n\n          <MoveSpeed>0.2</MoveSpeed>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>jogger</label>\n\n        <description>[PAWN_nameDef] always moves with a sense of urgency - so much so that others often fail to keep up.</description>\n\n        <degree>2</degree>\n\n        <statOffsets>\n\n          <MoveSpeed>0.4</MoveSpeed>\n\n        </statOffsets>\n\n      </li>      \n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "DrugDesire (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>DrugDesire</defName>\n\n    <commonality>3</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>chemical fascination</label>\n\n        <description>[PAWN_nameDef] is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person.</description>\n\n        <degree>2</degree>\n\n        <marketValueFactorOffset>-0.15</marketValueFactorOffset>\n\n      </li>\n\n      <li>\n\n        <label>chemical interest</label>\n\n        <description>[PAWN_nameDef] has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person.</description>\n\n        <degree>1</degree>\n\n        <marketValueFactorOffset>-0.10</marketValueFactorOffset>\n\n      </li>\n\n      <li>\n\n        <label>teetotaler</label>\n\n        <description>[PAWN_nameDef] abhors the idea of gaining pleasure from chemicals. [PAWN_pronoun] strictly avoids alcohol and recreational drugs.</description>\n\n        <degree>-1</degree>\n\n        <disallowedMentalStates>\n\n          <li>Binging_DrugExtreme</li>\n\n          <li>Binging_DrugMajor</li>\n\n        </disallowedMentalStates>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "NaturalMood (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>NaturalMood</defName>\n\n    <commonality>2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>sanguine</label>\n\n        <description>[PAWN_nameDef] is just naturally upbeat about [PAWN_possessive] situation, pretty much all the time, no matter what it is.</description>\n\n        <degree>2</degree>\n\n      </li>\n\n      <li>\n\n        <label>optimist</label>\n\n        <description>[PAWN_nameDef] is naturally optimistic about life. It's hard to get [PAWN_objective] down.</description>\n\n        <degree>1</degree>\n\n      </li>\n\n      <li>\n\n        <label>pessimist</label>\n\n        <description>[PAWN_nameDef] tends to look on the bad side of life.</description>\n\n        <degree>-1</degree>\n\n      </li> \n\n      <li>\n\n        <label>depressive</label>\n\n        <description>[PAWN_nameDef] is perenially unhappy. [PAWN_pronoun] has trouble sustaining a good mood even when everything is fine.</description>\n\n        <degree>-2</degree>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Nerves (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Nerves</defName>\n\n    <commonality>2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>iron-willed</label>\n\n        <description>[PAWN_nameDef]'s will is an iron shield. [PAWN_pronoun] keeps going through thick and thin, when others broke down long before.</description>\n\n        <degree>2</degree>\n\n        <statOffsets>\n\n          <MentalBreakThreshold>-0.18</MentalBreakThreshold>\n\n        </statOffsets>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">0.25</CertaintyLossFactor>\n\n        </statFactors>\n\n      </li>\n\n      <li>\n\n        <label>steadfast</label>\n\n        <description>[PAWN_nameDef] is mentally tough and won't break down under stresses that would crack most people.</description>\n\n        <degree>1</degree>\n\n        <statOffsets>\n\n          <MentalBreakThreshold>-0.09</MentalBreakThreshold>\n\n        </statOffsets>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">0.5</CertaintyLossFactor>\n\n        </statFactors>\n\n      </li>\n\n      <li>\n\n        <label>nervous</label>\n\n        <description>[PAWN_nameDef] tends to crack under pressure.</description>\n\n        <degree>-1</degree>\n\n        <statOffsets>\n\n          <MentalBreakThreshold>0.08</MentalBreakThreshold>\n\n        </statOffsets>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">2</CertaintyLossFactor>\n\n        </statFactors>\n\n      </li>\n\n      <li>\n\n        <label>volatile</label>\n\n        <description>[PAWN_nameDef] is on a hair-trigger all the time. [PAWN_pronoun] is the first to break in any tough situation.</description>\n\n        <degree>-2</degree>\n\n        <statOffsets>\n\n          <MentalBreakThreshold>0.15</MentalBreakThreshold>\n\n        </statOffsets>\n\n        <statFactors>\n\n          <CertaintyLossFactor MayRequire=\"Ludeon.RimWorld.Ideology\">3</CertaintyLossFactor>\n\n        </statFactors>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Neurotic (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Neurotic</defName>\n\n    <commonality>1</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>neurotic</label>\n\n        <description>[PAWN_nameDef] likes to have things squared away. [PAWN_pronoun] will work harder than most to attain this state of affairs, but [PAWN_possessive] nerves can get the better of [PAWN_objective].</description>\n\n        <degree>1</degree>\n\n        <statOffsets>\n\n          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>\n\n          <MentalBreakThreshold>0.08</MentalBreakThreshold>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>very neurotic</label>\n\n        <description>[PAWN_nameDef] feels constantly nervous about everything that has to get done. [PAWN_pronoun] will work extremely hard to attain this state of affairs, but [PAWN_possessive] nerves can easily get the better of [PAWN_objective].</description>\n\n        <degree>2</degree>\n\n        <statOffsets>\n\n          <WorkSpeedGlobal>0.40</WorkSpeedGlobal>\n\n          <MentalBreakThreshold>0.14</MentalBreakThreshold>\n\n        </statOffsets>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Industriousness (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Industriousness</defName>\n\n    <commonality>2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>industrious</label>\n\n        <description>[PAWN_nameDef] has an easy time staying on-task and focused, and gets things done much faster than the average person.</description>\n\n        <degree>2</degree>\n\n        <statOffsets>\n\n          <WorkSpeedGlobal>0.35</WorkSpeedGlobal>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>hard worker</label>\n\n        <description>[PAWN_nameDef] is a natural hard worker and will finish tasks faster than most.</description>\n\n        <degree>1</degree>\n\n        <statOffsets>\n\n          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>lazy</label>\n\n        <description>[PAWN_nameDef] is a little bit lazy.</description>\n\n        <degree>-1</degree>\n\n        <statOffsets>\n\n          <WorkSpeedGlobal>-0.20</WorkSpeedGlobal>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>slothful</label>\n\n        <description>[PAWN_nameDef] loves idleness and hates anything productive. [PAWN_pronoun] moves slowly and rarely stays focused on a task.</description>\n\n        <degree>-2</degree>\n\n        <statOffsets>\n\n          <WorkSpeedGlobal>-0.35</WorkSpeedGlobal>\n\n        </statOffsets>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "PsychicSensitivity (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>PsychicSensitivity</defName>\n\n    <commonality>2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>psychically hypersensitive</label>\n\n        <description>[PAWN_nameDef]'s mind is like a psychic tuning fork. [PAWN_pronoun] is extremely sensitive to psychic phenomena.</description>\n\n        <degree>2</degree>\n\n        <statOffsets>\n\n          <PsychicSensitivity>0.8</PsychicSensitivity>\n\n        </statOffsets>\n\n        <possessions>\n\n          <Apparel_PsychicFoilHelmet />\n\n        </possessions>\n\n      </li>\n\n      <li>\n\n        <label>psychically sensitive</label>\n\n        <description>[PAWN_nameDef]'s mind is unusually sensitive to psychic phenomena.</description>\n\n        <degree>1</degree>\n\n        <statOffsets>\n\n          <PsychicSensitivity>0.4</PsychicSensitivity>\n\n        </statOffsets>\n\n        <possessions>\n\n          <Apparel_PsychicFoilHelmet />\n\n        </possessions>\n\n      </li>\n\n      <li>\n\n        <label>psychically dull</label>\n\n        <description>[PAWN_nameDef]'s mind is psychically out of tune with others. [PAWN_pronoun] isn't as affected by psychic phenomena.</description>\n\n        <degree>-1</degree>\n\n        <statOffsets>\n\n          <PsychicSensitivity>-0.5</PsychicSensitivity>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>psychically deaf</label>\n\n        <description>[PAWN_nameDef]'s mind works on a psychic frequency different from everyone else. [PAWN_pronoun] just isn't affected by psychic phenomena.</description>\n\n        <degree>-2</degree>\n\n        <statOffsets>\n\n          <PsychicSensitivity>-1</PsychicSensitivity>\n\n        </statOffsets>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "ShootingAccuracy (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>ShootingAccuracy</defName>\n\n    <commonality>2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>careful shooter</label>\n\n        <description>[PAWN_nameDef] takes more time to aim when shooting. [PAWN_pronoun] shoots less often than others, but with more accuracy.</description>\n\n        <degree>1</degree>\n\n        <statOffsets>\n\n          <AimingDelayFactor>0.25</AimingDelayFactor>\n\n          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>\n\n        </statOffsets>\n\n        <possessions>\n\n          <Gun_BoltActionRifle />\n\n        </possessions>\n\n      </li>\n\n      <li>\n\n        <label>trigger-happy</label>\n\n        <description>Pew! Pew! Pew! [PAWN_nameDef] just likes pulling the trigger. [PAWN_pronoun] shoots faster than others, but less accurately.</description>\n\n        <degree>-1</degree>\n\n        <statOffsets>\n\n          <AimingDelayFactor>-0.5</AimingDelayFactor>\n\n          <ShootingAccuracyPawn>-5</ShootingAccuracyPawn>\n\n        </statOffsets>\n\n        <possessions>\n\n          <Gun_Autopistol />\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n    <conflictingTraits>\n\n      <li>Brawler</li>\n\n    </conflictingTraits>\n\n    <requiredWorkTags>\n\n      <li>Violent</li>\n\n    </requiredWorkTags>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Beauty (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Beauty</defName>\n\n    <commonality>2</commonality>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>beautiful</label>\n\n        <description>[PAWN_nameDef] is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to [PAWN_objective] before [PAWN_pronoun] even opens [PAWN_possessive] mouth.</description>\n\n        <degree>2</degree>\n\n        <statOffsets>\n\n          <PawnBeauty>2</PawnBeauty>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>pretty</label>\n\n        <description>[PAWN_nameDef] has a pretty face, which predisposes people to like [PAWN_objective].</description>\n\n        <degree>1</degree>\n\n        <statOffsets>\n\n          <PawnBeauty>1</PawnBeauty>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>ugly</label>\n\n        <description>[PAWN_nameDef] is somewhat ugly. This subtly repels others during social interactions.</description>\n\n        <degree>-1</degree>\n\n        <statOffsets>\n\n          <PawnBeauty>-1</PawnBeauty>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>staggeringly ugly</label>\n\n        <description>[PAWN_nameDef] is staggeringly ugly. [PAWN_possessive] face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at [PAWN_objective] while conversing.</description>\n\n        <degree>-2</degree>\n\n        <statOffsets>\n\n          <PawnBeauty>-2</PawnBeauty>\n\n        </statOffsets>\n\n      </li>      \n\n    </degreeDatas>\n\n  </TraitDef>"
+        },
+        {
+            "Title": "Immunity (TraitDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/trait_defs/traits_spectrum.xml`",
+            "XML": "<TraitDef>\n\n    <defName>Immunity</defName>\n\n    <degreeDatas>\n\n      <li>\n\n        <label>super-immune</label>\n\n        <description>[PAWN_nameDef] has a naturally powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.</description>\n\n        <degree>1</degree>\n\n        <statOffsets>\n\n          <ImmunityGainSpeed>0.30</ImmunityGainSpeed>\n\n        </statOffsets>\n\n      </li>\n\n      <li>\n\n        <label>sickly</label>\n\n        <description>[PAWN_nameDef] has an awful immune system. [PAWN_pronoun] gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.</description>\n\n        <degree>-1</degree>\n\n        <randomDiseaseMtbDays>30</randomDiseaseMtbDays>\n\n        <skillGains>\n\n          <Medicine>4</Medicine>\n\n        </skillGains>\n\n        <possessions>\n\n          <MedicineIndustrial>2~5</MedicineIndustrial>\n\n          <Penoxycyline>5~10</Penoxycyline>\n\n        </possessions>\n\n      </li>\n\n    </degreeDatas>\n\n  </TraitDef>"
+        }
+    ]
+}

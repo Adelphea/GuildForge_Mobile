@@ -1,0 +1,851 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "AnimalsA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AnimalsA</defName>\n\n    <iconPath>UI/Ideoligions/AnimalsA</iconPath>\n\n    <memes>\n\n      <li>Rancher</li>\n\n      <li>AnimalPersonhood</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "AnimalsB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AnimalsB</defName>\n\n    <iconPath>UI/Ideoligions/AnimalsB</iconPath>\n\n    <memes>\n\n      <li>Rancher</li>\n\n      <li>AnimalPersonhood</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "AnimalsC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AnimalsC</defName>\n\n    <iconPath>UI/Ideoligions/AnimalsC</iconPath>\n\n    <memes>\n\n      <li>Rancher</li>\n\n      <li>AnimalPersonhood</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "AnimalsD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AnimalsD</defName>\n\n    <iconPath>UI/Ideoligions/AnimalsD</iconPath>\n\n    <memes>\n\n      <li>Rancher</li>\n\n      <li>AnimalPersonhood</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "AnimalsE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AnimalsE</defName>\n\n    <iconPath>UI/Ideoligions/AnimalsE</iconPath>\n\n    <memes>\n\n      <li>Rancher</li>\n\n      <li>AnimalPersonhood</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "Archist_Lance (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>Archist_Lance</defName>\n\n    <iconPath>UI/Ideoligions/Archist_Lance</iconPath>\n\n    <memes>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "Archist_Spikes (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>Archist_Spikes</defName>\n\n    <iconPath>UI/Ideoligions/Archist_Spikes</iconPath>\n\n    <memes>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ArchotechA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ArchotechA</defName>\n\n    <iconPath>UI/Ideoligions/ArchotechA</iconPath>\n\n    <memes>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ArchotechB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ArchotechB</defName>\n\n    <iconPath>UI/Ideoligions/ArchotechB</iconPath>\n\n    <memes>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ArchotechC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ArchotechC</defName>\n\n    <iconPath>UI/Ideoligions/ArchotechC</iconPath>\n\n    <memes>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ArchotechD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ArchotechD</defName>\n\n    <iconPath>UI/Ideoligions/ArchotechD</iconPath>\n\n    <memes>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ArchotechE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ArchotechE</defName>\n\n    <iconPath>UI/Ideoligions/ArchotechE</iconPath>\n\n    <memes>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "DownBurst (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>DownBurst</defName>\n\n    <iconPath>UI/Ideoligions/DownBurst</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_TheistEmbodied</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "Eagle (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>Eagle</defName>\n\n    <iconPath>UI/Ideoligions/Eagle</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>AnimalPersonhood</li>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ElementA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ElementA</defName>\n\n    <iconPath>UI/Ideoligions/ElementA</iconPath>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ElementB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ElementB</defName>\n\n    <iconPath>UI/Ideoligions/ElementB</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ElementC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ElementC</defName>\n\n    <iconPath>UI/Ideoligions/ElementC</iconPath>\n\n    <memes>\n\n      <li>PainIsVirtue</li>\n\n      <li>Guilty</li>\n\n      <li>Cannibal</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ElementD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ElementD</defName>\n\n    <iconPath>UI/Ideoligions/ElementD</iconPath>\n\n    <memes>\n\n      <li>HighLife</li>\n\n      <li>Raider</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ElementE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ElementE</defName>\n\n    <iconPath>UI/Ideoligions/ElementE</iconPath>\n\n    <memes>\n\n      <li>AnimalPersonhood</li>\n\n      <li>Rancher</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "EmbodiedTheist_Bolthand (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>EmbodiedTheist_Bolthand</defName>\n\n    <iconPath>UI/Ideoligions/EmbodiedTheist_Bolthand</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_TheistEmbodied</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "EmbodiedTheist_Punchcloud (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>EmbodiedTheist_Punchcloud</defName>\n\n    <iconPath>UI/Ideoligions/EmbodiedTheist_Punchcloud</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_TheistEmbodied</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "FireLeaves (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>FireLeaves</defName>\n\n    <iconPath>UI/Ideoligions/FireLeaves</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n      <li>HighLife</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "FistRaised (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>FistRaised</defName>\n\n    <iconPath>UI/Ideoligions/FistRaised</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>FleshPurity</li>\n\n      <li>Supremacist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "FlowerSharp (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>FlowerSharp</defName>\n\n    <iconPath>UI/Ideoligions/FlowerSharp</iconPath>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "GeometryA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>GeometryA</defName>\n\n    <iconPath>UI/Ideoligions/GeometryA</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistEmbodied</li>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_Ideological</li>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "GeometryB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>GeometryB</defName>\n\n    <iconPath>UI/Ideoligions/GeometryB</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistEmbodied</li>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_Ideological</li>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "GeometryC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>GeometryC</defName>\n\n    <iconPath>UI/Ideoligions/GeometryC</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistEmbodied</li>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_Ideological</li>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "GeometryD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>GeometryD</defName>\n\n    <iconPath>UI/Ideoligions/GeometryD</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistEmbodied</li>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_Ideological</li>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "GeometryE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>GeometryE</defName>\n\n    <iconPath>UI/Ideoligions/GeometryE</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistEmbodied</li>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_Ideological</li>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "KnivesDown (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>KnivesDown</defName>\n\n    <iconPath>UI/Ideoligions/KnivesDown</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n      <li>Rustican</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>PainIsVirtue</li>\n\n      <li>Cannibal</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ManFlower (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ManFlower</defName>\n\n    <iconPath>UI/Ideoligions/ManFlower</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>FleshPurity</li>\n\n      <li>HumanPrimacy</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "NatureB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>NatureB</defName>\n\n    <iconPath>UI/Ideoligions/NatureB</iconPath>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "NatureC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>NatureC</defName>\n\n    <iconPath>UI/Ideoligions/NatureC</iconPath>\n\n    <memes>\n\n      <li>Proselytizer</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "NatureD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>NatureD</defName>\n\n    <iconPath>UI/Ideoligions/NatureD</iconPath>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n      <li>HighLife</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "NatureE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>NatureE</defName>\n\n    <iconPath>UI/Ideoligions/NatureE</iconPath>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "OliveBranches (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>OliveBranches</defName>\n\n    <iconPath>UI/Ideoligions/OliveBranches</iconPath>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n      <li>Collectivist</li>\n\n      <li>Structure_Ideological</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "Orbit (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>Orbit</defName>\n\n    <iconPath>UI/Ideoligions/Orbit</iconPath>\n\n    <cultures>\n\n      <li>Astropolitan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "Ouroboros (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>Ouroboros</defName>\n\n    <iconPath>UI/Ideoligions/Ouroboros</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>AnimalPersonhood</li>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "PirateC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>PirateC</defName>\n\n    <iconPath>UI/Ideoligions/PirateC</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Loyalist</li>\n\n      <li>Supremacist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "PirateD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>PirateD</defName>\n\n    <iconPath>UI/Ideoligions/PirateD</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Cannibal</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "PirateE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>PirateE</defName>\n\n    <iconPath>UI/Ideoligions/PirateE</iconPath>\n\n    <memes>\n\n      <li>Tunneler</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "PoliticalC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>PoliticalC</defName>\n\n    <iconPath>UI/Ideoligions/PoliticalC</iconPath>\n\n    <cultures>\n\n      <li>Astropolitan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Tunneler</li>\n\n      <li>Structure_Ideological</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "PoliticalD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>PoliticalD</defName>\n\n    <iconPath>UI/Ideoligions/PoliticalD</iconPath>\n\n    <memes>\n\n      <li>Guilty</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ReligionC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ReligionC</defName>\n\n    <iconPath>UI/Ideoligions/ReligionC</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistEmbodied</li>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_OriginChristian</li>\n\n      <li>Structure_OriginIslamic</li>\n\n      <li>Structure_OriginBuddhist</li>\n\n      <li>Structure_OriginHindu</li>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ReligionD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ReligionD</defName>\n\n    <iconPath>UI/Ideoligions/ReligionD</iconPath>\n\n    <memes>\n\n      <li>Structure_TheistEmbodied</li>\n\n      <li>Structure_TheistAbstract</li>\n\n      <li>Structure_OriginChristian</li>\n\n      <li>Structure_OriginIslamic</li>\n\n      <li>Structure_OriginBuddhist</li>\n\n      <li>Structure_OriginHindu</li>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ReligionE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ReligionE</defName>\n\n    <iconPath>UI/Ideoligions/ReligionE</iconPath>\n\n    <memes>\n\n      <li>Structure_Archist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "ScarHands (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>ScarHands</defName>\n\n    <iconPath>UI/Ideoligions/ScarHands</iconPath>\n\n    <memes>\n\n      <li>PainIsVirtue</li>\n\n      <li>Guilty</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "Skull (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>Skull</defName>\n\n    <iconPath>UI/Ideoligions/Skull</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>PainIsVirtue</li>\n\n      <li>Cannibal</li>\n\n      <li>Raider</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpikeyA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpikeyA</defName>\n\n    <iconPath>UI/Ideoligions/SpikeyA</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Supremacist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpikeyB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpikeyB</defName>\n\n    <iconPath>UI/Ideoligions/SpikeyB</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Supremacist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpikeyC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpikeyC</defName>\n\n    <iconPath>UI/Ideoligions/SpikeyC</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Supremacist</li>\n\n      <li>Structure_OriginIslamic</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpikeyD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpikeyD</defName>\n\n    <iconPath>UI/Ideoligions/SpikeyD</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Supremacist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpikeyE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpikeyE</defName>\n\n    <iconPath>UI/Ideoligions/SpikeyE</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Supremacist</li>\n\n      <li>Structure_OriginIslamic</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpiralsA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpiralsA</defName>\n\n    <iconPath>UI/Ideoligions/SpiralsA</iconPath>\n\n    <cultures>\n\n      <li>Kriminul</li>\n\n    </cultures>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "Steer (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>Steer</defName>\n\n    <iconPath>UI/Ideoligions/Steer</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n      <li>Rustican</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Rancher</li>\n\n      <li>AnimalPersonhood</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TechAtom (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TechAtom</defName>\n\n    <iconPath>UI/Ideoligions/TechAtom</iconPath>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TechGearchains (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TechGearchains</defName>\n\n    <iconPath>UI/Ideoligions/TechGearchains</iconPath>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TechHand (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TechHand</defName>\n\n    <iconPath>UI/Ideoligions/TechHand</iconPath>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TechLighthouse (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TechLighthouse</defName>\n\n    <iconPath>UI/Ideoligions/TechLighthouse</iconPath>\n\n    <cultures>\n\n      <li>Rustican</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TechPulse (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TechPulse</defName>\n\n    <iconPath>UI/Ideoligions/TechPulse</iconPath>\n\n    <cultures>\n\n      <li>Rustican</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "Treeflat (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>Treeflat</defName>\n\n    <iconPath>UI/Ideoligions/Treeflat</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n      <li>TreeConnection</li>\n\n      <li>Structure_Animist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TribalA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TribalA</defName>\n\n    <iconPath>UI/Ideoligions/TribalA</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Structure_Animist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TribalB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TribalB</defName>\n\n    <iconPath>UI/Ideoligions/TribalB</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Structure_Animist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TribalC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TribalC</defName>\n\n    <iconPath>UI/Ideoligions/TribalC</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Structure_Animist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TribalD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TribalD</defName>\n\n    <iconPath>UI/Ideoligions/TribalD</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Structure_Animist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TribalE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_specific.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TribalE</defName>\n\n    <iconPath>UI/Ideoligions/TribalE</iconPath>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n    <memes>\n\n      <li>Structure_Animist</li>\n\n    </memes>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "AbstractsA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AbstractsA</defName>\n\n    <iconPath>UI/Ideoligions/Universal/AbstractsA</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "AbstractsB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AbstractsB</defName>\n\n    <iconPath>UI/Ideoligions/Universal/AbstractsB</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "AbstractsC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AbstractsC</defName>\n\n    <iconPath>UI/Ideoligions/Universal/AbstractsC</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "AbstractsD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AbstractsD</defName>\n\n    <iconPath>UI/Ideoligions/Universal/AbstractsD</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "AbstractsE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>AbstractsE</defName>\n\n    <iconPath>UI/Ideoligions/Universal/AbstractsE</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "CirclesA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>CirclesA</defName>\n\n    <iconPath>UI/Ideoligions/Universal/CirclesA</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "CirclesB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>CirclesB</defName>\n\n    <iconPath>UI/Ideoligions/Universal/CirclesB</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "CirclesC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>CirclesC</defName>\n\n    <iconPath>UI/Ideoligions/Universal/CirclesC</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "CirclesD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>CirclesD</defName>\n\n    <iconPath>UI/Ideoligions/Universal/CirclesD</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "CirclesE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>CirclesE</defName>\n\n    <iconPath>UI/Ideoligions/Universal/CirclesE</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "Dotcircle (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>Dotcircle</defName>\n\n    <iconPath>UI/Ideoligions/Universal/Dotcircle</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "DoubleLoop (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>DoubleLoop</defName>\n\n    <iconPath>UI/Ideoligions/Universal/DoubleLoop</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "PoliticalE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>PoliticalE</defName>\n\n    <iconPath>UI/Ideoligions/Universal/PoliticalE</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "RoundA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>RoundA</defName>\n\n    <iconPath>UI/Ideoligions/Universal/RoundA</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "RoundB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>RoundB</defName>\n\n    <iconPath>UI/Ideoligions/Universal/RoundB</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "RoundC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>RoundC</defName>\n\n    <iconPath>UI/Ideoligions/Universal/RoundC</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "RoundD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>RoundD</defName>\n\n    <iconPath>UI/Ideoligions/Universal/RoundD</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "RoundE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>RoundE</defName>\n\n    <iconPath>UI/Ideoligions/Universal/RoundE</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpiralsB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpiralsB</defName>\n\n    <iconPath>UI/Ideoligions/Universal/SpiralsB</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpiralsC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpiralsC</defName>\n\n    <iconPath>UI/Ideoligions/Universal/SpiralsC</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpiralsD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpiralsD</defName>\n\n    <iconPath>UI/Ideoligions/Universal/SpiralsD</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "SpiralsE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>SpiralsE</defName>\n\n    <iconPath>UI/Ideoligions/Universal/SpiralsE</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "StarsA (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>StarsA</defName>\n\n    <iconPath>UI/Ideoligions/Universal/StarsA</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "StarsB (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>StarsB</defName>\n\n    <iconPath>UI/Ideoligions/Universal/StarsB</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "StarsC (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>StarsC</defName>\n\n    <iconPath>UI/Ideoligions/Universal/StarsC</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "StarsD (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>StarsD</defName>\n\n    <iconPath>UI/Ideoligions/Universal/StarsD</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "StarsE (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>StarsE</defName>\n\n    <iconPath>UI/Ideoligions/Universal/StarsE</iconPath>\n\n  </IdeoIconDef>"
+        },
+        {
+            "Title": "TripleCross (IdeoIconDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_icon_defs_universal.xml`",
+            "XML": "<IdeoIconDef>\n\n    <defName>TripleCross</defName>\n\n    <iconPath>UI/Ideoligions/Universal/TripleCross</iconPath>\n\n  </IdeoIconDef>"
+        }
+    ]
+}

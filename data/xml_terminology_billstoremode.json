@@ -1,0 +1,32 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DropOnFloor (BillStoreModeDef)",
+            "Label": "drop on floor",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/bill_defs/bill_store_mode_defs.xml`",
+            "XML": "<BillStoreModeDef>\n\n    <defName>DropOnFloor</defName>\n\n    <label>drop on floor</label>\n\n    <listOrder>0</listOrder>\n\n  </BillStoreModeDef>"
+        },
+        {
+            "Title": "BestStockpile (BillStoreModeDef)",
+            "Label": "take to best stockpile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/bill_defs/bill_store_mode_defs.xml`",
+            "XML": "<BillStoreModeDef>\n\n    <defName>BestStockpile</defName>\n\n    <label>take to best stockpile</label>\n\n    <listOrder>10</listOrder>\n\n  </BillStoreModeDef>"
+        },
+        {
+            "Title": "SpecificStockpile (BillStoreModeDef)",
+            "Label": "take to {0}",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/bill_defs/bill_store_mode_defs.xml`",
+            "XML": "<BillStoreModeDef>\n\n    <defName>SpecificStockpile</defName>\n\n    <label>take to {0}</label>\n\n    <listOrder>20</listOrder>\n\n    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>\n\n  </BillStoreModeDef>"
+        }
+    ]
+}

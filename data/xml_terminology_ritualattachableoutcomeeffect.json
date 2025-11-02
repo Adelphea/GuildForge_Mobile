@@ -1,0 +1,68 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "FarmAnimalsWanderIn (RitualAttachableOutcomeEffectDef)",
+            "Label": "farm animals wander in",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_attachable_outcomes_special.xml`",
+            "XML": "<RitualAttachableOutcomeEffectDef>\n\n    <defName>FarmAnimalsWanderIn</defName>\n\n    <workerClass>RitualAttachableOutcomeEffectWorker_FarmAnimalsWanderIn</workerClass>\n\n    <label>farm animals wander in</label>\n\n    <effectDesc>a group of farm animals will be attracted and join the colony.</effectDesc>\n\n    <letterInfoText>Curious farm animals have wandered in, attracted by the commotion.</letterInfoText>\n\n    <requiredMemeAny>\n\n      <li>Rancher</li>\n\n      <li>AnimalPersonhood</li>\n\n      <li>NaturePrimacy</li>\n\n    </requiredMemeAny>\n\n  </RitualAttachableOutcomeEffectDef>"
+        },
+        {
+            "Title": "GauranlenTreePod (RitualAttachableOutcomeEffectDef)",
+            "Label": "gauranlen pod sprout",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_attachable_outcomes_special.xml`",
+            "XML": "<RitualAttachableOutcomeEffectDef>\n\n    <defName>GauranlenTreePod</defName>\n\n    <workerClass>RitualAttachableOutcomeEffectWorker_GauranlenPosSprout</workerClass>\n\n    <label>gauranlen pod sprout</label>\n\n    <effectDesc>a Gauranlen pod will sprout at a random location on the map, if it can.</effectDesc>\n\n    <letterInfoText>A Gauranlen pod sprouted nearby.</letterInfoText>\n\n    <requiredMemeAny>\n\n      <li>TreeConnection</li>\n\n      <li>NaturePrimacy</li>\n\n    </requiredMemeAny>\n\n  </RitualAttachableOutcomeEffectDef>"
+        },
+        {
+            "Title": "InsectJellyTunnels (RitualAttachableOutcomeEffectDef)",
+            "Label": "insect jelly",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_attachable_outcomes_special.xml`",
+            "XML": "<RitualAttachableOutcomeEffectDef>\n\n    <defName>InsectJellyTunnels</defName>\n\n    <workerClass>RitualAttachableOutcomeEffectWorker_InsectJellyTunnels</workerClass>\n\n    <label>insect jelly</label>\n\n    <effectDesc>insect jelly deposits will be deposited from underground.</effectDesc>\n\n    <letterInfoText>A giant insect colony underground has deposited some insect jelly.</letterInfoText>\n\n    <requiredMemeAny>\n\n      <li>Tunneler</li>\n\n    </requiredMemeAny>\n\n    <requiredFaction>Insect</requiredFaction>\n\n  </RitualAttachableOutcomeEffectDef>"
+        },
+        {
+            "Title": "NearbyFactionGoodwill (RitualAttachableOutcomeEffectDef)",
+            "Label": "nearby faction goodwill",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_attachable_outcomes_special.xml`",
+            "XML": "<RitualAttachableOutcomeEffectDef>\n\n    <defName>NearbyFactionGoodwill</defName>\n\n    <label>nearby faction goodwill</label>\n\n    <effectDesc>you will gain goodwill from the nearest faction base.</effectDesc>\n\n    <letterInfoText>You gained {AMOUNT} goodwill with {FACTION_name}.</letterInfoText>\n\n    <workerClass>RitualAttachableOutcomeEffectWorker_NearbyFactionGoodwill</workerClass>\n\n  </RitualAttachableOutcomeEffectDef>"
+        },
+        {
+            "Title": "RandomRecruit (RitualAttachableOutcomeEffectDef)",
+            "Label": "random recruit",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_attachable_outcomes_special.xml`",
+            "XML": "<RitualAttachableOutcomeEffectDef>\n\n    <defName>RandomRecruit</defName>\n\n    <label>random recruit</label>\n\n    <effectDesc>50% chance of random recruit of the same ideoligion joining your colony.</effectDesc>\n\n    <letterInfoText>A wanderer has arrived and wants to join your colony.</letterInfoText>\n\n    <workerClass>RitualAttachableOutcomeEffectWorker_RandomRecruit</workerClass>\n\n    <disallowedRituals>\n\n      <li>FuneralStandard</li>\n\n      <li>FuneralNoCorpse</li>\n\n    </disallowedRituals>\n\n  </RitualAttachableOutcomeEffectDef>"
+        },
+        {
+            "Title": "DiscoverAncientComplex (RitualAttachableOutcomeEffectDef)",
+            "Label": "discover ancient complex",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/ritual_attachable_outcomes_special.xml`",
+            "XML": "<RitualAttachableOutcomeEffectDef>\n\n    <defName>DiscoverAncientComplex</defName>\n\n    <label>discover ancient complex</label>\n\n    <effectDesc>you will discover the location of an ancient complex nearby.</effectDesc>\n\n    <letterInfoText>You've discovered the location of an ancient complex.</letterInfoText>\n\n    <workerClass>RitualAttachableOutcomeEffectWorker_DiscoverAncientComplex</workerClass>\n\n  </RitualAttachableOutcomeEffectDef>"
+        },
+        {
+            "Title": "RechargePsyfocus (RitualAttachableOutcomeEffectDef)",
+            "Label": "recharge psyfocus",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/rituals/ritual_attachable_outcomes_universal.xml`",
+            "XML": "<RitualAttachableOutcomeEffectDef>\n\n    <defName>RechargePsyfocus</defName>\n\n    <label>recharge psyfocus</label>\n\n    <effectDesc>the psyfocus of all participants will be recharged to full.</effectDesc>\n\n    <letterInfoText>The psyfocus of all participants has been fully recharged.</letterInfoText>\n\n    <workerClass>RitualAttachableOutcomeEffectWorker_PsyfocusRecharge</workerClass>\n\n  </RitualAttachableOutcomeEffectDef>"
+        }
+    ]
+}

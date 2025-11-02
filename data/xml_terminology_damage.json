@@ -1,0 +1,419 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_Damage_BallistaBolt (DamageDef)",
+            "Label": "bolt fragment",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef ParentName=\"Arrow\">\n\n\t\t<defName>DankPyon_Damage_BallistaBolt</defName>\n\n\t\t<label>bolt fragment</label>\n\n\t\t<workerClass>MedievalOverhaul.DamagerWorker_ExplosionNoFlash</workerClass>\n\n\t\t<externalViolence>true</externalViolence>\n\n\t\t<deathMessage>{0} has been impaled to death by a ballista bolt.</deathMessage>\n\n\t\t<hediff>Stab</hediff>\n\n\t\t<hediffSkin>Cut</hediffSkin>\n\n\t\t<hediffSolid>Crack</hediffSolid>\n\n\t\t<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n\t\t<impactSoundType>Slice</impactSoundType>\n\n\t\t<armorCategory>Sharp</armorCategory>\n\n\t\t<overkillPctToDestroyPart>0~0.71</overkillPctToDestroyPart>\n\n\t\t<isRanged>true</isRanged>\n\n\t\t<makesAnimalsFlee>true</makesAnimalsFlee>\n\n\t\t<isExplosive>true</isExplosive>\n\n\t\t<minDamageToFragment>8</minDamageToFragment>\n\n\t\t<defaultDamage>5</defaultDamage>\n\n\t\t<defaultArmorPenetration>0.1</defaultArmorPenetration>\n\n\t\t<explosionCellFleck>DustPuff</explosionCellFleck>\n\n\t\t<explosionColorCenter>(1, 1, 1, 0.6)</explosionColorCenter>\n\n\t\t<explosionColorEdge>(1, 1, 1, 0.4)</explosionColorEdge>\n\n\t\t<soundExplosion>Explosion_Bomb</soundExplosion>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "DankPyon_Boulder (DamageDef)",
+            "Label": "Boulder",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef>\n\n\t\t<defName>DankPyon_Boulder</defName>\n\n\t\t<label>Boulder</label>\n\n\t\t<workerClass>MedievalOverhaul.DamagerWorker_ExplosionNoFlash</workerClass>\n\n\t\t<externalViolence>true</externalViolence>\n\n\t\t<deathMessage>{0} has been squashed to death by a boulder.</deathMessage>\n\n\t\t<hediff>Crush</hediff>\n\n\t\t<hediffSkin>Bruise</hediffSkin>\n\n\t\t<hediffSolid>Crack</hediffSolid>\n\n\t\t<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n\t\t<impactSoundType>Blunt</impactSoundType>\n\n\t\t<armorCategory>Blunt</armorCategory>\n\n\t\t<overkillPctToDestroyPart>0~0.67</overkillPctToDestroyPart>\n\n\t\t<isRanged>true</isRanged>\n\n\t\t<makesAnimalsFlee>true</makesAnimalsFlee>\n\n\t\t<isExplosive>true</isExplosive>\n\n\t\t<minDamageToFragment>4</minDamageToFragment>\n\n\t\t<defaultDamage>20</defaultDamage>\n\n\t\t<defaultArmorPenetration>0</defaultArmorPenetration>\n\n\t\t<explosionCellFleck>DustPuff</explosionCellFleck>\n\n\t\t<explosionColorCenter>(1, 1, 1, 0.9)</explosionColorCenter>\n\n\t\t<explosionColorEdge>(1, 1, 1, 0.6)</explosionColorEdge>\n\n\t\t<soundExplosion>DankPyon_Explosion_Boulder</soundExplosion>\n\n\t\t<combatLogRules>Damage_Bomb</combatLogRules>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "DankPyon_BoulderTarred (DamageDef)",
+            "Label": "Boulder",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef>\n\n\t\t<defName>DankPyon_BoulderTarred</defName>\n\n\t\t<label>Boulder</label>\n\n\t\t<workerClass>DamageWorker_Flame</workerClass>\n\n\t\t<externalViolence>true</externalViolence>\n\n\t\t<deathMessage>{0} has been squashed to death by a boulder.</deathMessage>\n\n\t\t<hediff>Burn</hediff>\n\n\t\t<hediffSkin>Bruise</hediffSkin>\n\n\t\t<hediffSolid>Crack</hediffSolid>\n\n\t\t<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n\t\t<impactSoundType>Blunt</impactSoundType>\n\n\t\t<armorCategory>Heat</armorCategory>\n\n\t\t<overkillPctToDestroyPart>0~0.67</overkillPctToDestroyPart>\n\n\t\t<isRanged>true</isRanged>\n\n\t\t<makesAnimalsFlee>true</makesAnimalsFlee>\n\n\t\t<isExplosive>true</isExplosive>\n\n\t\t<minDamageToFragment>15</minDamageToFragment>\n\n\t\t<defaultDamage>20</defaultDamage>\n\n\t\t<defaultArmorPenetration>0</defaultArmorPenetration>\n\n\t\t<explosionCellFleck>DustPuff</explosionCellFleck>\n\n\t\t<explosionColorCenter>(1, 1, 1, 0.9)</explosionColorCenter>\n\n\t\t<explosionColorEdge>(1, 1, 1, 0.6)</explosionColorEdge>\n\n\t\t<explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>\n\n\t\t<soundExplosion>DankPyon_Explosion_Boulder</soundExplosion>\n\n\t\t<combatLogRules>Damage_Bomb</combatLogRules>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "DankPyon_SchratCollapse (DamageDef)",
+            "Label": "schrat collapse",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef>\n\n\t\t<defName>DankPyon_SchratCollapse</defName>\n\n\t\t<label>schrat collapse</label>\n\n\t\t<workerClass>MedievalOverhaul.DamagerWorker_ExplosionNoFlash</workerClass>\n\n\t\t<externalViolence>true</externalViolence>\n\n\t\t<deathMessage>{0} has been squashed to death by a schrat's trunk.</deathMessage>\n\n\t\t<hediff>Crush</hediff>\n\n\t\t<hediffSkin>Bruise</hediffSkin>\n\n\t\t<hediffSolid>Crack</hediffSolid>\n\n\t\t<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n\t\t<impactSoundType>Blunt</impactSoundType>\n\n\t\t<armorCategory>Blunt</armorCategory>\n\n\t\t<overkillPctToDestroyPart>0~0.67</overkillPctToDestroyPart>\n\n\t\t<isRanged>true</isRanged>\n\n\t\t<makesAnimalsFlee>true</makesAnimalsFlee>\n\n\t\t<isExplosive>true</isExplosive>\n\n\t\t<minDamageToFragment>4</minDamageToFragment>\n\n\t\t<defaultDamage>10</defaultDamage>\n\n\t\t<defaultArmorPenetration>0</defaultArmorPenetration>\n\n\t\t<explosionCellFleck>DustPuff</explosionCellFleck>\n\n\t\t<explosionColorCenter>(1, 1, 1, 0.9)</explosionColorCenter>\n\n\t\t<explosionColorEdge>(1, 1, 1, 0.6)</explosionColorEdge>\n\n\t\t<soundExplosion>DankPyon_Explosion_Boulder</soundExplosion>\n\n\t\t<combatLogRules>Damage_Bomb</combatLogRules>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "DankPyon_LindwurmAcid (DamageDef)",
+            "Label": "lindwurm bite",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef ParentName=\"Bite\">\n\n\t\t<defName>DankPyon_LindwurmAcid</defName>\n\n\t\t<label>lindwurm bite</label>\n\n\t\t<additionalHediffs>\n\n\t\t\t<li>\n\n\t\t\t\t<hediff>DankPyon_LindwurmAcid</hediff>\n\n\t\t\t</li>\n\n\t\t</additionalHediffs>\n\n\t\t<applyAdditionalHediffsIfHuntingForFood>true</applyAdditionalHediffsIfHuntingForFood>\n\n\t\t<impactSoundType>Toxic</impactSoundType>\n\n\t\t<damageEffecter>Impact_Toxic</damageEffecter>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "DankPyon_LindwurmAcidBurn (DamageDef)",
+            "Label": "lindwurm acid burn",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef ParentName=\"Flame\">\n\n\t\t<defName>DankPyon_LindwurmAcidBurn</defName>\n\n\t\t<label>lindwurm acid burn</label>\n\n\t\t<workerClass>MedievalOverhaul.DamagerWorker_ExplosionNoFlash</workerClass>\n\n\t\t<armorCategory>Sharp</armorCategory>\n\n\t\t<impactSoundType>Toxic</impactSoundType>\n\n\t\t<explosionCellFleck>Fleck_ToxGasSmall</explosionCellFleck>\n\n\t\t<explosionColorCenter>(195, 212, 56)</explosionColorCenter>\n\n\t\t<explosionColorEdge>(108, 174, 36)</explosionColorEdge>\n\n\t\t<soundExplosion>DankPyon_FlaskBreak</soundExplosion>\n\n\t\t<damageEffecter>Impact_Toxic</damageEffecter>\n\n\t\t<additionalHediffs>\n\n\t\t\t<li>\n\n\t\t\t\t<hediff>DankPyon_LindwurmAcid</hediff>\n\n\t\t\t</li>\n\n\t\t</additionalHediffs>\n\n\t\t<scaleDamageToBuildingsBasedOnFlammability>false</scaleDamageToBuildingsBasedOnFlammability>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "DankPyon_Swallow (DamageDef)",
+            "Label": "swallow whole",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef>\n\n\t\t<defName>DankPyon_Swallow</defName>\n\n\t\t<label>swallow whole</label>\n\n\t\t<workerClass>VEF.AnimalBehaviours.DamageWorker_SwallowWhole</workerClass>\n\n\t\t<externalViolence>true</externalViolence>\n\n\t\t<deathMessage>{0} has been bitten to death.</deathMessage>\n\n\t\t<hediff>Stab</hediff>\n\n\t\t<hediffSolid>Crack</hediffSolid>\n\n\t\t<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n\t\t<impactSoundType>Slice</impactSoundType>\n\n\t\t<armorCategory>Sharp</armorCategory>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "DankPyon_Daze (DamageDef)",
+            "Label": "daze",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef>\n\n\t\t<defName>DankPyon_Daze</defName>\n\n\t\t<label>daze</label>\n\n\t\t<workerClass>MedievalOverhaul.DamageWorker_Daze</workerClass>\n\n\t\t<canInterruptJobs>false</canInterruptJobs>\n\n\t\t<makesBlood>false</makesBlood>\n\n\t\t<defaultDamage>999999</defaultDamage>\n\n\t\t<hediff>DankPyon_Daze</hediff>\n\n\t\t<explosionCellFleck>BlastDry</explosionCellFleck>\n\n\t\t<soundExplosion>Explosion_Stun</soundExplosion>\n\n\t\t<harmsHealth>false</harmsHealth>\n\n\t\t<combatLogRules>Damage_Stun</combatLogRules>\n\n\t\t<consideredHelpful>false</consideredHelpful>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "DankPyon_AlpSleep (DamageDef)",
+            "Label": "sleep",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef>\n\n\t\t<defName>DankPyon_AlpSleep</defName>\n\n\t\t<label>sleep</label>\n\n\t\t<workerClass>MedievalOverhaul.DamageWorker_AlpSleep</workerClass>\n\n\t\t<canInterruptJobs>false</canInterruptJobs>\n\n\t\t<makesBlood>false</makesBlood>\n\n\t\t<defaultDamage>10</defaultDamage>\n\n\t\t<hediff>DankPyon_AlpSleep</hediff>\n\n\t\t<explosionCellFleck>BlastDry</explosionCellFleck>\n\n\t\t<soundExplosion>Explosion_Stun</soundExplosion>\n\n\t\t<harmsHealth>false</harmsHealth>\n\n\t\t<combatLogRules>Damage_Stun</combatLogRules>\n\n\t\t<consideredHelpful>false</consideredHelpful>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "DankPyon_AlpNightmare (DamageDef)",
+            "Label": "nightmare",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/damage_defs/damages__misc.xml`",
+            "XML": "<DamageDef>\n\n\t\t<defName>DankPyon_AlpNightmare</defName>\n\n\t\t<label>nightmare</label>\n\n\t\t<workerClass>DamageWorker_AddInjury</workerClass>\n\n\t\t<externalViolence>true</externalViolence>\n\n\t\t<deathMessage>{0} has been stabbed to death.</deathMessage>\n\n\t\t<hediff>DankPyon_NightmareDamage</hediff>\n\n\t\t<armorCategory>Sharp</armorCategory>\n\n\t\t<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>\n\n\t\t<stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>\n\n\t\t<isRanged>true</isRanged>\n\n\t\t<makesAnimalsFlee>true</makesAnimalsFlee>\n\n\t</DamageDef>"
+        },
+        {
+            "Title": "Flame (DamageDef)",
+            "Label": "flame",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_environmental.xml`",
+            "XML": "<DamageDef Name=\"Flame\">\n\n    <defName>Flame</defName>\n\n    <workerClass>DamageWorker_Flame</workerClass>\n\n    <label>flame</label>\n\n    <hasForcefulImpact>false</hasForcefulImpact>\n\n    <makesBlood>false</makesBlood>\n\n    <canInterruptJobs>false</canInterruptJobs>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has burned to death.</deathMessage>\n\n    <hediff>Burn</hediff>\n\n    <armorCategory>Heat</armorCategory>\n\n    <minDamageToFragment>15</minDamageToFragment>\n\n    <defaultDamage>10</defaultDamage>\n\n    <defaultArmorPenetration>0</defaultArmorPenetration>\n\n    <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>\n\n    <explosionCellFleck>BlastFlame</explosionCellFleck>\n\n    <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>\n\n    <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>\n\n    <soundExplosion>Explosion_Flame</soundExplosion>\n\n    <combatLogRules>Damage_Flame</combatLogRules>\n\n    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>\n\n    <scaleDamageToBuildingsBasedOnFlammability>true</scaleDamageToBuildingsBasedOnFlammability>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Burn (DamageDef)",
+            "Label": "burn",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_environmental.xml`",
+            "XML": "<DamageDef ParentName=\"Flame\">\n\n    <defName>Burn</defName>\n\n    <label>burn</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Frostbite (DamageDef)",
+            "Label": "frostbite",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_environmental.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Frostbite</defName>\n\n    <label>frostbite</label>\n\n    <workerClass>DamageWorker_Frostbite</workerClass>\n\n    <externalViolence>false</externalViolence>\n\n    <deathMessage>{0} has succumbed to frostbite.</deathMessage>\n\n    <hediff>Frostbite</hediff>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "TornadoScratch (DamageDef)",
+            "Label": "scratch",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_environmental.xml`",
+            "XML": "<DamageDef>\n\n    <defName>TornadoScratch</defName>\n\n    <label>scratch</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been killed by a tornado.</deathMessage>\n\n    <hediff>Scratch</hediff>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Tornado</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "SurgicalCut (DamageDef)",
+            "Label": "surgical cut",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_medical.xml`",
+            "XML": "<DamageDef ParentName=\"CutBase\">\n\n    <defName>SurgicalCut</defName>\n\n    <label>surgical cut</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <deathMessage>{0} has died during surgery.</deathMessage>\n\n    <hediff>SurgicalCut</hediff>\n\n    <harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>\n\n    <hasForcefulImpact>false</hasForcefulImpact>\n\n    <canInterruptJobs>false</canInterruptJobs>\n\n    <impactSoundType />\n\n    <armorCategory />\n\n  </DamageDef>"
+        },
+        {
+            "Title": "ExecutionCut (DamageDef)",
+            "Label": "execution cut",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_medical.xml`",
+            "XML": "<DamageDef ParentName=\"CutBase\">\n\n    <defName>ExecutionCut</defName>\n\n    <label>execution cut</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <execution>true</execution>\n\n    <hediff>ExecutionCut</hediff>\n\n    <hediffSkin>ExecutionCut</hediffSkin>\n\n    <deathMessage>{0} has been executed by cutting.</deathMessage>\n\n    <hasForcefulImpact>false</hasForcefulImpact>\n\n    <canInterruptJobs>false</canInterruptJobs>\n\n    <impactSoundType />\n\n    <armorCategory />\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Cut (DamageDef)",
+            "Label": "cut",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef Name=\"CutBase\">\n\n    <defName>Cut</defName>\n\n    <label>cut</label>\n\n    <workerClass>DamageWorker_Cut</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been cut to death.</deathMessage>\n\n    <hediff>Cut</hediff>\n\n    <hediffSkin>Cut</hediffSkin>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Slice</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>\n\n    <cutExtraTargetsCurve>\n\n      <points>\n\n        <li>0, 0</li>\n\n        <li>0.6, 1</li>\n\n        <li>0.9, 2</li>\n\n        <li>1, 3</li>\n\n      </points>\n\n    </cutExtraTargetsCurve>\n\n    <cutCleaveBonus>1.4</cutCleaveBonus>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Crush (DamageDef)",
+            "Label": "crush",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Crush</defName>\n\n    <label>crush</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been crushed to death.</deathMessage>\n\n    <hediff>Crush</hediff>\n\n    <hediffSkin>Cut</hediffSkin>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Blunt</impactSoundType>\n\n    <armorCategory>Blunt</armorCategory>\n\n    <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Blunt (DamageDef)",
+            "Label": "blunt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef Name=\"BluntBase\">\n\n    <defName>Blunt</defName>\n\n    <label>blunt</label>\n\n    <workerClass>DamageWorker_Blunt</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been beaten to death.</deathMessage>\n\n    <hediff>Crush</hediff>\n\n    <hediffSkin>Bruise</hediffSkin>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Blunt</impactSoundType>\n\n    <armorCategory>Blunt</armorCategory>\n\n    <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>\n\n    <buildingDamageFactor>1.5</buildingDamageFactor>\n\n    <bluntStunDuration>2.0</bluntStunDuration>\n\n    <bluntInnerHitChance>0.4</bluntInnerHitChance>\n\n    <bluntInnerHitDamageFractionToConvert>0.1~0.2</bluntInnerHitDamageFractionToConvert>\n\n    <bluntInnerHitDamageFractionToAdd>0.2~0.35</bluntInnerHitDamageFractionToAdd>\n\n    <bluntStunChancePerDamagePctOfCorePartToHeadCurve>\n\n      <points>\n\n        <li>(0.04, 0.20)</li>\n\n        <li>(0.5, 1)</li>\n\n      </points>\n\n    </bluntStunChancePerDamagePctOfCorePartToHeadCurve>\n\n    <bluntStunChancePerDamagePctOfCorePartToBodyCurve>\n\n      <points>\n\n        <li>(0.4, 0)</li>\n\n        <li>(0.9, 0.15)</li>\n\n      </points>\n\n    </bluntStunChancePerDamagePctOfCorePartToBodyCurve>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Poke (DamageDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef ParentName=\"BluntBase\">\n\n    <defName>Poke</defName>\n\n    <workerClass>DamageWorker_Stab</workerClass>\n\n    <stabChanceOfForcedInternal>0.4</stabChanceOfForcedInternal>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Demolish (DamageDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef ParentName=\"BluntBase\">\n\n    <defName>Demolish</defName>\n\n    <buildingDamageFactor>10</buildingDamageFactor>\n\n    <buildingDamageFactorImpassable>0.75</buildingDamageFactorImpassable>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Stab (DamageDef)",
+            "Label": "stab",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Stab</defName>\n\n    <label>stab</label>\n\n    <workerClass>DamageWorker_Stab</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been stabbed to death.</deathMessage>\n\n    <hediff>Stab</hediff>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <impactSoundType>Slice</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>\n\n    <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Scratch (DamageDef)",
+            "Label": "scratch",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef Name=\"Scratch\">\n\n    <defName>Scratch</defName>\n\n    <label>scratch</label>\n\n    <workerClass>DamageWorker_Scratch</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been torn to death.</deathMessage>\n\n    <hediff>Scratch</hediff>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Slice</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>\n\n    <scratchSplitPercentage>0.67</scratchSplitPercentage>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "ScratchToxic (DamageDef)",
+            "Label": "toxic scratch",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef ParentName=\"Scratch\">\n\n    <defName>ScratchToxic</defName>\n\n    <label>toxic scratch</label>\n\n    <additionalHediffs>\n\n      <li>\n\n        <hediff>ToxicBuildup</hediff>\n\n        <severityPerDamageDealt>0.015</severityPerDamageDealt>\n\n        <victimSeverityScaling>ToxicResistance</victimSeverityScaling>\n\n        <inverseStatScaling>true</inverseStatScaling>\n\n        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>\n\n      </li>\n\n    </additionalHediffs>\n\n    <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>\n\n    <impactSoundType>Toxic</impactSoundType>\n\n    <damageEffecter>Impact_Toxic</damageEffecter>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Bite (DamageDef)",
+            "Label": "bite",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef Name=\"Bite\">\n\n    <defName>Bite</defName>\n\n    <label>bite</label>\n\n    <workerClass>DamageWorker_Bite</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been bitten to death.</deathMessage>\n\n    <hediff>Bite</hediff>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Slice</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "ToxicBite (DamageDef)",
+            "Label": "toxic bite",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_melee_weapon.xml`",
+            "XML": "<DamageDef ParentName=\"Bite\">\n\n    <defName>ToxicBite</defName>\n\n    <label>toxic bite</label>\n\n    <additionalHediffs>\n\n      <li>\n\n        <hediff>ToxicBuildup</hediff>\n\n        <severityPerDamageDealt>0.015</severityPerDamageDealt>\n\n        <victimSeverityScaling>ToxicResistance</victimSeverityScaling>\n\n        <inverseStatScaling>true</inverseStatScaling>\n\n        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>\n\n      </li>\n\n    </additionalHediffs>\n\n    <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>\n\n    <impactSoundType>Toxic</impactSoundType>\n\n    <damageEffecter>Impact_Toxic</damageEffecter>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Deterioration (DamageDef)",
+            "Label": "deterioration",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Deterioration</defName>\n\n    <label>deterioration</label>\n\n    <hasForcefulImpact>false</hasForcefulImpact>\n\n    <makesBlood>false</makesBlood>\n\n    <canInterruptJobs>false</canInterruptJobs>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Mining (DamageDef)",
+            "Label": "mining",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Mining</defName>\n\n    <label>mining</label>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Rotting (DamageDef)",
+            "Label": "rotting",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Rotting</defName>\n\n    <label>rotting</label>\n\n    <hasForcefulImpact>false</hasForcefulImpact>\n\n    <makesBlood>false</makesBlood>\n\n    <canInterruptJobs>false</canInterruptJobs>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Extinguish (DamageDef)",
+            "Label": "extinguish",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Extinguish</defName>\n\n    <label>extinguish</label>\n\n    <workerClass>DamageWorker_Extinguish</workerClass>\n\n    <canInterruptJobs>false</canInterruptJobs>\n\n    <makesBlood>false</makesBlood>\n\n    <defaultDamage>999999</defaultDamage>\n\n    <hediff>CoveredInFirefoam</hediff>\n\n    <explosionCellFleck>BlastExtinguisher</explosionCellFleck>\n\n    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>\n\n    <soundExplosion>Explosion_Stun</soundExplosion>\n\n    <harmsHealth>false</harmsHealth>\n\n    <combatLogRules>Damage_Extinguish</combatLogRules>\n\n    <consideredHelpful>true</consideredHelpful>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Bomb (DamageDef)",
+            "Label": "bomb",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef Name=\"Bomb\">\n\n    <defName>Bomb</defName>\n\n    <label>bomb</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <isExplosive>true</isExplosive>\n\n    <deathMessage>{0} has died in an explosion.</deathMessage>\n\n    <hediff>Shredded</hediff>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Blunt</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <minDamageToFragment>15</minDamageToFragment>\n\n    <defaultDamage>50</defaultDamage>\n\n    <defaultStoppingPower>0.5</defaultStoppingPower>\n\n    <defaultArmorPenetration>0.10</defaultArmorPenetration>\n\n    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>\n\n    <buildingDamageFactorPassable>2</buildingDamageFactorPassable>\n\n    <plantDamageFactor>4</plantDamageFactor>\n\n    <corpseDamageFactor>0.5</corpseDamageFactor>\n\n    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>\n\n    <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>\n\n    <explosionCellFleck>BlastDry</explosionCellFleck>\n\n    <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>\n\n    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>\n\n    <soundExplosion>Explosion_Bomb</soundExplosion>\n\n    <combatLogRules>Damage_Bomb</combatLogRules>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "BombSuper (DamageDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef ParentName=\"Bomb\">\n\n    <defName>BombSuper</defName>\n\n    <defaultDamage>550</defaultDamage>\n\n    <defaultStoppingPower>2.0</defaultStoppingPower>\n\n    <defaultArmorPenetration>1.30</defaultArmorPenetration>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Smoke (DamageDef)",
+            "Label": "smoke",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Smoke</defName>\n\n    <label>smoke</label>\n\n    <canInterruptJobs>false</canInterruptJobs>\n\n    <makesBlood>false</makesBlood>\n\n    <defaultDamage>0</defaultDamage>\n\n    <explosionCellFleck>BlastExtinguisher</explosionCellFleck>\n\n    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>\n\n    <harmsHealth>false</harmsHealth>\n\n    <soundExplosion>Explosion_Smoke</soundExplosion>\n\n    <combatLogRules>Damage_Smoke</combatLogRules>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Thump (DamageDef)",
+            "Label": "thump",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Thump</defName>\n\n    <label>thump</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <isExplosive>true</isExplosive>\n\n    <deathMessage>{0} has been shot to death.</deathMessage>\n\n    <hediff>Crush</hediff>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Blunt</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <minDamageToFragment>15</minDamageToFragment>\n\n    <defaultDamage>5</defaultDamage>\n\n    <defaultArmorPenetration>0</defaultArmorPenetration>\n\n    <buildingDamageFactorImpassable>15</buildingDamageFactorImpassable>\n\n    <buildingDamageFactorPassable>7.5</buildingDamageFactorPassable>\n\n    <plantDamageFactor>4</plantDamageFactor>\n\n    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>\n\n    <explosionCellFleck>BlastDry</explosionCellFleck>\n\n    <explosionColorCenter>(0.73, 0.93, 0.96)</explosionColorCenter>\n\n    <explosionColorEdge>(0.71, 0.82, 0.90)</explosionColorEdge>\n\n    <soundExplosion>Explosion_Thump</soundExplosion>\n\n    <combatLogRules>Damage_Bomb</combatLogRules>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Vaporize (DamageDef)",
+            "Label": "vaporize",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef Name=\"Vaporize\">\n\n    <defName>Vaporize</defName>\n\n    <label>vaporize</label>\n\n    <workerClass>DamageWorker_Vaporize</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been vaporized by extreme heat.</deathMessage>\n\n    <hediff>Burn</hediff>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <defaultDamage>800</defaultDamage>\n\n    <defaultStoppingPower>1.5</defaultStoppingPower>\n\n    <defaultArmorPenetration>1</defaultArmorPenetration>\n\n    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>\n\n    <buildingDamageFactorPassable>2</buildingDamageFactorPassable>\n\n    <plantDamageFactor>2</plantDamageFactor>\n\n    <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>\n\n    <explosionCellFleck>Fleck_Vaporize</explosionCellFleck>\n\n    <armorCategory>Heat</armorCategory>\n\n    <minDamageToFragment>15</minDamageToFragment>\n\n    <makesAnimalsFlee>true</makesAnimalsFlee>\n\n    <explosionColorCenter>(1, 1, 1)</explosionColorCenter>\n\n    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>\n\n    <soundExplosion>Explosion_Vaporize</soundExplosion>\n\n    <expolosionPropagationSpeed>0.3</expolosionPropagationSpeed>\n\n    <hasForcefulImpact>true</hasForcefulImpact>\n\n    <corpseDamageFactor>0.1</corpseDamageFactor>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "AcidBurn (DamageDef)",
+            "Label": "acid burn",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef ParentName=\"Flame\">\n\n    <defName>AcidBurn</defName>\n\n    <label>acid burn</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <hediff>AcidBurn</hediff>\n\n    <scaleDamageToBuildingsBasedOnFlammability>false</scaleDamageToBuildingsBasedOnFlammability>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Decayed (DamageDef)",
+            "Label": "decayed organ",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef>\n\n    <defName>Decayed</defName>\n\n    <label>decayed organ</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <deathMessage>{0} died from metabolic disruptions caused by organ decay.</deathMessage>\n\n    <hediff>Decayed</hediff>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Beam (DamageDef)",
+            "Label": "beam",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef Name=\"Beam\">\n\n    <defName>Beam</defName>\n\n    <label>beam</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been beamed to death.</deathMessage>\n\n    <hediff>BeamWound</hediff>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Bullet</impactSoundType>\n\n    <armorCategory>Heat</armorCategory>\n\n    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>\n\n    <isRanged>true</isRanged>\n\n    <makesAnimalsFlee>true</makesAnimalsFlee>\n\n    <defaultDamage>10</defaultDamage>\n\n    <defaultArmorPenetration>0.5</defaultArmorPenetration>\n\n    <buildingDamageFactorImpassable>0.4</buildingDamageFactorImpassable>\n\n    <buildingDamageFactorPassable>0.2</buildingDamageFactorPassable>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Nerve (DamageDef)",
+            "Label": "nerve",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef ParentName=\"Arrow\">\n\n    <defName>Nerve</defName>\n\n    <label>nerve</label>\n\n    <workerClass>DamageWorker_Nerve</workerClass>\n\n    <deathMessage>{0} has been killed by nerve shock.</deathMessage>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "NerveStun (DamageDef)",
+            "Label": "nerve stun",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_misc.xml`",
+            "XML": "<DamageDef>\n\n    <defName>NerveStun</defName>\n\n    <label>nerve stun</label>\n\n    <causeStun>true</causeStun>\n\n    <stunAdaptationTicks>240</stunAdaptationTicks>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "RangedStab (DamageDef)",
+            "Label": "stab",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_ranged_weapon.xml`",
+            "XML": "<DamageDef>\n\n    <defName>RangedStab</defName>\n\n    <label>stab</label>\n\n    <workerClass>DamageWorker_Stab</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been stabbed to death.</deathMessage>\n\n    <hediff>Stab</hediff>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <impactSoundType>Slice</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>\n\n    <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>\n\n    <isRanged>true</isRanged>\n\n    <makesAnimalsFlee>true</makesAnimalsFlee>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Bullet (DamageDef)",
+            "Label": "bullet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_ranged_weapon.xml`",
+            "XML": "<DamageDef Name=\"Bullet\">\n\n    <defName>Bullet</defName>\n\n    <label>bullet</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been shot to death.</deathMessage>\n\n    <hediff>Gunshot</hediff>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Bullet</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>\n\n    <isRanged>true</isRanged>\n\n    <makesAnimalsFlee>true</makesAnimalsFlee>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Arrow (DamageDef)",
+            "Label": "arrow",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_ranged_weapon.xml`",
+            "XML": "<DamageDef Name=\"Arrow\">\n\n    <defName>Arrow</defName>\n\n    <label>arrow</label>\n\n    <workerClass>DamageWorker_AddInjury</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been shot to death by an arrow.</deathMessage>\n\n    <hediff>Cut</hediff>\n\n    <hediffSolid>Crack</hediffSolid>\n\n    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>\n\n    <impactSoundType>Bullet</impactSoundType>\n\n    <armorCategory>Sharp</armorCategory>\n\n    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>\n\n    <isRanged>true</isRanged>\n\n    <makesAnimalsFlee>true</makesAnimalsFlee>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "ArrowHighVelocity (DamageDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_ranged_weapon.xml`",
+            "XML": "<DamageDef ParentName=\"Arrow\">\n\n    <defName>ArrowHighVelocity</defName>\n\n    <hediff>Stab</hediff>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "Stun (DamageDef)",
+            "Label": "stun",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_stun.xml`",
+            "XML": "<DamageDef Name=\"Stun\" ParentName=\"StunBase\">\n\n    <defName>Stun</defName>\n\n    <label>stun</label>\n\n    <workerClass>DamageWorker_Stun</workerClass>\n\n    <externalViolence>true</externalViolence>\n\n    <deathMessage>{0} has been stunned to death.</deathMessage>\n\n    <defaultDamage>20</defaultDamage>\n\n    <explosionCellFleck>BlastDry</explosionCellFleck>\n\n    <soundExplosion>Explosion_Stun</soundExplosion>\n\n    <combatLogRules>Damage_Stun</combatLogRules>\n\n    <causeStun>true</causeStun>\n\n  </DamageDef>"
+        },
+        {
+            "Title": "EMP (DamageDef)",
+            "Label": "EMP",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/damage_defs/damages_stun.xml`",
+            "XML": "<DamageDef ParentName=\"StunBase\">\n\n    <defName>EMP</defName>\n\n    <label>EMP</label>\n\n    <externalViolenceForMechanoids>true</externalViolenceForMechanoids>\n\n    <deathMessage>{0} has been EMPed to death.</deathMessage>\n\n    <harmsHealth>false</harmsHealth>\n\n    <impactSoundType>Electric</impactSoundType>\n\n    <defaultDamage>50</defaultDamage>\n\n    <explosionSnowMeltAmount>0</explosionSnowMeltAmount>\n\n    <explosionCellFleck>BlastEMP</explosionCellFleck>\n\n    <explosionColorEdge>(0.8, 0.8, 0.8, 0.8)</explosionColorEdge>\n\n    <explosionInteriorFleck>ElectricalSpark</explosionInteriorFleck>\n\n    <soundExplosion>Explosion_EMP</soundExplosion>\n\n    <combatLogRules>Damage_EMP</combatLogRules>\n\n    <causeStun>true</causeStun>\n\n    <stunResistStat MayRequireAnyOf=\"Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Anomaly\">EMPResistance</stunResistStat>\n\n    <stunAdaptationTicks>2200</stunAdaptationTicks>\n\n  </DamageDef>"
+        }
+    ]
+}

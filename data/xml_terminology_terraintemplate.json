@@ -1,0 +1,41 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Carpet (TerrainTemplateDef)",
+            "Label": "carpet ({0})",
+            "Description Originale": "Soft carpet made from fibers dyed a single color. It's welcoming, cozy, and boosts the beauty of the room it's in. It's also quite flammable, and cleaning it is a laborious process.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainTemplateDef>\n\n    <defName>Carpet</defName>\n\n    <label>carpet ({0})</label>\n\n    <description>Soft carpet made from fibers dyed a single color. It's welcoming, cozy, and boosts the beauty of the room it's in. It's also quite flammable, and cleaning it is a laborious process.</description>\n\n    <texturePath>Terrain/Surfaces/Carpet</texturePath>\n\n    <researchPrerequisites>\n\n      <li>CarpetMaking</li>\n\n    </researchPrerequisites>\n\n    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>\n\n    <burnedDef>BurnedCarpet</burnedDef>\n\n    <designatorDropdown>Floor_Carpet</designatorDropdown>\n\n    <costList>\n\n      <Cloth>7</Cloth>\n\n    </costList>\n\n    <tags>\n\n      <li>Floor</li>\n\n    </tags>\n\n    <statBases>\n\n      <Beauty>2</Beauty>\n\n      <Flammability>0.32</Flammability>\n\n      <WorkToBuild>800</WorkToBuild>\n\n      <CleaningTimeFactor>2</CleaningTimeFactor>\n\n    </statBases>\n\n    <uiOrder>2100</uiOrder>\n\n    <renderPrecedenceStart>200</renderPrecedenceStart>\n\n  </TerrainTemplateDef>"
+        },
+        {
+            "Title": "Carpet_Morbid (TerrainTemplateDef)",
+            "Label": "morbid carpet ({0})",
+            "Description Originale": "Fine carpet in a morbid style.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainTemplateDef ParentName=\"IdeoCarpetTemplateBase\">\n\n    <defName>Carpet_Morbid</defName>\n\n    <label>morbid carpet ({0})</label>\n\n    <description>Fine carpet in a morbid style.</description>\n\n    <texturePath>Terrain/Surfaces/MorbidCarpet</texturePath>\n\n    <designatorDropdown>Floor_Morbid_Carpet</designatorDropdown>\n\n    <dominantStyleCategory>Morbid</dominantStyleCategory>\n\n  </TerrainTemplateDef>"
+        },
+        {
+            "Title": "Carpet_Transhumanist (TerrainTemplateDef)",
+            "Label": "hex carpet ({0})",
+            "Description Originale": "Fine carpet with a hexagonal pattern for that ultra-technological look.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainTemplateDef ParentName=\"IdeoCarpetTemplateBase\">\n\n    <defName>Carpet_Transhumanist</defName>\n\n    <label>hex carpet ({0})</label>\n\n    <description>Fine carpet with a hexagonal pattern for that ultra-technological look.</description>\n\n    <texturePath>Terrain/Surfaces/HexCarpet</texturePath>\n\n    <designatorDropdown>Floor_Transhumanist_Carpet</designatorDropdown>\n\n    <dominantStyleCategory>Techist</dominantStyleCategory>\n\n  </TerrainTemplateDef>"
+        },
+        {
+            "Title": "CarpetFine (TerrainTemplateDef)",
+            "Label": "fine carpet ({0})",
+            "Description Originale": "Luxurious, ornately-patterned carpet made from fibers dyed a single color. Beautiful to look at, but cleaning it is a labor-intensive process.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/terrain_defs/terrain_floors_fine_carpet.xml`",
+            "XML": "<TerrainTemplateDef>\n\n    <defName>CarpetFine</defName>\n\n    <label>fine carpet ({0})</label>\n\n    <description>Luxurious, ornately-patterned carpet made from fibers dyed a single color. Beautiful to look at, but cleaning it is a labor-intensive process.</description>\n\n    <texturePath>Terrain/Surfaces/CarpetFine</texturePath>\n\n    <researchPrerequisites>\n\n      <li>CarpetMaking</li>\n\n    </researchPrerequisites>\n\n    <burnedDef>BurnedCarpet</burnedDef>\n\n    <designatorDropdown>Floor_Carpet_Fine</designatorDropdown>\n\n    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>\n\n    <costList>\n\n      <Cloth>35</Cloth>\n\n    </costList>\n\n    <statBases>\n\n      <Beauty>4</Beauty>\n\n      <Flammability>0.32</Flammability>\n\n      <WorkToBuild>4000</WorkToBuild>\n\n      <CleaningTimeFactor>2</CleaningTimeFactor>\n\n    </statBases>\n\n    <tags>\n\n      <li>Floor</li>\n\n      <li>FineFloor</li>\n\n    </tags>\n\n    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>\n\n    <uiOrder>2110</uiOrder>\n\n    <renderPrecedenceStart>200</renderPrecedenceStart>\n\n  </TerrainTemplateDef>"
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "RansomDemand (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_choice_letters.xml`",
+            "XML": "<LetterDef ParentName=\"CustomChoiceLetterBase\">\n\n    <defName>RansomDemand</defName>\n\n    <letterClass>ChoiceLetter_RansomDemand</letterClass>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "ChoosePawn (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_choice_letters.xml`",
+            "XML": "<LetterDef ParentName=\"CustomChoiceLetterBase\">\n\n    <defName>ChoosePawn</defName>\n\n    <letterClass>ChoiceLetter_ChoosePawn</letterClass>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "AcceptVisitors (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_choice_letters.xml`",
+            "XML": "<LetterDef ParentName=\"CustomChoiceLetterBase\">\n\n    <defName>AcceptVisitors</defName>\n\n    <letterClass>ChoiceLetter_AcceptVisitors</letterClass>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "AcceptJoiner (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_choice_letters.xml`",
+            "XML": "<LetterDef ParentName=\"CustomChoiceLetterBase\">\n\n    <defName>AcceptJoiner</defName>\n\n    <letterClass>ChoiceLetter_AcceptJoiner</letterClass>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "BetrayVisitors (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_choice_letters.xml`",
+            "XML": "<LetterDef ParentName=\"CustomChoiceLetterBase\">\n\n    <defName>BetrayVisitors</defName>\n\n    <letterClass>ChoiceLetter_BetrayVisitors</letterClass>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "GameEnded (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_choice_letters.xml`",
+            "XML": "<LetterDef ParentName=\"CustomChoiceLetterBase\">\n\n    <defName>GameEnded</defName>\n\n    <letterClass>ChoiceLetter_GameEnded</letterClass>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "Death (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_notification_letters.xml`",
+            "XML": "<LetterDef ParentName=\"NegativeEvent\">\n\n    <defName>Death</defName>\n\n    <letterClass>DeathLetter</letterClass>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "NewQuest (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_notification_letters.xml`",
+            "XML": "<LetterDef ParentName=\"PositiveEvent\">\n\n    <defName>NewQuest</defName>\n\n    <letterClass>NewQuestLetter</letterClass>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "NewQuest_ThreatBig (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_notification_letters.xml`",
+            "XML": "<LetterDef ParentName=\"ThreatBig\">\n\n    <defName>NewQuest_ThreatBig</defName>\n\n    <letterClass>NewQuestLetter</letterClass>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "RitualOutcomePositive (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_notification_letters.xml`",
+            "XML": "<LetterDef>\n\n    <defName>RitualOutcomePositive</defName>\n\n    <color>(120, 176, 216)</color>\n\n    <flashColor>(106, 179, 231)</flashColor>\n\n    <flashInterval>90</flashInterval>\n\n    <arriveSound>RitualConclusion_Positive</arriveSound>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "RitualOutcomeNegative (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/custom_notification_letters.xml`",
+            "XML": "<LetterDef>\n\n    <defName>RitualOutcomeNegative</defName>\n\n    <color>(204, 196, 135)</color>\n\n    <flashColor>(210, 198, 106)</flashColor>\n\n    <flashInterval>40</flashInterval>\n\n    <arriveSound>RitualConclusion_Negative</arriveSound>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "BundleLetter (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/misc_letters.xml`",
+            "XML": "<LetterDef>\n\n    <defName>BundleLetter</defName>\n\n    <letterClass>BundleLetter</letterClass>\n\n    <color>(175, 176, 185)</color>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "ThreatBig (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/standard_letters.xml`",
+            "XML": "<LetterDef Name=\"ThreatBig\">\n\n    <defName>ThreatBig</defName>\n\n    <color>(204, 115, 115)</color>\n\n    <flashColor>(255, 85, 85)</flashColor>\n\n    <flashInterval>6</flashInterval>\n\n    <bounce>true</bounce>\n\n    <arriveSound>LetterArrive_BadUrgentBig</arriveSound>\n\n    <pauseMode>MajorThreat</pauseMode>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "ThreatSmall (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/standard_letters.xml`",
+            "XML": "<LetterDef>\n\n    <defName>ThreatSmall</defName>\n\n    <color>(204, 155, 125)</color>\n\n    <flashColor>(255, 155, 95)</flashColor>\n\n    <flashInterval>16</flashInterval>\n\n    <bounce>true</bounce>\n\n    <arriveSound>LetterArrive_BadUrgent</arriveSound>\n\n    <pauseMode>AnyThreat</pauseMode>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "NegativeEvent (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/standard_letters.xml`",
+            "XML": "<LetterDef Name=\"NegativeEvent\">\n\n    <defName>NegativeEvent</defName>\n\n    <color>(204, 196, 135)</color>\n\n    <flashColor>(210, 198, 106)</flashColor>\n\n    <flashInterval>40</flashInterval>\n\n    <arriveSound>LetterArrive_BadUrgentSmall</arriveSound>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "NeutralEvent (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/standard_letters.xml`",
+            "XML": "<LetterDef>\n\n    <defName>NeutralEvent</defName>\n\n    <color>(175, 176, 185)</color>\n\n    <flashColor>(160, 170, 180)</flashColor>\n\n    <flashInterval>90</flashInterval>\n\n    <arriveSound>LetterArrive</arriveSound>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "PositiveEvent (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/letter_defs/standard_letters.xml`",
+            "XML": "<LetterDef Name=\"PositiveEvent\">\n\n    <defName>PositiveEvent</defName>\n\n    <color>(120, 176, 216)</color>\n\n    <flashColor>(106, 179, 231)</flashColor>\n\n    <flashInterval>90</flashInterval>\n\n    <arriveSound>LetterArrive_Good</arriveSound>\n\n  </LetterDef>"
+        },
+        {
+            "Title": "RelicHuntInstallationFound (LetterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/letter_defs/custom_notification_letters.xml`",
+            "XML": "<LetterDef ParentName=\"PositiveEvent\">\n\n    <defName>RelicHuntInstallationFound</defName>\n\n    <arriveSound>RelicHuntInstallationFound</arriveSound>\n\n  </LetterDef>"
+        }
+    ]
+}

@@ -1,0 +1,1310 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Mote_WaterSplashes (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/effecter__misc.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Mote_WaterSplashes</defName>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n   \n\n      <fadeInTime>0.04</fadeInTime>\n\n      <solidTime>0.5</solidTime>\n\n      <fadeOutTime>2</fadeOutTime>\n\n   \n\n    <graphicData>\n\n      <texPath>DBH/Things/Mote/splashes/splash</texPath>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Mote_Urine (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/mote__visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n\t\t<defName>Mote_Urine</defName>\n\n\t\t<graphicData>\n\n\t\t\t<texPath>DBH/Things/Mote/Urine</texPath>\n\n\t\t</graphicData>\n\n\t\t<altitudeLayer>MoteOverhead</altitudeLayer>\n\n\t\t<fadeInTime>0.40</fadeInTime>\n\n\t\t<solidTime>2</solidTime>\n\n\t\t<fadeOutTime>2</fadeOutTime>\n\n\t</FleckDef>"
+        },
+        {
+            "Title": "Mote_Sewage (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/mote__visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n\t\t<defName>Mote_Sewage</defName>\n\n\t\t<graphicData>\n\n\t\t\t<texPath>DBH/Things/Mote/sewage2</texPath>\n\n\t\t</graphicData>\n\n\t\t<altitudeLayer>MoteLow</altitudeLayer>\n\n\t\t<fadeInTime>0.40</fadeInTime>\n\n\t\t<solidTime>2</solidTime>\n\n\t\t<fadeOutTime>2</fadeOutTime>\n\n\t</FleckDef>"
+        },
+        {
+            "Title": "Mote_Irrigation (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/mote__visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\" DBHLite=\"true\">\n\n\t\t<defName>Mote_Irrigation</defName>\n\n\t\t<graphicData>\n\n\t\t\t<texPath>DBH/Things/Mote/irrigationspray</texPath>\n\n\t\t</graphicData>\n\n\t\t<altitudeLayer>Projectile</altitudeLayer>\n\n\t\t<fadeInTime>0.40</fadeInTime>\n\n\t\t<solidTime>2</solidTime>\n\n\t\t<fadeOutTime>2</fadeOutTime>\n\n\t</FleckDef>"
+        },
+        {
+            "Title": "Fleck_SteamRoom (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/mote__visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n\t\t<defName>Fleck_SteamRoom</defName>\n\n\t\t<graphicData>\n\n\t\t\t<texPath>DBH/Things/Mote/steam2</texPath>\n\n\t\t</graphicData>\n\n\t\t<altitudeLayer>MoteOverhead</altitudeLayer>\n\n\t\t<fadeInTime>2</fadeInTime>\n\n\t\t<solidTime>2</solidTime>\n\n\t\t<fadeOutTime>5</fadeOutTime>\n\n\t</FleckDef>"
+        },
+        {
+            "Title": "Mote_WashSteam (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/mote__visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n\t\t<defName>Mote_WashSteam</defName>\n\n\t\t<graphicData>\n\n\t\t\t<texPath>DBH/Things/Mote/steam1</texPath>\n\n\t\t</graphicData>\n\n\t\t<altitudeLayer>MoteOverhead</altitudeLayer>\n\n\t\t<fadeInTime>1</fadeInTime>\n\n\t\t<solidTime>0</solidTime>\n\n\t\t<fadeOutTime>2</fadeOutTime>\n\n\t\t<growthRate>0.12</growthRate>\n\n\t</FleckDef>"
+        },
+        {
+            "Title": "Mote_MyBubbles (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/mote__visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n\t\t<defName>Mote_MyBubbles</defName>\n\n\t\t<graphicData>\n\n\t\t\t<texPath>DBH/Things/Building/HotTub/MyBubbles</texPath>\n\n\t\t</graphicData>\n\n\t\t<altitudeLayer>Building</altitudeLayer>\n\n\t\t<altitudeLayerIncOffset>0.63</altitudeLayerIncOffset>\n\n\t\t<fadeInTime>1</fadeInTime>\n\n\t\t<solidTime>0</solidTime>\n\n\t\t<fadeOutTime>0.2</fadeOutTime>\n\n\t\t<growthRate>0.1</growthRate>\n\n\t</FleckDef>"
+        },
+        {
+            "Title": "FeedbackGoto (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta.xml`",
+            "XML": "<FleckDef ParentName=\"FleckFeedbackBase\">\n\n    <defName>FeedbackGoto</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/FeedbackGoto</texPath>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FeedbackShoot (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta.xml`",
+            "XML": "<FleckDef ParentName=\"FleckFeedbackBase\">\n\n    <defName>FeedbackShoot</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/FeedbackShoot</texPath>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FeedbackMelee (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta.xml`",
+            "XML": "<FleckDef ParentName=\"FleckFeedbackBase\">\n\n    <defName>FeedbackMelee</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/FeedbackMelee</texPath>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FeedbackEquip (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta.xml`",
+            "XML": "<FleckDef ParentName=\"FleckFeedbackBase\">\n\n    <defName>FeedbackEquip</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/FeedbackEquip</texPath>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FeedbackExtinguish (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta.xml`",
+            "XML": "<FleckDef ParentName=\"FleckFeedbackBase\">\n\n    <defName>FeedbackExtinguish</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/FeedbackExtinguish</texPath>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Meditating (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta_status.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Meditating</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Meditate</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Heart (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta_status.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Heart</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Heart</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "HealingCross (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta_status.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>HealingCross</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/HealingCross</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SleepZ (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta_status.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>SleepZ</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/SleepZ</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SleepZ_Small (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta_status.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>SleepZ_Small</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/SleepZ</texPath>\n\n      <drawSize>0.75</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SleepZ_Tiny (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta_status.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>SleepZ_Tiny</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/SleepZ</texPath>\n\n      <drawSize>0.5</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "IncapIcon (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_meta_status.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>IncapIcon</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/IncapIcon</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Footprint (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_special.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>Footprint</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Footprint</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>2.2</solidTime>\n\n    <fadeOutTime>2.6</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Horseshoe (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_special.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Horseshoe</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Horseshoe</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <solidTime>10</solidTime>\n\n    <fadeOutTime>4</fadeOutTime>\n\n    <landSound>HorseshoeImpact</landSound>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Stone (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_special.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Stone</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Stone</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <solidTime>10</solidTime>\n\n    <fadeOutTime>4</fadeOutTime>\n\n    <landSound>StoneImpact</landSound>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SpeechLines (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_special.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>SpeechLines</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <graphicClass>Graphic_Fleck</graphicClass>\n\n      <shaderType>Mote</shaderType>\n\n      <texPath>Things/Mote/RitualEffects/SpeechLines</texPath>\n\n      <drawSize>(0.7, 0.7)</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.2</solidTime>\n\n    <fadeInTime>0.03</fadeInTime>\n\n    <fadeOutTime>0.02</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ExplosionFlash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>ExplosionFlash</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.05</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/ExplosionFlash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "AirPuff (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>AirPuff</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/AirPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.03</solidTime>\n\n    <fadeOutTime>1</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "DustPuff (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>DustPuff</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/DustPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.03</solidTime>\n\n    <fadeOutTime>1</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "DustPuffThick (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>DustPuffThick</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/DustPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <solidTime>0.6</solidTime>\n\n    <fadeOutTime>1.4</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "DustPuffLong (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>DustPuffLong</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/DustPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>1.5</fadeInTime>\n\n    <solidTime>3</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "MetaPuff (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>MetaPuff</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/MetaPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <realTime>true</realTime>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.03</solidTime>\n\n    <fadeOutTime>1</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "TornadoDustPuff (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>TornadoDustPuff</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/MetaPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.03</solidTime>\n\n    <fadeOutTime>1</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Smoke (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Smoke</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Smoke</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.50</fadeInTime>\n\n    <solidTime>6</solidTime>\n\n    <fadeOutTime>3.2</fadeOutTime>\n\n    <growthRate>0.005</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SmokeGrowing (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>SmokeGrowing</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Smoke</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.50</fadeInTime>\n\n    <solidTime>6</solidTime>\n\n    <fadeOutTime>3.2</fadeOutTime>\n\n    <growthRate>0.04</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "DustSlow (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>DustSlow</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/DustPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.40</fadeInTime>\n\n    <solidTime>2</solidTime>\n\n    <fadeOutTime>2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FireGlow (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>FireGlow</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/FireGlow</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.75</fadeInTime>\n\n    <solidTime>1.08</solidTime>\n\n    <fadeOutTime>0.8</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "MicroSparks (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\" Name=\"MicroSparks\">\n\n    <defName>MicroSparks</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/MicroSparks</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.75</fadeInTime>\n\n    <solidTime>0.5</solidTime>\n\n    <fadeOutTime>0.65</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "MicroSparksFast (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"MicroSparks\">\n\n    <defName>MicroSparksFast</defName>\n\n    <fadeInTime>0.15</fadeInTime>\n\n    <solidTime>0.3</solidTime>\n\n    <fadeOutTime>0.45</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "HeatGlow (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>HeatGlow</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/FireGlow</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>2.6</fadeInTime>\n\n    <solidTime>1.5</solidTime>\n\n    <fadeOutTime>3.3</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "HeatGlow_Intense (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>HeatGlow_Intense</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/HeatGlow</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.2</fadeInTime>\n\n    <solidTime>0.3</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "LightningGlow (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>LightningGlow</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/LightningGlow</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>0.08</solidTime>\n\n    <fadeOutTime>0.35</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ShotFlash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>ShotFlash</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.05</solidTime>\n\n    <fadeOutTime>0.05</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/ShotFlash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SparkFlash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>SparkFlash</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.05</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/SparkFlash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "YellowSparkFlash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>YellowSparkFlash</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.05</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/YellowSparkFlash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BloodSplash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BloodSplash</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.07</solidTime>\n\n    <fadeOutTime>0.08</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BloodSplash</texPath>\n\n      <shaderType>Mote</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BloodSplashLong (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>BloodSplashLong</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.5</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BloodSplash</texPath>\n\n      <shaderType>Mote</shaderType>\n\n      <color>(0.9,0,0,0.8)</color>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BodyImpact (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BodyImpact</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.07</solidTime>\n\n    <fadeOutTime>0.05</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BodyImpact</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "GrowingFlash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>GrowingFlash</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.2</solidTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n    <growthRate>57</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/PlainFlash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "GrowingFlashSmall (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>GrowingFlashSmall</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.2</solidTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n    <growthRate>20</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BrightFlash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PlainFlash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>PlainFlash</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.05</solidTime>\n\n    <fadeOutTime>0.05</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/PlainFlash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ActivatorCountdownFlash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <defName>ActivatorCountdownFlash</defName>\n\n    <solidTime>0.15</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <growthRate>37</growthRate>\n\n    <graphicData>\n\n      <drawSize>0.32</drawSize>\n\n      <color>(135, 215, 40, 200)</color>\n\n      <texPath>Things/Mote/BrightFlash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastAreaEffect (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckGlowDistortBackground\" Name=\"FleckPsycastAreaEffect\">\n\n    <defName>PsycastAreaEffect</defName>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <fadeInTime>0.02</fadeInTime>\n\n    <fadeOutTime>0.6</fadeOutTime>\n\n    <solidTime>0.12</solidTime>\n\n    <growthRate>1.5</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Black</texPath>\n\n      <shaderParameters>\n\n        <_distortionIntensity>0.05</_distortionIntensity>\n\n        <_brightnessMultiplier>1.15</_brightnessMultiplier>\n\n      </shaderParameters>\n\n      <drawSize>2.3</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastPsychicLine (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckGlowDistortBackground\">\n\n    <defName>PsycastPsychicLine</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <solidTime>0.0</solidTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/PsycastPsychicLine</texPath>\n\n      <shaderParameters>\n\n        <_distortionIntensity>0.15</_distortionIntensity>\n\n        <_DistortionTex>/Things/Mote/PsycastPsychicLineMask</_DistortionTex>\n\n      </shaderParameters>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastPsychicEffect (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckGlowDistortBackground\">\n\n    <defName>PsycastPsychicEffect</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.03</fadeInTime>\n\n    <fadeOutTime>0.05</fadeOutTime>\n\n    <solidTime>0.15</solidTime>\n\n    <growthRate>1.5</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Black</texPath>\n\n      <shaderParameters>\n\n        <_distortionIntensity>0.024</_distortionIntensity>\n\n        <_brightnessMultiplier>1.1</_brightnessMultiplier>\n\n      </shaderParameters>\n\n      <drawSize>2.5</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastSkipFlashEntry (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>PsycastSkipFlashEntry</defName>\n\n    <altitudeLayer>VisEffects</altitudeLayer>\n\n    <fadeInTime>0.15</fadeInTime>\n\n    <fadeOutTime>0.15</fadeOutTime>\n\n    <solidTime>0.08</solidTime>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <shaderType>MotePsychicSkipFlash</shaderType>\n\n      <texPath>Things/Mote/PsycastSkipFlash</texPath>\n\n      <shaderParameters>\n\n        <_Noise>/Things/Mote/SkipFlashNoise</_Noise>\n\n      </shaderParameters>\n\n      <drawSize>2.6</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastSkipInnerEntry (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"PsycastSkipInner\">\n\n    <defName>PsycastSkipInnerEntry</defName>\n\n    <graphicData>\n\n      <shaderParameters>\n\n        <_inTime>0.0</_inTime>\n\n        <_solidTime>0.2</_solidTime>\n\n        <_outTime>0.1</_outTime>\n\n      </shaderParameters>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastSkipInnerExit (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"PsycastSkipInner\">\n\n    <defName>PsycastSkipInnerExit</defName>\n\n    <graphicData>\n\n      <shaderParameters>\n\n        <_inTime>0.2</_inTime>\n\n        <_solidTime>0.2</_solidTime>\n\n        <_outTime>0.1</_outTime>\n\n        <_AgeOffset>0.07</_AgeOffset>\n\n      </shaderParameters>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastSkipOuterRingEntry (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"PsycastSkipOuterRing\">\n\n    <defName>PsycastSkipOuterRingEntry</defName>\n\n    <graphicData>\n\n      <shaderParameters>\n\n        <_inTime>0.0</_inTime>\n\n      </shaderParameters>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastSkipOuterRingExit (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"PsycastSkipOuterRing\">\n\n    <defName>PsycastSkipOuterRingExit</defName>\n\n    <graphicData>\n\n      <shaderParameters>\n\n        <_inTime>0.2</_inTime>\n\n      </shaderParameters>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ShotHit_Dirt (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>ShotHit_Dirt</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/ShotHit_Dirt</texPath>\n\n      <shaderType>Transparent</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <solidTime>0.03</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SandInEyes (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>SandInEyes</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/SandInEyes</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.5</solidTime>\n\n    <fadeOutTime>2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "WoodBit (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>WoodBit</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/WoodBit</texPath>\n\n      <shaderType>Transparent</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.15</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Music (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Music</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/MusicNote</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "HarvestWood (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>HarvestWood</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/WoodBit</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.15</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <speedPerTime>-40</speedPerTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "DirtBits (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>DirtBits</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/WoodBit</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.15</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <speedPerTime>-40</speedPerTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "DirtBitsArching (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>DirtBitsArching</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/WoodBit</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <solidTime>0.3</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <archHeight>.5</archHeight>\n\n    <archDuration>.5</archDuration>\n\n    <speedPerTime>-2</speedPerTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SnowBits (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>SnowBits</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/SnowBit</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.15</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <speedPerTime>-40</speedPerTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ResearchPage (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>ResearchPage</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/ResearchPage</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>1</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <speedPerTime>-40</speedPerTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BlastDry (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BlastDry</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BlastDry</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BlastEMP (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BlastEMP</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BlastEMP</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "LineEMP (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>LineEMP</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/LineEMP</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.4</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ArcLargeEMP_A (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>ArcLargeEMP_A</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/ArcLargeEMP_A</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ArcLargeEMP_B (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>ArcLargeEMP_B</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/ArcLargeEMP_B</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BlastFlame (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BlastFlame</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BlastFlame</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ElectricalSpark (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>ElectricalSpark</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/ElectricalSpark</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.08</solidTime>\n\n    <fadeOutTime>0.13</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BlastExtinguisher (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BlastExtinguisher</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BlastExtinguisher</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "AcidSpray (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>AcidSpray</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/AcidSpray</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>0.2</solidTime>\n\n    <fadeOutTime>1</fadeOutTime>\n\n    <growthRate>0.9</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FoamSpray (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_RandomGraphic_Thrown\">\n\n    <defName>FoamSpray</defName>\n\n    <randomGraphics>\n\n      <li>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/FoamSpray/Foam_A</texPath>\n\n        <shaderType>TransparentPostLight</shaderType>\n\n        <renderInstanced>true</renderInstanced>\n\n      </li>\n\n      <li>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/FoamSpray/Foam_B</texPath>\n\n        <shaderType>TransparentPostLight</shaderType>\n\n        <renderInstanced>true</renderInstanced>\n\n      </li>\n\n      <li>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/FoamSpray/Foam_C</texPath>\n\n        <shaderType>TransparentPostLight</shaderType>\n\n        <renderInstanced>true</renderInstanced>\n\n      </li>\n\n    </randomGraphics>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0</fadeInTime>\n\n    <solidTime>0.6</solidTime>\n\n    <fadeOutTime>0.35</fadeOutTime>\n\n    <growthRate>0.6</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FlashRed (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>FlashRed</defName>\n\n    <graphicData>\n\n      <texPath>UI/Misc/Flash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <color>(0.9, 0.2, 0.2)</color>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.01</fadeInTime>\n\n    <solidTime>0.07</solidTime>\n\n    <fadeOutTime>0.01</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "JumpWarmupSmoke (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>JumpWarmupSmoke</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Smoke</texPath>\n\n      <drawSize>(2,2)</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>Projectile</altitudeLayer>\n\n    <fadeInTime>0.02</fadeInTime>\n\n    <solidTime>0.8</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n    <growthRate>3</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "JumpSmoke (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>JumpSmoke</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Smoke</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>Projectile</altitudeLayer>\n\n    <solidTime>0.2</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n    <growthRate>1.2</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_HeatDiffusion (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Fleck_HeatDiffusion</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.2</fadeInTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n    <solidTime>0.25</solidTime>\n\n    <growthRate>1.25</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/HeatDiffusion</texPath>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <color>(0.85, 0.3, 0.14, 1.0)</color>\n\n      <shaderType>MoteHeatDiffusion</shaderType>\n\n      <shaderParameters>\n\n        <_MultiplyTex>/Things/Mote/RadiationDistortion_A</_MultiplyTex>\n\n        <_texBScale>0.2</_texBScale>\n\n        <_texBScrollSpeed>-0.5</_texBScrollSpeed>\n\n        <_Intensity>13</_Intensity>\n\n        <_Clip>0</_Clip>\n\n      </shaderParameters>\n\n      <drawSize>(9, 9)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_HeatWaveDistortion (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckGlowDistortBackground\">\n\n    <defName>Fleck_HeatWaveDistortion</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <altitudeLayer>MoteOverheadLow</altitudeLayer>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Black</texPath>\n\n      <shaderParameters>\n\n        <_distortionIntensity>0.03</_distortionIntensity>\n\n        <_brightnessMultiplier>1.0</_brightnessMultiplier>\n\n        <_DistortionTex>/Things/Mote/MoteHellfireCannon_HeatWaveDistortion</_DistortionTex>\n\n      </shaderParameters>\n\n      <drawSize>(3, 3)</drawSize>\n\n    </graphicData>\n\n    <fadeInTime>0.075</fadeInTime>\n\n    <solidTime>0.3</solidTime>\n\n    <fadeOutTime>0.35</fadeOutTime>\n\n    <growthRate>11</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_RadialSparks (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Fleck_RadialSparks</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <solidTime>0.6</solidTime>\n\n    <growthRate>0.33</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Sparks_Radial_A</texPath>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <shaderType>MoteCircularSparks</shaderType>\n\n      <shaderParameters>\n\n        <_ExtraTex>/Things/Mote/Sparks_Radial_B</_ExtraTex>\n\n        <_texScale>0.2</_texScale>\n\n        <_texAScrollSpeed>-0.75</_texAScrollSpeed>\n\n        <_texBScrollSpeed>1.25</_texBScrollSpeed>\n\n        <_Intensity>1</_Intensity>\n\n      </shaderParameters>\n\n      <drawSize>(8, 8)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_Vaporize (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_RandomGraphic\">\n\n    <defName>Fleck_Vaporize</defName>\n\n    <randomGraphics>\n\n      <li>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/Vaporize_A</texPath>\n\n        <shaderType>MoteGlow</shaderType>\n\n        <renderInstanced>true</renderInstanced>\n\n        <drawSize>(1.52, 1.52)</drawSize>\n\n      </li>\n\n      <li>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/Vaporize_B</texPath>\n\n        <shaderType>MoteGlow</shaderType>\n\n        <renderInstanced>true</renderInstanced>\n\n        <drawSize>(1.52, 1.52)</drawSize>\n\n      </li>\n\n      <li>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/Vaporize_C</texPath>\n\n        <shaderType>MoteGlow</shaderType>\n\n        <renderInstanced>true</renderInstanced>\n\n        <drawSize>(1.52, 1.52)</drawSize>\n\n      </li>\n\n    </randomGraphics>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.25</fadeInTime>\n\n    <solidTime>0.3</solidTime>\n\n    <fadeOutTime>0.7</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_VaporizeGlow (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Fleck_VaporizeGlow</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <fadeOutTime>0.55</fadeOutTime>\n\n    <solidTime>0.4</solidTime>\n\n    <growthRate>2</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/VaporizeExplosionGlow</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <drawSize>(4.5, 4.5)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_VaporizeRays_A (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Fleck_VaporizeRays_A</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <fadeInTime>0.2</fadeInTime>\n\n    <fadeOutTime>0.6</fadeOutTime>\n\n    <solidTime>0.4</solidTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/VaporizeExplosionRays_A</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <drawSize>(14, 14)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_VaporizeRays_B (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Fleck_VaporizeRays_B</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <fadeInTime>0.2</fadeInTime>\n\n    <fadeOutTime>0.6</fadeOutTime>\n\n    <solidTime>0.4</solidTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/VaporizeExplosionRays_A</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <drawSize>(14, 14)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_VaporizeCenterFlash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Fleck_VaporizeCenterFlash</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <fadeInTime>0.05</fadeInTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <solidTime>0.1</solidTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/VaporizeExplosion_Center</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <drawSize>(7, 7)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FlashPowerCell (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>FlashPowerCell</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.09</solidTime>\n\n    <fadeOutTime>0.35</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Flash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <color>(255, 150, 140, 70)</color>\n\n      <drawSize>(1.33, 1.33)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FlashPowerCellIntense (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>FlashPowerCellIntense</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.09</solidTime>\n\n    <fadeOutTime>0.25</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Flash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <color>(255, 150, 140, 140)</color>\n\n      <drawSize>(1.33, 1.33)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_ToxGasSmall (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Fleck_ToxGasSmall</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.3</fadeInTime>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n    <growthRate>0.8</growthRate>\n\n    <acceleration>(0, 0, 2)</acceleration>\n\n    <graphicData>\n\n      <texPath>Things/Gas/GasCloudThickA</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n      <color>(180, 214, 24, 64)</color>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Fleck_BeamSpark (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Fleck_BeamSpark</defName>\n\n    <fadeInTime>0.03</fadeInTime>\n\n    <solidTime>0.1</solidTime>\n\n    <fadeOutTime>0.5</fadeOutTime>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <graphicData>\n\n      <texPath>Things/Mote/SparkThrownBlue</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <drawSize>0.08</drawSize>\n\n      <color>(0.7, 0.9, 1.0, 1.0)</color>\n\n    </graphicData>\n\n    <acceleration>(0, 0, 0.5)</acceleration>\n\n    <speedPerTime>0.2~0.5</speedPerTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastSkipFlashExit (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>PsycastSkipFlashExit</defName>\n\n    <altitudeLayer>VisEffects</altitudeLayer>\n\n    <fadeInTime>0.03</fadeInTime>\n\n    <fadeOutTime>1.3</fadeOutTime>\n\n    <solidTime>0.08</solidTime>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <shaderType>MotePsychicSkipFlash</shaderType>\n\n      <texPath>Things/Mote/PsycastSkipFlash</texPath>\n\n      <shaderParameters>\n\n        <_Noise>/Things/Mote/SkipFlashNoise</_Noise>\n\n      </shaderParameters>\n\n      <drawSize>2.6</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "GroundCrack (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_RandomGraphic\">\n\n    <defName>GroundCrack</defName>\n\n    <randomGraphics>\n\n      <li>\n\n        <texPath>Things/Mote/GroundCracks/GroundCrackA</texPath>\n\n        <shaderType>Mote</shaderType>\n\n        <renderInstanced>false</renderInstanced>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n      </li> \n\n      <li>\n\n        <texPath>Things/Mote/GroundCracks/GroundCrackB</texPath>\n\n        <shaderType>Mote</shaderType>\n\n        <renderInstanced>false</renderInstanced>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n      </li>\n\n      <li>\n\n        <texPath>Things/Mote/GroundCracks/GroundCrackC</texPath>\n\n        <shaderType>Mote</shaderType>\n\n        <renderInstanced>false</renderInstanced>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n      </li>\n\n      <li>\n\n        <texPath>Things/Mote/GroundCracks/GroundCrackD</texPath>\n\n        <shaderType>Mote</shaderType>\n\n        <renderInstanced>false</renderInstanced>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n      </li>\n\n    </randomGraphics>\n\n    <growthRate>0</growthRate>\n\n    <altitudeLayer>Filth</altitudeLayer>\n\n    <fadeInTime>.2</fadeInTime>\n\n    <solidTime>5</solidTime>\n\n    <fadeOutTime>3</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ThrownDebris (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>ThrownDebris</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/ThrownDebris</texPath>\n\n      <shaderType>Mote</shaderType>\n\n      <renderInstanced>false</renderInstanced>\n\n      <graphicClass>Graphic_Fleck</graphicClass>\n\n    </graphicData>\n\n    <altitudeLayer>Terrain</altitudeLayer>\n\n    <fadeInTime>.2</fadeInTime>\n\n    <solidTime>1</solidTime>\n\n    <fadeOutTime>0</fadeOutTime>\n\n    <growthRate>-.5</growthRate>\n\n    <archHeight>.5~2</archHeight>\n\n    <archDuration>1.2</archDuration>\n\n    <archCurve>\n\n      <points>\n\n        <li>(0,0)</li>\n\n        <li>(0.04,0.1279548)</li>\n\n        <li>(0.08,0.2692297)</li>\n\n        <li>(0.12,0.4009928)</li>\n\n        <li>(0.16,0.5004116)</li>\n\n        <li>(0.2,0.5456898)</li>\n\n        <li>(0.24,0.5447004)</li>\n\n        <li>(0.28,0.5114149)</li>\n\n        <li>(0.32,0.4533074)</li>\n\n        <li>(0.36,0.3778524)</li>\n\n        <li>(0.3999999,0.2925241)</li>\n\n        <li>(0.4399999,0.2047971)</li>\n\n        <li>(0.4799999,0.1221454)</li>\n\n        <li>(0.5199999,0.05204353)</li>\n\n        <li>(0.5599999,0.001965821)</li>\n\n        <li>(0.6,0.0494144)</li>\n\n        <li>(0.64,0.07938939)</li>\n\n        <li>(0.68,0.08880626)</li>\n\n        <li>(0.72,0.07998239)</li>\n\n        <li>(0.7600001,0.05523518)</li>\n\n        <li>(0.8000001,0.01688196)</li>\n\n        <li>(0.8400001,0.009637574)</li>\n\n        <li>(0.8800001,0.02145397)</li>\n\n        <li>(0.9200001,0.02456769)</li>\n\n        <li>(0.9600002,0.0142423)</li>\n\n        <li>(1,0)</li>\n\n      </points>\n\n    </archCurve>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "ShockwaveFast (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>ShockwaveFast</defName>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <fadeInTime>0.0</fadeInTime>\n\n    <solidTime>0.0</solidTime>\n\n    <fadeOutTime>0.4</fadeOutTime>\n\n    <growthRate>100.0</growthRate>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <texPath>Things/Mote/Black</texPath>\n\n      <shaderType>MoteLargeDistortionWave</shaderType>\n\n      <shaderParameters>\n\n        <_DistortionTex>/Things/Mote/PsychicDistortionCurrents</_DistortionTex>\n\n        <_NoiseTex>/Things/Mote/PsycastNoise</_NoiseTex>\n\n        <_distortionIntensity>0.2</_distortionIntensity>\n\n        <_brightnessMultiplier>5.15</_brightnessMultiplier>\n\n      </shaderParameters>\n\n      <drawSize>1.0</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "GroundWaterSplash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_RandomGraphic_Thrown\">\n\n    <defName>GroundWaterSplash</defName>\n\n    <randomGraphics>\n\n      <li>\n\n        <graphicClass>Graphic_FleckPulse</graphicClass>\n\n        <shaderType>Mote</shaderType>\n\n        <texPath>Things/Mote/GroundSplash/GroundSplashA</texPath>\n\n        <drawSize>(1,1)</drawSize>\n\n        <color>(0.53, 0.69, 0.74, .5)</color>\n\n      </li>\n\n      <li>\n\n        <graphicClass>Graphic_FleckPulse</graphicClass>\n\n        <shaderType>Mote</shaderType>\n\n        <texPath>Things/Mote/GroundSplash/GroundSplashB</texPath>\n\n        <drawSize>(1,1)</drawSize>\n\n        <color>(0.53, 0.69, 0.74, .5)</color>\n\n      </li>\n\n    </randomGraphics>\n\n    <unattachedDrawOffset>(0, 0, 0)</unattachedDrawOffset>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0</fadeInTime>\n\n    <solidTime>.3</solidTime>\n\n    <fadeOutTime>.35</fadeOutTime>\n\n    <archHeight>0</archHeight>\n\n    <growthRate>1</growthRate>\n\n    <scalingAnchor>(.5, .2, 0)</scalingAnchor>\n\n    <scalers>\n\n      <li>\n\n        <scaleAmt>1</scaleAmt>\n\n        <scaleTime>.65</scaleTime>\n\n        <axisMask>(1, 0, 0)</axisMask>\n\n        <curve>\n\n          <points>\n\n            <li>(0,0.5)</li>\n\n            <li>(0.04,0.4548468)</li>\n\n            <li>(0.08,0.402833)</li>\n\n            <li>(0.12,0.3486849)</li>\n\n            <li>(0.16,0.2971286)</li>\n\n            <li>(0.2,0.2528901)</li>\n\n            <li>(0.24,0.2206958)</li>\n\n            <li>(0.28,0.2052717)</li>\n\n            <li>(0.32,0.2082831)</li>\n\n            <li>(0.36,0.2212332)</li>\n\n            <li>(0.3999999,0.2424916)</li>\n\n            <li>(0.4399999,0.2712372)</li>\n\n            <li>(0.4799999,0.3066487)</li>\n\n            <li>(0.5199999,0.3479051)</li>\n\n            <li>(0.5599999,0.3941854)</li>\n\n            <li>(0.6,0.4446683)</li>\n\n            <li>(0.64,0.4985328)</li>\n\n            <li>(0.68,0.5549577)</li>\n\n            <li>(0.72,0.613122)</li>\n\n            <li>(0.7600001,0.6722045)</li>\n\n            <li>(0.8000001,0.7313842)</li>\n\n            <li>(0.8400001,0.7898397)</li>\n\n            <li>(0.8800001,0.8467504)</li>\n\n            <li>(0.9200001,0.9012946)</li>\n\n            <li>(0.9600002,0.9526517)</li>\n\n            <li>(1,1)</li>\n\n          </points>\n\n        </curve>\n\n      </li>\n\n      <li>\n\n        <scaleAmt>1</scaleAmt>\n\n        <scaleTime>.65</scaleTime>\n\n        <axisMask>(0, 0, 1)</axisMask>\n\n        <curve>\n\n          <points>\n\n            <li>(0,0)</li>\n\n            <li>(0.04,0.08772291)</li>\n\n            <li>(0.08,0.1736811)</li>\n\n            <li>(0.12,0.2568415)</li>\n\n            <li>(0.16,0.3361711)</li>\n\n            <li>(0.2,0.4106368)</li>\n\n            <li>(0.24,0.4792057)</li>\n\n            <li>(0.28,0.5408444)</li>\n\n            <li>(0.32,0.5945203)</li>\n\n            <li>(0.36,0.6392)</li>\n\n            <li>(0.3999999,0.6738507)</li>\n\n            <li>(0.4399999,0.6974391)</li>\n\n            <li>(0.4799999,0.7089323)</li>\n\n            <li>(0.5199999,0.7097846)</li>\n\n            <li>(0.5599999,0.7065364)</li>\n\n            <li>(0.6,0.6982319)</li>\n\n            <li>(0.64,0.683339)</li>\n\n            <li>(0.68,0.6603254)</li>\n\n            <li>(0.72,0.6276588)</li>\n\n            <li>(0.7600001,0.5838069)</li>\n\n            <li>(0.8000001,0.5272376)</li>\n\n            <li>(0.8400001,0.4564185)</li>\n\n            <li>(0.8800001,0.3698174)</li>\n\n            <li>(0.9200001,0.265902)</li>\n\n            <li>(0.9600002,0.1431402)</li>\n\n            <li>(1,0)</li>\n\n          </points>\n\n        </curve>\n\n      </li>\n\n    </scalers>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "WaterChurnNoise (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>WaterChurnNoise</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/WaterChurnNoise</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n      <shaderParameters>\n\n        <_Color2>(0.84, 1.00, 1.00, .6)</_Color2>\n\n      </shaderParameters>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <solidTime>1</solidTime>\n\n    <fadeOutTime>2</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "CraterFilledInDust (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>CraterFilledInDust</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/DustPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n      <color>(.42, .33, .27, 1)</color>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.4</fadeInTime>\n\n    <solidTime>0.1</solidTime>\n\n    <fadeOutTime>2</fadeOutTime>\n\n    <growthRate>2</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "CraterFilledInDustThick (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>CraterFilledInDustThick</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/DustPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n      <color>(.42, .33, .27, 1)</color>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.25</fadeInTime>\n\n    <solidTime>1</solidTime>\n\n    <fadeOutTime>1.4</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "CraterFilledInDustVeryFine (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_RandomGraphic_Thrown\">\n\n    <defName>CraterFilledInDustVeryFine</defName>\n\n    <randomGraphics>\n\n      <li>\n\n        <shaderType>Mote</shaderType>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/DustVeryFineA</texPath>\n\n        <renderInstanced>true</renderInstanced>\n\n        <color>(.21, .17, .13, 1)</color>\n\n      </li>\n\n      <li>\n\n        <shaderType>Mote</shaderType>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/DustVeryFineB</texPath>\n\n        <renderInstanced>true</renderInstanced>\n\n        <color>(.21, .17, .13, 1)</color>\n\n      </li>\n\n      <li>\n\n        <shaderType>Mote</shaderType>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/DustVeryFineC</texPath>\n\n        <renderInstanced>true</renderInstanced>\n\n        <color>(.21, .17, .13, 1)</color>\n\n      </li>\n\n      <li>\n\n        <shaderType>Mote</shaderType>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Mote/DustVeryFineD</texPath>\n\n        <renderInstanced>true</renderInstanced>\n\n        <color>(.21, .17, .13, 1)</color>\n\n      </li>\n\n    </randomGraphics>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.25</fadeInTime>\n\n    <solidTime>2</solidTime>\n\n    <fadeOutTime>1</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Flash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>Flash</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.05</solidTime>\n\n    <fadeOutTime>0.05</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Flash</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "TerminalScreenLensFlare (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>TerminalScreenLensFlare</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <color>(255, 255, 255, 255)</color>\n\n      <graphicClass>Graphic_Fleck</graphicClass>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <texPath>Things/Mote/TerminalScreenLensFlare</texPath>\n\n      <drawSize>(1, 1)</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>LightingOverlay</altitudeLayer>\n\n    <fadeInTime>0.6</fadeInTime>\n\n    <solidTime>0.1</solidTime>\n\n    <fadeOutTime>0.6</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "CocoonDestroyedSlime (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_RandomGraphic\">\n\n    <defName>CocoonDestroyedSlime</defName>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <solidTime>3</solidTime>\n\n    <fadeOutTime>1</fadeOutTime>\n\n    <randomGraphics>\n\n      <li>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Filth/Spatter/SpatterA</texPath>\n\n        <shaderType>Transparent</shaderType>\n\n        <color>(130, 142, 120, 170)</color>\n\n        <drawSize>(1.5, 1.5)</drawSize>\n\n      </li>\n\n      <li>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Filth/Spatter/SpatterB</texPath>\n\n        <shaderType>Transparent</shaderType>\n\n        <color>(130, 142, 120, 170)</color>\n\n        <drawSize>(1.5, 1.5)</drawSize>\n\n      </li>\n\n      <li>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <texPath>Things/Filth/Spatter/SpatterC</texPath>\n\n        <shaderType>Transparent</shaderType>\n\n        <color>(130, 142, 120, 170)</color>\n\n        <drawSize>(1.5, 1.5)</drawSize>\n\n      </li>\n\n    </randomGraphics>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "CocoonPulse (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckGlowDistortBackground\">\n\n    <defName>CocoonPulse</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.01</fadeInTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <solidTime>0.0</solidTime>\n\n    <growthRate>-2</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Black</texPath>\n\n      <shaderParameters>\n\n        <_distortionIntensity>0.01</_distortionIntensity>\n\n        <_brightnessMultiplier>1</_brightnessMultiplier>\n\n      </shaderParameters>\n\n      <drawSize>2</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Lightshaft (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>Lightshaft</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>3</fadeInTime>\n\n    <solidTime>1</solidTime>\n\n    <fadeOutTime>3</fadeOutTime>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <texPath>Things/Mote/Lightshaft</texPath>\n\n      <shaderType>Lightshaft</shaderType>\n\n      <renderQueue>4000</renderQueue>\n\n      <shaderParameters>\n\n        <_dayColor>(1, .73, .56, .8)</_dayColor>\n\n        <_nightColor>(.37, .8, .89, .8)</_nightColor>\n\n        <_DustTex1>/Things/Mote/LightshaftNoise</_DustTex1>\n\n      </shaderParameters>\n\n      <drawSize>10.0</drawSize>\n\n    </graphicData>\n\n    <scalers>\n\n      <li>\n\n        <scaleAmt>.2~1</scaleAmt>\n\n        <scaleTime>7</scaleTime>\n\n        <axisMask>(1, 0, 0)</axisMask>\n\n        <curve>\n\n          <points>\n\n            <li>(0,0)</li>\n\n            <li>(0.04,0.1647907)</li>\n\n            <li>(0.08,0.3134471)</li>\n\n            <li>(0.12,0.4462824)</li>\n\n            <li>(0.16,0.5636099)</li>\n\n            <li>(0.2,0.6657428)</li>\n\n            <li>(0.24,0.7529945)</li>\n\n            <li>(0.28,0.8256782)</li>\n\n            <li>(0.32,0.8841072)</li>\n\n            <li>(0.36,0.9285948)</li>\n\n            <li>(0.3999999,0.9594542)</li>\n\n            <li>(0.4399999,0.9769989)</li>\n\n            <li>(0.4799999,0.981542)</li>\n\n            <li>(0.5199999,0.9733967)</li>\n\n            <li>(0.5599999,0.9528764)</li>\n\n            <li>(0.6,0.9202945)</li>\n\n            <li>(0.64,0.875964)</li>\n\n            <li>(0.68,0.8201982)</li>\n\n            <li>(0.72,0.7533107)</li>\n\n            <li>(0.7600001,0.6756145)</li>\n\n            <li>(0.8000001,0.587423)</li>\n\n            <li>(0.8400001,0.4890493)</li>\n\n            <li>(0.8800001,0.3808068)</li>\n\n            <li>(0.9200001,0.2630088)</li>\n\n            <li>(0.9600002,0.1359687)</li>\n\n            <li>(1,0)</li>\n\n          </points>\n\n        </curve>\n\n      </li>\n\n    </scalers>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "WaterSplash (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_water.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Water\">\n\n    <defName>WaterSplash</defName>\n\n    <fadeInTime>0</fadeInTime>\n\n    <solidTime>500</solidTime>\n\n    <fadeOutTime>0</fadeOutTime>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckSplash</graphicClass>\n\n      <texPath>Things/Mote/Horseshoe</texPath>  \n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "WaterRipple (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/fleck_water.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>WaterRipple</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckSplash</graphicClass>\n\n      <texPath>Things/Mote/WaterRipple</texPath>\n\n      <shaderType>Transparent</shaderType>\n\n      <color>(1.0, 1.0, 1.0, 0.2)</color>\n\n    </graphicData>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <solidTime>0.0</solidTime>\n\n    <fadeOutTime>4.0</fadeOutTime>\n\n    <growthRate>1.66</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "AcidCloud (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/hediff_defs/body_parts/hediffs_body_parts_bionic.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>AcidCloud</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Smoke</texPath>\n\n      <color>(0.56, 1, 0.03)</color>\n\n      <drawSize>(2.5,2.5)</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.50</fadeInTime>\n\n    <solidTime>3</solidTime>\n\n    <fadeOutTime>3</fadeOutTime>\n\n    <growthRate>0.025</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "HairCutting (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_work_general.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_RandomGraphic_Thrown\">\n\n    <defName>HairCutting</defName>\n\n    <randomGraphics>\n\n      <li>\n\n        <texPath>Things/Mote/HairCutting/HairCuttingA</texPath>\n\n        <shaderType>Mote</shaderType>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <drawSize>(1.5,1.5)</drawSize>\n\n      </li>\n\n      <li>\n\n        <texPath>Things/Mote/HairCutting/HairCuttingB</texPath>\n\n        <shaderType>Mote</shaderType>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <drawSize>(1.5,1.5)</drawSize>\n\n      </li>\n\n      <li>\n\n        <texPath>Things/Mote/HairCutting/HairCuttingC</texPath>\n\n        <shaderType>Mote</shaderType>\n\n        <graphicClass>Graphic_Fleck</graphicClass>\n\n        <drawSize>(1.5,1.5)</drawSize>\n\n      </li>\n\n    </randomGraphics>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.075</fadeInTime>\n\n    <solidTime>1</solidTime>\n\n    <fadeOutTime>0.4</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BlurrySpark (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_ritual_effects.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BlurrySpark</defName>\n\n    <graphicData>\n\n      <graphicClass>Graphic_Fleck</graphicClass>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <texPath>Things/Mote/RitualEffects/BlurrySpark</texPath>\n\n      <drawSize>(0.66, 0.66)</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>LightingOverlay</altitudeLayer>\n\n    <solidTime>0.5</solidTime>\n\n    <fadeInTime>0.3</fadeInTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Bokeh (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_ritual_effects.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>Bokeh</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <graphicClass>Graphic_Fleck</graphicClass>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <texPath>Things/Mote/RitualEffects/Bokeh</texPath>\n\n      <drawSize>(1, 1)</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>LightingOverlay</altitudeLayer>\n\n    <solidTime>0.5</solidTime>\n\n    <fadeInTime>0.3</fadeInTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n    <acceleration>(0, 0.0, 0.4)</acceleration>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Skull (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_ritual_effects.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>Skull</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <graphicClass>Graphic_Fleck</graphicClass>\n\n      <shaderType>MoteDistorted</shaderType>\n\n      <texPath>Things/Mote/RitualEffects/Skull</texPath>\n\n      <drawSize>(1, 1)</drawSize>\n\n      <shaderParameters>\n\n        <_DistortionTex>/Things/Mote/SmokeTiled</_DistortionTex>\n\n        <_distortionScrollSpeed>(0.15, 0.15, 0)</_distortionScrollSpeed>\n\n      </shaderParameters>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.42</solidTime>\n\n    <fadeInTime>0.6</fadeInTime>\n\n    <fadeOutTime>1.3</fadeOutTime>\n\n    <acceleration>(0, 0.0, 0.4)</acceleration>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Tumbleweed (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_ritual_effects.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>Tumbleweed</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <shaderType>MoteBouncing</shaderType>\n\n      <texPath>Things/Mote/RitualEffects/Tumbleweed</texPath>\n\n      <drawSize>(1.3, 1.3)</drawSize>\n\n      <shaderParameters>\n\n        <_BounceTex>/Things/Mote/RitualEffects/BounceHeight</_BounceTex>\n\n        <_bounceSpeed>0.1</_bounceSpeed>\n\n        <_bounceAmplitude>0.05</_bounceAmplitude>\n\n      </shaderParameters>\n\n    </graphicData>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <solidTime>3.3</solidTime>\n\n    <fadeInTime>0.2</fadeInTime>\n\n    <fadeOutTime>0.9</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Leaf (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_ritual_effects.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>Leaf</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <shaderType>MoteBouncingRotating</shaderType>\n\n      <texPath>Things/Mote/RitualEffects/Leaves/Leaf1</texPath>\n\n      <drawSize>(0.5, 0.5)</drawSize>\n\n      <shaderParameters>\n\n        <_BounceTex>/Things/Mote/RitualEffects/SemiCircleGradient</_BounceTex>\n\n        <_RotationTex>/Things/Mote/RitualEffects/RotationSlightlyIrregular</_RotationTex>\n\n        <_bounceSpeed>0.15</_bounceSpeed>\n\n        <_bounceAmplitude>0.23</_bounceAmplitude>\n\n        <_rotationSpeed>0.3</_rotationSpeed>\n\n        <_rotationAmplitude>0.2</_rotationAmplitude>\n\n        <_RotationFromOffset>-4</_RotationFromOffset>\n\n      </shaderParameters>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>5.8</solidTime>\n\n    <fadeInTime>0.3</fadeInTime>\n\n    <fadeOutTime>0.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "LeafFlipped (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_ritual_effects.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>LeafFlipped</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <shaderType>MoteBouncingRotating</shaderType>\n\n      <texPath>Things/Mote/RitualEffects/Leaves/Leaf1</texPath>\n\n      <drawSize>(0.5, 0.5)</drawSize>\n\n      <shaderParameters>\n\n        <_BounceTex>/Things/Mote/RitualEffects/SemiCircleGradient</_BounceTex>\n\n        <_RotationTex>/Things/Mote/RitualEffects/RotationSlightlyIrregular</_RotationTex>\n\n        <_bounceSpeed>0.15</_bounceSpeed>\n\n        <_bounceAmplitude>-0.23</_bounceAmplitude>\n\n        <_rotationSpeed>0.3</_rotationSpeed>\n\n        <_rotationAmplitude>0.2</_rotationAmplitude>\n\n        <_RotationFromOffset>4</_RotationFromOffset>\n\n      </shaderParameters>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>5.8</solidTime>\n\n    <fadeInTime>0.3</fadeInTime>\n\n    <fadeOutTime>0.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SmokeSpikecore (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_ritual_effects.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>SmokeSpikecore</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/SmokeSubtleDark</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.3</fadeInTime>\n\n    <solidTime>1</solidTime>\n\n    <fadeOutTime>1.0</fadeOutTime>\n\n    <growthRate>1.2</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PartyLensFlare (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_ritual_effects.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>PartyLensFlare</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <color>(255, 255, 255, 255)</color>\n\n      <graphicClass>Graphic_Fleck</graphicClass>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <texPath>Things/Mote/RitualEffects/PartyLensFlareA</texPath>\n\n      <drawSize>(8, 8)</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>LightingOverlay</altitudeLayer>\n\n    <solidTime>0.02</solidTime>\n\n    <fadeInTime>0.03</fadeInTime>\n\n    <fadeOutTime>0.15</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BloodFilth (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_ritual_effects.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BloodFilth</defName>\n\n    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>\n\n    <graphicData>\n\n      <graphicClass>Graphic_Fleck</graphicClass>\n\n      <shaderType>Transparent</shaderType>\n\n      <texPath>Things/Filth/Spatter/SpatterB</texPath>\n\n      <color>(131, 34, 34, 180)</color>\n\n      <drawSize>(1, 1)</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <solidTime>125</solidTime>\n\n    <fadeInTime>0.2</fadeInTime>\n\n    <fadeOutTime>0.9</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Twinkle (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>Twinkle</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.2</fadeInTime>\n\n    <solidTime>0.05</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Twinkle</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "SleepAccelerator (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>SleepAccelerator</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>1.2667</fadeInTime>\n\n    <solidTime>3.325</solidTime>\n\n    <fadeOutTime>0.1583</fadeOutTime>\n\n    <growthRate>0.3158</growthRate>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <texPath>Things/Mote/BrightFlash</texPath>\n\n      <color>(0.65, 0.65, 0.15, 0.6)</color>\n\n      <shaderType>MoteGlowPulse</shaderType>\n\n      <shaderParameters>\n\n        <_Interval>0.475</_Interval>\n\n      </shaderParameters>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "NeuralSuperchargerChargedFloor (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>NeuralSuperchargerChargedFloor</defName>\n\n    <altitudeLayer>MoteLow</altitudeLayer>\n\n    <fadeInTime>0.8</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>0.8</fadeOutTime>\n\n    <growthRate>0.3</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BrightFlash</texPath>\n\n      <drawSize>(1,3)</drawSize>\n\n      <color>(0.42, 0.6, 0.57, 0.6)</color>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "NeuralSuperchargerUse (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>NeuralSuperchargerUse</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <solidTime>0.5</solidTime>\n\n    <fadeOutTime>0.4</fadeOutTime>\n\n    <growthRate>2</growthRate>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <texPath>Things/Mote/BrightFlash</texPath>\n\n      <color>(0.42, 0.6, 0.57, 0.9)</color>\n\n      <shaderType>MoteGlowPulse</shaderType>\n\n      <shaderParameters>\n\n        <_Interval>0.4</_Interval>\n\n      </shaderParameters>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BiosculpterScanner_Forward (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>BiosculpterScanner_Forward</defName>\n\n    <altitudeLayer>Building</altitudeLayer>\n\n    <altitudeLayerIncOffset>-0.5</altitudeLayerIncOffset>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <solidTime>1.8</solidTime>\n\n    <fadeOutTime>0.4</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BrightFlash</texPath>\n\n      <drawSize>(3,1)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BiosculpterScanner_Backward (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>BiosculpterScanner_Backward</defName>\n\n    <altitudeLayer>Building</altitudeLayer>\n\n    <altitudeLayerIncOffset>-1.5</altitudeLayerIncOffset>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <solidTime>0.4</solidTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/BrightFlash</texPath>\n\n      <drawSize>(2,1)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BiosculpterScanner_Ready (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BiosculpterScanner_Ready</defName>\n\n    <altitudeLayer>Building</altitudeLayer>\n\n    <altitudeLayerIncOffset>-0.5</altitudeLayerIncOffset>\n\n    <fadeInTime>1.2</fadeInTime>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.8</fadeOutTime>\n\n    <graphicData>\n\n      <texPath>UI/Overlays/HighlightAtlas</texPath>\n\n      <drawSize>(2,2)</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "DustPuffFast (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>DustPuffFast</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/DustPuff</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.01</fadeInTime>\n\n    <solidTime>0.01</solidTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "AutobongSmoke (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>AutobongSmoke</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Smoke</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.50</fadeInTime>\n\n    <solidTime>20</solidTime>\n\n    <fadeOutTime>0.5</fadeOutTime>\n\n    <growthRate>0.05</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PreachHealth (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>PreachHealth</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/HealingCross</texPath>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>1.4</solidTime>\n\n    <fadeOutTime>1.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "Steam (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>Steam</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Smoke</texPath>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.20</fadeInTime>\n\n    <solidTime>1.2</solidTime>\n\n    <fadeOutTime>0.35</fadeOutTime>\n\n    <growthRate>0.1</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "GlimmerSmall (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>GlimmerSmall</defName>\n\n    <graphicData>\n\n      <texPath>Other/GlimmerSmall</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n    </graphicData>\n\n    <altitudeLayer>LightingOverlay</altitudeLayer>\n\n    <fadeInTime>0.08</fadeInTime>\n\n    <solidTime>0.3</solidTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "GauranlenDebrisA (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_GauranlenDebris\">\n\n    <defName>GauranlenDebrisA</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/GauranlenDebris/GauranlenDebrisA</texPath>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "GauranlenDebrisB (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_GauranlenDebris\">\n\n    <defName>GauranlenDebrisB</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/GauranlenDebris/GauranlenDebrisB</texPath>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "GauranlenDebrisC (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_GauranlenDebris\">\n\n    <defName>GauranlenDebrisC</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/GauranlenDebris/GauranlenDebrisC</texPath>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "GauranlenLeaf (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>GauranlenLeaf</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/RitualEffects/Leaves/Leaf1</texPath>\n\n      <drawSize>(0.4, 0.4)</drawSize>\n\n      <color>(245, 148, 69, 255)</color>\n\n    </graphicData>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>2.5</solidTime>\n\n    <fadeInTime>0.05</fadeInTime>\n\n    <fadeOutTime>0.5</fadeOutTime>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "FlashstormAreaEffect (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckPsycastAreaEffect\">\n\n    <defName>FlashstormAreaEffect</defName>\n\n    <graphicData>\n\n      <drawSize>15.0</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BulletShieldAreaEffect (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckPsycastAreaEffect\">\n\n    <defName>BulletShieldAreaEffect</defName>\n\n    <graphicData>\n\n      <drawSize>5.0</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "WordOfApply (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckGlowDistortBackground\">\n\n    <defName>WordOfApply</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.05</fadeInTime>\n\n    <fadeOutTime>0.08</fadeOutTime>\n\n    <solidTime>0.15</solidTime>\n\n    <growthRate>3</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/Black</texPath>\n\n      <shaderParameters>\n\n        <_DistortionTex>/Things/Mote/PsychicDistortionRing</_DistortionTex>\n\n        <_distortionIntensity>0.03</_distortionIntensity>\n\n        <_brightnessMultiplier>1.5</_brightnessMultiplier>\n\n      </shaderParameters>\n\n      <drawSize>2</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsychicApplyNeuroquake (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>PsychicApplyNeuroquake</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <fadeOutTime>0.6</fadeOutTime>\n\n    <solidTime>4.5</solidTime>\n\n    <growthRate>3.0</growthRate>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <texPath>Things/Mote/Black</texPath>\n\n      <shaderType>MoteLargeDistortionWave</shaderType>\n\n      <shaderParameters>\n\n        <_DistortionTex>/Things/Mote/PsychicDistortionCurrents</_DistortionTex>\n\n        <_NoiseTex>/Things/Mote/PsycastNoise</_NoiseTex>\n\n        <_distortionIntensity>0.12</_distortionIntensity>\n\n        <_brightnessMultiplier>1.15</_brightnessMultiplier>\n\n      </shaderParameters>\n\n      <drawSize>10.0</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "WaterskipSplashParticles (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>WaterskipSplashParticles</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <solidTime>0.05</solidTime>\n\n    <fadeOutTime>0.55</fadeOutTime>\n\n    <acceleration>(0,0,-0.03)</acceleration>\n\n    <growthRate>0.37</growthRate>\n\n    <graphicData>\n\n      <texPath>Things/Mote/WaterSplash</texPath>\n\n      <drawSize>3.5</drawSize>\n\n      <drawOffset>(0.0, 0, 0.65)</drawOffset>\n\n      <shaderType>Mote</shaderType>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "BroadshieldActivation (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase\">\n\n    <defName>BroadshieldActivation</defName>\n\n    <graphicData>\n\n      <texPath>Other/ForceField</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n      <color>(0.6, 0.6, 0.8)</color>\n\n    </graphicData>\n\n    <altitudeLayer>Projectile</altitudeLayer>\n\n    <solidTime>0.1</solidTime>\n\n    <fadeOutTime>0.2</fadeOutTime>\n\n    <growthRate>33</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "PsycastSkipEffect (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef Name=\"PsycastSkipEffect\" ParentName=\"FleckGlowDistorted\">\n\n    <defName>PsycastSkipEffect</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.04</fadeInTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n    <solidTime>0.07</solidTime>\n\n    <graphicData>\n\n      <texPath>Things/Mote/PsycastSkipFlash</texPath>\n\n      <shaderParameters>\n\n        <_distortionScrollSpeed>(0.2, 0.0, 0.0)</_distortionScrollSpeed>\n\n        <_distortionScale>0.1</_distortionScale>\n\n        <_distortionIntensity>0.1</_distortionIntensity>\n\n      </shaderParameters>\n\n      <drawSize>2.7</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "EntropyPulse (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckGlowDistorted\">\n\n    <defName>EntropyPulse</defName>\n\n    <altitudeLayer>MoteOverhead</altitudeLayer>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <fadeOutTime>0.35</fadeOutTime>\n\n    <solidTime>0.1</solidTime>\n\n    <attachedToHead>True</attachedToHead>\n\n    <graphicData>\n\n      <texPath>Things/Mote/PsychicEntropy</texPath>\n\n      <shaderParameters>\n\n        <_distortionIntensity>0.1</_distortionIntensity>\n\n      </shaderParameters>\n\n      <drawSize>1.55</drawSize>\n\n    </graphicData>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "JumpFlame (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>JumpFlame</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/JumpFlame</texPath>\n\n      <shaderType>TransparentPostLight</shaderType>\n\n      <renderInstanced>true</renderInstanced>\n\n    </graphicData>\n\n    <altitudeLayer>Projectile</altitudeLayer>\n\n    <solidTime>0.2</solidTime>\n\n    <fadeOutTime>0.05</fadeOutTime>\n\n    <growthRate>-4</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "JumpFlameGlow (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>JumpFlameGlow</defName>\n\n    <graphicData>\n\n      <texPath>Things/Mote/JumpFlame</texPath>\n\n      <shaderType>MoteGlow</shaderType>\n\n      <color>(1,0.6,0.6,0.3)</color>\n\n    </graphicData>\n\n    <altitudeLayer>Projectile</altitudeLayer>\n\n    <solidTime>0</solidTime>\n\n    <fadeOutTime>0.3</fadeOutTime>\n\n    <growthRate>-3</growthRate>\n\n  </FleckDef>"
+        },
+        {
+            "Title": "MechDropBeaconActivated (FleckDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/fleck_visual.xml`",
+            "XML": "<FleckDef ParentName=\"FleckBase_Thrown\">\n\n    <defName>MechDropBeaconActivated</defName>\n\n    <graphicData>\n\n      <graphicClass>Graphic_FleckPulse</graphicClass>\n\n      <texPath>Things/Mote/BrightFlash</texPath>\n\n      <color>(0.55, 0.65, 0.15, 0.25)</color>\n\n      <shaderType>MoteGlowPulse</shaderType>\n\n      <shaderParameters>\n\n        <_Interval>0.04</_Interval>\n\n      </shaderParameters>\n\n      <drawSize>7</drawSize>\n\n    </graphicData>\n\n    <altitudeLayer>MetaOverlays</altitudeLayer>\n\n    <fadeInTime>0.1</fadeInTime>\n\n    <solidTime>0.8</solidTime>\n\n    <fadeOutTime>0.1</fadeOutTime>\n\n    <growthRate>0.5</growthRate>\n\n  </FleckDef>"
+        }
+    ]
+}

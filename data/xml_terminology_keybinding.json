@@ -1,0 +1,536 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "MapDolly_Up (KeyBindingDef)",
+            "Label": "dolly up",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameMapKeyBinding\">\n\n    <defName>MapDolly_Up</defName>\n\n    <label>dolly up</label>\n\n    <defaultKeyCodeA>W</defaultKeyCodeA>\n\n    <defaultKeyCodeB>UpArrow</defaultKeyCodeB>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "MapDolly_Down (KeyBindingDef)",
+            "Label": "dolly down",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameMapKeyBinding\">\n\n    <defName>MapDolly_Down</defName>\n\n    <label>dolly down</label>\n\n    <defaultKeyCodeA>S</defaultKeyCodeA>\n\n    <defaultKeyCodeB>DownArrow</defaultKeyCodeB>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "MapDolly_Left (KeyBindingDef)",
+            "Label": "dolly left",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameMapKeyBinding\">\n\n    <defName>MapDolly_Left</defName>\n\n    <label>dolly left</label>\n\n    <defaultKeyCodeA>A</defaultKeyCodeA>\n\n    <defaultKeyCodeB>LeftArrow</defaultKeyCodeB>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "MapDolly_Right (KeyBindingDef)",
+            "Label": "dolly right",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameMapKeyBinding\">\n\n    <defName>MapDolly_Right</defName>\n\n    <label>dolly right</label>\n\n    <defaultKeyCodeA>D</defaultKeyCodeA>\n\n    <defaultKeyCodeB>RightArrow</defaultKeyCodeB>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "MapZoom_In (KeyBindingDef)",
+            "Label": "zoom in",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameMapKeyBinding\">\n\n    <defName>MapZoom_In</defName>\n\n    <label>zoom in</label>\n\n    <defaultKeyCodeA>PageDown</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "MapZoom_Out (KeyBindingDef)",
+            "Label": "zoom out",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameMapKeyBinding\">\n\n    <defName>MapZoom_Out</defName>\n\n    <label>zoom out</label>\n\n    <defaultKeyCodeA>PageUp</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Accept (KeyBindingDef)",
+            "Label": "accept",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>Accept</defName>\n\n    <label>accept</label>\n\n    <defaultKeyCodeA>Return</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Cancel (KeyBindingDef)",
+            "Label": "cancel",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>Cancel</defName>\n\n    <label>cancel</label>\n\n    <defaultKeyCodeA>Escape</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "TakeScreenshot (KeyBindingDef)",
+            "Label": "take screenshot",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>TakeScreenshot</defName>\n\n    <label>take screenshot</label>\n\n    <defaultKeyCodeA>F10</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "ToggleScreenshotMode (KeyBindingDef)",
+            "Label": "toggle screenshot mode",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>ToggleScreenshotMode</defName>\n\n    <label>toggle screenshot mode</label>\n\n    <defaultKeyCodeA>F11</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "SelectNextInCell (KeyBindingDef)",
+            "Label": "select next in cell",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>SelectNextInCell</defName>\n\n    <label>select next in cell</label>\n\n    <defaultKeyCodeA>KeypadMultiply</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "TogglePause (KeyBindingDef)",
+            "Label": "pause/resume game",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>TogglePause</defName>\n\n    <label>pause/resume game</label>\n\n    <defaultKeyCodeA>Space</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "TimeSpeed_Normal (KeyBindingDef)",
+            "Label": "game speed: Normal",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>TimeSpeed_Normal</defName>\n\n    <label>game speed: Normal</label>\n\n    <defaultKeyCodeA>Alpha1</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "TimeSpeed_Fast (KeyBindingDef)",
+            "Label": "game speed: Fast",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>TimeSpeed_Fast</defName>\n\n    <label>game speed: Fast</label>\n\n    <defaultKeyCodeA>Alpha2</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "TimeSpeed_Superfast (KeyBindingDef)",
+            "Label": "game speed: Super fast",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>TimeSpeed_Superfast</defName>\n\n    <label>game speed: Super fast</label>\n\n    <defaultKeyCodeA>Alpha3</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "TimeSpeed_Ultrafast (KeyBindingDef)",
+            "Label": "game speed: Ultra fast (debug)",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>TimeSpeed_Ultrafast</defName>\n\n    <label>game speed: Ultra fast (debug)</label>\n\n    <defaultKeyCodeA>Alpha4</defaultKeyCodeA>\n\n    <devModeOnly>true</devModeOnly>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "TimeSpeed_Slower (KeyBindingDef)",
+            "Label": "game speed: Slower",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>TimeSpeed_Slower</defName>\n\n    <label>game speed: Slower</label>\n\n    <defaultKeyCodeA>End</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "TimeSpeed_Faster (KeyBindingDef)",
+            "Label": "game speed: Faster",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>TimeSpeed_Faster</defName>\n\n    <label>game speed: Faster</label>\n\n    <defaultKeyCodeA>Home</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "PreviousColonist (KeyBindingDef)",
+            "Label": "previous colonist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>PreviousColonist</defName>\n\n    <label>previous colonist</label>\n\n    <defaultKeyCodeA>Comma</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "NextColonist (KeyBindingDef)",
+            "Label": "next colonist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>NextColonist</defName>\n\n    <label>next colonist</label>\n\n    <defaultKeyCodeA>Period</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "ToggleRoomStatsDisplay (KeyBindingDef)",
+            "Label": "toggle room stats display",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>ToggleRoomStatsDisplay</defName>\n\n    <label>toggle room stats display</label>\n\n    <defaultKeyCodeA>G</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "ToggleBeautyDisplay (KeyBindingDef)",
+            "Label": "toggle beauty display",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>ToggleBeautyDisplay</defName>\n\n    <label>toggle beauty display</label>\n\n    <defaultKeyCodeA>T</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "OpenMapSearch (KeyBindingDef)",
+            "Label": "open search window",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n    <defName>OpenMapSearch</defName>\n\n    <label>open search window</label>\n\n    <defaultKeyCodeA>Z</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "ShowCellInspector (KeyBindingDef)",
+            "Label": "show cell inspector",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n     <defName>ShowCellInspector</defName>\n\n     <label>show cell inspector</label>\n\n     <defaultKeyCodeA>LeftAlt</defaultKeyCodeA>\n\n     <defaultKeyCodeB>RightAlt</defaultKeyCodeB>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "ShowEyedropper (KeyBindingDef)",
+            "Label": "show eyedropper",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"GameKeyBinding\">\n\n     <defName>ShowEyedropper</defName>\n\n     <category>SelectionSpecial</category>\n\n     <label>show eyedropper</label>\n\n     <defaultKeyCodeA>LeftControl</defaultKeyCodeA>\n\n     <defaultKeyCodeB>RightControl</defaultKeyCodeB>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc1 (KeyBindingDef)",
+            "Label": "Misc 1",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc1</defName>\n\n    <label>Misc 1</label>\n\n    <defaultKeyCodeA>B</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc2 (KeyBindingDef)",
+            "Label": "Misc 2",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc2</defName>\n\n    <label>Misc 2</label>\n\n    <defaultKeyCodeA>H</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc3 (KeyBindingDef)",
+            "Label": "Misc 3",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc3</defName>\n\n    <label>Misc 3</label>\n\n    <defaultKeyCodeA>Y</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc4 (KeyBindingDef)",
+            "Label": "Misc 4",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc4</defName>\n\n    <label>Misc 4</label>\n\n    <defaultKeyCodeA>N</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc5 (KeyBindingDef)",
+            "Label": "Misc 5",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc5</defName>\n\n    <label>Misc 5</label>\n\n    <defaultKeyCodeA>J</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc6 (KeyBindingDef)",
+            "Label": "Misc 6",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc6</defName>\n\n    <label>Misc 6</label>\n\n    <defaultKeyCodeA>U</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc7 (KeyBindingDef)",
+            "Label": "Misc 7",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc7</defName>\n\n    <label>Misc 7</label>\n\n    <defaultKeyCodeA>M</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc8 (KeyBindingDef)",
+            "Label": "Misc 8",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc8</defName>\n\n    <label>Misc 8</label>\n\n    <defaultKeyCodeA>K</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc9 (KeyBindingDef)",
+            "Label": "Misc 9",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc9</defName>\n\n    <label>Misc 9</label>\n\n    <defaultKeyCodeA>I</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc10 (KeyBindingDef)",
+            "Label": "Misc 10",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc10</defName>\n\n    <label>Misc 10</label>\n\n    <defaultKeyCodeA>L</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc11 (KeyBindingDef)",
+            "Label": "Misc 11",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc11</defName>\n\n    <label>Misc 11</label>\n\n    <defaultKeyCodeA>O</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Misc12 (KeyBindingDef)",
+            "Label": "Misc 12",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"MiscKeyBinding\">\n\n    <defName>Misc12</defName>\n\n    <label>Misc 12</label>\n\n    <defaultKeyCodeA>P</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Command_TogglePower (KeyBindingDef)",
+            "Label": "toggle power",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"SelectionSpecialKeyBinding\">\n\n    <defName>Command_TogglePower</defName>\n\n    <label>toggle power</label>\n\n    <defaultKeyCodeA>V</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Command_ItemForbid (KeyBindingDef)",
+            "Label": "toggle forbidden",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"SelectionSpecialKeyBinding\">\n\n    <defName>Command_ItemForbid</defName>\n\n    <label>toggle forbidden</label>\n\n    <defaultKeyCodeA>F</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Command_ColonistDraft (KeyBindingDef)",
+            "Label": "draft",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"SelectionSpecialKeyBinding\">\n\n    <defName>Command_ColonistDraft</defName>\n\n    <label>draft</label>\n\n    <defaultKeyCodeA>R</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Designator_Cancel (KeyBindingDef)",
+            "Label": "cancel",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ArchitectBase\">\n\n    <defName>Designator_Cancel</defName>\n\n    <label>cancel</label>\n\n    <defaultKeyCodeA>C</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Designator_Deconstruct (KeyBindingDef)",
+            "Label": "deconstruct",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ArchitectBase\">\n\n    <defName>Designator_Deconstruct</defName>\n\n    <label>deconstruct</label>\n\n    <defaultKeyCodeA>X</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Designator_RotateLeft (KeyBindingDef)",
+            "Label": "rotate left",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ArchitectBase\">\n\n    <defName>Designator_RotateLeft</defName>\n\n    <label>rotate left</label>\n\n    <defaultKeyCodeA>Q</defaultKeyCodeA>\n\n    <ignoreConflictsWith>\n\n      <li>Designator_PreviousDrawStyle</li>\n\n      <li>Designator_NextDrawStyle</li>\n\n    </ignoreConflictsWith>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Designator_RotateRight (KeyBindingDef)",
+            "Label": "rotate right",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ArchitectBase\">\n\n    <defName>Designator_RotateRight</defName>\n\n    <label>rotate right</label>\n\n    <defaultKeyCodeA>E</defaultKeyCodeA>\n\n    <ignoreConflictsWith>\n\n      <li>Designator_PreviousDrawStyle</li>\n\n      <li>Designator_NextDrawStyle</li>\n\n    </ignoreConflictsWith>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Designator_PreviousDrawStyle (KeyBindingDef)",
+            "Label": "previous draw style",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ArchitectBase\">\n\n    <defName>Designator_PreviousDrawStyle</defName>\n\n    <label>previous draw style</label>\n\n    <defaultKeyCodeA>Q</defaultKeyCodeA>\n\n    <ignoreConflictsWith>\n\n      <li>Designator_RotateLeft</li>\n\n      <li>Designator_RotateRight</li>\n\n    </ignoreConflictsWith>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Designator_NextDrawStyle (KeyBindingDef)",
+            "Label": "next draw style",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ArchitectBase\">\n\n    <defName>Designator_NextDrawStyle</defName>\n\n    <label>next draw style</label>\n\n    <defaultKeyCodeA>E</defaultKeyCodeA>\n\n    <ignoreConflictsWith>\n\n      <li>Designator_RotateLeft</li>\n\n      <li>Designator_RotateRight</li>\n\n    </ignoreConflictsWith>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Designator_ShapeSnap (KeyBindingDef)",
+            "Label": "force square dimensions",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ArchitectBase\">\n\n    <defName>Designator_ShapeSnap</defName>\n\n    <label>force square dimensions</label>\n\n    <defaultKeyCodeA>LeftControl</defaultKeyCodeA>\n\n    <defaultKeyCodeB>RightControl</defaultKeyCodeB>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "ModifierIncrement_10x (KeyBindingDef)",
+            "Label": "increment 10x",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ModifierKeyBinding\">\n\n    <defName>ModifierIncrement_10x</defName>\n\n    <label>increment 10x</label>\n\n    <defaultKeyCodeA>LeftControl</defaultKeyCodeA>\n\n    <defaultKeyCodeB>RightControl</defaultKeyCodeB>\n\n    <extraConflictTags>\n\n      <li>ModifierIncrement</li>\n\n    </extraConflictTags>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "ModifierIncrement_100x (KeyBindingDef)",
+            "Label": "increment 100x",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ModifierKeyBinding\">\n\n    <defName>ModifierIncrement_100x</defName>\n\n    <label>increment 100x</label>\n\n    <defaultKeyCodeA>LeftShift</defaultKeyCodeA>\n\n    <defaultKeyCodeB>RightShift</defaultKeyCodeB>\n\n    <extraConflictTags>\n\n      <li>ModifierIncrement</li>\n\n    </extraConflictTags>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "QueueOrder (KeyBindingDef)",
+            "Label": "queue order",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"ModifierKeyBinding\">\n\n    <defName>QueueOrder</defName>\n\n    <label>queue order</label>\n\n    <defaultKeyCodeA>LeftShift</defaultKeyCodeA>\n\n    <defaultKeyCodeB>RightShift</defaultKeyCodeB>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Dev_TickOnce (KeyBindingDef)",
+            "Label": "tick once",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"DevelopmentKeyBinding\">\n\n    <defName>Dev_TickOnce</defName>\n\n    <label>tick once</label>\n\n    <defaultKeyCodeA>KeypadPlus</defaultKeyCodeA>\n\n    <devModeOnly>true</devModeOnly>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Dev_ToggleGodMode (KeyBindingDef)",
+            "Label": "toggle god mode",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"DevelopmentKeyBinding\">\n\n    <defName>Dev_ToggleGodMode</defName>\n\n    <label>toggle god mode</label>\n\n    <defaultKeyCodeA>Semicolon</defaultKeyCodeA>\n\n    <devModeOnly>true</devModeOnly>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Dev_ToggleDebugLog (KeyBindingDef)",
+            "Label": "toggle debug log",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"DevelopmentKeyBinding\">\n\n    <defName>Dev_ToggleDebugLog</defName>\n\n    <label>toggle debug log</label>\n\n    <defaultKeyCodeA>BackQuote</defaultKeyCodeA>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Dev_ToggleDebugActionsMenu (KeyBindingDef)",
+            "Label": "toggle debug actions menu",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"DevelopmentKeyBinding\">\n\n    <defName>Dev_ToggleDebugActionsMenu</defName>\n\n    <label>toggle debug actions menu</label>\n\n    <defaultKeyCodeA>Slash</defaultKeyCodeA>\n\n    <devModeOnly>true</devModeOnly>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Dev_ToggleDebugLogMenu (KeyBindingDef)",
+            "Label": "toggle debug log menu",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"DevelopmentKeyBinding\">\n\n    <defName>Dev_ToggleDebugLogMenu</defName>\n\n    <label>toggle debug log menu</label>\n\n    <defaultKeyCodeA>Insert</defaultKeyCodeA>\n\n    <devModeOnly>true</devModeOnly>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Dev_ToggleDebugInspector (KeyBindingDef)",
+            "Label": "toggle debug inspector",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"DevelopmentKeyBinding\">\n\n    <defName>Dev_ToggleDebugInspector</defName>\n\n    <label>toggle debug inspector</label>\n\n    <defaultKeyCodeA>Quote</defaultKeyCodeA>\n\n    <devModeOnly>true</devModeOnly>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Dev_ToggleDebugSettingsMenu (KeyBindingDef)",
+            "Label": "toggle debug settings menu",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"DevelopmentKeyBinding\">\n\n    <defName>Dev_ToggleDebugSettingsMenu</defName>\n\n    <label>toggle debug settings menu</label>\n\n    <defaultKeyCodeA>RightBracket</defaultKeyCodeA>\n\n    <devModeOnly>true</devModeOnly>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Dev_ToggleDevPalette (KeyBindingDef)",
+            "Label": "toggle dev palette",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef ParentName=\"DevelopmentKeyBinding\">\n\n    <defName>Dev_ToggleDevPalette</defName>\n\n    <label>toggle dev palette</label>\n\n    <defaultKeyCodeA>LeftBracket</defaultKeyCodeA>\n\n    <devModeOnly>true</devModeOnly>\n\n  </KeyBindingDef>"
+        },
+        {
+            "Title": "Dev_ChangeSelectedDebugAction (KeyBindingDef)",
+            "Label": "change selected debug action",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/key_bindings/key_bindings.xml`",
+            "XML": "<KeyBindingDef>\n\n    <defName>Dev_ChangeSelectedDebugAction</defName>\n\n    <label>change selected debug action</label>\n\n    <category>DebugMenu</category>\n\n    <defaultKeyCodeA>Tab</defaultKeyCodeA>\n\n    <devModeOnly>true</devModeOnly>\n\n  </KeyBindingDef>"
+        }
+    ]
+}

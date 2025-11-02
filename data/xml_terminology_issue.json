@@ -1,0 +1,554 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "NutrientPasteEating (IssueDef)",
+            "Label": "eating nutrient paste",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_ate_nutrient_paste.xml`",
+            "XML": "<IssueDef>\n\n    <defName>NutrientPasteEating</defName>\n\n    <label>eating nutrient paste</label>\n\n    <iconPath>UI/Issues/EatingNutrientPaste</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Cannibalism (IssueDef)",
+            "Label": "cannibalism",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_cannibalism.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Cannibalism</defName>\n\n    <label>cannibalism</label>\n\n    <iconPath>UI/Issues/Cannibalism</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Corpses (IssueDef)",
+            "Label": "corpses",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_corpses.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Corpses</defName>\n\n    <label>corpses</label>\n\n    <iconPath MayRequire=\"Ludeon.RimWorld.Ideology\">UI/Issues/Corpses</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "InsectMeat (IssueDef)",
+            "Label": "insect meat",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_insect_meat.xml`",
+            "XML": "<IssueDef>\n\n    <defName>InsectMeat</defName>\n\n    <label>insect meat</label>\n\n    <iconPath>UI/Issues/InsectMeat</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Lovin (IssueDef)",
+            "Label": "physical love",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_lovin.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Lovin</defName>\n\n    <label>physical love</label>\n\n    <iconPath>UI/Issues/PhysicalLove</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "MarriageName (IssueDef)",
+            "Label": "marriage name",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_marriage_name.xml`",
+            "XML": "<IssueDef>\n\n    <defName>MarriageName</defName>\n\n    <label>marriage name</label>\n\n    <iconPath>UI/Issues/MarriageName</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "OrganUse (IssueDef)",
+            "Label": "organ use",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_organ_use.xml`",
+            "XML": "<IssueDef>\n\n    <defName>OrganUse</defName>\n\n    <label>organ use</label>\n\n    <iconPath>UI/Issues/OrganUse</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Execution (IssueDef)",
+            "Label": "execution",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_prisoner_execution.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Execution</defName>\n\n    <label>execution</label>\n\n    <iconPath>UI/Issues/Execution</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Ritual (IssueDef)",
+            "Label": "ritual",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_ritual.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Ritual</defName>\n\n    <label>ritual</label>\n\n    <allowMultiplePrecepts>true</allowMultiplePrecepts>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "SlaveTrading (IssueDef)",
+            "Label": "slave trading",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_slavery.xml`",
+            "XML": "<IssueDef>\n\n    <defName>SlaveTrading</defName>\n\n    <label>slave trading</label>\n\n    <iconPath>UI/Issues/SlaveTrading</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "SpouseCount_Male (IssueDef)",
+            "Label": "Men's spouses",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_spouse_count.xml`",
+            "XML": "<IssueDef>\n\n    <defName>SpouseCount_Male</defName>\n\n    <label>Men's spouses</label>\n\n    <iconPath>UI/Issues/SpouseCountMale</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "SpouseCount_Female (IssueDef)",
+            "Label": "Women's spouses",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/precept_defs/precepts_spouse_count.xml`",
+            "XML": "<IssueDef>\n\n    <defName>SpouseCount_Female</defName>\n\n    <label>Women's spouses</label>\n\n    <iconPath>UI/Issues/SpouseCountFemale</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "AnimalsVenerated (IssueDef)",
+            "Label": "venerated animal",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_animal.xml`",
+            "XML": "<IssueDef>\n\n    <defName>AnimalsVenerated</defName>\n\n    <label>venerated animal</label>\n\n    <allowMultiplePrecepts>true</allowMultiplePrecepts>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "AnimalConnection (IssueDef)",
+            "Label": "animal connection",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_animal_personhood.xml`",
+            "XML": "<IssueDef>\n\n    <defName>AnimalConnection</defName>\n\n    <label>animal connection</label>\n\n    <iconPath>UI/Issues/AnimalConnection</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "AnimalSlaughter (IssueDef)",
+            "Label": "slaughtering animals",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_animal_slaughter.xml`",
+            "XML": "<IssueDef>\n\n    <defName>AnimalSlaughter</defName>\n\n    <label>slaughtering animals</label>\n\n    <iconPath>UI/Issues/AnimalSlaughter</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Apostasy (IssueDef)",
+            "Label": "apostasy",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_apostasy.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Apostasy</defName>\n\n    <label>apostasy</label>\n\n    <iconPath>UI/Issues/Apostasy</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "ApparelDesire (IssueDef)",
+            "Label": "apparel desire",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_apparel.xml`",
+            "XML": "<IssueDef>\n\n    <defName>ApparelDesire</defName>\n\n    <label>apparel desire</label>\n\n    <allowMultiplePrecepts>true</allowMultiplePrecepts>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "AutonomousWeapons (IssueDef)",
+            "Label": "autonomous weapons",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_autonomous_weapons.xml`",
+            "XML": "<IssueDef>\n\n    <defName>AutonomousWeapons</defName>\n\n    <label>autonomous weapons</label>\n\n    <iconPath>UI/Issues/AutonomousWeapons</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "BlindPsysense (IssueDef)",
+            "Label": "blind psysense",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_blind_psysense.xml`",
+            "XML": "<IssueDef>\n\n    <defName>BlindPsysense</defName>\n\n    <label>blind psysense</label>\n\n    <iconPath>UI/Issues/BlindPsysense</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Blindness (IssueDef)",
+            "Label": "blindness",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_blindness.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Blindness</defName>\n\n    <label>blindness</label>\n\n    <iconPath>UI/Issues/Blindness</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "BodyModification (IssueDef)",
+            "Label": "body modification",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_body_mod.xml`",
+            "XML": "<IssueDef>\n\n    <defName>BodyModification</defName>\n\n    <label>body modification</label>\n\n    <iconPath>UI/Issues/BodyModifications</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Bonding (IssueDef)",
+            "Label": "bonding",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_bond.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Bonding</defName>\n\n    <label>bonding</label>\n\n    <iconPath>UI/Issues/Bonding</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "IdeoBuilding (IssueDef)",
+            "Label": "building",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_buildings.xml`",
+            "XML": "<IssueDef>\n\n    <defName>IdeoBuilding</defName>\n\n    <label>building</label>\n\n    <allowMultiplePrecepts>true</allowMultiplePrecepts>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Charity (IssueDef)",
+            "Label": "charity",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_charity.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Charity</defName>\n\n    <label>charity</label>\n\n    <iconPath>UI/Issues/Charity</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Comfort (IssueDef)",
+            "Label": "comfort",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_comfort.xml`",
+            "XML": "<IssueDef>\n\n      <defName>Comfort</defName>\n\n      <label>comfort</label>\n\n      <iconPath>UI/Issues/Comfort</iconPath>\n\n    </IssueDef>"
+        },
+        {
+            "Title": "SlabBed (IssueDef)",
+            "Label": "slab bed",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_comfort.xml`",
+            "XML": "<IssueDef>\n\n      <defName>SlabBed</defName>\n\n      <label>slab bed</label>\n\n      <iconPath>Things/Building/Misc/SlabBed/SlabBed_north</iconPath>\n\n    </IssueDef>"
+        },
+        {
+            "Title": "DrugUse (IssueDef)",
+            "Label": "drug use",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_drug_use.xml`",
+            "XML": "<IssueDef>\n\n    <defName>DrugUse</defName>\n\n    <label>drug use</label>\n\n    <iconPath>UI/Issues/DrugUse</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "FungusEating (IssueDef)",
+            "Label": "fungus",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_fungus_eating.xml`",
+            "XML": "<IssueDef>\n\n      <defName>FungusEating</defName>\n\n      <label>fungus</label>\n\n      <iconPath>UI/Issues/Fungus</iconPath>\n\n    </IssueDef>"
+        },
+        {
+            "Title": "IdeoDiversity (IssueDef)",
+            "Label": "diversity of thought",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_ideo_diversity.xml`",
+            "XML": "<IssueDef>\n\n    <defName>IdeoDiversity</defName>\n\n    <label>diversity of thought</label>\n\n    <iconPath>UI/Issues/IdeoDiversity</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "KillingInnocentAnimals (IssueDef)",
+            "Label": "killing innocent animals",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_killing_innocent_animals.xml`",
+            "XML": "<IssueDef>\n\n    <defName>KillingInnocentAnimals</defName>\n\n    <label>killing innocent animals</label>\n\n    <iconPath>UI/Issues/KillingInnocentAnimals</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Lighting (IssueDef)",
+            "Label": "lighting",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_lighting.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Lighting</defName>\n\n    <label>lighting</label>\n\n    <iconPath>UI/Issues/Lighting</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "DarknessCombat (IssueDef)",
+            "Label": "combat in darkness",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_lighting.xml`",
+            "XML": "<IssueDef>\n\n    <defName>DarknessCombat</defName>\n\n    <label>combat in darkness</label>\n\n    <iconPath>UI/Issues/DarknessCombat</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Eclipse (IssueDef)",
+            "Label": "eclipse",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_lighting.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Eclipse</defName>\n\n    <label>eclipse</label>\n\n    <iconPath>UI/Issues/Eclipse</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "MeatEating (IssueDef)",
+            "Label": "meat eating",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_meat_eating.xml`",
+            "XML": "<IssueDef>\n\n    <defName>MeatEating</defName>\n\n    <label>meat eating</label>\n\n    <iconPath>UI/Issues/MeatEating</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Mining (IssueDef)",
+            "Label": "mining",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_mining.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Mining</defName>\n\n    <label>mining</label>\n\n    <iconPath>UI/Issues/Mining</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "MiningYield (IssueDef)",
+            "Label": "mining yield",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_mining.xml`",
+            "XML": "<IssueDef>\n\n    <defName>MiningYield</defName>\n\n    <label>mining yield</label>\n\n    <iconPath>UI/Issues/MiningYield</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Nudity_Male (IssueDef)",
+            "Label": "male clothing",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_nudity.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Nudity_Male</defName>\n\n    <label>male clothing</label>\n\n    <iconPath>UI/Issues/Nudity_Male</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Nudity_Female (IssueDef)",
+            "Label": "female clothing",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_nudity.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Nudity_Female</defName>\n\n    <label>female clothing</label>\n\n    <iconPath>UI/Issues/Nudity_Female</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Pain (IssueDef)",
+            "Label": "pain",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_pain.xml`",
+            "XML": "<IssueDef>\n\n      <defName>Pain</defName>\n\n      <label>pain</label>\n\n      <iconPath>UI/Issues/Pain</iconPath>\n\n    </IssueDef>"
+        },
+        {
+            "Title": "Proselytizing (IssueDef)",
+            "Label": "proselytizing",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_proselytizing.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Proselytizing</defName>\n\n    <label>proselytizing</label>\n\n    <iconPath>UI/Issues/Proselytizing</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Raiding (IssueDef)",
+            "Label": "raiding",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_raiders.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Raiding</defName>\n\n    <label>raiding</label>\n\n    <iconPath>UI/Issues/Raiding</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Ranching (IssueDef)",
+            "Label": "ranching",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_ranching.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Ranching</defName>\n\n    <label>ranching</label>\n\n    <iconPath>UI/Issues/Ranching</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "IdeoRelic (IssueDef)",
+            "Label": "relic",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_relics.xml`",
+            "XML": "<IssueDef>\n\n    <defName>IdeoRelic</defName>\n\n    <label>relic</label>\n\n    <allowMultiplePrecepts>true</allowMultiplePrecepts>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Research (IssueDef)",
+            "Label": "research",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_research.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Research</defName>\n\n    <label>research</label>\n\n    <iconPath>UI/Issues/Research</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "IdeoRitualSeat (IssueDef)",
+            "Label": "ritual seat",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_ritual_seats.xml`",
+            "XML": "<IssueDef>\n\n    <defName>IdeoRitualSeat</defName>\n\n    <label>ritual seat</label>\n\n    <allowMultiplePrecepts>true</allowMultiplePrecepts>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "IdeoRole (IssueDef)",
+            "Label": "role",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_role.xml`",
+            "XML": "<IssueDef>\n\n    <defName>IdeoRole</defName>\n\n    <label>role</label>\n\n    <allowMultiplePrecepts>true</allowMultiplePrecepts>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "RoughLiving (IssueDef)",
+            "Label": "Rough living",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_rough_living.xml`",
+            "XML": "<IssueDef>\n\n    <defName>RoughLiving</defName>\n\n    <label>Rough living</label>\n\n    <iconPath>UI/Issues/RoughLiving</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Scarification (IssueDef)",
+            "Label": "scarification",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_scarification.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Scarification</defName>\n\n    <label>scarification</label>\n\n    <iconPath>UI/Issues/Scarification</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Skullspike (IssueDef)",
+            "Label": "skullspike",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_skullspike.xml`",
+            "XML": "<IssueDef>\n\n      <defName>Skullspike</defName>\n\n      <label>skullspike</label>\n\n      <iconPath>UI/Issues/SkullSpike</iconPath>\n\n    </IssueDef>"
+        },
+        {
+            "Title": "Slavery (IssueDef)",
+            "Label": "slavery",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_slavery.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Slavery</defName>\n\n    <label>slavery</label>\n\n    <iconPath>UI/Issues/Slavery</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Indoors (IssueDef)",
+            "Label": "indoors",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_small_spaces.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Indoors</defName>\n\n    <label>indoors</label>\n\n    <iconPath>UI/Issues/SmallSpaces</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Temperature (IssueDef)",
+            "Label": "Temperature",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_temperature.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Temperature</defName>\n\n    <label>Temperature</label>\n\n    <iconPath>UI/Issues/Temperature</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "SleepAccelerator (IssueDef)",
+            "Label": "sleep accelerator",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_transhumanism.xml`",
+            "XML": "<IssueDef>\n\n    <defName>SleepAccelerator</defName>\n\n    <label>sleep accelerator</label>\n\n    <iconPath>UI/Issues/SleepAccelerator</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Biosculpting (IssueDef)",
+            "Label": "biosculpting",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_transhumanism.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Biosculpting</defName>\n\n    <label>biosculpting</label>\n\n    <iconPath>UI/Issues/BioSculpting</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "AgeReversal (IssueDef)",
+            "Label": "age reversal",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_transhumanism.xml`",
+            "XML": "<IssueDef>\n\n    <defName>AgeReversal</defName>\n\n    <label>age reversal</label>\n\n    <iconPath>UI/Issues/AgeReversal</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "NeuralSupercharge (IssueDef)",
+            "Label": "neural supercharge",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_transhumanism.xml`",
+            "XML": "<IssueDef>\n\n    <defName>NeuralSupercharge</defName>\n\n    <label>neural supercharge</label>\n\n    <iconPath>UI/Issues/NeuralSupercharger</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "TreeCutting (IssueDef)",
+            "Label": "cutting trees",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_tree_cutting.xml`",
+            "XML": "<IssueDef>\n\n    <defName>TreeCutting</defName>\n\n    <label>cutting trees</label>\n\n    <iconPath>UI/Issues/TreeCutting</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Trees (IssueDef)",
+            "Label": "trees",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_trees.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Trees</defName>\n\n    <label>trees</label>\n\n    <iconPath>UI/Issues/Trees</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "GauranlenConnection (IssueDef)",
+            "Label": "Gauranlen connection",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_trees.xml`",
+            "XML": "<IssueDef>\n\n    <defName>GauranlenConnection</defName>\n\n    <label>Gauranlen connection</label>\n\n    <iconPath>UI/Issues/GauranlenConnection</iconPath>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "Weapons (IssueDef)",
+            "Label": "weapons",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_weapons.xml`",
+            "XML": "<IssueDef>\n\n    <defName>Weapons</defName>\n\n    <label>weapons</label>\n\n    <allowMultiplePrecepts>true</allowMultiplePrecepts>\n\n  </IssueDef>"
+        },
+        {
+            "Title": "WorkDrive (IssueDef)",
+            "Label": "work drive",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/precept_defs/precepts_work_drive.xml`",
+            "XML": "<IssueDef>\n\n      <defName>WorkDrive</defName>\n\n      <label>work drive</label>\n\n      <iconPath>UI/Issues/WorkDrive</iconPath>\n\n    </IssueDef>"
+        }
+    ]
+}

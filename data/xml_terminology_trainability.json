@@ -1,0 +1,32 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "None (TrainabilityDef)",
+            "Label": "none",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/trainability_defs/trainability_defs.xml`",
+            "XML": "<TrainabilityDef>\n\n    <defName>None</defName>\n\n    <label>none</label>\n\n    <intelligenceOrder>0</intelligenceOrder>\n\n  </TrainabilityDef>"
+        },
+        {
+            "Title": "Intermediate (TrainabilityDef)",
+            "Label": "intermediate",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/trainability_defs/trainability_defs.xml`",
+            "XML": "<TrainabilityDef>\n\n    <defName>Intermediate</defName>\n\n    <label>intermediate</label>\n\n    <intelligenceOrder>20</intelligenceOrder>\n\n  </TrainabilityDef>"
+        },
+        {
+            "Title": "Advanced (TrainabilityDef)",
+            "Label": "advanced",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/trainability_defs/trainability_defs.xml`",
+            "XML": "<TrainabilityDef>\n\n    <defName>Advanced</defName>\n\n    <label>advanced</label>\n\n    <intelligenceOrder>30</intelligenceOrder>\n\n  </TrainabilityDef>"
+        }
+    ]
+}

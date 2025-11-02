@@ -1,0 +1,95 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Terrain (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>Terrain</defName>\n\n    <order>0</order>\n\n    <worldGenStep Class=\"WorldGenStep_Terrain\" />\n\n  </WorldGenStepDef>"
+        },
+        {
+            "Title": "Tiles (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>Tiles</defName>\n\n    <order>5</order>\n\n    <worldGenStep Class=\"WorldGenStep_Tiles\" />\n\n  </WorldGenStepDef>"
+        },
+        {
+            "Title": "Lakes (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>Lakes</defName>\n\n    <order>150</order>\n\n    <worldGenStep Class=\"WorldGenStep_Lakes\" />\n\n  </WorldGenStepDef>"
+        },
+        {
+            "Title": "Rivers (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>Rivers</defName>\n\n    <order>200</order>\n\n    <worldGenStep Class=\"WorldGenStep_Rivers\" />\n\n  </WorldGenStepDef>"
+        },
+        {
+            "Title": "AncientSites (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>AncientSites</defName>\n\n    <order>300</order>\n\n    <worldGenStep Class=\"WorldGenStep_AncientSites\">\n\n      <ancientSitesPer100kTiles>10~20</ancientSitesPer100kTiles>\n\n    </worldGenStep>\n\n  </WorldGenStepDef>"
+        },
+        {
+            "Title": "AncientRoads (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>AncientRoads</defName>\n\n    <order>400</order>\n\n    <worldGenStep Class=\"WorldGenStep_AncientRoads\">\n\n      <maximumSiteCurve>15</maximumSiteCurve>\n\n      <maximumSegmentCurviness>1.5</maximumSegmentCurviness>\n\n    </worldGenStep>\n\n  </WorldGenStepDef>"
+        },
+        {
+            "Title": "Factions (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>Factions</defName>\n\n    <order>500</order>\n\n    <worldGenStep Class=\"WorldGenStep_Factions\" />\n\n  </WorldGenStepDef>"
+        },
+        {
+            "Title": "Roads (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>Roads</defName>\n\n    <order>600</order>\n\n    <worldGenStep Class=\"WorldGenStep_Roads\" />\n\n  </WorldGenStepDef>"
+        },
+        {
+            "Title": "Mutators (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>Mutators</defName>\n\n    <order>700</order> \n\n    <worldGenStep Class=\"WorldGenStep_Mutators\" />\n\n  </WorldGenStepDef>"
+        },
+        {
+            "Title": "Features (WorldGenStepDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/world_generation/world_generator.xml`",
+            "XML": "<WorldGenStepDef>\n\n    <defName>Features</defName>\n\n    <order>1000</order>\n\n    <worldGenStep Class=\"WorldGenStep_Features\" />\n\n  </WorldGenStepDef>"
+        }
+    ]
+}

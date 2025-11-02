@@ -1,0 +1,734 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "PrepareCaravan_GatherItems (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_caravan.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrepareCaravan_GatherItems</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"ThinkNode_PrioritySorter\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_GetFood\">\n\n              <minCategory>Hungry</minCategory>\n\n            </li>\n\n            <li Class=\"JobGiver_GetRest\">\n\n              <minCategory>VeryTired</minCategory>\n\n            </li>\n\n            <li Class=\"JobGiver_SatisfyChemicalNeed\" />\n\n            <li Class=\"JobGiver_SatifyChemicalDependency\" MayRequire=\"Ludeon.RimWorld.Biotech\" />\n\n          </subNodes>\n\n        </li>\n\n\n\n        \n\n        \n\n        <li Class=\"JobGiver_UnloadYourInventory\" />\n\n\n\n        \n\n        \n\n        <li Class=\"JobGiver_UnloadMyLordCarriers\" />\n\n\n\n        \n\n        <li Class=\"JobGiver_PrepareCaravan_GatherItems\" />\n\n        \n\n        \n\n        <li Class=\"ThinkNode_Tagger\">\n\n          <tagToGive>WaitingForOthersToFinishGatheringItems</tagToGive>\n\n          <subNodes>\n\n            <li Class=\"JobGiver_WanderAnywhere\" />\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PrepareCaravan_Wait (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_caravan.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrepareCaravan_Wait</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n        </li>\n\n                \n\n        \n\n        <li Class=\"ThinkNode_ConditionalPackAnimalHasColonistToFollowWhilePacking\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_PackAnimalFollowColonists\" />\n\n\n\n            \n\n            <li Class=\"JobGiver_WanderAnywhere\" />\n\n          </subNodes>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalHasDutyTarget\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n              <wanderRadius>5</wanderRadius>\n\n              <expiryInterval>120</expiryInterval>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"JobGiver_WanderAnywhere\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PrepareCaravan_GatherAnimals (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_caravan.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrepareCaravan_GatherAnimals</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalColonist\">\n\n          <subNodes>\n\n            \n\n            <li Class=\"JobGiver_PrepareCaravan_GatherPawns\" />\n\n            <li Class=\"JobGiver_GotoTravelDestination\">\n\n              <locomotionUrgency>Jog</locomotionUrgency>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"JobGiver_WanderAnywhere\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PrepareCaravan_CollectAnimals (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_caravan.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrepareCaravan_CollectAnimals</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalColonist\">\n\n          <subNodes>\n\n            \n\n            <li Class=\"JobGiver_PrepareCaravan_CollectPawns\" />\n\n            <li Class=\"JobGiver_GotoTravelDestination\">\n\n              <locomotionUrgency>Jog</locomotionUrgency>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"JobGiver_WanderAnywhere\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PrepareCaravan_GatherDownedPawns (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_caravan.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrepareCaravan_GatherDownedPawns</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n        </li>\n\n      \n\n        \n\n        <li Class=\"JobGiver_PrepareCaravan_GatherDownedPawns\" />\n\n        \n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <destinationFocusIndex>2</destinationFocusIndex>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PrepareCaravan_Pause (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_caravan.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrepareCaravan_Pause</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"ThinkNode_ConditionalColonist\">\n\n          <subNodes>\n\n            \n\n            <li Class=\"ThinkNode_Subtree\">\n\n              <treeDef>MainColonistBehaviorCore</treeDef>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"ThinkNode_ConditionalColonist\">\n\n          <invert>true</invert>\n\n          <subNodes>\n\n            \n\n            <li Class=\"ThinkNode_Subtree\">\n\n              <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"ThinkNode_ConditionalPrisonerInPrisonCell\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_WanderCurrentRoom\" />\n\n          </subNodes>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"JobGiver_WanderAnywhere\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "ReturnedCaravan_PenAnimals (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_caravan.xml`",
+            "XML": "<DutyDef>\n\n    <defName>ReturnedCaravan_PenAnimals</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalColonist\">\n\n          <subNodes>\n\n            \n\n            <li Class=\"JobGiver_ReturnedCaravan_PenAnimals\" />\n\n          </subNodes>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"JobGiver_WanderAnywhere\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "MarryPawn (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>MarryPawn</defName>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"ThinkNode_ConditionalAtDutyLocation\">\n\n          <subNodes>\n\n            \n\n            <li Class=\"JobGiver_MarryAdjacentPawn\" />\n\n            \n\n            \n\n            <li Class=\"JobGiver_Idle\">\n\n              <ticks>50</ticks>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "BestowingCeremony_MoveInPlace (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>BestowingCeremony_MoveInPlace</defName>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"ThinkNode_ConditionalAtDutyLocation\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_Idle\">\n\n              <ticks>60</ticks>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Spectate (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Spectate</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_SpectateDutySpectateRect\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SpectateCircle (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SpectateCircle</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_SpectateInCircleDuty\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SpectateSocial (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SpectateSocial</defName>\n\n    <hook>HighPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_SpectateInCircleDuty\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Party (DutyDef)",
+            "Label": "party",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Party</defName>\n\n    <label>party</label>\n\n    <hook>MediumPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"ThinkNode_ConditionalInGatheringArea\">\n\n          <subNodes>\n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.05</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_EatInGatheringArea\" />\n\n              </subNodes>\n\n            </li>\n\n            \n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.35</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_StandAndBeSociallyActive\">\n\n                  <ticksRange>350~750</ticksRange>\n\n                </li>\n\n              </subNodes>\n\n            </li>\n\n            \n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.1</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_GetJoyInGatheringArea\" />\n\n              </subNodes>\n\n            </li>\n\n            \n\n            \n\n            <li Class=\"JobGiver_WanderInGatheringArea\">\n\n              <ticksBetweenWandersRange>50~250</ticksBetweenWandersRange>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"JobGiver_WanderInGatheringArea\">\n\n          <ticksBetweenWandersRange>50~250</ticksBetweenWandersRange>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "GiveSpeech (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>GiveSpeech</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <ritualTagOnArrival>Arrived</ritualTagOnArrival>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalAtDutyLocation\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_GiveSpeech\">\n\n              <soundDefMale>Speech_Throne_Male</soundDefMale>\n\n              <soundDefFemale>Speech_Throne_Female</soundDefFemale>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "TravelOrLeave (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>TravelOrLeave</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_GotoTravelDestination\" />\n\n        \n\n        <li Class=\"JobGiver_ExitMapRandom\">\n\n          <defaultLocomotion>Walk</defaultLocomotion>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "TravelOrWait (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>TravelOrWait</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\" />\n\n\n\n        \n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"JobGiver_WanderAnywhere\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Idle (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Idle</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_Idle\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "IdleNoInteraction (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>IdleNoInteraction</defName>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_Idle\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Defend (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Defend</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      \n\n      \n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\">\n\n          <onlyIfInDanger>true</onlyIfInDanger>\n\n        </li>\n\n        <li Class=\"JobGiver_AIDefendPoint\">\n\n          <targetAcquireRadius>65</targetAcquireRadius>\n\n          <targetKeepRadius>72</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"ThinkNode_ForbidOutsideFlagRadius\">\n\n          <maxDistToSquadFlag>16</maxDistToSquadFlag>\n\n          <subNodes>\n\n            <li Class=\"ThinkNode_Subtree\">\n\n              <treeDef>SatisfyBasicNeedsAndWork</treeDef>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <wanderRadius>8</wanderRadius>\n\n          <locomotionUrgencyOutsideRadius>Sprint</locomotionUrgencyOutsideRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Follow (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Follow</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_AIFollowEscortee\" />\n\n        <li Class=\"ThinkNode_ForbidOutsideFlagRadius\">\n\n          <maxDistToSquadFlag>16</maxDistToSquadFlag>\n\n          <subNodes>\n\n            <li Class=\"ThinkNode_Subtree\">\n\n              <treeDef>SatisfyBasicNeedsAndWork</treeDef>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <wanderRadius>5</wanderRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Build (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Build</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_FightFiresNearPoint\">\n\n          <maxDistFromPoint>25</maxDistFromPoint>\n\n        </li>\n\n        <li Class=\"ThinkNode_ForbidOutsideFlagRadius\">\n\n          <maxDistToSquadFlag>16</maxDistToSquadFlag>\n\n          <subNodes>\n\n            <li Class=\"JobGiver_Work\" />\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_AIDefendPoint\">\n\n          <targetAcquireRadius>35</targetAcquireRadius>\n\n          <targetKeepRadius>40</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"ThinkNode_ForbidOutsideFlagRadius\">\n\n          <maxDistToSquadFlag>16</maxDistToSquadFlag>\n\n          <subNodes>\n\n            <li Class=\"ThinkNode_Subtree\">\n\n              <treeDef>SatisfyBasicNeedsAndWork</treeDef>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_ManTurretsNearPoint\">\n\n          <maxDistFromPoint>25</maxDistFromPoint>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <wanderRadius>8</wanderRadius>\n\n          <locomotionUrgencyOutsideRadius>Sprint</locomotionUrgencyOutsideRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "AssaultColony (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>AssaultColony</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\" />\n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>Abilities_Aggressive</treeDef>\n\n        </li>\n\n        <li Class=\"JobGiver_AIFightEnemies\">\n\n          <targetAcquireRadius>65</targetAcquireRadius>\n\n          <targetKeepRadius>72</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_AITrashColonyClose\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\" />\n\n        <li Class=\"JobGiver_AIGotoNearestHostile\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\">\n\n          <attackAllInert>true</attackAllInert>\n\n        </li>\n\n        <li Class=\"JobGiver_AISapper\">\n\n          <canMineNonMineables>false</canMineNonMineables>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n    <constantThinkNode Class=\"ThinkNode_ConditionalCanPickupOpportunisticWeapon\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_PickUpOpportunisticWeapon\" />\n\n      </subNodes>\n\n    </constantThinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Sapper (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Sapper</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\" />\n\n        <li Class=\"JobGiver_AIFightEnemies\">\n\n          <targetAcquireRadius>12</targetAcquireRadius>\n\n          <targetKeepRadius>15</targetKeepRadius>\n\n          <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n        </li>\n\n        <li Class=\"JobGiver_AISapper\" />\n\n        <li Class=\"JobGiver_AITrashColonyClose\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\" />\n\n        <li Class=\"JobGiver_AIGotoNearestHostile\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Escort (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Escort</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\">\n\n          <onlyIfInDanger>true</onlyIfInDanger>\n\n        </li>\n\n        <li Class=\"JobGiver_AIDefendEscortee\">\n\n          <targetAcquireRadius>65</targetAcquireRadius>\n\n          <targetKeepRadius>72</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_AIFollowEscortee\" />\n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n        </li> \n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <wanderRadius>8</wanderRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "HuntEnemiesIndividual (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>HuntEnemiesIndividual</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\" />\n\n        <li Class=\"JobGiver_AIFightEnemies\">\n\n          <targetAcquireRadius>65</targetAcquireRadius>\n\n          <targetKeepRadius>72</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_AITrashColonyClose\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\" />\n\n        <li Class=\"JobGiver_AIGotoNearestHostile\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Kidnap (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Kidnap</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_Kidnap\" />\n\n        <li Class=\"JobGiver_ExitMapBest\">\n\n          <defaultLocomotion>Jog</defaultLocomotion>\n\n          <jobMaxDuration>200</jobMaxDuration>\n\n          <forceCanDigIfCantReachMapEdge>true</forceCanDigIfCantReachMapEdge>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "TakeWoundedGuest (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>TakeWoundedGuest</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeWoundedGuest\" />\n\n        <li Class=\"JobGiver_ExitMapBest\">\n\n          <defaultLocomotion>Jog</defaultLocomotion>\n\n          <jobMaxDuration>500</jobMaxDuration>\n\n          <forceCanDigIfAnyHostileActiveThreat>true</forceCanDigIfAnyHostileActiveThreat>\n\n          <forceCanDigIfCantReachMapEdge>true</forceCanDigIfCantReachMapEdge>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Steal (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Steal</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_Steal\" />\n\n        <li Class=\"JobGiver_ExitMapBest\">\n\n          <defaultLocomotion>Jog</defaultLocomotion>\n\n          <jobMaxDuration>200</jobMaxDuration>\n\n          <forceCanDig>true</forceCanDig>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PrisonerEscape (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrisonerEscape</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Tagger\">\n\n      <tagToGive>Escaping</tagToGive>\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\" />\n\n        \n\n        <li Class=\"ThinkNode_ConditionalHasDutyPawnTarget\">\n\n          <subNodes>\n\n            \n\n            <li Class=\"ThinkNode_ConditionalCapableOfWorkTag\">\n\n              <workTags>\n\n                <li>Violent</li>\n\n              </workTags>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_AIDefendEscortee\">\n\n                  <targetAcquireRadius>15</targetAcquireRadius>\n\n                  <targetKeepRadius>18</targetKeepRadius>\n\n                  <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n                </li>\n\n              </subNodes>\n\n            </li>\n\n            <li Class=\"JobGiver_AIFollowEscortee\" />\n\n            <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n              <wanderRadius>3</wanderRadius>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      \n\n        \n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalCapableOfWorkTag\">\n\n          <workTags>\n\n            <li>Violent</li>\n\n          </workTags>\n\n          <subNodes>\n\n            <li Class=\"JobGiver_AIFightEnemies\">\n\n              <targetAcquireRadius>14</targetAcquireRadius>\n\n              <targetKeepRadius>17</targetKeepRadius>\n\n              <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <jobMaxDuration>500</jobMaxDuration>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <wanderRadius>3</wanderRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n    <constantThinkNode Class=\"ThinkNode_Tagger\">\n\n      <tagToGive>Escaping</tagToGive>\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_PickUpOpportunisticWeapon\">\n\n          <pickUpUtilityItems>true</pickUpUtilityItems>\n\n        </li>\n\n      </subNodes>\n\n    </constantThinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PrisonerEscapeSapper (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrisonerEscapeSapper</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Tagger\">\n\n      <tagToGive>Escaping</tagToGive>\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\" />\n\n        \n\n        \n\n        <li Class=\"ThinkNode_ConditionalCapableOfWorkTag\">\n\n          <workTags>\n\n            <li>Violent</li>\n\n          </workTags>\n\n          <subNodes>\n\n            <li Class=\"JobGiver_AIFightEnemies\">\n\n              <targetAcquireRadius>12</targetAcquireRadius>\n\n              <targetKeepRadius>15</targetKeepRadius>\n\n              <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"JobGiver_AISapper\" />\n\n        \n\n        \n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <wanderRadius>3</wanderRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n    <constantThinkNode Class=\"ThinkNode_Tagger\">\n\n      <tagToGive>Escaping</tagToGive>\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_PickUpOpportunisticWeapon\">\n\n          <preferBuildingDestroyers>true</preferBuildingDestroyers> \n\n          <pickUpUtilityItems>true</pickUpUtilityItems>\n\n        </li>\n\n      </subNodes>\n\n    </constantThinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PrisonerAssaultColony (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrisonerAssaultColony</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_AIFightEnemies\">\n\n          <targetAcquireRadius>65</targetAcquireRadius>\n\n          <targetKeepRadius>72</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_AITrashColonyClose\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\" />\n\n        <li Class=\"JobGiver_AIGotoNearestHostile\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\" />\n\n        <li Class=\"JobGiver_AISapper\">\n\n          <canMineNonMineables>false</canMineNonMineables>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n    <constantThinkNode Class=\"ThinkNode_Tagger\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_PickUpOpportunisticWeapon\">\n\n        </li>\n\n      </subNodes>\n\n    </constantThinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "DefendAndExpandHive (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>DefendAndExpandHive</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_HiveDefense\">\n\n          <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n          <targetAcquireRadius>30</targetAcquireRadius>\n\n          <chaseTarget>false</chaseTarget>\n\n        </li>\n\n        <li Class=\"ThinkNode_ChancePerHour_Constant\">\n\n          <mtbHours>2.5</mtbHours>\n\n          <subNodes>\n\n            <li Class=\"JobGiver_MaintainHives\" />\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_MaintainHives\">\n\n          <onlyIfDamagingState>true</onlyIfDamagingState>\n\n        </li>\n\n        <li Class=\"ThinkNode_ConditionalBodySize\">\n\n          <min>0.7</min>\n\n          <subNodes>\n\n            <li Class=\"ThinkNode_ConditionalHiveCanReproduce\">\n\n              <subNodes>\n\n                <li Class=\"ThinkNode_ChancePerHour_InsectDigChance\">\n\n                  <subNodes>\n\n                    <li Class=\"JobGiver_MineRandom\" />\n\n                  </subNodes>\n\n                </li>\n\n              </subNodes>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"ThinkNode_Tagger\">\n\n          <tagToGive>SatisfyingNeeds</tagToGive>\n\n          <subNodes>\n\n            <li Class=\"ThinkNode_PrioritySorter\">\n\n              <subNodes>\n\n                <li Class=\"JobGiver_GetFood\" />\n\n                <li Class=\"JobGiver_GetRest\" />\n\n              </subNodes>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderHive\">\n\n          <maxDanger>Deadly</maxDanger>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "DefendHiveAggressively (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>DefendHiveAggressively</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_HiveDefense\">\n\n          <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n          <targetAcquireRadius>50</targetAcquireRadius>\n\n          <chaseTarget>false</chaseTarget>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderHive\">\n\n          <maxDanger>Deadly</maxDanger>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "NestAssault (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>NestAssault</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>Abilities_Aggressive</treeDef>\n\n        </li>\n\n        <li Class=\"JobGiver_AIFightEnemies\">\n\n          <targetAcquireRadius>65</targetAcquireRadius>\n\n          <targetKeepRadius>72</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_AITrashColonyClose\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\" />\n\n        <li Class=\"JobGiver_AIGotoNearestHostile\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\">\n\n          <attackAllInert>true</attackAllInert>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n    <constantThinkNode Class=\"ThinkNode_ConditionalCanPickupOpportunisticWeapon\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_PickUpOpportunisticWeapon\" />\n\n      </subNodes>\n\n    </constantThinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "ExitMapRandom (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>ExitMapRandom</defName>\n\n    <thinkNode Class=\"JobGiver_ExitMapRandom\">\n\n      <defaultLocomotion>Walk</defaultLocomotion>\n\n      <canFlyOutOfMap>false</canFlyOutOfMap>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "ExitMapBest (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>ExitMapBest</defName>\n\n    <thinkNode Class=\"JobGiver_ExitMapBest\">\n\n      <defaultLocomotion>Walk</defaultLocomotion>\n\n      <canFlyOutOfMap>false</canFlyOutOfMap>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "ExitMapBestAndDefendSelf (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>ExitMapBestAndDefendSelf</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_AIDefendSelf\">\n\n          <targetAcquireRadius>35</targetAcquireRadius>\n\n          <targetKeepRadius>40</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_ExitMapBest\">\n\n          <defaultLocomotion>Walk</defaultLocomotion>\n\n          <jobMaxDuration>120</jobMaxDuration>\n\n          <canFlyOutOfMap>false</canFlyOutOfMap>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "ExitMapNearDutyTarget (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>ExitMapNearDutyTarget</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_ExitMapNearDutyTarget\">\n\n          <defaultLocomotion>Walk</defaultLocomotion>\n\n          <canFlyOutOfMap>false</canFlyOutOfMap>\n\n        </li>\n\n        <li Class=\"JobGiver_ExitMapBest\">\n\n          <defaultLocomotion>Walk</defaultLocomotion>\n\n          <canFlyOutOfMap>false</canFlyOutOfMap>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "LoadAndEnterTransporters (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>LoadAndEnterTransporters</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"JobGiver_LoadTransporters\" />\n\n\n\n        \n\n        \n\n        <li Class=\"JobGiver_UnloadYourInventory\" />\n\n\n\n        \n\n        <li Class=\"JobGiver_EnterTransporter\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "EnterTransporter (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>EnterTransporter</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_EnterTransporter\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "EnterTransporterAndDefendSelf (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>EnterTransporterAndDefendSelf</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_AIDefendSelf\">\n\n          <targetAcquireRadius>35</targetAcquireRadius>\n\n          <targetKeepRadius>40</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_EnterTransporter\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "LoadAndEnterPortal (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>LoadAndEnterPortal</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyVeryUrgentNeeds</treeDef>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"JobGiver_HaulToPortal\" />\n\n\n\n        \n\n        \n\n        <li Class=\"JobGiver_UnloadYourInventory\" />\n\n\n\n        \n\n        <li Class=\"JobGiver_EnterPortal\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "ManClosestTurret (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>ManClosestTurret</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>SatisfyBasicNeeds</treeDef>\n\n        </li> \n\n        <li Class=\"JobGiver_ManTurretsNearSelf\">\n\n          <maxDistFromPoint>50</maxDistFromPoint>\n\n        </li>\n\n        <li Class=\"JobGiver_AIDefendPoint\">\n\n          <targetAcquireRadius>35</targetAcquireRadius>\n\n          <targetKeepRadius>40</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <wanderRadius>12</wanderRadius>\n\n          <locomotionUrgencyOutsideRadius>Sprint</locomotionUrgencyOutsideRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SleepForever (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SleepForever</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"ThinkNode_PrioritySorter\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_GetFood\">\n\n              <minCategory>Starving</minCategory>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_ForceSleepNow\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Breaching (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Breaching</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\" />\n\n        <li Class=\"ThinkNode_HarmedRecently\">\n\n          <thresholdTicks>600</thresholdTicks>\n\n          <subNodes>\n\n            <li Class=\"JobGiver_AIFightEnemies\"> \n\n              <targetAcquireRadius>65</targetAcquireRadius>\n\n              <targetKeepRadius>72</targetKeepRadius>\n\n              <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_AIFightEnemies\"> \n\n          <targetAcquireRadius>12</targetAcquireRadius>\n\n          <targetKeepRadius>15</targetKeepRadius>\n\n          <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n        </li>\n\n        <li Class=\"JobGiver_AIBreaching\" />\n\n        <li Class=\"JobGiver_AIFightEnemies\"> \n\n          <targetAcquireRadius>65</targetAcquireRadius>\n\n          <targetKeepRadius>72</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderNearBreacher\">\n\n          <wanderRadius>5</wanderRadius>\n\n          <expiryInterval>120</expiryInterval>\n\n        </li>\n\n        <li Class=\"JobGiver_AITrashColonyClose\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\" />\n\n        <li Class=\"JobGiver_AIGotoNearestHostile\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\">\n\n          <attackAllInert>true</attackAllInert>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "AssaultThing (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>AssaultThing</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\" />\n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>Abilities_Aggressive</treeDef>\n\n        </li>\n\n        <li Class=\"JobGiver_AIFightEnemies\">\n\n          <targetAcquireRadius>20</targetAcquireRadius>\n\n          <targetKeepRadius>23</targetKeepRadius>\n\n        </li>\n\n        <li Class=\"JobGiver_AITrashDutyFocus\" />\n\n        <li Class=\"JobGiver_AISapper\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "WanderClose (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>WanderClose</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_GetFood\">\n\n          <minCategory>UrgentlyHungry</minCategory>\n\n        </li>\n\n        <li Class=\"JobGiver_GetRest\">\n\n          <minCategory>VeryTired</minCategory>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <wanderRadius>3</wanderRadius>\n\n        </li> \n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "WanderClose_NoNeeds (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>WanderClose_NoNeeds</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <wanderRadius>3</wanderRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "LayDownAwake (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>LayDownAwake</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_LayDownAwake\">\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "HuntDownColonists (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>HuntDownColonists</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\" />\n\n        <li Class=\"ThinkNode_Subtree\">\n\n          <treeDef>Abilities_Aggressive</treeDef>\n\n        </li>\n\n        <li Class=\"JobGiver_AIFightEnemies\">\n\n          <targetAcquireRadius>65</targetAcquireRadius>\n\n          <targetKeepRadius>72</targetKeepRadius>\n\n          <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n        </li>\n\n        <li Class=\"JobGiver_AITrashColonyClose\" />\n\n        <li Class=\"JobGiver_AIGotoNearestHostile\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\" />\n\n        <li Class=\"JobGiver_AITrashBuildingsDistant\">\n\n          <attackAllInert>true</attackAllInert>\n\n        </li>\n\n        <li Class=\"JobGiver_AISapper\">\n\n          <canMineNonMineables>false</canMineNonMineables>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n    <constantThinkNode Class=\"ThinkNode_ConditionalCanPickupOpportunisticWeapon\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_PickUpOpportunisticWeapon\" />\n\n      </subNodes>\n\n    </constantThinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "DefendBase (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_non_player_home.xml`",
+            "XML": "<DutyDef>\n\n    <defName>DefendBase</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_TakeCombatEnhancingDrug\">\n\n          <onlyIfInDanger>true</onlyIfInDanger>\n\n        </li>\n\n        <li Class=\"JobGiver_AIDefendPoint\">\n\n          <targetAcquireRadius>25</targetAcquireRadius>\n\n          <targetKeepRadius>30</targetKeepRadius>\n\n          <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>\n\n        </li>\n\n        <li Class=\"ThinkNode_ForbidOutsideFlagRadius\">\n\n          <maxDistToSquadFlag>16</maxDistToSquadFlag>\n\n          <subNodes>\n\n            <li Class=\"ThinkNode_Subtree\">\n\n              <treeDef>SatisfyBasicNeeds</treeDef>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_SeekSafeTemperature\" />\n\n        <li Class=\"ThinkNode_ConditionalCloseToDutyTarget\">\n\n          <maxDistToDutyTarget>12</maxDistToDutyTarget>\n\n          <subNodes>\n\n            <li Class=\"JobGiver_WanderAnywhere\">\n\n              <wanderRadius>12</wanderRadius>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_WanderNearDutyLocation\">\n\n          <locomotionUrgencyOutsideRadius>Sprint</locomotionUrgencyOutsideRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "ArriveToCell (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>ArriveToCell</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <ritualTagOnArrival>Arrived</ritualTagOnArrival>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"JobGiver_Idle\">\n\n          <ticks>60</ticks>\n\n        </li>\n\n\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "GoToBed (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>GoToBed</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"ThinkNode_ConditionalInBed\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_KeepLyingDown\">\n\n              <useBed>true</useBed>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"ThinkNode_ConditionalDowned\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_KeepLyingDown\">\n\n              <useBed>true</useBed>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <jobDef>LayDown</jobDef>\n\n          <destinationFocusIndex>3</destinationFocusIndex>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <ritualTagOnArrival>Arrived</ritualTagOnArrival>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "DeliverPawnToCell (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>DeliverPawnToCell</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_DeliverPawnToCell\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Pilgrims_Spectate (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Pilgrims_Spectate</defName>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_SpectateDutySpectateRect\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PartyDance (DutyDef)",
+            "Label": "dance party",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PartyDance</defName>\n\n    <label>dance party</label>\n\n    <hook>MediumPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"ThinkNode_ConditionalInGatheringArea\">\n\n          <subNodes>\n\n\n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.4</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_Dance\">\n\n                  <ticksRange>480</ticksRange>\n\n                </li>\n\n              </subNodes>\n\n            </li>\n\n\n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.1</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_GetJoyInGatheringArea\">\n\n                  <desiredRadius>8</desiredRadius>\n\n                </li>\n\n              </subNodes>\n\n            </li>\n\n\n\n            \n\n            <li Class=\"JobGiver_WanderInGatheringArea\">\n\n              <ticksBetweenWandersRange>50</ticksBetweenWandersRange>\n\n              <desiredRadius>6</desiredRadius>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"JobGiver_WanderInGatheringArea\">\n\n          <ticksBetweenWandersRange>50~250</ticksBetweenWandersRange>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <desiredRadius>6</desiredRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PlayTargetInstrument (DutyDef)",
+            "Label": "playing music",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PlayTargetInstrument</defName>\n\n    <label>playing music</label>\n\n    <hook>HighPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_PlayTargetInstrument\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PartyCloseWander (DutyDef)",
+            "Label": "party",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PartyCloseWander</defName>\n\n    <label>party</label>\n\n    <hook>MediumPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"ThinkNode_ConditionalInGatheringArea\">\n\n          <subNodes>\n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.05</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_EatInGatheringArea\" />\n\n              </subNodes>\n\n            </li>\n\n            \n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.35</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_StandAndBeSociallyActive\">\n\n                  <ticksRange>350~750</ticksRange>\n\n                </li>\n\n              </subNodes>\n\n            </li>\n\n            \n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.1</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_GetJoyInGatheringArea\" />\n\n              </subNodes>\n\n            </li>\n\n            \n\n            \n\n            <li Class=\"JobGiver_WanderInGatheringArea\">\n\n              <ticksBetweenWandersRange>50~250</ticksBetweenWandersRange>\n\n              <desiredRadius>6</desiredRadius>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"JobGiver_WanderInGatheringArea\">\n\n          <ticksBetweenWandersRange>50~250</ticksBetweenWandersRange>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <desiredRadius>6</desiredRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "EatAtCannibalPlatter (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>EatAtCannibalPlatter</defName>\n\n    <hook>HighPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_EatAtCannibalPlatter\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SpectateSmokeCircle (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SpectateSmokeCircle</defName>\n\n    <hook>HighPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"ThinkNode_ConditionalInGatheringArea\">\n\n          <subNodes>\n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.1</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_GetJoyInGatheringArea\" />\n\n              </subNodes>\n\n            </li>\n\n\n\n            <li Class=\"ThinkNode_ConditionalHasHediff\">\n\n              <hediff>SmokeleafHigh</hediff>\n\n              <severityRange>0.4~0.6</severityRange>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_LayDownResting\" />\n\n              </subNodes>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n\n\n        <li Class=\"JobGiver_WanderInGatheringArea\">\n\n          <ticksBetweenWandersRange>600~1200</ticksBetweenWandersRange>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <desiredRadius>6</desiredRadius>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "AcceptRole (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>AcceptRole</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <ritualSpectateTarget>true</ritualSpectateTarget>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <ritualTagOnArrival>Arrived</ritualTagOnArrival>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalAtDutyLocation\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_AcceptRole\">\n\n              <soundDefMale>Speech_Ideoligious_Male</soundDefMale>\n\n              <soundDefFemale>Speech_Ideoligious_Female</soundDefFemale>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SpeakOnCell (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SpeakOnCell</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <ritualSpectateTarget>true</ritualSpectateTarget>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <ritualTagOnArrival>Arrived</ritualTagOnArrival>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"ThinkNode_ConditionalAtDutyLocation\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_GiveSpeechFacingTarget\">\n\n              <soundDefMale>Speech_Ideoligious_Male</soundDefMale>\n\n              <soundDefFemale>Speech_Ideoligious_Female</soundDefFemale>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SpeakOnCell_Leader (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SpeakOnCell_Leader</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <ritualSpectateTarget>true</ritualSpectateTarget>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <ritualTagOnArrival>Arrived</ritualTagOnArrival>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"ThinkNode_ConditionalAtDutyLocation\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_GiveSpeechFacingTarget\">\n\n              <faceSpectatorsIfPossible>true</faceSpectatorsIfPossible>\n\n              <soundDefMale>Speech_Leader_Male</soundDefMale>\n\n              <soundDefFemale>Speech_Leader_Female</soundDefFemale>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SpeakOnCellFuneral (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SpeakOnCellFuneral</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <ritualSpectateTarget>true</ritualSpectateTarget>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <ritualTagOnArrival>Arrived</ritualTagOnArrival>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalAtDutyLocation\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_GiveSpeechFacingTarget\">\n\n              <soundDefMale>Speech_Funeral_Male</soundDefMale>\n\n              <soundDefFemale>Speech_Funeral_Female</soundDefFemale>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SpeakOnCellNoSpeechBubbles (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SpeakOnCellNoSpeechBubbles</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <ritualSpectateTarget>true</ritualSpectateTarget>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <ritualTagOnArrival>Arrived</ritualTagOnArrival>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalAtDutyLocation\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_GiveSpeechFacingTarget\">\n\n              <showSpeechBubbles>false</showSpeechBubbles>\n\n              <soundDefMale>Speech_Ideoligious_Male</soundDefMale>\n\n              <soundDefFemale>Speech_Ideoligious_Female</soundDefFemale>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SpeakOnCellFacingSpectators (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SpeakOnCellFacingSpectators</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <ritualSpectateTarget>true</ritualSpectateTarget>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_GotoTravelDestination\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <ritualTagOnArrival>Arrived</ritualTagOnArrival>\n\n        </li>\n\n\n\n        \n\n        <li Class=\"ThinkNode_ConditionalAtDutyLocation\">\n\n          <subNodes>\n\n            <li Class=\"JobGiver_GiveSpeechFacingTarget\">\n\n              <showSpeechBubbles>false</showSpeechBubbles>\n\n              <faceSpectatorsIfPossible>true</faceSpectatorsIfPossible>\n\n              <soundDefMale>Speech_Ideoligious_Male</soundDefMale>\n\n              <soundDefFemale>Speech_Ideoligious_Female</soundDefFemale>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "DeliverPawnToAltar (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>DeliverPawnToAltar</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_DeliverPawnToAltar\">\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "DeliverPawnToCellIfAliveThenIdle (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>DeliverPawnToCellIfAliveThenIdle</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_DeliverPawnToCell\">\n\n          <addArrivalTagIfInvalidTarget>true</addArrivalTagIfInvalidTarget>\n\n          <addArrivalTagIfTargetIsDead>true</addArrivalTagIfTargetIsDead>\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n        </li>\n\n\n\n        <li Class=\"JobGiver_Idle\">\n\n          <ticks>60</ticks>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "DeliverPawnToBedIfAliveThenIdle (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>DeliverPawnToBedIfAliveThenIdle</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_DeliverPawnToBed\">\n\n          <addArrivalTagIfNoBedAvailable>true</addArrivalTagIfNoBedAvailable>\n\n          <addArrivalTagIfTargetIsDead>true</addArrivalTagIfTargetIsDead>\n\n          <exactCell>true</exactCell>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n        </li>\n\n\n\n        <li Class=\"JobGiver_Idle\">\n\n          <ticks>60</ticks>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Sacrifice (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Sacrifice</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_Sacrifice\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Scarify (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Scarify</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_Scarify\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Blind (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Blind</defName>\n\n    <hook>HighPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_Blind\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "PrepareSkyLanterns (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>PrepareSkyLanterns</defName>\n\n    <hook>HighPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_TakeCountToInventory\">\n\n          <def>WoodLog</def>\n\n          <count>4</count>\n\n        </li>\n\n\n\n        <li Class=\"JobGiver_PrepareSkylantern\">\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n          <def>WoodLog</def>\n\n          <count>4</count>\n\n          <allowUnroofed>false</allowUnroofed>\n\n          <desiredRadius>5</desiredRadius>\n\n          <minDistanceToOtherReservedCell>3</minDistanceToOtherReservedCell>\n\n        </li>\n\n        \n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "SpectateDirectionSociallyActive (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>SpectateDirectionSociallyActive</defName>\n\n    <hook>HighPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_StandAndBeSociallyActive\">\n\n          <lookDirection>NorthWest</lookDirection>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "StandOnCell (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>StandOnCell</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n\n\n        <li Class=\"JobGiver_Idle\">\n\n          <ticks>60</ticks>\n\n        </li>\n\n        \n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "DropWeapon (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>DropWeapon</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n\n\n        <li Class=\"JobGiver_DropWeapon\" />\n\n        <li Class=\"JobGiver_Idle\">\n\n          <ticks>60</ticks>\n\n        </li>\n\n        \n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Duel (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/duty_defs/duties_rituals.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Duel</defName>\n\n    <alwaysShowWeapon>true</alwaysShowWeapon>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n\n\n        <li Class=\"JobGiver_DuelPickupWeapon\" />\n\n\n\n        <li Class=\"JobGiver_Duel\" />\n\n\n\n        <li Class=\"JobGiver_Idle\">\n\n          <ticks>60</ticks>\n\n        </li>\n\n        \n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Concert (DutyDef)",
+            "Label": "concert",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/duty_defs/duties_gatherings.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Concert</defName>\n\n    <label>concert</label>\n\n    <hook>MediumPriority</hook>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"ThinkNode_ConditionalInGatheringArea\">\n\n          <subNodes>\n\n            \n\n            <li Class=\"JobGiver_ConcertOrganizerPlayInstrument\">\n\n              \n\n            </li>\n\n            \n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.05</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_EatInGatheringArea\" />\n\n              </subNodes>\n\n            </li>\n\n            \n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.35</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_StandAndBeSociallyActive\">\n\n                  <ticksRange>350~750</ticksRange>\n\n                </li>\n\n              </subNodes>\n\n            </li>\n\n            \n\n            \n\n            <li Class=\"ThinkNode_ConditionalRandom\">\n\n              <chance>0.1</chance>\n\n              <subNodes>\n\n                <li Class=\"JobGiver_GetJoyInGatheringArea\" />\n\n              </subNodes>\n\n            </li>\n\n            \n\n            \n\n            <li Class=\"JobGiver_WanderInGatheringArea\">\n\n              <ticksBetweenWandersRange>50~250</ticksBetweenWandersRange>\n\n            </li>\n\n          </subNodes>\n\n        </li>\n\n        \n\n        \n\n        <li Class=\"JobGiver_WanderInGatheringArea\">\n\n          <ticksBetweenWandersRange>50~250</ticksBetweenWandersRange>\n\n          <locomotionUrgency>Jog</locomotionUrgency>\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "Bestow (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>Bestow</defName>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_BestowingCeremony\">\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "LinkWithAnimaTree (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>LinkWithAnimaTree</defName>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        <li Class=\"JobGiver_AnimaLinking\">\n\n        </li>\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        },
+        {
+            "Title": "LinkWithAnimaTreeSecondary (DutyDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/duty_defs/duties_misc.xml`",
+            "XML": "<DutyDef>\n\n    <defName>LinkWithAnimaTreeSecondary</defName>\n\n    <hook>MediumPriority</hook>\n\n    <socialModeMax>Off</socialModeMax>\n\n    <thinkNode Class=\"ThinkNode_Priority\">\n\n      <subNodes>\n\n        \n\n        <li Class=\"JobGiver_SpectateInCircleDuty\" />\n\n      </subNodes>\n\n    </thinkNode>\n\n  </DutyDef>"
+        }
+    ]
+}

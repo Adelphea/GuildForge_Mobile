@@ -1,0 +1,212 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "ClassicLike (IdeoPresetDef)",
+            "Label": "classic-like",
+            "Description Originale": "Your colonists get a belief system like classic RimWorld. The rest of the world has separate ideoligions generated for them.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>ClassicLike</defName>\n\n    <label>classic-like</label>\n\n    <description>Your colonists get a belief system like classic RimWorld. The rest of the world has separate ideoligions generated for them.</description>\n\n    <categoryDef>Mild</categoryDef>\n\n    <iconPath>UI/HeroArt/RimWorldLogo</iconPath>\n\n    <classicPlus>true</classicPlus>\n\n    <memes>\n\n      <li>Individualist</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Unity_Family (IdeoPresetDef)",
+            "Label": "unity family",
+            "Description Originale": "The community is a family of hard-working, like-minded people. Putting yourself first is not acceptable.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Unity_Family</defName>\n\n    <label>unity family</label>\n\n    <description>The community is a family of hard-working, like-minded people. Putting yourself first is not acceptable.</description>\n\n    <categoryDef>Mild</categoryDef>\n\n    <memes>\n\n      <li>Loyalist</li>\n\n      <li>Collectivist</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Human_Purists (IdeoPresetDef)",
+            "Label": "human purists",
+            "Description Originale": "The human race is superior and the human body is sacred. We disdain body modification, scarification and drug use.\\n\\nUnlocks the medical and production specialist roles.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Human_Purists</defName>\n\n    <label>human purists</label>\n\n    <description>The human race is superior and the human body is sacred. We disdain body modification, scarification and drug use.\\n\\nUnlocks the medical and production specialist roles.</description>\n\n    <categoryDef>Mild</categoryDef>\n\n    <memes>\n\n      <li>HumanPrimacy</li>\n\n      <li>FleshPurity</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "High_Collectivists (IdeoPresetDef)",
+            "Label": "high collectivists",
+            "Description Originale": "Everyone must work hard and contribute to the community, so they can party in a smokeleaf circle together.\\n\\nUnlocks the plants specialist role.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>High_Collectivists</defName>\n\n    <label>high collectivists</label>\n\n    <description>Everyone must work hard and contribute to the community, so they can party in a smokeleaf circle together.\\n\\nUnlocks the plants specialist role.</description>\n\n    <categoryDef>Mild</categoryDef>\n\n    <memes>\n\n      <li>Collectivist</li>\n\n      <li>HighLife</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Free_Ranchers (IdeoPresetDef)",
+            "Label": "free ranchers",
+            "Description Originale": "A community of ranchers who hunt and raise animals for food. They don't like eating plants. They welcome diverse ideas.\\n\\nUnlocks the animals specialist role.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Free_Ranchers</defName>\n\n    <label>free ranchers</label>\n\n    <description>A community of ranchers who hunt and raise animals for food. They don't like eating plants. They welcome diverse ideas.\\n\\nUnlocks the animals specialist role.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Individualist</li>\n\n      <li>Rancher</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Violent_Dominators (IdeoPresetDef)",
+            "Label": "bloody dominators",
+            "Description Originale": "The weak deserve to lose what they have to us. Raiding and enslaving are honorable.\\n\\nUnlocks melee and shooting specialist roles. Will have gladiator duels.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Violent_Dominators</defName>\n\n    <label>bloody dominators</label>\n\n    <description>The weak deserve to lose what they have to us. Raiding and enslaving are honorable.\\n\\nUnlocks melee and shooting specialist roles. Will have gladiator duels.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Supremacist</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Techno_Utopians (IdeoPresetDef)",
+            "Label": "techno-utopians",
+            "Description Originale": "The human body must be enhanced with technology so we can build a better future for everyone.\\n\\nUnlocks the research specialist role.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Techno_Utopians</defName>\n\n    <label>techno-utopians</label>\n\n    <description>The human body must be enhanced with technology so we can build a better future for everyone.\\n\\nUnlocks the research specialist role.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n      <li>Collectivist</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Painful_Purists (IdeoPresetDef)",
+            "Label": "purist flagellators",
+            "Description Originale": "Suffering purifies and ennobles. Modifying the body to ease your life is the way of the filthy.\\n\\nUnlocks the medical specialist role. These people have reduced comfort expectations. Will have gladiator duels and sacrifices.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Painful_Purists</defName>\n\n    <label>purist flagellators</label>\n\n    <description>Suffering purifies and ennobles. Modifying the body to ease your life is the way of the filthy.\\n\\nUnlocks the medical specialist role. These people have reduced comfort expectations. Will have gladiator duels and sacrifices.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>PainIsVirtue</li>\n\n      <li>FleshPurity</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "ProHuman_Darklovers (IdeoPresetDef)",
+            "Label": "dark humans",
+            "Description Originale": "The human race flourishes in the darkness of night and the underground.\\n\\nUnlocks mining and production specialist roles. Combat efficiency in the dark is increased.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>ProHuman_Darklovers</defName>\n\n    <label>dark humans</label>\n\n    <description>The human race flourishes in the darkness of night and the underground.\\n\\nUnlocks mining and production specialist roles. Combat efficiency in the dark is increased.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Darkness</li>\n\n      <li>HumanPrimacy</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "NatureOverMan (IdeoPresetDef)",
+            "Label": "nature over man",
+            "Description Originale": "We atone for humanity's crimes against nature by respecting her, and by performing acts of charity. Slaughtering animals and cutting trees are unacceptable.\\n\\nUnlocks plants specialist role.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>NatureOverMan</defName>\n\n    <label>nature over man</label>\n\n    <description>We atone for humanity's crimes against nature by respecting her, and by performing acts of charity. Slaughtering animals and cutting trees are unacceptable.\\n\\nUnlocks plants specialist role.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Guilty</li>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Domination_Gang (IdeoPresetDef)",
+            "Label": "domination gang",
+            "Description Originale": "Our beliefs are law and truth. We will try to convince them. Anyone who resists our teaching is a vile subhuman who must be crushed.\\n\\n Unlocks melee and shooting specialist roles. Will have gladiator duels.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Domination_Gang</defName>\n\n    <label>domination gang</label>\n\n    <description>Our beliefs are law and truth. We will try to convince them. Anyone who resists our teaching is a vile subhuman who must be crushed.\\n\\n Unlocks melee and shooting specialist roles. Will have gladiator duels.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Supremacist</li>\n\n      <li>Proselytizer</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Cannibals (IdeoPresetDef)",
+            "Label": "cannibals",
+            "Description Originale": "The flesh of man and woman is the highest form of sustenance. Also, it's just delicious.\\n\\nWill have gladiator duels, prisoner sacrifices, and human meat feasts.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Cannibals</defName>\n\n    <label>cannibals</label>\n\n    <description>The flesh of man and woman is the highest form of sustenance. Also, it's just delicious.\\n\\nWill have gladiator duels, prisoner sacrifices, and human meat feasts.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Cannibal</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Nudist_Recruiters (IdeoPresetDef)",
+            "Label": "nudist recruiters",
+            "Description Originale": "We must prance free of constraining clothes, and constantly invite others to join us.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Nudist_Recruiters</defName>\n\n    <label>nudist recruiters</label>\n\n    <description>We must prance free of constraining clothes, and constantly invite others to join us.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Nudism</li>\n\n      <li>Proselytizer</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Criminal_Gang (IdeoPresetDef)",
+            "Label": "criminal gang",
+            "Description Originale": "Following someone else's ideas and working all day are for weaklings. This group thrives on raiding others and contact with diverse ideas.\\n\\nUnlocks melee and shooting specialist roles. Will have gladiator duels.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Criminal_Gang</defName>\n\n    <label>criminal gang</label>\n\n    <description>Following someone else's ideas and working all day are for weaklings. This group thrives on raiding others and contact with diverse ideas.\\n\\nUnlocks melee and shooting specialist roles. Will have gladiator duels.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Raider</li>\n\n      <li>Individualist</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Feminine_Ravagers (IdeoPresetDef)",
+            "Label": "feminine ravagers",
+            "Description Originale": "Women should assert their natural power by reigning over men and pillaging weaker peoples.\\n\\nUnlocks melee and shooting specialist roles. Will have gladiator duels.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Feminine_Ravagers</defName>\n\n    <label>feminine ravagers</label>\n\n    <description>Women should assert their natural power by reigning over men and pillaging weaker peoples.\\n\\nUnlocks melee and shooting specialist roles. Will have gladiator duels.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>FemaleSupremacy</li>\n\n      <li>Raider</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Martyrs (IdeoPresetDef)",
+            "Label": "martyrs",
+            "Description Originale": "Admitting our corrupt, sinful nature is as crucial as suffering for it. Pain and sacrifices are approved, while physical love and comfort are shameful.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Martyrs</defName>\n\n    <label>martyrs</label>\n\n    <description>Admitting our corrupt, sinful nature is as crucial as suffering for it. Pain and sacrifices are approved, while physical love and comfort are shameful.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>Guilty</li>\n\n      <li>PainIsVirtue</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Cowboys (IdeoPresetDef)",
+            "Label": "cowboys",
+            "Description Originale": "Men should keep a strong grip over their herds and their women. Raising animals for food is much better than farming plants. We don't tolerate arguments about any of this.\\n\\nUnlocks the animals specialist role.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Cowboys</defName>\n\n    <label>cowboys</label>\n\n    <description>Men should keep a strong grip over their herds and their women. Raising animals for food is much better than farming plants. We don't tolerate arguments about any of this.\\n\\nUnlocks the animals specialist role.</description>\n\n    <categoryDef>Strong</categoryDef>\n\n    <memes>\n\n      <li>MaleSupremacy</li>\n\n      <li>Rancher</li>\n\n      <li>Loyalist</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Mole_People (IdeoPresetDef)",
+            "Label": "mole people",
+            "Description Originale": "The sun - it stuns, we shun! In the tunnels we shuffle, and snuffle for truffles. In our bubble there's no scuttling trouble. Never a kerfuffle.\\n\\nGrants increased mining efficiency but an aversion to outdoor light.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Mole_People</defName>\n\n    <label>mole people</label>\n\n    <description>The sun - it stuns, we shun! In the tunnels we shuffle, and snuffle for truffles. In our bubble there's no scuttling trouble. Never a kerfuffle.\\n\\nGrants increased mining efficiency but an aversion to outdoor light.</description>\n\n    <categoryDef>Intense</categoryDef>\n\n    <memes>\n\n      <li>Tunneler</li>\n\n      <li>Darkness</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Tree_Worshippers (IdeoPresetDef)",
+            "Label": "tree-worshippers",
+            "Description Originale": "We live in harmony with the Gauranlen trees. Trees should never be cut, and animals should not be harmed.\\n\\n Unlocks the plants specialist role. These people live in rough conditions without complains, and can connect more deeply with the Gauranlen trees.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Tree_Worshippers</defName>\n\n    <label>tree-worshippers</label>\n\n    <categoryDef>Intense</categoryDef>\n\n    <description>We live in harmony with the Gauranlen trees. Trees should never be cut, and animals should not be harmed.\\n\\n Unlocks the plants specialist role. These people live in rough conditions without complains, and can connect more deeply with the Gauranlen trees.</description>\n\n    <memes>\n\n      <li>TreeConnection</li>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Blindness_Cult (IdeoPresetDef)",
+            "Label": "blindness cult",
+            "Description Originale": "Blindless opens the inner eye, and suffering illuminates the true sight.\\n\\nUnlocks the medical specialist role. Will have sacrifices, ritual blindings and scarifications. These people have reduced comfort expectations.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Blindness_Cult</defName>\n\n    <label>blindness cult</label>\n\n    <description>Blindless opens the inner eye, and suffering illuminates the true sight.\\n\\nUnlocks the medical specialist role. Will have sacrifices, ritual blindings and scarifications. These people have reduced comfort expectations.</description>\n\n    <categoryDef>Intense</categoryDef>\n\n    <memes>\n\n      <li>PainIsVirtue</li>\n\n      <li>Blindsight</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Feral_People (IdeoPresetDef)",
+            "Label": "feral people",
+            "Description Originale": "We are animals and animals are us. We are trees and we live by them and love them as us.\\n\\nUnlocks animal and plants specialist roles. Increases taming abilities of every member. Cutting trees and slaughtering animals are unacceptable. These people can connect more deeply with the Gauranlen trees.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Feral_People</defName>\n\n    <label>feral people</label>\n\n    <description>We are animals and animals are us. We are trees and we live by them and love them as us.\\n\\nUnlocks animal and plants specialist roles. Increases taming abilities of every member. Cutting trees and slaughtering animals are unacceptable. These people can connect more deeply with the Gauranlen trees.</description>\n\n    <categoryDef>Intense</categoryDef>\n\n    <memes>\n\n      <li>AnimalPersonhood</li>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Naked_Maneaters (IdeoPresetDef)",
+            "Label": "naked maneaters",
+            "Description Originale": "Cannibal feasts are much better when both you and the meal are naked. It's almost like you can merge into one.\\n\\nIncludes sacrifices and gladiator duels.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Naked_Maneaters</defName>\n\n    <label>naked maneaters</label>\n\n    <description>Cannibal feasts are much better when both you and the meal are naked. It's almost like you can merge into one.\\n\\nIncludes sacrifices and gladiator duels.</description>\n\n    <categoryDef>Intense</categoryDef>\n\n    <memes>\n\n      <li>Nudism</li>\n\n      <li>Cannibal</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        },
+        {
+            "Title": "Progressive_Humanism (IdeoPresetDef)",
+            "Label": "transcendent humanists",
+            "Description Originale": "The human race is at the peak of nature and must use technology to step beyond. We do this by enhancing our bodies with technology, but we like to hear others' view on the matter.\\n\\nUnlocks research and production specialist roles.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/preconfigured_ideos/ideo_preset_defs.xml`",
+            "XML": "<IdeoPresetDef>\n\n    <defName>Progressive_Humanism</defName>\n\n    <label>transcendent humanists</label>\n\n    <description>The human race is at the peak of nature and must use technology to step beyond. We do this by enhancing our bodies with technology, but we like to hear others' view on the matter.\\n\\nUnlocks research and production specialist roles.</description>\n\n    <categoryDef>Intense</categoryDef>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n      <li>Individualist</li>\n\n      <li>HumanPrimacy</li>\n\n    </memes>\n\n  </IdeoPresetDef>"
+        }
+    ]
+}

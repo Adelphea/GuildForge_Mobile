@@ -1,0 +1,122 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Special (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>Special</defName>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "Misc (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>Misc</defName>\n\n    <needsParmsPoints>true</needsParmsPoints>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "ThreatSmall (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>ThreatSmall</defName>\n\n    <needsParmsPoints>true</needsParmsPoints>\n\n    <canUseAnomalyChance>true</canUseAnomalyChance>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "ThreatBig (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>ThreatBig</defName>\n\n    <needsParmsPoints>true</needsParmsPoints>\n\n    <tale>MajorThreat</tale>\n\n    <canUseAnomalyChance>true</canUseAnomalyChance>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "FactionArrival (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>FactionArrival</defName>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "OrbitalVisitor (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>OrbitalVisitor</defName>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "ShipChunkDrop (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>ShipChunkDrop</defName>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "DiseaseHuman (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>DiseaseHuman</defName>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "DiseaseAnimal (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>DiseaseAnimal</defName>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "AllyAssistance (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>AllyAssistance</defName>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "EndGame_ShipEscape (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>EndGame_ShipEscape</defName>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "GiveQuest (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>GiveQuest</defName>\n\n    <needsParmsPoints>true</needsParmsPoints>\n\n  </IncidentCategoryDef>"
+        },
+        {
+            "Title": "DeepDrillInfestation (IncidentCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_category_defs/incident_category_defs.xml`",
+            "XML": "<IncidentCategoryDef>\n\n    <defName>DeepDrillInfestation</defName>\n\n    <needsParmsPoints>true</needsParmsPoints>\n\n  </IncidentCategoryDef>"
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "ExtremelyLow (ExpectationDef)",
+            "Label": "extremely low",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>ExtremelyLow</defName>\n\n    <label>extremely low</label>\n\n    <order>0</order>\n\n    <thoughtStage>5</thoughtStage>\n\n    <maxMapWealth>15000</maxMapWealth>\n\n    <joyKindsNeeded>2</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.18</joyToleranceDropPerDay>\n\n    <ritualQualityOffset>0.5</ritualQualityOffset>\n\n  </ExpectationDef>"
+        },
+        {
+            "Title": "VeryLow (ExpectationDef)",
+            "Label": "very low",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>VeryLow</defName>\n\n    <label>very low</label>\n\n    <order>1</order>\n\n    <thoughtStage>4</thoughtStage>\n\n    <maxMapWealth>31000</maxMapWealth>\n\n    <joyKindsNeeded>3</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.13</joyToleranceDropPerDay>\n\n    <ritualQualityOffset>0.3</ritualQualityOffset>\n\n  </ExpectationDef>"
+        },
+        {
+            "Title": "Low (ExpectationDef)",
+            "Label": "low",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>Low</defName>\n\n    <label>low</label>\n\n    <order>2</order>\n\n    <thoughtStage>3</thoughtStage>\n\n    <maxMapWealth>81000</maxMapWealth>\n\n    <joyKindsNeeded>3</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.11</joyToleranceDropPerDay>\n\n    <ritualQualityOffset>0.15</ritualQualityOffset>\n\n  </ExpectationDef>"
+        },
+        {
+            "Title": "Moderate (ExpectationDef)",
+            "Label": "moderate",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>Moderate</defName>\n\n    <label>moderate</label>\n\n    <order>3</order>\n\n    <thoughtStage>2</thoughtStage>\n\n    <maxMapWealth>182000</maxMapWealth>\n\n    <joyKindsNeeded>4</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.10</joyToleranceDropPerDay>\n\n  </ExpectationDef>"
+        },
+        {
+            "Title": "High (ExpectationDef)",
+            "Label": "high",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>High</defName>\n\n    <label>high</label>\n\n    <order>4</order>\n\n    <thoughtStage>1</thoughtStage>\n\n    <maxMapWealth>308000</maxMapWealth>\n\n    <joyKindsNeeded>5</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.08</joyToleranceDropPerDay>\n\n  </ExpectationDef>"
+        },
+        {
+            "Title": "SkyHigh (ExpectationDef)",
+            "Label": "sky high",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>SkyHigh</defName>\n\n    <label>sky high</label>\n\n    <order>5</order>\n\n    <thoughtStage>0</thoughtStage>\n\n    <maxMapWealth>1000000000</maxMapWealth>\n\n    <joyKindsNeeded>6</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.07</joyToleranceDropPerDay>\n\n  </ExpectationDef>"
+        },
+        {
+            "Title": "Noble (ExpectationDef)",
+            "Label": "noble",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>Noble</defName>\n\n    <label>noble</label>\n\n    <order>8</order>\n\n    <thoughtStage>6</thoughtStage>\n\n    <joyKindsNeeded>6</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.07</joyToleranceDropPerDay>\n\n  </ExpectationDef>"
+        },
+        {
+            "Title": "Royal (ExpectationDef)",
+            "Label": "royal",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>Royal</defName>\n\n    <label>royal</label>\n\n    <order>9</order>\n\n    <thoughtStage>7</thoughtStage>\n\n    <joyKindsNeeded>6</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.07</joyToleranceDropPerDay>\n\n  </ExpectationDef>"
+        },
+        {
+            "Title": "RoleElite (ExpectationDef)",
+            "Label": "elite",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>RoleElite</defName>\n\n    <label>elite</label>\n\n    <order>6</order>\n\n    <thoughtStage>8</thoughtStage>\n\n    <joyKindsNeeded>6</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.07</joyToleranceDropPerDay>\n\n    <forRoles>True</forRoles>\n\n  </ExpectationDef>"
+        },
+        {
+            "Title": "RoleSupreme (ExpectationDef)",
+            "Label": "supreme",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/expectation_defs/expectations.xml`",
+            "XML": "<ExpectationDef>\n\n    <defName>RoleSupreme</defName>\n\n    <label>supreme</label>\n\n    <order>7</order>\n\n    <thoughtStage>9</thoughtStage>\n\n    <joyKindsNeeded>6</joyKindsNeeded>\n\n    <joyToleranceDropPerDay>0.07</joyToleranceDropPerDay>\n\n    <forRoles>True</forRoles>\n\n  </ExpectationDef>"
+        }
+    ]
+}

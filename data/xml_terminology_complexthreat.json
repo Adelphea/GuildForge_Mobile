@@ -1,0 +1,86 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "SleepingMechanoids (ComplexThreatDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/complex_threat_defs/complex_threats_misx.xml`",
+            "XML": "<ComplexThreatDef Name=\"SleepingMechanoids\" ParentName=\"SleepingThreat\">\n\n    <defName>SleepingMechanoids</defName>\n\n    <workerClass>ComplexThreatWorker_SleepingMechanoids</workerClass>\n\n    <faction>Mechanoid</faction>\n\n  </ComplexThreatDef>"
+        },
+        {
+            "Title": "MechDrop (ComplexThreatDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/complex_threat_defs/complex_threats_misx.xml`",
+            "XML": "<ComplexThreatDef ParentName=\"DelayedThreat\">\n\n    <defName>MechDrop</defName>\n\n    <workerClass>ComplexThreatWorker_Ambush</workerClass>\n\n    <signalActionAmbushType>Mechanoids</signalActionAmbushType>\n\n    <spawnAroundComplex>true</spawnAroundComplex>\n\n    <useDropPods>true</useDropPods>\n\n  </ComplexThreatDef>"
+        },
+        {
+            "Title": "SleepingInsects (ComplexThreatDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/complex_threat_defs/complex_threats_misc.xml`",
+            "XML": "<ComplexThreatDef Name=\"SleepingInsects\" ParentName=\"SleepingThreat\">\n\n    <defName>SleepingInsects</defName>\n\n    <workerClass>ComplexThreatWorker_SleepingInsects</workerClass>\n\n    <faction>Insect</faction>\n\n    <minPoints>100</minPoints>\n\n  </ComplexThreatDef>"
+        },
+        {
+            "Title": "CryptosleepPods (ComplexThreatDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/complex_threat_defs/complex_threats_misc.xml`",
+            "XML": "<ComplexThreatDef Name=\"CryptosleepPods\" ParentName=\"DelayedThreat\">\n\n    <defName>CryptosleepPods</defName>\n\n    <workerClass>ComplexThreatWorker_CryptosleepPods</workerClass>\n\n    <postSpawnPassiveThreatFactor>0.25</postSpawnPassiveThreatFactor>\n\n    <spawnInOtherRoomChance>0.5</spawnInOtherRoomChance>\n\n  </ComplexThreatDef>"
+        },
+        {
+            "Title": "Ambush (ComplexThreatDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/complex_threat_defs/complex_threats_misc.xml`",
+            "XML": "<ComplexThreatDef>\n\n    <defName>Ambush</defName>\n\n    <workerClass>ComplexThreatWorker_Ambush</workerClass>\n\n    <signalActionAmbushType>Normal</signalActionAmbushType>\n\n    <allowPassive>false</allowPassive>\n\n    <minPoints>100</minPoints>\n\n    <fallbackToRoomEnteredTrigger>false</fallbackToRoomEnteredTrigger>\n\n  </ComplexThreatDef>"
+        },
+        {
+            "Title": "RaidTerminal (ComplexThreatDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/complex_threat_defs/complex_threats_misc.xml`",
+            "XML": "<ComplexThreatDef>\n\n    <defName>RaidTerminal</defName>\n\n    <workerClass>ComplexThreatWorker_RaidTerminal</workerClass>\n\n  </ComplexThreatDef>"
+        },
+        {
+            "Title": "FuelNode (ComplexThreatDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/complex_threat_defs/complex_threats_misc.xml`",
+            "XML": "<ComplexThreatDef ParentName=\"DelayedThreat\">\n\n    <defName>FuelNode</defName>\n\n    <workerClass>ComplexThreatWorker_FuelNode</workerClass>\n\n    <postSpawnPassiveThreatFactor>0.1</postSpawnPassiveThreatFactor>\n\n    <spawnInOtherRoomChance>0.5</spawnInOtherRoomChance>\n\n  </ComplexThreatDef>"
+        },
+        {
+            "Title": "Infestation (ComplexThreatDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/complex_threat_defs/complex_threats_misc.xml`",
+            "XML": "<ComplexThreatDef ParentName=\"DelayedThreat\">\n\n    <defName>Infestation</defName>\n\n    <workerClass>ComplexThreatWorker_Infestations</workerClass>\n\n    <allowPassive>false</allowPassive>\n\n    <minPoints>200</minPoints>\n\n    <spawnInOtherRoomChance>0.5</spawnInOtherRoomChance>\n\n  </ComplexThreatDef>"
+        },
+        {
+            "Title": "SecurityCrate (ComplexThreatDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/complex_threat_defs/complex_threats_misc.xml`",
+            "XML": "<ComplexThreatDef>\n\n    <defName>SecurityCrate</defName>\n\n    <workerClass>ComplexThreatWorker_SecurityCrate</workerClass>\n\n  </ComplexThreatDef>"
+        }
+    ]
+}

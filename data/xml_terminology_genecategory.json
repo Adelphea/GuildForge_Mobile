@@ -1,0 +1,41 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Cosmetic (GeneCategoryDef)",
+            "Label": "cosmetic",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`displayPriorityInXenotype: 300`, `displayPriorityInGenepack: -100`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/gene_defs/gene_defs_endogenes.xml`",
+            "XML": "<GeneCategoryDef>\n\n    <defName>Cosmetic</defName>\n\n    <label>cosmetic</label>\n\n    <displayPriorityInXenotype>300</displayPriorityInXenotype>\n\n    <displayPriorityInGenepack>-100</displayPriorityInGenepack>\n\n  </GeneCategoryDef>"
+        },
+        {
+            "Title": "Cosmetic_Skin (GeneCategoryDef)",
+            "Label": "cosmetic - skin",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`displayPriorityInXenotype: 280`, `displayPriorityInGenepack: -110`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/gene_defs/gene_defs_endogenes.xml`",
+            "XML": "<GeneCategoryDef>\n\n    <defName>Cosmetic_Skin</defName>\n\n    <label>cosmetic - skin</label>\n\n    <displayPriorityInXenotype>280</displayPriorityInXenotype>\n\n    <displayPriorityInGenepack>-110</displayPriorityInGenepack>\n\n  </GeneCategoryDef>"
+        },
+        {
+            "Title": "Cosmetic_Hair (GeneCategoryDef)",
+            "Label": "cosmetic - hair",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`displayPriorityInXenotype: 285`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/gene_defs/gene_defs_endogenes.xml`",
+            "XML": "<GeneCategoryDef>\n\n    <defName>Cosmetic_Hair</defName>\n\n    <label>cosmetic - hair</label>\n\n    <displayPriorityInXenotype>285</displayPriorityInXenotype>\n\n  </GeneCategoryDef>"
+        },
+        {
+            "Title": "Miscellaneous (GeneCategoryDef)",
+            "Label": "miscellaneous",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`displayPriorityInXenotype: 270`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/gene_defs/gene_defs_endogenes.xml`",
+            "XML": "<GeneCategoryDef>\n\n    <defName>Miscellaneous</defName>\n\n    <label>miscellaneous</label>\n\n    <displayPriorityInXenotype>270</displayPriorityInXenotype>\n\n  </GeneCategoryDef>"
+        }
+    ]
+}

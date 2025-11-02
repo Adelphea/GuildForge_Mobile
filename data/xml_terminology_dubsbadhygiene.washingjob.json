@@ -1,0 +1,50 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "takeShower (DubsBadHygiene.WashingJobDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/job_defs/jobs__hygiene.xml`",
+            "XML": "<DubsBadHygiene.WashingJobDef>\n\n\t\t<defName>takeShower</defName>\n\n\t\t<driverClass>DubsBadHygiene.JobDriver_takeShower</driverClass>\n\n\t\t<reportString>showering with TargetA</reportString>\n\n\t\t<CustomBodyRender>false</CustomBodyRender>\n\n\t</DubsBadHygiene.WashingJobDef>"
+        },
+        {
+            "Title": "takeBath (DubsBadHygiene.WashingJobDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/job_defs/jobs__hygiene.xml`",
+            "XML": "<DubsBadHygiene.WashingJobDef>\n\n\t\t<defName>takeBath</defName>\n\n\t\t<driverClass>DubsBadHygiene.JobDriver_takeBath</driverClass>\n\n\t\t<reportString>having a bath</reportString>\n\n\t\t<joyKind>Meditative</joyKind>\n\n\t</DubsBadHygiene.WashingJobDef>"
+        },
+        {
+            "Title": "DBHGoSwimming (DubsBadHygiene.WashingJobDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/joy/joy_givers.xml`",
+            "XML": "<DubsBadHygiene.WashingJobDef>\n\n\t\t<defName>DBHGoSwimming</defName>\n\n\t\t<driverClass>DubsBadHygiene.JobDriver_GoSwimming</driverClass>\n\n\t\t<reportString>swimming</reportString>\n\n\t\t<joyDuration>4000</joyDuration>\n\n\t\t<joyMaxParticipants>10</joyMaxParticipants>\n\n\t\t<joyKind>Hydrotherapy</joyKind>\n\n\t\t<allowOpportunisticPrefix>true</allowOpportunisticPrefix>\n\n\t</DubsBadHygiene.WashingJobDef>"
+        },
+        {
+            "Title": "UseHotTub (DubsBadHygiene.WashingJobDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/joy/joy_givers.xml`",
+            "XML": "<DubsBadHygiene.WashingJobDef>\n\n\t\t<defName>UseHotTub</defName>\n\n\t\t<driverClass>DubsBadHygiene.JobDriver_UseHotTub</driverClass>\n\n\t\t<reportString>relaxing</reportString>\n\n\t\t<joyDuration>4000</joyDuration>\n\n\t\t<joyMaxParticipants>2</joyMaxParticipants>\n\n\t\t<joyKind>Hydrotherapy</joyKind>\n\n\t\t<allowOpportunisticPrefix>true</allowOpportunisticPrefix>\n\n\t</DubsBadHygiene.WashingJobDef>"
+        },
+        {
+            "Title": "DBHUseSauna (DubsBadHygiene.WashingJobDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/joy/joy_givers.xml`",
+            "XML": "<DubsBadHygiene.WashingJobDef>\n\n\t\t<defName>DBHUseSauna</defName>\n\n\t\t<driverClass>DubsBadHygiene.JobDriver_UseSauna</driverClass>\n\n\t\t<reportString>using sauna</reportString>\n\n\t\t<joyDuration>3000</joyDuration>\n\n\t\t<joyMaxParticipants>20</joyMaxParticipants>\n\n\t\t<joyKind>Hydrotherapy</joyKind>\n\n\t\t<allowOpportunisticPrefix>true</allowOpportunisticPrefix>\n\n\t\t<CustomBodyRender>false</CustomBodyRender>\n\n\t</DubsBadHygiene.WashingJobDef>"
+        }
+    ]
+}

@@ -1,0 +1,338 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "CreateWorldParams (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>CreateWorldParams</defName>\n\n    <text>Welcome to RimWorld!\\n\\nThis page configures how your world should be generated.\\n\\nThe default settings here are good - go ahead and click GENERATE!</text>\n\n    <eventTagInitiate>PageStart-CreateWorldParams</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>GotoPrevPage</li>\n\n      <li>GotoNextPage</li>\n\n    </actionTagsAllowed>\n\n    <eventTagsEnd>\n\n      <li>PageClosed</li>\n\n    </eventTagsEnd>\n\n    <highlightTags>\n\n      <li>NextPage</li>\n\n    </highlightTags>\n\n    <startCentered>true</startCentered>\n\n    <rejectInputMessage>Click GENERATE to generate your world.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "ChooseLandingSite (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>ChooseLandingSite</defName>\n\n    <text>Here you choose your starting site.\\n\\nClick a temperate forest (light green) with no brown hills. Then click NEXT.\\n\\nOptionally, you can use the TERRAIN tab to view information about the selected tile.</text>\n\n    <eventTagInitiate>PageStart-SelectStartingSite</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>GotoPrevPage</li>\n\n      <li>ChooseBiome-TemperateForest-Flat-None</li>\n\n      <li>ITab-Planet-Open</li>\n\n      <li>ITab-Terrain-Open</li>\n\n      <li>GotoNextPage</li>\n\n    </actionTagsAllowed>\n\n    <eventTagsEnd>\n\n      <li>PageClosed</li>\n\n    </eventTagsEnd>\n\n    <rejectInputMessage>Please choose a temperate forest site with no hills (light green with no brown dots).</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "ReorderCharacters (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>ReorderCharacters</defName>\n\n    <text>Now you choose which characters you want to use.\\n\\nDRAG a character from the \"left behind\" part of the character list (at the bottom) into the \"selected\" part (at the top).\\n\\nOptionally, clicking a character will allow you inspect him or her.</text>\n\n    <eventTagInitiate>PageStart-ConfigureStartingPawns</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>GotoPrevPage</li>\n\n      <li>ReorderPawn</li>\n\n    </actionTagsAllowed>\n\n    <eventTagsEnd>\n\n      <li>ReorderPawnOptionalToStarting</li>\n\n    </eventTagsEnd>\n\n    <highlightTags>\n\n      <li>ReorderPawn</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please drag a character from the \"left behind\" group (at the bottom-left) into the \"selected\" group (at the upper-left).</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "RandomizeCharacter (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>RandomizeCharacter</defName>\n\n    <text>If you don't like a character, you can regenerate them!\\n\\nClick the RANDOMIZE button to randomize the character.</text>\n\n    <eventTagInitiate>ReorderPawnOptionalToStarting</eventTagInitiate>\n\n    <eventTagInitiateSource>ReorderCharacters</eventTagInitiateSource>\n\n    <actionTagsAllowed>\n\n      <li>GotoPrevPage</li>\n\n      <li>ReorderPawn</li>\n\n      <li>RandomizePawn</li>\n\n    </actionTagsAllowed>\n\n    <eventTagsEnd>\n\n      <li>RandomizePawn</li>\n\n    </eventTagsEnd>\n\n    <highlightTags>\n\n      <li>RandomizePawn</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please click the RANDOMIZE button to randomize the character.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "AcceptStartingPawns (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>AcceptStartingPawns</defName>\n\n    <text>Great!\\n\\nReorder and randomize more if you want - but don't try to get the perfect characters. Everyone has flaws, and it makes the story more interesting!\\n\\nYou can also re-name the characters by clicking on their names.\\n\\nClick START when you're ready.</text>\n\n    <eventTagInitiate>RandomizePawn</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>GotoPrevPage</li>\n\n      <li>ReorderPawn</li>\n\n      <li>RandomizePawn</li>\n\n      <li>ChangeDevelopmentStage</li>\n\n      <li>ChangeXenotype</li>\n\n      <li>GotoNextPage</li>\n\n    </actionTagsAllowed>\n\n    <eventTagsEnd>\n\n      <li>PageClosed</li>\n\n    </eventTagsEnd>\n\n    <highlightTags>\n\n      <li>NextPage</li>\n\n    </highlightTags>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "MapCameraDolly (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>MapCameraDolly</defName>\n\n    <text>Here you are on the surface!\\n\\nNow try moving the camera around.\\n\\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\\n\\nTry it now!</text>\n\n    <textController>Here you are on the surface!\\n\\nNow try moving the camera around with the left joystick.\\n\\nTry it now!</textController>\n\n    <eventTagInitiate>GameStartDialogClosed</eventTagInitiate>\n\n    <instructionClass>Instruction_LearnConcept</instructionClass>\n\n    <concept>CameraDolly</concept>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "MapCameraZoom (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>MapCameraZoom</defName>\n\n    <text>Great!\\n\\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\\n\\nTry it now!</text>\n\n    <textController>Great!\\n\\nYou can also zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.\\n\\nTry it now!</textController>\n\n    <instructionClass>Instruction_LearnConcept</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-MapCameraDolly</eventTagInitiate>\n\n    <concept>CameraZoom</concept>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "Pause (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>Pause</defName>\n\n    <text>You can pause time.\\n\\nThis means you never need to rush. You can always pause and take your time to issue orders.\\n\\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right.</text>\n\n    <textController>You can pause time.\\n\\nThis means you never need to rush. You can always pause and take your time to issue orders.\\n\\nTry pausing with the {Key:TogglePause} button, or by using the time controls in the bottom right.</textController>\n\n    <instructionClass>Instruction_LearnConcept</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-MapCameraZoom</eventTagInitiate>\n\n    <concept>Pause</concept>\n\n    <highlightTags>\n\n      <li>TimeControls</li>\n\n    </highlightTags>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "TimeControls (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>TimeControls</defName>\n\n    <text>You can also speed up time.\\n\\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right.</text>\n\n    <textController>You can also speed up time.\\n\\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right.</textController>\n\n    <instructionClass>Instruction_LearnConcept</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-Pause</eventTagInitiate>\n\n    <concept>TimeControls</concept>\n\n    <highlightTags>\n\n      <li>TimeControls</li>\n\n    </highlightTags>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "MakeStockpile (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>MakeStockpile</defName>\n\n    <text>Great!\\n\\nNow, make a stockpile so your colonists know where to keep items.\\n\\n1. Click ARCHITECT tab in the bottom left.\\n2. Click the ZONE/AREA category.\\n3. Select the CREATE STOCKPILE tool.\\n4. Click and drag out a square as indicated on the map.</text>\n\n    <instructionClass>Instruction_PlaceStockpile</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-TimeControls</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-ZoneAddStockpile_Resources</li>\n\n      <li>Designate-ZoneAddStockpile_Resources</li>\n\n    </actionTagsAllowed>\n\n    <eventTagsEnd>\n\n      <li>Designate-ZoneAddStockpile_Resources</li>\n\n    </eventTagsEnd>\n\n    <rejectInputMessage>Please make a stockpile on the indicated area.</rejectInputMessage>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Zone-Closed</li>\n\n      <li>Designator-ZoneAddStockpile_Resources</li>\n\n    </highlightTags>\n\n    <onMapInstruction>Place stockpile here\\n(drag corner-to-corner)</onMapInstruction>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "EndStockpileDesignating (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>EndStockpileDesignating</defName>\n\n    <text>Right-click to get out of stockpile designating mode.</text>\n\n    <textController>Press left trigger button to get out of stockpile designating mode.</textController>\n\n    <eventTagInitiate>InstructionDeactivated-MakeStockpile</eventTagInitiate>\n\n    <eventTagsEnd>\n\n      <li>ClearDesignatorSelection</li>\n\n    </eventTagsEnd>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "UnforbidStartingResources (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>UnforbidStartingResources</defName>\n\n    <text>To allow your colonists to bring your items to the stockpile, you must remove the items' \"forbidden\" designation.\\n\\n1. Clicking your starting items to select them.\\n2. Click the ALLOW toggle button to allow them.\\n\\n(Pro tip: Double-click an item to select all on screen of the same type.)\\n\\nAlternatively, you can:\\n1. Click ARCHITECT.\\n2. Click ORDERS.\\n3. Click ALLOW.\\n4. Drag out a shape covering all forbidden items to allow them.</text>\n\n    <instructionClass>Instruction_UnforbidStartingResources</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-EndStockpileDesignating</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>ToggleForbidden</li>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-Unforbid</li>\n\n      <li>Designate-Unforbid</li>\n\n    </actionTagsAllowed>\n\n    <rejectInputMessage>Please allow your starting items.</rejectInputMessage>\n\n    <highlightTags>\n\n      <li>ToggleForbidden</li>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Orders-Closed</li>\n\n      <li>Designator-Unforbid</li>\n\n    </highlightTags>\n\n    <onMapInstruction>Allow this</onMapInstruction>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "BuildRoomWalls (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>BuildRoomWalls</defName>\n\n    <text>Awesome! Next, we'll build a room.\\n\\n1. Click ARCHITECT.\\n2. Click STRUCTURE.\\n3. Select WALL.\\n4. Select WOOD as the material.\\n5. Drag out four walls to form the shape indicated on the map.</text>\n\n    <instructionClass>Instruction_BuildRoomWalls</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-UnforbidStartingResources</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-Wall</li>\n\n      <li>SelectStuff-Wall-WoodLog</li>\n\n      <li>Designate-Wall</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Structure-Closed</li>\n\n      <li>Designator-Build-Wall</li>\n\n      <li>SelectStuff-Wall-WoodLog</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please build wooden walls along the edges of the highlighted rectangle.</rejectInputMessage>\n\n    <onMapInstruction>Build walls</onMapInstruction>\n\n    <resetBuildDesignatorStuffs>true</resetBuildDesignatorStuffs>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "BuildRoomDoor (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>BuildRoomDoor</defName>\n\n    <text>Now just place a DOOR over any one of the room walls.\\n\\nDOOR is right beside WALL in the ARCHITECT menu.</text>\n\n    <instructionClass>Instruction_BuildRoomDoor</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-BuildRoomWalls</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-Door</li>\n\n      <li>SelectStuff-Door-WoodLog</li>\n\n      <li>Designate-Door</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Structure-Closed</li>\n\n      <li>Designator-Build-Door</li>\n\n      <li>SelectStuff-Door-WoodLog</li>\n\n    </highlightTags>\n\n    <onMapInstruction>Build a door over one wall</onMapInstruction>\n\n    <rejectInputMessage>Please build a wooden door over one of your room walls.</rejectInputMessage>\n\n    <resetBuildDesignatorStuffs>true</resetBuildDesignatorStuffs>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "BuildBeds (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>BuildBeds</defName>\n\n    <text>Your colonists will now build the room!\\n\\nNow they need somewhere to sleep. Place three BEDS inside the room.\\n\\nFind them in the FURNITURE category.\\n\\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building.</text>\n\n    <textController>Your colonists will now build the room!\\n\\nNow they need somewhere to sleep. Place three BEDS inside the room.\\n\\nFind them in the FURNITURE category.\\n\\nYou can rotate the building by pressing the rotate buttons on the left.</textController>\n\n    <instructionClass>Instruction_BuildInRoom</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-BuildRoomDoor</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-Bed</li>\n\n      <li>SelectStuff-Bed-WoodLog</li>\n\n      <li>Designate-Bed</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Furniture-Closed</li>\n\n      <li>Designator-Build-Bed</li>\n\n      <li>SelectStuff-Bed-WoodLog</li>\n\n    </highlightTags>\n\n    <thingDef>Bed</thingDef>\n\n    <targetCount>3</targetCount>\n\n    <onMapInstruction>Build three beds inside the room</onMapInstruction>\n\n    <rejectInputMessage>Please build wooden beds inside the room.</rejectInputMessage>\n\n    <resetBuildDesignatorStuffs>true</resetBuildDesignatorStuffs>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "BuildTorchLamp (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>BuildTorchLamp</defName>\n\n    <text>You'll also want some light inside, or your colonists will get grumpy in the dark.\\n\\nBuild a TORCH LAMP inside the room.</text>\n\n    <instructionClass>Instruction_BuildInRoom</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-BuildBeds</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-TorchLamp</li>\n\n      <li>Designate-TorchLamp</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Furniture-Closed</li>\n\n      <li>Designator-Build-TorchLamp</li>\n\n    </highlightTags>\n\n    <thingDef>TorchLamp</thingDef>\n\n    <targetCount>1</targetCount>\n\n    <onMapInstruction>Build a torch lamp inside the room</onMapInstruction>\n\n    <rejectInputMessage>Please build a torch lamp inside the room.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "BuildAnimalSleepingSpot (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>BuildAnimalSleepingSpot</defName>\n\n    <text>So your pet will sleep inside with you, place an ANIMAL SLEEPING SPOT inside the room.\\n\\nSleeping spots aren't real buildings - they're just spots on the ground designated for a sleeping.</text>\n\n    <instructionClass>Instruction_BuildInRoom</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-BuildTorchLamp</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-AnimalSleepingSpot</li>\n\n      <li>Designate-AnimalSleepingSpot</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Furniture-Closed</li>\n\n      <li>Designator-Build-AnimalSleepingSpot</li>\n\n    </highlightTags>\n\n    <thingDef>AnimalSleepingSpot</thingDef>\n\n    <targetCount>1</targetCount>\n\n    <onMapInstruction>Build an animal sleeping spot\\ninside the room</onMapInstruction>\n\n    <rejectInputMessage>Please place an animal sleeping spot inside the room.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "BuildHorseshoesPin (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>BuildHorseshoesPin</defName>\n\n    <text>Your colonists need sources of recreation or they'll get sad over time.\\n\\nBuild a HORSESHOES pin outside, near the room.</text>\n\n    <instructionClass>Instruction_BuildNearRoom</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-BuildAnimalSleepingSpot</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-HorseshoesPin</li>\n\n      <li>SelectStuff-HorseshoesPin-WoodLog</li>\n\n      <li>SelectStuff-HorseshoesPin-Steel</li>\n\n      <li>Designate-HorseshoesPin</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Joy-Closed</li>\n\n      <li>Designator-Build-HorseshoesPin</li>\n\n      <li>SelectStuff-HorseshoesPin-WoodLog</li>\n\n      <li>SelectStuff-HorseshoesPin-Steel</li>\n\n    </highlightTags>\n\n    <thingDef>HorseshoesPin</thingDef>\n\n    <targetCount>1</targetCount>\n\n    <onMapInstruction>Build a horseshoes pin\\noutside the room</onMapInstruction>\n\n    <rejectInputMessage>Please place a horseshoes pin somewhere near the room.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "MakeGrowingZone (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>MakeGrowingZone</defName>\n\n    <text>The house is being built!\\n\\nYour colonists will need something to eat, so place a GROWING ZONE as indicated on the map.\\n\\nThis is where your colonists will sow crops.</text>\n\n    <instructionClass>Instruction_PlaceGrowingZone</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-BuildHorseshoesPin</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-ZoneAdd_Growing</li>\n\n      <li>Designate-ZoneAdd_Growing</li>\n\n    </actionTagsAllowed>\n\n    <eventTagsEnd>\n\n      <li>Designate-ZoneAdd_Growing</li>\n\n    </eventTagsEnd>\n\n    <rejectInputMessage>Please make a growing zone on the indicated area.</rejectInputMessage>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Zone-Closed</li>\n\n      <li>Designator-ZoneAdd_Growing</li>\n\n    </highlightTags>\n\n    <onMapInstruction>Place growing zone here\\n(drag corner-to-corner)</onMapInstruction>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "SetToGrowRice (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>SetToGrowRice</defName>\n\n    <text>You can decide what plant your colonists should sow in a growing zone.\\n\\n1. Right-click to exit architect mode.\\n2. Click your growing zone to select it.\\n3. Click the plant selector at the bottom and change it to rice.</text>\n\n    <textController>You can decide what plant your colonists should sow in a growing zone.\\n\\n1. Press left trigger button to exit architect mode.\\n2. Click your growing zone to select it.\\n3. Click the plant selector at the bottom and change it to rice.</textController>\n\n    <instructionClass>Instruction_SetGrowingZonePlant</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-MakeGrowingZone</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>GrowingZoneSetPlant</li>\n\n      <li>GrowingZoneSetPlant-Plant_Rice</li>\n\n    </actionTagsAllowed>\n\n    <eventTagsEnd>\n\n      <li>GrowingZoneSetPlant-Plant_Rice</li>\n\n    </eventTagsEnd>\n\n    <highlightTags>\n\n      <li>GrowingZoneSetPlant</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please set your growing zone to grow rice.</rejectInputMessage>\n\n    <onMapInstruction>Set this growing zone to grow rice</onMapInstruction>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "EquipWeapons (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>EquipWeapons</defName>\n\n    <text>Have your colonists equip the starting weapons. To equip a weapon:\\n\\n1. Click a colonist to select them.\\n2. Right-click the weapon you want to equip.\\n3. Click 'equip weapon' on the context menu.\\n\\nDo this for each colonist.</text>\n\n    <textController>Have your colonists equip the starting weapons. To equip a weapon:\\n\\n1. Click a colonist to select them.\\n2. Hover over the weapon you want to equip and press left trigger button.\\n3. Click 'equip weapon' on the context menu.\\n\\nDo this for each colonist.</textController>\n\n    <instructionClass>Instruction_EquipWeapons</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-SetToGrowRice</eventTagInitiate>\n\n    <rejectInputMessage>Please have your colonists equip weapons.</rejectInputMessage>\n\n    <onMapInstruction>Equip this</onMapInstruction>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "BuildFueledStove (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>BuildFueledStove</defName>\n\n    <text>Excellent!\\n\\nNow you'll need to make a stove to cook food.\\n\\nBuild a FUELED STOVE inside the room.</text>\n\n    <instructionClass>Instruction_BuildInRoom</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-EquipWeapons</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-FueledStove</li>\n\n      <li>Designate-FueledStove</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Production-Closed</li>\n\n      <li>Designator-Build-FueledStove</li>\n\n    </highlightTags>\n\n    <thingDef>FueledStove</thingDef>\n\n    <targetCount>1</targetCount>\n\n    <onMapInstruction>Build a fueled stove inside the room</onMapInstruction>\n\n    <rejectInputMessage>Please build the fueled stove inside the room you built earlier.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "AddBillSimpleMeal (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>AddBillSimpleMeal</defName>\n\n    <text>Colonists need to be told what to cook.\\n\\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\\n\\n1. Wait for the stove to be built.\\n2. Click the stove to select it.\\n3. Open the BILLS tab.\\n4. Click ADD BILL.\\n5. Select COOK SIMPLE MEAL on the context menu.\\n6. Click the + button to increase the count to 10.\\n\\nRemember, you can speed up time if building is taking too long.\\n\\nYou can also select a colonist and right-click the stove to prioritize building it.</text>\n\n    <textController>Colonists need to be told what to cook.\\n\\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\\n\\n1. Wait for the stove to be built.\\n2. Click the stove to select it.\\n3. Open the BILLS tab.\\n4. Click ADD BILL.\\n5. Select COOK SIMPLE MEAL on the context menu.\\n6. Click the + button to increase the count to 10.\\n\\nRemember, you can speed up time if building is taking too long.\\n\\nYou can also select a colonist and press left trigger button on the stove to prioritize building it.</textController>\n\n    <instructionClass>Instruction_AddBill</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-BuildFueledStove</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>ITab-Bills-Open</li>\n\n      <li>MainTab-Work-Open</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>ITab-Bills-Closed</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please add a bill to cook simple meals at your cook stove.</rejectInputMessage>\n\n    <onMapInstruction>Select this</onMapInstruction>\n\n    <thingDef>FueledStove</thingDef>\n\n    <recipeDef>CookMealSimple</recipeDef>\n\n    <recipeTargetCount>10</recipeTargetCount>\n\n    <giveOnActivateDef>RawPotatoes</giveOnActivateDef>\n\n    <giveOnActivateCount>75</giveOnActivateCount>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "MineSteel (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>MineSteel</defName>\n\n    <text>Now your colonists will cook some food! Tasty!\\n\\nNext, you'll want to mine some minerals. I've spawned some mineable steel near your base.\\n\\nSelect the MINE designator and drag over the steel to designate it for mining.</text>\n\n    <instructionClass>Instruction_MineSteel</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-AddBillSimpleMeal</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-Mine</li>\n\n      <li>Designate-Mine</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Orders-Closed</li>\n\n      <li>Designator-Mine</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please use the 'mine' designator on the compacted steel.</rejectInputMessage>\n\n    <onMapInstruction>Designate all this\\nfor mining</onMapInstruction>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "ChopTrees (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>ChopTrees</defName>\n\n    <text>You'll want to harvest some wood. Designate some trees to be chopped.\\n\\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\\n\\n(Pro tip: You can drag a box over trees to designate several at once.)</text>\n\n    <instructionClass>Instruction_ChopWood</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-MineSteel</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-PlantsHarvestWood</li>\n\n      <li>Designate-PlantsHarvestWood</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Orders-Closed</li>\n\n      <li>Designator-PlantsHarvestWood</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please drag the 'chop wood' designator over some trees.</rejectInputMessage>\n\n    <targetCount>10</targetCount>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "OpenMainTabWork (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>OpenMainTabWork</defName>\n\n    <text>You can control which colonist does what kind of work.\\n\\nOpen the WORK tab at the bottom of the screen.</text>\n\n    <eventTagInitiate>InstructionDeactivated-ChopTrees</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Work-Open</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Work-Closed</li>\n\n    </highlightTags>\n\n    <eventTagsEnd>\n\n      <li>MainTab-Work-Open</li>\n\n    </eventTagsEnd>\n\n    <rejectInputMessage>Please open the 'Work' tab.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "ChangeWorkSettings (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>ChangeWorkSettings</defName>\n\n    <text>You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\\n\\nTry changing some settings now.\\n\\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often!</text>\n\n    <eventTagInitiate>InstructionDeactivated-OpenMainTabWork</eventTagInitiate>\n\n    <instructionClass>Instruction_LearnConcept</instructionClass>\n\n    <concept>WorkTab</concept>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Work-Open</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Work-Closed</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please open the 'Work' tab and change some settings.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "BuildSimpleResearchBench (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>BuildSimpleResearchBench</defName>\n\n    <text>To advance, you'll need to research new technologies.\\n\\nBuild a wooden SIMPLE RESEARCH BENCH inside your room.</text>\n\n    <eventTagInitiate>InstructionDeactivated-ChangeWorkSettings</eventTagInitiate>\n\n    <instructionClass>Instruction_BuildInRoom</instructionClass>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Work-Open</li>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>SelectDesignator-SimpleResearchBench</li>\n\n      <li>SelectStuff-SimpleResearchBench-WoodLog</li>\n\n      <li>Designate-SimpleResearchBench</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Production-Closed</li>\n\n      <li>Designator-Build-SimpleResearchBench</li>\n\n      <li>SelectStuff-SimpleResearchBench-WoodLog</li>\n\n    </highlightTags>\n\n    <thingDef>SimpleResearchBench</thingDef>\n\n    <targetCount>1</targetCount>\n\n    <onMapInstruction>Build a wooden simple research bench\\ninside the room</onMapInstruction>\n\n    <rejectInputMessage>Please place a wooden simple research bench inside the room you built earlier.</rejectInputMessage>\n\n    <resetBuildDesignatorStuffs>true</resetBuildDesignatorStuffs>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "OpenMainTabResearch (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>OpenMainTabResearch</defName>\n\n    <text>Excellent! Next, you'll want to select what you want to be researched.\\n\\nOpen the RESEARCH tab.</text>\n\n    <eventTagInitiate>InstructionDeactivated-BuildSimpleResearchBench</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Research-Open</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Research-Closed</li>\n\n    </highlightTags>\n\n    <eventTagsEnd>\n\n      <li>MainTab-Research-Open</li>\n\n    </eventTagsEnd>\n\n    <rejectInputMessage>Please open the 'Research' tab.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "SelectResearchProject (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>SelectResearchProject</defName>\n\n    <text>Now just choose whatever you want to be researched first.\\n\\nYou might have to wait for the research bench to be constructed, or for trees to be chopped for wood.\\n\\nIf it's taking too long, use the WORK tab to assign more colonists to Construct.</text>\n\n    <eventTagInitiate>InstructionDeactivated-OpenMainTabResearch</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Research-Open</li>\n\n      <li>MainTab-Work-Open</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Research-Closed</li>\n\n    </highlightTags>\n\n    <eventTagsEnd>\n\n      <li>StartResearchProject</li>\n\n    </eventTagsEnd>\n\n    <rejectInputMessage>Please choose a research project.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "ExpandAreaHome (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>ExpandAreaHome</defName>\n\n    <text>Next, you'll learn to expand the HOME AREA.\\n\\nColonists will clean floors and extinguish fires in the home area only, and ignore fires or filth outside of it.\\n\\nThe home area is added automatically when you build things - but you can also expand it manually.\\n\\nSelect the EXPAND HOME AREA tool and drag out a new area on the map.</text>\n\n    <instructionClass>Instruction_ExpandAreaHome</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-SelectResearchProject</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>MainTab-Work-Open</li>\n\n      <li>SelectDesignator-AreaHomeExpand</li>\n\n      <li>Designate-AreaHomeExpand</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Zone-Closed</li>\n\n      <li>Designator-AreaHomeExpand</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please expand the home area a bit, just for practice.</rejectInputMessage>\n\n    <targetCount>30</targetCount>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "ExpandAreaBuildRoof (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>ExpandAreaBuildRoof</defName>\n\n    <text>The BUILD ROOF AREA defines where your colonists will try to build roofs.\\n\\nIt auto-fills when you enclose a new room.\\n\\nSelect the EXPAND BUILD ROOF AREA tool and drag out the shape of a porch roof on the front of the house.</text>\n\n    <instructionClass>Instruction_ExpandAreaBuildRoof</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-ExpandAreaHome</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>MainTab-Work-Open</li>\n\n      <li>SelectDesignator-AreaBuildRoofExpand</li>\n\n      <li>Designate-AreaBuildRoofExpand</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Zone-Closed</li>\n\n      <li>Designator-AreaBuildRoofExpand</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please expand the build roof area a bit, just for practice.</rejectInputMessage>\n\n    <targetCount>10</targetCount>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "BuildSandbags (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>BuildSandbags</defName>\n\n    <text>Great! You've now got a basic colony running! Eventually, enemies will raid your colony. It's time to prepare for that.\\n\\nSelect the SANDBAGS designator and drag the sandbags out at the designated area.</text>\n\n    <instructionClass>Instruction_BuildSandbags</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-ExpandAreaBuildRoof</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Architect-Open</li>\n\n      <li>MainTab-Work-Open</li>\n\n      <li>SelectDesignator-Sandbags</li>\n\n      <li>Designate-Sandbags</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Security-Closed</li>\n\n      <li>Designator-Build-Sandbags</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please build sandbags in the highlighted area.</rejectInputMessage>\n\n    <onMapInstruction>Build sandbags here</onMapInstruction>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "FinishSandbags (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>FinishSandbags</defName>\n\n    <text>Let's just wait for all your constructions to be built.\\n\\nConsider using the WORK tab to assign more colonists to Construct.\\n\\nAlso, you can speed up time to shorten the wait.\\n\\nOnce everything's built, I'll send an attacker to test your defenses!</text>\n\n    <instructionClass>Instruction_FinishConstruction</instructionClass>\n\n    <eventTagInitiate>InstructionDeactivated-BuildSandbags</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Work-Open</li>\n\n      <li>ITab-Health-Open</li>\n\n      <li>ITab-Gear-Open</li>\n\n      <li>ITab-Needs-Open</li>\n\n      <li>ITab-Social-Open</li>\n\n      <li>ITab-Character-Open</li>\n\n    </actionTagsAllowed>\n\n    <rejectInputMessage>Please wait for your colonists to finish building the sandbags.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "DownRaider (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>DownRaider</defName>\n\n    <text>I've now sent a raider to attack your colony!\\n\\n1. Pause the game by hitting {Key:TogglePause}!\\n2. Read the red letter in the bottom-right of the screen.\\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\\n5. Unpause.\\n\\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically.</text>\n\n    <textController>I've now sent a raider to attack your colony!\\n\\n1. Pause the game by hitting {Key:TogglePause}!\\n2. Read the red letter in the bottom-right of the screen.\\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\\n4. Press left trigger button to send them to positions inside the sandbag square, touching the sandbags.\\n5. Unpause.\\n\\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically.</textController>\n\n    <eventTagInitiate>InstructionDeactivated-FinishSandbags</eventTagInitiate>\n\n    <instructionClass>Instruction_DownRaider</instructionClass>\n\n    <actionTagsAllowed>\n\n      <li>Draft</li>\n\n      <li>Undraft</li>\n\n      <li>FireAtWillToggle</li>\n\n      <li>VerbTarget</li>\n\n      <li>ITab-Health-Open</li>\n\n      <li>ITab-Gear-Open</li>\n\n      <li>ITab-Needs-Open</li>\n\n      <li>ITab-Social-Open</li>\n\n      <li>ITab-Character-Open</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>Draft</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please focus on winning the fight!</rejectInputMessage>\n\n    <onMapInstruction>Send colonists here\\ntouching sandbags for cover</onMapInstruction>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "UndraftAll (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>UndraftAll</defName>\n\n    <text>Success! Now UNDRAFT all your colonists using the same command as before.\\n\\nThis will let them return to their own schedules.</text>\n\n    <eventTagInitiate>InstructionDeactivated-DownRaider</eventTagInitiate>\n\n    <instructionClass>Instruction_UndraftAll</instructionClass>\n\n    <actionTagsAllowed>\n\n      <li>Draft</li>\n\n      <li>Undraft</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>Undraft</li>\n\n    </highlightTags>\n\n    <rejectInputMessage>Please un-draft your colonists.</rejectInputMessage>\n\n  </InstructionDef>"
+        },
+        {
+            "Title": "ChooseStoryteller (InstructionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/instructions.xml`",
+            "XML": "<InstructionDef>\n\n    <defName>ChooseStoryteller</defName>\n\n    <text>This is the end of the tutorial!\\n\\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\\n\\nRandom incidents were disabled during this tutorial. To begin the real game:\\n\\n1. Open the MENU tab in the bottom-right.\\n2. Select OPTIONS.\\n3. Click the Gameplay button in the left columm.\\n4. Click the Modify button beside Storyteller settings.\\n5. Select a storyteller and playstyle that appeals to you.\\n\\nGood luck, and have fun.</text>\n\n    <eventTagInitiate>InstructionDeactivated-UndraftAll</eventTagInitiate>\n\n    <actionTagsAllowed>\n\n      <li>MainTab-Menu-Open</li>\n\n      <li>ChooseStoryteller</li>\n\n    </actionTagsAllowed>\n\n    <highlightTags>\n\n      <li>MainTab-Menu-Closed</li>\n\n      <li>MenuButton-Options</li>\n\n      <li>OptionsButton-ChooseStoryteller</li>\n\n    </highlightTags>\n\n    <eventTagsEnd>\n\n      <li>ChooseStoryteller</li>\n\n    </eventTagsEnd>\n\n    <endTutorial>true</endTutorial>\n\n    <rejectInputMessage>Please choose a storyteller in the Options menu to end the tutorial.</rejectInputMessage>\n\n  </InstructionDef>"
+        }
+    ]
+}

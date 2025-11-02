@@ -1,0 +1,968 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "OutdoorsPath (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_ancient_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>OutdoorsPath</defName>\n\n    <symbol>outdoorsPath</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_OutdoorsPath\">\n\n        <minRectSize>(10, 10)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientComplexSketch (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_ancient_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientComplexSketch</defName>\n\n    <symbol>ancientComplexSketch</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AncientComplex_Sketch\">\n\n        <minRectSize>(10, 10)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "BasePart (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_base_part_indoors.xml`",
+            "XML": "<RuleDef>\n\n    <defName>BasePart</defName>\n\n    <symbol>basePart_indoors</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_BasePart_Indoors\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "BasePart_Indoors_Division (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_base_part_indoors.xml`",
+            "XML": "<RuleDef>\n\n    <defName>BasePart_Indoors_Division</defName>\n\n    <symbol>basePart_indoors_division</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_BasePart_Indoors_Division_Split\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "BasePart_Indoors_Leaf (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_base_part_indoors.xml`",
+            "XML": "<RuleDef>\n\n    <defName>BasePart_Indoors_Leaf</defName>\n\n    <symbol>basePart_indoors_leaf</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_BasePart_Indoors_Leaf_Barracks\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n        <selectionWeight>1.25</selectionWeight>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Indoors_Leaf_WorshippedTerminal\">\n\n        <minRectSize>(5, 7)</minRectSize>\n\n        <selectionWeight>1.25</selectionWeight>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Indoors_Leaf_Gravcore\" MayRequire=\"Ludeon.RimWorld.Odyssey\">\n\n        <minRectSize>(4, 4)</minRectSize>\n\n        <selectionWeight>1.25</selectionWeight>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Indoors_Leaf_Brewery\">\n\n        <minRectSize>(4, 4)</minRectSize>\n\n        <selectionWeight>0.75</selectionWeight>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Indoors_Leaf_DiningRoom\">\n\n        <minRectSize>(5, 5)</minRectSize>\n\n        <selectionWeight>1.25</selectionWeight>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Indoors_Leaf_BatteryRoom\">\n\n        <minRectSize>(4, 4)</minRectSize>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Indoors_Leaf_ThroneRoom\" MayRequire=\"Ludeon.RimWorld.Royalty\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "BasePart_Outdoors (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_base_part_outdoors.xml`",
+            "XML": "<RuleDef>\n\n    <defName>BasePart_Outdoors</defName>\n\n    <symbol>basePart_outdoors</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "BasePart_Outdoors_Division (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_base_part_outdoors.xml`",
+            "XML": "<RuleDef>\n\n    <defName>BasePart_Outdoors_Division</defName>\n\n    <symbol>basePart_outdoors_division</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_Division_Grid\">\n\n        <minRectSize>(12, 12)</minRectSize>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_Division_Split\">\n\n        <minRectSize>(3, 3)</minRectSize> \n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "BasePart_Outdoors_LeafPossiblyDecorated (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_base_part_outdoors.xml`",
+            "XML": "<RuleDef>\n\n    <defName>BasePart_Outdoors_LeafPossiblyDecorated</defName>\n\n    <symbol>basePart_outdoors_leafPossiblyDecorated</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_LeafPossiblyDecorated\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "BasePart_Outdoors_LeafDecorated (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_base_part_outdoors.xml`",
+            "XML": "<RuleDef>\n\n    <defName>BasePart_Outdoors_LeafDecorated</defName>\n\n    <symbol>basePart_outdoors_leafDecorated</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_LeafDecorated_EdgeStreet\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_LeafDecorated_RandomInnerRect\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "BasePart_Outdoors_Leaf (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_base_part_outdoors.xml`",
+            "XML": "<RuleDef>\n\n    <defName>BasePart_Outdoors_Leaf</defName>\n\n    <symbol>basePart_outdoors_leaf</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_Leaf_Empty\">\n\n        <selectionWeight>0.01</selectionWeight>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_Leaf_Farm\">\n\n        <selectionWeight>0.65</selectionWeight>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_Leaf_PowerPlant\">\n\n        <selectionWeight>0.3</selectionWeight>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_Leaf_Building\">\n\n        <minRectSize>(4, 4)</minRectSize>\n\n      </li>\n\n      <li Class=\"SymbolResolver_BasePart_Outdoors_Leaf_LandingPad\" MayRequire=\"Ludeon.RimWorld.Royalty\">\n\n        <minRectSize>(9, 9)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Clear (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Clear</defName>\n\n    <symbol>clear</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Clear\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "SingleThing (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>SingleThing</defName>\n\n    <symbol>thing</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_SingleThing\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "SinglePawn (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>SinglePawn</defName>\n\n    <symbol>pawn</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_SinglePawn\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Filth (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Filth</defName>\n\n    <symbol>filth</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Filth\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "FloorFill (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>FloorFill</defName>\n\n    <symbol>floor</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_FloorFill\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "RemoveDangerousTerrain (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>RemoveDangerousTerrain</defName>\n\n    <symbol>removeDangerousTerrain</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_RemoveDangerousTerrain\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Roof (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Roof</defName>\n\n    <symbol>roof</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Roof\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EnsureCanReachMapEdge (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EnsureCanReachMapEdge</defName>\n\n    <symbol>ensureCanReachMapEdge</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EnsureCanReachMapEdge\">\n\n        <minRectSize>(0, 0)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EnsureCanHoldRoof (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EnsureCanHoldRoof</defName>\n\n    <symbol>ensureCanHoldRoof</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EnsureCanHoldRoof\">\n\n        <minRectSize>(0, 0)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "OutdoorsCampfire (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>OutdoorsCampfire</defName>\n\n    <symbol>outdoorsCampfire</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_OutdoorsCampfire\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "FirefoamPopper (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>FirefoamPopper</defName>\n\n    <symbol>firefoamPopper</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_FirefoamPopper\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "PawnGroup (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>PawnGroup</defName>\n\n    <symbol>pawnGroup</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_PawnGroup\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "ThingSet (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>ThingSet</defName>\n\n    <symbol>thingSet</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_ThingSet\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "LootScatter (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>LootScatter</defName>\n\n    <symbol>lootScatter</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_LootScatter\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EmptyRoom (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EmptyRoom</defName>\n\n    <symbol>emptyRoom</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EmptyRoom\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Doors (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Doors</defName>\n\n    <symbol>doors</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Doors\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "ExtraDoor (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>ExtraDoor</defName>\n\n    <symbol>extraDoor</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_ExtraDoor\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EdgeSandbags (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EdgeSandbags</defName>\n\n    <symbol>edgeSandbags</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EdgeSandbags\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EdgeWalls (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EdgeWalls</defName>\n\n    <symbol>edgeWalls</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EdgeWalls\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EdgeFloor (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EdgeFloor</defName>\n\n    <symbol>edgeFloor</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EdgeFloor\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientCryptosleepCasket (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientCryptosleepCasket</defName>\n\n    <symbol>ancientCryptosleepCasket</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AncientCryptosleepCasket\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EdgeThing (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EdgeThing</defName>\n\n    <symbol>edgeThing</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EdgeThing\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "CultivatedPlants (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>CultivatedPlants</defName>\n\n    <symbol>cultivatedPlants</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_CultivatedPlants\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Bed (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Bed</defName>\n\n    <symbol>bed</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Bed\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "PrisonerBed (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>PrisonerBed</defName>\n\n    <symbol>prisonerBed</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_PrisonerBed\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "RectTrigger (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>RectTrigger</defName>\n\n    <symbol>rectTrigger</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_TriggerRect\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EmptyRoomRounded (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EmptyRoomRounded</defName>\n\n    <symbol>emptyRoomRounded</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EmptyRoomRounded\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "SoundOneShotAction (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>SoundOneShotAction</defName>\n\n    <symbol>soundOneShotAction</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_SoundOneShotAction\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "UnfoggedTrigger (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>UnfoggedTrigger</defName>\n\n    <symbol>unfoggedTrigger</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_TriggerUnfogged\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "ContainerEmptiedTrigger (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>ContainerEmptiedTrigger</defName>\n\n    <symbol>containerEmptiedTrigger</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_TriggerContainerEmptied\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "OpenDoorAction (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_basic.xml`",
+            "XML": "<RuleDef>\n\n    <defName>OpenDoorAction</defName>\n\n    <symbol>openDoorAction</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_OpenDoorAction\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Settlement (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Settlement</defName>\n\n    <symbol>settlement</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Settlement\">\n\n        <minRectSize>(12, 12)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EdgeDefense (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EdgeDefense</defName>\n\n    <symbol>edgeDefense</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EdgeDefense\">\n\n        <minRectSize>(2, 2)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientShrinesGroup (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientShrinesGroup</defName>\n\n    <symbol>ancientShrinesGroup</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AncientShrinesGroup\">\n\n        <minRectSize>(4, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientShrine (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientShrine</defName>\n\n    <symbol>ancientShrine</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AncientShrine\">\n\n        <minRectSize>(4, 3)</minRectSize>\n\n        <techprintChance>0.033</techprintChance>\n\n        <bladelinkChance>0.02</bladelinkChance>\n\n        <psychicChance>0.02</psychicChance>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientRuins (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientRuins</defName>\n\n    <symbol>ancientRuins</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AncientRuins\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "RandomMechanoidGroup (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>RandomMechanoidGroup</defName>\n\n    <symbol>randomMechanoidGroup</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_RandomMechanoidGroup\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Hives (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Hives</defName>\n\n    <symbol>hives</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Hives\">\n\n        <minRectSize>(2, 2)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "FillWithBeds (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>FillWithBeds</defName>\n\n    <symbol>fillWithBeds</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_FillWithBeds\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Stockpile (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Stockpile</defName>\n\n    <symbol>stockpile</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Stockpile\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "MannedMortar (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>MannedMortar</defName>\n\n    <symbol>mannedMortar</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_MannedMortar\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EdgeMannedMortar (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EdgeMannedMortar</defName>\n\n    <symbol>edgeMannedMortar</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EdgeMannedMortar\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Farm (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Farm</defName>\n\n    <symbol>farm</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Farm\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "FillWithThings (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>FillWithThings</defName>\n\n    <symbol>fillWithThings</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_FillWithThings\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Refuel (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Refuel</defName>\n\n    <symbol>refuel</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Refuel\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "ChargeBatteries (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>ChargeBatteries</defName>\n\n    <symbol>chargeBatteries</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_ChargeBatteries\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "PlaceChairsNearTables (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>PlaceChairsNearTables</defName>\n\n    <symbol>placeChairsNearTables</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_PlaceChairsNearTables\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "RandomlyPlaceMealsOnTables (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>RandomlyPlaceMealsOnTables</defName>\n\n    <symbol>randomlyPlaceMealsOnTables</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_RandomlyPlaceMealsOnTables\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AddWortToFermentingBarrels (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AddWortToFermentingBarrels</defName>\n\n    <symbol>addWortToFermentingBarrels</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AddWortToFermentingBarrels\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Street (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Street</defName>\n\n    <symbol>street</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Street\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "EdgeStreet (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>EdgeStreet</defName>\n\n    <symbol>edgeStreet</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_EdgeStreet\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "IndoorLighting (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>IndoorLighting</defName>\n\n    <symbol>indoorLighting</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_IndoorLighting\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "OutdoorLighting (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>OutdoorLighting</defName>\n\n    <symbol>outdoorLighting</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_OutdoorLighting\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "InnerStockpile (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>InnerStockpile</defName>\n\n    <symbol>innerStockpile</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_InnerStockpile\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Brewery (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Brewery</defName>\n\n    <symbol>brewery</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_GenericRoom\">\n\n        <minRectSize>(4, 4)</minRectSize>\n\n        <interior>interior_brewery</interior>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "WorshippedTerminal (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>WorshippedTerminal</defName>\n\n    <symbol>worshippedTerminal</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_GenericRoom\">\n\n        <minRectSize>(5, 7)</minRectSize>\n\n        <interior>interior_worshippedTerminal</interior>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "DiningRoom (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>DiningRoom</defName>\n\n    <symbol>diningRoom</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_GenericRoom\">\n\n        <minRectSize>(5, 5)</minRectSize>\n\n        <interior>interior_diningRoom</interior>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "BatteryRoom (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>BatteryRoom</defName>\n\n    <symbol>batteryRoom</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_GenericRoom\">\n\n        <minRectSize>(4, 4)</minRectSize>\n\n        <interior>interior_batteryRoom</interior>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Storage (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Storage</defName>\n\n    <symbol>storage</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_GenericRoom\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n        <interior>interior_storage</interior>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Barracks (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Barracks</defName>\n\n    <symbol>barracks</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_GenericRoom\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n        <interior>interior_barracks</interior>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "PrisonCell (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>PrisonCell</defName>\n\n    <symbol>prisonCell</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_GenericRoom\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n        <interior>interior_prisonCell</interior>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientTemple (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientTemple</defName>\n\n    <symbol>ancientTemple</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AncientTemple\">\n\n        <minRectSize>(6, 5)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "TerrorBuildings (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>TerrorBuildings</defName>\n\n    <symbol>terrorBuildings</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_TerrorBuildings\">\n\n        <minRectSize>(5,5)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Message (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Message</defName>\n\n    <symbol>message</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Message\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "SleepingMechanoids (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>SleepingMechanoids</defName>\n\n    <symbol>sleepingMechanoids</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_SleepingMechanoids\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_Storage (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_interior.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_Storage</defName>\n\n    <symbol>interior_storage</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_Storage\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_Barracks (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_interior.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_Barracks</defName>\n\n    <symbol>interior_barracks</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_Barracks\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_AncientTemple (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_interior.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_AncientTemple</defName>\n\n    <symbol>interior_ancientTemple</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_AncientTemple\">\n\n        <minRectSize>(1, 1)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_Brewery (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_interior.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_Brewery</defName>\n\n    <symbol>interior_brewery</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_Brewery\">\n\n        <minRectSize>(2, 2)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_WorshippedTerminal (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_interior.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_WorshippedTerminal</defName>\n\n    <symbol>interior_worshippedTerminal</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_WorshippedTerminal\">\n\n        <minRectSize>(3, 5)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_BatteryRoom (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_interior.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_BatteryRoom</defName>\n\n    <symbol>interior_batteryRoom</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_BatteryRoom\">\n\n        <minRectSize>(2, 2)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_DiningRoom (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_interior.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_DiningRoom</defName>\n\n    <symbol>interior_diningRoom</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_DiningRoom\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_PrisonCell (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_interior.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_PrisonCell</defName>\n\n    <symbol>interior_prisonCell</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_PrisonCell\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Ship_Core (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_ship.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Ship_Core</defName>\n\n    <symbol>ship_core</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Ship_Core\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Ship_Pregen (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_ship.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Ship_Pregen</defName>\n\n    <symbol>ship_pregen</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Ship_Pregen\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Ship_Spine (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_ship.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Ship_Spine</defName>\n\n    <symbol>ship_spine</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Ship_Spine\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Ship_Populate (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rule_defs/rules_ship.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Ship_Populate</defName>\n\n    <symbol>ship_populate</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Ship_Populate\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientComplex (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_ancient_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientComplex</defName>\n\n    <symbol>ancientComplex</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AncientComplex\">\n\n        <minRectSize>(18, 18)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientComplexDefences (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_ancient_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientComplexDefences</defName>\n\n    <symbol>ancientComplexDefences</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AncientComplex_Defences\">\n\n        <minRectSize>(10, 10)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientComplex_Interior_SleepingInsects (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientComplex_Interior_SleepingInsects</defName>\n\n    <symbol>ancientComplex_interior_sleepingInsects</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_SleepingInsects\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientComplex_Interior_SleepingMechanoids (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientComplex_Interior_SleepingMechanoids</defName>\n\n    <symbol>ancientComplex_interior_sleepingMechanoids</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_SleepingMechanoids\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientComplex_Interior_SleepingAncientSoldiers (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientComplex_Interior_SleepingAncientSoldiers</defName>\n\n    <symbol>ancientComplex_interior_sleepingAncientSoldiers</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_SleepingAncientSoldiers\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Infestation (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Infestation</defName>\n\n    <symbol>infestation</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Infestation\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Ambush (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Ambush</defName>\n\n    <symbol>ambush</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Ambush\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "AncientAltar (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>AncientAltar</defName>\n\n    <symbol>ancientAltar</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_AncientAltar\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "DesiccatedCorpses (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>DesiccatedCorpses</defName>\n\n    <symbol>desiccatedCorpses</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_DesiccatedCorpses\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Archonexus (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Archonexus</defName>\n\n    <symbol>archonexus</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Archonexus\">\n\n        <minRectSize>(6, 6)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "ArchonexusResearchBuildings (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>ArchonexusResearchBuildings</defName>\n\n    <symbol>archonexusResearchBuildings</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_ArchonexusResearchBuildings\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "WorkSite_Logging (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/sites/work_sites.xml`",
+            "XML": "<RuleDef>\n\n    <defName>WorkSite_Logging</defName>\n\n    <symbol>WorkSite_logging</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_WorkSite_Logging\">\n\n        <minRectSize>(5, 5)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "WorkSite_Mining (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/sites/work_sites.xml`",
+            "XML": "<RuleDef>\n\n    <defName>WorkSite_Mining</defName>\n\n    <symbol>WorkSite_mining</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_WorkSite_Mining\">\n\n        <minRectSize>(5, 5)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "WorkSite_Farming (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/sites/work_sites.xml`",
+            "XML": "<RuleDef>\n\n    <defName>WorkSite_Farming</defName>\n\n    <symbol>WorkSite_farming</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_WorkSite_Farming\">\n\n        <minRectSize>(5, 5)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "WorkSite_Hunting (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/sites/work_sites.xml`",
+            "XML": "<RuleDef>\n\n    <defName>WorkSite_Hunting</defName>\n\n    <symbol>WorkSite_hunting</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_WorkSite_Hunting\">\n\n        <minRectSize>(5, 5)</minRectSize>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "LandingPad (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>LandingPad</defName>\n\n    <symbol>landingPad</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_LandingPad\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "ThroneRoom (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/rule_defs/rules_complex.xml`",
+            "XML": "<RuleDef>\n\n    <defName>ThroneRoom</defName>\n\n    <symbol>throneRoom</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_GenericRoom\">\n\n        <minRectSize>(3, 3)</minRectSize>\n\n        <interior>interior_throneRoom</interior>\n\n        <useRandomCarpet>true</useRandomCarpet>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_ThroneRoom (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/rule_defs/rules_interior.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_ThroneRoom</defName>\n\n    <symbol>interior_throneRoom</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_ThroneRoom\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "ConditionCauserRoom (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/thing_defs_buildings/buildings_condition_causers.xml`",
+            "XML": "<RuleDef>\n\n    <defName>ConditionCauserRoom</defName>\n\n    <symbol>conditionCauserRoom</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_GenericRoom\">\n\n        <minRectSize>(9, 9)</minRectSize>\n\n        <interior>interior_conditionCauserRoom</interior>\n\n        <allowRoof>false</allowRoof>\n\n      </li>\n\n    </resolvers>\n\n  </RuleDef>"
+        },
+        {
+            "Title": "Interior_ConditionCauserRoom (RuleDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/thing_defs_buildings/buildings_condition_causers.xml`",
+            "XML": "<RuleDef>\n\n    <defName>Interior_ConditionCauserRoom</defName>\n\n    <symbol>interior_conditionCauserRoom</symbol>\n\n    <resolvers>\n\n      <li Class=\"SymbolResolver_Interior_ConditionCauser\" />\n\n    </resolvers>\n\n  </RuleDef>"
+        }
+    ]
+}

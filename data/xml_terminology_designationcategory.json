@@ -1,0 +1,176 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Hygiene (DesignationCategoryDef)",
+            "Label": "Hygiene",
+            "Description Originale": "Things for colonists' hygiene.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Hygiene</defName>\n\n    <label>Hygiene</label>\n\n    <description>Things for colonists' hygiene.</description>\n\n    <order>10</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n      <li>DubsBadHygiene.Designator_RemoveSewage</li>\n\n      <li>DubsBadHygiene.Designator_RemovePlumbing</li>\n\n      <li>DubsBadHygiene.Designator_AreaPlaceFertilizer</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "DankPyon_RusticFurniture (DesignationCategoryDef)",
+            "Label": "Rustic Furn.",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/designation_category_defs/designator_dropdowns.xml`",
+            "XML": "<DesignationCategoryDef>\n\n\t\t<defName>DankPyon_RusticFurniture</defName>\n\n\t\t<label>Rustic Furn.</label>\n\n\t\t<order>500</order>\n\n\t\t<specialDesignatorClasses>\n\n\t\t\t<li>Designator_Cancel</li>\n\n\t\t\t<li>Designator_Deconstruct</li>\n\n\t\t</specialDesignatorClasses>\n\n\t</DesignationCategoryDef>"
+        },
+        {
+            "Title": "DankPyon_RusticStorage (DesignationCategoryDef)",
+            "Label": "Rustic Storage",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/designation_category_defs/designator_dropdowns.xml`",
+            "XML": "<DesignationCategoryDef>\n\n\t\t<defName>DankPyon_RusticStorage</defName>\n\n\t\t<label>Rustic Storage</label>\n\n\t\t<order>504</order>\n\n\t\t<specialDesignatorClasses>\n\n\t\t\t<li>Designator_Cancel</li>\n\n\t\t\t<li>Designator_Deconstruct</li>\n\n\t\t</specialDesignatorClasses>\n\n\t</DesignationCategoryDef>"
+        },
+        {
+            "Title": "DankPyon_RusticDecoration (DesignationCategoryDef)",
+            "Label": "Rustic Deco.",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/designation_category_defs/designator_dropdowns.xml`",
+            "XML": "<DesignationCategoryDef>\n\n\t\t<defName>DankPyon_RusticDecoration</defName>\n\n\t\t<label>Rustic Deco.</label>\n\n\t\t<order>505</order>\n\n\t\t<specialDesignatorClasses>\n\n\t\t\t<li>Designator_Cancel</li>\n\n\t\t\t<li>Designator_Deconstruct</li>\n\n\t\t</specialDesignatorClasses>\n\n\t</DesignationCategoryDef>"
+        },
+        {
+            "Title": "DankPyon_RusticFurniture (DesignationCategoryDef)",
+            "Label": "Rustic Furn.",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/thing_defs__buildings/category_def.xml`",
+            "XML": "<DesignationCategoryDef>\n\n\t\t<defName>DankPyon_RusticFurniture</defName>\n\n\t\t<label>Rustic Furn.</label>\n\n\t\t<order>500</order>\n\n\t\t<specialDesignatorClasses>\n\n\t\t\t<li>Designator_Cancel</li>\n\n\t\t\t<li>Designator_Deconstruct</li>\n\n\t\t</specialDesignatorClasses>\n\n\t</DesignationCategoryDef>"
+        },
+        {
+            "Title": "DankPyon_RusticStorage (DesignationCategoryDef)",
+            "Label": "Rustic Storage",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/thing_defs__buildings/category_def.xml`",
+            "XML": "<DesignationCategoryDef>\n\n\t\t<defName>DankPyon_RusticStorage</defName>\n\n\t\t<label>Rustic Storage</label>\n\n\t\t<order>504</order>\n\n\t\t<specialDesignatorClasses>\n\n\t\t\t<li>Designator_Cancel</li>\n\n\t\t\t<li>Designator_Deconstruct</li>\n\n\t\t</specialDesignatorClasses>\n\n\t</DesignationCategoryDef>"
+        },
+        {
+            "Title": "Orders (DesignationCategoryDef)",
+            "Label": "orders",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Orders</defName>\n\n    <label>orders</label>\n\n    <order>900</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n      <li>Designator_Mine</li>\n\n      <li>Designator_PlantsHarvestWood</li>\n\n      <li>Designator_PlantsCut</li>\n\n      <li>Designator_PlantsHarvest</li>\n\n      <li>Designator_Hunt</li>\n\n      <li>Designator_Slaughter</li>\n\n      <li>Designator_Tame</li>\n\n      <li>Designator_Haul</li>\n\n      <li>Designator_Unforbid</li>\n\n      <li>Designator_Forbid</li>\n\n      <li>Designator_Claim</li>\n\n      <li>Designator_SmoothSurface</li>\n\n      <li>Designator_PaintBuilding</li>\n\n      <li>Designator_PaintFloor</li>\n\n      <li>Designator_RemovePaint</li>\n\n      <li>Designator_Plan_Add</li>\n\n      <li>Designator_Plan_Remove</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Zone (DesignationCategoryDef)",
+            "Label": "zone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Zone</defName>\n\n    <label>zone</label>\n\n    <order>800</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li> \n\n      <li>Designator_ZoneAddStockpile_Resources</li>\n\n      <li>Designator_ZoneAddStockpile_Dumping</li>\n\n      <li>Designator_ZoneAdd_Growing</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Designator_ZoneAdd_Fishing</li>\n\n      <li>Designator_ZoneDelete</li>\n\n      <li>Designator_AreaHomeExpand</li>\n\n      <li>Designator_AreaHomeClear</li>\n\n      <li>Designator_AreaAllowedExpand</li>\n\n      <li>Designator_AreaAllowedClear</li>\n\n      <li>Designator_AreaBuildRoof</li>\n\n      <li>Designator_AreaNoRoof</li>\n\n      <li>Designator_AreaIgnoreRoof</li>\n\n      <li>Designator_AreaSnowClearExpand</li>\n\n      <li>Designator_AreaSnowClearClear</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Biotech\">Designator_AreaPollutionClearExpand</li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Biotech\">Designator_AreaPollutionClearClear</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Structure (DesignationCategoryDef)",
+            "Label": "structure",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Structure</defName>\n\n    <label>structure</label>\n\n    <order>700</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n      <li>Designator_SmoothWalls</li>\n\n      <li>Designator_RemoveFoundation</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Production (DesignationCategoryDef)",
+            "Label": "production",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Production</defName>\n\n    <label>production</label>\n\n    <order>600</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Furniture (DesignationCategoryDef)",
+            "Label": "furniture",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Furniture</defName>\n\n    <label>furniture</label>\n\n    <order>500</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Power (DesignationCategoryDef)",
+            "Label": "power",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Power</defName>\n\n    <label>power</label>\n\n    <order>400</order>\n\n    <showPowerGrid>true</showPowerGrid>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n      <li>Designator_DeconstructConduit</li>\n\n    </specialDesignatorClasses>\n\n    <researchPrerequisites>\n\n      <li>Electricity</li>\n\n    </researchPrerequisites>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Security (DesignationCategoryDef)",
+            "Label": "security",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Security</defName>\n\n    <label>security</label>\n\n    <order>300</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Misc (DesignationCategoryDef)",
+            "Label": "misc",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Misc</defName>\n\n    <label>misc</label>\n\n    <order>250</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Floors (DesignationCategoryDef)",
+            "Label": "floors",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Floors</defName>\n\n    <label>floors</label>\n\n    <order>200</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_RemoveFloor</li>\n\n      <li>Designator_RemoveFoundation</li>\n\n      <li>Designator_SmoothFloors</li>\n\n      <li>Designator_PaintFloor</li>\n\n      <li>Designator_RemoveFloorPaint</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Joy (DesignationCategoryDef)",
+            "Label": "recreation",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Joy</defName>\n\n    <label>recreation</label>\n\n    <order>100</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Ship (DesignationCategoryDef)",
+            "Label": "ship",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Ship</defName>\n\n    <label>ship</label>\n\n    <order>50</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n    </specialDesignatorClasses>\n\n    <researchPrerequisites>\n\n      <li>ShipBasics</li>\n\n    </researchPrerequisites>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Temperature (DesignationCategoryDef)",
+            "Label": "temperature",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/designations/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Temperature</defName>\n\n    <label>temperature</label>\n\n    <order>25</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n    </specialDesignatorClasses>\n\n  </DesignationCategoryDef>"
+        },
+        {
+            "Title": "Ideology (DesignationCategoryDef)",
+            "Label": "ideology",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/designation_categories.xml`",
+            "XML": "<DesignationCategoryDef>\n\n    <defName>Ideology</defName>\n\n    <label>ideology</label>\n\n    <order>13</order>\n\n    <specialDesignatorClasses>\n\n      <li>Designator_Cancel</li>\n\n      <li>Designator_Deconstruct</li>\n\n    </specialDesignatorClasses>\n\n    <preferredColumn>1</preferredColumn>\n\n  </DesignationCategoryDef>"
+        }
+    ]
+}

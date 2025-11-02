@@ -1,0 +1,14 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "PollutionTypes (DubsBadHygiene.PollutionDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/pollution_types/pollution_types.xml`",
+            "XML": "<DubsBadHygiene.PollutionDef>\n\n    <defName>PollutionTypes</defName>\n\n    <TerrainTypes>\n\n      \n\n    </TerrainTypes>\n\n    <ThingTypes>\n\n      <li>\n\n        <defName>Filth_OilSlick</defName>\n\n        <toxicity>30</toxicity>\n\n      </li>\n\n      <li>\n\n        <defName>FilthAsh</defName>\n\n        <toxicity>2</toxicity>\n\n      </li>\n\n      <li>\n\n        <defName>FilthCorpseBile</defName>\n\n        <toxicity>3</toxicity>\n\n      </li>\n\n      <li>\n\n        <defName>BurnPit</defName>\n\n        <toxicity>15</toxicity>\n\n      </li>\n\n      <li>\n\n        <defName>Grave</defName>\n\n        <toxicity>20</toxicity>\n\n      </li>\n\n      <li>\n\n        <defName>DeepDrill</defName>\n\n        <toxicity>30</toxicity>\n\n      </li>\n\n      <li>\n\n        <defName>CrashedPoisonShipPart</defName>\n\n        <toxicity>50</toxicity>\n\n      </li>\n\n    </ThingTypes>\n\n  </DubsBadHygiene.PollutionDef>"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "MechanoidFullyFormed (LifeStageDef)",
+            "Label": "fully-formed",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef>\n\n    <defName>MechanoidFullyFormed</defName>\n\n    <label>fully-formed</label>\n\n    <visible>false</visible>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "HumanlikeBaby (LifeStageDef)",
+            "Label": "baby",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef ParentName=\"HumanlikeAdolescent\">\n\n    <defName>HumanlikeBaby</defName>\n\n    <label>baby</label>\n\n    <bodySizeFactor>0.2</bodySizeFactor>\n\n    <bodyWidth>0.95</bodyWidth>\n\n    <bodyDrawOffset>(0, 0, -0.03)</bodyDrawOffset>\n\n    <voxPitch>1.6</voxPitch>\n\n    <headSizeFactor>0.5</headSizeFactor>\n\n    <eyeSizeFactor>0.7</eyeSizeFactor>\n\n    <foodMaxFactor>0.625</foodMaxFactor> \n\n    <hungerRateFactor>0.125</hungerRateFactor> \n\n    <healthScaleFactor>0.2</healthScaleFactor>\n\n    <marketValueFactor>0.5</marketValueFactor>\n\n    <meleeDamageFactor>0.5</meleeDamageFactor>\n\n    <developmentalStage>Baby</developmentalStage>\n\n    <fallAsleepMaxThresholdOverride>.60</fallAsleepMaxThresholdOverride>\n\n    <naturalWakeThresholdOverride>1.0</naturalWakeThresholdOverride>\n\n    <alwaysDowned>true</alwaysDowned>\n\n    <claimable>true</claimable>\n\n    <involuntarySleepIsNegativeEvent>false</involuntarySleepIsNegativeEvent> \n\n    <thinkTreeMainOverride MayRequire=\"Ludeon.RimWorld.Biotech\">HumanlikeBaby</thinkTreeMainOverride>\n\n    <thinkTreeConstantOverride MayRequire=\"Ludeon.RimWorld.Biotech\">HumanlikeBabyConstant</thinkTreeConstantOverride>\n\n    <canDoRandomMentalBreaks>false</canDoRandomMentalBreaks> \n\n    <canSleepWhileHeld>true</canSleepWhileHeld>\n\n    <canVoluntarilySleep>false</canVoluntarilySleep> \n\n    <canSleepWhenStarving>false</canSleepWhenStarving>\n\n    <canInitiateSocialInteraction>false</canInitiateSocialInteraction>\n\n    <customMoodTipString>Mood represents how happy or stressed someone is. Babies with low mood are more likely to cry, while babies with a high mood are more likely to giggle.</customMoodTipString>\n\n    <silhouetteGraphicData>\n\n      <texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanBaby</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>1</drawSize>\n\n    </silhouetteGraphicData>\n\n    <statFactors>\n\n      <MoveSpeed>0.2</MoveSpeed>\n\n    </statFactors>\n\n    <statOffsets>\n\n      <ComfyTemperatureMin>-46</ComfyTemperatureMin>\n\n      <ComfyTemperatureMax>4</ComfyTemperatureMax>\n\n    </statOffsets>\n\n    <involuntarySleepMTBDaysFromRest>\n\n      <points>\n\n        <li>(.00, 0)</li>\n\n        <li>(.01, .01)</li>\n\n        <li>(.15, .166)</li>\n\n        <li>(.30, 1)</li>\n\n        <li>(.59, 10)</li>\n\n        <li>(.60, Infinity)</li>\n\n      </points>\n\n    </involuntarySleepMTBDaysFromRest>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "HumanlikeChild (LifeStageDef)",
+            "Label": "child",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef Name=\"LifeStageHumanlikeChild\" ParentName=\"HumanlikeAdolescent\">\n\n    <defName>HumanlikeChild</defName>\n\n    <label>child</label>\n\n    <workerClass MayRequire=\"Ludeon.RimWorld.Biotech\">LifeStageWorker_HumanlikeChild</workerClass>\n\n    <bodySizeFactor>0.35</bodySizeFactor>\n\n    <bodyWidth>1.125</bodyWidth>\n\n    <bodyDrawOffset>(0, 0, -0.1)</bodyDrawOffset>\n\n    <voxPitch>1.2</voxPitch>\n\n    <headSizeFactor>0.75</headSizeFactor>\n\n    <eyeSizeFactor>0.85</eyeSizeFactor>\n\n    <healthScaleFactor>0.5</healthScaleFactor>\n\n    <foodMaxFactor>2.286</foodMaxFactor> \n\n    <hungerRateFactor>0.8</hungerRateFactor>\n\n    <marketValueFactor>0.9</marketValueFactor>\n\n    <meleeDamageFactor>0.7</meleeDamageFactor>\n\n    <developmentalStage>Child</developmentalStage>\n\n    <equipmentDrawDistanceFactor>0.55</equipmentDrawDistanceFactor>\n\n    <sittingOffset>0.3</sittingOffset>\n\n    <silhouetteGraphicData>\n\n      <texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanChild</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>1</drawSize>\n\n    </silhouetteGraphicData>\n\n    <statFactors>\n\n      <MoveSpeed>0.75</MoveSpeed>\n\n    </statFactors>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "HumanlikeTeenager (LifeStageDef)",
+            "Label": "teenager",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef ParentName=\"HumanlikeAdolescent\">\n\n    <defName>HumanlikeTeenager</defName>\n\n    <label>teenager</label>\n\n    <workerClass MayRequire=\"Ludeon.RimWorld.Biotech\">LifeStageWorker_HumanlikeAdult</workerClass>\n\n    <adjective>teenage</adjective>\n\n    <reproductive>true</reproductive>\n\n    <bodySizeFactor>0.8</bodySizeFactor>\n\n    <healthScaleFactor>0.90</healthScaleFactor>\n\n    <foodMaxFactor>1.25</foodMaxFactor> \n\n    <meleeDamageFactor>0.75</meleeDamageFactor>\n\n    <equipmentDrawDistanceFactor>0.65</equipmentDrawDistanceFactor>\n\n    <sittingOffset>0.23</sittingOffset>\n\n    <silhouetteGraphicData>\n\n      <texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanChild</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>1</drawSize>\n\n    </silhouetteGraphicData>\n\n    <statFactors>\n\n      <MoveSpeed>0.95</MoveSpeed>\n\n    </statFactors>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "HumanlikeAdult (LifeStageDef)",
+            "Label": "adult",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef>\n\n    <defName>HumanlikeAdult</defName>\n\n    <label>adult</label>\n\n    <workerClass MayRequire=\"Ludeon.RimWorld.Biotech\">LifeStageWorker_HumanlikeAdult</workerClass>\n\n    <visible>false</visible>\n\n    <reproductive>true</reproductive>\n\n    <sittingOffset>0.18</sittingOffset>\n\n    <silhouetteGraphicData>\n\n      <texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanAdult</texPath>\n\n      <graphicClass>Graphic_Single</graphicClass>\n\n      <drawSize>1</drawSize>\n\n    </silhouetteGraphicData>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "EusocialInsectLarva (LifeStageDef)",
+            "Label": "larva",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef>\n\n    <defName>EusocialInsectLarva</defName>\n\n    <label>larva</label>\n\n    <voxPitch>1.6</voxPitch>\n\n    <voxVolume>0.4</voxVolume>\n\n    <bodySizeFactor>0.2</bodySizeFactor>\n\n    <foodMaxFactor>2</foodMaxFactor>\n\n    <healthScaleFactor>0.25</healthScaleFactor>\n\n    <hungerRateFactor>0.4</hungerRateFactor>\n\n    <marketValueFactor>0.4</marketValueFactor>\n\n    <meleeDamageFactor>0.5</meleeDamageFactor>\n\n    <statFactors>\n\n      <MoveSpeed>0.5</MoveSpeed>\n\n    </statFactors>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "EusocialInsectJuvenile (LifeStageDef)",
+            "Label": "immature",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef>\n\n    <defName>EusocialInsectJuvenile</defName>\n\n    <label>immature</label>\n\n    <voxPitch>1.2</voxPitch>\n\n    <bodySizeFactor>0.5</bodySizeFactor>\n\n    <foodMaxFactor>1.5</foodMaxFactor>\n\n    <healthScaleFactor>0.6</healthScaleFactor>\n\n    <hungerRateFactor>0.75</hungerRateFactor>\n\n    <marketValueFactor>0.75</marketValueFactor>\n\n    <meleeDamageFactor>0.75</meleeDamageFactor>\n\n    <statFactors>\n\n      <MoveSpeed>0.9</MoveSpeed>\n\n    </statFactors>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "EusocialInsectAdult (LifeStageDef)",
+            "Label": "adult",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef>\n\n    <defName>EusocialInsectAdult</defName>\n\n    <label>adult</label>\n\n    <visible>false</visible>\n\n    <milkable>true</milkable>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "AnimalBaby (LifeStageDef)",
+            "Label": "baby",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef Name=\"AnimalBaby\">\n\n    <defName>AnimalBaby</defName>\n\n    <label>baby</label>\n\n    <voxPitch>1.6</voxPitch>\n\n    <voxVolume>0.8</voxVolume>\n\n    <bodySizeFactor>0.2</bodySizeFactor>\n\n    <foodMaxFactor>3</foodMaxFactor>\n\n    <healthScaleFactor>0.25</healthScaleFactor>\n\n    <hungerRateFactor>0.4</hungerRateFactor>\n\n    <marketValueFactor>0.4</marketValueFactor>\n\n    <meleeDamageFactor>0.5</meleeDamageFactor>\n\n    <statFactors>\n\n      <MoveSpeed>0.5</MoveSpeed>\n\n    </statFactors>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "AnimalBabyTiny (LifeStageDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef ParentName=\"AnimalBaby\">\n\n    <defName>AnimalBabyTiny</defName>\n\n    <bodySizeFactor>0.1</bodySizeFactor>\n\n    <foodMaxFactor>6</foodMaxFactor>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "AnimalJuvenile (LifeStageDef)",
+            "Label": "juvenile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef>\n\n    <defName>AnimalJuvenile</defName>\n\n    <label>juvenile</label>\n\n    <voxPitch>1.2</voxPitch>\n\n    <bodySizeFactor>0.5</bodySizeFactor>\n\n    <foodMaxFactor>1.5</foodMaxFactor>\n\n    <healthScaleFactor>0.6</healthScaleFactor>\n\n    <hungerRateFactor>0.75</hungerRateFactor>\n\n    <marketValueFactor>0.75</marketValueFactor>\n\n    <meleeDamageFactor>0.75</meleeDamageFactor>\n\n    <statFactors>\n\n      <MoveSpeed>0.9</MoveSpeed>\n\n    </statFactors>\n\n  </LifeStageDef>"
+        },
+        {
+            "Title": "AnimalAdult (LifeStageDef)",
+            "Label": "adult",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/life_stage_defs/life_stages.xml`",
+            "XML": "<LifeStageDef>\n\n    <defName>AnimalAdult</defName>\n\n    <label>adult</label>\n\n    <visible>false</visible>\n\n    <reproductive>true</reproductive>\n\n    <milkable>true</milkable>\n\n    <shearable>true</shearable>\n\n    <caravanRideable>true</caravanRideable>\n\n  </LifeStageDef>"
+        }
+    ]
+}

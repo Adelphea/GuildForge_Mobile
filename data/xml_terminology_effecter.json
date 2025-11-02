@@ -1,0 +1,1130 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Fecal (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/effecter__misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Fecal</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>\n\n          <min>0.5</min>\n\n          <max>0.7</max>\n\n        </scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>-0.35</positionLerpFactor>\n\n        <positionRadius>0.2</positionRadius>\n\n        <moteDef>Mote_FecalBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "WashingEffect (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/effecter__misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>WashingEffect</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.2~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <fleckDef>Mote_WaterSplashes</fleckDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "CarryBucket (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/effecter__misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>CarryBucket</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_DrifterEmoteContinuous</subEffecterClass>\n\n        <moteDef>Mote_Bucket</moteDef>\n\n        <positionRadius>1</positionRadius>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <scale>\n\n          <min>0.6</min>\n\n          <max>0.6</max>\n\n        </scale>\n\n        <rotation>\n\n          <min>20</min>\n\n          <max>20</max>\n\n        </rotation>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Unblocking (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/effects/effecter__misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Unblocking</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>\n\n        <moteDef>Mote_Plunger</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "MO_ConstructWood (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/effects/mote__visual.xml`",
+            "XML": "<EffecterDef>\n\n\t\t<defName>MO_ConstructWood</defName>\n\n\t\t<children>\n\n\t\t\t<li>\n\n\t\t\t\t<subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n\t\t\t\t<soundDef>Interact_ConstructWood</soundDef>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n\t\t\t\t<fleckDef>DustPuff</fleckDef>\n\n\t\t\t\t<chancePerTick>0.035</chancePerTick>\n\n\t\t\t\t<scale>0.9~1.2</scale>\n\n\t\t\t\t<rotationRate>-60~60</rotationRate>\n\n\t\t\t\t<speed>0.6~1.8</speed>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n\t\t\t\t<fleckDef>WoodBit</fleckDef>\n\n\t\t\t\t<spawnLocType>BetweenPositions</spawnLocType>\n\n\t\t\t\t<chancePerTick>0.05</chancePerTick>\n\n\t\t\t\t<scale>0.5~0.6</scale>\n\n\t\t\t\t<fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n\t\t\t\t<angle>0~360</angle>\n\n\t\t\t\t<speed>5</speed>\n\n\t\t\t</li>\n\n\t\t</children>\n\n\t</EffecterDef>"
+        },
+        {
+            "Title": "ConstructMetal (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_construction.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ConstructMetal</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Interact_ConstructMetal</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <chancePerTick>0.035</chancePerTick>\n\n        <scale>0.9~1.3</scale>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <speed>0.6~1.8</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>SparkFlash</fleckDef>\n\n        <spawnLocType>BetweenTouchingCells</spawnLocType>\n\n        <positionLerpFactor>0.49</positionLerpFactor>\n\n        <chancePerTick>0.2</chancePerTick>\n\n        <scale>2.5~3.5</scale>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <moteDef>Mote_SparkThrown</moteDef>\n\n        <spawnLocType>BetweenTouchingCells</spawnLocType>\n\n        <positionLerpFactor>0.49</positionLerpFactor>\n\n        <chancePerTick>0.2</chancePerTick>\n\n        <scale>0.24~0.34</scale>\n\n        <airTime>0.08~0.16</airTime>\n\n        <rotationRate>-240~240</rotationRate>\n\n        <speed>7.2~24</speed>\n\n        <angle>135~225</angle>\n\n        <positionRadius>0.02</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ConstructWood (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_construction.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ConstructWood</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Interact_ConstructWood</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <chancePerTick>0.035</chancePerTick>\n\n        <scale>0.9~1.2</scale>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <speed>0.6~1.8</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ConstructDirt (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_construction.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ConstructDirt</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Interact_ConstructDirt</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <chancePerTick>0.035</chancePerTick>\n\n        <scale>0.9~1.2</scale>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <speed>0.6~1.8</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>DirtBits</fleckDef>\n\n        <spawnLocType>BetweenPositions</spawnLocType>\n\n        <chancePerTick>0.05</chancePerTick>\n\n        <scale>0.5~0.6</scale>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <angle>0~360</angle>\n\n        <speed>5</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "RoofWork (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_construction.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>RoofWork</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <chancePerTick>0.07</chancePerTick>\n\n        <scale>0.9~1.3</scale>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <speed>0.6~1.8</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Deflect_Metal (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef Name=\"Deflect_Metal\">\n\n    <defName>Deflect_Metal</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>Deflect_Metal</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>SparkFlash</fleckDef>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <chancePerTick>0.2</chancePerTick>\n\n        <scale>2.5~4.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>AirPuff</fleckDef>\n\n        <burstCount>4~5</burstCount>\n\n        <speed>0.4~0.8</speed>\n\n        <scale>0.5~0.8</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.02</positionRadius>\n\n        <moteDef>Mote_SparkThrownFast</moteDef>\n\n        <burstCount>4~5</burstCount>\n\n        <speed>3.3~5</speed>\n\n        <scale>0.1~0.2</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.02</positionRadius>\n\n        <fleckDef>MicroSparksFast</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <speed>0.3~0.4</speed>\n\n        <rotationRate>5~10</rotationRate>\n\n        <scale>0.3~0.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.1</positionRadius>\n\n        <fleckDef>SparkFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>0.9~1.3</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n    <offsetTowardsTarget>0.25~0.25</offsetTowardsTarget>\n\n    <positionRadius>0.1</positionRadius>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Deflect_Metal_Bullet (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef ParentName=\"Deflect_Metal\">\n\n    <defName>Deflect_Metal_Bullet</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_LongSparkThrown</moteDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>0.38~0.6</scale>\n\n        <speed>7~14</speed>\n\n        <angle>135~225</angle>\n\n        <positionRadius>0.01</positionRadius>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Deflect_General (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef Name=\"Deflect_General\">\n\n    <defName>Deflect_General</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>Deflect_General</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>YellowSparkFlash</fleckDef>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <chancePerTick>0.2</chancePerTick>\n\n        <scale>2.5~4.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>AirPuff</fleckDef>\n\n        <burstCount>4~5</burstCount>\n\n        <speed>0.4~0.8</speed>\n\n        <scale>0.5~0.8</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.02</positionRadius>\n\n        <moteDef>Mote_SparkThrownFast</moteDef>\n\n        <burstCount>4~5</burstCount>\n\n        <speed>3.3~5</speed>\n\n        <scale>0.1~0.2</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.1</positionRadius>\n\n        <fleckDef>YellowSparkFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>0.9~1.3</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n    <offsetTowardsTarget>0.25~0.25</offsetTowardsTarget>\n\n    <positionRadius>0.1</positionRadius>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Deflect_General_Bullet (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef ParentName=\"Deflect_General\">\n\n    <defName>Deflect_General_Bullet</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_LongSparkThrown</moteDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>0.38~0.6</scale>\n\n        <speed>7~14</speed>\n\n        <angle>135~225</angle>\n\n        <positionRadius>0.01</positionRadius>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Damage_HitFlesh (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Damage_HitFlesh</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.4</positionRadius>\n\n        <fleckDef>AirPuff</fleckDef>\n\n        <burstCount>4~5</burstCount>\n\n        <speed>0.4~0.8</speed>\n\n        <scale>1.0~1.1</scale>\n\n        <color>(120, 18, 0)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.1</positionRadius>\n\n        <fleckDef>BloodSplash</fleckDef>\n\n        <burstCount>2~3</burstCount>\n\n        <scale>1.1~1.4</scale>\n\n        <color>(210, 50, 0)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.0</positionRadius>\n\n        <fleckDef>BodyImpact</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <scale>0.4</scale>\n\n        <color>(255, 120, 30, 60)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n    <offsetTowardsTarget>0.25~0.25</offsetTowardsTarget>\n\n    <positionRadius>0.1</positionRadius>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Damage_HitInsect (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Damage_HitInsect</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.4</positionRadius>\n\n        <fleckDef>AirPuff</fleckDef>\n\n        <burstCount>4~5</burstCount>\n\n        <speed>0.4~0.8</speed>\n\n        <scale>1.0~1.3</scale>\n\n        <color>(200, 180, 30)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.1</positionRadius>\n\n        <fleckDef>BloodSplash</fleckDef>\n\n        <burstCount>2~3</burstCount>\n\n        <scale>1.6~2.1</scale>\n\n        <color>(236, 228, 20)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.0</positionRadius>\n\n        <fleckDef>BodyImpact</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <scale>0.55</scale>\n\n        <color>(200, 200, 10, 60)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n    <offsetTowardsTarget>0.25~0.25</offsetTowardsTarget>\n\n    <positionRadius>0.1</positionRadius>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Damage_HitMechanoid (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Damage_HitMechanoid</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.4</positionRadius>\n\n        <fleckDef>AirPuff</fleckDef>\n\n        <burstCount>2~3</burstCount>\n\n        <speed>0.4~0.8</speed>\n\n        <scale>0.8~1.1</scale>\n\n        <color>(0.7, 0.8, 1, 0.7)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.02</positionRadius>\n\n        <moteDef>Mote_SparkThrownFastBlue</moteDef>\n\n        <burstCount>7~10</burstCount>\n\n        <speed>3.3~5</speed>\n\n        <scale>0.2~0.3</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.05</positionRadius>\n\n        <fleckDef>PlainFlash</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <scale>2.5~3.25</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <color>(0.7, 0.8, 1.0, 0.6)</color>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.0</positionRadius>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <scale>0.83</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n    <offsetTowardsTarget>0.25~0.25</offsetTowardsTarget>\n\n    <positionRadius>0.1</positionRadius>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "DamageDiminished_Metal (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>DamageDiminished_Metal</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>AirPuff</fleckDef>\n\n        <burstCount>3~4</burstCount>\n\n        <speed>0.3~0.7</speed>\n\n        <scale>0.5~0.8</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.02</positionRadius>\n\n        <moteDef>Mote_SparkThrownFast</moteDef>\n\n        <burstCount>4~5</burstCount>\n\n        <speed>3.3~5</speed>\n\n        <scale>0.1~0.2</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.02</positionRadius>\n\n        <fleckDef>MicroSparksFast</fleckDef>\n\n        <burstCount>1~2</burstCount>\n\n        <speed>0.3~0.4</speed>\n\n        <rotationRate>5~10</rotationRate>\n\n        <scale>0.3~0.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_SparkThrown</moteDef>\n\n        <burstCount>3~3</burstCount>\n\n        <scale>0.1~0.2</scale>\n\n        <airTime>0.08~0.1</airTime>\n\n        <speed>2~4</speed>\n\n        <positionRadius>0.02</positionRadius>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n    <offsetTowardsTarget>0.31~0.31</offsetTowardsTarget>\n\n    <positionRadius>0.1</positionRadius>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "DamageDiminished_General (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>DamageDiminished_General</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>AirPuff</fleckDef>\n\n        <burstCount>3~4</burstCount>\n\n        <speed>0.3~0.7</speed>\n\n        <scale>0.5~0.8</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.02</positionRadius>\n\n        <moteDef>Mote_SparkThrownFast</moteDef>\n\n        <burstCount>4~5</burstCount>\n\n        <speed>3.3~5</speed>\n\n        <scale>0.1~0.2</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_SparkThrown</moteDef>\n\n        <burstCount>3~3</burstCount>\n\n        <scale>0.1~0.2</scale>\n\n        <airTime>0.08~0.1</airTime>\n\n        <speed>2~4</speed>\n\n        <positionRadius>0.02</positionRadius>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n    <offsetTowardsTarget>0.31~0.31</offsetTowardsTarget>\n\n    <positionRadius>0.1</positionRadius>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Bridge_Collapse (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Bridge_Collapse</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>Bridge_Collapse</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <burstCount>4~7</burstCount>\n\n        <speed>0.8~1.4</speed>\n\n        <scale>2~2.5</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Bridge_CollapseWater (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Bridge_CollapseWater</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>Bridge_CollapseWater</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <burstCount>2~2</burstCount>\n\n        <speed>0.8~1.4</speed>\n\n        <scale>2~2.5</scale>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_Splash</moteDef>\n\n        <burstCount>6~8</burstCount>\n\n        <speed>4.3~5.9</speed>\n\n        <scale>1.3~1.6</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Interceptor_BlockedProjectile (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Interceptor_BlockedProjectile</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>Interceptor_BlockProjectile</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <positionRadius>0.1</positionRadius>\n\n        <burstCount>3~5</burstCount>\n\n        <speed>0.6~0.75</speed>\n\n        <scale>1.5~2.3</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>ExplosionFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>3.0~3.0</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Impact_Toxic (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_damage.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Impact_Toxic</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_ToxicDamage</moteDef>\n\n        <positionRadius>0.1</positionRadius>\n\n        <burstCount>3</burstCount>\n\n        <scale>1~1.4</scale>\n\n        <color>(0.1,1,0.1,1)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "EatVegetarian (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_ingest.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>EatVegetarian</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.5~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.35</positionLerpFactor>\n\n        <moteDef>Mote_FoodBitVegetarian</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "EatMeat (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_ingest.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>EatMeat</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.25~0.4</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.35</positionLerpFactor>\n\n        <moteDef>Mote_FoodBitMeat</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Smoke_Joint (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_ingest.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Smoke_Joint</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <moteDef>Mote_SmokeJoint</moteDef>\n\n        <ticksBetweenMotes>30</ticksBetweenMotes>\n\n        <scale>0.35~0.45</scale>\n\n        <absoluteAngle>true</absoluteAngle>\n\n        <angle>30~70</angle>\n\n        <speed>0.18~0.3</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Smoke_Flake (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_ingest.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Smoke_Flake</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <moteDef>Mote_SmokeFlake</moteDef>\n\n        <ticksBetweenMotes>30</ticksBetweenMotes>\n\n        <scale>0.40~0.50</scale>\n\n        <absoluteAngle>true</absoluteAngle>\n\n        <angle>30~70</angle>\n\n        <speed>0.18~0.3</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Vomit (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Vomit</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.5~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.35</positionLerpFactor>\n\n        <positionRadius>0.2</positionRadius>\n\n        <moteDef>Mote_VomitBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ExtinguisherExplosion (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ExtinguisherExplosion</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <moteDef>Mote_ExtinguisherPuff</moteDef>\n\n        <burstCount>10~15</burstCount>\n\n        <speed>4.8~8.4</speed>\n\n        <scale>4~5</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ExtinguisherPuffSmall (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ExtinguisherPuffSmall</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <moteDef>Mote_ExtinguisherPuff</moteDef>\n\n        <burstCount>5~10</burstCount>\n\n        <speed>0.8~1.5</speed>\n\n        <scale>0.5~0.8</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "PlayPoker (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>PlayPoker</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>\n\n        <moteDef>Mote_Cards</moteDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>\n\n        <soundDef>PokerChips</soundDef>\n\n        <intermittentSoundInterval><min>750</min><max>4300</max></intermittentSoundInterval>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "GiantExplosion (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>GiantExplosion</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_GiantExplosion</moteDef>\n\n        <scale>1~1</scale>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_GiantExplosionInner</moteDef>\n\n        <scale>5~5</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "DisabledByEMP (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>DisabledByEMP</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>EmpDisabled</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>GrowingFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>5~5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>BlastEMP</fleckDef>\n\n        <scale>0.6~1</scale>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <burstCount>1~1</burstCount>\n\n        <chancePerTick>0.052</chancePerTick>\n\n        <positionRadius>0.25</positionRadius>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>Smoke</fleckDef>\n\n        <ticksBetweenMotes>30</ticksBetweenMotes>\n\n        <scale>0.6~1.1</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <absoluteAngle>true</absoluteAngle>\n\n        <angle>30~70</angle>\n\n        <speed>0.2~0.35</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "DisabledByEMPLarge (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>DisabledByEMPLarge</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>EmpDisabled</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>GrowingFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>5~5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>ArcLargeEMP_A</fleckDef>\n\n        <scale>0.5~1.0</scale>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <burstCount>1~1</burstCount>\n\n        <chancePerTick>0.06</chancePerTick>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>ArcLargeEMP_B</fleckDef>\n\n        <scale>0.6~1.8</scale>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <burstCount>1~1</burstCount>\n\n        <chancePerTick>0.06</chancePerTick>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>Smoke</fleckDef>\n\n        <ticksBetweenMotes>30</ticksBetweenMotes>\n\n        <scale>0.6~1.1</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <absoluteAngle>true</absoluteAngle>\n\n        <angle>30~70</angle>\n\n        <speed>0.2~0.35</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "WatchingTelevision (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>WatchingTelevision</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Television_Ambience</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>PlainFlash</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <chancePerTick>0.05</chancePerTick>\n\n        <color>(1,1,1,0.1)</color>\n\n        <scale>1.5~3</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "RaisedRock_Collapse (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>RaisedRock_Collapse</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <burstCount>4~7</burstCount>\n\n        <speed>0.8~1.4</speed>\n\n        <scale>2~2.5</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "BulletShieldGenerator_Reactivate (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>BulletShieldGenerator_Reactivate</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>BulletShieldGenerator_Reactivate</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>GrowingFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>0~0</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "AcidSpray_Directional (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>AcidSpray_Directional</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.15</positionRadius>\n\n        <fleckDef>AcidSpray</fleckDef>\n\n        <burstCount>10~15</burstCount>\n\n        <speed>0.6~3.0</speed>\n\n        <scale>0.5~1.2</scale>\n\n        <angle>-15~15</angle>\n\n        <positionLerpFactor>0.8</positionLerpFactor>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "FoamSpray_Directional (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>FoamSpray_Directional</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.15</positionRadius>\n\n        <fleckDef>FoamSpray</fleckDef>\n\n        <burstCount>2~4</burstCount>\n\n        <speed>0.6~3.3</speed>\n\n        <scale>0.8~1.25</scale>\n\n        <angle>-24~24</angle>\n\n        <positionLerpFactor>0.85</positionLerpFactor>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Vaporize_Heatwave (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Vaporize_Heatwave</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Fleck_HeatWaveDistortion</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Fleck_HeatDiffusion</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Fleck_RadialSparks</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Fleck_VaporizeGlow</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Fleck_VaporizeRays_A</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <rotationRate>30</rotationRate>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Fleck_VaporizeRays_B</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <rotationRate>-20</rotationRate>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Fleck_VaporizeCenterFlash</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Shield_Break (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Shield_Break</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>EnergyShield_Broken</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>FlashShieldBreak</moteDef>\n\n        <scale>2</scale>\n\n        <burstCount>1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <attachToSpawnThing>true</attachToSpawnThing>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>CracksShieldBreak</moteDef>\n\n        <scale>2</scale>\n\n        <burstCount>1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <attachToSpawnThing>true</attachToSpawnThing>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Power_Cell_Burning (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef ParentName=\"Power_Cell_Burning_Base\">\n\n  <defName>Power_Cell_Burning</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>FlashPowerCell</fleckDef>\n\n        <ticksBetweenMotes>15</ticksBetweenMotes>\n\n        <scale>4~5</scale>\n\n        <angle>0</angle>\n\n        <rotation>0~360</rotation>\n\n        <positionOffset>(0, 0, 0.35)</positionOffset>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>BurningPowerCell_Start</soundDef>\n\n        <spawnLocType>OnTarget</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>BurningPowerCell_Loop</soundDef>\n\n        <spawnLocType>OnTarget</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Power_Cell_Sparks (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef ParentName=\"Power_Cell_Burning_Base\">\n\n    <defName>Power_Cell_Sparks</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>FlashPowerCellIntense</fleckDef>\n\n        <ticksBetweenMotes>13</ticksBetweenMotes>\n\n        <scale>4~6</scale>\n\n        <angle>0</angle>\n\n        <rotation>0~360</rotation>\n\n        <positionOffset>(0, 0, 0.35)</positionOffset>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <moteDef>Mote_SparkThrownFastBright</moteDef>\n\n        <chancePerTick>0.7</chancePerTick>\n\n        <scale>0.2~0.25</scale>\n\n        <airTime>0.08~0.16</airTime>\n\n        <rotationRate>-240~240</rotationRate>\n\n        <speed>9~15</speed>\n\n        <angle>-30~30</angle>\n\n        <positionOffset>(0, 0, 0.4)</positionOffset>\n\n        <positionRadius>0.01</positionRadius>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>BurningPowerCell_End</soundDef>\n\n        <spawnLocType>OnTarget</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Skip_EntryNoDelay (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Skip_EntryNoDelay</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>PsycastSkipFlashEntry</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1~1</scale>\n\n        <rotation>0~0</rotation>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>PlainFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>7.0~7.0</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <fleckDef>PsycastSkipInnerEntry</fleckDef>\n\n        <initialDelayTicks>11</initialDelayTicks>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1~1</scale>\n\n        <rotation>0~0</rotation>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <fleckDef>PsycastSkipOuterRingEntry</fleckDef>\n\n        <initialDelayTicks>11</initialDelayTicks>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1~1</scale>\n\n        <rotation>0~0</rotation>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>7~9</burstCount>\n\n        <scale>2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>5</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>5~7</burstCount>\n\n        <scale>2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>10</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>3~7</burstCount>\n\n        <scale>1.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ToxGasReleasing (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ToxGasReleasing</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>GasReleasing</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <positionRadius>0.3</positionRadius>\n\n        <fleckDef>Fleck_ToxGasSmall</fleckDef>\n\n        <chancePerTick>0.1</chancePerTick>\n\n        <scale>0.5~1</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ForcedVisible (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ForcedVisible</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_ForcedVisible</moteDef>\n\n        <scale>.2</scale>\n\n        <spawnLocType>OnTarget</spawnLocType>\n\n        <absoluteAngle>true</absoluteAngle>\n\n        <angle>0</angle>\n\n        <speed>0</speed>\n\n        <rotation>0</rotation>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Skip_Entry (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Skip_Entry</defName>\n\n    <maintainTicks>180</maintainTicks>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <fleckDef>PlainFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>7.0~7.0</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <fleckDef>PsycastSkipInnerEntry</fleckDef>\n\n        <initialDelayTicks>11</initialDelayTicks>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1~1</scale>\n\n        <rotation>0~0</rotation>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <fleckDef>PsycastSkipOuterRingEntry</fleckDef>\n\n        <initialDelayTicks>11</initialDelayTicks>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1~1</scale>\n\n        <rotation>0~0</rotation>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>7~9</burstCount>\n\n        <scale>2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>5</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>5~7</burstCount>\n\n        <scale>2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>10</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>3~7</burstCount>\n\n        <scale>1.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Skip_Exit (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Skip_Exit</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <fleckDef>PsycastSkipFlashExit</fleckDef>\n\n        <initialDelayTicks>12</initialDelayTicks>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1~1</scale>\n\n        <rotation>0~0</rotation>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <fleckDef>PlainFlash</fleckDef>\n\n        <initialDelayTicks>14</initialDelayTicks>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>7.0~7.0</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>16</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>7~9</burstCount>\n\n        <scale>2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>24</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>5~7</burstCount>\n\n        <scale>2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>32</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>3~7</burstCount>\n\n        <scale>1.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Skip_ExitNoDelay (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Skip_ExitNoDelay</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>PsycastSkipInnerExit</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1~1</scale>\n\n        <rotation>0~0</rotation>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>PsycastSkipOuterRingExit</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1~1</scale>\n\n        <rotation>0~0</rotation>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <fleckDef>PsycastSkipFlashExit</fleckDef>\n\n        <initialDelayTicks>12</initialDelayTicks>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1~1</scale>\n\n        <rotation>0~0</rotation>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <fleckDef>PlainFlash</fleckDef>\n\n        <initialDelayTicks>14</initialDelayTicks>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>7.0~7.0</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>16</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>7~9</burstCount>\n\n        <scale>2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>24</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>5~7</burstCount>\n\n        <scale>2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <initialDelayTicks>32</initialDelayTicks>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>3~7</burstCount>\n\n        <scale>1.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "EmergencePointSustained8X8 (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>EmergencePointSustained8X8</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_GroupedChance</subEffecterClass> \n\n        <chancePerTick>.01</chancePerTick>\n\n        <chancePeriodTicks>20</chancePeriodTicks>\n\n        <children>\n\n          <li>\n\n            <subEffecterClass>SubEffecter_CameraShakeSingle</subEffecterClass>\n\n            <cameraShake>.1~.3</cameraShake>\n\n            <distanceAttenuationScale>1</distanceAttenuationScale>\n\n            <distanceAttenuationMax>30</distanceAttenuationMax>\n\n            <soundDef>Emergence_Quake</soundDef>\n\n          </li>\n\n          <li>\n\n            <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n            <fleckDef>DustPuffThick</fleckDef>\n\n            <initialDelayTicks>0</initialDelayTicks>\n\n            <burstCount>2~4</burstCount>\n\n            <spawnLocType>OnSource</spawnLocType>\n\n            <positionRadius>4</positionRadius>\n\n            <scale>1.5~3</scale>\n\n            <rotation>0</rotation>\n\n            <rotationRate>-60~60</rotationRate>\n\n            <absoluteAngle>False</absoluteAngle>\n\n            <positionOffset>(0, 0, 0)</positionOffset>\n\n            <angle>0~360</angle>\n\n            <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n            <speed>.6~.75</speed>\n\n            <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n          </li>\n\n\n\n          <li>\n\n            <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n            <avoidLastPositionRadius>1</avoidLastPositionRadius>\n\n            <fleckDef>GroundCrack</fleckDef>\n\n            <initialDelayTicks>0</initialDelayTicks>\n\n            <burstCount>1</burstCount>\n\n            <color>(1, 1, 1, .75)</color>\n\n            <spawnLocType>OnSource</spawnLocType>\n\n            <positionRadius>4</positionRadius>\n\n            <positionRadiusMin>3</positionRadiusMin>\n\n            <scale>.75~2</scale>\n\n            <rotation>0~360</rotation>\n\n            <rotationRate>0</rotationRate>\n\n            <absoluteAngle>True</absoluteAngle>\n\n            <positionOffset>(-.5, 0, -.5)</positionOffset>\n\n            <angle>0</angle>\n\n            <fleckUsesAngleForVelocity>False</fleckUsesAngleForVelocity>\n\n            <speed>0</speed>\n\n            <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n          </li>\n\n          \n\n          <li>\n\n            <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n            <avoidLastPositionRadius>1</avoidLastPositionRadius>\n\n            <fleckDef>ThrownDebris</fleckDef>\n\n            <initialDelayTicks>0</initialDelayTicks>\n\n            <burstCount>5~10</burstCount>\n\n            <spawnLocType>OnSource</spawnLocType>\n\n            <rotationRate>100~200</rotationRate>\n\n            <positionRadius>4</positionRadius>\n\n            <positionRadiusMin>0</positionRadiusMin>\n\n            <scale>.5~1</scale>\n\n            <rotation>0~360</rotation>\n\n            <absoluteAngle>False</absoluteAngle>\n\n            <positionOffset>(-.5, 0, -.5)</positionOffset>\n\n            <angle>0~360</angle>\n\n            <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n            <speed>1~3</speed>\n\n            <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n          </li>\n\n        </children>\n\n      </li>\n\n      \n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>GroundCrackHuge</moteDef>\n\n        <destroyMoteOnCleanup>true</destroyMoteOnCleanup>\n\n        <initialDelayTicks>0</initialDelayTicks>\n\n        <burstCount>1</burstCount>\n\n        <color>(1, 1, 1, .65)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <scale>6</scale>\n\n        <rotation>0~360</rotation>\n\n        <rotationRate>0</rotationRate>\n\n        <absoluteAngle>True</absoluteAngle>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <angle>0</angle>\n\n        <fleckUsesAngleForVelocity>False</fleckUsesAngleForVelocity>\n\n        <speed>0</speed>\n\n        <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "EmergencePointComplete8X8 (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>EmergencePointComplete8X8</defName>\n\n    <maintainTicks>300</maintainTicks>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_CameraShakeSingle</subEffecterClass>\n\n        <cameraShake>.25</cameraShake>\n\n        <distanceAttenuationScale>1</distanceAttenuationScale>\n\n        <distanceAttenuationMax>100</distanceAttenuationMax>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>ShockwaveFast</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>0</positionRadius>\n\n        <scale>.01</scale>\n\n        <rotation>0</rotation>\n\n        <rotationRate>0</rotationRate>\n\n        <absoluteAngle>True</absoluteAngle>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <angle>0</angle>\n\n        <fleckUsesAngleForVelocity>false</fleckUsesAngleForVelocity>\n\n        <speed>0</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuffThick</fleckDef>\n\n        <burstCount>30~40</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>8</positionRadius>\n\n        <scale>1.5~3</scale>\n\n        <rotation>0</rotation>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <absoluteAngle>False</absoluteAngle>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n        <speed>.6~.75</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>ThrownDebris</fleckDef>\n\n        <initialDelayTicks>0</initialDelayTicks>\n\n        <chancePerTick>1</chancePerTick>\n\n        <chancePeriodTicks>3</chancePeriodTicks>\n\n        <burstCount>2~6</burstCount>\n\n        <lifespanMaxTicks>40</lifespanMaxTicks>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>100~200</rotationRate>\n\n        <positionRadius>4</positionRadius>\n\n        <positionRadiusMin>4</positionRadiusMin>\n\n        <scale>1.5~2</scale>\n\n        <rotation>0~360</rotation>\n\n        <absoluteAngle>False</absoluteAngle>\n\n        <positionOffset>(-.5, 0, -.5)</positionOffset>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n        <speed>.5~5</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "EmergencePointSustained3X3 (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>EmergencePointSustained3X3</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_GroupedChance</subEffecterClass>\n\n        <chancePerTick>.01</chancePerTick>\n\n        <chancePeriodTicks>20</chancePeriodTicks>\n\n        <children>\n\n          <li>\n\n            <subEffecterClass>SubEffecter_CameraShakeSingle</subEffecterClass>\n\n            <cameraShake>.1~.2</cameraShake>\n\n            <soundDef>Emergence_Quake</soundDef>\n\n            <distanceAttenuationScale>1</distanceAttenuationScale>\n\n            <distanceAttenuationMax>20</distanceAttenuationMax>\n\n          </li>\n\n          <li>\n\n            <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n            <fleckDef>DustPuffThick</fleckDef>\n\n            <burstCount>1~3</burstCount>\n\n            <spawnLocType>OnSource</spawnLocType>\n\n            <positionRadius>2</positionRadius>\n\n            <scale>1.5~3</scale>\n\n            <rotation>0</rotation>\n\n            <rotationRate>-10~10</rotationRate>\n\n            <absoluteAngle>False</absoluteAngle>\n\n            <positionOffset>(0, 0, 0)</positionOffset>\n\n            <angle>0~360</angle>\n\n            <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n            <speed>.2~.3</speed>\n\n            <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n          </li>\n\n          <li>\n\n            <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n            <avoidLastPositionRadius>1</avoidLastPositionRadius>\n\n            <fleckDef>GroundCrack</fleckDef>\n\n            <initialDelayTicks>0</initialDelayTicks>\n\n            <burstCount>1</burstCount>\n\n            <color>(1, 1, 1, .75)</color>\n\n            <spawnLocType>OnSource</spawnLocType>\n\n            <positionRadius>1</positionRadius>\n\n            <positionRadiusMin>1</positionRadiusMin>\n\n            <scale>.5~1.5</scale>\n\n            <rotation>0~360</rotation>\n\n            <rotationRate>0</rotationRate>\n\n            <absoluteAngle>True</absoluteAngle>\n\n            <positionOffset>(-.25, 0, -.25)</positionOffset>\n\n            <angle>0</angle>\n\n            <fleckUsesAngleForVelocity>False</fleckUsesAngleForVelocity>\n\n            <speed>0</speed>\n\n            <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n          </li>\n\n          <li>\n\n            <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n            <avoidLastPositionRadius>1</avoidLastPositionRadius>\n\n            <fleckDef>ThrownDebris</fleckDef>\n\n            <initialDelayTicks>0</initialDelayTicks>\n\n            <burstCount>2~6</burstCount>\n\n            <spawnLocType>OnSource</spawnLocType>\n\n            <rotationRate>100~200</rotationRate>\n\n            <positionRadius>2</positionRadius>\n\n            <positionRadiusMin>0</positionRadiusMin>\n\n            <scale>.5~1</scale>\n\n            <rotation>0~360</rotation>\n\n            <absoluteAngle>False</absoluteAngle>\n\n            <positionOffset>(-.5, 0, -.5)</positionOffset>\n\n            <angle>0~360</angle>\n\n            <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n            <speed>.1~1</speed>\n\n            <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n          </li>\n\n        </children>\n\n      </li>\n\n      \n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>GroundCrackHuge</moteDef>\n\n        <destroyMoteOnCleanup>true</destroyMoteOnCleanup>\n\n        <initialDelayTicks>0</initialDelayTicks>\n\n        <burstCount>1</burstCount>\n\n        <color>(1, 1, 1, .75)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <scale>2.25</scale>\n\n        <rotation>0~360</rotation>\n\n        <rotationRate>0</rotationRate>\n\n        <absoluteAngle>True</absoluteAngle>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <angle>0</angle>\n\n        <fleckUsesAngleForVelocity>False</fleckUsesAngleForVelocity>\n\n        <speed>0</speed>\n\n        <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n      </li>\n\n     \n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "EmergencePointComplete3X3 (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>EmergencePointComplete3X3</defName>\n\n    <maintainTicks>300</maintainTicks>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_CameraShakeSingle</subEffecterClass>\n\n        <cameraShake>.2</cameraShake>\n\n        <distanceAttenuationScale>1</distanceAttenuationScale>\n\n        <distanceAttenuationMax>100</distanceAttenuationMax>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuffThick</fleckDef>\n\n        <burstCount>20</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>3</positionRadius>\n\n        <scale>1.5~3</scale>\n\n        <rotation>0</rotation>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <absoluteAngle>False</absoluteAngle>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n        <speed>.6~.75</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>ThrownDebris</fleckDef>\n\n        <initialDelayTicks>0</initialDelayTicks>\n\n        <chancePerTick>1</chancePerTick>\n\n        <chancePeriodTicks>3</chancePeriodTicks>\n\n        <burstCount>2~5</burstCount>\n\n        <lifespanMaxTicks>40</lifespanMaxTicks>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>100~200</rotationRate>\n\n        <positionRadius>2</positionRadius>\n\n        <positionRadiusMin>2</positionRadiusMin>\n\n        <scale>1~1.5</scale>\n\n        <rotation>0~360</rotation>\n\n        <absoluteAngle>False</absoluteAngle>\n\n        <positionOffset>(-.5, 0, -.5)</positionOffset>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n        <speed>.5~4</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "EmergencePointSustained2X2 (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>EmergencePointSustained2X2</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_GroupedChance</subEffecterClass> \n\n        <chancePerTick>.01</chancePerTick>\n\n        <chancePeriodTicks>20</chancePeriodTicks>\n\n        <children>\n\n          <li>\n\n            <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n            <fleckDef>DustPuffThick</fleckDef>\n\n            <initialDelayTicks>0</initialDelayTicks>\n\n            <burstCount>1~2</burstCount>\n\n            <spawnLocType>OnSource</spawnLocType>\n\n            <positionRadius>1.5</positionRadius>\n\n            <scale>1.5~3</scale>\n\n            <rotation>0</rotation>\n\n            <rotationRate>-60~60</rotationRate>\n\n            <absoluteAngle>False</absoluteAngle>\n\n            <positionOffset>(0, 0, 0)</positionOffset>\n\n            <angle>0~360</angle>\n\n            <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n            <speed>.1~.3</speed>\n\n            <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n          </li>\n\n\n\n          <li>\n\n            <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n            <avoidLastPositionRadius>1</avoidLastPositionRadius>\n\n            <fleckDef>GroundCrack</fleckDef>\n\n            <initialDelayTicks>0</initialDelayTicks>\n\n            <burstCount>1</burstCount>\n\n            <color>(1, 1, 1, .75)</color>\n\n            <spawnLocType>OnSource</spawnLocType>\n\n            <positionRadius>.75</positionRadius>\n\n            <positionRadiusMin>.75</positionRadiusMin>\n\n            <scale>.5~1.2</scale>\n\n            <rotation>0~360</rotation>\n\n            <rotationRate>0</rotationRate>\n\n            <absoluteAngle>True</absoluteAngle>\n\n            <positionOffset>(-.25, 0, -.25)</positionOffset>\n\n            <angle>0</angle>\n\n            <fleckUsesAngleForVelocity>False</fleckUsesAngleForVelocity>\n\n            <speed>0</speed>\n\n            <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n          </li>\n\n          <li>\n\n            <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n            <avoidLastPositionRadius>1</avoidLastPositionRadius>\n\n            <fleckDef>ThrownDebris</fleckDef>\n\n            <initialDelayTicks>0</initialDelayTicks>\n\n            <burstCount>5~10</burstCount>\n\n            <spawnLocType>OnSource</spawnLocType>\n\n            <rotationRate>100~200</rotationRate>\n\n            <positionRadius>1</positionRadius>\n\n            <positionRadiusMin>0</positionRadiusMin>\n\n            <scale>.5~1</scale>\n\n            <rotation>0~360</rotation>\n\n            <absoluteAngle>False</absoluteAngle>\n\n            <positionOffset>(-.5, 0, -.5)</positionOffset>\n\n            <angle>0~360</angle>\n\n            <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n            <speed>1~3</speed>\n\n            <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n          </li>\n\n        </children>\n\n      </li>\n\n      \n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>GroundCrackHuge</moteDef>\n\n        <initialDelayTicks>0</initialDelayTicks>\n\n        <destroyMoteOnCleanup>true</destroyMoteOnCleanup>\n\n        <burstCount>1</burstCount>\n\n        <color>(1, 1, 1, .75)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <scale>2.25</scale>\n\n        <rotation>0~360</rotation>\n\n        <rotationRate>0</rotationRate>\n\n        <absoluteAngle>True</absoluteAngle>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <angle>0</angle>\n\n        <fleckUsesAngleForVelocity>False</fleckUsesAngleForVelocity>\n\n        <speed>0</speed>\n\n        <makeMoteOnSubtrigger>true</makeMoteOnSubtrigger>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "EmergencePointComplete2X2 (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>EmergencePointComplete2X2</defName>\n\n    <maintainTicks>300</maintainTicks>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_CameraShakeSingle</subEffecterClass>\n\n        <cameraShake>.1</cameraShake>\n\n        <distanceAttenuationScale>1</distanceAttenuationScale>\n\n        <distanceAttenuationMax>100</distanceAttenuationMax>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuffThick</fleckDef>\n\n        <burstCount>20</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>3</positionRadius>\n\n        <scale>1.5~3</scale>\n\n        <rotation>0</rotation>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <absoluteAngle>False</absoluteAngle>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n        <speed>.6~.75</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>ThrownDebris</fleckDef>\n\n        <initialDelayTicks>0</initialDelayTicks>\n\n        <chancePerTick>1</chancePerTick>\n\n        <chancePeriodTicks>3</chancePeriodTicks>\n\n        <burstCount>2~5</burstCount>\n\n        <lifespanMaxTicks>40</lifespanMaxTicks>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>100~200</rotationRate>\n\n        <positionRadius>2</positionRadius>\n\n        <positionRadiusMin>2</positionRadiusMin>\n\n        <scale>1~1.5</scale>\n\n        <rotation>0~360</rotation>\n\n        <absoluteAngle>False</absoluteAngle>\n\n        <positionOffset>(-.5, 0, -.5)</positionOffset>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n        <speed>.5~3</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "PawnEmergeFromWater (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>PawnEmergeFromWater</defName>\n\n    <maintainTicks>60</maintainTicks>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <chancePeriodTicks>7</chancePeriodTicks>\n\n        <lifespanMaxTicks>14</lifespanMaxTicks>\n\n        <chancePerTick>.3</chancePerTick>\n\n        <fleckDef>GroundWaterSplash</fleckDef>\n\n        <burstCount>2~3</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>0</positionRadius>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <scale>1~2</scale>\n\n        <absoluteAngle>True</absoluteAngle>\n\n        <rotationRate>0</rotationRate>\n\n        <rotation>0</rotation>\n\n        <speed>0</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>WaterChurnNoise</fleckDef>\n\n        <burstCount>10~12</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>.5</positionRadius>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <scale>4~10</scale>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n        <absoluteAngle>false</absoluteAngle>\n\n        <rotationRate>30~50</rotationRate>\n\n        <rotation>0</rotation>\n\n        <speed>-3~3</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "PawnEmergeFromWaterLarge (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>PawnEmergeFromWaterLarge</defName>\n\n    <maintainTicks>60</maintainTicks>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <chancePeriodTicks>7</chancePeriodTicks>\n\n        <lifespanMaxTicks>14</lifespanMaxTicks>\n\n        <chancePerTick>1</chancePerTick>\n\n        <fleckDef>GroundWaterSplash</fleckDef>\n\n        <burstCount>2~3</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>0</positionRadius>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <scale>5~7</scale>\n\n        <absoluteAngle>True</absoluteAngle>\n\n        <rotationRate>0</rotationRate>\n\n        <rotation>0</rotation>\n\n        <speed>0</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>WaterChurnNoise</fleckDef>\n\n        <burstCount>10~12</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>.75</positionRadius>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <scale>4~10</scale>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n        <absoluteAngle>false</absoluteAngle>\n\n        <rotationRate>30~50</rotationRate>\n\n        <rotation>0</rotation>\n\n        <speed>-3~3</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "WaterMist (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>WaterMist</defName>\n\n    <maintainTicks>40</maintainTicks>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>WaterChurnNoise</fleckDef>\n\n        <burstCount>1~2</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>.75</positionRadius>\n\n        <positionOffset>(0, 0, 0)</positionOffset>\n\n        <scale>4~10</scale>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>\n\n        <absoluteAngle>false</absoluteAngle>\n\n        <rotationRate>30~50</rotationRate>\n\n        <rotation>0</rotation>\n\n        <speed>-3~3</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ImpactSmallDustCloud (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ImpactSmallDustCloud</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <burstCount>15</burstCount>\n\n        <positionRadius>2</positionRadius>\n\n        <scale>1</scale>\n\n        <rotationRate>-5~5</rotationRate>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <speed>0.5~1.0</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "FillingInCrater (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>FillingInCrater</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Interact_GraveDig</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>CraterFilledInDust</fleckDef>\n\n        <chancePerTick>0.2</chancePerTick>\n\n        <chancePeriodTicks>100</chancePeriodTicks>\n\n        <positionLerpFactor>.3</positionLerpFactor>\n\n        <scale>0.4~1.2</scale>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <speed>0.6~1</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>CraterFilledInDustThick</fleckDef>\n\n        <chancePerTick>0.1</chancePerTick>\n\n        <chancePeriodTicks>100</chancePeriodTicks>\n\n        <positionLerpFactor>.3</positionLerpFactor>\n\n        <scale>0.4~1.2</scale>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <speed>0.6~1</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>DirtBitsArching</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <chancePerTick>0.05</chancePerTick>\n\n        <scale>0.5~1</scale>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <angle>-10~10</angle>\n\n        <rotation>0~360</rotation>\n\n        <positionOffset>(0, 0, -.2)</positionOffset>\n\n        <speed>5~6</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "HermeticCrateOpened (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>HermeticCrateOpened</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>AncientHermeticCrate_Opened</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.1~0.2</speed>\n\n        <scale>0.8~2</scale>\n\n        <positionRadius>0.75</positionRadius>\n\n        <burstCount>10~20</burstCount>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "HackingTerminal (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>HackingTerminal</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>Flash</fleckDef>\n\n        <spawnLocType>BetweenPositions</spawnLocType>\n\n        <chancePerTick>0.08</chancePerTick>\n\n        <color>(1,1,1,0.1)</color>\n\n        <scale>1~2</scale>\n\n        <positionRadius>0.1</positionRadius>\n\n        <positionLerpFactor>0.3</positionLerpFactor>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "CocoonDestroyed (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>CocoonDestroyed</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>CocoonDestroyed</soundDef>\n\n        <spawnLocType>OnTarget</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>CocoonDestroyedSlime</fleckDef>\n\n        <burstCount>5</burstCount>\n\n        <rotation>-150~150</rotation>\n\n        <positionRadius>1.3</positionRadius>\n\n        <speed>0.6~1.1</speed>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_CocoonDestroyedMist</moteDef>\n\n        <burstCount>12</burstCount>\n\n        <rotation>-150~150</rotation>\n\n        <positionRadius>1.3</positionRadius>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_CocoonDestroyedFlyingSlime</moteDef>\n\n        <burstCount>3</burstCount>\n\n        <rotation>-150~150</rotation>\n\n        <positionRadius>0.6</positionRadius>\n\n        <speed>0.8~1.2</speed>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_CocoonDestroyedFlyingPiece</moteDef>\n\n        <burstCount>5</burstCount>\n\n        <rotation>-150~150</rotation>\n\n        <positionRadius>0.5</positionRadius>\n\n        <speed>2~3</speed>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "CocoonWakingUp (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>CocoonWakingUp</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>CocoonWakingUp</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <moteDef>Mote_CocoonBreaking</moteDef>\n\n        <burstCount>7</burstCount>\n\n        <initialDelayTicks>5</initialDelayTicks>\n\n        <ticksBetweenMotes>43</ticksBetweenMotes>\n\n        <rotation>-150~150</rotation>\n\n        <positionRadius>0.66</positionRadius>\n\n        <speed>0.6~1.1</speed>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <maxMoteCount>3</maxMoteCount>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>CocoonPulse</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <ticksBetweenMotes>43</ticksBetweenMotes>\n\n        <rotation>-150~150</rotation>\n\n        <positionRadius>0</positionRadius>\n\n        <speed>0</speed>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <maxMoteCount>3</maxMoteCount>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "UndercaveMapExitLightshafts (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <maintainTicks>9999</maintainTicks>\n\n    <defName>UndercaveMapExitLightshafts</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>Lightshaft</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionRadius>6</positionRadius>\n\n        <positionOffset>(1, 0, 8)</positionOffset>\n\n        <scale>2</scale>\n\n        <absoluteAngle>True</absoluteAngle>\n\n        <rotationRate>0</rotationRate>\n\n        <rotation>15</rotation>\n\n        <chancePerTick>.25</chancePerTick>\n\n        <chancePeriodTicks>30</chancePeriodTicks>\n\n        <speed>0</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "MortarShieldGenerator_Reactivate (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>MortarShieldGenerator_Reactivate</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>MortarShieldGenerator_Reactivate</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>GrowingFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>0~0</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Drunk (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_pawn_states.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Drunk</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>\n\n        <scale>0.5~0.7</scale>\n\n        <chancePerTick>0.03</chancePerTick>\n\n        <positionRadius>0.3</positionRadius>\n\n        <moteDef>Mote_DrunkBubble</moteDef>\n\n        <speed>0.18~0.18</speed>\n\n        <angle>10~80</angle>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Berserk (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_pawn_states.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Berserk</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>\n\n        <scale>0.5~0.7</scale>\n\n        <chancePerTick>0.02</chancePerTick>\n\n        <positionRadius>0.3</positionRadius>\n\n        <moteDef>Mote_BerserkBit</moteDef>\n\n        <speed>0.18~0.18</speed>\n\n        <angle>10~80</angle>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ButcherFlesh (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ButcherFlesh</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_FoodBitMeat</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ButcherMechanoid (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ButcherMechanoid</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Surgery (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Surgery</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_FoodBitMeat</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "CutStone (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>CutStone</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Tailor (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Tailor</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Smith (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Smith</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Sculpt (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Sculpt</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "MakeWoodPlanks_Hand (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>MakeWoodPlanks_Hand</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "MakeWoodPlanks_Electric (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>MakeWoodPlanks_Electric</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>5</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Smelt (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Smelt</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>5</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Cook (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Cook</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_CookBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Cremate (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Cremate</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "BurnDrug (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_recipes.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>BurnDrug</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.3~0.7</scale>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <positionRadius>0.6</positionRadius>\n\n        <moteDef>Mote_CookBit</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ProgressBar (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ProgressBar</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_ProgressBar</subEffecterClass>\n\n        <moteDef>Mote_ProgressBar</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ProgressBarAlwaysVisible (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ProgressBarAlwaysVisible</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_ProgressBar</subEffecterClass>\n\n        <moteDef>Mote_ProgressBarAlwaysVisible</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Research (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Research</defName>\n\n    <children>\n\n    <li>\n\n      <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n      <soundDef>Interact_Research</soundDef>\n\n    </li>\n\n    <li>\n\n      <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n      <burstCount>2~4</burstCount>\n\n      <positionRadius>0.5</positionRadius>\n\n      <scale>1~1</scale>\n\n      <ticksBetweenMotes>500</ticksBetweenMotes>\n\n      <positionLerpFactor>1</positionLerpFactor>\n\n      <fleckDef>AirPuff</fleckDef>\n\n    </li>\n\n    <li>\n\n      <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n      <spawnLocType>OnTarget</spawnLocType>\n\n      <positionRadius>0.5</positionRadius>\n\n      <scale>0.5</scale>\n\n      <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n      <ticksBetweenMotes>40</ticksBetweenMotes>\n\n      <positionLerpFactor>1</positionLerpFactor>\n\n      <fleckDef>ResearchPage</fleckDef>\n\n      <angle>0~360</angle>\n\n      <speed>5</speed>\n\n    </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Repair (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Repair</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Interact_Repair</soundDef>\n\n        <ticksBeforeSustainerStart>35</ticksBeforeSustainerStart>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>SparkFlash</fleckDef>\n\n        <spawnLocType>BetweenTouchingCells</spawnLocType>\n\n        <positionLerpFactor>0.49</positionLerpFactor>\n\n        <chancePerTick>0.2</chancePerTick>\n\n        <scale>2.5~3.5</scale>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <moteDef>Mote_SparkThrown</moteDef>\n\n        <spawnLocType>BetweenTouchingCells</spawnLocType>\n\n        <positionLerpFactor>0.49</positionLerpFactor>\n\n        <chancePerTick>0.2</chancePerTick>\n\n        <scale>0.24~0.34</scale>\n\n        <airTime>0.08~0.16</airTime>\n\n        <rotationRate>-240~240</rotationRate>\n\n        <speed>7.2~24</speed>\n\n        <angle>135~225</angle>\n\n        <positionRadius>0.02</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Mine (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Mine</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>PickHit</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>SparkFlash</fleckDef>\n\n        <spawnLocType>BetweenTouchingCells</spawnLocType>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <chancePerTick>0.2</chancePerTick>\n\n        <scale>2.5~4.5</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Drill (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Drill</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Interact_Drill</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>DustSlow</fleckDef>\n\n        <ticksBetweenMotes>60</ticksBetweenMotes>\n\n        <scale>1.6~2.0</scale>\n\n        <rotationRate>-5~5</rotationRate>\n\n        <angle>30~60</angle>\n\n        <speed>0.4~0.9</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Harvest_Plant (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Harvest_Plant</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>\n\n        <moteDef>Mote_Harvest</moteDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>DirtBits</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <ticksBetweenMotes>14</ticksBetweenMotes>\n\n        <scale>0.5~0.7</scale>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <speed>3~5</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Harvest_Tree (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Harvest_Tree</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>\n\n        <moteDef>Mote_Harvest</moteDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>HarvestWood</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <ticksBetweenMotes>60</ticksBetweenMotes>\n\n        <burstCount>5~7</burstCount>\n\n        <scale>0.5~0.6</scale>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <angle>-25~25</angle>\n\n        <speed>5</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Sow (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Sow</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>\n\n        <moteDef>Mote_Sow</moteDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>DustPuffThick</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <ticksBetweenMotes>17</ticksBetweenMotes>\n\n        <scale>1.0~1.6</scale>\n\n        <angle>0~360</angle>\n\n        <rotationRate>-15~25</rotationRate>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <speed>0.1~0.3</speed>\n\n        <positionRadius>0.5</positionRadius>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>DirtBits</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <ticksBetweenMotes>14</ticksBetweenMotes>\n\n        <scale>0.5~0.7</scale>\n\n        <angle>0~360</angle>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <speed>3~5</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Harvest_MetaOnly (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Harvest_MetaOnly</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>\n\n        <moteDef>Mote_Harvest</moteDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Clean (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Clean</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>\n\n        <moteDef>Mote_Clean</moteDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>DustPuffThick</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <ticksBetweenMotes>17</ticksBetweenMotes>\n\n        <scale>1.0~1.6</scale>\n\n        <angle>0~360</angle>\n\n        <rotationRate>-15~25</rotationRate>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <speed>0.1~0.3</speed>\n\n        <positionRadius>0.5</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Paint (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Paint</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>\n\n        <moteDef>Mote_Paint</moteDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Interact_Paint</soundDef>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ClearSnow (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ClearSnow</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>\n\n        <moteDef>Mote_ClearSnow</moteDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>SnowBits</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <chancePerTick>0.06</chancePerTick>\n\n        <burstCount>5</burstCount>\n\n        <scale>0.5~0.6</scale>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <angle>-25~25</angle>\n\n        <speed>5</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "BuryPawn (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>BuryPawn</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Interact_GraveDig</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <chancePerTick>0.035</chancePerTick>\n\n        <scale>0.9~1.2</scale>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <speed>0.6~1.8</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Hacking (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Hacking</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <moteDef>Mote_Hacking</moteDef>\n\n        <spawnLocType>BetweenTouchingCells</spawnLocType>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <scale>0.3~0.5</scale>\n\n        <color>(0, 255, 0)</color>\n\n        <positionRadius>0.4</positionRadius>\n\n        <ticksBetweenMotes>20</ticksBetweenMotes>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "MakingSkylantern (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>MakingSkylantern</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Interact_MakeSkylantern</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <chancePerTick>0.04</chancePerTick>\n\n        <scale>0.8~1.0</scale>\n\n        <rotationRate>-60~60</rotationRate>\n\n        <speed>0.4~1.5</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>WoodBit</fleckDef>\n\n        <chancePerTick>0.02</chancePerTick>\n\n        <scale>0.85~1.0</scale>\n\n        <rotation>-90~90</rotation>\n\n        <rotationRate>-50~50</rotationRate>\n\n        <positionRadius>0.1</positionRadius>\n\n        <speed>0.1~0.3</speed>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ChristmasTreeTwinkle (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ChristmasTreeTwinkle</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>Twinkle</fleckDef>\n\n        <scale>0.15~0.35</scale>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <positionRadius>3</positionRadius>\n\n        <color>(255,255,102,150)</color>\n\n        <rotation>0</rotation>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>Twinkle</fleckDef>\n\n        <scale>0.15~0.35</scale>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <positionRadius>3</positionRadius>\n\n        <color>(255,88,71,150)</color>\n\n        <rotation>0</rotation>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>Twinkle</fleckDef>\n\n        <scale>0.15~0.35</scale>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <positionRadius>3</positionRadius>\n\n        <color>(88,255,71,150)</color>\n\n        <rotation>0</rotation>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "VanishChristmasTree (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>VanishChristmasTree</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>GrowingFlashSmall</fleckDef>\n\n        <scale>0.5</scale>\n\n        <color>(255,255,108,128)</color>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "BurnbongSmoke (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>BurnbongSmoke</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>FireBurning</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>Ambience_Autobong</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>Smoke</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.1~0.35</speed>\n\n        <scale>0.8~1.2</scale>\n\n        <chancePerTick>0.08</chancePerTick>\n\n        <positionOffset>(0,0,0.5)</positionOffset>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "IncenseShrineSmoke (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>IncenseShrineSmoke</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>FireBurning</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>Smoke</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.1~0.35</speed>\n\n        <scale>0.8~1.2</scale>\n\n        <chancePerTick>0.08</chancePerTick>\n\n        <positionOffset>(0,0,0.1)</positionOffset>\n\n        <positionRadius>0.3</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "FireSmoke (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>FireSmoke</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>FireBurning</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>Smoke</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.1~0.35</speed>\n\n        <scale>0.8~1.4</scale>\n\n        <chancePerTick>0.05</chancePerTick>\n\n        <color>(0.6, 0.6, 0.6, 1)</color>\n\n        <positionRadius>0.3</positionRadius>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <moteDef>Mote_SparkThrown</moteDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <chancePerTick>0.02</chancePerTick>\n\n        <scale>0.2~0.3</scale>\n\n        <airTime>0.02~0.05</airTime>\n\n        <rotationRate>-240~240</rotationRate>\n\n        <speed>4~9</speed>\n\n        <positionRadius>0.3</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "VanishBurnable (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>VanishBurnable</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Smoke</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <burstCount>10</burstCount>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.1~0.3</speed>\n\n        <scale>1~2</scale>\n\n        <angle>0~20</angle>\n\n        <positionRadius>0.5</positionRadius>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Smoke</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <burstCount>10</burstCount>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.1~0.3</speed>\n\n        <scale>1.5~2.1</scale>\n\n        <angle>0~20</angle>\n\n        <positionRadius>0.5</positionRadius>\n\n        <color>(0.99, 0.733, 0.44, 1)</color>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "VanishBurnbong (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>VanishBurnbong</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>Smoke</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <burstCount>30</burstCount>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.1~0.3</speed>\n\n        <scale>1~2</scale>\n\n        <angle>0~20</angle>\n\n        <positionRadius>0.5</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "RoomSmoke (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>RoomSmoke</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>Smoke</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.05~0.1</speed>\n\n        <scale>0.8~2</scale>\n\n        <chancePerTick>0.004</chancePerTick>\n\n        <positionRadius>0.15</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "SleepAcceleratorActive (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>SleepAcceleratorActive</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>SleepAcceleratorActive_Operating</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>SleepAccelerator</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <scale>0.5</scale>\n\n        <positionOffset>(0,0,0.1)</positionOffset>\n\n        <ticksBetweenMotes>143</ticksBetweenMotes>\n\n        <speed>0.2305</speed>\n\n        <angle>0</angle>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "SecurityCrateOpened (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>SecurityCrateOpened</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>AncientSecurityCrate_Alarm</soundDef>\n\n        <ticksBeforeSustainerStart>120</ticksBeforeSustainerStart>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>AncientSecurityCrate_Opened</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.1~0.2</speed>\n\n        <scale>0.8~2</scale>\n\n        <positionRadius>1.5</positionRadius>\n\n        <burstCount>10~20</burstCount>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "BiosculpterPod_Operating (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>BiosculpterPod_Operating</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>\n\n        <soundDef>BiosculpterPod_Operating</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>BiosculpterPod_Start</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>BiosculpterScanner_Forward</fleckDef>\n\n        <spawnLocType>BetweenPositions</spawnLocType>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <rotation>0</rotation>\n\n        <ticksBetweenMotes>180</ticksBetweenMotes>\n\n        <speed>-0.52</speed>\n\n        <angle>0</angle>\n\n        <useTargetBInitialRotation>true</useTargetBInitialRotation>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>BiosculpterScanner_Backward</fleckDef>\n\n        <spawnLocType>BetweenPositions</spawnLocType>\n\n        <positionLerpFactor>1.3</positionLerpFactor>\n\n        <rotation>0</rotation>\n\n        <ticksBetweenMotes>180</ticksBetweenMotes>\n\n        <initialDelayTicks>120</initialDelayTicks>\n\n        <speed>1</speed>\n\n        <angle>0</angle>\n\n        <useTargetBInitialRotation>true</useTargetBInitialRotation>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "BiosculpterPod_Ready (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>BiosculpterPod_Ready</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>BiosculpterScanner_Ready</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotation>0</rotation>\n\n        <color>(0.5,0.5,0.5)</color>\n\n        <ticksBetweenMotes>180</ticksBetweenMotes>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "NeuralSuperchargerCharged (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>NeuralSuperchargerCharged</defName>\n\n    <children>\n\n      \n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>NeuralSuperchargerChargedFloor</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <scale>1.8</scale>\n\n        <useTargetAInitialRotation>true</useTargetAInitialRotation>\n\n        <rotation>0</rotation>\n\n        <ticksBetweenMotes>240</ticksBetweenMotes>\n\n        <angle>0</angle>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "NeuralSuperchargerUse (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>NeuralSuperchargerUse</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>NeuralSupercharger_Injection</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>NeuralSuperchargerUse</fleckDef>\n\n        <spawnLocType>BetweenPositions</spawnLocType>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <rotation>-20~20</rotation>\n\n        <ticksBetweenMotes>30</ticksBetweenMotes>\n\n        <speed>0.8</speed>\n\n        <angle>0</angle>\n\n        <useTargetBInitialRotation>true</useTargetBInitialRotation>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>GlimmerSmall</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <scale>0.14~0.2</scale>\n\n        <speed>0.1~0.2</speed>\n\n        <chancePerTick>0.15</chancePerTick>\n\n        <positionRadius>0.7</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "GibbetCage_PlaceCorpse (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>GibbetCage_PlaceCorpse</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>GibbetCage_CorpsePlaced</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.2</positionRadius>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <burstCount>4~7</burstCount>\n\n        <speed>0.8~1.4</speed>\n\n        <scale>2~2.5</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "GauranlenDebris (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>GauranlenDebris</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>GauranlenDebrisA</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <rotationRate>-30~30</rotationRate>\n\n        <speed>-0.6~-0.8</speed>\n\n        <scale>0.5~0.7</scale>\n\n        <chancePerTick>0.01</chancePerTick>\n\n        <positionOffset>(0,0,0.55)</positionOffset>\n\n        <positionRadius>0.3</positionRadius>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>GauranlenDebrisB</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <rotationRate>-30~30</rotationRate>\n\n        <speed>-0.6~-0.8</speed>\n\n        <scale>0.5~0.7</scale>\n\n        <chancePerTick>0.01</chancePerTick>\n\n        <positionOffset>(0,0,0.55)</positionOffset>\n\n        <positionRadius>0.3</positionRadius>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>GauranlenDebrisC</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <rotationRate>-30~30</rotationRate>\n\n        <speed>-0.6~-0.8</speed>\n\n        <scale>0.5~0.7</scale>\n\n        <chancePerTick>0.01</chancePerTick>\n\n        <positionOffset>(0,0,0.55)</positionOffset>\n\n        <positionRadius>0.3</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "GauranlenLeaves (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>GauranlenLeaves</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>GauranlenLeaf</fleckDef>\n\n        <spawnLocType>RandomCellOnTarget</spawnLocType>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <angle>280~310</angle>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <speed>0.6~0.9</speed>\n\n        <burstCount>1~2</burstCount>\n\n        <chancePerTick>0.02</chancePerTick>\n\n        <scale>0.8~1</scale>\n\n        <positionOffset>(0,0,0.45)</positionOffset>\n\n        <positionRadius>0.4</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "GauranlenLeavesBatch (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>GauranlenLeavesBatch</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>LeavesRustle</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>GauranlenLeaf</fleckDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <rotationRate>-50~50</rotationRate>\n\n        <angle>210~240</angle>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <ticksBetweenMotes>410</ticksBetweenMotes>\n\n        <speed>0.6~0.9</speed>\n\n        <burstCount>1~3</burstCount>\n\n        <scale>0.8~1</scale>\n\n        <positionOffset>(0,0,0.45)</positionOffset>\n\n        <positionRadius>0.5</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "DryadSpawn (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>DryadSpawn</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>LeavesRustle</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <positionRadius>0.2</positionRadius>\n\n        <burstCount>6~8</burstCount>\n\n        <speed>0.8~1.2</speed>\n\n        <scale>1~1.5</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "DryadEmergeFromCocoon (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>DryadEmergeFromCocoon</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>Pawn_EnterDryadPod</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <positionRadius>0.5</positionRadius>\n\n        <burstCount>6</burstCount>\n\n        <rotationRate>-10~10</rotationRate>\n\n        <speed>0.6~1</speed>\n\n        <scale>1.1~2</scale>\n\n        <color>(245, 148, 69, 235)</color>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <positionRadius>0.3</positionRadius>\n\n        <burstCount>6</burstCount>\n\n        <rotationRate>-50~50</rotationRate>\n\n        <speed>0.9~1</speed>\n\n        <scale>1.1~2</scale>\n\n        <color>(237, 217, 100, 235)</color>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_StoneBit</moteDef>\n\n        <positionRadius>0.4</positionRadius>\n\n        <burstCount>10</burstCount>\n\n        <angle>200~340</angle>\n\n        <speed>0.4~0.6</speed>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n        <absoluteAngle>true</absoluteAngle>\n\n        <scale>0.4~0.7</scale>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "SpikecoreSparks (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_ritual.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>SpikecoreSparks</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>SmokeSpikecore</fleckDef>\n\n        <chancePerTick>0.05</chancePerTick>\n\n        <scale>0.9~1.3</scale>\n\n        <rotationRate>-30~30</rotationRate>\n\n        <speed>0.6~1.8</speed>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <fleckDef>ShotFlash</fleckDef>\n\n        <chancePerTick>0.1</chancePerTick>\n\n        <scale>2.5~3.5</scale>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>\n\n        <moteDef>Mote_SparkThrownFastBright</moteDef>\n\n        <chancePerTick>0.7</chancePerTick>\n\n        <scale>0.24~0.34</scale>\n\n        <airTime>0.08~0.16</airTime>\n\n        <rotationRate>-240~240</rotationRate>\n\n        <speed>7.2~12</speed>\n\n        <angle>-30~30</angle>\n\n        <positionRadius>0.01</positionRadius>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Damage_HitFleshGruesome (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_ritual.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Damage_HitFleshGruesome</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.4</positionRadius>\n\n        <fleckDef>AirPuff</fleckDef>\n\n        <burstCount>4~5</burstCount>\n\n        <speed>0.4~0.8</speed>\n\n        <scale>1.5~1.3</scale>\n\n        <color>(120, 18, 0)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.1</positionRadius>\n\n        <fleckDef>BloodSplashLong</fleckDef>\n\n        <burstCount>2~3</burstCount>\n\n        <scale>1.1~1.5</scale>\n\n        <color>(210, 50, 0)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>0.0</positionRadius>\n\n        <fleckDef>BodyImpact</fleckDef>\n\n        <burstCount>1</burstCount>\n\n        <scale>0.4</scale>\n\n        <color>(255, 120, 30, 60)</color>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>2.5</positionRadius>\n\n        <fleckDef>BloodFilth</fleckDef>\n\n        <burstCount>12</burstCount>\n\n        <angle>-30~30</angle>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n    <offsetTowardsTarget>0.25~0.25</offsetTowardsTarget>\n\n    <positionRadius>0.1</positionRadius>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "HairCutting (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/effects/effecter_work_general.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>HairCutting</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <fleckDef>HairCutting</fleckDef>\n\n        <spawnLocType>BetweenTouchingCells</spawnLocType>\n\n        <positionLerpFactor>0.6</positionLerpFactor>\n\n        <scale>0.3~0.5</scale>\n\n        <color>(255, 255, 255)</color>\n\n        <positionRadius>0.4</positionRadius>\n\n        <ticksBetweenMotes>40</ticksBetweenMotes>\n\n        <speed>1.6</speed>\n\n        <airTime>0.75</airTime>\n\n        <angle>170~190</angle>\n\n        <fleckUsesAngleForVelocity>true</fleckUsesAngleForVelocity>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "ActivatorProximityTriggered (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>ActivatorProximityTriggered</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>ActivatorProximityTriggered</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <moteDef>Mote_ProximityScannerActivated</moteDef>\n\n        <burstCount>1~1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>SparkFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>2.3~2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "MechDropBeaconActivated (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>MechDropBeaconActivated</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>ActivatorProximityTriggered</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>MechDropBeaconActivated</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>SparkFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>1.3~2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Interceptor_BlockedProjectilePsychic (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Interceptor_BlockedProjectilePsychic</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>Interceptor_BlockProjectile</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>PsycastSkipEffect</fleckDef>\n\n        <positionRadius>0.1</positionRadius>\n\n        <burstCount>1</burstCount>\n\n        <scale>0.5~0.75</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <fleckDef>ExplosionFlash</fleckDef>\n\n        <burstCount>1~1</burstCount>\n\n        <scale>3.0~3.0</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "JumpFlightEffect (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>JumpFlightEffect</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <soundDef>JumpPackLaunch</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <fleckDef>ShotFlash</fleckDef>\n\n        <scale>6</scale>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.5~0.6</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionOffset>(0,0,-0.5)</positionOffset>\n\n        <fleckDef>JumpFlame</fleckDef>\n\n        <ticksBetweenMotes>1</ticksBetweenMotes>\n\n        <maxMoteCount>14</maxMoteCount>\n\n        <speed>4~5</speed>\n\n        <angle>170~190</angle>\n\n        <absoluteAngle>true</absoluteAngle>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.9~0.7</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionOffset>(0,0,-0.5)</positionOffset>\n\n        <fleckDef>JumpFlameGlow</fleckDef>\n\n        <ticksBetweenMotes>1</ticksBetweenMotes>\n\n        <maxMoteCount>14</maxMoteCount>\n\n        <speed>4~5</speed>\n\n        <angle>160~200</angle>\n\n        <absoluteAngle>true</absoluteAngle>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>\n\n        <scale>0.8~1.2</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <positionOffset>(0,0,-0.5)</positionOffset>\n\n        <fleckDef>JumpSmoke</fleckDef>\n\n        <ticksBetweenMotes>2</ticksBetweenMotes>\n\n        <maxMoteCount>8</maxMoteCount>\n\n        <speed>5~6</speed>\n\n        <angle>170~190</angle>\n\n        <absoluteAngle>true</absoluteAngle>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "JumpWarmupEffect (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>JumpWarmupEffect</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <soundDef>JumpPackPreLaunch</soundDef>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggeredDelayed</subEffecterClass>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n        <fleckDef>JumpWarmupSmoke</fleckDef>\n\n        <initialDelayTicks>1</initialDelayTicks>\n\n        <speed>0.6~0.8</speed>\n\n        <angle>170~190</angle>\n\n        <absoluteAngle>true</absoluteAngle>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        },
+        {
+            "Title": "Broadshield_Burnout (EffecterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/effects/effecter_misc.xml`",
+            "XML": "<EffecterDef>\n\n    <defName>Broadshield_Burnout</defName>\n\n    <children>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>\n\n        <soundDef>Power_OffSmall</soundDef>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n      <li>\n\n        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>\n\n        <positionRadius>1.3</positionRadius>\n\n        <fleckDef>ElectricalSpark</fleckDef>\n\n        <burstCount>7~9</burstCount>\n\n        <scale>2.5</scale>\n\n        <spawnLocType>OnSource</spawnLocType>\n\n      </li>\n\n    </children>\n\n  </EffecterDef>"
+        }
+    ]
+}

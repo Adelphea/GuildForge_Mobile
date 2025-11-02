@@ -16,11 +16,8 @@ Ce dossier est composé de plusieurs documents essentiels qui établissent les f
 *   **[Glossaire du Projet GuildForge Mobile](./glossaire.md)**
     *   Ce document fournit des définitions claires et concises des termes clés utilisés dans le projet, assurant une compréhension commune et une terminologie standardisée pour tous les membres de l'équipe.
 
-*   **[Gestion des Données et Stratégie de Migration pour GuildForge Mobile](./gestion_donnees_godot.md)**
-    *   Ce document détaille la standardisation des données avec les Resources de Godot et la stratégie de migration depuis les définitions XML héritées. Il est crucial pour la cohérence et l'efficacité de la gestion des données du jeu.
-
-*   **[Conception Axée Données](./conception_axee_donnees.md)**
-    *   Ce document présente les principes et méthodologies pour une conception du jeu centrée sur les données, favorisant la flexibilité, la modularité et la facilité d'itération dans le développement.
+*   **[Conventions de Nommage](./conventions_nommage.md)**
+    *   Ce document établit les règles de nommage pour le code (GDScript), les ressources (Assets) et la documentation, assurant la cohérence et la lisibilité du projet.
 
 ## Références Générales
 
