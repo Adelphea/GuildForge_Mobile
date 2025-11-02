@@ -1,0 +1,68 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "ComplexCorridor (LayoutRoomDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/layout_room_defs/layout_rooms_ancient_ruins.xml`",
+            "XML": "<LayoutRoomDef>\n\n    <defName>ComplexCorridor</defName>\n\n    <roomContentsWorkerType>RoomContents_ComplexCorridor</roomContentsWorkerType>\n\n  </LayoutRoomDef>"
+        },
+        {
+            "Title": "AncientBarracks (LayoutRoomDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/layout_room_defs/layout_rooms_ancient_complex.xml`",
+            "XML": "<LayoutRoomDef>\n\n    <defName>AncientBarracks</defName>\n\n    <sketchResolverDef>AncientBarracks</sketchResolverDef>\n\n    <floorTypes Inherit=\"false\">\n\n      <li>AncientWoodPlankFloor</li>\n\n      <li>CarpetGreyDark</li>\n\n      <li>CarpetSandstone</li>\n\n      <li>CarpetGreenMuddy</li>\n\n    </floorTypes>\n\n    <edgeTerrain>AncientTile</edgeTerrain>\n\n  </LayoutRoomDef>"
+        },
+        {
+            "Title": "AncientStorageRoom (LayoutRoomDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/layout_room_defs/layout_rooms_ancient_complex.xml`",
+            "XML": "<LayoutRoomDef>\n\n    <defName>AncientStorageRoom</defName>\n\n    <sketchResolverDef>AncientStorageRoom</sketchResolverDef>\n\n    <floorTypes Inherit=\"false\">\n\n      <li>AncientTile</li>\n\n      <li>CarpetGreyDark</li>\n\n      <li>CarpetSandstone</li>\n\n      <li>CarpetGreenMuddy</li>\n\n    </floorTypes>\n\n  </LayoutRoomDef>"
+        },
+        {
+            "Title": "AncientEquipmentRoom (LayoutRoomDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/layout_room_defs/layout_rooms_ancient_complex.xml`",
+            "XML": "<LayoutRoomDef>\n\n    <defName>AncientEquipmentRoom</defName>\n\n    <canMergeWithAdjacentRoom>true</canMergeWithAdjacentRoom>\n\n    <prefabs>\n\n      <AncientStorageCylinder_Edge>\n\n        <countPerTenEdgeCells>3</countPerTenEdgeCells>\n\n        <minMaxRange>5~10</minMaxRange>\n\n      </AncientStorageCylinder_Edge>\n\n      <AncientMachine_Rows>\n\n        <countPerHundredCells>5</countPerHundredCells>\n\n        <minMaxRange>2~3</minMaxRange>\n\n      </AncientMachine_Rows>\n\n      <AncientSystemRacks_Rows>\n\n        <countPerHundredCells>5</countPerHundredCells>\n\n        <minMaxRange>1~10</minMaxRange>\n\n      </AncientSystemRacks_Rows>\n\n    </prefabs>\n\n    <floorTypes>\n\n      <li>AncientTile</li>\n\n    </floorTypes>\n\n  </LayoutRoomDef>"
+        },
+        {
+            "Title": "AncientPowerRoom (LayoutRoomDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/layout_room_defs/layout_rooms_ancient_complex.xml`",
+            "XML": "<LayoutRoomDef>\n\n    <defName>AncientPowerRoom</defName>\n\n    <canMergeWithAdjacentRoom>true</canMergeWithAdjacentRoom>\n\n    <minSingleRectWidth>10</minSingleRectWidth>\n\n    <minSingleRectHeight>10</minSingleRectHeight>\n\n    <prefabs>\n\n      <AncientGenerator_SmallCluster>\n\n        <countPerHundredCells>2</countPerHundredCells>\n\n        <minMaxRange>1~2</minMaxRange>\n\n      </AncientGenerator_SmallCluster>\n\n      <AncientBarrel_Cluster>\n\n        <countPerHundredCells>5</countPerHundredCells>\n\n        <minMaxRange>1~5</minMaxRange>\n\n      </AncientBarrel_Cluster>\n\n    </prefabs>\n\n    <floorTypes>\n\n      <li>AncientConcrete</li>\n\n    </floorTypes>\n\n  </LayoutRoomDef>"
+        },
+        {
+            "Title": "AncientLab (LayoutRoomDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/layout_room_defs/layout_rooms_ancient_complex.xml`",
+            "XML": "<LayoutRoomDef>\n\n    <defName>AncientLab</defName>\n\n    <minSingleRectWidth>9</minSingleRectWidth>\n\n    <minSingleRectHeight>9</minSingleRectHeight>\n\n    <prefabs>\n\n      <AncientDisplayBank_Edge>\n\n        <countPerTenEdgeCells>3</countPerTenEdgeCells>\n\n        <minMaxRange>2~6</minMaxRange>\n\n      </AncientDisplayBank_Edge>\n\n      <OperatingTables>\n\n        <countPerHundredCells>10</countPerHundredCells>\n\n        <minMaxRange>0~1</minMaxRange>\n\n      </OperatingTables>\n\n    </prefabs>\n\n    <floorTypes>\n\n      <li>SterileTile</li>\n\n    </floorTypes>\n\n  </LayoutRoomDef>"
+        },
+        {
+            "Title": "AncientArmory (LayoutRoomDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/layout_room_defs/layout_rooms_ancient_complex.xml`",
+            "XML": "<LayoutRoomDef>\n\n    <defName>AncientArmory</defName>\n\n    <canMergeWithAdjacentRoom>true</canMergeWithAdjacentRoom>\n\n    <prefabs>\n\n      <AncientLockerBank_Row>\n\n        <countPerTenEdgeCells>3</countPerTenEdgeCells>\n\n        <minMaxRange>5~15</minMaxRange>\n\n      </AncientLockerBank_Row>\n\n      <Shelves_Rows>\n\n        <countPerHundredCells>2</countPerHundredCells>\n\n        <minMaxRange>0~1</minMaxRange>\n\n      </Shelves_Rows>\n\n      <AncientEquipmentBlocks_Rows>\n\n        <countPerHundredCells>2</countPerHundredCells>\n\n        <minMaxRange>1~2</minMaxRange>\n\n      </AncientEquipmentBlocks_Rows>\n\n      <AncientBarrel_Cluster>\n\n        <countPerHundredCells>2</countPerHundredCells>\n\n        <minMaxRange>1~5</minMaxRange>\n\n      </AncientBarrel_Cluster>\n\n    </prefabs>\n\n    <floorTypes>\n\n      <li>AncientTile</li>\n\n    </floorTypes>\n\n  </LayoutRoomDef>"
+        }
+    ]
+}

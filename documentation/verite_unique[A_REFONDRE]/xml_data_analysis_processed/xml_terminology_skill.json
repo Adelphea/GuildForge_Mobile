@@ -1,0 +1,113 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Shooting (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Ranged combat, with both high-tech and low-tech weapons.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Shooting</defName>\n\n    <description>Ranged combat, with both high-tech and low-tech weapons.</description>\n\n    <skillLabel>shooting</skillLabel>\n\n    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>\n\n    <disablingWorkTags>Violent</disablingWorkTags>\n\n    <neverDisabledBasedOnWorkTypes>true</neverDisabledBasedOnWorkTypes>\n\n    <listOrder>120</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonShooting</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;guns</li>\n\n        <li>subject-&gt;weapons</li>\n\n        <li>subject-&gt;aiming</li>\n\n        <li>subject-&gt;shooting</li>\n\n        <li>subject-&gt;gunplay</li>\n\n        <li>subject-&gt;marksmanship</li>\n\n        <li>subject-&gt;firearms</li>\n\n        <li>subject-&gt;sniping</li>\n\n        <li>subject-&gt;ballistics</li>\n\n        <li>subject-&gt;long-range combat</li>\n\n        <li>subject-&gt;precision shooting</li>\n\n        <li>subject-&gt;rifle mastery</li>\n\n        <li>subject-&gt;target practice</li>\n\n        <li>subject-&gt;sharpshooting</li>\n\n        <li>subject-&gt;ranged tactics</li>\n\n        <li>subject-&gt;shot placement</li>\n\n        <li>subject-&gt;gun handling</li>\n\n        <li>subject-&gt;distance shooting</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Melee (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Melee combat, both armed and unarmed.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Melee</defName>\n\n    <description>Melee combat, both armed and unarmed.</description>\n\n    <skillLabel>melee</skillLabel>\n\n    <disablingWorkTags>Violent</disablingWorkTags>\n\n    <neverDisabledBasedOnWorkTypes>true</neverDisabledBasedOnWorkTypes>\n\n    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>\n\n    <listOrder>110</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonMelee</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;fighting</li>\n\n        <li>subject-&gt;melee</li>\n\n        <li>subject-&gt;combat</li>\n\n        <li>subject-&gt;martial arts</li>\n\n        <li>subject-&gt;swordplay</li>\n\n        <li>subject-&gt;weaponry</li>\n\n        <li>subject-&gt;brawling</li>\n\n        <li>subject-&gt;pugilism</li>\n\n        <li>subject-&gt;fencing</li>\n\n        <li>subject-&gt;knighthood</li>\n\n        <li>subject-&gt;dueling</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Construction (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Constructing and deconstructing structures and furniture.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Construction</defName>\n\n    <description>Constructing and deconstructing structures and furniture.</description>\n\n    <skillLabel>construction</skillLabel>\n\n    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>\n\n    <listOrder>100</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonConstruction</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;construction</li>\n\n        <li>subject-&gt;building</li>\n\n        <li>subject-&gt;architecture</li>\n\n        <li>subject-&gt;engineering</li>\n\n        <li>subject-&gt;design</li>\n\n        <li>subject-&gt;renovation</li>\n\n        <li>subject-&gt;structures</li>\n\n        <li>subject-&gt;foundation</li>\n\n        <li>subject-&gt;carpentry</li>\n\n        <li>subject-&gt;infrastructure</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Mining (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Digging tunnels and extracting buried resources.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Mining</defName>\n\n    <description>Digging tunnels and extracting buried resources.</description>\n\n    <skillLabel>mining</skillLabel>\n\n    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>\n\n    <listOrder>90</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonMining</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;mining</li>\n\n        <li>subject-&gt;digging</li>\n\n        <li>subject-&gt;quarrying</li>\n\n        <li>subject-&gt;strip-mining</li>\n\n        <li>subject-&gt;excavation</li>\n\n        <li>subject-&gt;prospecting</li>\n\n        <li>subject-&gt;ore</li>\n\n        <li>subject-&gt;tunneling</li>\n\n        <li>subject-&gt;drilling</li>\n\n        <li>subject-&gt;minerals</li>\n\n        <li>subject-&gt;gemology</li>\n\n        <li>subject-&gt;geology</li>\n\n        <li>subject-&gt;earthmoving</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Cooking (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Creating meals from raw ingredients quickly and without accidental food poisoning.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Cooking</defName>\n\n    <description>Creating meals from raw ingredients quickly and without accidental food poisoning.</description>\n\n    <skillLabel>cooking</skillLabel>\n\n    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>\n\n    <listOrder>80</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonCooking</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;cooking</li>\n\n        <li>subject-&gt;food</li>\n\n        <li>subject-&gt;baking</li>\n\n        <li>subject-&gt;cuisine</li>\n\n        <li>subject-&gt;recipes</li>\n\n        <li>subject-&gt;gastronomy</li>\n\n        <li>subject-&gt;flavors</li>\n\n        <li>subject-&gt;ingredients</li>\n\n        <li>subject-&gt;spices</li>\n\n        <li>subject-&gt;nutrition</li>\n\n        <li>subject-&gt;taste</li>\n\n        <li>subject-&gt;sauces</li>\n\n        <li>subject-&gt;meals</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Plants (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Sowing, caring for and harvesting crops, and foraging for food while traveling.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Plants</defName>\n\n    <description>Sowing, caring for and harvesting crops, and foraging for food while traveling.</description>\n\n    <skillLabel>plants</skillLabel>\n\n    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>\n\n    <listOrder>70</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonPlants</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;plants</li>\n\n        <li>subject-&gt;herbs</li>\n\n        <li>subject-&gt;vegetables</li>\n\n        <li>subject-&gt;flora</li>\n\n        <li>subject-&gt;cultivation</li>\n\n        <li>subject-&gt;horticulture</li>\n\n        <li>subject-&gt;agriculture</li>\n\n        <li>subject-&gt;gardening</li>\n\n        <li>subject-&gt;farming</li>\n\n        <li>subject-&gt;harvesting</li>\n\n        <li>subject-&gt;permaculture</li>\n\n        <li>subject-&gt;botany</li>\n\n        <li>subject-&gt;crop management</li>\n\n        <li>subject-&gt;soil enrichment</li>\n\n        <li>subject-&gt;organic farming</li>\n\n        <li>subject-&gt;food production</li>\n\n        <li>subject-&gt;crop science</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Animals (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Taming, training, and controlling animals.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Animals</defName>\n\n    <description>Taming, training, and controlling animals.</description>\n\n    <skillLabel>animals</skillLabel>\n\n    <usuallyDefinedInBackstories>false</usuallyDefinedInBackstories>\n\n    <listOrder>60</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonAnimals</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;animals</li>\n\n        <li>subject-&gt;herding</li>\n\n        <li>subject-&gt;taming</li>\n\n        <li>subject-&gt;livestock</li>\n\n        <li>subject-&gt;breeding</li>\n\n        <li>subject-&gt;zoology</li>\n\n        <li>subject-&gt;husbandry</li>\n\n        <li>subject-&gt;herding</li>\n\n        <li>subject-&gt;domestication</li>\n\n        <li>subject-&gt;fauna</li>\n\n        <li>subject-&gt;wildlife</li>\n\n        <li>subject-&gt;poultry</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Crafting (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Crafting general items including weapons, components, and refined resources.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Crafting</defName>\n\n    <description>Crafting general items including weapons, components, and refined resources.</description>\n\n    <skillLabel>crafting</skillLabel>\n\n    <listOrder>50</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonCrafting</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;crafting</li>\n\n        <li>subject-&gt;assembly</li>\n\n        <li>subject-&gt;manufacturing</li>\n\n        <li>subject-&gt;handcrafting</li>\n\n        <li>subject-&gt;fabrication</li>\n\n        <li>subject-&gt;production</li>\n\n        <li>subject-&gt;craftsmanship</li>\n\n        <li>subject-&gt;machining</li>\n\n        <li>subject-&gt;artisanry</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Artistic (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Crafting art.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Artistic</defName>\n\n    <description>Crafting art.</description>\n\n    <skillLabel>artistic</skillLabel>\n\n    <listOrder>40</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonArtistic</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;art</li>\n\n        <li>subject-&gt;pottery</li>\n\n        <li>subject-&gt;sculpting</li>\n\n        <li>subject-&gt;painting</li>\n\n        <li>subject-&gt;creativity</li>\n\n        <li>subject-&gt;expression</li>\n\n        <li>subject-&gt;aesthetics</li>\n\n        <li>subject-&gt;design</li>\n\n        <li>subject-&gt;sculpture</li>\n\n        <li>subject-&gt;impressionism</li>\n\n        <li>subject-&gt;artistry</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Medicine (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Tending wounds and diseases and performing surgery.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Medicine</defName>\n\n    <description>Tending wounds and diseases and performing surgery.</description>\n\n    <skillLabel>medical</skillLabel>\n\n    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>\n\n    <listOrder>30</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonMedicine</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;medicine</li>\n\n        <li>subject-&gt;surgery</li>\n\n        <li>subject-&gt;bacteria</li>\n\n        <li>subject-&gt;skin repair</li>\n\n        <li>subject-&gt;healthcare</li>\n\n        <li>subject-&gt;medical science</li>\n\n        <li>subject-&gt;physiology</li>\n\n        <li>subject-&gt;pharmacology</li>\n\n        <li>subject-&gt;treatment</li>\n\n        <li>subject-&gt;diagnosis</li>\n\n        <li>subject-&gt;surgery</li>\n\n        <li>subject-&gt;anatomy</li>\n\n        <li>subject-&gt;bacteria</li>\n\n        <li>subject-&gt;pathology</li>\n\n        <li>subject-&gt;disease management</li>\n\n        <li>subject-&gt;patient care</li>\n\n        <li>subject-&gt;emergency medicine</li>\n\n        <li>subject-&gt;nursing</li>\n\n        <li>subject-&gt;medical research</li>\n\n        <li>subject-&gt;public health</li>\n\n        <li>subject-&gt;virology</li>\n\n        <li>subject-&gt;health sciences</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Social (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Negotiating, convincing, manipulating, leading, and cheering up others.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Social</defName>\n\n    <description>Negotiating, convincing, manipulating, leading, and cheering up others.</description>\n\n    <skillLabel>social</skillLabel>\n\n    <listOrder>20</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonSocial</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;communication</li>\n\n        <li>subject-&gt;networking</li>\n\n        <li>subject-&gt;conflict resolution</li>\n\n        <li>subject-&gt;collaboration</li>\n\n        <li>subject-&gt;leadership</li>\n\n        <li>subject-&gt;empathy</li>\n\n        <li>subject-&gt;negotiation</li>\n\n        <li>subject-&gt;trade</li>\n\n        <li>subject-&gt;listening</li>\n\n        <li>subject-&gt;diplomacy</li>\n\n        <li>subject-&gt;teamwork</li>\n\n        <li>subject-&gt;etiquette</li>\n\n        <li>subject-&gt;charisma</li>\n\n        <li>subject-&gt;social intelligence</li>\n\n        <li>subject-&gt;assertiveness</li>\n\n        <li>subject-&gt;emotional intelligence</li>\n\n        <li>subject-&gt;communication skills</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        },
+        {
+            "Title": "Intellectual (SkillDef)",
+            "Label": "N/A",
+            "Description Originale": "Researching and drug synthesis.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/skill_defs/skills.xml`",
+            "XML": "<SkillDef>\n\n    <defName>Intellectual</defName>\n\n    <description>Researching and drug synthesis.</description>\n\n    <skillLabel>intellectual</skillLabel>\n\n    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>\n\n    <listOrder>10</listOrder>\n\n    <lessonInteraction MayRequire=\"Ludeon.RimWorld.Biotech\">LessonIntellectual</lessonInteraction>\n\n    <generalRules>\n\n      <rulesStrings>\n\n        <li>subject-&gt;physics</li>\n\n        <li>subject-&gt;chemistry</li>\n\n        <li>subject-&gt;orbital dynamics</li>\n\n        <li>subject-&gt;mathematics</li>\n\n        <li>subject-&gt;biology</li>\n\n        <li>subject-&gt;science</li>\n\n        <li>subject-&gt;research</li>\n\n        <li>subject-&gt;innovation</li>\n\n        <li>subject-&gt;discovery</li>\n\n        <li>subject-&gt;analysis</li>\n\n        <li>subject-&gt;experimentation</li>\n\n        <li>subject-&gt;knowledge</li>\n\n        <li>subject-&gt;exploration</li>\n\n        <li>subject-&gt;physics</li>\n\n        <li>subject-&gt;chemistry</li>\n\n        <li>subject-&gt;data analysis</li>\n\n        <li>subject-&gt;scientific inquiry</li>\n\n        <li>subject-&gt;intellectual growth</li>\n\n        <li>subject-&gt;academic pursuits</li>\n\n        <li>subject-&gt;quantitative analysis</li>\n\n        <li>subject-&gt;experiment design</li>\n\n        <li>subject-&gt;research methods</li>\n\n        <li>subject-&gt;intellectual inquiry</li>\n\n      </rulesStrings>\n\n    </generalRules>\n\n  </SkillDef>"
+        }
+    ]
+}

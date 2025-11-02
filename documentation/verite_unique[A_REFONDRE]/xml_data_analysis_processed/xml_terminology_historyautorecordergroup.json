@@ -1,0 +1,41 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Wealth (HistoryAutoRecorderGroupDef)",
+            "Label": "wealth",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/history_auto_recording/history_auto_recorder_groups.xml`",
+            "XML": "<HistoryAutoRecorderGroupDef>\n\n    <defName>Wealth</defName>\n\n    <label>wealth</label>\n\n    <historyAutoRecorderDefs>\n\n      <li>Wealth_Total</li>\n\n      <li>Wealth_Items</li>\n\n      <li>Wealth_Buildings</li>\n\n      <li>Wealth_Pawns</li>\n\n    </historyAutoRecorderDefs>\n\n  </HistoryAutoRecorderGroupDef>"
+        },
+        {
+            "Title": "Population (HistoryAutoRecorderGroupDef)",
+            "Label": "population",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/history_auto_recording/history_auto_recorder_groups.xml`",
+            "XML": "<HistoryAutoRecorderGroupDef>\n\n    <defName>Population</defName>\n\n    <label>population</label>\n\n    <integersOnly>true</integersOnly>\n\n    <historyAutoRecorderDefs>\n\n      <li>FreeColonists</li>\n\n      <li>Prisoners</li>\n\n    </historyAutoRecorderDefs>\n\n  </HistoryAutoRecorderGroupDef>"
+        },
+        {
+            "Title": "ColonistMood (HistoryAutoRecorderGroupDef)",
+            "Label": "colonist mood",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/history_auto_recording/history_auto_recorder_groups.xml`",
+            "XML": "<HistoryAutoRecorderGroupDef>\n\n    <defName>ColonistMood</defName>\n\n    <label>colonist mood</label>\n\n    <useFixedScale>true</useFixedScale>\n\n    <fixedScale>(0, 100)</fixedScale>\n\n    <historyAutoRecorderDefs>\n\n      <li>ColonistMood</li>\n\n    </historyAutoRecorderDefs>\n\n  </HistoryAutoRecorderGroupDef>"
+        },
+        {
+            "Title": "Debug (HistoryAutoRecorderGroupDef)",
+            "Label": "debug",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/history_auto_recording/history_auto_recorder_groups.xml`",
+            "XML": "<HistoryAutoRecorderGroupDef>\n\n    <defName>Debug</defName>\n\n    <label>debug</label>\n\n    <historyAutoRecorderDefs>\n\n      <li>Adaptation</li>\n\n      <li>ThreatPoints</li>\n\n      <li>PopAdaptation</li>\n\n      <li>PopIntent</li>\n\n    </historyAutoRecorderDefs>\n\n    <onlyPositiveValues>false</onlyPositiveValues>\n\n    <devModeOnly>true</devModeOnly>\n\n  </HistoryAutoRecorderGroupDef>"
+        }
+    ]
+}

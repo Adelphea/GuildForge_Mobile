@@ -1,0 +1,122 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_Chemical_BattleElixir (ChemicalDef)",
+            "Label": "battle elixir",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/drugs/drug__battle_elixir.xml`",
+            "XML": "<ChemicalDef>\n\n\t\t<defName>DankPyon_Chemical_BattleElixir</defName>\n\n\t\t<label>battle elixir</label>\n\n\t\t<addictionHediff>DankPyon_Addiction_BattleElixir</addictionHediff>\n\n\t\t<geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>\n\n\t\t<geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>\n\n\t</ChemicalDef>"
+        },
+        {
+            "Title": "DankPyon_Chemical_HappyPowder (ChemicalDef)",
+            "Label": "happy powder",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/drugs/drug__happy_powder.xml`",
+            "XML": "<ChemicalDef>\n\n\t\t<defName>DankPyon_Chemical_HappyPowder</defName>\n\n\t\t<label>happy powder</label>\n\n\t\t<addictionHediff>DankPyon_Addiction_HappyPowder</addictionHediff>\n\n\t\t<toleranceHediff>DankPyon_Tolerance_HappyPowder</toleranceHediff>\n\n\t\t<onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>\n\n\t\t<onGeneratedAddictedEvents>\n\n\t\t<li>\n\n\t\t\t<hediff>ChemicalDamageSevere</hediff>\n\n\t\t\t<chance>0.15</chance>\n\n\t\t\t<partsToAffect>\n\n\t\t\t<li>Kidney</li>\n\n\t\t\t</partsToAffect>\n\n\t\t</li>\n\n\t\t</onGeneratedAddictedEvents>\n\n\t\t<geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>\n\n\t\t<geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>\n\n\t\t<geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>\n\n\t\t<geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>\n\n\t</ChemicalDef>"
+        },
+        {
+            "Title": "DankPyon_HornetHoney (ChemicalDef)",
+            "Label": "hornet honey",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/drugs/drug__hornet_honey.xml`",
+            "XML": "<ChemicalDef>\n\n\t\t<defName>DankPyon_HornetHoney</defName>\n\n\t\t<label>hornet honey</label>\n\n\t\t<addictionHediff>DankPyon_HornetHoneyAddiction</addictionHediff>\n\n\t\t<geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>\n\n\t\t<geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>\n\n\t</ChemicalDef>"
+        },
+        {
+            "Title": "DankPyon_Chemical_Luhix (ChemicalDef)",
+            "Label": "luhix",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/drugs/drug__luhix.xml`",
+            "XML": "<ChemicalDef>\n\n\t\t<defName>DankPyon_Chemical_Luhix</defName>\n\n\t\t<label>luhix</label>\n\n\t\t<addictionHediff>DankPyon_Addiction_Luhix</addictionHediff>\n\n\t\t<geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>\n\n\t\t<geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>\n\n\t</ChemicalDef>"
+        },
+        {
+            "Title": "DankPyon_Chemical_Stardust (ChemicalDef)",
+            "Label": "stardust",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/drugs/drug__stardust.xml`",
+            "XML": "<ChemicalDef>\n\n\t\t<defName>DankPyon_Chemical_Stardust</defName>\n\n\t\t<label>stardust</label>\n\n\t\t<addictionHediff>DankPyon_Addiction_Stardust</addictionHediff>\n\n\t\t<geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>\n\n\t\t<geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>\n\n\t</ChemicalDef>"
+        },
+        {
+            "Title": "DankPyon_Chemical_VigorPill (ChemicalDef)",
+            "Label": "vigor pill",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/drugs/drug__vigor_pill.xml`",
+            "XML": "<ChemicalDef>\n\n    <defName>DankPyon_Chemical_VigorPill</defName>\n\n    <label>vigor pill</label>\n\n    <addictionHediff>DankPyon_Addiction_VigorPill</addictionHediff>\n\n    <geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>\n\n    <geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>\n\n  </ChemicalDef>"
+        },
+        {
+            "Title": "Alcohol (ChemicalDef)",
+            "Label": "alcohol",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/drugs/alcohol_beer.xml`",
+            "XML": "<ChemicalDef>\n\n    <defName>Alcohol</defName>\n\n    <label>alcohol</label>\n\n    <addictionHediff>AlcoholAddiction</addictionHediff>\n\n    <toleranceHediff>AlcoholTolerance</toleranceHediff>\n\n    <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>\n\n    <onGeneratedAddictedEvents>\n\n      <li>\n\n        <hediff>Cirrhosis</hediff>\n\n        <chance>0.15</chance>\n\n        <partsToAffect>\n\n          <li>Liver</li>\n\n        </partsToAffect>\n\n      </li>\n\n    </onGeneratedAddictedEvents>\n\n    <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>\n\n    <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>\n\n  </ChemicalDef>"
+        },
+        {
+            "Title": "Ambrosia (ChemicalDef)",
+            "Label": "ambrosia",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/drugs/ambrosia.xml`",
+            "XML": "<ChemicalDef>\n\n    <defName>Ambrosia</defName>\n\n    <label>ambrosia</label>\n\n    <addictionHediff>AmbrosiaAddiction</addictionHediff>\n\n    <toleranceHediff>AmbrosiaTolerance</toleranceHediff>\n\n    <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>\n\n    <generateAddictionGenes>false</generateAddictionGenes>\n\n  </ChemicalDef>"
+        },
+        {
+            "Title": "GoJuice (ChemicalDef)",
+            "Label": "go-juice",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/drugs/go_juice.xml`",
+            "XML": "<ChemicalDef>\n\n    <defName>GoJuice</defName>\n\n    <label>go-juice</label>\n\n    <addictionHediff>GoJuiceAddiction</addictionHediff>\n\n    <geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>\n\n    <geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>\n\n  </ChemicalDef>"
+        },
+        {
+            "Title": "Luciferium (ChemicalDef)",
+            "Label": "luciferium",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/drugs/luciferium.xml`",
+            "XML": "<ChemicalDef>\n\n    <defName>Luciferium</defName>\n\n    <label>luciferium</label>\n\n    <addictionHediff>LuciferiumAddiction</addictionHediff>\n\n    <canBinge>false</canBinge>\n\n    <generateAddictionGenes>false</generateAddictionGenes>\n\n  </ChemicalDef>"
+        },
+        {
+            "Title": "Psychite (ChemicalDef)",
+            "Label": "psychite",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/drugs/psychite_yayo.xml`",
+            "XML": "<ChemicalDef>\n\n    <defName>Psychite</defName>\n\n    <label>psychite</label>\n\n    <addictionHediff>PsychiteAddiction</addictionHediff>\n\n    <toleranceHediff>PsychiteTolerance</toleranceHediff>\n\n    <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>\n\n    <onGeneratedAddictedEvents>\n\n      <li>\n\n        <hediff>ChemicalDamageSevere</hediff>\n\n        <chance>0.15</chance>\n\n        <partsToAffect>\n\n          <li>Kidney</li>\n\n        </partsToAffect>\n\n      </li>\n\n    </onGeneratedAddictedEvents>\n\n    <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>\n\n    <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>\n\n    <geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>\n\n    <geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>\n\n  </ChemicalDef>"
+        },
+        {
+            "Title": "Smokeleaf (ChemicalDef)",
+            "Label": "Smokeleaf",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/drugs/smokeleaf.xml`",
+            "XML": "<ChemicalDef>\n\n    <defName>Smokeleaf</defName>\n\n    <label>Smokeleaf</label>\n\n    <addictionHediff>SmokeleafAddiction</addictionHediff>\n\n    <toleranceHediff>SmokeleafTolerance</toleranceHediff>\n\n    <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>\n\n    <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>\n\n    <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>\n\n  </ChemicalDef>"
+        },
+        {
+            "Title": "WakeUp (ChemicalDef)",
+            "Label": "wake-up",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/drugs/wake_up.xml`",
+            "XML": "<ChemicalDef>\n\n    <defName>WakeUp</defName>\n\n    <label>wake-up</label>\n\n    <addictionHediff>WakeUpAddiction</addictionHediff>\n\n    <geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>\n\n    <geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>\n\n  </ChemicalDef>"
+        }
+    ]
+}

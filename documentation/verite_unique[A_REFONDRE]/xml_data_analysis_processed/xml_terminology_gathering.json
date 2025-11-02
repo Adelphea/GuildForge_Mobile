@@ -1,0 +1,32 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Party (GatheringDef)",
+            "Label": "party",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/gathering_defs/gatherings.xml`",
+            "XML": "<GatheringDef>\n\n    <defName>Party</defName>\n\n    <label>party</label>\n\n    <randomSelectionWeight>1</randomSelectionWeight>\n\n    <letterTitle>Party</letterTitle>\n\n    <letterText>{ORGANIZER_labelShort} is throwing a party! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost.</letterText>\n\n    <calledOffMessage>The party has been called off.</calledOffMessage>\n\n    <finishedMessage>The party has finished.</finishedMessage>\n\n    <duty>Party</duty>\n\n    <workerClass>GatheringWorker_Party</workerClass>\n\n    <gatherSpotDefs>\n\n      <li>PartySpot</li>\n\n    </gatherSpotDefs>\n\n  </GatheringDef>"
+        },
+        {
+            "Title": "MarriageCeremony (GatheringDef)",
+            "Label": "marriage ceremony",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/gathering_defs/gatherings.xml`",
+            "XML": "<GatheringDef>\n\n    <defName>MarriageCeremony</defName>\n\n    <label>marriage ceremony</label>\n\n    <respectTimetable>false</respectTimetable>\n\n    <workerClass>GatheringWorker_MarriageCeremony</workerClass>\n\n  </GatheringDef>"
+        },
+        {
+            "Title": "Concert (GatheringDef)",
+            "Label": "concert",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/gathering_defs/gatherings.xml`",
+            "XML": "<GatheringDef>\n\n    <defName>Concert</defName>\n\n    <label>concert</label>\n\n    <randomSelectionWeight>1</randomSelectionWeight>\n\n    <letterTitle>Concert</letterTitle>\n\n    <letterText>{ORGANIZER_labelShort} is holding a concert! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost, both from social contact and from the music itself.</letterText>\n\n    <calledOffMessage>The concert has been cancelled.</calledOffMessage>\n\n    <finishedMessage>The concert has concluded.</finishedMessage>\n\n    <duty>Concert</duty>\n\n    <workerClass>GatheringWorker_Concert</workerClass>\n\n    <requiredTitleAny>\n\n      <li>Knight</li>\n\n      <li>Praetor</li>\n\n      <li>Baron</li>\n\n      <li>Count</li>\n\n    </requiredTitleAny>\n\n  </GatheringDef>"
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Oubanyen (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Oubanyen</defName>\n\n    <tags>\n\n      <li>OriginTribal</li>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Oubanyen</li>\n\n        <li>place_adjective-&gt;Oubanyeni</li>\n\n        <li>place_summary-&gt;steamy jungle-world</li>\n\n        <li>place_community-&gt;tree-top village</li>\n\n        <li>place_community-&gt;shaman cave</li>\n\n        <li>place_community-&gt;hill-top ziggurat</li>\n\n        <li>place_powerCenter-&gt;city temple</li>\n\n        <li>place_job-&gt;shaman</li>\n\n        <li>place_job-&gt;hunter</li>\n\n        <li>place_job-&gt;fisher</li>\n\n        <li>place_job-&gt;gatherer</li>\n\n        <li>place_job-&gt;goat-herd</li>\n\n        <li>place_personalWeapon-&gt;pila</li>\n\n        <li>place_personalWeapon-&gt;ikwa</li>\n\n        <li>place_massWeapon-&gt;a lethal psychic drone</li>\n\n        <li>place_massWeapon-&gt;a neurotoxin bomb</li>\n\n        <li>place_foeLeader-&gt;tree-harvester</li>\n\n        <li>place_foeSoldiers-&gt;henchmen</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Chelis (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Chelis</defName>\n\n    <tags>\n\n      <li>OriginTribal</li>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Chelis</li>\n\n        <li>place_adjective-&gt;Chelisi</li>\n\n        <li>place_summary-&gt;arid world</li>\n\n        <li>place_community-&gt;moisture farm</li>\n\n        <li>place_community-&gt;parch-town</li>\n\n        <li>place_community-&gt;water center</li>\n\n        <li>place_powerCenter-&gt;high lifehall</li>\n\n        <li>place_job-&gt;water gatherer</li>\n\n        <li>place_job-&gt;lizardskinner</li>\n\n        <li>place_job-&gt;oasis seeker</li>\n\n        <li>place_job-&gt;cactus gatherer</li>\n\n        <li>place_job-&gt;scav-herder</li>\n\n        <li>place_personalWeapon-&gt;sand-arrow</li>\n\n        <li>place_personalWeapon-&gt;cactus-club</li>\n\n        <li>place_massWeapon-&gt;an archotech-induced sandstorm</li>\n\n        <li>place_massWeapon-&gt;a spikelizard stampede</li>\n\n        <li>place_foeLeader-&gt;chief</li>\n\n        <li>place_foeSoldiers-&gt;sand-warriors</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Ilwaba (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Ilwaba</defName>\n\n    <tags>\n\n      <li>OriginTribal</li>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Ilwaba</li>\n\n        <li>place_adjective-&gt;Ilwaban</li>\n\n        <li>place_summary-&gt;regrown ruin-world</li>\n\n        <li>place_community-&gt;skyscraper village</li>\n\n        <li>place_community-&gt;highway trade-post</li>\n\n        <li>place_community-&gt;blast-land oasis</li>\n\n        <li>place_powerCenter-&gt;house of regrowth</li>\n\n        <li>place_job-&gt;crete-farmer</li>\n\n        <li>place_job-&gt;path-maker</li>\n\n        <li>place_job-&gt;artifact hunter</li>\n\n        <li>place_job-&gt;tunnelwalker</li>\n\n        <li>place_job-&gt;artifact restorer</li>\n\n        <li>place_personalWeapon-&gt;scrap-sword</li>\n\n        <li>place_personalWeapon-&gt;jag-dagger</li>\n\n        <li>place_massWeapon-&gt;a dug-up nuke</li>\n\n        <li>place_massWeapon-&gt;an ancient poison bomb</li>\n\n        <li>place_foeLeader-&gt;crypto-leader</li>\n\n        <li>place_foeSoldiers-&gt;crypto-soldiers</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Boccocarro (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Boccocarro</defName>\n\n    <tags>\n\n      <li>OriginTribal</li>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Boccocarro</li>\n\n        <li>place_adjective-&gt;Boccin</li>\n\n        <li>place_summary-&gt;cavernous shell-world</li>\n\n        <li>place_community-&gt;surface tunnel</li>\n\n        <li>place_community-&gt;fungus cavern</li>\n\n        <li>place_community-&gt;drip-well</li>\n\n        <li>place_powerCenter-&gt;speech-hall</li>\n\n        <li>place_job-&gt;miner</li>\n\n        <li>place_job-&gt;fungus grower</li>\n\n        <li>place_job-&gt;surface scavenger</li>\n\n        <li>place_job-&gt;community cook</li>\n\n        <li>place_job-&gt;frog-hunter</li>\n\n        <li>place_personalWeapon-&gt;pickaxe</li>\n\n        <li>place_personalWeapon-&gt;hydraulic crossbow</li>\n\n        <li>place_massWeapon-&gt;[seismicDevice]</li>\n\n        <li>place_massWeapon-&gt;a blackpowder bomb</li>\n\n        <li>place_foeLeader-&gt;mine hypervisor</li>\n\n        <li>place_foeSoldiers-&gt;abyssal marines</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Nuchadus (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Nuchadus</defName>\n\n    <tags>\n\n      <li>OriginTribal</li>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Nuchadus</li>\n\n        <li>place_adjective-&gt;Nuchadean</li>\n\n        <li>place_summary-&gt;dim volcano-world</li>\n\n        <li>place_community-&gt;basalt island</li>\n\n        <li>place_community-&gt;caldera laketown</li>\n\n        <li>place_community-&gt;dirigible village</li>\n\n        <li>place_powerCenter-&gt;thermal fortress</li>\n\n        <li>place_job-&gt;seismologist</li>\n\n        <li>place_job-&gt;lava-snail farmer</li>\n\n        <li>place_job-&gt;tank-tread repairer</li>\n\n        <li>place_job-&gt;airborne scout</li>\n\n        <li>place_personalWeapon-&gt;obsidian dagger</li>\n\n        <li>place_personalWeapon-&gt;harpoon rifle</li>\n\n        <li>place_massWeapon-&gt;an archotech-induced volcano eruption</li>\n\n        <li>place_massWeapon-&gt;a chem-warfare bomb</li>\n\n        <li>place_foeLeader-&gt;lava lord</li>\n\n        <li>place_foeSoldiers-&gt;stygian soldiers</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Zoutera (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Zoutera</defName>\n\n    <tags>\n\n      <li>OriginTribal</li>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Zoutera</li>\n\n        <li>place_adjective-&gt;Zoutin</li>\n\n        <li>place_summary-&gt;grassy dino-world</li>\n\n        <li>place_community-&gt;trading outpost</li>\n\n        <li>place_community-&gt;tent village</li>\n\n        <li>place_community-&gt;mammoth burial ground</li>\n\n        <li>place_powerCenter-&gt;hill-top fort</li>\n\n        <li>place_job-&gt;dino-rider</li>\n\n        <li>place_job-&gt;muffalo-herder</li>\n\n        <li>place_job-&gt;hunter</li>\n\n        <li>place_job-&gt;toughleather maker</li>\n\n        <li>place_personalWeapon-&gt;bamboo staff</li>\n\n        <li>place_personalWeapon-&gt;hunt-bomb arrows</li>\n\n        <li>place_massWeapon-&gt;a stampeding herd of [megaFauna]</li>\n\n        <li>place_massWeapon-&gt;a fertilizer bomb</li>\n\n        <li>place_foeLeader-&gt;tusk-king</li>\n\n        <li>place_foeSoldiers-&gt;tusk-warriors</li>\n\n\n\n        <li>megaFauna-&gt;ankylosaurs</li>\n\n        <li>megaFauna-&gt;blue mammoths</li>\n\n        <li>megaFauna-&gt;novoraptors</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Wavia (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Wavia</defName>\n\n    <tags>\n\n      <li>OriginTribal</li>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Wavia</li>\n\n        <li>place_adjective-&gt;Wavian</li>\n\n        <li>place_summary-&gt;oceanic planet</li>\n\n        <li>place_community-&gt;trading atoll</li>\n\n        <li>place_community-&gt;floating village</li>\n\n        <li>place_community-&gt;seaweed refinery</li>\n\n        <li>place_powerCenter-&gt;capitol bridge</li>\n\n        <li>place_job-&gt;fisher</li>\n\n        <li>place_job-&gt;pearl diver</li>\n\n        <li>place_job-&gt;sail maker</li>\n\n        <li>place_job-&gt;captain</li>\n\n        <li>place_job-&gt;sea-grass gatherer</li>\n\n        <li>place_personalWeapon-&gt;harpoon</li>\n\n        <li>place_personalWeapon-&gt;barbed net</li>\n\n        <li>place_massWeapon-&gt;a high-yield torpedo</li>\n\n        <li>place_massWeapon-&gt;a baited [seaBeast]</li>\n\n        <li>place_foeLeader-&gt;whaler admiral</li>\n\n        <li>place_foeSoldiers-&gt;whaler-marines</li>\n\n\n\n        <li>seaBeast-&gt;deep-kraken</li>\n\n        <li>seaBeast-&gt;Wavian leviathan</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Bagua5 (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Bagua5</defName>\n\n    <tags>\n\n      <li>OriginTribal</li>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Bagua 5</li>\n\n        <li>place_adjective-&gt;Bagucinquan</li>\n\n        <li>place_summary-&gt;junkyard planet</li>\n\n        <li>place_community-&gt;fortified scrapyard</li>\n\n        <li>place_community-&gt;rainwater processing plant</li>\n\n        <li>place_community-&gt;scrap-town</li>\n\n        <li>place_powerCenter-&gt;trader spaceport</li>\n\n        <li>place_job-&gt;scavenger</li>\n\n        <li>place_job-&gt;trader</li>\n\n        <li>place_job-&gt;tinkerer</li>\n\n        <li>place_job-&gt;guard</li>\n\n        <li>place_job-&gt;scrapper</li>\n\n        <li>place_personalWeapon-&gt;pipe rifle</li>\n\n        <li>place_personalWeapon-&gt;scrap-sword</li>\n\n        <li>place_massWeapon-&gt;a salvaged nuke</li>\n\n        <li>place_massWeapon-&gt;a rust virus</li>\n\n        <li>place_foeLeader-&gt;junk lord</li>\n\n        <li>place_foeSoldiers-&gt;metal-heads</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Rhydell (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Rhydell</defName>\n\n    <tags>\n\n      <li>OriginTribal</li>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Rhydell</li>\n\n        <li>place_adjective-&gt;Rhydellian</li>\n\n        <li>place_summary-&gt;savage forest moon</li>\n\n        <li>place_community-&gt;converted dropship</li>\n\n        <li>place_community-&gt;low-shielded encampment</li>\n\n        <li>place_community-&gt;communication center</li>\n\n        <li>place_powerCenter-&gt;armored habitat</li>\n\n        <li>place_job-&gt;frontier botanist</li>\n\n        <li>place_job-&gt;trophy hunter</li>\n\n        <li>place_job-&gt;medic</li>\n\n        <li>place_job-&gt;camp cook</li>\n\n        <li>place_job-&gt;biolab engineer</li>\n\n        <li>place_personalWeapon-&gt;sniper rifle</li>\n\n        <li>place_personalWeapon-&gt;machete</li>\n\n        <li>place_massWeapon-&gt;a plant-derived neurotoxin gas</li>\n\n        <li>place_massWeapon-&gt;an orbital laser strike</li>\n\n        <li>place_foeLeader-&gt;deepcorp executive</li>\n\n        <li>place_foeSoldiers-&gt;deepcorp enforcers</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Iwamura (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Iwamura</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Iwamura</li>\n\n        <li>place_adjective-&gt;Iwamurian</li>\n\n        <li>place_summary-&gt;stony asteroid</li>\n\n        <li>place_community-&gt;market capsule</li>\n\n        <li>place_community-&gt;warehouse capsule</li>\n\n        <li>place_community-&gt;docking pier</li>\n\n        <li>place_powerCenter-&gt;station bridge</li>\n\n        <li>place_job-&gt;life-support engineer</li>\n\n        <li>place_job-&gt;merchant</li>\n\n        <li>place_job-&gt;flight controller</li>\n\n        <li>place_job-&gt;zero-g athlete</li>\n\n        <li>place_job-&gt;radio host</li>\n\n        <li>place_personalWeapon-&gt;charge rifle</li>\n\n        <li>place_personalWeapon-&gt;welding torch</li>\n\n        <li>place_massWeapon-&gt;an aerosolized toxin</li>\n\n        <li>place_massWeapon-&gt;[anEMPAttack]</li>\n\n        <li>place_massWeapon-&gt;a life-support sabotage virus</li>\n\n        <li>place_foeLeader-&gt;mega-corp CEO</li>\n\n        <li>place_foeSoldiers-&gt;rent-a-cops</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Novaroma (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Novaroma</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Novaroma</li>\n\n        <li>place_adjective-&gt;Novaroman</li>\n\n        <li>place_summary-&gt;planetoid</li>\n\n        <li>place_community-&gt;ministry of permits</li>\n\n        <li>place_community-&gt;gated suburb</li>\n\n        <li>place_community-&gt;over-city</li>\n\n        <li>place_community-&gt;under-city</li>\n\n        <li>place_powerCenter-&gt;megacity overhall</li>\n\n        <li>place_job-&gt;clerk</li>\n\n        <li>place_job-&gt;official</li>\n\n        <li>place_job-&gt;food courier</li>\n\n        <li>place_job-&gt;taxi driver</li>\n\n        <li>place_job-&gt;retail worker</li>\n\n        <li>place_personalWeapon-&gt;revolver</li>\n\n        <li>place_personalWeapon-&gt;knife</li>\n\n        <li>place_massWeapon-&gt;[seismicDevice]</li>\n\n        <li>place_massWeapon-&gt;cluster bombs</li>\n\n        <li>place_massWeapon-&gt;a nuclear suitcase-bomb</li>\n\n        <li>place_foeLeader-&gt;high-underlord</li>\n\n        <li>place_foeSoldiers-&gt;undertroops</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Filson (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Filson</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Filson</li>\n\n        <li>place_adjective-&gt;Filsoner</li>\n\n        <li>place_summary-&gt;rural farm-world</li>\n\n        <li>place_community-&gt;town hall</li>\n\n        <li>place_community-&gt;fertilizer processing plant</li>\n\n        <li>place_community-&gt;mega-granary</li>\n\n        <li>place_community-&gt;water-bore site</li>\n\n        <li>place_powerCenter-&gt;town hall</li>\n\n        <li>place_job-&gt;farm hand</li>\n\n        <li>place_job-&gt;fruit picker</li>\n\n        <li>place_job-&gt;transport driver</li>\n\n        <li>place_job-&gt;school teacher</li>\n\n        <li>place_job-&gt;soil engineer</li>\n\n        <li>place_personalWeapon-&gt;rifle</li>\n\n        <li>place_personalWeapon-&gt;scythe</li>\n\n        <li>place_massWeapon-&gt;fertilizer bombs</li>\n\n        <li>place_massWeapon-&gt;weaponized pesticide spray</li>\n\n        <li>place_massWeapon-&gt;space lens</li>\n\n        <li>place_foeLeader-&gt;landowner</li>\n\n        <li>place_foeSoldiers-&gt;militia</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Creticon (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Creticon</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Creticon</li>\n\n        <li>place_adjective-&gt;Creticonian</li>\n\n        <li>place_summary-&gt;blasted death-world</li>\n\n        <li>place_community-&gt;bunker</li>\n\n        <li>place_community-&gt;cavern</li>\n\n        <li>place_community-&gt;ice-shelter</li>\n\n        <li>place_powerCenter-&gt;director's bunker</li>\n\n        <li>place_job-&gt;water-recycler repairer</li>\n\n        <li>place_job-&gt;algae farmer</li>\n\n        <li>place_job-&gt;doctor</li>\n\n        <li>place_job-&gt;teacher</li>\n\n        <li>place_job-&gt;militia commander</li>\n\n        <li>place_job-&gt;shuttle pilot</li>\n\n        <li>place_personalWeapon-&gt;autopistol</li>\n\n        <li>place_personalWeapon-&gt;LMG</li>\n\n        <li>place_massWeapon-&gt;a shoulder-mounted nuclear missile</li>\n\n        <li>place_massWeapon-&gt;an orbital bombardment</li>\n\n        <li>place_massWeapon-&gt;chemical bombs</li>\n\n        <li>place_massWeapon-&gt;hacked mechanoids</li>\n\n        <li>place_foeLeader-&gt;warlord</li>\n\n        <li>place_foeSoldiers-&gt;mercenaries</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Yttak (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Yttak</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Yttak</li>\n\n        <li>place_adjective-&gt;Yttaki</li>\n\n        <li>place_summary-&gt;ice-moon prison</li>\n\n        <li>place_community-&gt;meal hall</li>\n\n        <li>place_community-&gt;guard barracks</li>\n\n        <li>place_community-&gt;detention center</li>\n\n        <li>place_powerCenter-&gt;warden's office complex</li>\n\n        <li>place_job-&gt;detainee</li>\n\n        <li>place_job-&gt;guard</li>\n\n        <li>place_job-&gt;escapee</li>\n\n        <li>place_job-&gt;maintenance worker</li>\n\n        <li>place_job-&gt;transport driver</li>\n\n        <li>place_personalWeapon-&gt;shiv</li>\n\n        <li>place_personalWeapon-&gt;SMG</li>\n\n        <li>place_massWeapon-&gt;an improvised chemical bomb</li>\n\n        <li>place_massWeapon-&gt;an orbital laser strike</li>\n\n        <li>place_foeLeader-&gt;prison warden</li>\n\n        <li>place_foeSoldiers-&gt;corrupt guards</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Kemia (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Kemia</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Kemia</li>\n\n        <li>place_adjective-&gt;Kemian</li>\n\n        <li>place_summary-&gt;toxic war-world</li>\n\n        <li>place_community-&gt;slum</li>\n\n        <li>place_community-&gt;tunnel colony</li>\n\n        <li>place_community-&gt;undertown</li>\n\n        <li>place_powerCenter-&gt;city lordhouse</li>\n\n        <li>place_job-&gt;street sweeper</li>\n\n        <li>place_job-&gt;cleanup engineer</li>\n\n        <li>place_job-&gt;protein farmer</li>\n\n        <li>place_job-&gt;taxi driver</li>\n\n        <li>place_job-&gt;weapons builder</li>\n\n        <li>place_personalWeapon-&gt;gas bomb</li>\n\n        <li>place_personalWeapon-&gt;toxic flamethrower</li>\n\n        <li>place_massWeapon-&gt;nuclear dirty bombs</li>\n\n        <li>place_massWeapon-&gt;a bio-engineered plague</li>\n\n        <li>place_massWeapon-&gt;penetrating toxic bombs</li>\n\n        <li>place_foeLeader-&gt;poison lord</li>\n\n        <li>place_foeSoldiers-&gt;venom-soldiers</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Rogia (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Rogia</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Rogia</li>\n\n        <li>place_adjective-&gt;Rogian</li>\n\n        <li>place_summary-&gt;glitter-tech world</li>\n\n        <li>place_community-&gt;medical institute</li>\n\n        <li>place_community-&gt;space elevator</li>\n\n        <li>place_community-&gt;robotics factory</li>\n\n        <li>place_powerCenter-&gt;planetary capitol</li>\n\n        <li>place_job-&gt;starforce cadet</li>\n\n        <li>place_job-&gt;artisan farmer</li>\n\n        <li>place_job-&gt;social-media prodigy</li>\n\n        <li>place_job-&gt;zero-g athlete</li>\n\n        <li>place_job-&gt;glitter-tech smuggler</li>\n\n        <li>place_personalWeapon-&gt;charge lance</li>\n\n        <li>place_personalWeapon-&gt;persona monosword</li>\n\n        <li>place_massWeapon-&gt;antimatter warheads</li>\n\n        <li>place_massWeapon-&gt;a weaponized computer virus</li>\n\n        <li>place_massWeapon-&gt;remote-controlled mechanoid workers</li>\n\n        <li>place_foeLeader-&gt;corrupt bureaucrat</li>\n\n        <li>place_foeSoldiers-&gt;bionic guards</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Xanides (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Xanides</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Xanides</li>\n\n        <li>place_adjective-&gt;Xanidian</li>\n\n        <li>place_summary-&gt;exploited mineral-planet</li>\n\n        <li>place_community-&gt;strip mine</li>\n\n        <li>place_community-&gt;ore refinery</li>\n\n        <li>place_community-&gt;nutrient paste cafeteria</li>\n\n        <li>place_powerCenter-&gt;oxygen depot</li>\n\n        <li>place_job-&gt;miner</li>\n\n        <li>place_job-&gt;supervisor</li>\n\n        <li>place_job-&gt;technician</li>\n\n        <li>place_job-&gt;mechanic</li>\n\n        <li>place_job-&gt;life support engineer</li>\n\n        <li>place_personalWeapon-&gt;electro-baton</li>\n\n        <li>place_personalWeapon-&gt;autopistol</li>\n\n        <li>place_massWeapon-&gt;blasting charges</li>\n\n        <li>place_massWeapon-&gt;[anEMPAttack]</li>\n\n        <li>place_foeLeader-&gt;mine-corp boss</li>\n\n        <li>place_foeSoldiers-&gt;mine-corp troops</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Lutuni (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Lutuni</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Lutuni</li>\n\n        <li>place_adjective-&gt;Lutuni</li>\n\n        <li>place_summary-&gt;rainforest paradise</li>\n\n        <li>place_community-&gt;augmentation clinic</li>\n\n        <li>place_community-&gt;hyper-yacht</li>\n\n        <li>place_community-&gt;zero-g stadium</li>\n\n        <li>place_powerCenter-&gt;space elevator complex</li>\n\n        <li>place_job-&gt;tourist guide</li>\n\n        <li>place_job-&gt;zero-g performer</li>\n\n        <li>place_job-&gt;luciferium distributor</li>\n\n        <li>place_job-&gt;virtual celebrity</li>\n\n        <li>place_job-&gt;shuttle pilot</li>\n\n        <li>place_personalWeapon-&gt;vibro-knife</li>\n\n        <li>place_personalWeapon-&gt;charge pistol</li>\n\n        <li>place_massWeapon-&gt;a structural disintegration bacterium</li>\n\n        <li>place_massWeapon-&gt;a smuggled orbital bombardment targeter</li>\n\n        <li>place_foeLeader-&gt;entertainment mogul</li>\n\n        <li>place_foeSoldiers-&gt;enforcers</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "AturaStation (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/place_defs/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>AturaStation</defName>\n\n    <tags>\n\n      <li>OriginSpacer</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li>PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Atura Station</li>\n\n        <li>place_adjective-&gt;Aturan</li>\n\n        <li>place_summary-&gt;orbital shipyard</li>\n\n        <li>place_community-&gt;shuttle dock</li>\n\n        <li>place_community-&gt;manufacturing ring</li>\n\n        <li>place_community-&gt;residential ring</li>\n\n        <li>place_powerCenter-&gt;central control room</li>\n\n        <li>place_job-&gt;construction drone operator</li>\n\n        <li>place_job-&gt;manager</li>\n\n        <li>place_job-&gt;test pilot</li>\n\n        <li>place_job-&gt;sales agent</li>\n\n        <li>place_job-&gt;3D printer technician</li>\n\n        <li>place_personalWeapon-&gt;taser</li>\n\n        <li>place_personalWeapon-&gt;arc welder</li>\n\n        <li>place_massWeapon-&gt;[anEMPAttack]</li>\n\n        <li>place_massWeapon-&gt;remote-controlled welding drones</li>\n\n        <li>place_foeLeader-&gt;crime boss</li>\n\n        <li>place_foeSoldiers-&gt;thugs</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        },
+        {
+            "Title": "Sophiamunda (PlaceDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/misc/places.xml`",
+            "XML": "<PlaceDef>\n\n    <defName>Sophiamunda</defName>\n\n    <tags>\n\n      <li>OriginTechnoFeudal</li>\n\n    </tags>\n\n    <placeRules>\n\n      <include>\n\n        <li MayRequire=\"Ludeon.RimWorld.Ideology\">PlaceMakerCommon</li>\n\n      </include>\n\n      <rulesStrings>\n\n        \n\n        <li>place_name-&gt;Sophiamunda</li>\n\n        <li>place_adjective-&gt;Sophian</li>\n\n        <li>place_summary-&gt;techno-feudal world</li>\n\n        <li>place_community-&gt;castle</li>\n\n        <li>place_community-&gt;palace</li>\n\n        <li>place_job-&gt;knight</li>\n\n        <li>place_job-&gt;squire</li>\n\n        <li>place_job-&gt;duke</li>\n\n        <li>place_job-&gt;maid</li>\n\n        <li>place_job-&gt;swordsmith</li>\n\n        <li>place_personalWeapon-&gt;persona plasmasword</li>\n\n        <li>place_personalWeapon-&gt;warhammer</li>\n\n        <li>place_massWeapon-&gt;an orbital mech cluster targeter</li>\n\n        <li>place_massWeapon-&gt;a bio-engineered plague</li>\n\n        <li>place_massWeapon-&gt;an army of fallen knights</li>\n\n        <li>place_foeLeader-&gt;revolutionist</li>\n\n        <li>place_foeSoldiers-&gt;rebels</li>\n\n      </rulesStrings>\n\n    </placeRules>\n\n  </PlaceDef>"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_LegShell (ApparelLayerDef)",
+            "Label": "leg outer",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 199`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/apparel_layer_defs/layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n\t\t<defName>DankPyon_LegShell</defName>\n\n\t\t<label>leg outer</label>\n\n\t\t<drawOrder>199</drawOrder>\n\n\t</ApparelLayerDef>"
+        },
+        {
+            "Title": "DankPyon_NecklaceLayer (ApparelLayerDef)",
+            "Label": "necklace",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 301`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/apparel_layer_defs/layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n\t\t<defName>DankPyon_NecklaceLayer</defName>\n\n\t\t<label>necklace</label>\n\n\t\t<drawOrder>301</drawOrder>\n\n\t</ApparelLayerDef>"
+        },
+        {
+            "Title": "DankPyon_Ring1Layer (ApparelLayerDef)",
+            "Label": "ring",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 302`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/apparel_layer_defs/layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n\t\t<defName>DankPyon_Ring1Layer</defName>\n\n\t\t<label>ring</label>\n\n\t\t<drawOrder>302</drawOrder>\n\n\t</ApparelLayerDef>"
+        },
+        {
+            "Title": "DankPyon_ShellAttachment (ApparelLayerDef)",
+            "Label": "attachment",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 10`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/apparel_layer_defs/layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n\t\t<defName>DankPyon_ShellAttachment</defName>\n\n\t\t<label>attachment</label>\n\n\t\t<drawOrder>10</drawOrder>\n\n\t</ApparelLayerDef>"
+        },
+        {
+            "Title": "DankPyon_InnerHelmet (ApparelLayerDef)",
+            "Label": "inner helmet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 399`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/apparel_layer_defs/layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n\t\t<defName>DankPyon_InnerHelmet</defName>\n\n\t\t<label>inner helmet</label>\n\n\t\t<drawOrder>399</drawOrder>\n\n\t</ApparelLayerDef>"
+        },
+        {
+            "Title": "DankPyon_Hood (ApparelLayerDef)",
+            "Label": "hood",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 499`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/apparel_layer_defs/layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n\t\t<defName>DankPyon_Hood</defName>\n\n\t\t<label>hood</label>\n\n\t\t<drawOrder>499</drawOrder>\n\n\t</ApparelLayerDef>"
+        },
+        {
+            "Title": "OnSkin (ApparelLayerDef)",
+            "Label": "skin",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 0`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/apparel_layer_defs/apparel_layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n    <defName>OnSkin</defName>\n\n    <label>skin</label>\n\n    <drawOrder>0</drawOrder>\n\n  </ApparelLayerDef>"
+        },
+        {
+            "Title": "Middle (ApparelLayerDef)",
+            "Label": "middle",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 100`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/apparel_layer_defs/apparel_layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n    <defName>Middle</defName>\n\n    <label>middle</label>\n\n    <drawOrder>100</drawOrder>\n\n  </ApparelLayerDef>"
+        },
+        {
+            "Title": "Shell (ApparelLayerDef)",
+            "Label": "outer",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 200`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/apparel_layer_defs/apparel_layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n    <defName>Shell</defName>\n\n    <label>outer</label>\n\n    <drawOrder>200</drawOrder>\n\n  </ApparelLayerDef>"
+        },
+        {
+            "Title": "Belt (ApparelLayerDef)",
+            "Label": "utility",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 300`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/apparel_layer_defs/apparel_layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n    <defName>Belt</defName>\n\n    <label>utility</label>\n\n    <drawOrder>300</drawOrder>\n\n  </ApparelLayerDef>"
+        },
+        {
+            "Title": "Overhead (ApparelLayerDef)",
+            "Label": "headgear",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 400`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/apparel_layer_defs/apparel_layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n    <defName>Overhead</defName>\n\n    <label>headgear</label>\n\n    <drawOrder>400</drawOrder>\n\n  </ApparelLayerDef>"
+        },
+        {
+            "Title": "EyeCover (ApparelLayerDef)",
+            "Label": "eyes",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`drawOrder: 500`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/apparel_layer_defs/apparel_layer_defs.xml`",
+            "XML": "<ApparelLayerDef>\n\n    <defName>EyeCover</defName>\n\n    <label>eyes</label>\n\n    <drawOrder>500</drawOrder>\n\n  </ApparelLayerDef>"
+        }
+    ]
+}

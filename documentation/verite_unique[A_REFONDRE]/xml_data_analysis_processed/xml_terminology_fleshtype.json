@@ -1,0 +1,59 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_FleshTypeGolem (FleshTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/flesh_type.xml`",
+            "XML": "<FleshTypeDef>\n\n\t\t<defName>DankPyon_FleshTypeGolem</defName>\n\n\t\t<corpseCategory>CorpsesMechanoid</corpseCategory>\n\n\t\t<damageEffecter>Damage_HitMechanoid</damageEffecter>\n\n\t\t<isOrganic>false</isOrganic>\n\n\t\t<genericWounds>\n\n\t\t\t<li>\n\n\t\t\t\t<texture>Things/Pawn/Wounds/WoundMechA</texture>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<texture>Things/Pawn/Wounds/WoundMechB</texture>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<texture>Things/Pawn/Wounds/WoundMechC</texture>\n\n\t\t\t</li>\n\n\t\t</genericWounds>\n\n\t</FleshTypeDef>"
+        },
+        {
+            "Title": "DankPyon_Schrat (FleshTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/flesh_type.xml`",
+            "XML": "<FleshTypeDef>\n\n\t\t<defName>DankPyon_Schrat</defName>\n\n\t\t<corpseCategory>DankPyon_CorpsesMonsters</corpseCategory>\n\n\t\t<damageEffecter>Damage_HitMechanoid</damageEffecter>\n\n\t\t<isOrganic>false</isOrganic>\n\n\t\t<genericWounds>\n\n\t\t\t<li>\n\n\t\t\t\t<texture>Things/Pawn/Wounds/WoundMechA</texture>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<texture>Things/Pawn/Wounds/WoundMechB</texture>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<texture>Things/Pawn/Wounds/WoundMechC</texture>\n\n\t\t\t</li>\n\n\t\t</genericWounds>\n\n\t</FleshTypeDef>"
+        },
+        {
+            "Title": "DankPyon_Monster (FleshTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/flesh_type.xml`",
+            "XML": "<FleshTypeDef>\n\n\t\t<defName>DankPyon_Monster</defName>\n\n\t\t<corpseCategory>DankPyon_CorpsesMonsters</corpseCategory>\n\n\t\t<damageEffecter>Damage_HitMechanoid</damageEffecter>\n\n\t\t<isOrganic>false</isOrganic>\n\n\t\t<genericWounds>\n\n\t\t\t<li>\n\n\t\t\t\t<texture>Things/Pawn/Wounds/WoundMechA</texture>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<texture>Things/Pawn/Wounds/WoundMechB</texture>\n\n\t\t\t</li>\n\n\t\t\t<li>\n\n\t\t\t\t<texture>Things/Pawn/Wounds/WoundMechC</texture>\n\n\t\t\t</li>\n\n\t\t</genericWounds>\n\n\t</FleshTypeDef>"
+        },
+        {
+            "Title": "Normal (FleshTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/flesh_type_defs/flesh_type.xml`",
+            "XML": "<FleshTypeDef>\n\n    <defName>Normal</defName>\n\n    <corpseCategory>CorpsesAnimal</corpseCategory>\n\n    <damageEffecter>Damage_HitFlesh</damageEffecter>\n\n    <isOrganic>true</isOrganic>\n\n    <genericWounds>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/WoundFleshA</texture>\n\n      </li>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/WoundFleshB</texture>\n\n      </li>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/WoundFleshC</texture>\n\n      </li>\n\n    </genericWounds>\n\n    <bandagedWounds>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/BandagedA</texture>\n\n      </li>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/BandagedB</texture>\n\n      </li>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/BandagedC</texture>\n\n      </li>\n\n    </bandagedWounds>\n\n    <hediffWounds>\n\n      <li MayRequire=\"Ludeon.RimWorld.Ideology\">\n\n        <hediff>Scarification</hediff>\n\n        <wounds>\n\n          <li>\n\n            <texture>Things/Pawn/Wounds/ScarificationA</texture>\n\n            <tintWithSkinColor>true</tintWithSkinColor>\n\n            <displayOverApparel>false</displayOverApparel>\n\n            <displayPermanent>false</displayPermanent>\n\n            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>\n\n            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>\n\n          </li>\n\n          <li>\n\n            <texture>Things/Pawn/Wounds/ScarificationB</texture>\n\n            <tintWithSkinColor>true</tintWithSkinColor>\n\n            <displayOverApparel>false</displayOverApparel>\n\n            <displayPermanent>false</displayPermanent>\n\n            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>\n\n            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>\n\n          </li>\n\n          <li>\n\n            <texture>Things/Pawn/Wounds/ScarificationC</texture>\n\n            <tintWithSkinColor>true</tintWithSkinColor>\n\n            <displayOverApparel>false</displayOverApparel>\n\n            <displayPermanent>false</displayPermanent>\n\n            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>\n\n            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>\n\n          </li>\n\n        </wounds>\n\n      </li>\n\n      <li>\n\n        <hediff>MissingBodyPart</hediff>\n\n        <wounds>\n\n          <li>\n\n            <textureSouth>Things/Pawn/Wounds/MissingEye_Scar_south</textureSouth>\n\n            <textureNorth>Things/Pawn/Wounds/MissingEye_Scar_south</textureNorth>\n\n            <textureEast>Things/Pawn/Wounds/MissingEye_Scar_east</textureEast>\n\n            <textureWest>Things/Pawn/Wounds/MissingEye_Scar_east</textureWest>\n\n            <flipWest>true</flipWest>\n\n            <onlyOnPart>Eye</onlyOnPart>\n\n            <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>\n\n            <flipOnRotation>South</flipOnRotation>\n\n            <tintWithSkinColor>true</tintWithSkinColor>\n\n            <missingBodyPartFresh>false</missingBodyPartFresh>\n\n            <scale>0.7</scale>\n\n            <drawOffsetSouth>(0, -0.001, -0.24)</drawOffsetSouth>\n\n            <drawOffsetEastWest>(0, -0.001, -0.24)</drawOffsetEastWest>\n\n          </li>\n\n          <li>\n\n            <textureSouth>Things/Pawn/Wounds/MissingEye_Fresh</textureSouth>\n\n            <textureNorth>Things/Pawn/Wounds/MissingEye_Fresh</textureNorth>\n\n            <textureEast>Things/Pawn/Wounds/MissingEye_Fresh</textureEast>\n\n            <textureWest>Things/Pawn/Wounds/MissingEye_Fresh</textureWest>\n\n            <flipWest>true</flipWest>\n\n            <onlyOnPart>Eye</onlyOnPart>\n\n            <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>\n\n            <flipOnRotation>South</flipOnRotation>\n\n            <missingBodyPartFresh>true</missingBodyPartFresh>\n\n            <scale>0.7</scale>\n\n            <drawOffsetSouth>(0, -0.001, -0.24)</drawOffsetSouth>\n\n            <drawOffsetEastWest>(0, -0.001, -0.24)</drawOffsetEastWest>\n\n          </li>\n\n        </wounds>\n\n      </li>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">\n\n        <hediff>PorcupineQuill</hediff>\n\n        <wounds>\n\n          <li>\n\n            <texture>Things/Pawn/Wounds/PorcupineQuillA</texture>\n\n            <tintWithSkinColor>false</tintWithSkinColor>\n\n            <displayOverApparel>true</displayOverApparel>\n\n            <displayPermanent>false</displayPermanent>\n\n            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>\n\n            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>\n\n          </li>\n\n          <li>\n\n            <texture>Things/Pawn/Wounds/PorcupineQuillB</texture>\n\n            <tintWithSkinColor>false</tintWithSkinColor>\n\n            <displayOverApparel>true</displayOverApparel>\n\n            <displayPermanent>false</displayPermanent>\n\n            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>\n\n            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>\n\n          </li>\n\n          <li>\n\n            <texture>Things/Pawn/Wounds/PorcupineQuillC</texture>\n\n            <tintWithSkinColor>false</tintWithSkinColor>\n\n            <displayOverApparel>true</displayOverApparel>\n\n            <displayPermanent>false</displayPermanent>\n\n            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>\n\n            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>\n\n          </li>\n\n          <li>\n\n            <texture>Things/Pawn/Wounds/PorcupineQuillD</texture>\n\n            <tintWithSkinColor>false</tintWithSkinColor>\n\n            <displayOverApparel>true</displayOverApparel>\n\n            <displayPermanent>false</displayPermanent>\n\n            <drawOffsetSouth>(0, 0.001, -0.24)</drawOffsetSouth>\n\n            <drawOffsetEastWest>(-0.03, 0.001, -0.24)</drawOffsetEastWest>\n\n          </li>\n\n        </wounds>\n\n      </li>\n\n    </hediffWounds>\n\n  </FleshTypeDef>"
+        },
+        {
+            "Title": "Mechanoid (FleshTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/flesh_type_defs/flesh_type.xml`",
+            "XML": "<FleshTypeDef>\n\n    <defName>Mechanoid</defName>\n\n    <corpseCategory>CorpsesMechanoid</corpseCategory>\n\n    <damageEffecter>Damage_HitMechanoid</damageEffecter>\n\n    <isOrganic>false</isOrganic>\n\n    <genericWounds>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/WoundMechA</texture>\n\n      </li>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/WoundMechB</texture>\n\n      </li>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/WoundMechC</texture>\n\n      </li>\n\n    </genericWounds>\n\n  </FleshTypeDef>"
+        },
+        {
+            "Title": "Insectoid (FleshTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/flesh_type_defs/flesh_type.xml`",
+            "XML": "<FleshTypeDef>\n\n    <defName>Insectoid</defName>\n\n    <corpseCategory>CorpsesInsect</corpseCategory>\n\n    <damageEffecter>Damage_HitInsect</damageEffecter>\n\n    <isOrganic>true</isOrganic>\n\n    <genericWounds>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/WoundA</texture>\n\n        <color>0.23,0.20,0.17</color>\n\n      </li>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/WoundB</texture>\n\n        <color>0.23,0.20,0.17</color>\n\n      </li>\n\n      <li>\n\n        <texture>Things/Pawn/Wounds/WoundC</texture>\n\n        <color>0.23,0.20,0.17</color>\n\n      </li>\n\n    </genericWounds>\n\n  </FleshTypeDef>"
+        }
+    ]
+}

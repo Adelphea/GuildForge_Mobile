@@ -1,8 +1,8 @@
 # Documentation Principale - GuildForge Mobile
 
-**Auteur :** Le seul humain du projet
+**Auteur :** Manus AI
 **Date :** 12 Octobre 2025
-**Version :** 1
+**Version :** 2.4
 **Tags :** [documentation, gestion-projet, game-design, technique, artistique, audio, vision, SSOT]
 
 Ce document constitue le **hub central** et le point d'entrée unique pour l'ensemble de la documentation du projet GuildForge Mobile. Son objectif est de garantir la **cohérence**, la **clarté** et l'**efficacité** à travers tous les aspects du projet, de la rédaction de la documentation au développement du code. Il sert de référence essentielle pour tous les membres de l'équipe et les contributeurs, assurant une compréhension unifiée de la vision et des objectifs du jeu.

@@ -1,0 +1,59 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Bullet (ImpactSoundTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/impact_sound_type_defs/impact_sound_type_defs.xml`",
+            "XML": "<ImpactSoundTypeDef>\n\n    <defName>Bullet</defName>\n\n  </ImpactSoundTypeDef>"
+        },
+        {
+            "Title": "Slice (ImpactSoundTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/impact_sound_type_defs/impact_sound_type_defs.xml`",
+            "XML": "<ImpactSoundTypeDef>\n\n    <defName>Slice</defName>\n\n  </ImpactSoundTypeDef>"
+        },
+        {
+            "Title": "Blunt (ImpactSoundTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/impact_sound_type_defs/impact_sound_type_defs.xml`",
+            "XML": "<ImpactSoundTypeDef>\n\n    <defName>Blunt</defName>\n\n  </ImpactSoundTypeDef>"
+        },
+        {
+            "Title": "Electric (ImpactSoundTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/impact_sound_type_defs/impact_sound_type_defs.xml`",
+            "XML": "<ImpactSoundTypeDef>\n\n    <defName>Electric</defName>\n\n  </ImpactSoundTypeDef>"
+        },
+        {
+            "Title": "Tornado (ImpactSoundTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/impact_sound_type_defs/impact_sound_type_defs.xml`",
+            "XML": "<ImpactSoundTypeDef>\n\n    <defName>Tornado</defName>\n\n    <playOnlyIfHitPawn>true</playOnlyIfHitPawn>\n\n  </ImpactSoundTypeDef>"
+        },
+        {
+            "Title": "Toxic (ImpactSoundTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/impact_sound_type_defs/impact_sound_type_defs.xml`",
+            "XML": "<ImpactSoundTypeDef>\n\n    <defName>Toxic</defName>\n\n    <playOnlyIfHitPawn>true</playOnlyIfHitPawn>\n\n    <soundDef>ToxicBuildupGained</soundDef>\n\n  </ImpactSoundTypeDef>"
+        }
+    ]
+}

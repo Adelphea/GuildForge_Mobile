@@ -1,0 +1,59 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Line (DrawStyleDef)",
+            "Label": "line",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_defs/draw_styles.xml`",
+            "XML": "<DrawStyleDef>\n\n    <defName>Line</defName>\n\n    <label>line</label>\n\n    <uiIconPath>UI/Widgets/DrawStyles/StraightLine</uiIconPath>\n\n    <drawStyleType>DrawStyle_Line</drawStyleType>\n\n    <drawArea>false</drawArea>\n\n    <drawShortSideMeasurement>false</drawShortSideMeasurement>\n\n    <canSnap>false</canSnap>\n\n  </DrawStyleDef>"
+        },
+        {
+            "Title": "AngledLine (DrawStyleDef)",
+            "Label": "angled line",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_defs/draw_styles.xml`",
+            "XML": "<DrawStyleDef>\n\n    <defName>AngledLine</defName>\n\n    <label>angled line</label>\n\n    <uiIconPath>UI/Widgets/DrawStyles/AngledLine</uiIconPath>\n\n    <drawStyleType>DrawStyle_AngledLine</drawStyleType>\n\n  </DrawStyleDef>"
+        },
+        {
+            "Title": "FilledRectangle (DrawStyleDef)",
+            "Label": "filled rectangle",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_defs/draw_styles.xml`",
+            "XML": "<DrawStyleDef>\n\n    <defName>FilledRectangle</defName>\n\n    <label>filled rectangle</label>\n\n    <uiIconPath>UI/Widgets/DrawStyles/RectangleFilled</uiIconPath>\n\n    <drawStyleType>DrawStyle_FilledRectangle</drawStyleType>\n\n    <drawOutline>true</drawOutline>\n\n  </DrawStyleDef>"
+        },
+        {
+            "Title": "EmptyRectangle (DrawStyleDef)",
+            "Label": "empty rectangle",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_defs/draw_styles.xml`",
+            "XML": "<DrawStyleDef>\n\n    <defName>EmptyRectangle</defName>\n\n    <label>empty rectangle</label>\n\n    <uiIconPath>UI/Widgets/DrawStyles/RectangleEmpty</uiIconPath>\n\n    <drawStyleType>DrawStyle_EmptyRectangle</drawStyleType>\n\n    <drawOutline>true</drawOutline>\n\n  </DrawStyleDef>"
+        },
+        {
+            "Title": "FilledOval (DrawStyleDef)",
+            "Label": "filled oval",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_defs/draw_styles.xml`",
+            "XML": "<DrawStyleDef>\n\n    <defName>FilledOval</defName>\n\n    <label>filled oval</label>\n\n    <uiIconPath>UI/Widgets/DrawStyles/OvalFilled</uiIconPath>\n\n    <drawStyleType>DrawStyle_FilledOval</drawStyleType>\n\n    <drawOutline>true</drawOutline>\n\n  </DrawStyleDef>"
+        },
+        {
+            "Title": "EmptyOval (DrawStyleDef)",
+            "Label": "empty oval",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_defs/draw_styles.xml`",
+            "XML": "<DrawStyleDef>\n\n    <defName>EmptyOval</defName>\n\n    <label>empty oval</label>\n\n    <uiIconPath>UI/Widgets/DrawStyles/OvalEmpty</uiIconPath>\n\n    <drawStyleType>DrawStyle_EmptyOval</drawStyleType>\n\n    <drawOutline>true</drawOutline>\n\n  </DrawStyleDef>"
+        }
+    ]
+}

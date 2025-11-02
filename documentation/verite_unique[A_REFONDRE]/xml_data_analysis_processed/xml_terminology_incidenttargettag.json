@@ -1,0 +1,59 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Map_PlayerHome (IncidentTargetTagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_target_type_defs/incident_target_tag_defs.xml`",
+            "XML": "<IncidentTargetTagDef>\n\n    <defName>Map_PlayerHome</defName>\n\n  </IncidentTargetTagDef>"
+        },
+        {
+            "Title": "Map_TempIncident (IncidentTargetTagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_target_type_defs/incident_target_tag_defs.xml`",
+            "XML": "<IncidentTargetTagDef>\n\n    <defName>Map_TempIncident</defName>\n\n  </IncidentTargetTagDef>"
+        },
+        {
+            "Title": "Map_Misc (IncidentTargetTagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_target_type_defs/incident_target_tag_defs.xml`",
+            "XML": "<IncidentTargetTagDef>\n\n    <defName>Map_Misc</defName>\n\n  </IncidentTargetTagDef>"
+        },
+        {
+            "Title": "Map_RaidBeacon (IncidentTargetTagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_target_type_defs/incident_target_tag_defs.xml`",
+            "XML": "<IncidentTargetTagDef>\n\n    <defName>Map_RaidBeacon</defName>\n\n  </IncidentTargetTagDef>"
+        },
+        {
+            "Title": "Caravan (IncidentTargetTagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_target_type_defs/incident_target_tag_defs.xml`",
+            "XML": "<IncidentTargetTagDef>\n\n    <defName>Caravan</defName>\n\n  </IncidentTargetTagDef>"
+        },
+        {
+            "Title": "World (IncidentTargetTagDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/incident_target_type_defs/incident_target_tag_defs.xml`",
+            "XML": "<IncidentTargetTagDef>\n\n    <defName>World</defName>\n\n  </IncidentTargetTagDef>"
+        }
+    ]
+}

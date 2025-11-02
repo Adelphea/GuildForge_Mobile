@@ -1,0 +1,167 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Speech (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/ritual_effect_defs/ritual_effect_defs.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>Speech</defName>\n\n    <comps>\n\n      <li Class=\"CompProperties_RitualEffectSpawnOnPawn\">\n\n        <fleckDef>SpeechLines</fleckDef>\n\n        <compClass>CompRitualEffect_SpawnOnOrganizer</compClass>\n\n        <requiredTag>Arrived</requiredTag>\n\n        <eastRotationOffset>(0.5, 0, 0.2)</eastRotationOffset>\n\n        <westRotationOffset>(-0.5, 0, 0.2)</westRotationOffset>\n\n        <northRotationOffset>(0, 0, 0.5)</northRotationOffset>\n\n        <spawnIntervalTicks>45</spawnIntervalTicks>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Basic (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef ParentName=\"RitualGlowAbstract\">\n\n    <defName>Basic</defName>\n\n    <tintColor>(100, 165, 255)</tintColor>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Hindu (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef ParentName=\"RitualGlowAbstract\">\n\n    <defName>Hindu</defName>\n\n    <tintColor>(222, 85, 101)</tintColor>\n\n    <comps>\n\n      <li Class=\"CompProperties_RitualEffectIntervalSpawnArea\">\n\n        <fleckDef>BlurrySpark</fleckDef>\n\n        <area>(24, 22)</area>\n\n        <spawnIntervalTicks>3</spawnIntervalTicks>\n\n        <spawnCount>2</spawnCount>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n        <onlySpawnInSameRoom>true</onlySpawnInSameRoom>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Islamic (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef ParentName=\"RitualGlowAbstract\">\n\n    <defName>Islamic</defName>\n\n    <tintColor>(161, 255, 88)</tintColor>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Christian (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef ParentName=\"RitualGlowAbstract\">\n\n    <defName>Christian</defName>\n\n    <tintColor>(255, 218, 82)</tintColor>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Buddhist (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef ParentName=\"RitualGlowAbstract\">\n\n    <defName>Buddhist</defName>\n\n    <tintColor>(61, 255, 87)</tintColor>\n\n    <comps>\n\n      <li Class=\"CompProperties_RitualEffectIntervalSpawnArea\">\n\n        <fleckDef>Bokeh</fleckDef>\n\n        <area>(24, 22)</area>\n\n        <spawnIntervalTicks>8</spawnIntervalTicks>\n\n        <spawnCount>1</spawnCount>\n\n        <rotation>-35~35</rotation>\n\n        <scale>0.8~1.2</scale>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n        <onlySpawnInSameRoom>true</onlySpawnInSameRoom>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Totemic (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef ParentName=\"RitualSmokeAbstract\">\n\n    <defName>Totemic</defName>\n\n    <tintColor>(64, 255, 195)</tintColor>\n\n    <comps>\n\n      <li Class=\"CompProperties_RitualEffectConstantCircle\">\n\n        <radius>7.0</radius>\n\n        <numCopies>5</numCopies>\n\n        <moteDef>Mote_TotemOutline</moteDef>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n        <onlySpawnInSameRoom>true</onlySpawnInSameRoom>\n\n        <offset>(0, 0, 0.5)</offset>\n\n        <roomCheckOffset>(0, 0, -1)</roomCheckOffset>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Morbid (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>Morbid</defName>\n\n    <tintColor>(26, 20, 25)</tintColor>\n\n    <comps>\n\n      <li>\n\n        <compClass>CompRitualEffect_ConstantCenter</compClass>\n\n        <moteDef>Mote_RitualSmokeThick</moteDef>\n\n        <scaleWithRoom>true</scaleWithRoom>\n\n      </li>\n\n      <li Class=\"CompProperties_RitualEffectIntervalSpawnCircle\">\n\n        <fleckDef>Skull</fleckDef>\n\n        <area>(27, 28)</area>\n\n        <radius>6</radius>\n\n        <concentration>3</concentration>\n\n        <spawnIntervalTicks>9</spawnIntervalTicks>\n\n        <spawnCount>1</spawnCount>\n\n        <rotation>-15~15</rotation>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n        <onlySpawnInSameRoom>true</onlySpawnInSameRoom>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Rustic (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>Rustic</defName>\n\n    <tintColor>(133, 118, 100)</tintColor>\n\n    <comps>\n\n      <li>\n\n        <compClass>CompRitualEffect_ConstantCenter</compClass>\n\n        <moteDef>Mote_RitualSmokeDust</moteDef>\n\n        <scaleWithRoom>true</scaleWithRoom>\n\n      </li>\n\n      <li Class=\"CompProperties_RitualEffectIntervalSpawnArea\">\n\n        <fleckDef>Tumbleweed</fleckDef>\n\n        <area>(8, 22)</area>\n\n        <offset>(-5, 0, 0)</offset>\n\n        <spawnIntervalTicks>89</spawnIntervalTicks>\n\n        <spawnCount>1</spawnCount>\n\n        <velocityDir>(1, 0, 0)</velocityDir>\n\n        <velocity>1.8~2.2</velocity>\n\n        <rotationRate>100</rotationRate>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Animalist (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>Animalist</defName>\n\n    <tintColor>(115, 135, 120)</tintColor>\n\n    <comps>\n\n      <li>\n\n        <compClass>CompRitualEffect_ConstantCenter</compClass>\n\n        <moteDef>Mote_RitualSmokeDustVague</moteDef>\n\n        <scaleWithRoom>true</scaleWithRoom>\n\n      </li>\n\n      <li Class=\"CompProperties_RitualEffectIntervalSpawnArea\">\n\n        <fleckDef>LeafFlipped</fleckDef>\n\n        <area>(5, 6)</area>\n\n        <offset>(-6, 0, 4)</offset>\n\n        <spawnIntervalTicks>23</spawnIntervalTicks>\n\n        <spawnCount>1</spawnCount>\n\n        <velocityDir>(1, 0, 0)</velocityDir>\n\n        <velocity>1.8~2.2</velocity>\n\n        <rotation>190~230</rotation>\n\n        <overrideColors>\n\n          <li>(183, 248, 114)</li>\n\n          <li>(199, 233, 79)</li>\n\n          <li>(158, 235, 95)</li>\n\n        </overrideColors>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n      </li>\n\n      <li Class=\"CompProperties_RitualEffectIntervalSpawnArea\">\n\n        <fleckDef>Leaf</fleckDef>\n\n        <area>(5, 6)</area>\n\n        <offset>(6, 0, -4)</offset>\n\n        <spawnIntervalTicks>23</spawnIntervalTicks>\n\n        <spawnCount>1</spawnCount>\n\n        <velocityDir>(1, 0, 0)</velocityDir>\n\n        <velocity>-1.8~-2.2</velocity>\n\n        <rotation>-5~75</rotation>\n\n        <overrideColors>\n\n          <li>(183, 248, 114)</li>\n\n          <li>(199, 233, 79)</li>\n\n          <li>(158, 235, 95)</li>\n\n        </overrideColors>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Spikecore (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>Spikecore</defName>\n\n    <tintColor>(24, 21, 27)</tintColor>\n\n    <comps>\n\n      <li>\n\n        <compClass>CompRitualEffect_ConstantCenter</compClass>\n\n        <moteDef>Mote_RitualSmokeThickSlim</moteDef>\n\n        <scaleWithRoom>true</scaleWithRoom>\n\n      </li>\n\n      <li Class=\"CompProperties_RitualEffectConstantCircle\">\n\n        <radius>7.0</radius>\n\n        <numCopies>5</numCopies>\n\n        <moteDef>Mote_SpikePipe</moteDef>\n\n        <colorOverride>(255, 255, 255, 255)</colorOverride>\n\n        <offset>(0, 0, -1)</offset>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n        <onlySpawnInSameRoom>true</onlySpawnInSameRoom>\n\n      </li>\n\n      <li Class=\"CompProperties_RitualEffectIntervalSpawnDividedCircle\">\n\n        <radius>7.0</radius>\n\n        <numCopies>5</numCopies>\n\n        <offset>(0, 0, -0.2)</offset>\n\n        <roomCheckOffset>(0, 0, -1)</roomCheckOffset>\n\n        <effecterDef>SpikecoreSparks</effecterDef>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n        <onlySpawnInSameRoom>true</onlySpawnInSameRoom>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Techist (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>Techist</defName>\n\n    <tintColor>(115, 165, 155)</tintColor>\n\n    <comps>\n\n      <li>\n\n        <compClass>CompRitualEffect_ConstantCenter</compClass>\n\n        <moteDef>Mote_RitualSmokeDust</moteDef>\n\n        <scaleWithRoom>true</scaleWithRoom>\n\n      </li>\n\n      <li Class=\"CompProperties_RitualEffectStaticAreaRandomMote\">\n\n        <moteDefs>\n\n          <li>Mote_RitualTechLineA</li>\n\n          <li>Mote_RitualTechLineB</li>\n\n          <li>Mote_RitualTechLineC</li>\n\n        </moteDefs>\n\n        <area>(24, 22)</area>\n\n        <spawnCount>12</spawnCount>\n\n        <minDist>2</minDist>\n\n        <scalePositionWithRoom>true</scalePositionWithRoom>\n\n        <onlySpawnInSameRoom>true</onlySpawnInSameRoom>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "DanceParty (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>DanceParty</defName>\n\n    <comps>\n\n      <li Class=\"CompProperties_RitualEffectLightball\">\n\n        <fleckDef>PartyLensFlare</fleckDef>\n\n        <radius>3</radius>\n\n        <spawnIntervalTicks>30</spawnIntervalTicks>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "DrumParty (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>DrumParty</defName>\n\n    <comps>\n\n      <li Class=\"CompProperties_RitualEffectDrum\">\n\n        <fleckDef>DustPuff</fleckDef>\n\n        <maxDistance>12</maxDistance>\n\n        <spawnIntervalTicks>45</spawnIntervalTicks>\n\n        <spawnCount>5</spawnCount>\n\n        <maxOffset>0.4</maxOffset>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Funeral (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>Funeral</defName>\n\n    <comps>\n\n      <li>\n\n        <compClass>CompRitualEffect_ConstantCenter</compClass>\n\n        <moteDef>Mote_RitualGlowSingleRay</moteDef>\n\n        <offset>(0.26, 0, 2.25)</offset>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "SacrificePrisoner (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>SacrificePrisoner</defName>\n\n    <comps>\n\n      <li Class=\"CompProperties_RitualEffectSpawnOnRole\">\n\n        <effecterDef>Damage_HitFleshGruesome</effecterDef>\n\n        <roleId>prisoner</roleId>\n\n        <maxBursts>1</maxBursts>\n\n        <delay>34</delay>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "SacrificeAnimal (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>SacrificeAnimal</defName>\n\n    <comps>\n\n      <li Class=\"CompProperties_RitualEffectSpawnOnRole\">\n\n        <effecterDef>Damage_HitFleshGruesome</effecterDef>\n\n        <roleId>animal</roleId>\n\n        <maxBursts>1</maxBursts>\n\n        <delay>34</delay>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        },
+        {
+            "Title": "Duel (RitualVisualEffectDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_visual_effects.xml`",
+            "XML": "<RitualVisualEffectDef>\n\n    <defName>Duel</defName>\n\n    <comps>\n\n      <li>\n\n        <compClass>CompRitualEffect_ConstantCenter</compClass>\n\n        <moteDef>Mote_DuelCircle</moteDef>\n\n      </li>\n\n    </comps>\n\n  </RitualVisualEffectDef>"
+        }
+    ]
+}

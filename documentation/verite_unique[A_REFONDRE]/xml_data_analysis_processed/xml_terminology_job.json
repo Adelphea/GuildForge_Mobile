@@ -1,0 +1,14 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "TriggerObject (jobDef)",
+            "Label": "Trigger Object",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "`driverClass: JobDriver_UseItem`, `allowOpportunisticPrefix: true`, `reportString: triggering TargetA.`",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/job_defs/jobs_misc.xml`",
+            "XML": "<jobDef>\n\n    <defName>TriggerObject</defName>\n\n    <driverClass>JobDriver_UseItem</driverClass>\n\n    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>\n\n    <reportString>triggering TargetA.</reportString>\n\n</jobDef>"
+        }
+    ]
+}

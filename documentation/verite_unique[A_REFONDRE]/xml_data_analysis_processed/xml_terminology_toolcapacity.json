@@ -1,0 +1,113 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_Swallow (ToolCapacityDef)",
+            "Label": "swallow whole",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n\t\t<defName>DankPyon_Swallow</defName>\n\n\t\t<label>swallow whole</label>\n\n\t</ToolCapacityDef>"
+        },
+        {
+            "Title": "DankPyon_LindwurmAcid (ToolCapacityDef)",
+            "Label": "toxic bite",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n\t\t<defName>DankPyon_LindwurmAcid</defName>\n\n\t\t<label>toxic bite</label>\n\n\t</ToolCapacityDef>"
+        },
+        {
+            "Title": "Stab (ToolCapacityDef)",
+            "Label": "stab",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>Stab</defName>\n\n    <label>stab</label>\n\n  </ToolCapacityDef>"
+        },
+        {
+            "Title": "Cut (ToolCapacityDef)",
+            "Label": "cut",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>Cut</defName>\n\n    <label>cut</label>\n\n  </ToolCapacityDef>"
+        },
+        {
+            "Title": "Blunt (ToolCapacityDef)",
+            "Label": "blunt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>Blunt</defName>\n\n    <label>blunt</label>\n\n  </ToolCapacityDef>"
+        },
+        {
+            "Title": "Scratch (ToolCapacityDef)",
+            "Label": "scratch",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>Scratch</defName>\n\n    <label>scratch</label>\n\n  </ToolCapacityDef>"
+        },
+        {
+            "Title": "Poke (ToolCapacityDef)",
+            "Label": "poke",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>Poke</defName>\n\n    <label>poke</label>\n\n  </ToolCapacityDef>"
+        },
+        {
+            "Title": "Bite (ToolCapacityDef)",
+            "Label": "bite",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>Bite</defName>\n\n    <label>bite</label>\n\n  </ToolCapacityDef>"
+        },
+        {
+            "Title": "ToxicBite (ToolCapacityDef)",
+            "Label": "toxic bite",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>ToxicBite</defName>\n\n    <label>toxic bite</label>\n\n  </ToolCapacityDef>"
+        },
+        {
+            "Title": "ScratchToxic (ToolCapacityDef)",
+            "Label": "toxic scratch",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>ScratchToxic</defName>\n\n    <label>toxic scratch</label>\n\n  </ToolCapacityDef>"
+        },
+        {
+            "Title": "KickMaterialInEyes (ToolCapacityDef)",
+            "Label": "kick material in eyes",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>KickMaterialInEyes</defName>\n\n    <label>kick material in eyes</label>\n\n  </ToolCapacityDef>"
+        },
+        {
+            "Title": "Demolish (ToolCapacityDef)",
+            "Label": "demolish",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tool_capacity_defs/tool_capacity.xml`",
+            "XML": "<ToolCapacityDef>\n\n    <defName>Demolish</defName>\n\n    <label>demolish</label>\n\n  </ToolCapacityDef>"
+        }
+    ]
+}

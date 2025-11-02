@@ -1,0 +1,176 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "GraveWithTargetsCorpse (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>GraveWithTargetsCorpse</defName>\n\n    <workerClass>RitualObligationTargetWorker_GraveWithTarget</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "AnyEmptyGrave (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>AnyEmptyGrave</defName>\n\n    <workerClass>RitualObligationTargetWorker_AnyEmptyGrave</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "GatheringSpot (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>GatheringSpot</defName>\n\n    <workerClass>RitualObligationTargetWorker_AnyGatherSpot</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "GatheringSpotOrAltar (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>GatheringSpotOrAltar</defName>\n\n    <workerClass>RitualObligationTargetWorker_AnyGatherSpotOrAltar</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "RitualSpotOrAltar (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>RitualSpotOrAltar</defName>\n\n    <workerClass>RitualObligationTargetWorker_AnyRitualSpotOrAltar</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "AnyRitualSpot (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>AnyRitualSpot</defName>\n\n    <workerClass>RitualObligationTargetWorker_AnyRitualSpot</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "AnyIdeoBuildingOrRitualSpot (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>AnyIdeoBuildingOrRitualSpot</defName>\n\n    <workerClass>RitualObligationTargetWorker_IdeoBuildingOrRitualSpot</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "RitualSpotIdeogramOrAltar (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>RitualSpotIdeogramOrAltar</defName>\n\n    <workerClass>RitualObligationTargetWorker_AnyRitualSpotIdeogramOrAltar</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "LightBall (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>LightBall</defName>\n\n    <workerClass>RitualObligationTargetWorker_LightBall</workerClass>\n\n    <maxSpeakerDistance>12</maxSpeakerDistance>\n\n    <thingDefs>\n\n      <li>LightBall</li>\n\n      <li>RitualSpot</li>\n\n    </thingDefs>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "RitualSpotOrCampfireParty (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>RitualSpotOrCampfireParty</defName>\n\n    <workerClass>RitualObligationTargetWorker_CampfireParty</workerClass>\n\n    <maxDrumDistance>12</maxDrumDistance>\n\n    <thingDefs>\n\n      <li>Campfire</li>\n\n      <li>RitualSpot</li>\n\n    </thingDefs>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "CampfireSkylanterns (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>CampfireSkylanterns</defName>\n\n    <workerClass>RitualObligationTargetWorker_SkyLanterns</workerClass>\n\n    <minUnroofedCells>25</minUnroofedCells>\n\n    <unroofedCellSearchRadius>12</unroofedCellSearchRadius>\n\n    <woodPerParticipant>4</woodPerParticipant>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "ChristmasTree (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>ChristmasTree</defName>\n\n    <workerClass>RitualObligationTargetWorker_ConsumableBuilding</workerClass>\n\n    <thingDefs>\n\n      <li>ChristmasTree</li>\n\n    </thingDefs>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "BurnTargets (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>BurnTargets</defName>\n\n    <workerClass>RitualObligationTargetWorker_ConsumableBuilding</workerClass>\n\n    <thingDefs>\n\n      <li>Effigy</li>\n\n      <li>Pyre</li>\n\n      <li>SacrificialFlag</li>\n\n    </thingDefs>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "SmokeCircle (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>SmokeCircle</defName>\n\n    <workerClass>RitualObligationTargetWorker_ConsumableBuilding</workerClass>\n\n    <thingDefs>\n\n      <li>Burnbong</li>\n\n      <li>IncenseShrine</li>\n\n    </thingDefs>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "FeastCannibal (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>FeastCannibal</defName>\n\n    <workerClass>RitualObligationTargetWorker_ConsumableBuilding</workerClass>\n\n    <thingDefs>\n\n      <li>CannibalPlatter</li>\n\n    </thingDefs>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "RitualSpotOrAltar_Scarification (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>RitualSpotOrAltar_Scarification</defName>\n\n    <workerClass>RitualObligationTargetWorker_AnyRitualSpotOrAltar_Scarification</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "RitualSpotOrAltar_Blinding (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>RitualSpotOrAltar_Blinding</defName>\n\n    <workerClass>RitualObligationTargetWorker_AnyRitualSpotOrAltar_Blinding</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "GauranlenTree (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>GauranlenTree</defName>\n\n    <workerClass>RitualObligationTargetWorker_UnconnectedGauranlenTree</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        },
+        {
+            "Title": "AnimaTree (RitualObligationTargetFilterDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/rituals/ritual_targets.xml`",
+            "XML": "<RitualObligationTargetFilterDef>\n\n    <defName>AnimaTree</defName>\n\n    <workerClass>RitualObligationTargetWorker_AnimaTree</workerClass>\n\n  </RitualObligationTargetFilterDef>"
+        }
+    ]
+}

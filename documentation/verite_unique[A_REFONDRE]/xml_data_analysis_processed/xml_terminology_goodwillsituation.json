@@ -1,0 +1,356 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "PermanentEnemy (GoodwillSituationDef)",
+            "Label": "permanently hostile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/goodwill/goodwill_situations_misc.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>PermanentEnemy</defName>\n\n    <label>permanently hostile</label>\n\n    <workerClass>GoodwillSituationWorker_PermanentEnemy</workerClass>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "NaturalEnemy (GoodwillSituationDef)",
+            "Label": "natural enemy",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/goodwill/goodwill_situations_misc.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>NaturalEnemy</defName>\n\n    <label>natural enemy</label>\n\n    <workerClass>GoodwillSituationWorker_NaturalEnemy</workerClass>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "AttackingSettlement (GoodwillSituationDef)",
+            "Label": "attacking settlement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/goodwill/goodwill_situations_misc.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>AttackingSettlement</defName>\n\n    <label>attacking settlement</label>\n\n    <workerClass>GoodwillSituationWorker_AttackingSettlement</workerClass>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "SameIdeo (GoodwillSituationDef)",
+            "Label": "both follow {0_name}",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>SameIdeo</defName>\n\n    <label>both follow {0_name}</label>\n\n    <workerClass>GoodwillSituationWorker_SameIdeo</workerClass>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "AnimalPersonhood_AnimalPersonhood (GoodwillSituationDef)",
+            "Label": "animal personhood agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>AnimalPersonhood_AnimalPersonhood</defName>\n\n    <label>animal personhood agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>AnimalPersonhood</meme>\n\n    <otherMeme>AnimalPersonhood</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Transhumanist_Transhumanist (GoodwillSituationDef)",
+            "Label": "transhumanist agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Transhumanist_Transhumanist</defName>\n\n    <label>transhumanist agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Transhumanist</meme>\n\n    <otherMeme>Transhumanist</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "FleshPurity_FleshPurity (GoodwillSituationDef)",
+            "Label": "flesh purity agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>FleshPurity_FleshPurity</defName>\n\n    <label>flesh purity agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>FleshPurity</meme>\n\n    <otherMeme>FleshPurity</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "PainIsVirtue_PainIsVirtue (GoodwillSituationDef)",
+            "Label": "pain is virtue agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>PainIsVirtue_PainIsVirtue</defName>\n\n    <label>pain is virtue agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>PainIsVirtue</meme>\n\n    <otherMeme>PainIsVirtue</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Cannibal_Cannibal (GoodwillSituationDef)",
+            "Label": "cannibalism agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Cannibal_Cannibal</defName>\n\n    <label>cannibalism agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Cannibal</meme>\n\n    <otherMeme>Cannibal</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "HumanPrimacy_HumanPrimacy (GoodwillSituationDef)",
+            "Label": "human primacy agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>HumanPrimacy_HumanPrimacy</defName>\n\n    <label>human primacy agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>HumanPrimacy</meme>\n\n    <otherMeme>HumanPrimacy</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "NaturePrimacy_NaturePrimacy (GoodwillSituationDef)",
+            "Label": "nature primacy agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>NaturePrimacy_NaturePrimacy</defName>\n\n    <label>nature primacy agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>NaturePrimacy</meme>\n\n    <otherMeme>NaturePrimacy</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Individualist_Individualist (GoodwillSituationDef)",
+            "Label": "individualist agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Individualist_Individualist</defName>\n\n    <label>individualist agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Individualist</meme>\n\n    <otherMeme>Individualist</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Collectivist_Collectivist (GoodwillSituationDef)",
+            "Label": "collectivist agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Collectivist_Collectivist</defName>\n\n    <label>collectivist agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Collectivist</meme>\n\n    <otherMeme>Collectivist</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "MaleSupremacy_MaleSupremacy (GoodwillSituationDef)",
+            "Label": "male supremacy agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>MaleSupremacy_MaleSupremacy</defName>\n\n    <label>male supremacy agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>MaleSupremacy</meme>\n\n    <otherMeme>MaleSupremacy</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "FemaleSupremacy_FemaleSupremacy (GoodwillSituationDef)",
+            "Label": "female supremacy agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>FemaleSupremacy_FemaleSupremacy</defName>\n\n    <label>female supremacy agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>FemaleSupremacy</meme>\n\n    <otherMeme>FemaleSupremacy</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Nudism_Nudism (GoodwillSituationDef)",
+            "Label": "nudism agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Nudism_Nudism</defName>\n\n    <label>nudism agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Nudism</meme>\n\n    <otherMeme>Nudism</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "HighLife_HighLife (GoodwillSituationDef)",
+            "Label": "high life agreement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>HighLife_HighLife</defName>\n\n    <label>high life agreement</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>HighLife</meme>\n\n    <otherMeme>HighLife</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Cannibal_FleshPurity (GoodwillSituationDef)",
+            "Label": "cannibal vs flesh purity",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Cannibal_FleshPurity</defName>\n\n    <label>cannibal vs flesh purity</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Cannibal</meme>\n\n    <otherMeme>FleshPurity</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Cannibal_PainIsVirtue (GoodwillSituationDef)",
+            "Label": "cannibal vs pain is virtue",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Cannibal_PainIsVirtue</defName>\n\n    <label>cannibal vs pain is virtue</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Cannibal</meme>\n\n    <otherMeme>PainIsVirtue</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "HumanPrimacy_Transhumanist (GoodwillSituationDef)",
+            "Label": "human primacy vs transhumanist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>HumanPrimacy_Transhumanist</defName>\n\n    <label>human primacy vs transhumanist</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>HumanPrimacy</meme>\n\n    <otherMeme>Transhumanist</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "HumanPrimacy_FleshPurity (GoodwillSituationDef)",
+            "Label": "human primacy vs flesh purity",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>HumanPrimacy_FleshPurity</defName>\n\n    <label>human primacy vs flesh purity</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>HumanPrimacy</meme>\n\n    <otherMeme>FleshPurity</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "NaturePrimacy_AnimalPersonhood (GoodwillSituationDef)",
+            "Label": "nature primacy vs animal personhood",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>NaturePrimacy_AnimalPersonhood</defName>\n\n    <label>nature primacy vs animal personhood</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>NaturePrimacy</meme>\n\n    <otherMeme>AnimalPersonhood</otherMeme>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Guilty_All (GoodwillSituationDef)",
+            "Label": "guilty",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Guilty_All</defName>\n\n    <label>guilty</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Guilty</meme>\n\n    <versusAll>true</versusAll>\n\n    <naturalGoodwillOffset>10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "FleshPurity_Transhumanist (GoodwillSituationDef)",
+            "Label": "flesh purity vs transhumanist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>FleshPurity_Transhumanist</defName>\n\n    <label>flesh purity vs transhumanist</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>FleshPurity</meme>\n\n    <otherMeme>Transhumanist</otherMeme>\n\n    <naturalGoodwillOffset>-20</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "NaturePrimacy_Transhumanist (GoodwillSituationDef)",
+            "Label": "nature primacy vs transhumanist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>NaturePrimacy_Transhumanist</defName>\n\n    <label>nature primacy vs transhumanist</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>NaturePrimacy</meme>\n\n    <otherMeme>Transhumanist</otherMeme>\n\n    <naturalGoodwillOffset>-20</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "HumanPrimacy_AnimalPersonhood (GoodwillSituationDef)",
+            "Label": "human primacy vs animal personhood",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>HumanPrimacy_AnimalPersonhood</defName>\n\n    <label>human primacy vs animal personhood</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>HumanPrimacy</meme>\n\n    <otherMeme>AnimalPersonhood</otherMeme>\n\n    <naturalGoodwillOffset>-10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Individualist_Cannibal (GoodwillSituationDef)",
+            "Label": "individualist vs cannibal",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Individualist_Cannibal</defName>\n\n    <label>individualist vs cannibal</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Individualist</meme>\n\n    <otherMeme>Cannibal</otherMeme>\n\n    <naturalGoodwillOffset>-10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Individualist_Proselytizer (GoodwillSituationDef)",
+            "Label": "individualist vs proselytizer",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Individualist_Proselytizer</defName>\n\n    <label>individualist vs proselytizer</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Individualist</meme>\n\n    <otherMeme>Proselytizer</otherMeme>\n\n    <naturalGoodwillOffset>-10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Collectivist_Individualist (GoodwillSituationDef)",
+            "Label": "collectivist vs individualist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Collectivist_Individualist</defName>\n\n    <label>collectivist vs individualist</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Collectivist</meme>\n\n    <otherMeme>Individualist</otherMeme>\n\n    <naturalGoodwillOffset>-10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "MaleSupremacy_Individualist (GoodwillSituationDef)",
+            "Label": "male supremacy vs individualist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>MaleSupremacy_Individualist</defName>\n\n    <label>male supremacy vs individualist</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>MaleSupremacy</meme>\n\n    <otherMeme>Individualist</otherMeme>\n\n    <naturalGoodwillOffset>-10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "FemaleSupremacy_Individualist (GoodwillSituationDef)",
+            "Label": "female supremacy vs individualist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>FemaleSupremacy_Individualist</defName>\n\n    <label>female supremacy vs individualist</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>FemaleSupremacy</meme>\n\n    <otherMeme>Individualist</otherMeme>\n\n    <naturalGoodwillOffset>-10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Rancher_AnimalPersonhood (GoodwillSituationDef)",
+            "Label": "rancher vs animal personhood",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Rancher_AnimalPersonhood</defName>\n\n    <label>rancher vs animal personhood</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Rancher</meme>\n\n    <otherMeme>AnimalPersonhood</otherMeme>\n\n    <naturalGoodwillOffset>-10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "NaturePrimacy_HumanPrimacy (GoodwillSituationDef)",
+            "Label": "nature primacy vs human primacy",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>NaturePrimacy_HumanPrimacy</defName>\n\n    <label>nature primacy vs human primacy</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>NaturePrimacy</meme>\n\n    <otherMeme>HumanPrimacy</otherMeme>\n\n    <naturalGoodwillOffset>-30</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "FemaleSupremacy_MaleSupremacy (GoodwillSituationDef)",
+            "Label": "female supremacy vs male supremacy",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>FemaleSupremacy_MaleSupremacy</defName>\n\n    <label>female supremacy vs male supremacy</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>FemaleSupremacy</meme>\n\n    <otherMeme>MaleSupremacy</otherMeme>\n\n    <naturalGoodwillOffset>-30</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "HighLife_FleshPurity (GoodwillSituationDef)",
+            "Label": "high life vs flesh purity",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>HighLife_FleshPurity</defName>\n\n    <label>high life vs flesh purity</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>HighLife</meme>\n\n    <otherMeme>FleshPurity</otherMeme>\n\n    <naturalGoodwillOffset>-30</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Rancher_NaturePrimacy (GoodwillSituationDef)",
+            "Label": "rancher vs nature primacy",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Rancher_NaturePrimacy</defName>\n\n    <label>rancher vs nature primacy</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Rancher</meme>\n\n    <otherMeme>NaturePrimacy</otherMeme>\n\n    <naturalGoodwillOffset>-30</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Supremacist_All (GoodwillSituationDef)",
+            "Label": "supremacist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Supremacist_All</defName>\n\n    <label>supremacist</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Supremacist</meme>\n\n    <versusAll>true</versusAll>\n\n    <naturalGoodwillOffset>-50</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Raider_All (GoodwillSituationDef)",
+            "Label": "raider",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Raider_All</defName>\n\n    <label>raider</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Raider</meme>\n\n    <versusAll>true</versusAll>\n\n    <naturalGoodwillOffset>-50</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        },
+        {
+            "Title": "Loyalist_All (GoodwillSituationDef)",
+            "Label": "loyalist",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/goodwill/goodwill_situations_meme_compatibility.xml`",
+            "XML": "<GoodwillSituationDef>\n\n    <defName>Loyalist_All</defName>\n\n    <label>loyalist</label>\n\n    <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>\n\n    <meme>Loyalist</meme>\n\n    <versusAll>true</versusAll>\n\n    <naturalGoodwillOffset>-10</naturalGoodwillOffset>\n\n  </GoodwillSituationDef>"
+        }
+    ]
+}

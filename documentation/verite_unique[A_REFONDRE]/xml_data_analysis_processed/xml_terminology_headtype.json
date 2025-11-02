@@ -1,0 +1,131 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Skull (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"AverageBase\">\n\n    <defName>Skull</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/None_Average_Skull</graphicPath>\n\n    <selectionWeight>0</selectionWeight>\n\n    <randomChosen>false</randomChosen>\n\n    <gender>None</gender>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Stump (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"AverageBase\">\n\n    <defName>Stump</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/None_Average_Stump</graphicPath>\n\n    <selectionWeight>0</selectionWeight>\n\n    <randomChosen>false</randomChosen>\n\n    <gender>None</gender>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Male_AverageNormal (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"AverageBase\">\n\n    <defName>Male_AverageNormal</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_Average_Normal</graphicPath>\n\n    <gender>Male</gender>\n\n    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Male_AveragePointy (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"AverageBase\">\n\n    <defName>Male_AveragePointy</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_Average_Pointy</graphicPath>\n\n    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>\n\n    <gender>Male</gender>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Male_AverageWide (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"AverageBase\">\n\n    <defName>Male_AverageWide</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_Average_Wide</graphicPath>\n\n    <gender>Male</gender>\n\n    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Male_NarrowNormal (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"NarrowBase\">\n\n    <defName>Male_NarrowNormal</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_Narrow_Normal</graphicPath>\n\n    <gender>Male</gender>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Male_NarrowPointy (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"NarrowBase\">\n\n    <defName>Male_NarrowPointy</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_Narrow_Pointy</graphicPath>\n\n    <gender>Male</gender>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Male_NarrowWide (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"NarrowBase\">\n\n    <defName>Male_NarrowWide</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_Narrow_Wide</graphicPath>\n\n    <gender>Male</gender>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Female_AverageNormal (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"AverageBase\">\n\n    <defName>Female_AverageNormal</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_Average_Normal</graphicPath>\n\n    <gender>Female</gender>\n\n    <eyeOffsetEastWest>(0.13, 0, 0.17)</eyeOffsetEastWest>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Female_AveragePointy (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"AverageBase\">\n\n    <defName>Female_AveragePointy</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_Average_Pointy</graphicPath>\n\n    <gender>Female</gender>\n\n    <eyeOffsetEastWest>(0.13, 0, 0.17)</eyeOffsetEastWest>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Female_AverageWide (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"AverageBase\">\n\n    <defName>Female_AverageWide</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_Average_Wide</graphicPath>\n\n    <gender>Female</gender>\n\n    <eyeOffsetEastWest>(0.13, 0, 0.17)</eyeOffsetEastWest>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Female_NarrowNormal (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"NarrowBase\">\n\n    <defName>Female_NarrowNormal</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_Narrow_Normal</graphicPath>\n\n    <gender>Female</gender>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Female_NarrowPointy (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"NarrowBase\">\n\n    <defName>Female_NarrowPointy</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_Narrow_Pointy</graphicPath>\n\n    <gender>Female</gender>\n\n  </HeadTypeDef>"
+        },
+        {
+            "Title": "Female_NarrowWide (HeadTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/head_type_defs/head_type_defs.xml`",
+            "XML": "<HeadTypeDef ParentName=\"NarrowBase\">\n\n    <defName>Female_NarrowWide</defName>\n\n    <graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_Narrow_Wide</graphicPath>\n\n    <gender>Female</gender>\n\n  </HeadTypeDef>"
+        }
+    ]
+}

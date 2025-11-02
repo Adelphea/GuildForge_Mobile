@@ -1,0 +1,428 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "AnimalChat (InteractionDef)",
+            "Label": "animal chat",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_animal.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>AnimalChat</defName>\n\n    <label>animal chat</label>\n\n    <symbol>Things/Mote/SpeechSymbols/AnimalChat</symbol>\n\n    <initiatorXpGainSkill>Animals</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>70</initiatorXpGainAmount>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry(p=5)-&gt;[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicAny].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicAny].</li>\n\n\n\n        <li>tamed-&gt;made calming noises towards</li>\n\n        <li>tamed-&gt;offered slow, friendly gestures to</li>\n\n        <li>tamed-&gt;made shushing noises at</li>\n\n        <li>tamed-&gt;made happy clicking noises at</li>\n\n        <li>tamed-&gt;gestured gently and approached</li>\n\n        <li>tamed-&gt;slowly approached</li>\n\n        <li>tamed-&gt;gently touched</li>\n\n        <li>tamed-&gt;calmed and encouraged</li>\n\n        <li>tamed-&gt;matched breathing with</li>\n\n        <li>tamed-&gt;took a low stance while approaching</li>\n\n        <li>tamed-&gt;showed no fear or anger to</li>\n\n        <li>tamed-&gt;feigned inattention towards</li>\n\n        <li>tamed-&gt;gently hummed a song at</li>\n\n        <li>tamed-&gt;sang an old lullaby at</li>\n\n        <li>tamed-&gt;firmly yet softly touched</li>\n\n        <li>tamed-&gt;showed a relaxed attitude towards</li>\n\n        <li>tamed-&gt;sat patiently near</li>\n\n        <li>tamed-&gt;whispered a story about [TalkTopicAny] to</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "TameAttempt (InteractionDef)",
+            "Label": "tame attempt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_animal.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>TameAttempt</defName>\n\n    <label>tame attempt</label>\n\n    <symbol>Things/Mote/SpeechSymbols/PrisonerRecruit</symbol>\n\n    <workerClass>InteractionWorker_RecruitAttempt</workerClass>\n\n    <initiatorXpGainSkill>Animals</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>90</initiatorXpGainAmount>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] tried to bring [RECIPIENT_nameDef] under control.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] attempted to collar [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] demanded obedience from [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come to [INITIATOR_objective].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] tried to make [RECIPIENT_nameDef] sit still.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] seized [RECIPIENT_nameDef] sharply and barked a command.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] attempted to hold [RECIPIENT_nameDef] still.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] shouted a command at [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] slapped [RECIPIENT_nameDef] in a show of dominance.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] directed [RECIPIENT_nameDef] back towards the community.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come back to the community.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] touched a vulnerable body part of [RECIPIENT_nameDef], demanding obedience.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] pointed at the ground, demanding that [RECIPIENT_nameDef] come.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a first command.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "TrainAttempt (InteractionDef)",
+            "Label": "train attempt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_animal.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>TrainAttempt</defName>\n\n    <label>train attempt</label>\n\n    <symbol>Things/Mote/SpeechSymbols/TrainAttempt</symbol>\n\n    <initiatorXpGainSkill>Animals</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>70</initiatorXpGainAmount>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>\n\n\n\n        <li>trained(p=2)-&gt;[tried] to train</li>\n\n        <li>trained-&gt;[tried] to show a new trick to</li>\n\n        <li>trained-&gt;[tried] to discipline</li>\n\n        <li>trained-&gt;[tried] to instruct</li>\n\n        <li>trained-&gt;[tried] to encourage a new skill in</li>\n\n        <li>trained-&gt;demonstrated a skill to</li>\n\n        <li>trained-&gt;encouraged a new response from</li>\n\n\n\n        <li>tried-&gt;tried</li>\n\n        <li>tried-&gt;attempted</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Nuzzle (InteractionDef)",
+            "Label": "nuzzle",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_animal.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Nuzzle</defName>\n\n    <label>nuzzle</label>\n\n    <interactionMote>Mote_Thought</interactionMote>\n\n    <symbol>Things/Mote/SpeechSymbols/Nuzzle</symbol>\n\n    <workerClass>InteractionWorker_Nuzzle</workerClass>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry(p=2)-&gt;[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>\n\n\n\n        <li>nuzzled(p=2)-&gt;nuzzled</li>\n\n        <li>nuzzled-&gt;snuggled up to</li>\n\n\n\n        <li>nuzzleadverb(p=4)-&gt;</li>\n\n        <li>nuzzleadverb-&gt;gently</li>\n\n        <li>nuzzleadverb-&gt;encouragingly</li>\n\n        <li>nuzzleadverb-&gt;happily</li>\n\n        <li>nuzzleadverb-&gt;softly</li>\n\n        <li>nuzzleadverb-&gt;supportively</li>\n\n        <li>nuzzleadverb-&gt;lightly</li>\n\n        <li>nuzzleadverb-&gt;warmly</li>\n\n        <li>nuzzleadverb-&gt;plaintively</li>\n\n        <li>nuzzleadverb-&gt;lovingly</li>\n\n        <li>nuzzleadverb-&gt;affectionately</li>\n\n\n\n        <li>rubbedpart-&gt;leg</li>\n\n        <li>rubbedpart-&gt;knee</li>\n\n        <li>rubbedpart-&gt;foot</li>\n\n        <li>rubbedpart-&gt;elbow</li>\n\n        <li>rubbedpart-&gt;hip</li>\n\n        <li>rubbedpart-&gt;shoulder</li>\n\n        <li>rubbedpart-&gt;hand</li>\n\n        <li>rubbedpart-&gt;side</li>\n\n        <li>rubbedpart-&gt;arm</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "ReleaseToWild (InteractionDef)",
+            "Label": "release to the wild",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_animal.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>ReleaseToWild</defName>\n\n    <label>release to the wild</label>\n\n    <symbol>UI/Designators/ReleaseToTheWild</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[farewell] [released]</li>\n\n\n\n        <li>farewell-&gt;[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>\n\n        <li>farewell-&gt;[INITIATOR_nameDef] said some warm words to [RECIPIENT_nameDef]</li>\n\n        <li>farewell-&gt;[INITIATOR_nameDef] removed [RECIPIENT_nameDef]'s collar</li>\n\n        <li>farewell-&gt;[INITIATOR_nameDef] reminisced about the good time [INITIATOR_pronoun] had with [RECIPIENT_nameDef]</li>\n\n        \n\n        <li>released-&gt;and released [RECIPIENT_objective] to the wild.</li>\n\n        <li>released-&gt;and set [RECIPIENT_objective] free.</li>\n\n        <li>released-&gt;and sent [RECIPIENT_objective] off.</li>\n\n        <li>released-&gt;and let [RECIPIENT_objective] go.</li>\n\n        <li>released-&gt;then turned away and let [RECIPIENT_objective] leave the colony.</li>\n\n        <li>released-&gt;before letting [RECIPIENT_objective] go to live in freedom.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "BuildRapport (InteractionDef)",
+            "Label": "try to get to know",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_prisoner.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>BuildRapport</defName>\n\n    <label>try to get to know</label>\n\n    <symbol>Things/Mote/SpeechSymbols/BuildRapport</symbol>\n\n    <initiatorXpGainSkill>Social</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>45</initiatorXpGainAmount>\n\n    <recipientThought>RapportBuilt</recipientThought>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [toldastoryabout] [subject] to [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] about [subject].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] described [subject] to [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to [talkabout] [subject].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] offered a chance for [RECIPIENT_nameDef] to [talkabout] [subject].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] expressed interest in [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [RECIPIENT_possessive] [PersonalCharacteristic].</li>\n\n\n\n        <li>toldastoryabout(p=2)-&gt;told a story about</li>\n\n        <li>toldastoryabout-&gt;told a funny story about</li>\n\n        <li>toldastoryabout-&gt;told a heartfelt story about</li>\n\n        <li>toldastoryabout-&gt;told an old story about</li>\n\n        <li>toldastoryabout-&gt;told a family story about</li>\n\n        <li>toldastoryabout-&gt;told a childhood story about</li>\n\n        <li>toldastoryabout-&gt;mentioned an anecdote about</li>\n\n\n\n        <li>talkabout-&gt;talk about</li>\n\n        <li>talkabout-&gt;discuss</li>\n\n        <li>talkabout-&gt;have a discussion about</li>\n\n        <li>talkabout-&gt;ask about</li>\n\n        <li>talkabout-&gt;think about</li>\n\n        <li>talkabout-&gt;find common ground around</li>\n\n\n\n        <li>subject-&gt;the colony</li>\n\n        <li>subject-&gt;the community</li>\n\n        <li>subject-&gt;joining the colony</li>\n\n        <li>subject-&gt;changing teams</li>\n\n        <li>subject-&gt;finding friends</li>\n\n        <li>subject-&gt;meeting new people</li>\n\n        <li>subject-&gt;reconsidering [RECIPIENT_possessive] ideas</li>\n\n        <li>subject-&gt;rethinking [RECIPIENT_possessive] loyalties</li>\n\n        <li>subject-&gt;health</li>\n\n        <li>subject-&gt;the future</li>\n\n        <li>subject-&gt;letting go</li>\n\n        <li>subject(p=4)-&gt;[ConceptPositive]</li>\n\n        <li>subject(p=2)-&gt;[INITIATOR_possessive] [PersonalCharacteristic]</li>\n\n        <li>subject(p=8)-&gt;[TalkTopicLight]</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "RecruitAttempt (InteractionDef)",
+            "Label": "recruit attempt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_prisoner.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>RecruitAttempt</defName>\n\n    <label>recruit attempt</label>\n\n    <symbolSource>InitiatorFaction</symbolSource>\n\n    <workerClass>InteractionWorker_RecruitAttempt</workerClass>\n\n    <initiatorXpGainSkill>Social</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>230</initiatorXpGainAmount>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] asked [RECIPIENT_nameDef] to join.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] promised [goodthing] to [RECIPIENT_nameDef], and asked [RECIPIENT_objective] to join.</li>\n\n\n\n        <li>goodthing(p=15)-&gt;[ConceptPositive]</li>\n\n        <li>goodthing-&gt;free, fresh [Vegetable]s</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "SparkJailbreak (InteractionDef)",
+            "Label": "spark jailbreak",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_prisoner.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>SparkJailbreak</defName>\n\n    <label>spark jailbreak</label>\n\n    <symbol>Things/Mote/SpeechSymbols/SparkJailbreak</symbol>\n\n    <workerClass>InteractionWorker_SparkJailbreak</workerClass>\n\n    <initiatorXpGainSkill>Social</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>230</initiatorXpGainAmount>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] demonstrated a means of escape to [RECIPIENT_nameDef], and promised [freedom].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that security is lax, and encouraged escape.</li>\n\n\n\n        <li>freedom-&gt;freedom</li>\n\n        <li>freedom-&gt;opportunity</li>\n\n        <li>freedom-&gt;home</li>\n\n        <li>freedom-&gt;self-determination</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "RomanceAttempt (InteractionDef)",
+            "Label": "romance attempt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_romance.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>RomanceAttempt</defName>\n\n    <label>romance attempt</label>\n\n    <workerClass>InteractionWorker_RomanceAttempt</workerClass>\n\n    <symbol>Things/Mote/SpeechSymbols/Romance</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>\n\n\n\n        <li>wooed-&gt;tried to flirt with</li>\n\n        <li>wooed-&gt;flirted with</li>\n\n        <li>wooed-&gt;tried to attract</li>\n\n        <li>wooed-&gt;tried to romance</li>\n\n        <li>wooed-&gt;tried to woo</li>\n\n        <li>wooed-&gt;wooed</li>\n\n        <li>wooed-&gt;pursued</li>\n\n        <li>wooed-&gt;charmed</li>\n\n        <li>wooed-&gt;courted</li>\n\n\n\n        <li>wootactic(p=4)-&gt;[complimenting] [RECIPIENT_possessive] [PersonalCharacteristic]</li>\n\n        <li>wootactic-&gt;telling a story about [TalkTopicAny]</li>\n\n        <li>wootactic-&gt;telling a tale about [TalkTopicAny]</li>\n\n        <li>wootactic-&gt;joking about [TalkTopicAny]</li>\n\n        <li>wootactic-&gt;making an observation about [TalkTopicAny]</li>\n\n        <li>wootactic(p=2)-&gt;[boasting] [INITIATOR_possessive] own [PersonalCharacteristic]</li>\n\n        <li>wootactic-&gt;comparing [RECIPIENT_objective] to a [romantic_adj] [romantic_noun]</li>\n\n        <li>wootactic-&gt;describing [RECIPIENT_objective] as a [romantic_adj] [romantic_noun]</li>\n\n\n\n        <li>boasting-&gt;boasting about</li>\n\n        <li>boasting-&gt;mentioning</li>\n\n        <li>boasting-&gt;implying good things about</li>\n\n        <li>boasting-&gt;exaggerating</li>\n\n        <li>boasting-&gt;talking about</li>\n\n        <li>boasting-&gt;drawing attention to</li>\n\n\n\n        <li>complimenting(p=3)-&gt;complimenting</li>\n\n        <li>complimenting-&gt;subtly complimenting</li>\n\n        <li>complimenting-&gt;lauding</li>\n\n        <li>complimenting-&gt;commending</li>\n\n        <li>complimenting-&gt;saying good things about</li>\n\n        <li>complimenting(p=2)-&gt;playfully making fun of</li>\n\n        <li>complimenting-&gt;jokingly poking at</li>\n\n        <li>complimenting-&gt;jokingly half-complimenting</li>\n\n        <li>complimenting-&gt;impishly questioning</li>\n\n        <li>complimenting-&gt;cheerfully making fun of</li>\n\n\n\n        <li>romantic_adj-&gt;beautiful</li>\n\n        <li>romantic_adj-&gt;shining</li>\n\n        <li>romantic_adj-&gt;glimmering</li>\n\n        <li>romantic_adj-&gt;heavenly</li>\n\n        <li>romantic_adj-&gt;golden</li>\n\n        <li>romantic_adj-&gt;bright</li>\n\n        <li>romantic_adj-&gt;breathtaking</li>\n\n        <li>romantic_adj-&gt;charming</li>\n\n        <li>romantic_adj-&gt;dazzling</li>\n\n        <li>romantic_adj-&gt;delicate</li>\n\n        <li>romantic_adj-&gt;fine</li>\n\n        <li>romantic_adj-&gt;magnificent</li>\n\n        <li>romantic_adj-&gt;lovely</li>\n\n        <li>romantic_adj-&gt;wonderful</li>\n\n        <li>romantic_adj(p=3)-&gt;[AdjectiveBadass]</li>\n\n\n\n        <li>romantic_noun-&gt;flower</li>\n\n        <li>romantic_noun-&gt;spring</li>\n\n        <li>romantic_noun-&gt;river</li>\n\n        <li>romantic_noun-&gt;star</li>\n\n        <li>romantic_noun-&gt;moon</li>\n\n        <li>romantic_noun-&gt;sun</li>\n\n        <li>romantic_noun-&gt;house</li>\n\n        <li>romantic_noun-&gt;aurora</li>\n\n        <li>romantic_noun-&gt;[TreeType] tree</li>\n\n        <li>romantic_noun(p=2)-&gt;[TerrainFeature]</li>\n\n        <li>romantic_noun(p=2)-&gt;[NaturalObject]</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "MarriageProposal (InteractionDef)",
+            "Label": "marriage proposal",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_romance.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>MarriageProposal</defName>\n\n    <label>marriage proposal</label>\n\n    <workerClass>InteractionWorker_MarriageProposal</workerClass>\n\n    <symbol>Things/Mote/SpeechSymbols/MarriageProposal</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Breakup (InteractionDef)",
+            "Label": "breakup",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_romance.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Breakup</defName>\n\n    <label>breakup</label>\n\n    <workerClass>InteractionWorker_Breakup</workerClass>\n\n    <symbol>Things/Mote/SpeechSymbols/Breakup</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Chitchat (InteractionDef)",
+            "Label": "chitchat",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Chitchat</defName>\n\n    <label>chitchat</label>\n\n    <workerClass>InteractionWorker_Chitchat</workerClass>\n\n    <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>\n\n    <initiatorThought>Chitchat</initiatorThought>\n\n    <initiatorXpGainSkill>Social</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>4</initiatorXpGainAmount>\n\n    <recipientThought>Chitchat</recipientThought>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>\n\n        <li>r_logentry(p=0.8)-&gt;[INITIATOR_nameDef] [commentedabout] [subject] to [RECIPIENT_nameDef].</li>\n\n\n\n        <li>subject(INITIATOR_cubeInterest==false)-&gt;[TalkTopicLight]</li>\n\n        <li>subject(INITIATOR_cubeInterest==true)-&gt;[TalkTopicCube]</li>\n\n\n\n        <li>talkedabout(p=4)-&gt;chatted about</li>\n\n        <li>talkedabout-&gt;shared a word about</li>\n\n        <li>talkedabout-&gt;spoke about</li>\n\n        <li>talkedabout-&gt;gabbed about</li>\n\n        <li>talkedabout-&gt;talked about</li>\n\n        <li>talkedabout-&gt;joked about</li>\n\n        <li>talkedabout-&gt;quipped about</li>\n\n\n\n        <li>commentedabout-&gt;said something about</li>\n\n        <li>commentedabout-&gt;said a word about</li>\n\n        <li>commentedabout-&gt;made a comment about</li>\n\n        <li>commentedabout-&gt;commented about</li>\n\n        <li>commentedabout-&gt;told a joke about</li>\n\n\n\n      </rulesStrings>\n\n      <include>\n\n        <li MayRequire=\"Ludeon.RimWorld.Anomaly\">TalkTopicsCube</li>\n\n      </include>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "DeepTalk (InteractionDef)",
+            "Label": "deep talk",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>DeepTalk</defName>\n\n    <label>deep talk</label>\n\n    <workerClass>InteractionWorker_DeepTalk</workerClass>\n\n    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>\n\n    <initiatorThought>DeepTalk</initiatorThought>\n\n    <initiatorXpGainSkill>Social</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>10</initiatorXpGainAmount>\n\n    <recipientThought>DeepTalk</recipientThought>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>\n\n\n\n        <li>talkedabout-&gt;communicated thoughts about</li>\n\n        <li>talkedabout-&gt;exchanged thoughts about</li>\n\n        <li>talkedabout-&gt;exchanged ideas about</li>\n\n        <li>talkedabout-&gt;shared views on</li>\n\n        <li>talkedabout-&gt;shared beliefs on</li>\n\n        <li>talkedabout-&gt;discussed the topic of</li>\n\n        <li>talkedabout-&gt;had a heartfelt conversation about</li>\n\n        <li>talkedabout-&gt;talked quietly about</li>\n\n        <li>talkedabout-&gt;talked deeply about</li>\n\n        <li>talkedabout-&gt;connected on the topic of</li>\n\n\n\n        <li>subject(INITIATOR_cubeInterest==false)-&gt;[TalkTopicHeavy]</li>\n\n        <li>subject(INITIATOR_cubeInterest==true)-&gt;[TalkTopicCube]</li>\n\n      </rulesStrings>\n\n      <include>\n\n        <li MayRequire=\"Ludeon.RimWorld.Anomaly\">TalkTopicsCube</li>\n\n      </include>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Slight (InteractionDef)",
+            "Label": "slight",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Slight</defName>\n\n    <label>slight</label>\n\n    <workerClass>InteractionWorker_Slight</workerClass>\n\n    <symbol>Things/Mote/SpeechSymbols/Slight</symbol>\n\n    <socialFightBaseChance>0.005</socialFightBaseChance>\n\n    <recipientThought>Slighted</recipientThought>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [madefunof] [target]'s [characteristic].</li>\n\n\n\n        <li>characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic]</li>\n\n        <li>characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube]</li>\n\n\n\n        <li>target(p=4)-&gt;[RECIPIENT_nameDef]</li>\n\n        <li>target-&gt;[RECIPIENT_nameDef]'s [PersonFamily]</li>\n\n\n\n        <li>madefunof-&gt;made fun of</li>\n\n        <li>madefunof-&gt;disrespected</li>\n\n        <li>madefunof-&gt;subtly scorned</li>\n\n        <li>madefunof-&gt;subtly shamed</li>\n\n        <li>madefunof-&gt;spoke badly of</li>\n\n        <li>madefunof-&gt;spoke negatively of</li>\n\n        <li>madefunof-&gt;laughed at</li>\n\n        <li>madefunof-&gt;sniggered at</li>\n\n        <li>madefunof-&gt;implied negative things about</li>\n\n        <li>madefunof-&gt;belittled</li>\n\n        <li>madefunof-&gt;made a contemptuous remark about</li>\n\n        <li>madefunof-&gt;offered a backhanded compliment about</li>\n\n      </rulesStrings>\n\n      <include>\n\n        <li MayRequire=\"Ludeon.RimWorld.Anomaly\">PersonalCharacteristicsCube</li>\n\n      </include>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Insult (InteractionDef)",
+            "Label": "insult",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Insult</defName>\n\n    <label>insult</label>\n\n    <workerClass>InteractionWorker_Insult</workerClass>\n\n    <symbol>Things/Mote/SpeechSymbols/Insult</symbol>\n\n    <socialFightBaseChance>0.04</socialFightBaseChance>\n\n    <recipientThought>Insulted</recipientThought>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry(p=3)-&gt;[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] compared [target] to [insultcomparison].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] called [target] [insultcomparison].</li>\n\n\n\n        <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)-&gt;[INITIATOR_nameDef] called [target] a false idol worshipper.</li>\n\n        <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)-&gt;[INITIATOR_nameDef] implied that [target] had been driven insane by the golden cube.</li>\n\n        <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)-&gt;[INITIATOR_nameDef] [insulted] the golden cube.</li>\n\n        \n\n        <li>characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic]</li>\n\n        <li>characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube]</li>\n\n        \n\n        <li>target(p=4)-&gt;[RECIPIENT_nameDef]</li>\n\n        <li>target-&gt;[RECIPIENT_nameDef]'s [PersonFamily]</li>\n\n\n\n        <li>insulted(p=3)-&gt;insulted</li>\n\n        <li>insulted-&gt;openly insulted</li>\n\n        <li>insulted-&gt;loudly insulted</li>\n\n        <li>insulted-&gt;flagrantly insulted</li>\n\n        <li>insulted-&gt;directly insulted</li>\n\n        <li>insulted-&gt;viciously insulted</li>\n\n        <li>insulted-&gt;flagrantly disrespected</li>\n\n        <li>insulted-&gt;slandered</li>\n\n        <li>insulted-&gt;hurled invective about</li>\n\n        <li>insulted-&gt;derided</li>\n\n\n\n        <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)-&gt;a [Animal]</li>\n\n        <li>insultcomparison(INITIATOR_cubeInterest==false)-&gt;a [Enemy]</li>\n\n        <li>insultcomparison(INITIATOR_cubeInterest==true)-&gt;a sphere</li> \n\n        <li>insultcomparison(INITIATOR_cubeInterest==true)-&gt;something totally pointless</li>\n\n        <li>insultcomparison(INITIATOR_cubeInterest==true)-&gt;a non-cubic platonic object</li> \n\n      </rulesStrings>\n\n      <include>\n\n        <li MayRequire=\"Ludeon.RimWorld.Anomaly\">PersonalCharacteristicsCube</li>\n\n      </include>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "KindWords (InteractionDef)",
+            "Label": "kind words",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>KindWords</defName>\n\n    <label>kind words</label>\n\n    <workerClass>InteractionWorker_KindWords</workerClass>\n\n    <symbol>Things/Mote/SpeechSymbols/KindWords</symbol>\n\n    <recipientThought>KindWords</recipientThought>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [characteristic].</li>\n\n\n\n        <li>characteristic(INITIATOR_cubeInterest==false)-&gt;[PersonalCharacteristic]</li>\n\n        <li>characteristic(INITIATOR_cubeInterest==true)-&gt;[PersonalCharacteristicCube]</li>\n\n\n\n        <li>complimented(p=3)-&gt;complimented</li>\n\n        <li>complimented-&gt;praised</li>\n\n        <li>complimented-&gt;commended</li>\n\n        <li>complimented-&gt;lauded</li>\n\n        <li>complimented-&gt;applauded</li>\n\n        <li>complimented-&gt;celebrated</li>\n\n        <li>complimented-&gt;saluted</li>\n\n        <li>complimented-&gt;spoke kindly of</li>\n\n        <li>complimented-&gt;expressed good things about</li>\n\n        <li>complimented-&gt;offered kinds words about</li>\n\n        <li>complimented-&gt;verbally appreciated</li>\n\n        <li>complimented-&gt;expressed appreciation for</li>\n\n        <li>complimented-&gt;said good things about</li>\n\n      </rulesStrings>\n\n      <include>\n\n        <li MayRequire=\"Ludeon.RimWorld.Anomaly\">PersonalCharacteristicsCube</li>\n\n      </include>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "EnslaveAttempt (InteractionDef)",
+            "Label": "enslave attempt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_prisoner.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>EnslaveAttempt</defName>\n\n    <label>enslave attempt</label>\n\n    <symbol>UI/Icons/Slavery</symbol>\n\n    <workerClass>InteractionWorker_EnslaveAttempt</workerClass>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work for the colony.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must obey orders and work.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] ordered [RECIPIENT_nameDef] to prepare for a life of forced labour.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "ReduceWill (InteractionDef)",
+            "Label": "try to reduce will",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_prisoner.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>ReduceWill</defName>\n\n    <label>try to reduce will</label>\n\n    <symbol>Things/Mote/SpeechSymbols/ReduceWill</symbol>\n\n    <initiatorXpGainSkill>Social</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>45</initiatorXpGainAmount>\n\n    <recipientThought>WillDiminished</recipientThought>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] threatened [RECIPIENT_nameDef] with [threat] if [RECIPIENT_pronoun] [refused].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] [disillusionment].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] demanded [RECIPIENT_nameDef] [givein] to the colony.</li>\n\n\n\n        <li>negative-&gt;had no future</li>\n\n        <li>negative-&gt;had no way to escape</li>\n\n        <li>negative-&gt;had no future outside of the colony</li>\n\n        <li>negative-&gt;didn't have the means to escape</li>\n\n        <li>negative-&gt;should submit immediately</li>\n\n        <li>negative-&gt;should forget [RECIPIENT_possessive] aspirations</li>\n\n        <li>negative-&gt;should submit to the colony</li>\n\n\n\n        <li>threat-&gt;torture</li>\n\n        <li>threat-&gt;punishment</li>\n\n        <li>threat-&gt;mutilation</li>\n\n        <li>threat-&gt;starvation</li>\n\n        <li>threat-&gt;lifetime incarceration</li>\n\n        <li>threat-&gt;death</li>\n\n        <li>threat-&gt;isolation</li>\n\n        <li>threat-&gt;dismemberment</li>\n\n        <li>threat-&gt;blunt trauma</li>\n\n        <li>threat-&gt;lacerations</li>\n\n        <li>threat-&gt;cannibalism</li>\n\n        <li>threat-&gt;organ harvesting</li>\n\n        <li>threat-&gt;long confinement</li>\n\n\n\n        <li>refused-&gt;tried to escape</li>\n\n        <li>refused-&gt;insulted the colony</li>\n\n        <li>refused-&gt;did not work</li>\n\n        <li>refused-&gt;refused a command</li>\n\n        <li>refused-&gt;resisted submitting</li>\n\n        <li>refused-&gt;refused to obey</li>\n\n        <li>refused-&gt;behaved impertinently</li>\n\n\n\n        <li>disillusionment-&gt;should accept [RECIPIENT_possessive] situation</li>\n\n        <li>disillusionment-&gt;had no hope for another future</li>\n\n        <li>disillusionment-&gt;would be best off submitting</li>\n\n        <li>disillusionment-&gt;would not survive on [RECIPIENT_possessive] own</li>\n\n        <li>disillusionment-&gt;had no option but to submit</li>\n\n\n\n        <li>givein-&gt;give in</li>\n\n        <li>givein-&gt;submit [RECIPIENT_objective]self</li>\n\n        <li>givein-&gt;surrender [RECIPIENT_objective]self</li>\n\n        <li>givein-&gt;yield [RECIPIENT_objective]self</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Suppress (InteractionDef)",
+            "Label": "suppress",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_slave.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Suppress</defName>\n\n    <label>suppress</label>\n\n    <symbol>UI/Icons/Slavery</symbol>\n\n    <workerClass>InteractionWorker_Suppress</workerClass>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] told [RECIPIENT_nameDef] there would be punishments for rebellion.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] warned [RECIPIENT_nameDef] that disobedience would be punished.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] cautioned [RECIPIENT_nameDef] against infractions of any kind.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] suggested that [RECIPIENT_nameDef] follow orders and not ask questions.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "SparkSlaveRebellion (InteractionDef)",
+            "Label": "spark slave rebellion",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_slave.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>SparkSlaveRebellion</defName>\n\n    <label>spark slave rebellion</label>\n\n    <symbol>Things/Mote/SpeechSymbols/SparkSlaveRebellion</symbol>\n\n    <workerClass>InteractionWorker_SparkSlaveRebellion</workerClass>\n\n    <initiatorXpGainSkill>Social</initiatorXpGainSkill>\n\n    <initiatorXpGainAmount>230</initiatorXpGainAmount>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] suggested they make a break for it.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to take back [RECIPIENT_possessive] freedom.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] spoke of ending their enslavement and making a break for it.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] spoke of a life beyond servitude and encouraged [RECIPIENT_nameDef] to escape.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] whispered that security was lax and now would be a good time to escape.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "ConvertIdeoAttempt (InteractionDef)",
+            "Label": "convert ideoligion attempt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>ConvertIdeoAttempt</defName>\n\n    <label>convert ideoligion attempt</label>\n\n    <workerClass>InteractionWorker_ConvertIdeoAttempt</workerClass>\n\n    <symbolSource>InitiatorIdeo</symbolSource>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Counsel_Success (InteractionDef)",
+            "Label": "successful counsel",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Counsel_Success</defName>\n\n    <label>successful counsel</label>\n\n    <symbol>UI/Abilities/Counsel</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] gave [RECIPIENT_nameDef] advice on overcoming negativity.</li>\n\n        <li>problems-&gt;[RECIPIENT_possessive] problems</li>\n\n        <li>problems-&gt;[RECIPIENT_possessive] troubles</li>\n\n        <li>problems-&gt;[RECIPIENT_possessive] painful feelings</li>\n\n        <li>problems-&gt;recent difficulties</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Counsel_Failure (InteractionDef)",
+            "Label": "failed counsel",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Counsel_Failure</defName>\n\n    <label>failed counsel</label>\n\n    <symbol>UI/Abilities/Counsel</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Convert_Success (InteractionDef)",
+            "Label": "successful conversion",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Convert_Success</defName>\n\n    <label>successful conversion</label>\n\n    <symbol>UI/Abilities/Convert</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Convert_Failure (InteractionDef)",
+            "Label": "failed conversion",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Convert_Failure</defName>\n\n    <label>failed conversion</label>\n\n    <symbol>UI/Abilities/Convert</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Reassure (InteractionDef)",
+            "Label": "reassurance",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Reassure</defName>\n\n    <label>reassurance</label>\n\n    <symbol>UI/Abilities/Reassure</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "PreachHealth (InteractionDef)",
+            "Label": "preached health",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>PreachHealth</defName>\n\n    <label>preached health</label>\n\n    <symbol>UI/Abilities/PreachHealth</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>\n\n        <li>preaching_topic-&gt;reasons to live</li>\n\n        <li>preaching_topic-&gt;higher ideoligious goals</li>\n\n        <li>preaching_topic-&gt;[RECIPIENT_possessive] purpose of existence</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "WorkDrive (InteractionDef)",
+            "Label": "work drive",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>WorkDrive</defName>\n\n    <label>work drive</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>UI/Abilities/WorkDrive</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Trial_Accuse (InteractionDef)",
+            "Label": "accuse",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Trial_Accuse</defName>\n\n    <label>accuse</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>UI/Icons/Rituals/Trial</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] presented some evidence.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] appealed to the emotions of the spectators.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] accused [RECIPIENT_nameDef] of [wrongdoing].</li>\n\n        <li>wrongdoing-&gt;sabotaging the colony</li>\n\n        <li>wrongdoing-&gt;being lazy</li>\n\n        <li>wrongdoing-&gt;eating too much</li>\n\n        <li>wrongdoing-&gt;stealing</li>\n\n        <li>wrongdoing-&gt;being a horrible person</li>\n\n        <li>wrongdoing-&gt;disrespecting sacred ideas</li>\n\n        <li>wrongdoing-&gt;disrespecting respected figures</li>\n\n        <li>wrongdoing-&gt;heresy</li>\n\n        <li>wrongdoing-&gt;murder</li>\n\n        <li>wrongdoing-&gt;blasphemy</li>\n\n        <li>wrongdoing-&gt;treason</li>\n\n        <li>wrongdoing-&gt;hateful thinking</li>\n\n        <li>wrongdoing-&gt;disloyalty</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Trial_Defend (InteractionDef)",
+            "Label": "defend",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Trial_Defend</defName>\n\n    <label>defend</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>UI/Icons/Rituals/TrialDefend</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] deflected the accusation.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] presented another interpretation.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] pleaded to jury.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] called for mercy.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] stalled the proceedings.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] dismissed the allegations.</li>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] called the trial a sham.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_Duel (InteractionDef)",
+            "Label": "duel speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_Duel</defName>\n\n    <label>duel speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [praised] [praisetopic].</li>\n\n\n\n        <li>praisetopic-&gt;death by blade</li>\n\n        <li>praisetopic-&gt;painful death</li>\n\n        <li>praisetopic-&gt;honorable death</li>\n\n        <li>praisetopic-&gt;honorable combat</li>\n\n        <li>praisetopic-&gt;grit and struggle</li>\n\n        <li>praisetopic-&gt;[AdjectiveBadass] weapons and fighters</li>\n\n        <li>praisetopic-&gt;the purity of physical conflict</li>\n\n        <li>praisetopic-&gt;love through death</li>\n\n        <li>praisetopic-&gt;expelling hate for health</li>\n\n        <li>praisetopic-&gt;strength over others</li>\n\n        <li>praisetopic-&gt;the conflict inherent in the universe</li>\n\n        <li>praisetopic-&gt;blood and dust</li>\n\n        <li>praisetopic-&gt;life and drama</li>\n\n        <li>praisetopic-&gt;anger and hope</li>\n\n        <li>praisetopic-&gt;rage and strength</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_Funeral (InteractionDef)",
+            "Label": "funeral speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_Funeral</defName>\n\n    <label>funeral speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n\n\n        <li>speechtopic-&gt;the nobility of sacrifice</li>\n\n        <li>speechtopic-&gt;death</li>\n\n        <li>speechtopic-&gt;life after death</li>\n\n        <li>speechtopic-&gt;death and family</li>\n\n        <li>speechtopic-&gt;the concept of a good life</li>\n\n        <li>speechtopic-&gt;death as a path to dignity</li>\n\n        <li>speechtopic-&gt;beginnings and endings</li>\n\n        <li>speechtopic-&gt;what happens after death</li>\n\n        <li>speechtopic-&gt;celebrating the next step</li>\n\n        <li>speechtopic-&gt;absent friends</li>\n\n        <li>speechtopic-&gt;life and joy</li>\n\n        <li>speechtopic-&gt;carrying forward unfinished work</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_DateRitual (InteractionDef)",
+            "Label": "celebration speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_DateRitual</defName>\n\n    <label>celebration speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [praised] [praisetopic].</li>\n\n\n\n        <li>praisetopic-&gt;the joy of ideological celebrations</li>\n\n        <li>praisetopic-&gt;correct thinking</li>\n\n        <li>praisetopic-&gt;the moral structure of the universe</li>\n\n        <li>praisetopic-&gt;[INITIATOR_possessive] beliefs</li>\n\n        <li>praisetopic-&gt;togetherness</li>\n\n        <li>praisetopic-&gt;being together</li>\n\n        <li>praisetopic-&gt;sharing ideas</li>\n\n        <li>praisetopic-&gt;[INITIATOR_possessive] own group</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_Leader (InteractionDef)",
+            "Label": "leader speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_Leader</defName>\n\n    <label>leader speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n\n\n        <li>speechtopic-&gt;searching for [Vegetable]s</li>\n\n        <li>speechtopic-&gt;how to be [AdjectiveFriendly]</li>\n\n        <li>speechtopic-&gt;avoiding [AnimalBadass]s</li>\n\n        <li>speechtopic-&gt;how life is like [Game]</li>\n\n        <li>speechtopic-&gt;the mind as a [Weapon]</li>\n\n        <li>speechtopic-&gt;exploring through [TerrainFeature]s and [TerrainFeature]s</li>\n\n        <li>speechtopic-&gt;promises to the [Direction]</li>\n\n        <li>speechtopic-&gt;how to be more like [Animal]s</li>\n\n        <li>speechtopic-&gt;the symbolism of the [NaturalObject] and the [NaturalObject]</li>\n\n        <li>speechtopic-&gt;how all are [PersonFamily]s and [PersonFamily]s</li>\n\n        <li>speechtopic-&gt;how to be a good [PersonAlly]</li>\n\n        <li>speechtopic-&gt;the need for [PersonJob]s</li>\n\n        <li>speechtopic-&gt;avoiding [PersonBadass]s</li>\n\n        <li>speechtopic-&gt;defeating [Enemy]s through [ConceptPositive]</li>\n\n        <li>speechtopic-&gt;seeing [Gore] during combat</li>\n\n        <li>speechtopic-&gt;the history of the [Mechanoid]s</li>\n\n        <li>speechtopic-&gt;the meaning of [ConceptPositive]</li>\n\n        <li>speechtopic-&gt;the [ConceptPositive] of the colony</li>\n\n        <li>speechtopic-&gt;how to be [AdjectiveBadass] without being [AdjectiveBadass]</li>\n\n        <li>speechtopic-&gt;how [AdjectiveBadass] the colony is</li>\n\n        <li>speechtopic-&gt;[AdjectiveNatural] [TerrainFeature]s</li>\n\n        <li>speechtopic-&gt;the colony's [AdjectiveLarge] potential</li>\n\n        <li>speechtopic-&gt;the [PersonalCharacteristic] of every colonist</li>\n\n        <li>speechtopic-&gt;the terrible [PersonalCharacteristic] of the colony's enemies</li>\n\n\n\n        <li>speechtopic(p=0.25)-&gt;sticking together as group</li>\n\n        <li>speechtopic(p=0.25)-&gt;the path forward through tragedy</li>\n\n        <li>speechtopic(p=0.25)-&gt;the community and its importance</li>\n\n        <li>speechtopic(p=0.25)-&gt;survival versus luxury</li>\n\n        <li>speechtopic(p=0.25)-&gt;happiness through hardship</li>\n\n        <li>speechtopic(p=0.25)-&gt;satisfaction through suffering</li>\n\n        <li>speechtopic(p=0.25)-&gt;death as a motivator</li>\n\n        <li>speechtopic(p=0.25)-&gt;strong hands and hearts</li>\n\n        <li>speechtopic(p=0.25)-&gt;the right to survive</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_Sacrifice (InteractionDef)",
+            "Label": "sacrifice speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_Sacrifice</defName>\n\n    <label>sacrifice speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n        <li>r_logentry(p=0.2)-&gt;[INITIATOR_nameDef] [crazy].</li>\n\n\n\n        <li>speechtopic-&gt;the meaning and true value of death</li>\n\n        <li>speechtopic-&gt;expressions of pain</li>\n\n        <li>speechtopic-&gt;controlled cruelty</li>\n\n        <li>speechtopic-&gt;the warmth of blood</li>\n\n        <li>speechtopic-&gt;the meaning of death</li>\n\n        <li>speechtopic-&gt;love and death</li>\n\n        <li>speechtopic-&gt;symbolizing pain</li>\n\n        <li>speechtopic-&gt;blades and flesh</li>\n\n        <li>speechtopic-&gt;the art of cutting</li>\n\n        <li>speechtopic-&gt;the seduction of blood</li>\n\n        <li>speechtopic-&gt;the music of screams</li>\n\n        <li>speechtopic-&gt;guts on the floor</li>\n\n\n\n        <li>crazy-&gt;screamed maniacally</li>\n\n        <li>crazy-&gt;broke into a chant</li>\n\n        <li>crazy-&gt;chanted towards the heavens</li>\n\n        <li>crazy-&gt;spat in the sacrifice's eye</li>\n\n        <li>crazy-&gt;cackled</li>\n\n        <li>crazy-&gt;brandished a blade</li>\n\n        <li>crazy-&gt;muttered repetitively</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_Scarification (InteractionDef)",
+            "Label": "scarification speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_Scarification</defName>\n\n    <label>scarification speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n        <li>r_logentry(p=0.2)-&gt;[INITIATOR_nameDef] [crazy].</li>\n\n\n\n        <li>speechtopic-&gt;recording pain on the body</li>\n\n        <li>speechtopic-&gt;expressions of pain</li>\n\n        <li>speechtopic-&gt;controlled cruelty</li>\n\n        <li>speechtopic-&gt;the warmth of blood</li>\n\n        <li>speechtopic-&gt;the meaning of the scar</li>\n\n        <li>speechtopic-&gt;love and pain</li>\n\n        <li>speechtopic-&gt;symbolizing pain</li>\n\n        <li>speechtopic-&gt;blades and flesh</li>\n\n        <li>speechtopic-&gt;the art of cutting</li>\n\n        <li>speechtopic-&gt;the seduction of blood</li>\n\n        <li>speechtopic-&gt;the music of screams</li>\n\n\n\n        <li>crazy-&gt;screamed maniacally</li>\n\n        <li>crazy-&gt;broke into a chant</li>\n\n        <li>crazy-&gt;chanted towards the heavens</li>\n\n        <li>crazy-&gt;cackled</li>\n\n        <li>crazy-&gt;brandished a blade</li>\n\n        <li>crazy-&gt;muttered repetitively</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_Blinding (InteractionDef)",
+            "Label": "blinding speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_Blinding</defName>\n\n    <label>blinding speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n\n\n        <li>speechtopic-&gt;blindness</li>\n\n        <li>speechtopic-&gt;the purity of blindness</li>\n\n        <li>speechtopic-&gt;the spiritual meaning of the sightless</li>\n\n        <li>speechtopic-&gt;hidden worlds beyond sight</li>\n\n        <li>speechtopic-&gt;the falseness of our visual reality</li>\n\n        <li>speechtopic-&gt;the technique of blinding</li>\n\n        <li>speechtopic-&gt;the curse of sight</li>\n\n        <li>speechtopic-&gt;the jelly inside the eyeball</li>\n\n        <li>speechtopic-&gt;growing up sighted</li>\n\n        <li>speechtopic-&gt;growing up blind</li>\n\n        <li>speechtopic-&gt;exploring without seeing or moving</li>\n\n        <li>speechtopic-&gt;the true layers of reality under the visual</li>\n\n        <li>speechtopic-&gt;psychic connections</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_Execution (InteractionDef)",
+            "Label": "exceution speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_Execution</defName>\n\n    <label>exceution speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n\n\n        <li>speechtopic-&gt;life and death</li>\n\n        <li>speechtopic-&gt;the necessity of justice</li>\n\n        <li>speechtopic-&gt;the methods of execution</li>\n\n        <li>speechtopic-&gt;death and cruelty</li>\n\n        <li>speechtopic-&gt;merciful killing</li>\n\n        <li>speechtopic-&gt;the mercy of a correct killing</li>\n\n        <li>speechtopic-&gt;the symbolism of death</li>\n\n        <li>speechtopic-&gt;capital punishment and its history</li>\n\n        <li>speechtopic-&gt;the reasons for the execution</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_TreeConnection (InteractionDef)",
+            "Label": "tree connection speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_TreeConnection</defName>\n\n    <label>tree connection speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n\n\n        <li>speechtopic-&gt;the trees and the people</li>\n\n        <li>speechtopic-&gt;the trees and psychic powers</li>\n\n        <li>speechtopic-&gt;dryads</li>\n\n        <li>speechtopic-&gt;the Gauranlen life cycle</li>\n\n        <li>speechtopic-&gt;the spiritual presence of Gauranlen trees</li>\n\n        <li>speechtopic-&gt;psychic dendro-pathy</li>\n\n        <li>speechtopic-&gt;how cute dryads are</li>\n\n        <li>speechtopic-&gt;the nobility of the dryads</li>\n\n        <li>speechtopic-&gt;the age of the trees</li>\n\n        <li>speechtopic-&gt;humanity's role below the trees</li>\n\n        <li>speechtopic-&gt;plant life and eternity</li>\n\n        <li>speechtopic-&gt;connecting with nature</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_Conversion (InteractionDef)",
+            "Label": "conversion speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_Conversion</defName>\n\n    <label>conversion speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n\n\n        <li>speechtopic-&gt;uniting for the greater good</li>\n\n        <li>speechtopic-&gt;the wrongness of apostasy</li>\n\n        <li>speechtopic-&gt;choosing right beliefs</li>\n\n        <li>speechtopic-&gt;the moral structure of the universe</li>\n\n        <li>speechtopic-&gt;right and wrong</li>\n\n        <li>speechtopic-&gt;the purpose of life</li>\n\n        <li>speechtopic-&gt;the meaning of life</li>\n\n        <li>speechtopic-&gt;mankind's history</li>\n\n        <li>speechtopic-&gt;the future of mankind</li>\n\n        <li>speechtopic-&gt;love and hate</li>\n\n        <li>speechtopic-&gt;fear and safety</li>\n\n        <li>speechtopic-&gt;the rightness of belonging</li>\n\n        <li>speechtopic-&gt;joining and belonging</li>\n\n        <li>speechtopic-&gt;false other beliefs</li>\n\n        <li>speechtopic-&gt;progress towards the future</li>\n\n\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_AcceptRole (InteractionDef)",
+            "Label": "role acceptance speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_AcceptRole</defName>\n\n    <label>role acceptance speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/RoleChange</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] new role in the community</li>\n\n        <li>speechtopic-&gt;the responsibility of [INITIATOR_possessive] new role</li>\n\n        <li>speechtopic-&gt;the importance of [INITIATOR_possessive] new role</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] good qualities</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] strengths and how to leverage them</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] shortcomings</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] weaknesses and how to overcome them</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] desire to serve the community</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] dedication to [INITIATOR_possessive] beliefs</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] beliefs about the future</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] wish to serve a greater purpose</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] [PersonalCharacteristic] and how it relates to the role</li>\n\n        <li>speechtopic-&gt;how [INITIATOR_possessive] [PersonalCharacteristic] makes [INITIATOR_objective] suited for the role</li>\n\n        <li>speechtopic-&gt;how [INITIATOR_pronoun] will use [INITIATOR_possessive] [PersonalCharacteristic] to overcome obstacles</li>\n\n        <li>speechtopic-&gt;thankfulness</li>\n\n        <li>speechtopic-&gt;showing gratitude</li>\n\n        <li>speechtopic-&gt;life's purpose</li>\n\n        <li>speechtopic-&gt;the future of the colony</li>\n\n        <li>speechtopic-&gt;improving the colony</li>\n\n        <li>speechtopic-&gt;decision-making under stress</li>\n\n        <li>speechtopic-&gt;the social structure of the community</li>\n\n        <li>speechtopic-&gt;taking responsibility</li>\n\n        <li>speechtopic-&gt;putting a role above [INITIATOR_possessive] personal desires</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "Speech_RemoveRole (InteractionDef)",
+            "Label": "role removal speech",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/interaction_defs/interactions_speech.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>Speech_RemoveRole</defName>\n\n    <label>role removal speech</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/RoleChange</symbol>\n\n    <logRulesInitiator>\n\n      <include><li>SpeechUtility</li></include>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>\n\n\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] past role in the community</li>\n\n        <li>speechtopic-&gt;the responsibility of [INITIATOR_possessive] old role</li>\n\n        <li>speechtopic-&gt;the difficulty of [INITIATOR_possessive] old role</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] shortcomings</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] weaknesses and how to overcome them</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] frustration with the community</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] dedication to [INITIATOR_possessive] beliefs</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] beliefs about the future</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] wish to pursue [INITIATOR_possessive] own goals</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] lack of [PersonalCharacteristic]</li>\n\n        <li>speechtopic-&gt;[INITIATOR_possessive] past</li>\n\n        <li>speechtopic-&gt;showing humbleness</li>\n\n        <li>speechtopic-&gt;life's purpose</li>\n\n        <li>speechtopic-&gt;the future of the colony</li>\n\n        <li>speechtopic-&gt;improving the colony</li>\n\n        <li>speechtopic-&gt;the social structure of the community</li>\n\n        <li>speechtopic-&gt;better candidates</li>\n\n        <li>speechtopic-&gt;putting community goals above [INITIATOR_possessive] personal ambitions</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "WordOfTrust (InteractionDef)",
+            "Label": "word of trust",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>WordOfTrust</defName>\n\n    <label>word of trust</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/WordOfTrust</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] psychically suggested that [RECIPIENT_nameDef] drop [RECIPIENT_possessive] guard.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "WordOfJoy (InteractionDef)",
+            "Label": "word of joy",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>WordOfJoy</defName>\n\n    <label>word of joy</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/WordOfJoy</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] psychically hypnotized [RECIPIENT_nameDef] into a warm, pleasant state of mind.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "WordOfLove (InteractionDef)",
+            "Label": "word of love",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>WordOfLove</defName>\n\n    <label>word of love</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/WordOfLove</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] psychically suggested that [RECIPIENT_nameDef] should feel a new romantic desire.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "WordOfSerenity (InteractionDef)",
+            "Label": "word of serenity",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>WordOfSerenity</defName>\n\n    <label>word of serenity</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/WordOfSerenity</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] psychically suggested that [RECIPIENT_nameDef] calm down, ending [RECIPIENT_possessive] mental break.</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        },
+        {
+            "Title": "WordOfInspiration (InteractionDef)",
+            "Label": "word of inspiration",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/interaction_defs/interactions_social.xml`",
+            "XML": "<InteractionDef>\n\n    <defName>WordOfInspiration</defName>\n\n    <label>word of inspiration</label>\n\n    <workerClass>InteractionWorker</workerClass>\n\n    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>\n\n    <symbol>Things/Mote/SpeechSymbols/WordOfInspiration</symbol>\n\n    <logRulesInitiator>\n\n      <rulesStrings>\n\n        <li>r_logentry-&gt;[INITIATOR_nameDef] used words and psychic suggestion to inspire [RECIPIENT_nameDef].</li>\n\n      </rulesStrings>\n\n    </logRulesInitiator>\n\n  </InteractionDef>"
+        }
+    ]
+}

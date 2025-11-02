@@ -1,0 +1,140 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "TradeSettlement (RoyalTitlePermitDef)",
+            "Label": "trade with settlements",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>TradeSettlement</defName>\n\n    <label>trade with settlements</label>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "TradeOrbital (RoyalTitlePermitDef)",
+            "Label": "trade with orbital traders",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>TradeOrbital</defName>\n\n    <label>trade with orbital traders</label>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "TradeCaravan (RoyalTitlePermitDef)",
+            "Label": "trade with caravans",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>TradeCaravan</defName>\n\n    <label>trade with caravans</label>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "SteelDrop (RoyalTitlePermitDef)",
+            "Label": "steel drop",
+            "Description Originale": "Call for a drop of 250 steel.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef ParentName=\"DropResourcesBase\">\n\n    <defName>SteelDrop</defName>\n\n    <label>steel drop</label>\n\n    <description>Call for a drop of 250 steel.</description>\n\n    <minTitle>Acolyte</minTitle>\n\n    <faction>Empire</faction>\n\n    <permitPointCost>1</permitPointCost>\n\n    <uiPosition>(0,0)</uiPosition>\n\n    <royalAid>\n\n      <itemsToDrop>\n\n        <Steel>250</Steel>\n\n      </itemsToDrop>\n\n      <favorCost>4</favorCost>\n\n    </royalAid>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "FoodDrop (RoyalTitlePermitDef)",
+            "Label": "food drop",
+            "Description Originale": "Call for a drop of 20 packaged survival meals.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef ParentName=\"DropResourcesBase\">\n\n    <defName>FoodDrop</defName>\n\n    <label>food drop</label>\n\n    <description>Call for a drop of 20 packaged survival meals.</description>\n\n    <minTitle>Acolyte</minTitle>\n\n    <uiPosition>(0,1)</uiPosition>\n\n    <royalAid>\n\n      <itemsToDrop>\n\n        <MealSurvivalPack>20</MealSurvivalPack>\n\n      </itemsToDrop>\n\n      <favorCost>4</favorCost>\n\n    </royalAid>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "SilverDrop (RoyalTitlePermitDef)",
+            "Label": "silver drop",
+            "Description Originale": "Call for a drop of 500 silver.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef ParentName=\"DropResourcesBase\">\n\n    <defName>SilverDrop</defName>\n\n    <label>silver drop</label>\n\n    <description>Call for a drop of 500 silver.</description>\n\n    <minTitle>Knight</minTitle>\n\n    <uiPosition>(0,4)</uiPosition>\n\n    <royalAid>\n\n      <itemsToDrop>\n\n        <Silver>500</Silver>\n\n      </itemsToDrop>\n\n      <favorCost>6</favorCost>\n\n    </royalAid>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "GlitterMedDrop (RoyalTitlePermitDef)",
+            "Label": "glitter med drop",
+            "Description Originale": "Call for a drop of 5 glitterworld medicine.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef ParentName=\"DropResourcesBase\">\n\n    <defName>GlitterMedDrop</defName>\n\n    <label>glitter med drop</label>\n\n    <description>Call for a drop of 5 glitterworld medicine.</description>\n\n    <minTitle>Baron</minTitle>\n\n    <uiPosition>(0,8)</uiPosition>\n\n    <royalAid>\n\n      <itemsToDrop>\n\n        <MedicineUltratech>5</MedicineUltratech>\n\n      </itemsToDrop>\n\n      <favorCost>8</favorCost>\n\n    </royalAid>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "CallLaborerTeam (RoyalTitlePermitDef)",
+            "Label": "call laborer team",
+            "Description Originale": "Call a group of 4 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>CallLaborerTeam</defName>\n\n    <label>call laborer team</label>\n\n    <description>Call a group of 4 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>\n\n    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>\n\n    <minTitle>Acolyte</minTitle>\n\n    <faction>Empire</faction>\n\n    <permitPointCost>1</permitPointCost>\n\n    <uiPosition>(0,2)</uiPosition>\n\n    <royalAid>\n\n      <favorCost>4</favorCost>\n\n      <pawnKindDef>Empire_Common_Laborer</pawnKindDef>\n\n      <pawnCount>4</pawnCount>\n\n      <aidDurationDays>4</aidDurationDays>\n\n      <targetingRange>44.9</targetingRange>\n\n      <targetingRequireLOS>false</targetingRequireLOS>\n\n    </royalAid>\n\n    <cooldownDays>60</cooldownDays>\n\n    <layerBlacklist>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Orbit</li>\n\n    </layerBlacklist>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "CallLaborerGang (RoyalTitlePermitDef)",
+            "Label": "call laborer gang",
+            "Description Originale": "Call a group of 8 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>CallLaborerGang</defName>\n\n    <label>call laborer gang</label>\n\n    <description>Call a group of 8 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>\n\n    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>\n\n    <minTitle>Count</minTitle>\n\n    <faction>Empire</faction>\n\n    <permitPointCost>1</permitPointCost>\n\n    <prerequisite>CallLaborerTeam</prerequisite>\n\n    <uiPosition>(1,2)</uiPosition>\n\n    <royalAid>\n\n      <favorCost>8</favorCost>\n\n      <pawnKindDef>Empire_Common_Laborer</pawnKindDef>\n\n      <pawnCount>8</pawnCount>\n\n      <aidDurationDays>4</aidDurationDays>\n\n      <targetingRange>44.9</targetingRange>\n\n      <targetingRequireLOS>false</targetingRequireLOS>\n\n    </royalAid>\n\n    <layerBlacklist>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Orbit</li>\n\n    </layerBlacklist>\n\n    <cooldownDays>60</cooldownDays>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "CallMilitaryAidSmall (RoyalTitlePermitDef)",
+            "Label": "call trooper squad",
+            "Description Originale": "Call a group of 4 light troopers to aid you in battle.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>CallMilitaryAidSmall</defName>\n\n    <label>call trooper squad</label>\n\n    <description>Call a group of 4 light troopers to aid you in battle.</description>\n\n    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>\n\n    <minTitle>Acolyte</minTitle>\n\n    <faction>Empire</faction>\n\n    <permitPointCost>1</permitPointCost>\n\n    <uiPosition>(0,3)</uiPosition>\n\n    <royalAid>\n\n      <favorCost>4</favorCost>\n\n      <pawnKindDef>Empire_Fighter_Trooper</pawnKindDef>\n\n      <pawnCount>4</pawnCount>\n\n      <targetingRange>39.9</targetingRange>\n\n    </royalAid>\n\n    <layerBlacklist>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Orbit</li>\n\n    </layerBlacklist>\n\n    <cooldownDays>40</cooldownDays>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "CallMilitaryAidLarge (RoyalTitlePermitDef)",
+            "Label": "call janissary squad",
+            "Description Originale": "Call a group of 4 professional janissaries to aid you in battle.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>CallMilitaryAidLarge</defName>\n\n    <label>call janissary squad</label>\n\n    <description>Call a group of 4 professional janissaries to aid you in battle.</description>\n\n    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>\n\n    <minTitle>Praetor</minTitle>\n\n    <faction>Empire</faction>\n\n    <permitPointCost>1</permitPointCost>\n\n    <uiPosition>(0,7)</uiPosition>\n\n    <royalAid>\n\n      <favorCost>6</favorCost>\n\n      <pawnKindDef>Empire_Fighter_Janissary</pawnKindDef>\n\n      <pawnCount>4</pawnCount>\n\n      <targetingRange>39.9</targetingRange>\n\n    </royalAid>\n\n    <layerBlacklist>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Orbit</li>\n\n    </layerBlacklist>\n\n    <cooldownDays>50</cooldownDays>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "CallMilitaryAidGrand (RoyalTitlePermitDef)",
+            "Label": "call cataphract squad",
+            "Description Originale": "Call a group of 4 heavy cataphracts to aid you in battle.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>CallMilitaryAidGrand</defName>\n\n    <label>call cataphract squad</label>\n\n    <description>Call a group of 4 heavy cataphracts to aid you in battle.</description>\n\n    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>\n\n    <minTitle>Count</minTitle>\n\n    <faction>Empire</faction>\n\n    <permitPointCost>1</permitPointCost>\n\n    <prerequisite>CallMilitaryAidLarge</prerequisite>\n\n    <uiPosition>(1,7)</uiPosition>\n\n    <royalAid>\n\n      <favorCost>8</favorCost>\n\n      <pawnKindDef>Empire_Fighter_Cataphract</pawnKindDef>\n\n      <pawnCount>4</pawnCount>\n\n      <targetingRange>39.9</targetingRange>\n\n      <overrideAcceptableTemperatureRange>-80~50</overrideAcceptableTemperatureRange>\n\n    </royalAid>\n\n    <layerBlacklist>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Orbit</li>\n\n    </layerBlacklist>\n\n    <cooldownDays>60</cooldownDays>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "CallOrbitalStrike (RoyalTitlePermitDef)",
+            "Label": "call aerodrone strike",
+            "Description Originale": "Call a single-impact aerodrone strike at a target position.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>CallOrbitalStrike</defName>\n\n    <label>call aerodrone strike</label>\n\n    <description>Call a single-impact aerodrone strike at a target position.</description>\n\n    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>\n\n    <minTitle>Knight</minTitle>\n\n    <faction>Empire</faction>\n\n    <permitPointCost>1</permitPointCost>\n\n    <cooldownDays>45</cooldownDays>\n\n    <uiPosition>(0,5)</uiPosition>\n\n    <royalAid>\n\n      <favorCost>6</favorCost>\n\n      <targetingRange>44.9</targetingRange>\n\n      <radius>2.9</radius>\n\n      <explosionRadiusRange>7.9</explosionRadiusRange>\n\n      <explosionCount>1</explosionCount>\n\n      <intervalTicks>60</intervalTicks>\n\n      <warmupTicks>120</warmupTicks>\n\n    </royalAid>\n\n    <layerBlacklist>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Orbit</li>\n\n    </layerBlacklist>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "CallOrbitalSalvo (RoyalTitlePermitDef)",
+            "Label": "call aerodrone salvo",
+            "Description Originale": "Call a salvo of aerodrone strikes around a target position.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>CallOrbitalSalvo</defName>\n\n    <label>call aerodrone salvo</label>\n\n    <description>Call a salvo of aerodrone strikes around a target position.</description>\n\n    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>\n\n    <minTitle>Praetor</minTitle>\n\n    <faction>Empire</faction>\n\n    <permitPointCost>1</permitPointCost>\n\n    <prerequisite>CallOrbitalStrike</prerequisite>\n\n    <cooldownDays>60</cooldownDays>\n\n    <uiPosition>(1,5)</uiPosition>\n\n    <royalAid>\n\n      <favorCost>8</favorCost>\n\n      <targetingRange>44.9</targetingRange>\n\n      <radius>7.9</radius>\n\n      <explosionRadiusRange>5.9</explosionRadiusRange>\n\n      <explosionCount>6</explosionCount>\n\n      <intervalTicks>60</intervalTicks>\n\n      <warmupTicks>120</warmupTicks>\n\n    </royalAid>\n\n    <layerBlacklist>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Orbit</li>\n\n    </layerBlacklist>\n\n  </RoyalTitlePermitDef>"
+        },
+        {
+            "Title": "CallTransportShuttle (RoyalTitlePermitDef)",
+            "Label": "call transport shuttle",
+            "Description Originale": "Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/royal_titles/royal_permits_empire.xml`",
+            "XML": "<RoyalTitlePermitDef>\n\n    <defName>CallTransportShuttle</defName>\n\n    <label>call transport shuttle</label>\n\n    <description>Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.</description>\n\n    <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>\n\n    <minTitle>Knight</minTitle>\n\n    <faction>Empire</faction>\n\n    <permitPointCost>1</permitPointCost>\n\n    <cooldownDays>40</cooldownDays>\n\n    <usableOnWorldMap>true</usableOnWorldMap>\n\n    <uiPosition>(0,6)</uiPosition>\n\n    <royalAid>\n\n      <favorCost>8</favorCost>\n\n      <targetingRange>44.9</targetingRange>\n\n      <targetingRequireLOS>false</targetingRequireLOS>\n\n    </royalAid>\n\n    <layerBlacklist>\n\n      <li MayRequire=\"Ludeon.RimWorld.Odyssey\">Orbit</li>\n\n    </layerBlacklist>\n\n  </RoyalTitlePermitDef>"
+        }
+    ]
+}

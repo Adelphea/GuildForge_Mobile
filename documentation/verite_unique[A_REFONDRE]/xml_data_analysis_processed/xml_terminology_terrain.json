@@ -1,0 +1,1445 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DBHMosaicTile (TerrainDef)",
+            "Label": "mosaic tile",
+            "Description Originale": "Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/thing_defs__buildings/buildings5__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TileMetalBase\">\n\n\t\t<defName>DBHMosaicTile</defName>\n\n\t\t<label>mosaic tile</label>\n\n\t\t<texturePath>DBH/Terrain/Mosaic</texturePath>\n\n\t\t<designatorDropdown>DBH_Floor_Tile_Mosaic</designatorDropdown>\n\n\t\t<constructEffect>ConstructMetal</constructEffect>\n\n\t\t<researchPrerequisites>\n\n\t\t\t<li>Smithing</li>\n\n\t\t</researchPrerequisites>\n\n\t\t<constructionSkillPrerequisite>3</constructionSkillPrerequisite>\n\n\t\t<renderPrecedence>240</renderPrecedence>\n\n\t\t<description>Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens.</description>\n\n\t\t<color>(195,195,195)</color>\n\n\t\t<statBases>\n\n\t\t\t<WorkToBuild>800</WorkToBuild>\n\n\t\t\t<Beauty>1</Beauty>\n\n\t\t</statBases>\n\n\t\t<costList>\n\n\t\t\t<Steel>4</Steel>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DBHMosaicSandstone (TerrainDef)",
+            "Label": "sandstone mosaic tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/thing_defs__buildings/buildings5__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DBHMosaicBase\">\n\n\t\t<defName>DBHMosaicSandstone</defName>\n\n\t\t<label>sandstone mosaic tile</label>\n\n\t\t<color>(126,104,94)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSandstone>4</BlocksSandstone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DBHMosaicGranite (TerrainDef)",
+            "Label": "granite mosaic tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/thing_defs__buildings/buildings5__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DBHMosaicBase\">\n\n\t\t<defName>DBHMosaicGranite</defName>\n\n\t\t<label>granite mosaic tile</label>\n\n\t\t<color>(105,95,97)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksGranite>4</BlocksGranite>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DBHMosaicLimestone (TerrainDef)",
+            "Label": "limestone mosaic tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/thing_defs__buildings/buildings5__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DBHMosaicBase\">\n\n\t\t<defName>DBHMosaicLimestone</defName>\n\n\t\t<label>limestone mosaic tile</label>\n\n\t\t<color>(158,153,135)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksLimestone>4</BlocksLimestone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DBHMosaicSlate (TerrainDef)",
+            "Label": "slate mosaic tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/thing_defs__buildings/buildings5__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DBHMosaicBase\">\n\n\t\t<defName>DBHMosaicSlate</defName>\n\n\t\t<label>slate mosaic tile</label>\n\n\t\t<color>(105,105,105)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSlate>4</BlocksSlate>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DBHMosaicMarble (TerrainDef)",
+            "Label": "marble mosaic tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/thing_defs__buildings/buildings5__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DBHMosaicBase\">\n\n\t\t<defName>DBHMosaicMarble</defName>\n\n\t\t<label>marble mosaic tile</label>\n\n\t\t<color>(132,135,132)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksMarble>4</BlocksMarble>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "PoolWater (TerrainDef)",
+            "Label": "pool water",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0; pathCost: 0",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/thing_defs__buildings/buildings_c__joy.xml`",
+            "XML": "<TerrainDef>\n\n\t\t<fertility>0</fertility>\n\n\t\t<avoidWander>true</avoidWander>\n\n\t\t<holdSnowOrSand>false</holdSnowOrSand>\n\n\t\t<takeSplashes>true</takeSplashes>\n\n\t\t<extinguishesFire>true</extinguishesFire>\n\n\t\t<filthAcceptanceMask>\n\n\t\t\t<li>None</li>\n\n\t\t</filthAcceptanceMask>\n\n\t\t<tags>\n\n\t\t\t<li>Water</li>\n\n\t\t\t<li>FineFloor</li>\n\n\t\t</tags>\n\n\t\t<tools>\n\n\t\t\t<li>\n\n\t\t\t\t<label>water</label>\n\n\t\t\t\t<capacities>\n\n\t\t\t\t\t<li>KickMaterialInEyes</li>\n\n\t\t\t\t</capacities>\n\n\t\t\t\t<hediff>WaterInEyes</hediff>\n\n\t\t\t\t<cooldownTime>1.5</cooldownTime>\n\n\t\t\t</li>\n\n\t\t</tools>\n\n\t\t<waterBodyType>Freshwater</waterBodyType>\n\n\t\t<texturePath>Terrain/Surfaces/WaterChestDeepRamp</texturePath>\n\n\t\t<waterDepthShader>Map/WaterDepth</waterDepthShader>\n\n\t\t<affordances>\n\n\t\t\t<li>Bridgeable</li>\n\n\t\t</affordances>\n\n\t\t<defName>PoolWater</defName>\n\n\t\t<label>pool water</label>\n\n\t\t<renderPrecedence>395</renderPrecedence>\n\n\t\t<extraDeteriorationFactor>0</extraDeteriorationFactor>\n\n\t\t<edgeType>Hard</edgeType>\n\n\t\t<traversedThought />\n\n\t\t<extraNonDraftedPerceivedPathCost>0</extraNonDraftedPerceivedPathCost>\n\n\t\t<extraDraftedPerceivedPathCost>18</extraDraftedPerceivedPathCost>\n\n\t\t<pathCost>0</pathCost>\n\n\t\t<layerable>true</layerable>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_PlowedSoil (TerrainDef)",
+            "Label": "plowed soil",
+            "Description Originale": "Plow the soil to increase its fertility.",
+            "Propriétés Clés": "fertility: 1.25; pathCost: 8",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors.xml`",
+            "XML": "<TerrainDef>\n\n\t\t<defName>DankPyon_PlowedSoil</defName>\n\n\t\t<label>plowed soil</label>\n\n\t\t<description>Plow the soil to increase its fertility.</description>\n\n\t\t<texturePath>Terrain/PlowedSoil</texturePath>\n\n\t\t<uiIconPath>UI/Plow_Icon</uiIconPath>\n\n\t\t<edgeType>FadeRough</edgeType>\n\n\t\t<renderPrecedence>350</renderPrecedence>\n\n\t\t<layerable>true</layerable>\n\n\t\t<pathCost>8</pathCost>\n\n\t\t<filthAcceptanceMask>\n\n\t\t\t<li>Unnatural</li>\n\n\t\t</filthAcceptanceMask>\n\n\t\t<designationCategory>Orders</designationCategory>\n\n\t\t<constructEffect>ConstructDirt</constructEffect>\n\n\t\t<statBases>\n\n\t\t\t<Beauty>-1</Beauty>\n\n\t\t\t<Cleanliness>-1</Cleanliness>\n\n\t\t\t<WorkToBuild>500</WorkToBuild>\n\n\t\t</statBases>\n\n\t\t<scatterType>Rocky</scatterType>\n\n\t\t<affordances>\n\n\t\t\t<li>GrowSoil</li>\n\n\t\t\t<li>Diggable</li>\n\n\t\t\t<li>Light</li>\n\n\t\t</affordances>\n\n\t\t<generatedFilth>Filth_Dirt</generatedFilth>\n\n\t\t<fertility>1.25</fertility>\n\n\t\t<takeFootprints>True</takeFootprints>\n\n\t\t<tools>\n\n\t\t\t<li>\n\n\t\t\t\t<label>dirt</label>\n\n\t\t\t\t<capacities>\n\n\t\t\t\t\t<li>KickMaterialInEyes</li>\n\n\t\t\t\t</capacities>\n\n\t\t\t\t<hediff>DirtInEyes</hediff>\n\n\t\t\t\t<cooldownTime>1.5</cooldownTime>\n\n\t\t\t</li>\n\n\t\t</tools>\n\n\t\t<researchPrerequisites>\n\n\t\t\t <li>DankPyon_PlowedSoil</li>\n\n\t\t</researchPrerequisites>\n\n\t\t<placeWorkers>\n\n\t\t\t<li>MedievalOverhaul.PlaceWorker_PlowSoil</li>\n\n\t\t</placeWorkers>\n\n\t\t<modExtensions>\n\n\t\t\t<li Class=\"VEF.Things.ThingDefExtension\">\n\n\t\t\t\t<constructionSkillRequirement>\n\n\t\t\t\t\t<workType>Growing</workType>\n\n\t\t\t\t\t<skill>Plants</skill>\n\n\t\t\t\t\t<level>1</level>\n\n\t\t\t\t\t<reportStringOverride>plowing soil.</reportStringOverride>\n\n\t\t\t\t</constructionSkillRequirement>\n\n\t\t\t</li>\n\n\t\t</modExtensions>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "IronTile (TerrainDef)",
+            "Label": "iron tile",
+            "Description Originale": "Iron tiles, for that rugged look. They are quick to clean and get a small bonus to cleanliness for use in medical settings.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TileMetalBase\">\n\n\t\t<defName>IronTile</defName>\n\n\t\t<label>iron tile</label>\n\n\t\t<renderPrecedence>240</renderPrecedence>\n\n\t\t<description>Iron tiles, for that rugged look. They are quick to clean and get a small bonus to cleanliness for use in medical settings.</description>\n\n\t\t<color>(0.3, 0.3, 0.3)</color>\n\n\t\t<statBases>\n\n\t\t\t<WorkToBuild>800</WorkToBuild>\n\n\t\t\t<Beauty>0</Beauty>\n\n\t\t\t<Cleanliness>0.1</Cleanliness>\n\n\t\t\t<CleaningTimeFactor>0.65</CleaningTimeFactor>\n\n\t\t</statBases>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_IronIngot>7</DankPyon_IronIngot>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_DarkWoodPlankFloor (TerrainDef)",
+            "Label": "dark wood floor",
+            "Description Originale": "Dark wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n\t\t<defName>DankPyon_DarkWoodPlankFloor</defName>\n\n\t\t<label>dark wood floor</label>\n\n\t\t<renderPrecedence>250</renderPrecedence>\n\n\t\t<description>Dark wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>\n\n\t\t<texturePath>Terrain/Surfaces/WoodFloor</texturePath>\n\n\t\t<burnedDef>BurnedWoodPlankFloor</burnedDef>\n\n\t\t<color>(112,91,76)</color>\n\n\t\t<pollutionShaderType MayRequire=\"Ludeon.RimWorld.Biotech\">TerrainFadeRoughSoftLight</pollutionShaderType>\n\n\t\t<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>\n\n\t\t<isPaintable>true</isPaintable>\n\n\t\t<statBases>\n\n\t\t\t<WorkToBuild>85</WorkToBuild>\n\n\t\t\t<Flammability>0.22</Flammability>\n\n\t\t</statBases>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_DarkWood>3</DankPyon_DarkWood>\n\n\t\t</costList>\n\n\t\t<constructEffect>ConstructWood</constructEffect>\n\n\t\t<designationHotKey>Misc9</designationHotKey>\n\n\t\t<uiOrder>2000</uiOrder>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Lys_Red (TerrainDef)",
+            "Label": "red lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_Lys_Base\">\n\n\t\t<defName>DankPyon_Floor_Lys_Red</defName>\n\n\t\t<label>red lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/Lys/Lys_Red</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Lys_Blue (TerrainDef)",
+            "Label": "blue lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_Lys_Base\">\n\n\t\t<defName>DankPyon_Floor_Lys_Blue</defName>\n\n\t\t<label>blue lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/Lys/Lys_Blue</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Lys_Green (TerrainDef)",
+            "Label": "green lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_Lys_Base\">\n\n\t\t<defName>DankPyon_Floor_Lys_Green</defName>\n\n\t\t<label>green lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/Lys/Lys_Green</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Lys_Brown (TerrainDef)",
+            "Label": "brown lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_Lys_Base\">\n\n\t\t<defName>DankPyon_Floor_Lys_Brown</defName>\n\n\t\t<label>brown lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/Lys/Lys_Brown</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Lys_Black (TerrainDef)",
+            "Label": "black lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_Lys_Base\">\n\n\t\t<defName>DankPyon_Floor_Lys_Black</defName>\n\n\t\t<label>black lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/Lys/Lys_Black</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Lys_White (TerrainDef)",
+            "Label": "white lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_Lys_Base\">\n\n\t\t<defName>DankPyon_Floor_Lys_White</defName>\n\n\t\t<label>white lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/Lys/Lys_White</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_DiamondLys_Red (TerrainDef)",
+            "Label": "red diamond lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_DiamondLys_Base\">\n\n\t\t<defName>DankPyon_Floor_DiamondLys_Red</defName>\n\n\t\t<label>red diamond lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/DiamondLys/DiamondLys_Red</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_DiamondLys_Blue (TerrainDef)",
+            "Label": "blue diamond lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_DiamondLys_Base\">\n\n\t\t<defName>DankPyon_Floor_DiamondLys_Blue</defName>\n\n\t\t<label>blue diamond lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/DiamondLys/DiamondLys_Blue</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_DiamondLys_Green (TerrainDef)",
+            "Label": "green diamond lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_DiamondLys_Base\">\n\n\t\t<defName>DankPyon_Floor_DiamondLys_Green</defName>\n\n\t\t<label>green diamond lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/DiamondLys/DiamondLys_Green</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_DiamondLys_Brown (TerrainDef)",
+            "Label": "brown diamond lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_DiamondLys_Base\">\n\n\t\t<defName>DankPyon_Floor_DiamondLys_Brown</defName>\n\n\t\t<label>brown diamond lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/DiamondLys/DiamondLys_Brown</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_DiamondLys_Black (TerrainDef)",
+            "Label": "black diamond lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_DiamondLys_Base\">\n\n\t\t<defName>DankPyon_Floor_DiamondLys_Black</defName>\n\n\t\t<label>black diamond lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/DiamondLys/DiamondLys_Black</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_DiamondLys_White (TerrainDef)",
+            "Label": "white diamond lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_DiamondLys_Base\">\n\n\t\t<defName>DankPyon_Floor_DiamondLys_White</defName>\n\n\t\t<label>white diamond lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/DiamondLys/DiamondLys_White</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CircleLys_Red (TerrainDef)",
+            "Label": "red circle lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CircleLys_Base\">\n\n\t\t<defName>DankPyon_Floor_CircleLys_Red</defName>\n\n\t\t<label>red circle lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CircleLys/CircleLys_Red</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CircleLys_Blue (TerrainDef)",
+            "Label": "blue circle lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CircleLys_Base\">\n\n\t\t<defName>DankPyon_Floor_CircleLys_Blue</defName>\n\n\t\t<label>blue circle lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CircleLys/CircleLys_Blue</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CircleLys_Green (TerrainDef)",
+            "Label": "green circle lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CircleLys_Base\">\n\n\t\t<defName>DankPyon_Floor_CircleLys_Green</defName>\n\n\t\t<label>green circle lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CircleLys/CircleLys_Green</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CircleLys_Brown (TerrainDef)",
+            "Label": "brown circle lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CircleLys_Base\">\n\n\t\t<defName>DankPyon_Floor_CircleLys_Brown</defName>\n\n\t\t<label>brown circle lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CircleLys/CircleLys_Brown</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CircleLys_Black (TerrainDef)",
+            "Label": "black circle lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CircleLys_Base\">\n\n\t\t<defName>DankPyon_Floor_CircleLys_Black</defName>\n\n\t\t<label>black circle lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CircleLys/CircleLys_Black</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CircleLys_White (TerrainDef)",
+            "Label": "white circle lys tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CircleLys_Base\">\n\n\t\t<defName>DankPyon_Floor_CircleLys_White</defName>\n\n\t\t<label>white circle lys tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CircleLys/CircleLys_White</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CheckeredLysStar_Red (TerrainDef)",
+            "Label": "red-blue checkered lys-star tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CheckeredLysStar_Base\">\n\n\t\t<defName>DankPyon_Floor_CheckeredLysStar_Red</defName>\n\n\t\t<label>red-blue checkered lys-star tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CheckeredLysStar/CheckeredLysStar_RedBlue</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CheckeredLysStar_Blue (TerrainDef)",
+            "Label": "green-red checkered lys-star tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CheckeredLysStar_Base\">\n\n\t\t<defName>DankPyon_Floor_CheckeredLysStar_Blue</defName>\n\n\t\t<label>green-red checkered lys-star tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CheckeredLysStar/CheckeredLysStar_GreenRed</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CheckeredLysStar_Green (TerrainDef)",
+            "Label": "blue-brown checkered lys-star tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CheckeredLysStar_Base\">\n\n\t\t<defName>DankPyon_Floor_CheckeredLysStar_Green</defName>\n\n\t\t<label>blue-brown checkered lys-star tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CheckeredLysStar/CheckeredLysStar_BlueBrown</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CheckeredLysStar_Brown (TerrainDef)",
+            "Label": "black-white checkered lys-star tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ceramic_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CheckeredLysStar_Base\">\n\n\t\t<defName>DankPyon_Floor_CheckeredLysStar_Brown</defName>\n\n\t\t<label>black-white checkered lys-star tile</label>\n\n\t\t<texturePath>Terrain/CeramicFloors/CheckeredLysStar/CheckeredLysStar_BlackWhite</texturePath>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Cobblestone_Sandstone (TerrainDef)",
+            "Label": "sandstone cobblestone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__cobblestone.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CobblestoneBase\">\n\n\t\t<defName>DankPyon_Floor_Cobblestone_Sandstone</defName>\n\n\t\t<label>sandstone cobblestone</label>\n\n\t\t<color>(126,104,94)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSandstone>4</BlocksSandstone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Cobblestone_Granite (TerrainDef)",
+            "Label": "granite cobblestone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__cobblestone.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CobblestoneBase\">\n\n\t\t<defName>DankPyon_Floor_Cobblestone_Granite</defName>\n\n\t\t<label>granite cobblestone</label>\n\n\t\t<color>(105,95,97)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksGranite>4</BlocksGranite>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Cobblestone_Limestone (TerrainDef)",
+            "Label": "limestone cobblestone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__cobblestone.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CobblestoneBase\">\n\n\t\t<defName>DankPyon_Floor_Cobblestone_Limestone</defName>\n\n\t\t<label>limestone cobblestone</label>\n\n\t\t<color>(158,153,135)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksLimestone>4</BlocksLimestone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Cobblestone_Slate (TerrainDef)",
+            "Label": "slate cobblestone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__cobblestone.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CobblestoneBase\">\n\n\t\t<defName>DankPyon_Floor_Cobblestone_Slate</defName>\n\n\t\t<label>slate cobblestone</label>\n\n\t\t<color>(100,100,100)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSlate>4</BlocksSlate>\n\n\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Cobblestone_Marble (TerrainDef)",
+            "Label": "marble cobblestone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__cobblestone.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CobblestoneBase\">\n\n\t\t<defName>DankPyon_Floor_Cobblestone_Marble</defName>\n\n\t\t<label>marble cobblestone</label>\n\n\t\t<color>(132,135,132)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksMarble>4</BlocksMarble>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Cobblestone_Clay (TerrainDef)",
+            "Label": "clay cobblestone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__cobblestone.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_CobblestoneBase\">\n\n\t\t<defName>DankPyon_Floor_Cobblestone_Clay</defName>\n\n\t\t<label>clay cobblestone</label>\n\n\t\t<color>(132, 99, 81)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_BlocksClay>4</DankPyon_BlocksClay>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_EarthenFloor (TerrainDef)",
+            "Label": "earthen floor",
+            "Description Originale": "The earthen floor, crafted from clay and straw. Smoothed by hand, it offers a rustic charm, providing a reliable footing for daily life in homes and castles alike.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__earthen_floor.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>DankPyon_EarthenFloor</defName>\n\n    <label>earthen floor</label>\n\n    <renderPrecedence>250</renderPrecedence>\n\n    <description>The earthen floor, crafted from clay and straw. Smoothed by hand, it offers a rustic charm, providing a reliable footing for daily life in homes and castles alike.</description>\n\n    <texturePath>Terrain/EarthenFloor</texturePath>\n\n    <pollutionShaderType MayRequire=\"Ludeon.RimWorld.Biotech\">TerrainFadeRoughSoftLight</pollutionShaderType>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>\n\n    <isPaintable>true</isPaintable>\n\n    <statBases>\n\n      <WorkToBuild>85</WorkToBuild>\n\n      <Flammability>0</Flammability>\n\n\t  <Beauty>1</Beauty>\n\n    </statBases>\n\n    <costList>\n\n      <DankPyon_Clay>2</DankPyon_Clay>\n\n\t  <DankPyon_Straw>1</DankPyon_Straw>\n\n    </costList>\n\n    <constructEffect>ConstructWood</constructEffect>\n\n    <designationHotKey>Misc9</designationHotKey>\n\n    <uiOrder>1999</uiOrder>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Soil (TerrainDef)",
+            "Label": "soil",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__hideout.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_Hideout\">\n\n\t\t<defName>DankPyon_Floor_Soil</defName>\n\n\t\t<label>soil</label>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RuinedStoneTile_Sandstone (TerrainDef)",
+            "Label": "ruined sandstone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ruined_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RuinedStoneTile\">\n\n\t\t<defName>DankPyon_Floor_RuinedStoneTile_Sandstone</defName>\n\n\t\t<label>ruined sandstone tile</label>\n\n\t\t<color>(126,104,94)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSandstone>4</BlocksSandstone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RuinedStoneTile_Granite (TerrainDef)",
+            "Label": "ruined granite tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ruined_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RuinedStoneTile\">\n\n\t\t<defName>DankPyon_Floor_RuinedStoneTile_Granite</defName>\n\n\t\t<label>ruined granite tile</label>\n\n\t\t<color>(105,95,97)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksGranite>4</BlocksGranite>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RuinedStoneTile_Limestone (TerrainDef)",
+            "Label": "ruined limestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ruined_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RuinedStoneTile\">\n\n\t\t<defName>DankPyon_Floor_RuinedStoneTile_Limestone</defName>\n\n\t\t<label>ruined limestone tile</label>\n\n\t\t<color>(158,153,135)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksLimestone>4</BlocksLimestone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RuinedStoneTile_Slate (TerrainDef)",
+            "Label": "ruined slate tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ruined_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RuinedStoneTile\">\n\n\t\t<defName>DankPyon_Floor_RuinedStoneTile_Slate</defName>\n\n\t\t<label>ruined slate tile</label>\n\n\t\t<color>(100,100,100)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSlate>4</BlocksSlate>\n\n\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RuinedStoneTile_Marble (TerrainDef)",
+            "Label": "ruined marble tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ruined_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RuinedStoneTile\">\n\n\t\t<defName>DankPyon_Floor_RuinedStoneTile_Marble</defName>\n\n\t\t<label>ruined marble tile</label>\n\n\t\t<color>(132,135,132)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksMarble>4</BlocksMarble>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RuinedStoneTile_Clay (TerrainDef)",
+            "Label": "ruined clay tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__ruined_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RuinedStoneTile\">\n\n\t\t<defName>DankPyon_Floor_RuinedStoneTile_Clay</defName>\n\n\t\t<label>ruined clay tile</label>\n\n\t\t<color>(132, 99, 81)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_BlocksClay>4</DankPyon_BlocksClay>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RusticWoodFloor_Wood (TerrainDef)",
+            "Label": "rustic wood floor",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__rustic_wood_floor.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RusticWoodFloorBase\">\n\n\t\t<defName>DankPyon_Floor_RusticWoodFloor_Wood</defName>\n\n\t\t<label>rustic wood floor</label>\n\n\t\t<color>(108,78,55)</color>\n\n\t\t<costList>\n\n\t\t\t<WoodLog>3</WoodLog>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RusticWoodFloor_DarkWood (TerrainDef)",
+            "Label": "rustic dark wood floor",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__rustic_wood_floor.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RusticWoodFloorBase\">\n\n\t\t<defName>DankPyon_Floor_RusticWoodFloor_DarkWood</defName>\n\n\t\t<label>rustic dark wood floor</label>\n\n\t\t<color>(112,91,76)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_DarkWood>3</DankPyon_DarkWood>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Herringbone_Sandstone (TerrainDef)",
+            "Label": "sandstone herringbone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_HerringboneBase\">\n\n\t\t<defName>DankPyon_Floor_Herringbone_Sandstone</defName>\n\n\t\t<label>sandstone herringbone tile</label>\n\n\t\t<color>(126,104,94)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSandstone>4</BlocksSandstone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Herringbone_Granite (TerrainDef)",
+            "Label": "granite herringbone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_HerringboneBase\">\n\n\t\t<defName>DankPyon_Floor_Herringbone_Granite</defName>\n\n\t\t<label>granite herringbone tile</label>\n\n\t\t<color>(105,95,97)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksGranite>4</BlocksGranite>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Herringbone_Limestone (TerrainDef)",
+            "Label": "limestone herringbone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_HerringboneBase\">\n\n\t\t<defName>DankPyon_Floor_Herringbone_Limestone</defName>\n\n\t\t<label>limestone herringbone tile</label>\n\n\t\t<color>(158,153,135)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksLimestone>4</BlocksLimestone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Herringbone_Slate (TerrainDef)",
+            "Label": "slate herringbone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_HerringboneBase\">\n\n\t\t<defName>DankPyon_Floor_Herringbone_Slate</defName>\n\n\t\t<label>slate herringbone tile</label>\n\n\t\t<color>(100,100,100)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSlate>4</BlocksSlate>\n\n\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Herringbone_Marble (TerrainDef)",
+            "Label": "marble herringbone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_HerringboneBase\">\n\n\t\t<defName>DankPyon_Floor_Herringbone_Marble</defName>\n\n\t\t<label>marble herringbone tile</label>\n\n\t\t<color>(132,135,132)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksMarble>4</BlocksMarble>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Herringbone_Clay (TerrainDef)",
+            "Label": "clay herringbone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_HerringboneBase\">\n\n\t\t<defName>DankPyon_Floor_Herringbone_Clay</defName>\n\n\t\t<label>clay herringbone tile</label>\n\n\t\t<color>(132, 99, 81)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_BlocksClay>4</DankPyon_BlocksClay>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Windmill_Sandstone (TerrainDef)",
+            "Label": "sandstone windmill tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_WindmillBase\">\n\n\t\t<defName>DankPyon_Floor_Windmill_Sandstone</defName>\n\n\t\t<label>sandstone windmill tile</label>\n\n\t\t<color>(126,104,94)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSandstone>4</BlocksSandstone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Windmill_Granite (TerrainDef)",
+            "Label": "granite windmill tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_WindmillBase\">\n\n\t\t<defName>DankPyon_Floor_Windmill_Granite</defName>\n\n\t\t<label>granite windmill tile</label>\n\n\t\t<color>(105,95,97)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksGranite>4</BlocksGranite>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Windmill_Limestone (TerrainDef)",
+            "Label": "limestone windmill tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_WindmillBase\">\n\n\t\t<defName>DankPyon_Floor_Windmill_Limestone</defName>\n\n\t\t<label>limestone windmill tile</label>\n\n\t\t<color>(158,153,135)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksLimestone>4</BlocksLimestone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Windmill_Slate (TerrainDef)",
+            "Label": "slate windmill tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_WindmillBase\">\n\n\t\t<defName>DankPyon_Floor_Windmill_Slate</defName>\n\n\t\t<label>slate windmill tile</label>\n\n\t\t<color>(100,100,100)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSlate>4</BlocksSlate>\n\n\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Windmill_Marble (TerrainDef)",
+            "Label": "marble windmill tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_WindmillBase\">\n\n\t\t<defName>DankPyon_Floor_Windmill_Marble</defName>\n\n\t\t<label>marble windmill tile</label>\n\n\t\t<color>(132,135,132)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksMarble>4</BlocksMarble>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Windmill_Clay (TerrainDef)",
+            "Label": "clay windmill tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_WindmillBase\">\n\n\t\t<defName>DankPyon_Floor_Windmill_Clay</defName>\n\n\t\t<label>clay windmill tile</label>\n\n\t\t<color>(132, 99, 81)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_BlocksClay>4</DankPyon_BlocksClay>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CobbleStone_Sandstone (TerrainDef)",
+            "Label": "sandstone cobblestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileCobblestone\">\n\n\t\t<defName>DankPyon_Floor_CobbleStone_Sandstone</defName>\n\n\t\t<label>sandstone cobblestone tile</label>\n\n\t\t<color>(126,104,94)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSandstone>4</BlocksSandstone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CobbleStone_Granite (TerrainDef)",
+            "Label": "granite cobblestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileCobblestone\">\n\n\t\t<defName>DankPyon_Floor_CobbleStone_Granite</defName>\n\n\t\t<label>granite cobblestone tile</label>\n\n\t\t<color>(105,95,97)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksGranite>4</BlocksGranite>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CobbleStone_Limestone (TerrainDef)",
+            "Label": "limestone cobblestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileCobblestone\">\n\n\t\t<defName>DankPyon_Floor_CobbleStone_Limestone</defName>\n\n\t\t<label>limestone cobblestone tile</label>\n\n\t\t<color>(158,153,135)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksLimestone>4</BlocksLimestone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CobbleStone_Slate (TerrainDef)",
+            "Label": "slate cobblestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileCobblestone\">\n\n\t\t<defName>DankPyon_Floor_CobbleStone_Slate</defName>\n\n\t\t<label>slate cobblestone tile</label>\n\n\t\t<color>(100,100,100)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSlate>4</BlocksSlate>\n\n\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CobbleStone_Marble (TerrainDef)",
+            "Label": "marble cobblestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileCobblestone\">\n\n\t\t<defName>DankPyon_Floor_CobbleStone_Marble</defName>\n\n\t\t<label>marble cobblestone tile</label>\n\n\t\t<color>(132,135,132)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksMarble>4</BlocksMarble>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_CobbleStone_Clay (TerrainDef)",
+            "Label": "clay cobblestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileCobblestone\">\n\n\t\t<defName>DankPyon_Floor_CobbleStone_Clay</defName>\n\n\t\t<label>clay cobblestone tile</label>\n\n\t\t<color>(132, 99, 81)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_BlocksClay>4</DankPyon_BlocksClay>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Versailles_Sandstone (TerrainDef)",
+            "Label": "sandstone versailles tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileVersailles\">\n\n\t\t<defName>DankPyon_Floor_Versailles_Sandstone</defName>\n\n\t\t<label>sandstone versailles tile</label>\n\n\t\t<color>(126,104,94)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSandstone>4</BlocksSandstone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Versailles_Granite (TerrainDef)",
+            "Label": "granite versailles tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileVersailles\">\n\n\t\t<defName>DankPyon_Floor_Versailles_Granite</defName>\n\n\t\t<label>granite versailles tile</label>\n\n\t\t<color>(105,95,97)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksGranite>4</BlocksGranite>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Versailles_Limestone (TerrainDef)",
+            "Label": "limestone versailles tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileVersailles\">\n\n\t\t<defName>DankPyon_Floor_Versailles_Limestone</defName>\n\n\t\t<label>limestone versailles tile</label>\n\n\t\t<color>(158,153,135)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksLimestone>4</BlocksLimestone>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Versailles_Slate (TerrainDef)",
+            "Label": "slate versailles tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileVersailles\">\n\n\t\t<defName>DankPyon_Floor_Versailles_Slate</defName>\n\n\t\t<label>slate versailles tile</label>\n\n\t\t<color>(100,100,100)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksSlate>4</BlocksSlate>\n\n\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Versailles_Marble (TerrainDef)",
+            "Label": "marble versailles tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileVersailles\">\n\n\t\t<defName>DankPyon_Floor_Versailles_Marble</defName>\n\n\t\t<label>marble versailles tile</label>\n\n\t\t<color>(132,135,132)</color>\n\n\t\t<costList>\n\n\t\t\t<BlocksMarble>4</BlocksMarble>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_Versailles_Clay (TerrainDef)",
+            "Label": "clay versailles tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/terrain_defs/terrain__floors__stone_tiles.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_TileVersailles\">\n\n\t\t<defName>DankPyon_Floor_Versailles_Clay</defName>\n\n\t\t<label>clay versailles tile</label>\n\n\t\t<color>(132, 99, 81)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_BlocksClay>4</DankPyon_BlocksClay>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_VFEArch_WoodenParquetDarkWood (TerrainDef)",
+            "Label": "dark wooden parquet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/vanilla_furniture_expanded__architect/defs/mo_vfea__terrain__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"VFEArch_WoodenParquetBase\">\n\n\t\t<defName>DankPyon_VFEArch_WoodenParquetDarkWood</defName>\n\n\t\t<label>dark wooden parquet</label>\n\n\t\t<color>(112,91,76)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_DarkWood>12</DankPyon_DarkWood>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "VFEArch_CobblestoneFloorMarble (TerrainDef)",
+            "Label": "clay cobblestone floor",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/vanilla_furniture_expanded__architect/defs/mo_vfea__terrain__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"CobblestoneBase\">\n\n\t\t<defName>VFEArch_CobblestoneFloorMarble</defName>\n\n\t\t<label>clay cobblestone floor</label>\n\n\t\t<color>(132, 99, 81)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_BlocksClay>4</DankPyon_BlocksClay>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_VFEArch_PolishedStoneFloorClay (TerrainDef)",
+            "Label": "clay polished floor",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/vanilla_furniture_expanded__architect/defs/mo_vfea__terrain__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"PolishedStoneFloorBase\">\n\n\t\t<defName>DankPyon_VFEArch_PolishedStoneFloorClay</defName>\n\n\t\t<label>clay polished floor</label>\n\n\t\t<color>(132, 99, 81)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_BlocksClay>12</DankPyon_BlocksClay>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_VFEArch_SlabsClay (TerrainDef)",
+            "Label": "clay slabs",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/vanilla_furniture_expanded__architect/defs/mo_vfea__terrain__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"StoneSlabsBase\">\n\n\t\t<defName>DankPyon_VFEArch_SlabsClay</defName>\n\n\t\t<label>clay slabs</label>\n\n\t\t<color>(132, 99, 81)</color>\n\n\t\t<costList>\n\n\t\t\t<DankPyon_BlocksClay>8</DankPyon_BlocksClay>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RusticWoodFloor_Walnut (TerrainDef)",
+            "Label": "rustic walnut wood floor",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/vanilla_furniture_expanded__architect/defs/mo_vfea__terrain__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RusticWoodFloorBase\">\n\n\t\t<defName>DankPyon_Floor_RusticWoodFloor_Walnut</defName>\n\n\t\t<label>rustic walnut wood floor</label>\n\n\t\t<color>(79,60,45)</color>\n\n\t\t<costList>\n\n\t\t\t<WoodLog>3</WoodLog>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RusticWoodFloor_Birch (TerrainDef)",
+            "Label": "rustic birch wood floor",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/vanilla_furniture_expanded__architect/defs/mo_vfea__terrain__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RusticWoodFloorBase\">\n\n\t\t<defName>DankPyon_Floor_RusticWoodFloor_Birch</defName>\n\n\t\t<label>rustic birch wood floor</label>\n\n\t\t <color>(243,196,150)</color>\n\n\t\t<costList>\n\n\t\t\t<WoodLog>3</WoodLog>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_Floor_RusticWoodFloor_Mahogany (TerrainDef)",
+            "Label": "rustic mahogany wood floor",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/vanilla_furniture_expanded__architect/defs/mo_vfea__terrain__floors.xml`",
+            "XML": "<TerrainDef ParentName=\"DankPyon_Floor_RusticWoodFloorBase\">\n\n\t\t<defName>DankPyon_Floor_RusticWoodFloor_Mahogany</defName>\n\n\t\t<label>rustic mahogany wood floor</label>\n\n\t\t<color>(134,79,49)</color>\n\n\t\t<costList>\n\n\t\t\t<WoodLog>3</WoodLog>\n\n\t\t</costList>\n\n\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_VFEArch_FineDarkWoodenFloor (TerrainDef)",
+            "Label": "fine dark wooden floor",
+            "Description Originale": "Beautiful wooden parquet, made with no compromises, for expressing economic status. Slow to construct.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/vanilla_furniture_expanded__architect/patches/royalty__patch.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n\t\t\t\t\t<defName>DankPyon_VFEArch_FineDarkWoodenFloor</defName>\n\n\t\t\t\t\t<label>fine dark wooden floor</label>\n\n\t\t\t\t\t<description>Beautiful wooden parquet, made with no compromises, for expressing economic status. Slow to construct.</description>\n\n\t\t\t\t\t<texturePath>Terrains/FineWoodenFloor</texturePath>\n\n\t\t\t\t\t<renderPrecedence>228</renderPrecedence>\n\n\t\t\t\t\t<constructionSkillPrerequisite>6</constructionSkillPrerequisite>\n\n\t\t\t\t\t<color>(112,91,76)</color>\n\n\t\t\t\t\t<costList>\n\n\t\t\t\t\t\t<DankPyon_RawDarkWood>20</DankPyon_RawDarkWood>\n\n\t\t\t\t\t</costList>\n\n\t\t\t\t\t<statBases>\n\n\t\t\t\t\t\t<WorkToBuild>5000</WorkToBuild>\n\n\t\t\t\t\t\t<Beauty>3</Beauty>\n\n\t\t\t\t\t\t<Flammability>0.22</Flammability>\n\n\t\t\t\t\t</statBases>\n\n\t\t\t\t\t<tags>\n\n\t\t\t\t\t\t<li>FineFloor</li>\n\n\t\t\t\t\t</tags>\n\n\t\t\t\t\t<constructEffect>ConstructWood</constructEffect>\n\n\t\t\t\t\t<designatorDropdown>VFEArch_FineWoodenFloor</designatorDropdown>\n\n\t\t\t\t</TerrainDef>"
+        },
+        {
+            "Title": "DankPyon_VFEArch_FineIronTile (TerrainDef)",
+            "Label": "fine iron tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/mods/vanilla_furniture_expanded__architect/patches/royalty__patch.xml`",
+            "XML": "<TerrainDef ParentName=\"FineMetalTileBase\">\n\n\t\t\t\t\t<defName>DankPyon_VFEArch_FineIronTile</defName>\n\n\t\t\t\t\t<label>fine iron tile</label>\n\n\t\t\t\t\t<renderPrecedence>241</renderPrecedence>\n\n\t\t\t\t\t<color>(0.3, 0.3, 0.3)</color>\n\n\t\t\t\t\t<statBases>\n\n\t\t\t\t\t\t<Beauty>1</Beauty>\n\n\t\t\t\t\t\t<WorkToBuild>800</WorkToBuild>\n\n\t\t\t\t\t\t<Cleanliness>0.1</Cleanliness>\n\n\t\t\t\t\t\t<CleaningTimeFactor>0.65</CleaningTimeFactor>\n\n\t\t\t\t\t</statBases>\n\n\t\t\t\t\t<costList>\n\n\t\t\t\t\t\t<DankPyon_IronIngot>20</DankPyon_IronIngot>\n\n\t\t\t\t\t</costList>\n\n\t\t\t\t</TerrainDef>"
+        },
+        {
+            "Title": "StrawMatting (TerrainDef)",
+            "Label": "straw matting",
+            "Description Originale": "Rough straw matting for use in animal barns. It is cheap and accepts very little filth.",
+            "Propriétés Clés": "pathCost: 1",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>StrawMatting</defName>\n\n    <label>straw matting</label>\n\n    <description>Rough straw matting for use in animal barns. It is cheap and accepts very little filth.</description>\n\n    <texturePath>Terrain/Surfaces/StrawMatting</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/StrawMattingPolluted</pollutedTexturePath>\n\n    <pollutionOverlayTexturePath />\n\n    <pollutionColor>(1, 1, 1, 1)</pollutionColor>\n\n    <pollutionTintColor>(1, 1, 1, 1)</pollutionTintColor>\n\n    <edgeType>Hard</edgeType>\n\n    <renderPrecedence>240</renderPrecedence>\n\n    <burnedDef>BurnedStrawMatting</burnedDef>\n\n    <pathCost>1</pathCost>\n\n    <statBases>\n\n      <Beauty>-1</Beauty>\n\n      <Cleanliness>-0.1</Cleanliness>\n\n      <WorkToBuild>120</WorkToBuild>\n\n      <FilthMultiplier>0.05</FilthMultiplier>\n\n      <Flammability>1.5</Flammability>\n\n    </statBases>\n\n    <costList>\n\n      <Hay>2</Hay>\n\n    </costList>\n\n    <designationHotKey>Misc6</designationHotKey>\n\n    <uiOrder>2010</uiOrder>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Concrete (TerrainDef)",
+            "Label": "concrete",
+            "Description Originale": "Rough concrete. It is cheap and quick to build, but is also quite ugly.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>Concrete</defName>\n\n    <label>concrete</label>\n\n    <description>Rough concrete. It is cheap and quick to build, but is also quite ugly.</description>\n\n    <texturePath>Terrain/Surfaces/Concrete</texturePath>\n\n    <color>(140,140,140)</color>\n\n    <edgeType>Hard</edgeType>\n\n    <renderPrecedence>70</renderPrecedence>\n\n    <isPaintable>true</isPaintable>\n\n    <statBases>\n\n      <Beauty>-1</Beauty>\n\n      <WorkToBuild>100</WorkToBuild>\n\n      <CleaningTimeFactor>0.8</CleaningTimeFactor>\n\n    </statBases>\n\n    <costList>\n\n      <Steel>1</Steel>\n\n    </costList>\n\n    <designationHotKey>Misc6</designationHotKey>\n\n    <researchPrerequisites>\n\n      <li>Stonecutting</li>\n\n    </researchPrerequisites>\n\n    <uiOrder>2020</uiOrder>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "PavedTile (TerrainDef)",
+            "Label": "paved tile",
+            "Description Originale": "Concrete tiles. Cheap, but neutral in terms of looks and slow to build.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>PavedTile</defName>\n\n    <label>paved tile</label>\n\n    <renderPrecedence>230</renderPrecedence>\n\n    <description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>\n\n    <texturePath>Terrain/Surfaces/PavedTile</texturePath>\n\n    <color>(140,140,140)</color>\n\n    <isPaintable>true</isPaintable>\n\n    <statBases>\n\n      <WorkToBuild>300</WorkToBuild>\n\n      <CleaningTimeFactor>0.8</CleaningTimeFactor>\n\n    </statBases>\n\n    <costList>\n\n      <Steel>2</Steel>\n\n    </costList>\n\n    <designationHotKey>Misc8</designationHotKey>\n\n    <researchPrerequisites>\n\n      <li>Stonecutting</li>\n\n    </researchPrerequisites>\n\n    <uiOrder>2030</uiOrder>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "WoodPlankFloor (TerrainDef)",
+            "Label": "wood floor",
+            "Description Originale": "Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>WoodPlankFloor</defName>\n\n    <label>wood floor</label>\n\n    <renderPrecedence>250</renderPrecedence>\n\n    <description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>\n\n    <texturePath>Terrain/Surfaces/WoodFloor</texturePath>\n\n    <burnedDef>BurnedWoodPlankFloor</burnedDef>\n\n    <color>(108,78,55)</color>\n\n    <pollutionShaderType MayRequire=\"Ludeon.RimWorld.Biotech\">TerrainFadeRoughSoftLight</pollutionShaderType>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>\n\n    <isPaintable>true</isPaintable>\n\n    <statBases>\n\n      <WorkToBuild>85</WorkToBuild>\n\n      <Flammability>0.22</Flammability>\n\n    </statBases>\n\n    <costList>\n\n      <WoodLog>3</WoodLog>\n\n    </costList>\n\n    <constructEffect>ConstructWood</constructEffect>\n\n    <designationHotKey>Misc9</designationHotKey>\n\n    <uiOrder>2000</uiOrder>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "MetalTile (TerrainDef)",
+            "Label": "steel tile",
+            "Description Originale": "Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TileMetalBase\">\n\n    <defName>MetalTile</defName>\n\n    <label>steel tile</label>\n\n    <renderPrecedence>240</renderPrecedence>\n\n    <description>Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.</description>\n\n    <color>(0.369, 0.369, 0.369)</color>\n\n    <statBases>\n\n      <WorkToBuild>800</WorkToBuild>\n\n      <Beauty>0</Beauty>\n\n      <Cleanliness>0.2</Cleanliness>\n\n      <CleaningTimeFactor>0.6</CleaningTimeFactor>\n\n    </statBases>\n\n    <costList>\n\n      <Steel>7</Steel>\n\n    </costList>\n\n    <designationHotKey>Misc7</designationHotKey>\n\n    <uiOrder>2040</uiOrder>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "SilverTile (TerrainDef)",
+            "Label": "silver tile",
+            "Description Originale": "For a futuristic but royal look, silver tiles fit perfectly into luxurious rooms. They are quick to clean and get a bonus to cleanliness.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TileMetalBase\">\n\n    <defName>SilverTile</defName>\n\n    <label>silver tile</label>\n\n    <renderPrecedence>241</renderPrecedence>\n\n    <description>For a futuristic but royal look, silver tiles fit perfectly into luxurious rooms. They are quick to clean and get a bonus to cleanliness.</description>\n\n    <color>(0.45, 0.45, 0.45)</color>\n\n    <statBases>\n\n      <Beauty>4</Beauty>\n\n      <WorkToBuild>800</WorkToBuild>\n\n      <Cleanliness>0.2</Cleanliness>\n\n      <CleaningTimeFactor>0.6</CleaningTimeFactor>\n\n    </statBases>\n\n    <costList>\n\n      <Silver>70</Silver>\n\n    </costList>\n\n    <designationHotKey>Misc2</designationHotKey>\n\n    <tags>\n\n      <li>FineFloor</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "GoldTile (TerrainDef)",
+            "Label": "gold tile",
+            "Description Originale": "For overbearing extravagance, nothing beats gold tiles. They are exceptionally expensive, and exceptionally beautiful, and people will think you're exceptionally snobbish if you actually live on them.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TileMetalBase\">\n\n    <defName>GoldTile</defName>\n\n    <label>gold tile</label>\n\n    <renderPrecedence>242</renderPrecedence>\n\n    <description>For overbearing extravagance, nothing beats gold tiles. They are exceptionally expensive, and exceptionally beautiful, and people will think you're exceptionally snobbish if you actually live on them.</description>\n\n    <color>(0.65, 0.65, 0.35)</color>\n\n    <statBases>\n\n      <Beauty>11</Beauty>\n\n      <WorkToBuild>800</WorkToBuild>\n\n      <Cleanliness>0.2</Cleanliness>\n\n      <CleaningTimeFactor>0.6</CleaningTimeFactor>\n\n    </statBases>\n\n    <costList>\n\n      <Gold>70</Gold>\n\n    </costList>\n\n    <designationHotKey>Misc3</designationHotKey>\n\n    <tags>\n\n      <li>FineFloor</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "SterileTile (TerrainDef)",
+            "Label": "sterile tile",
+            "Description Originale": "Sterile tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build, but quick to clean.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>SterileTile</defName>\n\n    <label>sterile tile</label>\n\n    <renderPrecedence>243</renderPrecedence>\n\n    <description>Sterile tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build, but quick to clean.</description>\n\n    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>\n\n    <color>(0.71, 0.71, 0.71)</color>\n\n    <pollutionTintColor>(0.95, 0.95, 0.93, 1)</pollutionTintColor>\n\n    <isPaintable>true</isPaintable>\n\n    <statBases>\n\n      <WorkToBuild>1600</WorkToBuild>\n\n      <Cleanliness>0.6</Cleanliness>\n\n      <CleaningTimeFactor>0.6</CleaningTimeFactor>\n\n      <Beauty>-1</Beauty>\n\n    </statBases>\n\n    <costList>\n\n      <Steel>3</Steel>\n\n      <Silver>12</Silver>\n\n    </costList>\n\n    <constructEffect>ConstructMetal</constructEffect>\n\n    <designationHotKey>Misc4</designationHotKey>\n\n    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>\n\n    <researchPrerequisites>\n\n      <li>SterileMaterials</li>\n\n    </researchPrerequisites>\n\n    <uiOrder>2050</uiOrder>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "BurnedWoodPlankFloor (TerrainDef)",
+            "Label": "burned wood floor",
+            "Description Originale": "Burned-out wood plank flooring.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_burned.xml`",
+            "XML": "<TerrainDef ParentName=\"BurnedFloorBase\">\n\n    <defName>BurnedWoodPlankFloor</defName>\n\n    <label>burned wood floor</label>\n\n    <renderPrecedence>251</renderPrecedence>\n\n    <description>Burned-out wood plank flooring.</description>\n\n    <texturePath>Terrain/Surfaces/BurnedWoodFloor</texturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "BurnedCarpet (TerrainDef)",
+            "Label": "burned carpet",
+            "Description Originale": "Burned-out carpet.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_burned.xml`",
+            "XML": "<TerrainDef ParentName=\"BurnedFloorBase\">\n\n    <defName>BurnedCarpet</defName>\n\n    <label>burned carpet</label>\n\n    <renderPrecedence>201</renderPrecedence>\n\n    <description>Burned-out carpet.</description>\n\n    <texturePath>Terrain/Surfaces/BurnedCarpet</texturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "BurnedStrawMatting (TerrainDef)",
+            "Label": "burned straw matting",
+            "Description Originale": "Straw matting that has been burned in a fire.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_burned.xml`",
+            "XML": "<TerrainDef ParentName=\"BurnedFloorBase\">\n\n    <defName>BurnedStrawMatting</defName>\n\n    <label>burned straw matting</label>\n\n    <renderPrecedence>240</renderPrecedence>\n\n    <description>Straw matting that has been burned in a fire.</description>\n\n    <texturePath>Terrain/Surfaces/BurnedStrawmatting</texturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "TileSandstone (TerrainDef)",
+            "Label": "sandstone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"TileStoneBase\">\n\n    <defName>TileSandstone</defName>\n\n    <label>sandstone tile</label>\n\n    <color>(126,104,94)</color>\n\n    <costList>\n\n      <BlocksSandstone>4</BlocksSandstone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "TileGranite (TerrainDef)",
+            "Label": "granite tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"TileStoneBase\">\n\n    <defName>TileGranite</defName>\n\n    <label>granite tile</label>\n\n    <color>(105,95,97)</color>\n\n    <costList>\n\n      <BlocksGranite>4</BlocksGranite>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "TileLimestone (TerrainDef)",
+            "Label": "limestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"TileStoneBase\">\n\n    <defName>TileLimestone</defName>\n\n    <label>limestone tile</label>\n\n    <color>(158,153,135)</color>\n\n    <costList>\n\n      <BlocksLimestone>4</BlocksLimestone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "TileSlate (TerrainDef)",
+            "Label": "slate tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"TileStoneBase\">\n\n    <defName>TileSlate</defName>\n\n    <label>slate tile</label>\n\n    <color>(100,100,100)</color>\n\n    <costList>\n\n      <BlocksSlate>4</BlocksSlate>\n\n  </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "TileMarble (TerrainDef)",
+            "Label": "marble tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"TileStoneBase\">\n\n    <defName>TileMarble</defName>\n\n    <label>marble tile</label>\n\n    <color>(132,135,132)</color>\n\n    <costList>\n\n      <BlocksMarble>4</BlocksMarble>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FlagstoneSandstone (TerrainDef)",
+            "Label": "sandstone flagstone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FlagstoneBase\">\n\n    <defName>FlagstoneSandstone</defName>\n\n    <label>sandstone flagstone</label>\n\n    <color>(126,104,94)</color>\n\n    <costList>\n\n      <BlocksSandstone>4</BlocksSandstone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FlagstoneGranite (TerrainDef)",
+            "Label": "granite flagstone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FlagstoneBase\">\n\n    <defName>FlagstoneGranite</defName>\n\n    <label>granite flagstone</label>\n\n    <color>(105,95,97)</color>\n\n    <costList>\n\n      <BlocksGranite>4</BlocksGranite>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FlagstoneLimestone (TerrainDef)",
+            "Label": "limestone flagstone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FlagstoneBase\">\n\n    <defName>FlagstoneLimestone</defName>\n\n    <label>limestone flagstone</label>\n\n    <color>(158,153,135)</color>\n\n    <costList>\n\n      <BlocksLimestone>4</BlocksLimestone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FlagstoneSlate (TerrainDef)",
+            "Label": "slate flagstone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FlagstoneBase\">\n\n    <defName>FlagstoneSlate</defName>\n\n    <label>slate flagstone</label>\n\n    <color>(105,105,105)</color>\n\n    <costList>\n\n      <BlocksSlate>4</BlocksSlate>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FlagstoneMarble (TerrainDef)",
+            "Label": "marble flagstone",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_floors_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FlagstoneBase\">\n\n    <defName>FlagstoneMarble</defName>\n\n    <label>marble flagstone</label>\n\n    <color>(132,135,132)</color>\n\n    <costList>\n\n      <BlocksMarble>4</BlocksMarble>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Bridge (TerrainDef)",
+            "Label": "bridge",
+            "Description Originale": "A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_foundation.xml`",
+            "XML": "<TerrainDef ParentName=\"BridgeBase\">\n\n    <defName>Bridge</defName>\n\n    <label>bridge</label>\n\n    <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>\n\n    <texturePath>Terrain/Surfaces/WoodFloor</texturePath>\n\n    <bridgePropsPath>Terrain/Misc/BridgeProps</bridgePropsPath>\n\n    <color>(108,78,55)</color>\n\n    <uiIconPath>Terrain/Surfaces/Bridge_MenuIcon</uiIconPath>\n\n    <affordances>\n\n      <li>Light</li>\n\n    </affordances>\n\n    <constructEffect>ConstructWood</constructEffect>\n\n    <statBases>\n\n      <WorkToBuild>1500</WorkToBuild>\n\n      <Flammability>0.8</Flammability>\n\n    </statBases>\n\n    <costList>\n\n      <WoodLog>12</WoodLog>\n\n    </costList>\n\n    <designationHotKey>Misc4</designationHotKey>\n\n    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Soil (TerrainDef)",
+            "Label": "soil",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 1.0; pathCost: 2",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\">\n\n    <defName>Soil</defName>\n\n    <label>soil</label>\n\n    <texturePath>Terrain/Surfaces/Soil</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/SoilPolluted</pollutedTexturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n    <categoryType>Soil</categoryType>\n\n    <renderPrecedence>340</renderPrecedence>\n\n    <pathCost>2</pathCost>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-1</Cleanliness>\n\n    </statBases>\n\n    <scatterType>Rocky</scatterType>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Medium</li>\n\n      <li>Heavy</li>\n\n      <li>GrowSoil</li>\n\n      <li>Diggable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <fertility>1.0</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <tools>\n\n      <li>\n\n        <label>dirt</label>\n\n        <capacities>\n\n          <li>KickMaterialInEyes</li>\n\n        </capacities>\n\n        <hediff>DirtInEyes</hediff>\n\n        <cooldownTime>1.5</cooldownTime>\n\n      </li>\n\n    </tools>\n\n    <tags>\n\n      <li>Soil</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "MossyTerrain (TerrainDef)",
+            "Label": "lichen-covered soil",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 1; pathCost: 3",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\">\n\n    <defName>MossyTerrain</defName>\n\n    <label>lichen-covered soil</label>\n\n    <texturePath>Terrain/Surfaces/Mossy</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/MossyPolluted</pollutedTexturePath>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionMossy</pollutionOverlayTexturePath>\n\n    <pollutionShaderType MayRequire=\"Ludeon.RimWorld.Biotech\">TerrainFadeRoughSoftLight</pollutionShaderType>\n\n    <pollutionOverlayScale>(0.66, 0.66)</pollutionOverlayScale>\n\n    <pollutionColor>(1, 1, 1, 1)</pollutionColor>\n\n    <edgeType>FadeRough</edgeType>\n\n    <categoryType>Soil</categoryType>\n\n    <renderPrecedence>315</renderPrecedence>\n\n    <pathCost>3</pathCost>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-1</Cleanliness>\n\n    </statBases>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Medium</li>\n\n      <li>Heavy</li>\n\n      <li>GrowSoil</li>\n\n      <li>Diggable</li>\n\n    </affordances>\n\n    <fertility>1</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <avoidWander>false</avoidWander>\n\n    <tags>\n\n      <li>Soil</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "MarshyTerrain (TerrainDef)",
+            "Label": "marshy soil",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 1.0; pathCost: 14",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\">\n\n    <defName>MarshyTerrain</defName>\n\n    <label>marshy soil</label>\n\n    <texturePath>Terrain/Surfaces/MarshyTerrain</texturePath>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionMarsh</pollutionOverlayTexturePath>\n\n    <pollutionColor>(1, 1, 1, 0.15)</pollutionColor>\n\n    <edgeType>FadeRough</edgeType>\n\n    <categoryType>Soil</categoryType>\n\n    <renderPrecedence>337</renderPrecedence>\n\n    <pathCost>14</pathCost>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-2</Cleanliness>\n\n    </statBases>\n\n    <scatterType>Rocky</scatterType>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>GrowSoil</li>\n\n      <li>Diggable</li>\n\n      <li>Bridgeable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <fertility>1.0</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <driesTo>Soil</driesTo>\n\n    <tools>\n\n      <li>\n\n        <label>mud</label>\n\n        <capacities>\n\n          <li>KickMaterialInEyes</li>\n\n        </capacities>\n\n        <hediff>MudInEyes</hediff>\n\n        <cooldownTime>1.5</cooldownTime>\n\n      </li>\n\n    </tools>\n\n    <tags>\n\n      <li>Soil</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "SoilRich (TerrainDef)",
+            "Label": "rich soil",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 1.4; pathCost: 2",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\">\n\n    <defName>SoilRich</defName>\n\n    <label>rich soil</label>\n\n    <texturePath>Terrain/Surfaces/SoilRich</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/SoilRichPolluted</pollutedTexturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n    <categoryType>Soil</categoryType>\n\n    <renderPrecedence>335</renderPrecedence>\n\n    <pathCost>2</pathCost>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-1</Cleanliness>\n\n    </statBases>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Medium</li>\n\n      <li>Heavy</li>\n\n      <li>GrowSoil</li>\n\n      <li>Diggable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <fertility>1.4</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <tools>\n\n      <li>\n\n        <label>dirt</label>\n\n        <capacities>\n\n          <li>KickMaterialInEyes</li>\n\n        </capacities>\n\n        <hediff>DirtInEyes</hediff>\n\n        <cooldownTime>1.5</cooldownTime>\n\n      </li>\n\n    </tools>\n\n    <tags>\n\n      <li>Soil</li>\n\n    </tags>\n\n    <spaceEdgeGraphicData>\n\n      <overrideColor>(0.27, 0.22, 0.18, 1)</overrideColor>\n\n    </spaceEdgeGraphicData>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Riverbank (TerrainDef)",
+            "Label": "riverbank",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 1.4; pathCost: 4",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\">\n\n    <defName>Riverbank</defName>\n\n    <label>riverbank</label>\n\n    <texturePath>Terrain/Surfaces/Riverbank</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/RiverbankPolluted</pollutedTexturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n    <categoryType>Soil</categoryType>\n\n    <renderPrecedence>339</renderPrecedence>\n\n    <pathCost>4</pathCost>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-1</Cleanliness>\n\n    </statBases>\n\n    <scatterType>Rocky</scatterType>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Medium</li>\n\n      <li>Heavy</li>\n\n      <li>GrowSoil</li>\n\n      <li>Diggable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <fertility>1.4</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <tools>\n\n      <li>\n\n        <label>dirt</label>\n\n        <capacities>\n\n          <li>KickMaterialInEyes</li>\n\n        </capacities>\n\n        <hediff>DirtInEyes</hediff>\n\n        <cooldownTime>1.5</cooldownTime>\n\n      </li>\n\n    </tools>\n\n    <tags>\n\n      <li>Soil</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Gravel (TerrainDef)",
+            "Label": "stony soil",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0.7; pathCost: 2",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\">\n\n    <defName>Gravel</defName>\n\n    <label>stony soil</label>\n\n    <texturePath>Terrain/Surfaces/Gravel</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/GravelPolluted</pollutedTexturePath>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath>\n\n    <pollutionShaderType MayRequire=\"Ludeon.RimWorld.Biotech\">TerrainFadeRoughLinearAdd</pollutionShaderType>\n\n    <edgeType>FadeRough</edgeType>\n\n    <renderPrecedence>320</renderPrecedence>\n\n    <pathCost>2</pathCost>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-1</Cleanliness>\n\n    </statBases>\n\n    <scatterType>Rocky</scatterType>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Medium</li>\n\n      <li>Heavy</li>\n\n      <li>GrowSoil</li>\n\n      <li>Diggable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <fertility>0.7</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <tools>\n\n      <li>\n\n        <label>gravel</label>\n\n        <capacities>\n\n          <li>KickMaterialInEyes</li>\n\n        </capacities>\n\n        <hediff>GravelInEyes</hediff>\n\n        <cooldownTime>1.5</cooldownTime>\n\n      </li>\n\n    </tools>\n\n    <tags>\n\n      <li>Soil</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Sand (TerrainDef)",
+            "Label": "sand",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0.10; pathCost: 4",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\" Name=\"Sand\">\n\n    <defName>Sand</defName>\n\n    <label>sand</label>\n\n    <texturePath>Terrain/Surfaces/Sand</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/SandPolluted</pollutedTexturePath>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionSand</pollutionOverlayTexturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n    <categoryType>Sand</categoryType>\n\n    <renderPrecedence>350</renderPrecedence>\n\n    <pathCost>4</pathCost>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-1</Cleanliness>\n\n    </statBases>\n\n    <scatterType>SoftDry</scatterType>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Medium</li>\n\n      <li>Heavy</li>\n\n      <li>Diggable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Sand</generatedFilth>\n\n    <fertility>0.10</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <tools>\n\n      <li>\n\n        <label>sand</label>\n\n        <capacities>\n\n          <li>KickMaterialInEyes</li>\n\n        </capacities>\n\n        <hediff>SandInEyes</hediff>\n\n        <cooldownTime>1.5</cooldownTime>\n\n      </li>\n\n    </tools>\n\n    <pollutionColor>(1, 1, 1, 0.25)</pollutionColor>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "SoftSand (TerrainDef)",
+            "Label": "soft sand",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0; pathCost: 14",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\">\n\n    <defName>SoftSand</defName>\n\n    <label>soft sand</label>\n\n    <texturePath>Terrain/Surfaces/SoftSand</texturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n    <renderPrecedence>352</renderPrecedence>\n\n    <pathCost>14</pathCost>\n\n    <driesTo>Sand</driesTo>\n\n    <categoryType>Sand</categoryType>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-1</Cleanliness>\n\n    </statBases>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Diggable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Sand</generatedFilth>\n\n    <fertility>0</fertility>\n\n    <takeFootprints>true</takeFootprints>\n\n    <tools>\n\n      <li>\n\n        <label>sand</label>\n\n        <capacities>\n\n          <li>KickMaterialInEyes</li>\n\n        </capacities>\n\n        <hediff>SandInEyes</hediff>\n\n        <cooldownTime>1.5</cooldownTime>\n\n      </li>\n\n    </tools>\n\n    <pollutionColor>(1, 1, 1, 0.25)</pollutionColor>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Mud (TerrainDef)",
+            "Label": "mud",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0; pathCost: 14",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\">\n\n    <defName>Mud</defName>\n\n    <label>mud</label>\n\n    <texturePath>Terrain/Surfaces/Mud</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/MudPolluted</pollutedTexturePath>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionMud</pollutionOverlayTexturePath>\n\n    <pollutionShaderType MayRequire=\"Ludeon.RimWorld.Biotech\">TerrainFadeRoughSoftLight</pollutionShaderType>\n\n    <pollutionColor>(1, 1, 1, 1)</pollutionColor>\n\n    <edgeType>FadeRough</edgeType>\n\n    <categoryType>Soil</categoryType>\n\n    <renderPrecedence>330</renderPrecedence>\n\n    <pathCost>14</pathCost>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-2</Cleanliness>\n\n    </statBases>\n\n    <affordances>\n\n      <li>Bridgeable</li>\n\n      <li>WaterproofConduitable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <fertility>0</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <avoidWander>true</avoidWander>\n\n    <driesTo>Soil</driesTo>\n\n    <tools>\n\n      <li>\n\n        <label>mud</label>\n\n        <capacities>\n\n          <li>KickMaterialInEyes</li>\n\n        </capacities>\n\n        <hediff>MudInEyes</hediff>\n\n        <cooldownTime>1.5</cooldownTime>\n\n      </li>\n\n    </tools>\n\n    <tags>\n\n      <li>Mud</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Ice (TerrainDef)",
+            "Label": "Ice",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0.00; pathCost: 14",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_natural.xml`",
+            "XML": "<TerrainDef ParentName=\"NaturalTerrainBase\" Name=\"Ice\">\n\n    <defName>Ice</defName>\n\n    <label>Ice</label>\n\n    <texturePath>Terrain/Surfaces/Ice</texturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n    <renderPrecedence>350</renderPrecedence>\n\n    <pathCost>14</pathCost>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n    </statBases>\n\n    <scatterType>SoftGray</scatterType>\n\n    <tags>\n\n      <li>Ice</li>\n\n    </tags>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Medium</li>\n\n      <li>Heavy</li>\n\n      <li>Diggable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <fertility>0.00</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <pollutedTexturePath>Terrain/Surfaces/IcePolluted</pollutedTexturePath>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionIce</pollutionOverlayTexturePath>\n\n    <pollutionColor>(1, 1, 1, 1)</pollutionColor>\n\n    <pollutionCloudColor>(1, 1, 1, 0.66)</pollutionCloudColor>\n\n    <canEverTerraform>false</canEverTerraform>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "BrokenAsphalt (TerrainDef)",
+            "Label": "broken asphalt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0.0; pathCost: 0",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_road.xml`",
+            "XML": "<TerrainDef ParentName=\"TerrainRoadBase\">\n\n    <defName>BrokenAsphalt</defName>\n\n    <label>broken asphalt</label>\n\n    <texturePath>Terrain/Surfaces/BrokenAsphalt</texturePath>\n\n    <layerable>true</layerable>\n\n    <edgeType>FadeRough</edgeType>\n\n    <renderPrecedence>370</renderPrecedence>\n\n    <pathCost>0</pathCost>\n\n    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>\n\n    <statBases>\n\n      <Beauty>-1</Beauty>\n\n      <Cleanliness>-2</Cleanliness>\n\n    </statBases>\n\n    <scatterType>Rocky</scatterType>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Medium</li>\n\n      <li>Heavy</li>\n\n    </affordances>\n\n    <fertility>0.0</fertility>\n\n    <tags>\n\n      <li>Road</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "PackedDirt (TerrainDef)",
+            "Label": "packed dirt",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0.0; pathCost: 1",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_road.xml`",
+            "XML": "<TerrainDef ParentName=\"TerrainRoadBase\">\n\n    <defName>PackedDirt</defName>\n\n    <label>packed dirt</label>\n\n    <texturePath>Terrain/Surfaces/PackedDirt</texturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n    <categoryType>Soil</categoryType>\n\n    <renderPrecedence>360</renderPrecedence>\n\n    <pathCost>1</pathCost>\n\n    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>\n\n    <statBases>\n\n      <Beauty>-1</Beauty>\n\n      <Cleanliness>-1</Cleanliness>\n\n    </statBases>\n\n    <scatterType>Rocky</scatterType>\n\n    <affordances>\n\n      <li>Light</li>\n\n      <li>Medium</li>\n\n      <li>Heavy</li>\n\n      <li>Diggable</li>\n\n    </affordances>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <fertility>0.0</fertility>\n\n    <tags>\n\n      <li>Road</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Underwall (TerrainDef)",
+            "Label": "underwall",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_special.xml`",
+            "XML": "<TerrainDef>\n\n    <defName>Underwall</defName>\n\n    <label>underwall</label>\n\n    <texturePath>Terrain/Surfaces/Underwall</texturePath>\n\n    <edgeType>Hard</edgeType>\n\n    <renderPrecedence>0</renderPrecedence>\n\n    <fertility>0</fertility>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "AncientTile (TerrainDef)",
+            "Label": "ancient tile",
+            "Description Originale": "Ancient metal tiles.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_special.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>AncientTile</defName>\n\n    <label>ancient tile</label>\n\n    <description>Ancient metal tiles.</description>\n\n    <statBases>\n\n      <MarketValue>0</MarketValue>\n\n      <Beauty>0</Beauty>\n\n      <Cleanliness>0.2</Cleanliness>\n\n      <CleaningTimeFactor>0.6</CleaningTimeFactor>\n\n    </statBases>\n\n    <renderPrecedence>240</renderPrecedence>\n\n    <texturePath>Terrain/Surfaces/AncientTile</texturePath>\n\n    <isPaintable>true</isPaintable>\n\n    <designationCategory Inherit=\"False\" IsNull=\"True\" />\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "AncientConcrete (TerrainDef)",
+            "Label": "ancient concrete",
+            "Description Originale": "Ancient concrete flooring.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_special.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>AncientConcrete</defName>\n\n    <label>ancient concrete</label>\n\n    <description>Ancient concrete flooring.</description>\n\n    <statBases>\n\n      <MarketValue>0</MarketValue>\n\n      <Beauty>-1</Beauty>\n\n      <CleaningTimeFactor>0.8</CleaningTimeFactor>\n\n    </statBases>\n\n    <renderPrecedence>70</renderPrecedence>\n\n    <texturePath>Terrain/Surfaces/AncientConcrete</texturePath>\n\n    <color>(140,140,140)</color>\n\n    <isPaintable>true</isPaintable>\n\n    <edgeType>Hard</edgeType>\n\n    <designationCategory Inherit=\"False\" IsNull=\"True\" />\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "AncientWoodPlankFloor (TerrainDef)",
+            "Label": "ancient wood floor",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_special.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>AncientWoodPlankFloor</defName>\n\n    <label>ancient wood floor</label>\n\n    <renderPrecedence>250</renderPrecedence>\n\n    <texturePath>Terrain/Surfaces/WoodFloor</texturePath>\n\n    <burnedDef>BurnedWoodPlankFloor</burnedDef>\n\n    <color>(92,65,44)</color>\n\n    <pollutionShaderType MayRequire=\"Ludeon.RimWorld.Biotech\">TerrainFadeRoughSoftLight</pollutionShaderType>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>\n\n    <isPaintable>true</isPaintable>\n\n    <statBases>\n\n      <MarketValue>0</MarketValue>\n\n      <Flammability>0.22</Flammability>\n\n    </statBases>\n\n    <designationCategory Inherit=\"False\" IsNull=\"True\" />\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "WaterDeep (TerrainDef)",
+            "Label": "deep water",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_water.xml`",
+            "XML": "<TerrainDef ParentName=\"WaterDeepBase\">\n\n    <defName>WaterDeep</defName>\n\n    <label>deep water</label>\n\n    <renderPrecedence>395</renderPrecedence>\n\n    <pollutedTexturePath>Terrain/Surfaces/WaterDeepRampPolluted</pollutedTexturePath>\n\n    <forcePassableByFlyingPawns>true</forcePassableByFlyingPawns>\n\n    <gravshipReplacementTerrain>WaterShallow</gravshipReplacementTerrain>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "WaterOceanDeep (TerrainDef)",
+            "Label": "deep ocean water",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_water.xml`",
+            "XML": "<TerrainDef ParentName=\"WaterDeepBase\">\n\n    <defName>WaterOceanDeep</defName>\n\n    <label>deep ocean water</label>\n\n    <renderPrecedence>397</renderPrecedence>\n\n    <waterBodyType>Saltwater</waterBodyType>\n\n    <gravshipReplacementTerrain>WaterOceanShallow</gravshipReplacementTerrain>\n\n    <tags>\n\n      <li>Ocean</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "WaterMovingChestDeep (TerrainDef)",
+            "Label": "chest-deep moving water",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_water.xml`",
+            "XML": "<TerrainDef ParentName=\"WaterChestDeepBase\">\n\n    <defName>WaterMovingChestDeep</defName>\n\n    <label>chest-deep moving water</label>\n\n    <renderPrecedence>399</renderPrecedence>\n\n    <pollutedTexturePath>Terrain/Surfaces/WaterChestDeepRampPolluted</pollutedTexturePath>\n\n    <affordances>\n\n      <li>MovingFluid</li>\n\n    </affordances>\n\n    <tags>\n\n      <li>River</li>\n\n    </tags>\n\n    <waterDepthShaderParameters>\n\n      <_UseWaterOffset>1</_UseWaterOffset>\n\n    </waterDepthShaderParameters>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "WaterShallow (TerrainDef)",
+            "Label": "shallow water",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_water.xml`",
+            "XML": "<TerrainDef ParentName=\"WaterShallowBase\" Name=\"WaterShallow\">\n\n    <defName>WaterShallow</defName>\n\n    <label>shallow water</label>\n\n    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>\n\n    <waterDepthShader>Map/WaterDepth</waterDepthShader>\n\n    <renderPrecedence>394</renderPrecedence>\n\n    <driesTo>Gravel</driesTo>\n\n    <tags>\n\n      <li>WaterFreshShallow</li>\n\n      <li>WaterFreshShallowStill</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "WaterOceanShallow (TerrainDef)",
+            "Label": "shallow ocean water",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_water.xml`",
+            "XML": "<TerrainDef ParentName=\"WaterShallowBase\">\n\n    <defName>WaterOceanShallow</defName>\n\n    <label>shallow ocean water</label>\n\n    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>\n\n    <waterDepthShader>Map/WaterDepth</waterDepthShader>\n\n    <renderPrecedence>396</renderPrecedence>\n\n    <driesTo>Gravel</driesTo>\n\n    <canFreeze>false</canFreeze>\n\n    <waterBodyType>Saltwater</waterBodyType>\n\n    <tags>\n\n      <li>Ocean</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "WaterMovingShallow (TerrainDef)",
+            "Label": "shallow moving water",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_water.xml`",
+            "XML": "<TerrainDef ParentName=\"WaterShallowBase\">\n\n    <defName>WaterMovingShallow</defName>\n\n    <label>shallow moving water</label>\n\n    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>\n\n    <waterDepthShader>Map/WaterDepth</waterDepthShader>\n\n    <renderPrecedence>398</renderPrecedence>\n\n    <affordances>\n\n      <li>MovingFluid</li>\n\n    </affordances>\n\n    <tags>\n\n      <li>River</li>\n\n      <li>WaterFreshShallow</li>\n\n      <li>WaterFreshShallowMoving</li>\n\n    </tags>\n\n    <waterDepthShaderParameters>\n\n      <_UseWaterOffset>1</_UseWaterOffset>\n\n    </waterDepthShaderParameters>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Marsh (TerrainDef)",
+            "Label": "marsh",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "fertility: 0",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/terrain_defs/terrain_water.xml`",
+            "XML": "<TerrainDef ParentName=\"WaterShallowBase\" Name=\"MarshBase\">\n\n    <defName>Marsh</defName>\n\n    <label>marsh</label>\n\n    <texturePath>Terrain/Surfaces/Marsh</texturePath>\n\n    <pollutedTexturePath>Terrain/Surfaces/MarshPolluted</pollutedTexturePath>\n\n    <pollutionOverlayTexturePath>Terrain/Surfaces/MarshPollutionOverlay</pollutionOverlayTexturePath>\n\n    <pollutionShaderType MayRequire=\"Ludeon.RimWorld.Biotech\">TerrainFadeRoughSoftLight</pollutionShaderType>\n\n    <pollutionOverlayScrollSpeed>0.007</pollutionOverlayScrollSpeed>\n\n    <pollutionOverlayScale>(0.8, 0.8)</pollutionOverlayScale>\n\n    <edgeType>FadeRough</edgeType>\n\n    <renderPrecedence>325</renderPrecedence>\n\n    <statBases>\n\n      <Beauty>-3</Beauty>\n\n      <BeautyOutdoors>0</BeautyOutdoors>\n\n      <Cleanliness>-2</Cleanliness>\n\n    </statBases>\n\n    <generatedFilth>Filth_Dirt</generatedFilth>\n\n    <fertility>0</fertility>\n\n    <takeFootprints>True</takeFootprints>\n\n    <avoidWander>true</avoidWander>\n\n    <driesTo>Soil</driesTo>\n\n    <floodTerrain MayRequire=\"Ludeon.RimWorld.Odyssey\">MarshFlood</floodTerrain>\n\n    <extinguishesFire>true</extinguishesFire>\n\n    <tools>\n\n      <li>\n\n        <label>mud</label>\n\n        <capacities>\n\n          <li>KickMaterialInEyes</li>\n\n        </capacities>\n\n        <hediff>MudInEyes</hediff>\n\n        <cooldownTime>1.5</cooldownTime>\n\n      </li>\n\n    </tools>\n\n    <tags>\n\n      <li>WaterMarshy</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_MorbidSandstone (TerrainDef)",
+            "Label": "morbid sandstone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"MorbidStoneTile\">\n\n    <defName>Tile_MorbidSandstone</defName>\n\n    <label>morbid sandstone tile</label>\n\n    <color>(147,127,118)</color>\n\n    <costList>\n\n      <BlocksSandstone>20</BlocksSandstone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_MorbidGranite (TerrainDef)",
+            "Label": "morbid granite tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"MorbidStoneTile\">\n\n    <defName>Tile_MorbidGranite</defName>\n\n    <label>morbid granite tile</label>\n\n    <color>(105,95,97)</color>\n\n    <costList>\n\n      <BlocksGranite>20</BlocksGranite>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_MorbidLimestone (TerrainDef)",
+            "Label": "morbid limestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"MorbidStoneTile\">\n\n    <defName>Tile_MorbidLimestone</defName>\n\n    <label>morbid limestone tile</label>\n\n    <color>(158,153,135)</color>\n\n    <costList>\n\n      <BlocksLimestone>20</BlocksLimestone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_MorbidSlate (TerrainDef)",
+            "Label": "morbid slate tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"MorbidStoneTile\">\n\n    <defName>Tile_MorbidSlate</defName>\n\n    <label>morbid slate tile</label>\n\n    <color>(70,70,70)</color>\n\n    <costList>\n\n      <BlocksSlate>20</BlocksSlate>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_MorbidMarble (TerrainDef)",
+            "Label": "morbid marble tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"MorbidStoneTile\">\n\n    <defName>Tile_MorbidMarble</defName>\n\n    <label>morbid marble tile</label>\n\n    <color>(180,180,180)</color>\n\n    <costList>\n\n      <BlocksMarble>20</BlocksMarble>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_MorbidVacstone (TerrainDef)",
+            "Label": "morbid vacstone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"MorbidStoneTile\" MayRequire=\"Ludeon.RimWorld.Odyssey\">\n\n    <defName>Tile_MorbidVacstone</defName>\n\n    <label>morbid vacstone tile</label>\n\n    <color>(115,106,98)</color>\n\n    <costList>\n\n      <BlocksVacstone>20</BlocksVacstone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_SpikecoreSandstone (TerrainDef)",
+            "Label": "sandstone spikecore tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"SpikecoreStoneTile\">\n\n    <defName>Tile_SpikecoreSandstone</defName>\n\n    <label>sandstone spikecore tile</label>\n\n    <color>(147,127,118)</color>\n\n    <costList>\n\n      <BlocksSandstone>20</BlocksSandstone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_SpikecoreGranite (TerrainDef)",
+            "Label": "granite spikecore tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"SpikecoreStoneTile\">\n\n    <defName>Tile_SpikecoreGranite</defName>\n\n    <label>granite spikecore tile</label>\n\n    <color>(105,95,97)</color>\n\n    <costList>\n\n      <BlocksGranite>20</BlocksGranite>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_SpikecoreLimestone (TerrainDef)",
+            "Label": "limestone spikecore tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"SpikecoreStoneTile\">\n\n    <defName>Tile_SpikecoreLimestone</defName>\n\n    <label>limestone spikecore tile</label>\n\n    <color>(158,153,135)</color>\n\n    <costList>\n\n      <BlocksLimestone>20</BlocksLimestone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_SpikecoreSlate (TerrainDef)",
+            "Label": "slate spikecore tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"SpikecoreStoneTile\">\n\n    <defName>Tile_SpikecoreSlate</defName>\n\n    <label>slate spikecore tile</label>\n\n    <color>(70,70,70)</color>\n\n    <costList>\n\n      <BlocksSlate>20</BlocksSlate>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_SpikecoreMarble (TerrainDef)",
+            "Label": "marble spikecore tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"SpikecoreStoneTile\">\n\n    <defName>Tile_SpikecoreMarble</defName>\n\n    <label>marble spikecore tile</label>\n\n    <color>(180,180,180)</color>\n\n    <costList>\n\n      <BlocksMarble>20</BlocksMarble>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_SpikecoreVacstone (TerrainDef)",
+            "Label": "vacstone spikecore tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"SpikecoreStoneTile\" MayRequire=\"Ludeon.RimWorld.Odyssey\">\n\n    <defName>Tile_SpikecoreVacstone</defName>\n\n    <label>vacstone spikecore tile</label>\n\n    <color>(115,106,98)</color>\n\n    <costList>\n\n      <BlocksVacstone>20</BlocksVacstone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Plates_Spikecore (TerrainDef)",
+            "Label": "spikecore plates",
+            "Description Originale": "Fine steel plates decorated in an aggressive spikecore style.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>Plates_Spikecore</defName>\n\n    <label>spikecore plates</label>\n\n    <description>Fine steel plates decorated in an aggressive spikecore style.</description>\n\n    <texturePath>Terrain/Surfaces/SpikecorePlates</texturePath>\n\n    <renderPrecedence>240</renderPrecedence>\n\n    <canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>\n\n    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>\n\n    <dominantStyleCategory>Spikecore</dominantStyleCategory>\n\n    <color>(105,105,105)</color>\n\n    <costList>\n\n      <Steel>12</Steel>\n\n    </costList>\n\n    <statBases>\n\n      <WorkToBuild>5000</WorkToBuild>\n\n      <Beauty>3</Beauty>\n\n      <StyleDominance>1</StyleDominance>\n\n      <CleaningTimeFactor>0.6</CleaningTimeFactor>\n\n    </statBases>\n\n    <tags>\n\n      <li>FineFloor</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Boards_Totemic (TerrainDef)",
+            "Label": "totemic boards",
+            "Description Originale": "Fine wood boards decorated in a totemic style.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>Boards_Totemic</defName>\n\n    <label>totemic boards</label>\n\n    <description>Fine wood boards decorated in a totemic style.</description>\n\n    <texturePath>Terrain/Surfaces/TotemicBoards</texturePath>\n\n    <renderPrecedence>250</renderPrecedence>\n\n    <canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>\n\n    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>\n\n    <dominantStyleCategory>Totemic</dominantStyleCategory>\n\n    <color>(133,97,67)</color>\n\n    <costList>\n\n      <WoodLog>20</WoodLog>\n\n    </costList>\n\n    <isPaintable>true</isPaintable>\n\n    <statBases>\n\n      <WorkToBuild>5000</WorkToBuild>\n\n      <Beauty>3</Beauty>\n\n      <StyleDominance>1</StyleDominance>\n\n      <Flammability>0.22</Flammability>\n\n    </statBases>\n\n    <tags>\n\n      <li>FineFloor</li>\n\n    </tags>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_TotemicSandstone (TerrainDef)",
+            "Label": "totemic sandstone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TotemicStoneTile\">\n\n    <defName>Tile_TotemicSandstone</defName>\n\n    <label>totemic sandstone tile</label>\n\n    <color>(147,127,118)</color>\n\n    <costList>\n\n      <BlocksSandstone>20</BlocksSandstone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_TotemicGranite (TerrainDef)",
+            "Label": "totemic granite tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TotemicStoneTile\">\n\n    <defName>Tile_TotemicGranite</defName>\n\n    <label>totemic granite tile</label>\n\n    <color>(105,95,97)</color>\n\n    <costList>\n\n      <BlocksGranite>20</BlocksGranite>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_TotemicLimestone (TerrainDef)",
+            "Label": "totemic limestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TotemicStoneTile\">\n\n    <defName>Tile_TotemicLimestone</defName>\n\n    <label>totemic limestone tile</label>\n\n    <color>(158,153,135)</color>\n\n    <costList>\n\n      <BlocksLimestone>20</BlocksLimestone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_TotemicSlate (TerrainDef)",
+            "Label": "totemic slate tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TotemicStoneTile\">\n\n    <defName>Tile_TotemicSlate</defName>\n\n    <label>totemic slate tile</label>\n\n    <color>(70,70,70)</color>\n\n    <drawStyleCategory>FilledRectangle</drawStyleCategory>\n\n    <costList>\n\n      <BlocksSlate>20</BlocksSlate>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_TotemicMarble (TerrainDef)",
+            "Label": "totemic marble tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TotemicStoneTile\">\n\n    <defName>Tile_TotemicMarble</defName>\n\n    <label>totemic marble tile</label>\n\n    <color>(180,180,180)</color>\n\n    <costList>\n\n      <BlocksMarble>20</BlocksMarble>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_TotemicVacstone (TerrainDef)",
+            "Label": "totemic vacstone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"TotemicStoneTile\" MayRequire=\"Ludeon.RimWorld.Odyssey\">\n\n    <defName>Tile_TotemicVacstone</defName>\n\n    <label>totemic vacstone tile</label>\n\n    <color>(115,106,98)</color>\n\n    <costList>\n\n      <BlocksVacstone>20</BlocksVacstone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Carpet_Mindbend (TerrainDef)",
+            "Label": "mindbend carpet",
+            "Description Originale": "Fine carpet decorated in a mind-bending style often associated with drug use.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef Name=\"Carpet_Mindbend\" ParentName=\"IdeoCarpetBase\" Abstract=\"True\">\n\n    <defName>Carpet_Mindbend</defName>\n\n    <label>mindbend carpet</label>\n\n    <description>Fine carpet decorated in a mind-bending style often associated with drug use.</description>\n\n    <designatorDropdown>Floor_MindbendCarpet</designatorDropdown>\n\n    <costList>\n\n      <Cloth>35</Cloth>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Carpet_MindbendA (TerrainDef)",
+            "Label": "diamond mindbend carpet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"Carpet_Mindbend\">\n\n    <defName>Carpet_MindbendA</defName>\n\n    <label>diamond mindbend carpet</label>\n\n    <texturePath>Terrain/Surfaces/MindbendCarpet/MindbendCarpet_a</texturePath>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Carpet_MindbendB (TerrainDef)",
+            "Label": "purple mindbend carpet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"Carpet_Mindbend\">\n\n    <defName>Carpet_MindbendB</defName>\n\n    <label>purple mindbend carpet</label>\n\n    <texturePath>Terrain/Surfaces/MindbendCarpet/MindbendCarpet_b</texturePath>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Carpet_MindbendC (TerrainDef)",
+            "Label": "green mindbend carpet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"Carpet_Mindbend\">\n\n    <defName>Carpet_MindbendC</defName>\n\n    <label>green mindbend carpet</label>\n\n    <texturePath>Terrain/Surfaces/MindbendCarpet/MindbendCarpet_c</texturePath>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Carpet_MindbendD (TerrainDef)",
+            "Label": "blue mindbend carpet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"Carpet_Mindbend\">\n\n    <defName>Carpet_MindbendD</defName>\n\n    <label>blue mindbend carpet</label>\n\n    <texturePath>Terrain/Surfaces/MindbendCarpet/MindbendCarpet_d</texturePath>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Carpet_MindbendE (TerrainDef)",
+            "Label": "yellow mindbend carpet",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"Carpet_Mindbend\">\n\n    <defName>Carpet_MindbendE</defName>\n\n    <label>yellow mindbend carpet</label>\n\n    <texturePath>Terrain/Surfaces/MindbendCarpet/MindbendCarpet_e</texturePath>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "Tile_Transhumanist (TerrainDef)",
+            "Label": "hex tile",
+            "Description Originale": "Fine steel plates with a hexagonal pattern for that ultra-technological look.",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_floors.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>Tile_Transhumanist</defName>\n\n    <label>hex tile</label>\n\n    <description>Fine steel plates with a hexagonal pattern for that ultra-technological look.</description>\n\n    <texturePath>Terrain/Surfaces/HexTile</texturePath>\n\n    <renderPrecedence>228</renderPrecedence>\n\n    <canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>\n\n    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>\n\n    <dominantStyleCategory>Techist</dominantStyleCategory>\n\n    <color>(105,105,105)</color>\n\n    <costList>\n\n      <Steel>12</Steel>\n\n    </costList>\n\n    <isPaintable>true</isPaintable>\n\n    <statBases>\n\n      <WorkToBuild>5000</WorkToBuild>\n\n      <Beauty>3</Beauty>\n\n      <StyleDominance>1</StyleDominance>\n\n      <CleaningTimeFactor>0.6</CleaningTimeFactor>\n\n    </statBases>\n\n    <tags>\n\n      <li>FineFloor</li>\n\n    </tags>\n\n    <uiOrder>2055</uiOrder>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FungalGravel (TerrainDef)",
+            "Label": "fungal gravel",
+            "Description Originale": "A spreadable form of gravel for growing fungal crops underground. It must be placed under overhead mountain so the dank coolness of the depths can nourish the fungal spores.",
+            "Propriétés Clés": "fertility: 0.7; pathCost: 2",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/terrain_defs/terrain_special.xml`",
+            "XML": "<TerrainDef ParentName=\"FloorBase\">\n\n    <defName>FungalGravel</defName>\n\n    <label>fungal gravel</label>\n\n    <description>A spreadable form of gravel for growing fungal crops underground. It must be placed under overhead mountain so the dank coolness of the depths can nourish the fungal spores.</description>\n\n    <texturePath>Terrain/Surfaces/FungalGravel</texturePath>\n\n    <edgeType>FadeRough</edgeType>\n\n    <renderPrecedence>320</renderPrecedence>\n\n    <pathCost>2</pathCost>\n\n    <fertility>0.7</fertility>\n\n    <canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>\n\n    <placeWorkers>\n\n      <li>Placeworker_OnlyUnderThickRoof</li>\n\n    </placeWorkers>\n\n    <statBases>\n\n      <Beauty>-1</Beauty>\n\n      <Cleanliness>-1</Cleanliness>\n\n      <WorkToBuild>1000</WorkToBuild>\n\n    </statBases>\n\n    <designationHotKey>Misc6</designationHotKey>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FineTileSandstone (TerrainDef)",
+            "Label": "fine sandstone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/terrain_defs/terrain_floors_fine_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FineTileStoneBase\">\n\n    <defName>FineTileSandstone</defName>\n\n    <label>fine sandstone tile</label>\n\n    <color>(147,127,118)</color>\n\n    <costList>\n\n      <BlocksSandstone>20</BlocksSandstone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FineTileGranite (TerrainDef)",
+            "Label": "fine granite tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/terrain_defs/terrain_floors_fine_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FineTileStoneBase\">\n\n    <defName>FineTileGranite</defName>\n\n    <label>fine granite tile</label>\n\n    <color>(105,95,97)</color>\n\n    <costList>\n\n      <BlocksGranite>20</BlocksGranite>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FineTileLimestone (TerrainDef)",
+            "Label": "fine limestone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/terrain_defs/terrain_floors_fine_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FineTileStoneBase\">\n\n    <defName>FineTileLimestone</defName>\n\n    <label>fine limestone tile</label>\n\n    <color>(158,153,135)</color>\n\n    <costList>\n\n      <BlocksLimestone>20</BlocksLimestone>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FineTileSlate (TerrainDef)",
+            "Label": "fine slate tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/terrain_defs/terrain_floors_fine_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FineTileStoneBase\">\n\n    <defName>FineTileSlate</defName>\n\n    <label>fine slate tile</label>\n\n    <color>(70,70,70)</color>\n\n    <costList>\n\n      <BlocksSlate>20</BlocksSlate>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FineTileMarble (TerrainDef)",
+            "Label": "fine marble tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/terrain_defs/terrain_floors_fine_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FineTileStoneBase\">\n\n    <defName>FineTileMarble</defName>\n\n    <label>fine marble tile</label>\n\n    <color>(180,180,180)</color>\n\n    <costList>\n\n      <BlocksMarble>20</BlocksMarble>\n\n    </costList>\n\n  </TerrainDef>"
+        },
+        {
+            "Title": "FineTileVacstone (TerrainDef)",
+            "Label": "fine vacstone tile",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/terrain_defs/terrain_floors_fine_stone_tile.xml`",
+            "XML": "<TerrainDef ParentName=\"FineTileStoneBase\" MayRequire=\"Ludeon.RimWorld.Odyssey\">\n\n    <defName>FineTileVacstone</defName>\n\n    <label>fine vacstone tile</label>\n\n    <color>(115,106,98)</color>\n\n    <costList>\n\n      <BlocksVacstone>20</BlocksVacstone>\n\n    </costList>\n\n  </TerrainDef>"
+        }
+    ]
+}

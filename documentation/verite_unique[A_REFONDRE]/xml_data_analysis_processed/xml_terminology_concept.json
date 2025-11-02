@@ -1,0 +1,608 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "WorldCameraMovement (ConceptDef)",
+            "Label": "World view camera movement",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_entry.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>WorldCameraMovement</defName>\n\n    <label>World view camera movement</label>\n\n    <priority>50</priority>\n\n    <needsOpportunity>true</needsOpportunity>\n\n    <gameMode>Entry</gameMode>\n\n    <helpText>Zoom with the MOUSE WHEEL or {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\\n\\nPan with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or by MIDDLE-CLICKING and DRAGGING.</helpText>\n\n    <helpTextController>Zoom with {Key:MapZoom_In} and {Key:MapZoom_Out}.\\n\\nPan with the D-pad or by using the touch screen.</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "ReformCaravan (ConceptDef)",
+            "Label": "Reforming caravans",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>ReformCaravan</defName>\n\n    <label>Reforming caravans</label>\n\n    <helpText>After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-World-Closed</li>\n\n      <li>ReformCaravan</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Rescuing (ConceptDef)",
+            "Label": "Rescuing",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>Rescuing</defName>\n\n    <label>Rescuing</label>\n\n    <helpText>To rescue a wounded person, select a healthy colonist and then right-click on the wounded one.\\n\\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them.</helpText>\n\n    <helpTextController>To rescue a wounded person, select a healthy colonist and then press the left trigger button on the wounded one.\\n\\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them.</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Capturing (ConceptDef)",
+            "Label": "Capturing",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>Capturing</defName>\n\n    <label>Capturing</label>\n\n    <helpText>When an enemy is downed on the ground but not dead, you can CAPTURE them.\\n\\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\\n\\nYou'll need an extra bed marked for prisoner use.</helpText>\n\n    <helpTextController>When an enemy is downed on the ground but not dead, you can CAPTURE them.\\n\\nTo capture, select a colonist, press the left trigger button on the incapacitated enemy, and select Capture.\\n\\nYou'll need an extra bed marked for prisoner use.</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "ShieldBelts (ConceptDef)",
+            "Label": "Shield belts",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>ShieldBelts</defName>\n\n    <label>Shield belts</label>\n\n    <helpText>Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\\n\\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "InteractingWithTraders (ConceptDef)",
+            "Label": "Interacting with traders",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>InteractingWithTraders</defName>\n\n    <label>Interacting with traders</label>\n\n    <helpText>You can talk to people with ? over their heads.\\n\\nSelect a colonist and right-click on the character with ? attached to their head.</helpText>\n\n    <helpTextController>You can talk to people with ? over their heads.\\n\\nSelect a colonist and press the left trigger button on the character with ? attached to their head.</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Drafting (ConceptDef)",
+            "Label": "Drafting for combat",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>Drafting</defName>\n\n    <label>Drafting for combat</label>\n\n    <highlightTags>\n\n      <li>Draft</li>\n\n    </highlightTags>\n\n    <helpText>To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\\n\\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\\n\\nDon't leave colonists Drafted forever - they'll starve and become unhappy.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "GroupGotoHereDragging (ConceptDef)",
+            "Label": "Positioning fighters",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>GroupGotoHereDragging</defName>\n\n    <label>Positioning fighters</label>\n\n    <helpText>Right-click and drag to have your drafted fighters form a line.\\n\\nSpread out - bunched-up targets are easy to hit!</helpText>\n\n    <helpTextController>Hold the left trigger button and drag to have your drafted fighters form a line.\\n\\nSpread out - bunched-up targets are easy to hit!</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "BuildOrbitalTradeBeacon (ConceptDef)",
+            "Label": "Build orbital trade beacon",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>BuildOrbitalTradeBeacon</defName>\n\n    <label>Build orbital trade beacon</label>\n\n    <helpText>To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Misc-Closed</li>\n\n      <li>Designator-Build-OrbitalTradeBeacon</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "AnimalsDontAttackDoors (ConceptDef)",
+            "Label": "Animals will attack doors",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>AnimalsDontAttackDoors</defName>\n\n    <label>Animals will attack doors</label>\n\n    <helpText>Manhunting animals will attack doors if they see one of your colonists moving through them. They will also attack inactive turrets.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "BillsTab (ConceptDef)",
+            "Label": "Bills tab",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>BillsTab</defName>\n\n    <label>Bills tab</label>\n\n    <opportunityDecays>false</opportunityDecays>\n\n    <highlightTags>\n\n      <li>ITab-Bills-Closed</li>\n\n    </highlightTags>\n\n    <helpText>To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "OpeningComms (ConceptDef)",
+            "Label": "Using the comms console",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>OpeningComms</defName>\n\n    <label>Using the comms console</label>\n\n    <helpText>To communicate, select a colonist and right-click on the comms console.</helpText>\n\n    <helpTextController>To communicate, select a colonist and press the left trigger button on the comms console.</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "DrugAddiction (ConceptDef)",
+            "Label": "Drug addiction",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>DrugAddiction</defName>\n\n    <label>Drug addiction</label>\n\n    <highlightTags>\n\n      <li>ITab-Needs-Closed</li>\n\n    </highlightTags>\n\n    <helpText>You can inspect your colonists' desire to take a drug in their Needs tab.\\n\\nAs long as their need level is at zero, their addiction changes to a \"withdrawal\" state which can have various negative side effects.\\n\\nHowever, after long enough in withdrawal, their addiction will end and the drug need will disappear.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "DrugPolicies (ConceptDef)",
+            "Label": "Drug policies",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>DrugPolicies</defName>\n\n    <label>Drug policies</label>\n\n    <helpText>You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take infection-blocking drugs regularly, or drink a beer a day to stay happy.\\n\\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\\n\\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires!</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Assign-Closed</li>\n\n      <li>ManageDrugPolicies</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "TVForSickPeople (ConceptDef)",
+            "Label": "TV for sick people",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>TVForSickPeople</defName>\n\n    <label>TV for sick people</label>\n\n    <helpText>Sick people can watch TV while laying in bed.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "PrisonerTab (ConceptDef)",
+            "Label": "Prisoner tab",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>PrisonerTab</defName>\n\n    <label>Prisoner tab</label>\n\n    <highlightTags>\n\n      <li>ITab-Prisoner-Closed</li>\n\n    </highlightTags>\n\n    <helpText>Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\\n\\nYou can set whether they'll be recruited, ignored, or executed, and what kind of medical care they get. You can set food restrictions for the prisoner in their health tab.\\n\\nColonists with the Warden work type will interact with the prisoner.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "SetGrowingZonePlant (ConceptDef)",
+            "Label": "Set what plant to grow",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>SetGrowingZonePlant</defName>\n\n    <label>Set what plant to grow</label>\n\n    <opportunityDecays>false</opportunityDecays>\n\n    <helpText>You can set what to plant in a growing zone. You can even grow trees!\\n\\nJust select the growing zone, open the Growing tab, and click the 'plant' button.</helpText>\n\n    <highlightTags>\n\n      <li>GrowingZoneSetPlant</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "DrugBurning (ConceptDef)",
+            "Label": "Drug burning",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>DrugBurning</defName>\n\n    <label>Drug burning</label>\n\n    <helpText>Drugs can be useful, but can also lead to harmful addictions.\\n\\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire.</helpText>\n\n    <highlightTags>\n\n      <li>DesignationCategoryButton-Temperature-Closed</li>\n\n      <li>Designator-Build-Campfire</li>\n\n      <li>ITab-Bills-Closed</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "DoorOpenSpeed (ConceptDef)",
+            "Label": "Door opening speeds",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>DoorOpenSpeed</defName>\n\n    <label>Door opening speeds</label>\n\n    <helpText>Doors open at different speeds depending on what they're made of.\\n\\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "QueueOrders (ConceptDef)",
+            "Label": "Order queueing",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>QueueOrders</defName>\n\n    <label>Order queueing</label>\n\n    <helpText>When giving commands to pawns, you can queue up multiple orders by holding \"shift\". This also works when giving jobs to undrafted pawns.</helpText>\n\n    <helpTextController>When giving commands to pawns, you can queue up multiple orders by holding {Key:QueueOrder}. This also works when giving jobs to undrafted pawns.</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Shelves (ConceptDef)",
+            "Label": "Shelves",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>Shelves</defName>\n\n    <label>Shelves</label>\n\n    <helpText>Shelves store three times as much as empty ground. Items on shelves will also never deteriorate and don't affect the beauty of their surroundings.\\n\\nYou can link shelves into groups and configure them as one. First, select two or more shelves, then click 'Link storage settings'.</helpText>\n\n    <opportunityDecays>false</opportunityDecays>\n\n    <highlightTags>\n\n      <li>Designator-Build-Shelf</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Books (ConceptDef)",
+            "Label": "books",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>Books</defName>\n\n    <label>books</label>\n\n    <helpText>Colonists read books for recreation, to gain skills, to unlock research, and more. You can see a specific book's effects by selecting it and opening its 'Details' tab.\\n\\nTo choose what colonists will read, open the ASSIGN tab and configure READING POLICIES.\\n\\nStore books in bookcases to passively enhance intellectual and reading work done nearby, and increase the beauty of the bookcase. Bookcases passively increase research speed, XP gained from reading, and recreation gained from reading in the same room.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Assign-Closed</li>\n\n      <li>ReadingAssignPolicy</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "CameraDolly (ConceptDef)",
+            "Label": "Camera dolly",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>CameraDolly</defName>\n\n    <label>Camera dolly</label>\n\n    <priority>95</priority>\n\n    <helpText>Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys.</helpText>\n\n    <helpTextController>Move the camera by using the D-pad.</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "CameraZoom (ConceptDef)",
+            "Label": "Camera zoom",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>CameraZoom</defName>\n\n    <label>Camera zoom</label>\n\n    <priority>94</priority>\n\n    <helpText>Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.</helpText>\n\n    <helpTextController>Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "TimeControls (ConceptDef)",
+            "Label": "Time controls",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>TimeControls</defName>\n\n    <label>Time controls</label>\n\n    <priority>93</priority>\n\n    <helpText>You can speed up time.\\n\\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right.</helpText>\n\n    <helpTextController>You can speed up time.\\n\\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right.</helpTextController>\n\n    <highlightTags>\n\n      <li>TimeControls</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Pause (ConceptDef)",
+            "Label": "Pausing",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>Pause</defName>\n\n    <label>Pausing</label>\n\n    <priority>92</priority>\n\n    <helpText>Hit {Key:TogglePause} to pause or unpause the game.\\n\\nYou can give orders while paused.\\n\\nRemember this - if things get hectic, just hit {Key:TogglePause}!</helpText>\n\n    <highlightTags>\n\n      <li>TimeControls</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Stockpiles (ConceptDef)",
+            "Label": "Stockpiles",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>Stockpiles</defName>\n\n    <label>Stockpiles</label>\n\n    <priority>40</priority>\n\n    <helpText>Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\\n\\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Zone-Closed</li>\n\n      <li>Designator-ZoneAddStockpile_Resources</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Forbidding (ConceptDef)",
+            "Label": "Forbid and allow",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>Forbidding</defName>\n\n    <label>Forbid and allow</label>\n\n    <priority>40</priority>\n\n    <helpText>Colonists will not interact with items marked FORBIDDEN.\\n\\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it.</helpText>\n\n    <highlightTags>\n\n      <li>ToggleForbidden</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "GrowingFood (ConceptDef)",
+            "Label": "Growing zones",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>GrowingFood</defName>\n\n    <label>Growing zones</label>\n\n    <priority>37</priority>\n\n    <helpText>To grow food, place GROWING ZONES using the Architect menu.\\n\\nThey can only be placed on fertile ground.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Zone-Closed</li>\n\n      <li>Designator-ZoneAdd_Growing</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "EquippingWeapons (ConceptDef)",
+            "Label": "Equipping weapons",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>EquippingWeapons</defName>\n\n    <label>Equipping weapons</label>\n\n    <priority>30</priority>\n\n    <helpText>Your colonists arrived with some weapons. Equip them!\\n\\nSelect each colonist and right-click on the weapon you want them to equip.</helpText>\n\n    <helpTextController>Your colonists arrived with some weapons. Equip them!\\n\\nSelect each colonist and press the left trigger on the weapon you want them to equip.</helpTextController>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Alerts (ConceptDef)",
+            "Label": "Alerts",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>Alerts</defName>\n\n    <label>Alerts</label>\n\n    <priority>27</priority>\n\n    <helpText>The alerts at the right edge of the screen tell you about issues that need your attention.\\n\\nKeep an eye on the alerts.</helpText>\n\n    <highlightTags>\n\n      <li>Alerts</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Mining (ConceptDef)",
+            "Label": "Mining",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>Mining</defName>\n\n    <label>Mining</label>\n\n    <priority>25</priority>\n\n    <helpText>You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\\n\\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Orders-Closed</li>\n\n      <li>Designator-Mine</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "WorkTab (ConceptDef)",
+            "Label": "Work settings",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>WorkTab</defName>\n\n    <label>Work settings</label>\n\n    <priority>20</priority>\n\n    <helpText>You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\\n\\nThey will always do the highest priority work that they can find.\\n\\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Work-Closed</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "ForbiddingDoors (ConceptDef)",
+            "Label": "Forbidding doors",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>ForbiddingDoors</defName>\n\n    <label>Forbidding doors</label>\n\n    <priority>15</priority>\n\n    <helpText>You can FORBID doors so colonists and tame animals won't go through them.\\n\\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway.</helpText>\n\n    <highlightTags>\n\n      <li>ToggleForbidden-Door</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "CoverAndShooting (ConceptDef)",
+            "Label": "Cover and shooting",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>CoverAndShooting</defName>\n\n    <label>Cover and shooting</label>\n\n    <priority>13</priority>\n\n    <helpText>The most important thing to do in ranged combat is to use cover.\\n\\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\\n\\nYou can also place colonists behind wall corners. They will lean out to shoot.\\n\\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "FormCaravan (ConceptDef)",
+            "Label": "Forming caravans",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>FormCaravan</defName>\n\n    <label>Forming caravans</label>\n\n    <priority>11</priority>\n\n    <helpText>You can form a caravan to send groups of people traveling across the planet!\\n\\nIn the WORLD tab, select your home base and click the \"form caravan\" button.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-World-Closed</li>\n\n      <li>FormCaravan</li>\n\n      <li>ReformCaravan</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "AnimalTaming (ConceptDef)",
+            "Label": "Animal taming",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>AnimalTaming</defName>\n\n    <label>Animal taming</label>\n\n    <priority>10.1</priority>\n\n    <helpText>You can assign colonists to tame a wild animal with the TAME designator.\\n\\nColonists will offer the animal food and attempt to tame it.\\n\\nBeware: Some animals can respond violently to failed taming attempts.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Orders-Closed</li>\n\n      <li>Designator-Tame</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "AnimalTraining (ConceptDef)",
+            "Label": "Animal training",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>AnimalTraining</defName>\n\n    <label>Animal training</label>\n\n    <priority>10</priority>\n\n    <helpText>You can assign a tame animal to be trained in specific skills on its TRAINING tab or on the ANIMALS tab.\\n\\nAnimals can't be trained continuously; they need time between training sessions.</helpText>\n\n    <highlightTags>\n\n      <li>ITab-Training-Closed</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "InfoCard (ConceptDef)",
+            "Label": "Info card",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>InfoCard</defName>\n\n    <label>Info card</label>\n\n    <priority>9</priority>\n\n    <helpText>The info card shows you detailed statistics about any item, person, or construction.\\n\\nSelect a person or item and open their info card with the 'i' button on the inspect pane.</helpText>\n\n    <highlightTags>\n\n      <li>InfoCard</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "StorageTab (ConceptDef)",
+            "Label": "Storage tab",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>StorageTab</defName>\n\n    <label>Storage tab</label>\n\n    <priority>7</priority>\n\n    <helpText>You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\\n\\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\\n\\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority.</helpText>\n\n    <highlightTags>\n\n      <li>ITab-Storage-Closed</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "HomeArea (ConceptDef)",
+            "Label": "Home area",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>HomeArea</defName>\n\n    <label>Home area</label>\n\n    <priority>7</priority>\n\n    <helpText>The HOME AREA tells your colonists which area to clean and where to extinguish fires.\\n\\nDefine the HOME AREA with the Zones category under the Architect menu.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>DesignationCategoryButton-Zone-Closed</li>\n\n      <li>Designator-AreaHomeExpand</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "SpoilageAndFreezers (ConceptDef)",
+            "Label": "Spoilage and freezers",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>SpoilageAndFreezers</defName>\n\n    <label>Spoilage and freezers</label>\n\n    <priority>6.5</priority>\n\n    <helpText>Most foodstuffs will spoil after a relatively short time.\\n\\nTo prevent this, you can build a walk-in freezer.\\n\\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\\n\\nFrozen foods won't ever spoil.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Deterioration (ConceptDef)",
+            "Label": "Item deterioration",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>Deterioration</defName>\n\n    <label>Item deterioration</label>\n\n    <priority>6</priority>\n\n    <helpText>Items left outdoors will slowly deteriorate.\\n\\nIf you want to store items long-term, keep them in a roofed room.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "HostilityResponse (ConceptDef)",
+            "Label": "Hostility response modes",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>HostilityResponse</defName>\n\n    <label>Hostility response modes</label>\n\n    <priority>5</priority>\n\n    <helpText>You can configure how colonists should automatically respond to threats like predatory animals.\\n\\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu.</helpText>\n\n    <highlightTags>\n\n      <li>HostilityResponse</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "AllowedAreas (ConceptDef)",
+            "Label": "Allowed areas",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>AllowedAreas</defName>\n\n    <label>Allowed areas</label>\n\n    <priority>4.5</priority>\n\n    <helpText>Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\\n\\nThis can be used to, for example, forbid colonists from going outside.\\n\\nYou can create multiple allowed areas and assign them to different colonists and animals.\\n\\nCreate, delete, and assign allowed areas in the SCHEDULE tab.\\n\\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Architect-Closed</li>\n\n      <li>MainTab-Schedule-Closed</li>\n\n      <li>DesignationCategoryButton-Zone-Closed</li>\n\n      <li>Designator-AreaAllowedExpand</li>\n\n      <li>Designator-AreaAllowedClear</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "MedicalOperations (ConceptDef)",
+            "Label": "Medical operations",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>MedicalOperations</defName>\n\n    <label>Medical operations</label>\n\n    <priority>4</priority>\n\n    <helpText>To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "TimeAssignments (ConceptDef)",
+            "Label": "Time assignments",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>TimeAssignments</defName>\n\n    <label>Time assignments</label>\n\n    <priority>3</priority>\n\n    <helpText>You can modify what time of day colonists should do different activities using the SCHEDULE tab.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Schedule-Closed</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "ManualWorkPriorities (ConceptDef)",
+            "Label": "Manual work priorities",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>ManualWorkPriorities</defName>\n\n    <label>Manual work priorities</label>\n\n    <priority>2.75</priority>\n\n    <helpText>One of the most important parts of RimWorld is choosing good work settings for your colonists.\\n\\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\\n\\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\\n\\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\\n\\nIntelligent use of these setting is essential for a large, well-automated colony.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Work-Closed</li>\n\n      <li>ManualPriorities-Off</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "GettingMoreTraders (ConceptDef)",
+            "Label": "Getting more traders",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>GettingMoreTraders</defName>\n\n    <label>Getting more traders</label>\n\n    <priority>2.5</priority>\n\n    <helpText>More trader caravans will come to visit you if you're allied with more factions.\\n\\nIf you have no allies, no caravans will ever visit!\\n\\nYou can also pay allies to send trade caravans by calling them on the comms console.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "TileInspector (ConceptDef)",
+            "Label": "Tile inspector",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>TileInspector</defName>\n\n    <label>Tile inspector</label>\n\n    <priority>2</priority>\n\n    <helpText>You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "Outfits (ConceptDef)",
+            "Label": "Outfits",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>Outfits</defName>\n\n    <label>Outfits</label>\n\n    <priority>2</priority>\n\n    <helpText>Colonists will automatically try to wear the newest, highest-quality apparel they can.\\n\\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\\n\\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the \"Manage apparel policies\" dialog box to design a new outfit, and then assign the outfit to colonists.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Assign-Closed</li>\n\n      <li>ManageOutfits</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "FirePreparation (ConceptDef)",
+            "Label": "Fire preparation",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>FirePreparation</defName>\n\n    <label>Fire preparation</label>\n\n    <priority>2</priority>\n\n    <helpText>Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\n\\nThese design elements can help reduce the damage from fires:\n\n\\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n\\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n\\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "HistoryTab (ConceptDef)",
+            "Label": "History tab",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>HistoryTab</defName>\n\n    <label>History tab</label>\n\n    <priority>1</priority>\n\n    <helpText>You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-History-Closed</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "ClickingMessages (ConceptDef)",
+            "Label": "Clicking messages",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>ClickingMessages</defName>\n\n    <label>Clicking messages</label>\n\n    <priority>1</priority>\n\n    <helpText>You can click on the notifications in the top-left of the screen to instantly center the camera on their subject.</helpText>\n\n    <highlightTags>\n\n      <li>Messages</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "ShotAccuracyTooltip (ConceptDef)",
+            "Label": "Shot accuracy tooltip",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>ShotAccuracyTooltip</defName>\n\n    <label>Shot accuracy tooltip</label>\n\n    <priority>1</priority>\n\n    <helpText>You can see the exact calculations behind the accuracy of any shot.\\n\\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "FriendlyFireSafety (ConceptDef)",
+            "Label": "Friendly fire safety",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_noted_selfshow.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>FriendlyFireSafety</defName>\n\n    <label>Friendly fire safety</label>\n\n    <priority>1</priority>\n\n    <helpText>Friendly fire never occurs if the shooter is close to their ally.\\n\\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\\n\\nThis is a good way to combine ranged and melee fighters.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "TradeGoodsMustBeNearBeacon (ConceptDef)",
+            "Label": "Trade goods and trade beacons",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_triggered_modal.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>TradeGoodsMustBeNearBeacon</defName>\n\n    <label>Trade goods and trade beacons</label>\n\n    <priority>-1000</priority>\n\n    <helpText>To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "ArrestingCreatesEnemies (ConceptDef)",
+            "Label": "Arresting worsens faction relations",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_triggered_modal.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>ArrestingCreatesEnemies</defName>\n\n    <label>Arresting worsens faction relations</label>\n\n    <priority>-1000</priority>\n\n    <helpText>Warning: The person you are trying to arrest may not go quietly.\\n\\nIf you arrest a non-colonist or a colonist from another faction, their entire faction may become your enemy. \\n\\nThis arrest has a {0} chance of succeeding, based on the social skill of the arrester.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "SwitchFlickingDesignation (ConceptDef)",
+            "Label": "Flick designations only designate",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_triggered_modal.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>SwitchFlickingDesignation</defName>\n\n    <label>Flick designations only designate</label>\n\n    <priority>-1000</priority>\n\n    <helpText>Note: This only designates that a colonist should flick the switch.\\n\\nNothing will actually happen until a colonist comes and flicks the switch by hand.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "MaxNumberOfPlayerSettlements (ConceptDef)",
+            "Label": "Maximum number of player colonies",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_triggered_modal.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>MaxNumberOfPlayerSettlements</defName>\n\n    <label>Maximum number of player colonies</label>\n\n    <priority>-1000</priority>\n\n    <helpText>Warning: RimWorld is designed to be played with one player colony at a time. Multiple player colonies are allowed as an experimental testing feature only.\\n\\nPlaying with multiple colonies will cause gameplay imbalances and split your focus, as well as likely causing performance slowdowns.\\n\\nWe recommend that you play with the one-colony maximum the game was designed for, at least for your first few games.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "TradingRequiresPermit (ConceptDef)",
+            "Label": "Trading permit requirements",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_triggered_modal.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>TradingRequiresPermit</defName>\n\n    <label>Trading permit requirements</label>\n\n    <priority>-1000</priority>\n\n    <helpText>Trading here requires the title of {0}.\\n\\nEnsure any trade caravan you send has someone with the title of {0} or higher.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "SteamDeckControlsMainMenu (ConceptDef)",
+            "Label": "Steam Deck controls",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_triggered_modal.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>SteamDeckControlsMainMenu</defName>\n\n    <label>Steam Deck controls</label>\n\n    <priority>-1000</priority>\n\n    <helpText>Use the trackpad to move the cursor and the right trigger button to click. Press {Key:Accept} to accept and {Key:Cancel} to go back.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "SteamDeckControlsGame (ConceptDef)",
+            "Label": "Steam Deck controls",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/tutor/concepts_triggered_modal.xml`",
+            "XML": "<ConceptDef>\n\n    <defName>SteamDeckControlsGame</defName>\n\n    <label>Steam Deck controls</label>\n\n    <priority>-1000</priority>\n\n    <helpText>Press X to open the architect menu and {Key:TogglePause} to pause and resume the game. Use triggers for primary and secondary clicks. Zoom in and out and scroll through lists with {Key:MapZoom_In} and {Key:MapZoom_Out}. Press and hold the L5 back button to pan the camera with the touch screen and simulate secondary clicks.</helpText>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "EditingMemes (ConceptDef)",
+            "Label": "editing memes",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/tutor/tutor.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>EditingMemes</defName>\n\n    <label>editing memes</label>\n\n    <helpText>You can edit memes by clicking on them.</helpText>\n\n    <priority>10</priority>\n\n    <gameMode>Entry</gameMode>\n\n    <highlightTags>\n\n      <li>MemeBox</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "EditingPrecepts (ConceptDef)",
+            "Label": "editing precepts",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/tutor/tutor.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>EditingPrecepts</defName>\n\n    <label>editing precepts</label>\n\n    <helpText>You can edit precepts by clicking on them.</helpText>\n\n    <priority>1</priority>\n\n    <gameMode>Entry</gameMode>\n\n    <highlightTags>\n\n      <li>PreceptBox</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "MeditationSchedule (ConceptDef)",
+            "Label": "Meditation schedule",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>MeditationSchedule</defName>\n\n    <label>Meditation schedule</label>\n\n    <helpText>You can assign your colonists to meditate on a specific schedule.\\n\\nOpen the SCHEDULE tab, select the 'Meditate' assignment and click-drag the times when you want someone to meditate.</helpText>\n\n    <highlightTags>\n\n      <li>MainTab-Schedule-Closed</li>\n\n      <li>TimeAssignmentButton-Meditate-NotSelected</li>\n\n      <li>TimeAssignmentTableRow-IfMeditateSelected</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        },
+        {
+            "Title": "MeditationDesiredPsyfocus (ConceptDef)",
+            "Label": "Meditation desired psyfocus",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/tutor/concepts_noted_opportunistic.xml`",
+            "XML": "<ConceptDef ParentName=\"NotedOpportunisticBase\">\n\n    <defName>MeditationDesiredPsyfocus</defName>\n\n    <label>Meditation desired psyfocus</label>\n\n    <helpText>You can set a desired psyfocus level for each colonist. To do this, select a colonist with psylink, and click on their psyfocus bar.\\n\\nIf a colonist's psyfocus is below their desired level, they will meditate automatically during the \"Anything\" time assignment.</helpText>\n\n    <highlightTags>\n\n      <li>PsyfocusBar</li>\n\n    </highlightTags>\n\n  </ConceptDef>"
+        }
+    ]
+}

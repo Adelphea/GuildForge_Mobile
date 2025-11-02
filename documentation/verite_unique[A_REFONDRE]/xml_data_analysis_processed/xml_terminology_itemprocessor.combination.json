@@ -1,0 +1,86 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_MilkIntoCheese (ItemProcessor.CombinationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/combination_defs/combination_defs.xml`",
+            "XML": "<ItemProcessor.CombinationDef>\n\n\t\t<defName>DankPyon_MilkIntoCheese</defName>\n\n\t\t<building>DankPyon_Presser</building>\n\n\t\t<items>\n\n\t\t\t<li>Milk</li>\n\n\t\t</items>\t\n\n\t\t<amount>\n\n\t\t\t<li>100</li>\n\n\t\t</amount>\n\n\t\t<result>DankPyon_MealCheese</result>\t\n\n\t\t<yield>10</yield>\n\n\t\t<useQualityIncreasing>false</useQualityIncreasing>\n\n\t\t<singleTimeIfNotQualityIncreasing>5</singleTimeIfNotQualityIncreasing>\n\n\t</ItemProcessor.CombinationDef>"
+        },
+        {
+            "Title": "DankPyon_MilkIntoGoatCheese (ItemProcessor.CombinationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/combination_defs/combination_defs.xml`",
+            "XML": "<ItemProcessor.CombinationDef>\n\n\t\t<defName>DankPyon_MilkIntoGoatCheese</defName>\n\n\t\t<building>DankPyon_Presser</building>\n\n\t\t<items>\n\n\t\t\t<li>DankPyon_GoatMilk</li>\n\n\t\t</items>\t\n\n\t\t<amount>\n\n\t\t\t<li>100</li>\n\n\t\t</amount>\n\n\t\t<result>DankPyon_MealGoatCheese</result>\t\n\n\t\t<yield>10</yield>\n\n\t\t<useQualityIncreasing>false</useQualityIncreasing>\n\n\t\t<singleTimeIfNotQualityIncreasing>5</singleTimeIfNotQualityIncreasing>\n\n\t</ItemProcessor.CombinationDef>"
+        },
+        {
+            "Title": "DankPyon_MilkIntoSheepCheese (ItemProcessor.CombinationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/combination_defs/combination_defs.xml`",
+            "XML": "<ItemProcessor.CombinationDef>\n\n\t\t<defName>DankPyon_MilkIntoSheepCheese</defName>\n\n\t\t<building>DankPyon_Presser</building>\n\n\t\t<items>\n\n\t\t\t<li>DankPyon_SheepMilk</li>\n\n\t\t</items>\t\n\n\t\t<amount>\n\n\t\t\t<li>100</li>\n\n\t\t</amount>\n\n\t\t<result>DankPyon_MealSheepCheese</result>\t\n\n\t\t<yield>10</yield>\n\n\t\t<useQualityIncreasing>false</useQualityIncreasing>\n\n\t\t<singleTimeIfNotQualityIncreasing>5</singleTimeIfNotQualityIncreasing>\n\n\t</ItemProcessor.CombinationDef>"
+        },
+        {
+            "Title": "DankPyon_MincedAppleIntoJuiceApple (ItemProcessor.CombinationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/combination_defs/combination_defs.xml`",
+            "XML": "<ItemProcessor.CombinationDef>\n\n\t\t<defName>DankPyon_MincedAppleIntoJuiceApple</defName>\n\n\t\t<building>DankPyon_Presser</building>\n\n\t\t<items>\n\n\t\t\t<li>DankPyon_MincedApple</li>\n\n\t\t</items>\t\n\n\t\t<amount>\n\n\t\t\t<li>50</li>\n\n\t\t</amount>\n\n\t\t<result>DankPyon_JuiceApple</result>\t\n\n\t\t<yield>50</yield>\n\n\t\t<useQualityIncreasing>false</useQualityIncreasing>\n\n\t\t<singleTimeIfNotQualityIncreasing>0.5</singleTimeIfNotQualityIncreasing>\n\n\t</ItemProcessor.CombinationDef>"
+        },
+        {
+            "Title": "DankPyon_MeatIntoSmokedMeat (ItemProcessor.CombinationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/combination_defs/combination_defs.xml`",
+            "XML": "<ItemProcessor.CombinationDef>\n\n\t\t<defName>DankPyon_MeatIntoSmokedMeat</defName>\n\n\t\t<building>DankPyon_Smoker</building>\n\n\t\t<isCategoryRecipe>true</isCategoryRecipe>\n\n\t\t<items>\n\n\t\t\t<li>MeatRaw</li>\n\n\t\t</items>\t\n\n\t\t<amount>\n\n\t\t\t<li>100</li>\n\n\t\t</amount>\n\n\t\t<result>DankPyon_SmokedMeat</result>\t\n\n\t\t<yield>10</yield>\n\n\t\t<useQualityIncreasing>false</useQualityIncreasing>\n\n\t\t<singleTimeIfNotQualityIncreasing>1</singleTimeIfNotQualityIncreasing>\n\n\t</ItemProcessor.CombinationDef>"
+        },
+        {
+            "Title": "DankPyon_MeatIntoDriedMeat (ItemProcessor.CombinationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/combination_defs/combination_defs.xml`",
+            "XML": "<ItemProcessor.CombinationDef>\n\n\t\t<defName>DankPyon_MeatIntoDriedMeat</defName>\n\n\t\t<building>DankPyon_DryingRack</building>\n\n\t\t<isCategoryRecipe>true</isCategoryRecipe>\n\n\t\t<items>\n\n\t\t\t<li>MeatRaw</li>\n\n\t\t</items>\t\n\n\t\t<amount>\n\n\t\t\t<li>100</li>\n\n\t\t</amount>\n\n\t\t<result>DankPyon_DriedMeat</result>\t\n\n\t\t<yield>9</yield>\n\n\t\t<useQualityIncreasing>false</useQualityIncreasing>\n\n\t\t<singleTimeIfNotQualityIncreasing>2.5</singleTimeIfNotQualityIncreasing>\n\n\t</ItemProcessor.CombinationDef>"
+        },
+        {
+            "Title": "DankPyon_HayIntoStraw (ItemProcessor.CombinationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/combination_defs/combination_defs.xml`",
+            "XML": "<ItemProcessor.CombinationDef>\n\n\t\t<defName>DankPyon_HayIntoStraw</defName>\n\n\t\t<building>DankPyon_HayRack</building>\n\n\t\t<items>\n\n\t\t\t<li>Hay</li>\n\n\t\t</items>\t\n\n\t\t<amount>\n\n\t\t\t<li>50</li>\n\n\t\t</amount>\n\n\t\t<result>DankPyon_Straw</result>\t\n\n\t\t<yield>50</yield>\n\n\t\t<useQualityIncreasing>false</useQualityIncreasing>\n\n\t\t<singleTimeIfNotQualityIncreasing>3</singleTimeIfNotQualityIncreasing>\n\n\t</ItemProcessor.CombinationDef>"
+        },
+        {
+            "Title": "DankPyon_WortIntoAle (ItemProcessor.CombinationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/combination_defs/combination_defs.xml`",
+            "XML": "<ItemProcessor.CombinationDef>\n\n\t\t<defName>DankPyon_WortIntoAle</defName>\n\n\t\t<building>DankPyon_RusticFermentingBarrel</building>\n\n\t\t<items>\n\n\t\t\t<li>DankPyon_WortAle</li>\n\n\t\t</items>\t\n\n\t\t<amount>\n\n\t\t\t<li>25</li>\n\n\t\t</amount>\n\n\t\t<result>DankPyon_Ale</result>\t\n\n\t\t<yield>5</yield>\n\n\t\t<useQualityIncreasing>false</useQualityIncreasing>\n\n\t\t<singleTimeIfNotQualityIncreasing>3</singleTimeIfNotQualityIncreasing>\n\n\t</ItemProcessor.CombinationDef>"
+        },
+        {
+            "Title": "DankPyon_MustIntoWine (ItemProcessor.CombinationDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/combination_defs/combination_defs.xml`",
+            "XML": "<ItemProcessor.CombinationDef>\n\n\t\t<defName>DankPyon_MustIntoWine</defName>\n\n\t\t<building>DankPyon_RusticFermentingBarrel</building>\n\n\t\t<items>\n\n\t\t\t<li>DankPyon_MustWine</li>\n\n\t\t</items>\t\n\n\t\t<amount>\n\n\t\t\t<li>25</li>\n\n\t\t</amount>\n\n\t\t<result>DankPyon_Wine</result>\t\n\n\t\t<yield>5</yield>\n\n\t\t<useQualityIncreasing>false</useQualityIncreasing>\n\n\t\t<singleTimeIfNotQualityIncreasing>3</singleTimeIfNotQualityIncreasing>\n\n\t</ItemProcessor.CombinationDef>"
+        }
+    ]
+}

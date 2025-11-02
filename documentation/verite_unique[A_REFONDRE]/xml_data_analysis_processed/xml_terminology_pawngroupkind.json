@@ -1,0 +1,95 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "DankPyon_AlpGroup (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/defs/misc/pawn_group_kind_defs/pawn_group_kinds.xml`",
+            "XML": "<PawnGroupKindDef>\n\n\t\t<defName>DankPyon_AlpGroup</defName>\n\n\t\t<workerClass>PawnGroupKindWorker_Normal</workerClass>\n\n\t</PawnGroupKindDef>"
+        },
+        {
+            "Title": "Combat (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_group_kind_defs/pawn_group_kinds.xml`",
+            "XML": "<PawnGroupKindDef>\n\n    <defName>Combat</defName>\n\n    <workerClass>PawnGroupKindWorker_Normal</workerClass>\n\n  </PawnGroupKindDef>"
+        },
+        {
+            "Title": "Trader (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_group_kind_defs/pawn_group_kinds.xml`",
+            "XML": "<PawnGroupKindDef>\n\n    <defName>Trader</defName>\n\n    <workerClass>PawnGroupKindWorker_Trader</workerClass>\n\n  </PawnGroupKindDef>"
+        },
+        {
+            "Title": "Peaceful (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_group_kind_defs/pawn_group_kinds.xml`",
+            "XML": "<PawnGroupKindDef>\n\n    <defName>Peaceful</defName>\n\n    <workerClass>PawnGroupKindWorker_Normal</workerClass>\n\n  </PawnGroupKindDef>"
+        },
+        {
+            "Title": "Settlement (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_group_kind_defs/pawn_group_kinds.xml`",
+            "XML": "<PawnGroupKindDef>\n\n    <defName>Settlement</defName>\n\n    <workerClass>PawnGroupKindWorker_Normal</workerClass>\n\n  </PawnGroupKindDef>"
+        },
+        {
+            "Title": "Settlement_RangedOnly (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/pawn_group_kind_defs/pawn_group_kinds.xml`",
+            "XML": "<PawnGroupKindDef>\n\n    <defName>Settlement_RangedOnly</defName>\n\n    <workerClass>PawnGroupKindWorker_Normal</workerClass>\n\n  </PawnGroupKindDef>"
+        },
+        {
+            "Title": "Miners (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/pawn_group_kind_defs/pawn_group_kinds_neutral_camp.xml`",
+            "XML": "<PawnGroupKindDef>\n\n    <defName>Miners</defName>\n\n    <workerClass>PawnGroupKindWorker_Normal</workerClass>\n\n  </PawnGroupKindDef>"
+        },
+        {
+            "Title": "Hunters (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/pawn_group_kind_defs/pawn_group_kinds_neutral_camp.xml`",
+            "XML": "<PawnGroupKindDef>\n\n    <defName>Hunters</defName>\n\n    <workerClass>PawnGroupKindWorker_Normal</workerClass>\n\n  </PawnGroupKindDef>"
+        },
+        {
+            "Title": "Loggers (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/pawn_group_kind_defs/pawn_group_kinds_neutral_camp.xml`",
+            "XML": "<PawnGroupKindDef>\n\n    <defName>Loggers</defName>\n\n    <workerClass>PawnGroupKindWorker_Normal</workerClass>\n\n  </PawnGroupKindDef>"
+        },
+        {
+            "Title": "Farmers (PawnGroupKindDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/pawn_group_kind_defs/pawn_group_kinds_neutral_camp.xml`",
+            "XML": "<PawnGroupKindDef>\n\n    <defName>Farmers</defName>\n\n    <workerClass>PawnGroupKindWorker_Normal</workerClass>\n\n  </PawnGroupKindDef>"
+        }
+    ]
+}

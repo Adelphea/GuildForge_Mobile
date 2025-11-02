@@ -1,0 +1,23 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "MeleeAttack (LogEntryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/log_entry_defs/log_entry_def.xml`",
+            "XML": "<LogEntryDef>\n\n    <defName>MeleeAttack</defName>\n\n    <iconDamaged>Things/Mote/BattleSymbols/Blood</iconDamaged>\n\n    <iconDamagedFromInstigator>Things/Mote/BattleSymbols/BloodTarget</iconDamagedFromInstigator>\n\n  </LogEntryDef>"
+        },
+        {
+            "Title": "SandInEyes (LogEntryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/log_entry_defs/log_entry_def.xml`",
+            "XML": "<LogEntryDef>\n\n    <defName>SandInEyes</defName>\n\n    <iconDamaged>Things/Mote/BattleSymbols/SandInEyes</iconDamaged>\n\n    <iconDamagedFromInstigator>Things/Mote/BattleSymbols/SandInEyesTarget</iconDamagedFromInstigator>\n\n  </LogEntryDef>"
+        }
+    ]
+}

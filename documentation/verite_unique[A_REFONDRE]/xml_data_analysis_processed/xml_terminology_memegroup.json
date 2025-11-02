@@ -1,0 +1,68 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "GenderSupremacy (MemeGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/meme_defs/memes_gender_supremacy.xml`",
+            "XML": "<MemeGroupDef>\n\n    <defName>GenderSupremacy</defName>\n\n    <drawOffset>(0.65, 0.23)</drawOffset>\n\n    <maxRows>1</maxRows>\n\n    <renderOrder>2000</renderOrder>\n\n  </MemeGroupDef>"
+        },
+        {
+            "Title": "GroupRelation (MemeGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/meme_defs/memes_group_relation.xml`",
+            "XML": "<MemeGroupDef>\n\n    <defName>GroupRelation</defName>\n\n    <drawOffset>(0.3, 0)</drawOffset>\n\n    <maxRows>1</maxRows>\n\n  </MemeGroupDef>"
+        },
+        {
+            "Title": "Individualism (MemeGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/meme_defs/memes_individualism.xml`",
+            "XML": "<MemeGroupDef>\n\n    <defName>Individualism</defName>\n\n    <drawOffset>(0.09, 0.23)</drawOffset>\n\n    <maxRows>1</maxRows>\n\n  </MemeGroupDef>"
+        },
+        {
+            "Title": "Misc (MemeGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/meme_defs/memes_misc.xml`",
+            "XML": "<MemeGroupDef>\n\n    <defName>Misc</defName>\n\n    <drawOffset>(0.05, 0.46)</drawOffset>\n\n    <maxRows>2</maxRows>\n\n    <renderOrder>1000</renderOrder>\n\n    <renderWithGap>true</renderWithGap>\n\n  </MemeGroupDef>"
+        },
+        {
+            "Title": "Primacy (MemeGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/meme_defs/memes_primacy.xml`",
+            "XML": "<MemeGroupDef>\n\n    <defName>Primacy</defName>\n\n    <drawOffset>(0.37, 0.23)</drawOffset>\n\n    <maxRows>1</maxRows>\n\n    <renderOrder>1900</renderOrder>\n\n  </MemeGroupDef>"
+        },
+        {
+            "Title": "Theist_Embodied (MemeGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/meme_defs/memes_structures_basic.xml`",
+            "XML": "<MemeGroupDef>\n\n    <defName>Theist_Embodied</defName>\n\n    <drawOffset>(0.62, 0)</drawOffset>\n\n  </MemeGroupDef>"
+        },
+        {
+            "Title": "Theist_Abstract (MemeGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/meme_defs/memes_structures_basic.xml`",
+            "XML": "<MemeGroupDef>\n\n    <defName>Theist_Abstract</defName>\n\n    <drawOffset>(0.25, 0)</drawOffset>\n\n  </MemeGroupDef>"
+        }
+    ]
+}

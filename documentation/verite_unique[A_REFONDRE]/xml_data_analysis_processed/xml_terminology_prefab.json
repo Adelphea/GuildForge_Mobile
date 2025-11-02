@@ -1,0 +1,113 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "AncientSystemRacks_Rows (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientSystemRacks_Rows</defName>\n\n    <rotations>North</rotations>\n\n    <size>(5,3)</size>\n\n    <things>\n\n      <AncientSystemRack>\n\n        <positions>\n\n          <li>(0, 0, 1)</li>\n\n          <li>(2, 0, 1)</li>\n\n          <li>(4, 0, 1)</li>\n\n        </positions>\n\n      </AncientSystemRack>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "AncientSystemRack (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientSystemRack</defName>\n\n    <rotations>North</rotations>\n\n    <size>(2,4)</size>\n\n    <things>\n\n      <AncientSystemRack>\n\n        <position>(0,0,1)</position>\n\n      </AncientSystemRack>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "AncientDisplayBank_Edge (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientDisplayBank_Edge</defName>\n\n    <edgeOnly>true</edgeOnly>\n\n    <size>(3,1)</size>\n\n    <things>\n\n      <AncientDisplayBank>\n\n        <position>(1,0,0)</position>\n\n        <relativeRotation>Opposite</relativeRotation>\n\n      </AncientDisplayBank>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "AncientMachine_Rows (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientMachine_Rows</defName>\n\n    <size>(5,7)</size>\n\n    <things>\n\n      <AncientMachine>\n\n        <positions>\n\n          <li>(2, 0, 1)</li>\n\n          <li>(2, 0, 5)</li>\n\n        </positions>\n\n      </AncientMachine>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "AncientEquipmentBlocks_Rows (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientEquipmentBlocks_Rows</defName>\n\n    <size>(4,4)</size>\n\n    <things>\n\n      <AncientEquipmentBlocks>\n\n        <positions>\n\n          <li>(1, 0, 0)</li>\n\n          <li>(1, 0, 2)</li>\n\n        </positions>\n\n      </AncientEquipmentBlocks>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "AncientStorageCylinder_Edge (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientStorageCylinder_Edge</defName>\n\n    <edgeOnly>true</edgeOnly>\n\n    <size>(2,1)</size>\n\n    <things>\n\n      <AncientStorageCylinder>\n\n        <position>(1,0,0)</position>\n\n      </AncientStorageCylinder>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "AncientGenerator_SmallCluster (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientGenerator_SmallCluster</defName>\n\n    <size>(5,3)</size>\n\n    <things>\n\n      <AncientGenerator>\n\n        <positions>\n\n          <li>(0, 0, 1)</li>\n\n          <li>(3, 0, 1)</li>\n\n        </positions>\n\n      </AncientGenerator>\n\n      <AncientBarrel>\n\n        <rects>\n\n          <li>(2,0,2,2)</li>\n\n          <li>(4,0,4,0)</li>\n\n        </rects>\n\n      </AncientBarrel>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "AncientBarrel_Cluster (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientBarrel_Cluster</defName>\n\n    <size>(3,2)</size>\n\n    <things>\n\n      <AncientBarrel>\n\n        <chance>0.75</chance>\n\n        <positions>\n\n          <li>(0, 0, 0)</li>\n\n          <li>(1, 0, 0)</li>\n\n          <li>(2, 0, 0)</li>\n\n          <li>(0, 0, 1)</li>\n\n          <li>(1, 0, 1)</li>\n\n          <li>(2, 0, 1)</li>\n\n        </positions>\n\n      </AncientBarrel>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "OperatingTables (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>OperatingTables</defName>\n\n    <rotations>North</rotations>\n\n    <size>(5,5)</size>\n\n    <things>\n\n      <AncientOperatingTable>\n\n        <positions>\n\n          <li>(0, 0, 0)</li>\n\n          <li>(2, 0, 0)</li>\n\n          <li>(4, 0, 0)</li>\n\n          <li>(0, 0, 3)</li>\n\n          <li>(2, 0, 3)</li>\n\n          <li>(4, 0, 3)</li>\n\n        </positions>\n\n      </AncientOperatingTable>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "AncientLockerBank_Row (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientLockerBank_Row</defName>\n\n    <edgeOnly>true</edgeOnly>\n\n    <size>(6,1)</size>\n\n    <things>\n\n      <AncientLockerBank>\n\n        <positions>\n\n          <li>(1, 0, 0)</li>\n\n          <li>(4, 0, 0)</li>\n\n        </positions>\n\n        <relativeRotation>Opposite</relativeRotation>\n\n      </AncientLockerBank>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "Shelves_Rows (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>Shelves_Rows</defName>\n\n    <size>(4,5)</size>\n\n    <things>\n\n      <Shelf>\n\n        <positions>\n\n          <li>(1, 0, 0)</li>\n\n          <li>(3, 0, 0)</li>\n\n          <li>(1, 0, 3)</li>\n\n          <li>(3, 0, 3)</li>\n\n        </positions>\n\n        <relativeRotation>Opposite</relativeRotation>\n\n        <stuff>Steel</stuff>\n\n      </Shelf>\n\n      <Shelf>\n\n        <positions>\n\n          <li>(0, 0, 1)</li>\n\n          <li>(2, 0, 1)</li>\n\n          <li>(0, 0, 4)</li>\n\n          <li>(2, 0, 4)</li>\n\n        </positions>\n\n        <stuff>Steel</stuff>\n\n      </Shelf>\n\n    </things>\n\n  </PrefabDef>"
+        },
+        {
+            "Title": "AncientLamp_Single (PrefabDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/prefab_defs/common_room_prefabs.xml`",
+            "XML": "<PrefabDef>\n\n    <defName>AncientLamp_Single</defName>\n\n    <size>(1,1)</size>\n\n    <things>\n\n      <AncientLamp>\n\n        <position>(0, 0, 0)</position>\n\n      </AncientLamp>\n\n    </things>\n\n  </PrefabDef>"
+        }
+    ]
+}

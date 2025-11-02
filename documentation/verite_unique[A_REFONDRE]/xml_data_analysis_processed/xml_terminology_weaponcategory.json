@@ -1,0 +1,14 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "BladeLink (WeaponCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/weapon_trait_defs/weapon_category_defs.xml`",
+            "XML": "<WeaponCategoryDef>\n\n    <defName>BladeLink</defName>\n\n  </WeaponCategoryDef>"
+        }
+    ]
+}

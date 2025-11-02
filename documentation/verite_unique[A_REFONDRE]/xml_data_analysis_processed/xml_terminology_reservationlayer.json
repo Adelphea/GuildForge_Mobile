@@ -1,0 +1,32 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Floor (ReservationLayerDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/reservation_layer_defs/reservation_layer_defs.xml`",
+            "XML": "<ReservationLayerDef>\n\n    <defName>Floor</defName>\n\n  </ReservationLayerDef>"
+        },
+        {
+            "Title": "Ceiling (ReservationLayerDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/reservation_layer_defs/reservation_layer_defs.xml`",
+            "XML": "<ReservationLayerDef>\n\n    <defName>Ceiling</defName>\n\n  </ReservationLayerDef>"
+        },
+        {
+            "Title": "Empty (ReservationLayerDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/reservation_layer_defs/reservation_layer_defs.xml`",
+            "XML": "<ReservationLayerDef>\n\n    <defName>Empty</defName>\n\n  </ReservationLayerDef>"
+        }
+    ]
+}

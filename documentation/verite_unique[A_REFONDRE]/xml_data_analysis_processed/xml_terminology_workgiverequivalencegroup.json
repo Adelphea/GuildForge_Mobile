@@ -1,0 +1,32 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "ReleasePrisoner (WorkGiverEquivalenceGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/work_giver_equivalence_group_def/work_giver_equivalence_group.xml`",
+            "XML": "<WorkGiverEquivalenceGroupDef>\n\n    <defName>ReleasePrisoner</defName>\n\n  </WorkGiverEquivalenceGroupDef>"
+        },
+        {
+            "Title": "FeedPatientAnimals (WorkGiverEquivalenceGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/work_giver_equivalence_group_def/work_giver_equivalence_group.xml`",
+            "XML": "<WorkGiverEquivalenceGroupDef>\n\n    <defName>FeedPatientAnimals</defName>\n\n  </WorkGiverEquivalenceGroupDef>"
+        },
+        {
+            "Title": "AssistInConstruction (WorkGiverEquivalenceGroupDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/work_giver_equivalence_group_def/work_giver_equivalence_group.xml`",
+            "XML": "<WorkGiverEquivalenceGroupDef>\n\n    <defName>AssistInConstruction</defName>\n\n  </WorkGiverEquivalenceGroupDef>"
+        }
+    ]
+}

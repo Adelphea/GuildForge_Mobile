@@ -1,0 +1,716 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Cutout (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>Cutout</defName>\n\n    <shaderPath>Map/Cutout</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutHair (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutHair</defName>\n\n    <shaderPath>Map/CutoutHair</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutWithOverlay (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutWithOverlay</defName>\n\n    <shaderPath>Map/CutoutWithOverlay</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutTiling (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutTiling</defName>\n\n    <shaderPath>Map/CutoutTiling</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutFlying (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutFlying</defName>\n\n    <shaderPath>Map/CutoutFlying</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutFlying01 (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutFlying01</defName>\n\n    <shaderPath>Map/CutoutFlying01</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutPlant (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutPlant</defName>\n\n    <shaderPath>Map/CutoutPlant</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutComplex (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutComplex</defName>\n\n    <shaderPath>Map/CutoutComplex</shaderPath>\n\n    <uiShaderPath>Map/CutoutComplexUI</uiShaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutComplexUI (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutComplexUI</defName>\n\n    <shaderPath>Map/CutoutComplexUI</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "ExpandingIcon (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>ExpandingIcon</defName>\n\n    <shaderPath>Map/ExpandingIconUI</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutComplexBlend (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutComplexBlend</defName>\n\n    <shaderPath>Map/CutoutComplexBlend</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutSkin (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutSkin</defName>\n\n    <shaderPath>Map/CutoutSkin</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutSkinOverlay (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutSkinOverlay</defName>\n\n    <shaderPath>Map/CutoutSkinOverlay</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "Transparent (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>Transparent</defName>\n\n    <shaderPath>Map/Transparent</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "TransparentPostLight (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>TransparentPostLight</defName>\n\n    <shaderPath>Map/TransparentPostLight</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "TransparentPlant (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>TransparentPlant</defName>\n\n    <shaderPath>Map/TransparentPlant</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MetaOverlay (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MetaOverlay</defName>\n\n    <shaderPath>Map/MetaOverlay</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "Mote (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>Mote</defName>\n\n    <shaderPath>Map/Mote</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteGlow (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteGlow</defName>\n\n    <shaderPath>Map/MoteGlow</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteGlowDistorted (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteGlowDistorted</defName>\n\n    <shaderPath>Map/MoteGlowDistorted</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteDistorted (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteDistorted</defName>\n\n    <shaderPath>Map/MoteDistorted</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteGlowDistortBackground (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteGlowDistortBackground</defName>\n\n    <shaderPath>Map/MoteGlowDistortBackground</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteGlowPulseLink (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteGlowPulseLink</defName>\n\n    <shaderPath>Map/MoteGlowPulseLink</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MotePulse (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MotePulse</defName>\n\n    <shaderPath>Map/MotePulse</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MotePsychicConditionCauser (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MotePsychicConditionCauser</defName>\n\n    <shaderPath>Map/MotePsychicConditionCauser</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "PsyfocusMeditationPulse (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>PsyfocusMeditationPulse</defName>\n\n    <shaderPath>Map/PsyfocusMeditationPulse</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteProximityScannerRadius (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteProximityScannerRadius</defName>\n\n    <shaderPath>Map/MoteProximityScannerRadius</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteGlowPulse (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteGlowPulse</defName>\n\n    <shaderPath>Map/MoteGlowPulse</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteGlowPulseLow (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteGlowPulseLow</defName>\n\n    <shaderPath>Map/MoteGlowPulseLow</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteWater (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteWater</defName>\n\n    <shaderPath>Map/MoteWater</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "EdgeDetect (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>EdgeDetect</defName>\n\n    <shaderPath>Map/EdgeDetect</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteActivatedVoidStructure (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteActivatedVoidStructure</defName>\n\n    <shaderPath>Map/MoteActivatedVoidStructure</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MotePsychicWarmupWordOf (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MotePsychicWarmupWordOf</defName>\n\n    <shaderPath>Map/MotePsychicWarmupWordOf</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MotePsychicWarmupNeuroquake (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MotePsychicWarmupNeuroquake</defName>\n\n    <shaderPath>Map/MotePsychicWarmupNeuroquake</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteLargeDistortionWave (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteLargeDistortionWave</defName>\n\n    <shaderPath>Map/MoteLargeDistortionWave</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CutoutAnimated (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CutoutAnimated</defName>\n\n    <shaderPath>Map/CutoutAnimated</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "GlowAnimated (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>GlowAnimated</defName>\n\n    <shaderPath>Map/GlowAnimated</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "TransparentAnimated (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>TransparentAnimated</defName>\n\n    <shaderPath>Map/TransparentAnimated</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "AdditiveChangeHue (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>AdditiveChangeHue</defName>\n\n    <shaderPath>Map/AdditiveChangeHue</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "RitualStencil (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>RitualStencil</defName>\n\n    <shaderPath>Map/RitualStencil</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "PawnSilhouetteStencil (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>PawnSilhouetteStencil</defName>\n\n    <shaderPath>Map/PawnSilhouetteStencil</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "PawnSilhouetteStencilGlow (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>PawnSilhouetteStencilGlow</defName>\n\n    <shaderPath>Map/PawnSilhouetteStencilGlow</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "PawnSilhouetteStencilColorAnimated (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>PawnSilhouetteStencilColorAnimated</defName>\n\n    <shaderPath>Map/PawnSilhouetteStencilColorAnimated</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "TerrainFadeRoughSoftLight (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>TerrainFadeRoughSoftLight</defName>\n\n    <shaderPath>Map/TerrainFadeRoughSoftLight</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "TerrainFadeRoughLinearAdd (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>TerrainFadeRoughLinearAdd</defName>\n\n    <shaderPath>Map/TerrainFadeRoughLinearAdd</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "TerrainFadeRoughDifference (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>TerrainFadeRoughDifference</defName>\n\n    <shaderPath>Map/TerrainFadeRoughDifference</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "TransparentBelowSnow (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>TransparentBelowSnow</defName>\n\n    <shaderPath>Map/TransparentBelowSnow</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteHeatDiffusion (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteHeatDiffusion</defName>\n\n    <shaderPath>Map/MoteHeatDiffusion</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteMultiplyAddScroll (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteMultiplyAddScroll</defName>\n\n    <shaderPath>Map/MoteMultiplyAddScroll</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteGlowCircularScrolling (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteGlowCircularScrolling</defName>\n\n    <shaderPath>Map/MoteGlowCircularScrolling</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteMultiplyAddCircular (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteMultiplyAddCircular</defName>\n\n    <shaderPath>Map/MoteMultiplyAddCircular</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteMultiplyAddCircularGrayscale (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteMultiplyAddCircularGrayscale</defName>\n\n    <shaderPath>Map/MoteMultiplyAddCircularGrayscale</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteCircularSparks (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteCircularSparks</defName>\n\n    <shaderPath>Map/MoteCircularSparks</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MotePsychicSkipFlash (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MotePsychicSkipFlash</defName>\n\n    <shaderPath>Map/MotePsychicSkipFlash</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MotePsychicSkipInner (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MotePsychicSkipInner</defName>\n\n    <shaderPath>Map/MotePsychicSkipInner</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MotePsychicSkipRing (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MotePsychicSkipRing</defName>\n\n    <shaderPath>Map/MotePsychicSkipRing</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "PsychicDistortionRibbon (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>PsychicDistortionRibbon</defName>\n\n    <shaderPath>Map/PsychicDistortionRibbon</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "DarkHighlightRing (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>DarkHighlightRing</defName>\n\n    <shaderPath>Map/HighlightRing</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "PsychicRitualCandleMote (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>PsychicRitualCandleMote</defName>\n\n    <shaderPath>Map/PsychicRitualCandleMote</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteBouncing (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteBouncing</defName>\n\n    <shaderPath>Map/MoteBouncing</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteChargingPulse (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteChargingPulse</defName>\n\n    <shaderPath>Map/MoteChargingPulse</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "BioferriteHarvestPulse (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>BioferriteHarvestPulse</defName>\n\n    <shaderPath>Map/BioferriteHarvestPulse</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteHellfireCannon_Aim (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteHellfireCannon_Aim</defName>\n\n    <shaderPath>Map/MoteHellfireCannon_Aim</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteHellfireCannon_Charge (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteHellfireCannon_Charge</defName>\n\n    <shaderPath>Map/MoteHellfireCannon_Charge</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteHellfireCannon_Target (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteHellfireCannon_Target</defName>\n\n    <shaderPath>Map/MoteHellfireCannon_Target</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteIncineratorBeam (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteIncineratorBeam</defName>\n\n    <shaderPath>Map/MoteIncineratorBeam</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteBeam (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteBeam</defName>\n\n    <shaderPath>Map/MoteBeam</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "Lightshaft (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>Lightshaft</defName>\n\n    <shaderPath>Map/Lightshaft</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "OrbitalDebris (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>OrbitalDebris</defName>\n\n    <shaderPath>Map/OrbitalDebris</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteMultiplyCircularGrayscale (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteMultiplyCircularGrayscale</defName>\n\n    <shaderPath>Map/MoteMultiplyCircularGrayscale</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "RitualGlow (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>RitualGlow</defName>\n\n    <shaderPath>Map/RitualGlow</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "RitualGlowSingleRay (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>RitualGlowSingleRay</defName>\n\n    <shaderPath>Map/RitualGlowSingleRay</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "RitualSmoke (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>RitualSmoke</defName>\n\n    <shaderPath>Map/RitualSmoke</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "RitualOutline (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>RitualOutline</defName>\n\n    <shaderPath>Map/RitualOutline</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteBouncingRotating (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteBouncingRotating</defName>\n\n    <shaderPath>Map/MoteBouncingRotating</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "GasRotating (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/misc/shader_type_defs/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>GasRotating</defName>\n\n    <shaderPath>Map/GasRotating</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "BulletShieldPsychic (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/misc/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>BulletShieldPsychic</defName>\n\n    <shaderPath>Map/BulletShieldPsychic</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "CloudOverlay (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/misc/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>CloudOverlay</defName>\n\n    <shaderPath>Map/CloudOverlay</shaderPath>\n\n  </ShaderTypeDef>"
+        },
+        {
+            "Title": "MoteBestowWarmup (ShaderTypeDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/misc/shader_types.xml`",
+            "XML": "<ShaderTypeDef>\n\n    <defName>MoteBestowWarmup</defName>\n\n    <shaderPath>Map/MoteBestowWarmup</shaderPath>\n\n  </ShaderTypeDef>"
+        }
+    ]
+}

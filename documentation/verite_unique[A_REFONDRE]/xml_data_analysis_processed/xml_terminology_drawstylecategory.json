@@ -1,0 +1,176 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Default2D (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef Name=\"Default2D\">\n\n    <defName>Default2D</defName>\n\n    <styles>\n\n      <li>FilledRectangle</li>\n\n      <li>EmptyRectangle</li>\n\n      <li>FilledOval</li>\n\n      <li>EmptyOval</li>\n\n      <li>Line</li>\n\n      <li>AngledLine</li>\n\n    </styles>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Fill2D (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef Name=\"Fill2D\">\n\n    <defName>Fill2D</defName>\n\n    <styles>\n\n      <li>FilledRectangle</li>\n\n      <li>FilledOval</li>\n\n    </styles>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Default1D (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef Name=\"Default1D\">\n\n    <defName>Default1D</defName>\n\n    <styles>\n\n      <li>Line</li>\n\n      <li>AngledLine</li>\n\n      <li>EmptyRectangle</li>\n\n      <li>EmptyOval</li>\n\n    </styles>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "FilledRectangle (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef>\n\n    <defName>FilledRectangle</defName>\n\n    <styles>\n\n      <li>FilledRectangle</li>\n\n    </styles>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Walls (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default1D\">\n\n    <defName>Walls</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Conduits (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default1D\">\n\n    <defName>Conduits</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Defenses (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default1D\">\n\n    <defName>Defenses</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Zones (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>Zones</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Areas (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>Areas</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Orders (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>Orders</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Mine (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>Mine</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Paint (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>Paint</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Plans (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>Plans</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "RemovePlans (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>RemovePlans</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "RemoveZones (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Fill2D\">\n\n    <defName>RemoveZones</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Foundations (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>Foundations</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Floors (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>Floors</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Cancel (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Default2D\">\n\n    <defName>Cancel</defName>\n\n  </DrawStyleCategoryDef>"
+        },
+        {
+            "Title": "Plants (DrawStyleCategoryDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/draw_style_category_defs/draw_style_categories.xml`",
+            "XML": "<DrawStyleCategoryDef ParentName=\"Fill2D\">\n\n    <defName>Plants</defName>\n\n  </DrawStyleCategoryDef>"
+        }
+    ]
+}

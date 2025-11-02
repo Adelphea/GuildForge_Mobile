@@ -1,0 +1,194 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "PublicBathroom (RoomRoleDef)",
+            "Label": "public bathroom",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n\t\t<defName>PublicBathroom</defName>\n\n\t\t<label>public bathroom</label>\n\n\t\t<workerClass>DubsBadHygiene.RoomRoleWorker_PublicBathroom</workerClass>\n\n\t\t<relatedStats>\n\n\t\t\t<li>Beauty</li>\n\n\t\t\t<li>Cleanliness</li>\n\n\t\t\t<li>Wealth</li>\n\n\t\t\t<li>Impressiveness</li>\n\n\t\t</relatedStats>\n\n\t</RoomRoleDef>"
+        },
+        {
+            "Title": "PrivateBathroom (RoomRoleDef)",
+            "Label": "private bathroom",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n\t\t<defName>PrivateBathroom</defName>\n\n\t\t<label>private bathroom</label>\n\n\t\t<workerClass>DubsBadHygiene.RoomRoleWorker_PrivateBathroom</workerClass>\n\n\t\t<relatedStats>\n\n\t\t\t<li>Beauty</li>\n\n\t\t\t<li>Cleanliness</li>\n\n\t\t\t<li>Wealth</li>\n\n\t\t\t<li>Impressiveness</li>\n\n\t\t</relatedStats>\n\n\t</RoomRoleDef>"
+        },
+        {
+            "Title": "SaunaRoom (RoomRoleDef)",
+            "Label": "Sauna room",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/bad_hygiene/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n\t\t<defName>SaunaRoom</defName>\n\n\t\t<label>Sauna room</label>\n\n\t\t<workerClass>DubsBadHygiene.RoomRoleWorker_Sauna</workerClass>\n\n\t\t<relatedStats>\n\n\t\t\t<li>Cleanliness</li>\n\n\t\t</relatedStats>\n\n\t</RoomRoleDef>"
+        },
+        {
+            "Title": "DankPyon_Library (RoomRoleDef)",
+            "Label": "library room",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/medieval_overhaul/patches/vanilla__books__expanded/book_patches.xml`",
+            "XML": "<RoomRoleDef>\n\n\t\t\t\t\t\t\t<defName>DankPyon_Library</defName>\n\n\t\t\t\t\t\t\t<label>library room</label>\n\n\t\t\t\t\t\t\t<workerClass>MedievalOverhaul.RoomRoleWorker_Library</workerClass>\n\n\t\t\t\t\t\t\t<relatedStats>\n\n\t\t\t\t\t\t\t<li>Beauty</li>\n\n\t\t\t\t\t\t\t<li>Cleanliness</li>\n\n\t\t\t\t\t\t\t<li>Wealth</li>\n\n\t\t\t\t\t\t\t<li>Space</li>\n\n\t\t\t\t\t\t\t<li>Impressiveness</li>\n\n\t\t\t\t\t\t\t<li>ReadingBonus</li>\n\n\t\t\t\t\t\t\t</relatedStats>\n\n\t\t\t\t\t\t</RoomRoleDef>"
+        },
+        {
+            "Title": "None (RoomRoleDef)",
+            "Label": "none",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>None</defName>\n\n    <label>none</label>\n\n    <workerClass>RoomRoleWorker_None</workerClass>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Room (RoomRoleDef)",
+            "Label": "room",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Room</defName>\n\n    <label>room</label>\n\n    <workerClass>RoomRoleWorker_Room</workerClass>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Bedroom (RoomRoleDef)",
+            "Label": "bedroom",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Bedroom</defName>\n\n    <label>bedroom</label>\n\n    <workerClass>RoomRoleWorker_Bedroom</workerClass>\n\n    <avoidViewingArtIfUnowned>true</avoidViewingArtIfUnowned>\n\n    <relatedStats>\n\n      <li>Beauty</li>\n\n      <li>Cleanliness</li>\n\n      <li>Wealth</li>\n\n      <li>Space</li>\n\n      <li>Impressiveness</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "PrisonCell (RoomRoleDef)",
+            "Label": "prison cell",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>PrisonCell</defName>\n\n    <label>prison cell</label>\n\n    <workerClass>RoomRoleWorker_PrisonCell</workerClass>\n\n    <avoidViewingArtIfUnowned>true</avoidViewingArtIfUnowned>\n\n    <relatedStats>\n\n      <li>Beauty</li>\n\n      <li>Cleanliness</li>\n\n      <li>Wealth</li>\n\n      <li>Space</li>\n\n      <li>Impressiveness</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "DiningRoom (RoomRoleDef)",
+            "Label": "dining room",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>DiningRoom</defName>\n\n    <label>dining room</label>\n\n    <workerClass>RoomRoleWorker_DiningRoom</workerClass>\n\n    <relatedStats>\n\n      <li>Beauty</li>\n\n      <li>Cleanliness</li>\n\n      <li>Wealth</li>\n\n      <li>Space</li>\n\n      <li>Impressiveness</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "RecRoom (RoomRoleDef)",
+            "Label": "rec room",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>RecRoom</defName>\n\n    <label>rec room</label>\n\n    <workerClass>RoomRoleWorker_RecRoom</workerClass>\n\n    <relatedStats>\n\n      <li>Beauty</li>\n\n      <li>Cleanliness</li>\n\n      <li>Wealth</li>\n\n      <li>Space</li>\n\n      <li>Impressiveness</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Hospital (RoomRoleDef)",
+            "Label": "hospital",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Hospital</defName>\n\n    <label>hospital</label>\n\n    <workerClass>RoomRoleWorker_Hospital</workerClass>\n\n    <avoidViewingArtIfUnowned>true</avoidViewingArtIfUnowned>\n\n    <relatedStats>\n\n      <li>Beauty</li>\n\n      <li>Cleanliness</li>\n\n      <li>Space</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Laboratory (RoomRoleDef)",
+            "Label": "laboratory",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Laboratory</defName>\n\n    <label>laboratory</label>\n\n    <workerClass>RoomRoleWorker_Laboratory</workerClass>\n\n    <relatedStats>\n\n      <li>Cleanliness</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Workshop (RoomRoleDef)",
+            "Label": "workshop",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Workshop</defName>\n\n    <label>workshop</label>\n\n    <workerClass>RoomRoleWorker_Workshop</workerClass>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Storeroom (RoomRoleDef)",
+            "Label": "storeroom",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Storeroom</defName>\n\n    <label>storeroom</label>\n\n    <workerClass>RoomRoleWorker_StoreRoom</workerClass>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Barracks (RoomRoleDef)",
+            "Label": "barracks",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Barracks</defName>\n\n    <label>barracks</label>\n\n    <workerClass>RoomRoleWorker_Barracks</workerClass>\n\n    <avoidViewingArtIfUnowned>true</avoidViewingArtIfUnowned>\n\n    <relatedStats>\n\n      <li>Beauty</li>\n\n      <li>Cleanliness</li>\n\n      <li>Wealth</li>\n\n      <li>Space</li>\n\n      <li>Impressiveness</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "PrisonBarracks (RoomRoleDef)",
+            "Label": "prison barracks",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>PrisonBarracks</defName>\n\n    <label>prison barracks</label>\n\n    <workerClass>RoomRoleWorker_PrisonBarracks</workerClass>\n\n    <avoidViewingArtIfUnowned>true</avoidViewingArtIfUnowned>\n\n    <relatedStats>\n\n      <li>Beauty</li>\n\n      <li>Cleanliness</li>\n\n      <li>Wealth</li>\n\n      <li>Space</li>\n\n      <li>Impressiveness</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Kitchen (RoomRoleDef)",
+            "Label": "kitchen",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Kitchen</defName>\n\n    <label>kitchen</label>\n\n    <workerClass>RoomRoleWorker_Kitchen</workerClass>\n\n    <relatedStats>\n\n      <li>Cleanliness</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Tomb (RoomRoleDef)",
+            "Label": "tomb",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Tomb</defName>\n\n    <label>tomb</label>\n\n    <workerClass>RoomRoleWorker_Tomb</workerClass>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "Barn (RoomRoleDef)",
+            "Label": "barn",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>Barn</defName>\n\n    <label>barn</label>\n\n    <workerClass>RoomRoleWorker_Barn</workerClass>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "WorshipRoom (RoomRoleDef)",
+            "Label": "temple",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>WorshipRoom</defName>\n\n    <label>temple</label>\n\n    <workerClass>RoomRoleWorker_WorshipRoom</workerClass>\n\n  </RoomRoleDef>"
+        },
+        {
+            "Title": "ThroneRoom (RoomRoleDef)",
+            "Label": "throne room",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/royalty/defs/rooms/room_roles.xml`",
+            "XML": "<RoomRoleDef>\n\n    <defName>ThroneRoom</defName>\n\n    <label>throne room</label>\n\n    <workerClass>RoomRoleWorker_ThroneRoom</workerClass>\n\n    <relatedStats>\n\n      <li>Impressiveness</li>\n\n    </relatedStats>\n\n  </RoomRoleDef>"
+        }
+    ]
+}

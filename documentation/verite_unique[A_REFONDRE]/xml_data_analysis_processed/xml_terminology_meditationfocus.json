@@ -1,0 +1,59 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Dignified (MeditationFocusDef)",
+            "Label": "dignified",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/meditation_focus_defs/meditation_focuses.xml`",
+            "XML": "<MeditationFocusDef>\n\n    <defName>Dignified</defName>\n\n    <label>dignified</label>\n\n    <requiresRoyalTitle>True</requiresRoyalTitle>\n\n  </MeditationFocusDef>"
+        },
+        {
+            "Title": "Natural (MeditationFocusDef)",
+            "Label": "natural",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/meditation_focus_defs/meditation_focuses.xml`",
+            "XML": "<MeditationFocusDef>\n\n    <defName>Natural</defName>\n\n    <label>natural</label>\n\n    <requiredBackstoriesAny>\n\n      <li>\n\n        <categoryName>Tribal</categoryName>\n\n        <slot>Childhood</slot>\n\n      </li>\n\n      <li>\n\n        <categoryName>AdultTribal</categoryName>\n\n        <slot>Childhood</slot>\n\n      </li>\n\n      <li>\n\n        <categoryName>ChildTribal</categoryName>\n\n        <slot>Childhood</slot>\n\n      </li>\n\n    </requiredBackstoriesAny>\n\n  </MeditationFocusDef>"
+        },
+        {
+            "Title": "Artistic (MeditationFocusDef)",
+            "Label": "artistic",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/meditation_focus_defs/meditation_focuses.xml`",
+            "XML": "<MeditationFocusDef>\n\n    <defName>Artistic</defName>\n\n    <label>artistic</label>\n\n    <incompatibleBackstoriesAny>\n\n      <li>\n\n        <categoryName>Tribal</categoryName>\n\n        <slot>Childhood</slot>\n\n      </li>\n\n    </incompatibleBackstoriesAny>\n\n  </MeditationFocusDef>"
+        },
+        {
+            "Title": "Morbid (MeditationFocusDef)",
+            "Label": "morbid",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/meditation_focus_defs/meditation_focuses.xml`",
+            "XML": "<MeditationFocusDef>\n\n    <defName>Morbid</defName>\n\n    <label>morbid</label>\n\n  </MeditationFocusDef>"
+        },
+        {
+            "Title": "Minimal (MeditationFocusDef)",
+            "Label": "minimal",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/meditation_focus_defs/meditation_focuses.xml`",
+            "XML": "<MeditationFocusDef>\n\n    <defName>Minimal</defName>\n\n    <label>minimal</label>\n\n  </MeditationFocusDef>"
+        },
+        {
+            "Title": "Flame (MeditationFocusDef)",
+            "Label": "flame",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/meditation_focus_defs/meditation_focuses.xml`",
+            "XML": "<MeditationFocusDef>\n\n    <defName>Flame</defName>\n\n    <label>flame</label>\n\n  </MeditationFocusDef>"
+        }
+    ]
+}

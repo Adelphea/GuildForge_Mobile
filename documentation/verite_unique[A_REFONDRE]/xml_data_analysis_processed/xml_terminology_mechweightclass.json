@@ -1,0 +1,41 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "Light (MechWeightClassDef)",
+            "Label": "light",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/mech_weight_class_defs/mech_weight_class_defs.xml`",
+            "XML": "<MechWeightClassDef>\n\n    <defName>Light</defName>\n\n    <label>light</label>\n\n  </MechWeightClassDef>"
+        },
+        {
+            "Title": "Medium (MechWeightClassDef)",
+            "Label": "medium",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/mech_weight_class_defs/mech_weight_class_defs.xml`",
+            "XML": "<MechWeightClassDef>\n\n    <defName>Medium</defName>\n\n    <label>medium</label>\n\n  </MechWeightClassDef>"
+        },
+        {
+            "Title": "Heavy (MechWeightClassDef)",
+            "Label": "heavy",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/mech_weight_class_defs/mech_weight_class_defs.xml`",
+            "XML": "<MechWeightClassDef>\n\n    <defName>Heavy</defName>\n\n    <label>heavy</label>\n\n  </MechWeightClassDef>"
+        },
+        {
+            "Title": "UltraHeavy (MechWeightClassDef)",
+            "Label": "ultraheavy",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/core/defs/mech_weight_class_defs/mech_weight_class_defs.xml`",
+            "XML": "<MechWeightClassDef>\n\n    <defName>UltraHeavy</defName>\n\n    <label>ultraheavy</label>\n\n    <canResurrect>false</canResurrect>\n\n  </MechWeightClassDef>"
+        }
+    ]
+}

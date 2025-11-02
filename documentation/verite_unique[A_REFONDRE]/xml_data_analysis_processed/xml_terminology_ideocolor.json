@@ -1,0 +1,302 @@
+{
+    "table_data": [],
+    "xml_snippets": [
+        {
+            "Title": "LightGrey (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightGrey</defName>\n\n    <colorDef>LightGrey</colorDef>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Grey (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Grey</defName>\n\n    <colorDef>Grey</colorDef>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkGrey (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkGrey</defName>\n\n    <colorDef>DarkGrey</colorDef>\n\n    <memes>\n\n      <li>Transhumanist</li>\n\n    </memes>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightRed (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightRed</defName>\n\n    <colorDef>LightRed</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Red (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Red</defName>\n\n    <colorDef>Red</colorDef>\n\n    <memes>\n\n      <li>Cannibal</li>\n\n      <li>Supremacist</li>\n\n      <li>PainIsVirtue</li>\n\n    </memes>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkRed (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkRed</defName>\n\n    <colorDef>DarkRed</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightOrange (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightOrange</defName>\n\n    <colorDef>LightOrange</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Orange (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Orange</defName>\n\n    <colorDef>Orange</colorDef>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkOrange (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkOrange</defName>\n\n    <colorDef>DarkOrange</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightOlive (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightOlive</defName>\n\n    <colorDef>LightOlive</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Olive (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Olive</defName>\n\n    <colorDef>Olive</colorDef>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkOlive (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkOlive</defName>\n\n    <colorDef>DarkOlive</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightGreen (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightGreen</defName>\n\n    <colorDef>LightGreen</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Green (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Green</defName>\n\n    <colorDef>Green</colorDef>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n    <cultures>\n\n      <li>Corunan</li>\n\n    </cultures>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkGreen (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkGreen</defName>\n\n    <colorDef>DarkGreen</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightTeal (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightTeal</defName>\n\n    <colorDef>LightTeal</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Teal (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Teal</defName>\n\n    <colorDef>Teal</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkTeal (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkTeal</defName>\n\n    <colorDef>DarkTeal</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightBlue (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightBlue</defName>\n\n    <colorDef>LightBlue</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Blue (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Blue</defName>\n\n    <colorDef>Blue</colorDef>\n\n    <memes>\n\n      <li>NaturePrimacy</li>\n\n    </memes>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkBlue (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkBlue</defName>\n\n    <colorDef>DarkBlue</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightSapphire (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightSapphire</defName>\n\n    <colorDef>LightSapphire</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Sapphire (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Sapphire</defName>\n\n    <colorDef>Sapphire</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkSapphire (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkSapphire</defName>\n\n    <colorDef>DarkSapphire</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightMauve (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightMauve</defName>\n\n    <colorDef>LightMauve</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Mauve (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Mauve</defName>\n\n    <colorDef>Mauve</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkMauve (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkMauve</defName>\n\n    <colorDef>DarkMauve</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightPurple (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightPurple</defName>\n\n    <colorDef>LightPurple</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Purple (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Purple</defName>\n\n    <colorDef>Purple</colorDef>\n\n    <memes>\n\n      <li>Cannibal</li>\n\n      <li>FemaleSupremacy</li>\n\n      <li>Supremacist</li>\n\n    </memes>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkPurple (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkPurple</defName>\n\n    <colorDef>DarkPurple</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "LightPink (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>LightPink</defName>\n\n    <colorDef>LightPink</colorDef>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "Pink (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>Pink</defName>\n\n    <colorDef>Pink</colorDef>\n\n    <memes>\n\n      <li>FemaleSupremacy</li>\n\n    </memes>\n\n  </IdeoColorDef>"
+        },
+        {
+            "Title": "DarkPink (IdeoColorDef)",
+            "Label": "N/A",
+            "Description Originale": "N/A",
+            "Propriétés Clés": "N/A",
+            "Exemple d\"Utilisation / Contexte": "",
+            "Fichier Source": "`/home/ubuntu/guildforgemobile/guildforgemobile/documentation/data/data/rimworld/ideology/defs/ideo_symbol_defs/ideo_color_defs.xml`",
+            "XML": "<IdeoColorDef>\n\n    <defName>DarkPink</defName>\n\n    <colorDef>DarkPink</colorDef>\n\n  </IdeoColorDef>"
+        }
+    ]
+}
