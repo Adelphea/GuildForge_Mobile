@@ -77,7 +77,7 @@ Les `WorldGenStepDef` définissent les étapes séquentielles du processus de g�
 
 *   **Algorithme de Génération :**
 /!\ A redefinir
-*   **Représentation du Monde :** Le monde est représenté par un ensemble de tuiles d’exagonales et de pentagonales du polyedre de Golberg, chacune ayant des caractéristiques spécifiques basées sur son biome, son altitude, sa fertilité et la présence de ressources.
+*   **Représentation de la planète :** La planète est représenté par un ensemble de tuiles d’exagonales et de pentagonales du polyedre de Golberg, chacunes ayant des caractéristiques spécifiques basées sur son biome, son altitude, sa fertilité et la présence de ressources.
 
 **Tableau 1 : Exemples de WorldGenStepDef et leurs fonctions**
 
