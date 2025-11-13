@@ -36,7 +36,7 @@ Ce document centralise la vision globale du jeu GuildForge Mobile, ses principes
 
 ## 1. Vision du Jeu
 
-GuildForge Mobile est un jeu de gestion de colonie et de survie inspiré de RimWorld, se déroulant dans un univers médiéval. L'objectif est d'offrir une expérience "RimWorld-like" [1] complète sur mobile, en mettant l'accent sur une narration émergente forte.
+GuildForge Mobile est un jeu de gestion de colonie et de survie inspiré de RimWorld, se déroulant dans un univers médiéval. L'objectif est d'offrir une expérience "RimWorld-like" [1] complète sur mobile.
 
 ## 2. Cadre de l'Univers et Lore
 
@@ -59,7 +59,7 @@ L'univers est médiéval, dépourvu d'éléments fantastiques ou de science-fict
 *   **Voyages Interstellaires / Vaisseaux Spatiaux :** Exclus. Les voyages se feront à pied, à cheval ou en charrette, sur la carte du monde local.
 *   **Créatures Fantastiques / Mutants :** Exclues. Les menaces animales seront des bêtes sauvages (loups, ours, sangliers) ou des animaux domestiques enragés.
 *   **Tourelles Automatiques / Armes à Feu Modernes :** Remplacées par des défenses médiévales : archers sur les murs, balistes, trébuchets (si l'échelle le permet), pièges.
-*   **Intelligence Artificielle (IA) / Robots :** Exclue. Le travail est manuel ou assisté par des animaux de trait.
+*   **Robots :** Exclue. Le travail est manuel ou assisté par des animaux de trait.
 *   **Maladies Exotiques / Plagues Spatiales :** Remplacées par des maladies médiévales : peste, dysenterie, grippe, blessures infectées.
 
 ## 3. Plateforme et Optimisation
@@ -82,7 +82,7 @@ Ce document définit la direction artistique visuelle de GuildForge Mobile. L'ob
 
 ### 5.2. Style Visuel Détaillé
 
-Le style visuel est un **pixel art 2D** avec une **vue isométrique ou de dessus**, rappelant les jeux de gestion de colonie classiques. Les sprites sont détaillés mais suffisamment lisibles sur les petits écrans mobiles. L'objectif est un équilibre entre le charme rétro du pixel art et une clarté fonctionnelle, tout en respectant le cadre médiéval et réaliste du jeu. Toute représentation visuelle qui pourrait évoquer le fantastique est évitée ou réinterprétée pour s'inscrire dans un cadre réaliste et historique de l'époque médiévale.
+Le style visuel est un **pixel art 2D** avec une **vue isométrique ou de dessus**, rappelant les jeux de gestion de colonie classiques. Les sprites sont détaillés mais suffisamment lisibles sur les petits écrans mobiles. L'objectif est un équilibre entre le charme rétro du pixel art et une clarté fonctionnelle, tout en respectant le cadre médiéval et réaliste du jeu.
 
 La palette de couleurs est **terreuse et naturelle**, inspirée des enluminures médiévales et des paysages ruraux de l'époque. Des tons de vert profond, de brun, de gris pierre et de couleurs de bois dominantes, avec des touches de couleurs plus vives pour les éléments interactifs ou importants (ex: ressources rares, icônes d'état).
 
@@ -90,7 +90,7 @@ L'interface utilisateur est **non-intrusive**, avec des icônes stylisées rappe
 
 Tous les assets sont des sprites 2D optimisés pour les performances mobiles. Cela inclut des personnages animés (colons, PNJ) avec variations, des bâtiments et structures détaillés avec variations de matériaux et étapes de construction, des icônes claires pour objets et ressources, une UI thématique mais fonctionnelle, et des effets visuels (VFX) simples et optimisés.
 
-Pour plus de détails sur l'approche artistique 2D/3D et les animations, veuillez consulter la [Documentation Artistique Générale](../../art/README.md).
+Pour plus de détails sur l'approche artistique 2D et les animations, veuillez consulter la [Documentation Artistique Générale](../../art/README.md).
 
 ## 6. Équilibrage du Jeu
 
