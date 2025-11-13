@@ -5,7 +5,7 @@
 **Version :** 1.1
 **Tags :** [game-design, monde, génération-procédurale, biomes, topographie, ressources, optimisation, mobile, Godot]
 
-Ce document décrit les principes et les algorithmes utilisés pour la génération procédurale du monde de GuildForge Mobile. Il couvre la topographie, les ressources initiales, les points d'intérêt, et les paramètres de biomes/climat, en mettant l'accent sur la rejouabilité et l'optimisation pour les appareils mobiles. L'objectif est d'offrir une expérience unique et variée à chaque nouvelle partie.
+Ce document décrit les principes et les algorithmes utilisés pour la génération procédurale du monde de GuildForge. Il couvre la topographie, les ressources initiales, les points d'intérêt, et les paramètres de biomes/climat, en mettant l'accent sur la rejouabilité et l'optimisation pour les appareils mobiles. L'objectif est d'offrir une expérience unique et variée à chaque nouvelle partie.
 
 ---
 
@@ -31,7 +31,7 @@ Ce document décrit les principes et les algorithmes utilisés pour la générat
 
 ## 1. Introduction
 
-La génération procédurale du monde est une mécanique fondamentale de GuildForge Mobile, visant à offrir une expérience unique et variée à chaque nouvelle partie. Ce système est conçu pour créer des mondes cohérents et immersifs, tout en permettant une personnalisation par le joueur et en respectant les contraintes de performance mobile.
+La génération procédurale du monde est une mécanique fondamentale de GuildForge, visant à offrir une expérience unique et variée à chaque nouvelle partie. Ce système est conçu pour créer des mondes cohérents et immersifs, tout en permettant une personnalisation par le joueur et en respectant les contraintes de performance mobile.
 
 ## 2. Concept Central et Objectifs
 
@@ -46,7 +46,7 @@ Offrir une grande rejouabilité et des défis variés à chaque nouvelle partie 
 *   Permettre au joueur d'inclure ou d'exclure certains biomes pour personnaliser son expérience.
 *   Fournir une interface claire pour la sélection de la tuile de départ, avec des informations pertinentes sur les caractéristiques locales.
 *   Assurer une distinction claire entre l'écran de paramétrage du monde et l'écran du monde généré, avec une phase de chargement optimisée.
-*   Concevoir un monde avec un continent unique entouré d'océan, utilisant des tuiles hexagonales avec des bordures rectilignes pour l'affichage.
+*   Concevoir un monde à partir d’un polyedre de Golberg represantant une planète avec continent unique entouré d'océan, utilisant des tuiles hexagonales et pentagonales pour distinguer les differentes topographies comprenant leur biome respectifs.
 
 ## 3. Mécaniques et Systèmes de Génération
 
@@ -57,9 +57,9 @@ Le processus de génération du monde est intégré au flux de démarrage de par
 Le joueur définit les paramètres globaux de la génération du monde sur un écran dédié. Ce processus est distinct de l'affichage du monde généré et précède une phase de chargement. Les options de personnalisation incluent :
 
 *   **Graine (Seed)** : Une chaîne de caractères qui détermine la génération unique du monde. Le joueur pourra en saisir une ou en générer une aléatoirement.
-*   **Couverture du Globe** : Le pourcentage de la planète qui sera généré, influençant la taille et la diversité des biomes.
+*   **Couverture du Globe** : Le pourcentage de la planète qui sera généré avec des tuiles jouables, influençant la quantité des tuiles océaniques et des tuiles terrestres.
 *   **Précipitations et Température** : Paramètres globaux affectant le climat et la végétation du monde.
-*   **Population** : Le nombre de factions PNJ présentes sur la carte, influençant les interactions diplomatiques et commerciales.
+*   **Population** : Influençant la quantité de factions PNJ présentes sur les tuiles terrestres.
 
 ### 3.2. Génération et Affichage du Monde (Écran distinct avec chargement)
 
@@ -67,7 +67,7 @@ Après la validation des paramètres, une phase de chargement est lancée pour o
 
 *   **Tuiles Océaniques** : Le monde sera délimité par des tuiles océaniques, créant une impression de continent isolé.
 *   **Continent Unique** : Le monde sera composé d'une seule masse terrestre organique, évitant les archipels fragmentés pour une expérience de jeu plus cohérente et une meilleure lisibilité sur mobile.
-*   **Tuiles Hexagonales** : Les tuiles du monde seront hexagonales, offrant une navigation et une représentation visuelle distinctes. Cependant, aux limites du monde (bords de l'écran), les tuiles seront "cassées" et rectilignes pour donner l'impression d'une carte du monde rectangulaire, optimisée pour l'affichage mobile.
+*   **Tuiles Hexagonales et pentagonales** : Les tuiles du monde seront hexagonales et pentagonales, afin d’assurer que le polyedre de golberg parfaitement respecté. Offrant une navigation et une représentation visuelle distinctes.
 
 ### 3.3. Génération de Carte Procédurale (WorldGenStepDef)
 
@@ -75,8 +75,9 @@ Le monde de GuildForge est généré de manière procédurale à chaque nouvelle
 
 Les `WorldGenStepDef` définissent les étapes séquentielles du processus de génération du monde. Chaque étape (`WorldGenStepDef`) est responsable d'une partie spécifique de la création de la carte, assurant une construction modulaire et cohérente. Par exemple, des étapes comme `Terrain` (génération du terrain), `Tiles` (définition des tuiles), `Lakes` (création des lacs), et `Rivers` (tracé des rivières) sont des `WorldGenStepDef` typiques [3, 4].
 
-*   **Algorithme de Génération :** Utilise une combinaison de bruit de Perlin et de fonctions de hauteur pour créer des terrains variés (montagnes, vallées, rivières, lacs, océans). La température et les précipitations sont simulées pour déterminer la répartition des biomes, souvent via des `WorldGenStepDef` dédiés à la simulation climatique.
-*   **Représentation du Monde :** Le monde est représenté par une grille de tuiles, chacune ayant des caractéristiques spécifiques basées sur son biome, son altitude, sa fertilité et la présence de ressources.
+*   **Algorithme de Génération :**
+/!\ A redefinir
+*   **Représentation du Monde :** Le monde est représenté par un ensemble de tuiles d’exagonales et de pentagonales du polyedre de Golberg, chacune ayant des caractéristiques spécifiques basées sur son biome, son altitude, sa fertilité et la présence de ressources.
 
 **Tableau 1 : Exemples de WorldGenStepDef et leurs fonctions**
 
@@ -90,21 +91,20 @@ Les `WorldGenStepDef` définissent les étapes séquentielles du processus de g�
 
 ### 3.4. Sélection de la Tuile de Départ
 
-Une fois le monde généré, le joueur est présenté avec une carte du monde et doit choisir une tuile pour y établir sa colonie.
+Une fois le monde généré, le joueur est présenté se trouve fasse au polyedre de Golberg et doit choisir une tuile pour y établir sa colonie.
 
-*   **Affichage de la Carte du Monde :** La carte du monde affiche les différentes tuiles, avec des icônes ou des couleurs indiquant le biome, la fertilité, la présence de ressources majeures et la difficulté estimée de la tuile.
+*   **Affichage de planète:** Elle affiche les différentes tuiles, avec une textures liées au biome de la tuile.
 *   **Caractéristiques des Tuiles :** Chaque tuile sélectionnable aura des caractéristiques propres à son biome, mais aussi des variations locales (type de terrain, présence d'eau, ressources locales, climat local, voisins potentiels).
 
 ## 4. Algorithmes de Génération Détaillés
 
-### 4.1. Génération de Terrain (Hauteur et Humidité)
+### 4.1. Génération du polyedre de golberg 
 
-*   **Bruit de Perlin/Simplex :** Utilisation de fonctions de bruit (Perlin ou Simplex) pour générer des cartes de hauteur et d'humidité. Ces cartes seront combinées pour déterminer les caractéristiques du terrain.
-    *   **Hauteur :** Définit les montagnes, collines, plaines, vallées et océans.
-    *   **Humidité :** Influence la végétation et les types de biomes.
-*   **Érosion :** Simulation simplifiée de l'érosion pour créer des reliefs plus naturels (rivières, lacs).
+*   /!\ A definir
+### 4.2. Génération des paramètres de chaques tuiles. 
 
-### 4.2. Génération de Ressources
+*
+### 4.3. Génération de Ressources
 
 *   **Distribution :** Les ressources (minerais, bois, eau, gibier) sont distribuées en fonction des biomes et des caractéristiques du terrain.
 *   **Rareté :** Certaines ressources sont plus rares et se trouvent dans des zones spécifiques, encourageant l'exploration.
@@ -112,7 +112,7 @@ Une fois le monde généré, le joueur est présenté avec une carte du monde et
 
 ### 4.3. Génération des Factions et Points d'Intérêt
 
-*   **Villes/Villages :** Placement de colonies neutres ou hostiles sur la carte, influencé par la proximité des ressources et des voies navigables.
+*   **Villes/Villages :** Placement de colonies neutres ou hostiles sur des tuiles terrestres, influencé par la proximité des ressources et des voies navigables.
 *   **Ruines/Donjons :** Génération de lieux d'intérêt pour l'exploration, potentiellement avec des défis et des récompenses.
 *   **Routes/Rivières :** Création de voies de communication et de transport entre les points d'intérêt.
 
