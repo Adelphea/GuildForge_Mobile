@@ -3,7 +3,7 @@
 **Auteur :** Adelpheah ; Manus AI
 **Date :** 12 Octobre 2025
 **Version :** 1
-**Tags :** [documentation, verite_unique, donnees, glossaire, migration, godot]
+**Tags :** [documentation, verite_unique, glossaire, godot]
 
 Ce dossier centralise les informations fondamentales et les définitions clés du projet GuildForge Mobile. Il est conçu pour être la **source unique de vérité (SSOT)** concernant la terminologie, la gestion des données et les principes de conception essentiels. Son contenu est régulièrement mis à jour pour garantir cohérence et précision, servant de référence indispensable pour tous les aspects du développement.
 
