@@ -1,8 +1,8 @@
 # Génération Procédurale du Monde - GuildForge Mobile
 
-**Auteur :** Manus AI
+**Auteur :** Manus AI et Adelpheah
 **Date :** 14 Novembre 2025
-**Version :** 4.0 (Finale et Complète)
+**Version :** 1.0
 **Tags :** [game-design, monde, génération-procédurale, polyèdre-goldberg, seed, biomes, Godot, optimisation]
 
 Ce document décrit les principes fondamentaux et les algorithmes du système de génération procédurale du monde de GuildForge Mobile. L'objectif est de créer des mondes uniques, cohérents et reproductibles, en s'appuyant sur une structure géodésique avancée et des paramètres personnalisables par le joueur.
