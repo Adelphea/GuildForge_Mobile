@@ -1,0 +1,2361 @@
+{
+    "CompProperties_AbilityRequiresCapacity": {
+        "capacity": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Book": {
+        "nameMaker": {
+            "type": "string"
+        },
+        "descriptionMaker": {
+            "type": "string"
+        },
+        "ageYearsRange": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Drug": {
+        "chemical": {
+            "type": "string"
+        },
+        "addictiveness": {
+            "type": "float"
+        },
+        "minToleranceToAddict": {
+            "type": "float"
+        },
+        "existingAddictionSeverityOffset": {
+            "type": "float"
+        },
+        "needLevelOffset": {
+            "type": "float"
+        },
+        "listOrder": {
+            "type": "int"
+        },
+        "isCombatEnhancingDrug": {
+            "type": "string"
+        },
+        "overdoseSeverityOffset": {
+            "type": "string"
+        },
+        "largeOverdoseChance": {
+            "type": "float"
+        }
+    },
+    "CompProperties_Rottable": {
+        "daysToRotStart": {
+            "type": "float"
+        },
+        "rotDestroys": {
+            "type": "string"
+        },
+        "disableIfHatcher": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Usable": {
+        "compClass": {
+            "type": "string"
+        },
+        "useJob": {
+            "type": "string"
+        },
+        "useLabel": {
+            "type": "string"
+        },
+        "showUseGizmo": {
+            "type": "string"
+        },
+        "useDuration": {
+            "type": "int"
+        },
+        "floatMenuOptionPriority": {
+            "type": "string"
+        },
+        "floatMenuFactionIcon": {
+            "type": "string"
+        },
+        "ignoreOtherReservations": {
+            "type": "string"
+        },
+        "warmupMote": {
+            "type": "string"
+        }
+    },
+    "CompProperties_UseEffectInstallImplant": {
+        "hediffDef": {
+            "type": "string"
+        },
+        "bodyPart": {
+            "type": "string"
+        },
+        "canUpgrade": {
+            "type": "string"
+        }
+    },
+    "CompProperties_UseEffectPlaySound": {
+        "soundOnUsed": {
+            "type": "string"
+        }
+    },
+    "CompProperties_RitualEffectSpawnOnPawn": {
+        "fleckDef": {
+            "type": "string"
+        },
+        "compClass": {
+            "type": "string"
+        },
+        "requiredTag": {
+            "type": "string"
+        },
+        "eastRotationOffset": {
+            "type": "string"
+        },
+        "westRotationOffset": {
+            "type": "string"
+        },
+        "northRotationOffset": {
+            "type": "string"
+        },
+        "spawnIntervalTicks": {
+            "type": "int"
+        }
+    },
+    "CompProperties_ThrownFleckEmitter": {
+        "fleck": {
+            "type": "string"
+        },
+        "offsetMin": {
+            "type": "string"
+        },
+        "offsetMax": {
+            "type": "string"
+        },
+        "emissionInterval": {
+            "type": "int"
+        },
+        "scale": {
+            "type": "string"
+        },
+        "colorA": {
+            "type": "string"
+        },
+        "colorB": {
+            "type": "string"
+        },
+        "rotationRate": {
+            "type": "string"
+        },
+        "velocityX": {
+            "type": "string"
+        },
+        "velocityY": {
+            "type": "string"
+        },
+        "burstCount": {
+            "type": "int"
+        }
+    },
+    "CompProperties_Glower": {
+        "glowRadius": {
+            "type": "float"
+        },
+        "glowColor": {
+            "type": "string"
+        },
+        "colorPickerEnabled": {
+            "type": "string"
+        },
+        "darklightToggle": {
+            "type": "string"
+        },
+        "overlightRadius": {
+            "type": "float"
+        }
+    },
+    "CompProperties_Explosive": {
+        "wickTicks": {
+            "type": "int"
+        },
+        "explosiveRadius": {
+            "type": "float"
+        },
+        "explosiveDamageType": {
+            "type": "string"
+        },
+        "explodeOnKilled": {
+            "type": "string"
+        },
+        "startWickHitPointsPercent": {
+            "type": "float"
+        },
+        "extraInspectStringKey": {
+            "type": "string"
+        },
+        "preExplosionSpawnThingDef": {
+            "type": "string"
+        },
+        "preExplosionSpawnChance": {
+            "type": "float"
+        },
+        "drawWick": {
+            "type": "string"
+        },
+        "chanceNeverExplodeFromDamage": {
+            "type": "float"
+        },
+        "postExplosionSpawnThingDef": {
+            "type": "string"
+        },
+        "postExplosionSpawnChance": {
+            "type": "int"
+        },
+        "postExplosionSpawnThingCount": {
+            "type": "int"
+        },
+        "applyDamageToExplosionCellsNeighbors": {
+            "type": "string"
+        },
+        "explosionEffect": {
+            "type": "string"
+        },
+        "explosionSound": {
+            "type": "string"
+        },
+        "explosiveExpandPerFuel": {
+            "type": "float"
+        },
+        "destroyThingOnExplosionSize": {
+            "type": "int"
+        },
+        "preExplosionSpawnSingleThingDef": {
+            "type": "string"
+        },
+        "postExplosionGasType": {
+            "type": "string"
+        },
+        "chanceToStartFire": {
+            "type": "float"
+        },
+        "damageFalloff": {
+            "type": "string"
+        },
+        "explosiveExpandPerStackcount": {
+            "type": "float"
+        },
+        "requiredDamageTypeToExplode": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AssignableToPawn": {
+        "drawAssignmentOverlay": {
+            "type": "string"
+        },
+        "compClass": {
+            "type": "string"
+        },
+        "noAssignablePawnsDesc": {
+            "type": "string"
+        },
+        "drawUnownedAssignmentOverlay": {
+            "type": "string"
+        }
+    },
+    "CompProperties_MechGestatorTank": {
+        "triggeredMessage": {
+            "type": "string"
+        },
+        "triggerSound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_MeditationFocus": {
+        "statDef": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Art": {
+        "nameMaker": {
+            "type": "string"
+        },
+        "descriptionMaker": {
+            "type": "string"
+        },
+        "canBeEnjoyedAsArt": {
+            "type": "string"
+        },
+        "minQualityForArtistic": {
+            "type": "string"
+        },
+        "mustBeFullGrave": {
+            "type": "string"
+        }
+    },
+    "CompProperties_CausesGameCondition_PsychicEmanation": {
+        "conditionDef": {
+            "type": "string"
+        },
+        "compClass": {
+            "type": "string"
+        },
+        "worldRange": {
+            "type": "int"
+        },
+        "droneLevelIncreaseInterval": {
+            "type": "int"
+        },
+        "droneLevel": {
+            "type": "int"
+        },
+        "preventConditionStacking": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AmbientSound": {
+        "sound": {
+            "type": "string"
+        },
+        "disabledOnUnpowered": {
+            "type": "string"
+        },
+        "disableOnHacked": {
+            "type": "string"
+        }
+    },
+    "CompProperties_PolluteOverTime": {
+        "cellsToPollutePerDay": {
+            "type": "int"
+        }
+    },
+    "CompProperties_InspectString": {
+        "inspectString": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Transporter": {
+        "massCapacity": {
+            "type": "int"
+        },
+        "max1PerGroup": {
+            "type": "string"
+        },
+        "canChangeAssignedThingsAfterStarting": {
+            "type": "string"
+        },
+        "showOverallStats": {
+            "type": "string"
+        },
+        "pawnLoadedSound": {
+            "type": "string"
+        },
+        "pawnExitSound": {
+            "type": "string"
+        },
+        "restEffectiveness": {
+            "type": "float"
+        }
+    },
+    "CompProperties_Facility": {
+        "maxSimultaneous": {
+            "type": "int"
+        },
+        "mustBePlacedAdjacentCardinalToBedHead": {
+            "type": "string"
+        },
+        "maxDistance": {
+            "type": "int"
+        },
+        "mustBePlacedAdjacent": {
+            "type": "string"
+        },
+        "mustBePlacedAdjacentCardinalToAndFacingBedHead": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Refuelable": {
+        "fuelConsumptionRate": {
+            "type": "float"
+        },
+        "fuelCapacity": {
+            "type": "float"
+        },
+        "fuelConsumptionPerTickInRain": {
+            "type": "float"
+        },
+        "initialFuelPercent": {
+            "type": "int"
+        },
+        "showAllowAutoRefuelToggle": {
+            "type": "string"
+        },
+        "functionsInVacuum": {
+            "type": "string"
+        },
+        "targetFuelLevelConfigurable": {
+            "type": "string"
+        },
+        "initialConfigurableTargetFuelLevel": {
+            "type": "int"
+        },
+        "consumeFuelOnlyWhenUsed": {
+            "type": "string"
+        },
+        "autoRefuelPercent": {
+            "type": "float"
+        },
+        "showFuelGizmo": {
+            "type": "string"
+        },
+        "drawOutOfFuelOverlay": {
+            "type": "string"
+        },
+        "drawFuelGaugeInMap": {
+            "type": "string"
+        },
+        "canEjectFuel": {
+            "type": "string"
+        },
+        "fuelLabel": {
+            "type": "string"
+        },
+        "fuelGizmoLabel": {
+            "type": "string"
+        },
+        "outOfFuelMessage": {
+            "type": "string"
+        },
+        "fuelMultiplier": {
+            "type": "float"
+        },
+        "minimumFueledThreshold": {
+            "type": "int"
+        },
+        "factorByDifficulty": {
+            "type": "string"
+        },
+        "fuelIconPath": {
+            "type": "string"
+        },
+        "fuelIsMortarBarrel": {
+            "type": "string"
+        },
+        "initialAllowAutoRefuel": {
+            "type": "string"
+        },
+        "consumeFuelOnlyWhenPowered": {
+            "type": "string"
+        }
+    },
+    "CompProperties_HeatPusher": {
+        "compClass": {
+            "type": "string"
+        },
+        "heatPerSecond": {
+            "type": "float"
+        },
+        "heatPushMaxTemperature": {
+            "type": "int"
+        },
+        "heatPushMinTemperature": {
+            "type": "int"
+        }
+    },
+    "CompProperties_FireOverlay": {
+        "fireSize": {
+            "type": "float"
+        },
+        "offset": {
+            "type": "string"
+        },
+        "offsetNorth": {
+            "type": "string"
+        },
+        "offsetSouth": {
+            "type": "string"
+        },
+        "offsetWest": {
+            "type": "string"
+        },
+        "offsetEast": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Power": {
+        "compClass": {
+            "type": "string"
+        },
+        "basePowerConsumption": {
+            "type": "int"
+        },
+        "shortCircuitInRain": {
+            "type": "string"
+        },
+        "transmitsPower": {
+            "type": "string"
+        },
+        "soundAmbientProducingPower": {
+            "type": "string"
+        },
+        "idlePowerDraw": {
+            "type": "int"
+        },
+        "showPowerNeededIfOff": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Schedule": {
+        "startTime": {
+            "type": "float"
+        },
+        "endTime": {
+            "type": "float"
+        },
+        "offMessage": {
+            "type": "string"
+        }
+    },
+    "CompProperties_DamageOnInterval": {
+        "damageDef": {
+            "type": "string"
+        },
+        "damage": {
+            "type": "int"
+        },
+        "ticksBetweenDamage": {
+            "type": "int"
+        }
+    },
+    "CompProperties_CanBeDormant": {
+        "compClass": {
+            "type": "string"
+        },
+        "startsDormant": {
+            "type": "string"
+        },
+        "canWakeUpFogged": {
+            "type": "string"
+        },
+        "wakeUpDelayRange": {
+            "type": "int"
+        },
+        "wakeUpEffect": {
+            "type": "string"
+        },
+        "maxDistAwakenByOther": {
+            "type": "int"
+        },
+        "wakeUpRepeatSignalDelayRange": {
+            "type": "string"
+        },
+        "delayedWakeUpDoesZs": {
+            "type": "string"
+        },
+        "showSleepingZs": {
+            "type": "string"
+        },
+        "wakeUpDelayStateLabelKey": {
+            "type": "string"
+        },
+        "awakeStateLabelKey": {
+            "type": "string"
+        },
+        "dormantStateLabelKey": {
+            "type": "string"
+        }
+    },
+    "CompProperties_WakeUpDormant": {
+        "wakeUpSound": {
+            "type": "string"
+        },
+        "wakeUpIfAnyTargetClose": {
+            "type": "string"
+        },
+        "wakeUpCheckRadius": {
+            "type": "float"
+        },
+        "wakeUpOnThingConstructedRadius": {
+            "type": "float"
+        },
+        "wakeUpWithDelay": {
+            "type": "string"
+        },
+        "radiusCheckInspectPaneKey": {
+            "type": "string"
+        },
+        "activateMessageKey": {
+            "type": "string"
+        },
+        "activatePluralMessageKey": {
+            "type": "string"
+        },
+        "wakeUpOnDamage": {
+            "type": "string"
+        },
+        "onlySendSignalOnce": {
+            "type": "string"
+        }
+    },
+    "CompProperties_ThingContainer": {
+        "compClass": {
+            "type": "string"
+        },
+        "stackLimit": {
+            "type": "int"
+        },
+        "minCountToEmpty": {
+            "type": "int"
+        },
+        "drawStackLabel": {
+            "type": "string"
+        },
+        "containedThingOffset": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Useable_CallBossgroup": {
+        "bossgroupDef": {
+            "type": "string"
+        },
+        "spawnLetterLabelKey": {
+            "type": "string"
+        },
+        "spawnLetterTextKey": {
+            "type": "string"
+        },
+        "effecterDef": {
+            "type": "string"
+        },
+        "delayTicks": {
+            "type": "int"
+        }
+    },
+    "CompProperties_UseEffect": {
+        "compClass": {
+            "type": "string"
+        }
+    },
+    "CompProperties_ProximityFuse": {
+        "target": {
+            "type": "string"
+        },
+        "radius": {
+            "type": "int"
+        }
+    },
+    "CompProperties_TerrainPumpDry": {
+        "soundWorking": {
+            "type": "string"
+        },
+        "radius": {
+            "type": "float"
+        },
+        "daysToRadius": {
+            "type": "int"
+        }
+    },
+    "CompProperties_ScannerMineralsDeep": {
+        "scanSpeedStat": {
+            "type": "string"
+        },
+        "scanFindMtbDays": {
+            "type": "int"
+        },
+        "scanFindGuaranteedDays": {
+            "type": "int"
+        },
+        "soundWorking": {
+            "type": "string"
+        }
+    },
+    "CompProperties_LongRangeMineralScanner": {
+        "scanSpeedStat": {
+            "type": "string"
+        },
+        "scanFindMtbDays": {
+            "type": "int"
+        },
+        "scanFindGuaranteedDays": {
+            "type": "int"
+        },
+        "soundWorking": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Launchable_TransportPod": {
+        "skyfallerLeaving": {
+            "type": "string"
+        }
+    },
+    "CompProperties_EmptyStateGraphic": {
+        "alwaysDrawParent": {
+            "type": "string"
+        }
+    },
+    "CompProperties_LeaveFilthOnDestroyed": {
+        "filthDef": {
+            "type": "string"
+        },
+        "thickness": {
+            "type": "int"
+        }
+    },
+    "CompProperties_Effecter": {
+        "effecterDef": {
+            "type": "string"
+        }
+    },
+    "CompProperties_SpawnerPawn": {
+        "lordJob": {
+            "type": "string"
+        },
+        "spawnSound": {
+            "type": "string"
+        },
+        "initialPawnsPoints": {
+            "type": "int"
+        },
+        "maxSpawnedPawnsPoints": {
+            "type": "int"
+        },
+        "lordJoinRadius": {
+            "type": "int"
+        },
+        "chooseSingleTypeToSpawn": {
+            "type": "string"
+        },
+        "spawnMessageKey": {
+            "type": "string"
+        },
+        "pawnsLeftToSpawnKey": {
+            "type": "string"
+        },
+        "noPawnsLeftToSpawnKey": {
+            "type": "string"
+        },
+        "nextSpawnInspectStringKey": {
+            "type": "string"
+        },
+        "nextSpawnInspectStringKeyDormant": {
+            "type": "string"
+        },
+        "maxPawnsToSpawn": {
+            "type": "int"
+        },
+        "showNextSpawnInInspect": {
+            "type": "string"
+        },
+        "pawnSpawnIntervalDays": {
+            "type": "int"
+        },
+        "shouldJoinParentLord": {
+            "type": "string"
+        }
+    },
+    "CompProperties_SelfhealHitpoints": {
+        "ticksPerHeal": {
+            "type": "int"
+        }
+    },
+    "CompProperties_Spawner": {
+        "thingToSpawn": {
+            "type": "string"
+        },
+        "spawnCount": {
+            "type": "int"
+        },
+        "spawnIntervalRange": {
+            "type": "int"
+        },
+        "spawnMaxAdjacent": {
+            "type": "int"
+        },
+        "spawnForbidden": {
+            "type": "string"
+        },
+        "saveKeysPrefix": {
+            "type": "string"
+        },
+        "inheritFaction": {
+            "type": "string"
+        },
+        "requiresPower": {
+            "type": "string"
+        },
+        "writeTimeLeftToSpawn": {
+            "type": "string"
+        },
+        "showMessageIfOwned": {
+            "type": "string"
+        }
+    },
+    "CompProperties_SpawnerFilth": {
+        "filthDef": {
+            "type": "string"
+        },
+        "spawnCountOnSpawn": {
+            "type": "int"
+        },
+        "spawnMtbHours": {
+            "type": "int"
+        },
+        "spawnRadius": {
+            "type": "int"
+        }
+    },
+    "CompProperties_Maintainable": {
+        "ticksHealthy": {
+            "type": "int"
+        },
+        "ticksNeedsMaintenance": {
+            "type": "int"
+        },
+        "damagePerTickRare": {
+            "type": "int"
+        }
+    },
+    "CompProperties_Lifespan": {
+        "lifespanTicks": {
+            "type": "int"
+        },
+        "expireEffect": {
+            "type": "string"
+        }
+    },
+    "CompProperties_SpawnEffecterOnDestroy": {
+        "effect": {
+            "type": "string"
+        }
+    },
+    "CompProperties_PawnSpawnOnWakeup": {
+        "pawnSpawnRadius": {
+            "type": "int"
+        },
+        "points": {
+            "type": "int"
+        },
+        "lordJob": {
+            "type": "string"
+        },
+        "shouldJoinParentLord": {
+            "type": "string"
+        },
+        "mentalState": {
+            "type": "string"
+        },
+        "destroyAfterSpawn": {
+            "type": "string"
+        },
+        "spawnSound": {
+            "type": "string"
+        },
+        "dropInPods": {
+            "type": "string"
+        },
+        "spawnEffecter": {
+            "type": "string"
+        },
+        "activatedMessageKey": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Stunnable": {
+        "useLargeEMPEffecter": {
+            "type": "string"
+        },
+        "empEffecterDimensions": {
+            "type": "string"
+        },
+        "empEffecterOffset": {
+            "type": "string"
+        },
+        "empChancePerTick": {
+            "type": "float"
+        }
+    },
+    "CompProperties_Battery": {
+        "storedEnergyMax": {
+            "type": "int"
+        },
+        "efficiency": {
+            "type": "float"
+        },
+        "shortCircuitInRain": {
+            "type": "string"
+        },
+        "transmitsPower": {
+            "type": "string"
+        }
+    },
+    "CompProperties_ReportWorkSpeed": {
+        "workSpeedStat": {
+            "type": "string"
+        }
+    },
+    "CompProperties_TemperatureRuinable": {
+        "minSafeTemperature": {
+            "type": "int"
+        },
+        "maxSafeTemperature": {
+            "type": "int"
+        },
+        "progressPerDegreePerTick": {
+            "type": "float"
+        }
+    },
+    "CompProperties_Mannable": {
+        "manWorkType": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Interactable": {
+        "compClass": {
+            "type": "string"
+        },
+        "activeTicks": {
+            "type": "int"
+        },
+        "cooldownTicks": {
+            "type": "int"
+        },
+        "jobString": {
+            "type": "string"
+        },
+        "onCooldownString": {
+            "type": "string"
+        },
+        "cooldownFleck": {
+            "type": "string"
+        },
+        "cooldownFleckSpawnIntervalTicks": {
+            "type": "int"
+        },
+        "cooldownFleckScale": {
+            "type": "float"
+        },
+        "activateTexPath": {
+            "type": "string"
+        },
+        "soundActivate": {
+            "type": "string"
+        },
+        "ticksToActivate": {
+            "type": "int"
+        },
+        "cooldownPreventsRefuel": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Hibernatable": {
+        "incidentTargetWhileStarting": {
+            "type": "string"
+        },
+        "sustainerActive": {
+            "type": "string"
+        }
+    },
+    "CompProperties_MoteEmitter": {
+        "mote": {
+            "type": "string"
+        },
+        "emissionInterval": {
+            "type": "int"
+        },
+        "soundOnEmission": {
+            "type": "string"
+        },
+        "saveKeysPrefix": {
+            "type": "string"
+        },
+        "offsetMin": {
+            "type": "string"
+        },
+        "offsetMax": {
+            "type": "string"
+        },
+        "maintain": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Forbiddable": {
+        "allowNonPlayer": {
+            "type": "string"
+        }
+    },
+    "CompProperties_TempControl": {
+        "energyPerSecond": {
+            "type": "int"
+        }
+    },
+    "CompProperties_Flickable": {
+        "commandTexture": {
+            "type": "string"
+        },
+        "commandLabelKey": {
+            "type": "string"
+        },
+        "commandDescKey": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Targetable": {
+        "compClass": {
+            "type": "string"
+        },
+        "psychicSensitiveTargetsOnly": {
+            "type": "string"
+        },
+        "doCameraShake": {
+            "type": "string"
+        },
+        "fleckOnTarget": {
+            "type": "string"
+        },
+        "fleckOnUsed": {
+            "type": "string"
+        },
+        "fleckOnUsedScale": {
+            "type": "int"
+        },
+        "ignorePlayerFactionPawns": {
+            "type": "string"
+        },
+        "fleshCorpsesOnly": {
+            "type": "string"
+        },
+        "nonDessicatedCorpsesOnly": {
+            "type": "string"
+        }
+    },
+    "CompProperties_TargetEffect_GoodwillImpact": {
+        "goodwillImpact": {
+            "type": "int"
+        }
+    },
+    "CompProperties_UseEffectArtifact": {
+        "sound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_UseEffectPlayWarmupSound": {
+        "warmupSound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_TargetEffectResurrect": {
+        "moteDef": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Ingredients": {
+        "splitTransferableFoodKind": {
+            "type": "string"
+        },
+        "noIngredientsFoodKind": {
+            "type": "string"
+        },
+        "performMergeCompatibilityChecks": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Hatcher": {
+        "hatcherDaystoHatch": {
+            "type": "float"
+        },
+        "hatcherPawn": {
+            "type": "string"
+        }
+    },
+    "CompProperties_ApparelReloadable": {
+        "maxCharges": {
+            "type": "int"
+        },
+        "ammoDef": {
+            "type": "string"
+        },
+        "ammoCountToRefill": {
+            "type": "int"
+        },
+        "baseReloadTicks": {
+            "type": "int"
+        },
+        "soundReload": {
+            "type": "string"
+        },
+        "hotKey": {
+            "type": "string"
+        },
+        "chargeNoun": {
+            "type": "string"
+        },
+        "displayGizmoWhileUndrafted": {
+            "type": "string"
+        },
+        "destroyOnEmpty": {
+            "type": "string"
+        },
+        "ammoCountPerCharge": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AIUSablePack": {
+        "compClass": {
+            "type": "string"
+        },
+        "checkInterval": {
+            "type": "int"
+        }
+    },
+    "CompProperties_TargetEffect_BrainDamageChance": {
+        "brainDamageChance": {
+            "type": "float"
+        }
+    },
+    "CompProperties_TargetEffect_FleckOnTarget": {
+        "fleckDef": {
+            "type": "string"
+        }
+    },
+    "CompProperties_TargetEffect_FleckConnecting": {
+        "fleckDef": {
+            "type": "string"
+        }
+    },
+    "CompProperties_OrbitalBeam": {
+        "width": {
+            "type": "float"
+        },
+        "color": {
+            "type": "string"
+        },
+        "sound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_CameraShaker": {
+        "mag": {
+            "type": "float"
+        }
+    },
+    "CompProperties_HoldingPlatformTarget": {
+        "baseEscapeIntervalMtbDays": {
+            "type": "int"
+        },
+        "getsColdContainmentBonus": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Studiable": {
+        "frequencyTicks": {
+            "type": "int"
+        },
+        "knowledgeCategory": {
+            "type": "string"
+        },
+        "anomalyKnowledge": {
+            "type": "int"
+        },
+        "requiresImprisonment": {
+            "type": "string"
+        },
+        "minMonolithLevelForStudy": {
+            "type": "int"
+        },
+        "studyAmountToComplete": {
+            "type": "int"
+        },
+        "studyEnabledByDefault": {
+            "type": "string"
+        },
+        "showToggleGizmo": {
+            "type": "string"
+        }
+    },
+    "CompProperties_EggLayer": {
+        "eggUnfertilizedDef": {
+            "type": "string"
+        },
+        "eggFertilizedDef": {
+            "type": "string"
+        },
+        "eggFertilizationCountMax": {
+            "type": "int"
+        },
+        "eggLayIntervalDays": {
+            "type": "float"
+        },
+        "eggProgressUnfertilizedMax": {
+            "type": "float"
+        },
+        "eggCountRange": {
+            "type": "int"
+        }
+    },
+    "CompProperties_Milkable": {
+        "milkDef": {
+            "type": "string"
+        },
+        "milkIntervalDays": {
+            "type": "int"
+        },
+        "milkAmount": {
+            "type": "int"
+        },
+        "milkFemaleOnly": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Shearable": {
+        "woolDef": {
+            "type": "string"
+        },
+        "shearIntervalDays": {
+            "type": "int"
+        },
+        "woolAmount": {
+            "type": "int"
+        }
+    },
+    "CompProperties_OverseerSubject": {
+        "needsOverseerEffect": {
+            "type": "string"
+        },
+        "delayUntilFeralCheck": {
+            "type": "int"
+        },
+        "feralMtbDays": {
+            "type": "int"
+        },
+        "feralCascadeRadialDistance": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AbilityStartRitual": {
+        "ritualDef": {
+            "type": "string"
+        },
+        "allowedForChild": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityStartTrial": {
+        "ritualDef": {
+            "type": "string"
+        },
+        "ritualDefForPrisoner": {
+            "type": "string"
+        },
+        "ritualDefForMentalState": {
+            "type": "string"
+        },
+        "targetRoleId": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityStartConversion": {
+        "ritualDef": {
+            "type": "string"
+        },
+        "targetRoleId": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityGiveHediff": {
+        "compClass": {
+            "type": "string"
+        },
+        "hediffDef": {
+            "type": "string"
+        },
+        "onlyBrain": {
+            "type": "string"
+        },
+        "applicableToMechs": {
+            "type": "string"
+        },
+        "canTargetBaby": {
+            "type": "string"
+        },
+        "onlyApplyToSelf": {
+            "type": "string"
+        },
+        "replaceExisting": {
+            "type": "string"
+        },
+        "sound": {
+            "type": "string"
+        },
+        "durationMultiplier": {
+            "type": "string"
+        },
+        "psychic": {
+            "type": "string"
+        },
+        "goodwillImpact": {
+            "type": "int"
+        },
+        "applyGoodwillImpactToLodgers": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilitySocialInteraction": {
+        "interactionDef": {
+            "type": "string"
+        },
+        "canApplyToUnconscious": {
+            "type": "string"
+        },
+        "canApplyToMentallyBroken": {
+            "type": "string"
+        },
+        "canApplyToAsleep": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityConvert": {
+        "successMessage": {
+            "type": "string"
+        },
+        "failMessage": {
+            "type": "string"
+        },
+        "failedThoughtInitiator": {
+            "type": "string"
+        },
+        "failedThoughtRecipient": {
+            "type": "string"
+        },
+        "convertPowerFactor": {
+            "type": "int"
+        },
+        "sound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityReassure": {
+        "successMessage": {
+            "type": "string"
+        },
+        "baseCertaintyGain": {
+            "type": "float"
+        },
+        "sound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityCounsel": {
+        "successMessage": {
+            "type": "string"
+        },
+        "successMessageNoNegativeThought": {
+            "type": "string"
+        },
+        "failMessage": {
+            "type": "string"
+        },
+        "failedThoughtRecipient": {
+            "type": "string"
+        },
+        "sound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityGiveMentalState": {
+        "compClass": {
+            "type": "string"
+        },
+        "stateDef": {
+            "type": "string"
+        },
+        "soundMale": {
+            "type": "string"
+        },
+        "soundFemale": {
+            "type": "string"
+        },
+        "stateDefForMechs": {
+            "type": "string"
+        },
+        "psychic": {
+            "type": "string"
+        },
+        "durationMultiplier": {
+            "type": "string"
+        },
+        "canTargetBosses": {
+            "type": "string"
+        },
+        "goodwillImpact": {
+            "type": "int"
+        }
+    },
+    "CompProperties_StopManhunter": {
+        "successMessage": {
+            "type": "string"
+        }
+    },
+    "CompProperties_RitualEffectIntervalSpawnArea": {
+        "fleckDef": {
+            "type": "string"
+        },
+        "area": {
+            "type": "string"
+        },
+        "spawnIntervalTicks": {
+            "type": "int"
+        },
+        "spawnCount": {
+            "type": "int"
+        },
+        "scalePositionWithRoom": {
+            "type": "string"
+        },
+        "onlySpawnInSameRoom": {
+            "type": "string"
+        },
+        "rotation": {
+            "type": "string"
+        },
+        "scale": {
+            "type": "string"
+        },
+        "offset": {
+            "type": "string"
+        },
+        "velocityDir": {
+            "type": "string"
+        },
+        "velocity": {
+            "type": "string"
+        },
+        "rotationRate": {
+            "type": "int"
+        }
+    },
+    "CompProperties_RitualEffectConstantCircle": {
+        "radius": {
+            "type": "float"
+        },
+        "numCopies": {
+            "type": "int"
+        },
+        "moteDef": {
+            "type": "string"
+        },
+        "scalePositionWithRoom": {
+            "type": "string"
+        },
+        "onlySpawnInSameRoom": {
+            "type": "string"
+        },
+        "offset": {
+            "type": "string"
+        },
+        "roomCheckOffset": {
+            "type": "string"
+        },
+        "colorOverride": {
+            "type": "string"
+        }
+    },
+    "CompProperties_RitualEffectIntervalSpawnCircle": {
+        "fleckDef": {
+            "type": "string"
+        },
+        "area": {
+            "type": "string"
+        },
+        "radius": {
+            "type": "int"
+        },
+        "concentration": {
+            "type": "int"
+        },
+        "spawnIntervalTicks": {
+            "type": "int"
+        },
+        "spawnCount": {
+            "type": "int"
+        },
+        "rotation": {
+            "type": "string"
+        },
+        "scalePositionWithRoom": {
+            "type": "string"
+        },
+        "onlySpawnInSameRoom": {
+            "type": "string"
+        }
+    },
+    "CompProperties_RitualEffectIntervalSpawnDividedCircle": {
+        "radius": {
+            "type": "float"
+        },
+        "numCopies": {
+            "type": "int"
+        },
+        "offset": {
+            "type": "string"
+        },
+        "roomCheckOffset": {
+            "type": "string"
+        },
+        "effecterDef": {
+            "type": "string"
+        },
+        "scalePositionWithRoom": {
+            "type": "string"
+        },
+        "onlySpawnInSameRoom": {
+            "type": "string"
+        }
+    },
+    "CompProperties_RitualEffectStaticAreaRandomMote": {
+        "area": {
+            "type": "string"
+        },
+        "spawnCount": {
+            "type": "int"
+        },
+        "minDist": {
+            "type": "int"
+        },
+        "scalePositionWithRoom": {
+            "type": "string"
+        },
+        "onlySpawnInSameRoom": {
+            "type": "string"
+        }
+    },
+    "CompProperties_RitualEffectLightball": {
+        "fleckDef": {
+            "type": "string"
+        },
+        "radius": {
+            "type": "int"
+        },
+        "spawnIntervalTicks": {
+            "type": "int"
+        }
+    },
+    "CompProperties_RitualEffectDrum": {
+        "fleckDef": {
+            "type": "string"
+        },
+        "maxDistance": {
+            "type": "int"
+        },
+        "spawnIntervalTicks": {
+            "type": "int"
+        },
+        "spawnCount": {
+            "type": "int"
+        },
+        "maxOffset": {
+            "type": "float"
+        }
+    },
+    "CompProperties_RitualEffectSpawnOnRole": {
+        "effecterDef": {
+            "type": "string"
+        },
+        "roleId": {
+            "type": "string"
+        },
+        "maxBursts": {
+            "type": "int"
+        },
+        "delay": {
+            "type": "int"
+        }
+    },
+    "CompProperties_Hackable": {
+        "defence": {
+            "type": "int"
+        },
+        "effectHacking": {
+            "type": "string"
+        },
+        "notHackedInspectString": {
+            "type": "string"
+        },
+        "autohackWarningString": {
+            "type": "string"
+        },
+        "completedQuest": {
+            "type": "string"
+        },
+        "hackingCompletedSound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_DarklightOverlay": {
+        "fireSize": {
+            "type": "float"
+        },
+        "offset": {
+            "type": "string"
+        }
+    },
+    "CompProperties_FacilityInUse": {
+        "inUsePowerConsumption": {
+            "type": "int"
+        },
+        "effectInUse": {
+            "type": "string"
+        }
+    },
+    "CompProperties_BiosculpterPod": {
+        "enterSound": {
+            "type": "string"
+        },
+        "exitSound": {
+            "type": "string"
+        },
+        "operatingEffecter": {
+            "type": "string"
+        },
+        "readyEffecter": {
+            "type": "string"
+        },
+        "selectCycleColor": {
+            "type": "string"
+        },
+        "biotunedCycleSpeedFactor": {
+            "type": "float"
+        }
+    },
+    "CompProperties_BiosculpterPod_HealingCycle": {
+        "compClass": {
+            "type": "string"
+        },
+        "key": {
+            "type": "string"
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "durationDays": {
+            "type": "int"
+        },
+        "operatingColor": {
+            "type": "string"
+        }
+    },
+    "CompProperties_BiosculpterPod_AgeReversalCycle": {
+        "key": {
+            "type": "string"
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "durationDays": {
+            "type": "int"
+        },
+        "gainThoughtOnCompletion": {
+            "type": "string"
+        },
+        "operatingColor": {
+            "type": "string"
+        }
+    },
+    "CompProperties_BiosculpterPod_PleasureCycle": {
+        "key": {
+            "type": "string"
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "durationDays": {
+            "type": "int"
+        },
+        "operatingColor": {
+            "type": "string"
+        }
+    },
+    "CompProperties_NeuralSupercharger": {
+        "jobString": {
+            "type": "string"
+        },
+        "ticksToRecharge": {
+            "type": "int"
+        },
+        "effectCharged": {
+            "type": "string"
+        },
+        "chargedSoundDef": {
+            "type": "string"
+        }
+    },
+    "CompProperties_RitualTargetEffecterSpawner": {
+        "effecter": {
+            "type": "string"
+        },
+        "minRitualProgress": {
+            "type": "float"
+        }
+    },
+    "CompProperties_FireOverlayRitual": {
+        "fireSize": {
+            "type": "float"
+        },
+        "offset": {
+            "type": "string"
+        },
+        "finalFireSize": {
+            "type": "float"
+        },
+        "fireGrowthDurationTicks": {
+            "type": "int"
+        },
+        "minRitualProgress": {
+            "type": "float"
+        }
+    },
+    "CompProperties_SpawnEffectersInRoom": {
+        "effecter": {
+            "type": "string"
+        },
+        "radius": {
+            "type": "int"
+        }
+    },
+    "CompProperties_RitualHediffGiverInRoom": {
+        "hediff": {
+            "type": "string"
+        },
+        "resetLastRecreationalDrugTick": {
+            "type": "string"
+        },
+        "minRadius": {
+            "type": "int"
+        },
+        "severity": {
+            "type": "float"
+        }
+    },
+    "CompProperties_Lightball": {
+        "maxSpeakerDistance": {
+            "type": "int"
+        }
+    },
+    "CompProperties_HasSources": {
+        "affectLabel": {
+            "type": "string"
+        },
+        "inspectStringLabel": {
+            "type": "string"
+        }
+    },
+    "CompProperties_DryadCocoon": {
+        "compClass": {
+            "type": "string"
+        },
+        "daysToComplete": {
+            "type": "int"
+        },
+        "drawContents": {
+            "type": "string"
+        }
+    },
+    "CompProperties_GiveHediffSeverity": {
+        "hediff": {
+            "type": "string"
+        },
+        "range": {
+            "type": "float"
+        },
+        "severityPerSecond": {
+            "type": "float"
+        },
+        "drugExposure": {
+            "type": "string"
+        },
+        "chemical": {
+            "type": "string"
+        },
+        "allowMechs": {
+            "type": "string"
+        }
+    },
+    "CompProperties_SmokeCloudMaker": {
+        "sourceStreamEffect": {
+            "type": "string"
+        },
+        "cloudRadius": {
+            "type": "float"
+        },
+        "fleckScale": {
+            "type": "int"
+        },
+        "cloudFleck": {
+            "type": "string"
+        },
+        "fleckSpawnMTB": {
+            "type": "int"
+        }
+    },
+    "CompProperties_PlantDamager": {
+        "ticksBetweenDamage": {
+            "type": "int"
+        },
+        "radius": {
+            "type": "int"
+        },
+        "damagePerCycle": {
+            "type": "int"
+        },
+        "cycleCountOnSpawn": {
+            "type": "int"
+        }
+    },
+    "CompProperties_SpawnSubplant": {
+        "compClass": {
+            "type": "string"
+        },
+        "subplant": {
+            "type": "string"
+        },
+        "maxRadius": {
+            "type": "float"
+        },
+        "dontWipePlant": {
+            "type": "string"
+        },
+        "saveKeysPrefix": {
+            "type": "string"
+        },
+        "maxPlants": {
+            "type": "int"
+        },
+        "subplantSpawnDays": {
+            "type": "int"
+        },
+        "minGrowthForSpawn": {
+            "type": "float"
+        },
+        "initialGrowthRange": {
+            "type": "string"
+        },
+        "canSpawnOverPlayerSownPlants": {
+            "type": "string"
+        },
+        "spawnSound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_CauseHediff_Apparel": {
+        "hediff": {
+            "type": "string"
+        },
+        "part": {
+            "type": "string"
+        }
+    },
+    "CompProperties_MoteEmitterRandomColor": {
+        "saveKeysPrefix": {
+            "type": "string"
+        },
+        "mote": {
+            "type": "string"
+        },
+        "emissionInterval": {
+            "type": "int"
+        },
+        "ticksSinceLastEmittedMaxOffset": {
+            "type": "int"
+        }
+    },
+    "CompProperties_ThrownMoteEmitter": {
+        "mote": {
+            "type": "string"
+        },
+        "emissionInterval": {
+            "type": "int"
+        },
+        "offsetMin": {
+            "type": "string"
+        },
+        "offsetMax": {
+            "type": "string"
+        },
+        "rotationRate": {
+            "type": "string"
+        }
+    },
+    "CompProperties_SkyfallerRandomizeDirection": {
+        "directionChangeInterval": {
+            "type": "string"
+        },
+        "maxDeviationFromStartingAngle": {
+            "type": "int"
+        }
+    },
+    "CompProperties_TreeConnection": {
+        "pawnKind": {
+            "type": "string"
+        },
+        "spawnDays": {
+            "type": "int"
+        },
+        "initialConnectionStrengthRange": {
+            "type": "string"
+        },
+        "connectionStrengthLossPerDryadDeath": {
+            "type": "float"
+        },
+        "connectionStrengthGainPerHourPruningBase": {
+            "type": "float"
+        },
+        "spawningPodOffset": {
+            "type": "string"
+        },
+        "spawningPodSizeRange": {
+            "type": "string"
+        },
+        "maxDryadsWild": {
+            "type": "int"
+        }
+    },
+    "CompProperties_Plantable": {
+        "plantDefToSpawn": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityFleckOnTarget": {
+        "fleckDef": {
+            "type": "string"
+        },
+        "scale": {
+            "type": "float"
+        },
+        "sound": {
+            "type": "string"
+        },
+        "preCastTicks": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AbilityEffectWithDuration": {
+        "compClass": {
+            "type": "string"
+        },
+        "durationMultiplier": {
+            "type": "string"
+        },
+        "psychic": {
+            "type": "string"
+        },
+        "goodwillImpact": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AbilityTransferEntropy": {
+        "psychic": {
+            "type": "string"
+        },
+        "targetReceivesEntropy": {
+            "type": "string"
+        },
+        "goodwillImpact": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AbilityForceJob": {
+        "compClass": {
+            "type": "string"
+        },
+        "jobDef": {
+            "type": "string"
+        },
+        "destination": {
+            "type": "string"
+        },
+        "durationMultiplier": {
+            "type": "string"
+        },
+        "psychic": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityTeleport": {
+        "compClass": {
+            "type": "string"
+        },
+        "destination": {
+            "type": "string"
+        },
+        "randomRange": {
+            "type": "string"
+        },
+        "clamorType": {
+            "type": "string"
+        },
+        "clamorRadius": {
+            "type": "int"
+        },
+        "destClamorType": {
+            "type": "string"
+        },
+        "destClamorRadius": {
+            "type": "int"
+        },
+        "stunTicks": {
+            "type": "string"
+        },
+        "goodwillImpact": {
+            "type": "int"
+        },
+        "applyGoodwillImpactToLodgers": {
+            "type": "string"
+        },
+        "requiresLineOfSight": {
+            "type": "string"
+        },
+        "range": {
+            "type": "float"
+        }
+    },
+    "CompProperties_AbilityWallraise": {
+        "compClass": {
+            "type": "string"
+        },
+        "screenShakeIntensity": {
+            "type": "float"
+        },
+        "clamorType": {
+            "type": "string"
+        },
+        "clamorRadius": {
+            "type": "int"
+        },
+        "sound": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityEffecterOnTarget": {
+        "effecterDef": {
+            "type": "string"
+        },
+        "maintainForTicks": {
+            "type": "int"
+        },
+        "scale": {
+            "type": "float"
+        }
+    },
+    "CompProperties_AbilitySmokepop": {
+        "smokeRadius": {
+            "type": "float"
+        },
+        "clamorType": {
+            "type": "string"
+        },
+        "clamorRadius": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AbilityWaterskip": {
+        "screenShakeIntensity": {
+            "type": "float"
+        },
+        "clamorType": {
+            "type": "string"
+        },
+        "clamorRadius": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AbilityFlashstorm": {
+        "goodwillImpact": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AbilitySpawn": {
+        "thingDef": {
+            "type": "string"
+        },
+        "allowOnBuildings": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityOffsetPrisonerResistance": {
+        "offset": {
+            "type": "int"
+        },
+        "psychic": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityWordOfLove": {
+        "destination": {
+            "type": "string"
+        },
+        "psychic": {
+            "type": "string"
+        },
+        "applicableToMechs": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityStopMentalState": {
+        "psyfocusCostForMinor": {
+            "type": "float"
+        },
+        "psyfocusCostForMajor": {
+            "type": "float"
+        },
+        "psyfocusCostForExtreme": {
+            "type": "float"
+        }
+    },
+    "CompProperties_AbilityGiveInspiration": {
+        "canTargetBaby": {
+            "type": "string"
+        }
+    },
+    "CompProperties_AbilityFarskip": {
+        "stunTicks": {
+            "type": "string"
+        },
+        "clamorType": {
+            "type": "string"
+        },
+        "clamorRadius": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AbilityNeuroquake": {
+        "goodwillImpactForBerserk": {
+            "type": "int"
+        },
+        "goodwillImpactForNeuroquake": {
+            "type": "int"
+        },
+        "worldRangeTiles": {
+            "type": "int"
+        },
+        "screenShakeIntensity": {
+            "type": "int"
+        },
+        "mentalStateRadius": {
+            "type": "int"
+        }
+    },
+    "CompProperties_AbilityChunkskip": {
+        "chunkCount": {
+            "type": "int"
+        },
+        "scatterRadius": {
+            "type": "float"
+        },
+        "psychic": {
+            "type": "string"
+        },
+        "clamorType": {
+            "type": "string"
+        },
+        "clamorRadius": {
+            "type": "int"
+        }
+    },
+    "CompProperties_CausesGameCondition": {
+        "conditionDef": {
+            "type": "string"
+        },
+        "worldRange": {
+            "type": "int"
+        },
+        "compClass": {
+            "type": "string"
+        },
+        "preventConditionStacking": {
+            "type": "string"
+        }
+    },
+    "CompProperties_CausesGameCondition_ClimateAdjuster": {
+        "conditionDef": {
+            "type": "string"
+        },
+        "worldRange": {
+            "type": "int"
+        },
+        "preventConditionStacking": {
+            "type": "string"
+        }
+    },
+    "CompProperties_ProjectileInterceptor": {
+        "radius": {
+            "type": "float"
+        },
+        "interceptGroundProjectiles": {
+            "type": "string"
+        },
+        "interceptNonHostileProjectiles": {
+            "type": "string"
+        },
+        "interceptOutgoingProjectiles": {
+            "type": "string"
+        },
+        "color": {
+            "type": "string"
+        },
+        "idlePulseSpeed": {
+            "type": "int"
+        },
+        "minIdleAlpha": {
+            "type": "float"
+        },
+        "disarmedByEmpForTicks": {
+            "type": "int"
+        },
+        "activeSound": {
+            "type": "string"
+        },
+        "reactivateEffect": {
+            "type": "string"
+        },
+        "chargeIntervalTicks": {
+            "type": "int"
+        },
+        "chargeDurationTicks": {
+            "type": "int"
+        },
+        "interceptAirProjectiles": {
+            "type": "string"
+        },
+        "minAlpha": {
+            "type": "float"
+        },
+        "interceptEffect": {
+            "type": "string"
+        }
+    },
+    "CompProperties_DestroyAfterDelay": {
+        "delayTicks": {
+            "type": "int"
+        },
+        "destroyMode": {
+            "type": "string"
+        },
+        "countdownLabel": {
+            "type": "string"
+        }
+    },
+    "CompProperties_SendSignalOnCountdown": {
+        "signalTag": {
+            "type": "string"
+        }
+    },
+    "CompProperties_FleckEmitter": {
+        "fleck": {
+            "type": "string"
+        },
+        "emissionInterval": {
+            "type": "int"
+        },
+        "soundOnEmission": {
+            "type": "string"
+        },
+        "saveKeysPrefix": {
+            "type": "string"
+        }
+    },
+    "CompProperties_SendSignalOnMotion": {
+        "onlyHumanlike": {
+            "type": "string"
+        },
+        "radius": {
+            "type": "float"
+        },
+        "enableAfterTicks": {
+            "type": "int"
+        },
+        "signalTag": {
+            "type": "string"
+        }
+    },
+    "CompProperties_MoteEmitterProximityScan": {
+        "mote": {
+            "type": "string"
+        },
+        "emissionInterval": {
+            "type": "int"
+        },
+        "maintain": {
+            "type": "string"
+        },
+        "soundEmitting": {
+            "type": "string"
+        },
+        "saveKeysPrefix": {
+            "type": "string"
+        },
+        "warmupPulseFadeInTime": {
+            "type": "float"
+        },
+        "warmupPulseSolidTime": {
+            "type": "float"
+        },
+        "warmupPulseFadeOutTime": {
+            "type": "float"
+        }
+    },
+    "CompProperties_ShipLandingBeacon": {
+        "edgeLengthRange": {
+            "type": "string"
+        },
+        "landingAreaTerrainSupport": {
+            "type": "string"
+        }
+    },
+    "CompProperties_FadesInOut": {
+        "fadeInSecs": {
+            "type": "float"
+        },
+        "fadeOutSecs": {
+            "type": "float"
+        },
+        "solidTimeSecs": {
+            "type": "int"
+        }
+    },
+    "CompProperties_BladelinkWeapon": {
+        "biocodeOnEquip": {
+            "type": "string"
+        }
+    },
+    "CompProperties_GeneratedName": {
+        "nameMaker": {
+            "type": "string"
+        }
+    },
+    "CompProperties_Psylinkable": {
+        "requiredFocus": {
+            "type": "string"
+        },
+        "linkSound": {
+            "type": "string"
+        },
+        "enoughPlantsLetterLabel": {
+            "type": "string"
+        },
+        "enoughPlantsLetterText": {
+            "type": "string"
+        }
+    },
+    "CompProperties_GiveThoughtToAllMapPawnsOnDestroy": {
+        "thought": {
+            "type": "string"
+        },
+        "message": {
+            "type": "string"
+        }
+    },
+    "CompProperties_PlaySoundOnDestroy": {
+        "sound": {
+            "type": "string"
+        }
+    }
+}

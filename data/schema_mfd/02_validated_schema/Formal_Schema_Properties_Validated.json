@@ -1,0 +1,7445 @@
+{
+    "BackstoryDef": {
+        "bodyTypeFemale": {
+            "type": "string"
+        },
+        "bodyTypeGlobal": {
+            "type": "string"
+        },
+        "bodyTypeMale": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "disallowedTraits": {
+            "type": "string"
+        },
+        "forcedTraits": {
+            "type": "string"
+        },
+        "identifier": {
+            "type": "string"
+        },
+        "ignoreIllegalLabelCharacterConfigError": {
+            "type": "string"
+        },
+        "possessions": {
+            "type": "string"
+        },
+        "requiredWorkTags": {
+            "type": "string"
+        },
+        "requiresSpawnCategory": {
+            "type": "string"
+        },
+        "shuffleable": {
+            "type": "string"
+        },
+        "skillGains": {
+            "type": "string"
+        },
+        "slot": {
+            "type": "string"
+        },
+        "spawnCategories": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "titleFemale": {
+            "type": "string"
+        },
+        "titleShort": {
+            "type": "string"
+        },
+        "titleShortFemale": {
+            "type": "string"
+        },
+        "workDisables": {
+            "type": "string"
+        }
+    },
+    "BeardDef": {
+        "category": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "noGraphic": {
+            "type": "string"
+        },
+        "offsetNarrowEast": {
+            "type": "string"
+        },
+        "offsetNarrowSouth": {
+            "type": "string"
+        },
+        "styleGender": {
+            "type": "string"
+        },
+        "styleTags": {
+            "type": "string"
+        },
+        "texPath": {
+            "type": "string"
+        }
+    },
+    "BiomeDef": {
+        "allowFarmingCamps": {
+            "type": "bool"
+        },
+        "allowRivers": {
+            "type": "bool"
+        },
+        "allowRoads": {
+            "type": "bool"
+        },
+        "allowedPackAnimals": {
+            "type": "bool"
+        },
+        "animalDensity": {
+            "type": "string"
+        },
+        "baseWeatherCommonalities": {
+            "type": "string"
+        },
+        "campSelectionWeight": {
+            "type": "string"
+        },
+        "canAutoChoose": {
+            "type": "bool"
+        },
+        "canBuildBase": {
+            "type": "bool"
+        },
+        "coastalBeachTerrain": {
+            "type": "string"
+        },
+        "coastalWildAnimals": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "diseaseMtbDays": {
+            "type": "string"
+        },
+        "diseases": {
+            "type": "string"
+        },
+        "fishTypes": {
+            "type": "string"
+        },
+        "forageability": {
+            "type": "string"
+        },
+        "foragedFood": {
+            "type": "string"
+        },
+        "generatesNaturally": {
+            "type": "string"
+        },
+        "hasBedrock": {
+            "type": "string"
+        },
+        "hasVirtualPlants": {
+            "type": "string"
+        },
+        "impassable": {
+            "type": "string"
+        },
+        "isBackgroundBiome": {
+            "type": "bool"
+        },
+        "isExtremeBiome": {
+            "type": "bool"
+        },
+        "isWaterBiome": {
+            "type": "bool"
+        },
+        "lakeBeachTerrain": {
+            "type": "string"
+        },
+        "maxFishPopulation": {
+            "type": "string"
+        },
+        "movementDifficulty": {
+            "type": "string"
+        },
+        "mudTerrain": {
+            "type": "string"
+        },
+        "plantDensity": {
+            "type": "string"
+        },
+        "pollutionWildAnimals": {
+            "type": "string"
+        },
+        "riverbankSizeRange": {
+            "type": "string"
+        },
+        "riverbankTerrain": {
+            "type": "string"
+        },
+        "settleWarning": {
+            "type": "string"
+        },
+        "settlementSelectionWeight": {
+            "type": "string"
+        },
+        "soundsAmbient": {
+            "type": "string"
+        },
+        "terrainPatchMakers": {
+            "type": "string"
+        },
+        "terrainsByFertility": {
+            "type": "string"
+        },
+        "texture": {
+            "type": "string"
+        },
+        "wildAnimals": {
+            "type": "string"
+        },
+        "wildAnimalsCanWanderInto": {
+            "type": "string"
+        },
+        "wildPlantRegrowDays": {
+            "type": "string"
+        },
+        "wildPlants": {
+            "type": "string"
+        },
+        "wildPlantsCareAboutLocalFertility": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "BodyDef": {
+        "corePart": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "BodyPartDef": {
+        "alive": {
+            "type": "string"
+        },
+        "beautyRelated": {
+            "type": "string"
+        },
+        "bleedRate": {
+            "type": "float"
+        },
+        "canBeVacuumBurnt": {
+            "type": "bool"
+        },
+        "canScarify": {
+            "type": "bool"
+        },
+        "canSuggestAmputation": {
+            "type": "bool"
+        },
+        "conceptual": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "delicate": {
+            "type": "string"
+        },
+        "destroyableByDamage": {
+            "type": "string"
+        },
+        "executionPartPriority": {
+            "type": "string"
+        },
+        "forceAlwaysRemovable": {
+            "type": "string"
+        },
+        "frostbiteVulnerability": {
+            "type": "string"
+        },
+        "hitChanceFactors": {
+            "type": "string"
+        },
+        "hitPoints": {
+            "type": "string"
+        },
+        "labelShort": {
+            "type": "string"
+        },
+        "pawnGeneratorCanAmputate": {
+            "type": "string"
+        },
+        "permanentInjuryChanceFactor": {
+            "type": "float"
+        },
+        "removeRecipeLabelOverride": {
+            "type": "string"
+        },
+        "skinCovered": {
+            "type": "string"
+        },
+        "socketed": {
+            "type": "string"
+        },
+        "solid": {
+            "type": "string"
+        },
+        "spawnThingOnRemoved": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "string"
+        }
+    },
+    "BodyPartGroupDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "labelShort": {
+            "type": "string"
+        },
+        "listOrder": {
+            "type": "string"
+        }
+    },
+    "ThingDef": {
+        "allowedArchonexusCount": {
+            "type": "bool"
+        },
+        "alwaysFlee": {
+            "type": "string"
+        },
+        "alwaysHaulable": {
+            "type": "string"
+        },
+        "apparel": {
+            "type": "string"
+        },
+        "blockLight": {
+            "type": "string"
+        },
+        "blockPlants": {
+            "type": "string"
+        },
+        "blockWeather": {
+            "type": "string"
+        },
+        "blockWind": {
+            "type": "string"
+        },
+        "bringAlongOnGravship": {
+            "type": "string"
+        },
+        "building": {
+            "type": "string"
+        },
+        "burnableByRecipe": {
+            "type": "string"
+        },
+        "butcherProducts": {
+            "type": "string"
+        },
+        "canBeUsedUnderRoof": {
+            "type": "bool"
+        },
+        "canEditAnyStyle": {
+            "type": "bool"
+        },
+        "canGenerateDefaultDesignator": {
+            "type": "bool"
+        },
+        "canInteractThroughCorners": {
+            "type": "bool"
+        },
+        "canLoadIntoCaravan": {
+            "type": "bool"
+        },
+        "canOverlapZones": {
+            "type": "bool"
+        },
+        "canScatterOver": {
+            "type": "bool"
+        },
+        "castEdgeShadows": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "clearBuildingArea": {
+            "type": "string"
+        },
+        "colorGenerator": {
+            "type": "string"
+        },
+        "colorGeneratorInTraderStock": {
+            "type": "string"
+        },
+        "colorPerStuff": {
+            "type": "string"
+        },
+        "comps": {
+            "type": "Array",
+            "elementType": "CompProperties"
+        },
+        "constructEffect": {
+            "type": "string"
+        },
+        "constructionSkillPrerequisite": {
+            "type": "string"
+        },
+        "containedItemsSelectable": {
+            "type": "string"
+        },
+        "containedPawnsSelectable": {
+            "type": "string"
+        },
+        "costList": {
+            "type": "string"
+        },
+        "costListForDifficulty": {
+            "type": "string"
+        },
+        "costStuffCount": {
+            "type": "int"
+        },
+        "coversFloor": {
+            "type": "string"
+        },
+        "damageMultipliers": {
+            "type": "string"
+        },
+        "deepCommonality": {
+            "type": "string"
+        },
+        "deepCountPerPortion": {
+            "type": "string"
+        },
+        "deepLumpSizeRange": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultPlacingRot": {
+            "type": "string"
+        },
+        "descriptionHyperlinks": {
+            "type": "string"
+        },
+        "designationCategory": {
+            "type": "string"
+        },
+        "designationHotKey": {
+            "type": "string"
+        },
+        "destroyOnDrop": {
+            "type": "string"
+        },
+        "destroyable": {
+            "type": "string"
+        },
+        "devNote": {
+            "type": "string"
+        },
+        "displayNumbersBetweenSameDefDistRange": {
+            "type": "string"
+        },
+        "dominantStyleCategory": {
+            "type": "string"
+        },
+        "dontPrint": {
+            "type": "string"
+        },
+        "drawDamagedOverlay": {
+            "type": "string"
+        },
+        "drawGUIOverlay": {
+            "type": "string"
+        },
+        "drawHighlight": {
+            "type": "string"
+        },
+        "drawHighlightOnlyForHostile": {
+            "type": "string"
+        },
+        "drawOffscreen": {
+            "type": "string"
+        },
+        "drawPlaceWorkersWhileInstallBlueprintSelected": {
+            "type": "string"
+        },
+        "drawPlaceWorkersWhileSelected": {
+            "type": "string"
+        },
+        "drawStyleCategory": {
+            "type": "string"
+        },
+        "drawerType": {
+            "type": "string"
+        },
+        "equipmentType": {
+            "type": "string"
+        },
+        "equippedAngleOffset": {
+            "type": "string"
+        },
+        "equippedStatOffsets": {
+            "type": "string"
+        },
+        "fertility": {
+            "type": "string"
+        },
+        "fillPercent": {
+            "type": "string"
+        },
+        "filth": {
+            "type": "string"
+        },
+        "filthLeaving": {
+            "type": "string"
+        },
+        "forceDebugSpawnable": {
+            "type": "string"
+        },
+        "generateAllowChance": {
+            "type": "string"
+        },
+        "generateCommonality": {
+            "type": "string"
+        },
+        "graphicData": {
+            "type": "string"
+        },
+        "hasCustomRectForSelector": {
+            "type": "string"
+        },
+        "hasInteractionCell": {
+            "type": "string"
+        },
+        "hasTooltip": {
+            "type": "string"
+        },
+        "healthAffectsPrice": {
+            "type": "string"
+        },
+        "hideAtSnowOrSandDepth": {
+            "type": "string"
+        },
+        "hideInspect": {
+            "type": "string"
+        },
+        "highlightColor": {
+            "type": "string"
+        },
+        "holdsRoof": {
+            "type": "string"
+        },
+        "ideoBuildingNamerBase": {
+            "type": "string"
+        },
+        "ingestible": {
+            "type": "string"
+        },
+        "ingredient": {
+            "type": "string"
+        },
+        "inspectorTabs": {
+            "type": "string"
+        },
+        "interactionCellIcon": {
+            "type": "string"
+        },
+        "interactionCellIconReverse": {
+            "type": "string"
+        },
+        "interactionCellOffset": {
+            "type": "string"
+        },
+        "intricate": {
+            "type": "string"
+        },
+        "isAltar": {
+            "type": "bool"
+        },
+        "isMechClusterThreat": {
+            "type": "bool"
+        },
+        "isTechHediff": {
+            "type": "bool"
+        },
+        "killedLeavings": {
+            "type": "string"
+        },
+        "leaveResourcesWhenKilled": {
+            "type": "string"
+        },
+        "maxTechLevelToBuild": {
+            "type": "string"
+        },
+        "meleeHitSound": {
+            "type": "string"
+        },
+        "minRewardCount": {
+            "type": "int"
+        },
+        "minTechLevelToBuild": {
+            "type": "string"
+        },
+        "minifiedDef": {
+            "type": "DefRef",
+            "targetType": "minifiedDef"
+        },
+        "minifiedDrawOffset": {
+            "type": "string"
+        },
+        "minifiedDrawScale": {
+            "type": "string"
+        },
+        "mote": {
+            "type": "string"
+        },
+        "neverMultiSelect": {
+            "type": "string"
+        },
+        "neverOverlapFloors": {
+            "type": "string"
+        },
+        "noRightClickDraftAttack": {
+            "type": "string"
+        },
+        "notifyMapRemoved": {
+            "type": "string"
+        },
+        "overrideMinifiedRot": {
+            "type": "string"
+        },
+        "passability": {
+            "type": "string"
+        },
+        "pathCost": {
+            "type": "float"
+        },
+        "pathCostIgnoreRepeat": {
+            "type": "string"
+        },
+        "pathfinderDangerous": {
+            "type": "string"
+        },
+        "pawnFlyer": {
+            "type": "string"
+        },
+        "placeWorkers": {
+            "type": "string"
+        },
+        "plant": {
+            "type": "string"
+        },
+        "possessionCount": {
+            "type": "int"
+        },
+        "preventDroppingThingsOn": {
+            "type": "string"
+        },
+        "preventSkyfallersLandingOn": {
+            "type": "string"
+        },
+        "projectile": {
+            "type": "string"
+        },
+        "projectileWhenLoaded": {
+            "type": "string"
+        },
+        "race": {
+            "type": "string"
+        },
+        "randomStyle": {
+            "type": "string"
+        },
+        "randomStyleChance": {
+            "type": "string"
+        },
+        "receivesSignals": {
+            "type": "string"
+        },
+        "recipeMaker": {
+            "type": "string"
+        },
+        "recipes": {
+            "type": "Array",
+            "elementType": "DefRef"
+        },
+        "recoilPower": {
+            "type": "string"
+        },
+        "relicChance": {
+            "type": "string"
+        },
+        "repairEffect": {
+            "type": "string"
+        },
+        "replaceTags": {
+            "type": "string"
+        },
+        "requiresFactionToAcquire": {
+            "type": "string"
+        },
+        "researchPrerequisites": {
+            "type": "string"
+        },
+        "resourceReadoutAlwaysShow": {
+            "type": "string"
+        },
+        "resourceReadoutPriority": {
+            "type": "string"
+        },
+        "resourcesFractionWhenDeconstructed": {
+            "type": "string"
+        },
+        "ritualFocus": {
+            "type": "string"
+        },
+        "rotatable": {
+            "type": "string"
+        },
+        "rotateInShelves": {
+            "type": "string"
+        },
+        "saveCompressible": {
+            "type": "string"
+        },
+        "scatterableOnMapGen": {
+            "type": "string"
+        },
+        "seeThroughFog": {
+            "type": "string"
+        },
+        "selectable": {
+            "type": "string"
+        },
+        "size": {
+            "type": "string"
+        },
+        "skyfaller": {
+            "type": "string"
+        },
+        "slagDef": {
+            "type": "DefRef",
+            "targetType": "slagDef"
+        },
+        "smallVolume": {
+            "type": "string"
+        },
+        "smeltProducts": {
+            "type": "string"
+        },
+        "smeltable": {
+            "type": "string"
+        },
+        "socialPropernessMatters": {
+            "type": "string"
+        },
+        "soundDrop": {
+            "type": "string"
+        },
+        "soundImpactDefault": {
+            "type": "string"
+        },
+        "soundInteract": {
+            "type": "string"
+        },
+        "soundOpen": {
+            "type": "string"
+        },
+        "soundPlayInstrument": {
+            "type": "string"
+        },
+        "specialDisplayRadius": {
+            "type": "string"
+        },
+        "stackLimit": {
+            "type": "string"
+        },
+        "startingHpRange": {
+            "type": "string"
+        },
+        "statBases": {
+            "type": "Dictionary",
+            "keyType": "string",
+            "valueType": "float"
+        },
+        "staticSunShadowHeight": {
+            "type": "string"
+        },
+        "stealable": {
+            "type": "string"
+        },
+        "stuffCategories": {
+            "type": "string"
+        },
+        "stuffProps": {
+            "type": "string"
+        },
+        "surfaceType": {
+            "type": "string"
+        },
+        "techHediffsTags": {
+            "type": "string"
+        },
+        "techLevel": {
+            "type": "string"
+        },
+        "terrainAffordanceNeeded": {
+            "type": "string"
+        },
+        "thingCategories": {
+            "type": "string"
+        },
+        "thingClass": {
+            "type": "string"
+        },
+        "thingSetMakerTags": {
+            "type": "string"
+        },
+        "tickerType": {
+            "type": "string"
+        },
+        "tools": {
+            "type": "string"
+        },
+        "tradeNeverStack": {
+            "type": "string"
+        },
+        "tradeTags": {
+            "type": "string"
+        },
+        "tradeability": {
+            "type": "string"
+        },
+        "uiIconOffset": {
+            "type": "string"
+        },
+        "uiIconPath": {
+            "type": "string"
+        },
+        "uiIconPathsStuff": {
+            "type": "string"
+        },
+        "uiIconScale": {
+            "type": "string"
+        },
+        "uiOrder": {
+            "type": "string"
+        },
+        "useBlueprintGraphicAsGhost": {
+            "type": "string"
+        },
+        "useHitPoints": {
+            "type": "string"
+        },
+        "useSameGraphicForGhost": {
+            "type": "string"
+        },
+        "useStuffTerrainAffordance": {
+            "type": "string"
+        },
+        "verbs": {
+            "type": "string"
+        },
+        "violentTechHediff": {
+            "type": "string"
+        },
+        "weaponClasses": {
+            "type": "string"
+        },
+        "weaponTags": {
+            "type": "string"
+        }
+    },
+    "ColorDef": {
+        "color": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayInStylingStationUI": {
+            "type": "string"
+        },
+        "displayOrder": {
+            "type": "string"
+        }
+    },
+    "ComplexThreatDef": {
+        "allowPassive": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "faction": {
+            "type": "string"
+        },
+        "fallbackToRoomEnteredTrigger": {
+            "type": "string"
+        },
+        "minPoints": {
+            "type": "string"
+        },
+        "postSpawnPassiveThreatFactor": {
+            "type": "float"
+        },
+        "signalActionAmbushType": {
+            "type": "string"
+        },
+        "spawnAroundComplex": {
+            "type": "string"
+        },
+        "spawnInOtherRoomChance": {
+            "type": "string"
+        },
+        "useDropPods": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "CultureDef": {
+        "allowedPlaceTags": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "deityNameMaker": {
+            "type": "string"
+        },
+        "deityTypeMaker": {
+            "type": "string"
+        },
+        "festivalNameMaker": {
+            "type": "string"
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "ideoNameMaker": {
+            "type": "string"
+        },
+        "leaderTitleMaker": {
+            "type": "string"
+        },
+        "pawnNameMaker": {
+            "type": "string"
+        },
+        "pawnNameMakerFemale": {
+            "type": "string"
+        },
+        "preferredWeaponClasses": {
+            "type": "string"
+        },
+        "styleItemTags": {
+            "type": "string"
+        },
+        "thingStyleCategories": {
+            "type": "string"
+        }
+    },
+    "DamageDef": {
+        "additionalHediffs": {
+            "type": "string"
+        },
+        "applyAdditionalHediffsIfHuntingForFood": {
+            "type": "string"
+        },
+        "armorCategory": {
+            "type": "string"
+        },
+        "bluntInnerHitChance": {
+            "type": "string"
+        },
+        "bluntInnerHitDamageFractionToAdd": {
+            "type": "string"
+        },
+        "bluntInnerHitDamageFractionToConvert": {
+            "type": "string"
+        },
+        "bluntStunChancePerDamagePctOfCorePartToBodyCurve": {
+            "type": "string"
+        },
+        "bluntStunChancePerDamagePctOfCorePartToHeadCurve": {
+            "type": "string"
+        },
+        "bluntStunDuration": {
+            "type": "string"
+        },
+        "buildingDamageFactor": {
+            "type": "float"
+        },
+        "buildingDamageFactorImpassable": {
+            "type": "string"
+        },
+        "buildingDamageFactorPassable": {
+            "type": "string"
+        },
+        "canInterruptJobs": {
+            "type": "bool"
+        },
+        "canUseDeflectMetalEffect": {
+            "type": "bool"
+        },
+        "causeStun": {
+            "type": "string"
+        },
+        "combatLogRules": {
+            "type": "string"
+        },
+        "consideredHelpful": {
+            "type": "string"
+        },
+        "corpseDamageFactor": {
+            "type": "float"
+        },
+        "cutCleaveBonus": {
+            "type": "string"
+        },
+        "cutExtraTargetsCurve": {
+            "type": "string"
+        },
+        "damageEffecter": {
+            "type": "string"
+        },
+        "deathMessage": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultArmorPenetration": {
+            "type": "string"
+        },
+        "defaultDamage": {
+            "type": "string"
+        },
+        "defaultStoppingPower": {
+            "type": "string"
+        },
+        "execution": {
+            "type": "string"
+        },
+        "explosionAffectOutsidePartsOnly": {
+            "type": "string"
+        },
+        "explosionCellFleck": {
+            "type": "string"
+        },
+        "explosionColorCenter": {
+            "type": "string"
+        },
+        "explosionColorEdge": {
+            "type": "string"
+        },
+        "explosionHeatEnergyPerCell": {
+            "type": "string"
+        },
+        "explosionInteriorFleck": {
+            "type": "string"
+        },
+        "explosionSnowMeltAmount": {
+            "type": "string"
+        },
+        "expolosionPropagationSpeed": {
+            "type": "string"
+        },
+        "externalViolence": {
+            "type": "string"
+        },
+        "externalViolenceForMechanoids": {
+            "type": "string"
+        },
+        "harmAllLayersUntilOutside": {
+            "type": "string"
+        },
+        "harmsHealth": {
+            "type": "string"
+        },
+        "hasForcefulImpact": {
+            "type": "string"
+        },
+        "hediff": {
+            "type": "string"
+        },
+        "hediffSkin": {
+            "type": "string"
+        },
+        "hediffSolid": {
+            "type": "string"
+        },
+        "impactSoundType": {
+            "type": "string"
+        },
+        "isExplosive": {
+            "type": "bool"
+        },
+        "isRanged": {
+            "type": "bool"
+        },
+        "makesAnimalsFlee": {
+            "type": "string"
+        },
+        "makesBlood": {
+            "type": "string"
+        },
+        "minDamageToFragment": {
+            "type": "string"
+        },
+        "overkillPctToDestroyPart": {
+            "type": "string"
+        },
+        "plantDamageFactor": {
+            "type": "float"
+        },
+        "scaleDamageToBuildingsBasedOnFlammability": {
+            "type": "string"
+        },
+        "scratchSplitPercentage": {
+            "type": "string"
+        },
+        "soundExplosion": {
+            "type": "string"
+        },
+        "stabChanceOfForcedInternal": {
+            "type": "string"
+        },
+        "stunAdaptationTicks": {
+            "type": "int"
+        },
+        "stunResistStat": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "DebugTabMenuDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayOrder": {
+            "type": "string"
+        },
+        "menuClass": {
+            "type": "string"
+        }
+    },
+    "DrawStyleCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "styles": {
+            "type": "string"
+        }
+    },
+    "DrawStyleDef": {
+        "canSnap": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "drawArea": {
+            "type": "string"
+        },
+        "drawOutline": {
+            "type": "string"
+        },
+        "drawShortSideMeasurement": {
+            "type": "string"
+        },
+        "drawStyleType": {
+            "type": "string"
+        },
+        "uiIconPath": {
+            "type": "string"
+        }
+    },
+    "DrugPolicyDef": {
+        "allowPleasureDrugs": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "entries": {
+            "type": "string"
+        }
+    },
+    "RecipeDef": {
+        "addsHediff": {
+            "type": "string"
+        },
+        "allowMixingIngredients": {
+            "type": "bool"
+        },
+        "anesthetize": {
+            "type": "string"
+        },
+        "appliedOnFixedBodyPartGroups": {
+            "type": "string"
+        },
+        "appliedOnFixedBodyParts": {
+            "type": "string"
+        },
+        "autoStripCorpses": {
+            "type": "string"
+        },
+        "conceptLearned": {
+            "type": "string"
+        },
+        "deathOnFailedSurgeryChance": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultIngredientFilter": {
+            "type": "string"
+        },
+        "descriptionHyperlinks": {
+            "type": "string"
+        },
+        "developmentalStageFilter": {
+            "type": "string"
+        },
+        "displayPriority": {
+            "type": "string"
+        },
+        "dontShowIfAnyIngredientMissing": {
+            "type": "string"
+        },
+        "effectWorking": {
+            "type": "string"
+        },
+        "efficiencyStat": {
+            "type": "string"
+        },
+        "fixedIngredientFilter": {
+            "type": "Array",
+            "elementType": "DefRef"
+        },
+        "forceHiddenSpecialFilters": {
+            "type": "string"
+        },
+        "hideBodyPartNames": {
+            "type": "string"
+        },
+        "ignoreIngredientCountTakeEntireStacks": {
+            "type": "string"
+        },
+        "incompatibleWithHediffTags": {
+            "type": "string"
+        },
+        "ingredientValueGetterClass": {
+            "type": "string"
+        },
+        "ingredients": {
+            "type": "Array",
+            "elementType": "DefRef"
+        },
+        "interruptIfIngredientIsRotting": {
+            "type": "string"
+        },
+        "isViolation": {
+            "type": "bool"
+        },
+        "jobString": {
+            "type": "string"
+        },
+        "products": {
+            "type": "string"
+        },
+        "recipeUsers": {
+            "type": "string"
+        },
+        "removesHediff": {
+            "type": "string"
+        },
+        "requiredGiverWorkType": {
+            "type": "string"
+        },
+        "researchPrerequisite": {
+            "type": "string"
+        },
+        "skillRequirements": {
+            "type": "string"
+        },
+        "smeltingWorkAmount": {
+            "type": "string"
+        },
+        "soundWorking": {
+            "type": "string"
+        },
+        "specialProducts": {
+            "type": "string"
+        },
+        "successfullyRemovedHediffMessage": {
+            "type": "string"
+        },
+        "surgeryIgnoreEnvironment": {
+            "type": "string"
+        },
+        "surgeryOutcomeEffect": {
+            "type": "string"
+        },
+        "surgerySuccessChanceFactor": {
+            "type": "float"
+        },
+        "targetCountAdjustment": {
+            "type": "string"
+        },
+        "targetsBodyPart": {
+            "type": "string"
+        },
+        "uiIconThing": {
+            "type": "string"
+        },
+        "unfinishedThingDef": {
+            "type": "DefRef",
+            "targetType": "unfinishedThingDef"
+        },
+        "workAmount": {
+            "type": "string"
+        },
+        "workSkill": {
+            "type": "string"
+        },
+        "workSpeedStat": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        },
+        "workerCounterClass": {
+            "type": "string"
+        }
+    },
+    "HediffDef": {
+        "addedPartProps": {
+            "type": "string"
+        },
+        "alwaysShowSeverity": {
+            "type": "string"
+        },
+        "battleStateLabel": {
+            "type": "string"
+        },
+        "canApplyDodChanceForCapacityChanges": {
+            "type": "bool"
+        },
+        "chanceToCauseNoPain": {
+            "type": "string"
+        },
+        "chemicalNeed": {
+            "type": "string"
+        },
+        "comps": {
+            "type": "Array",
+            "elementType": "CompProperties"
+        },
+        "cureAllAtOnceIfCuredByItem": {
+            "type": "string"
+        },
+        "debugLabelExtra": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultLabelColor": {
+            "type": "string"
+        },
+        "deprioritizeHealing": {
+            "type": "string"
+        },
+        "descriptionHyperlinks": {
+            "type": "string"
+        },
+        "descriptionShort": {
+            "type": "string"
+        },
+        "displayWound": {
+            "type": "string"
+        },
+        "duplicationAllowed": {
+            "type": "string"
+        },
+        "everCurableByItem": {
+            "type": "string"
+        },
+        "forceRenderTreeRecache": {
+            "type": "string"
+        },
+        "hediffClass": {
+            "type": "string"
+        },
+        "hediffGivers": {
+            "type": "string"
+        },
+        "initialSeverity": {
+            "type": "string"
+        },
+        "injuryProps": {
+            "type": "string"
+        },
+        "inspectString": {
+            "type": "string"
+        },
+        "isBad": {
+            "type": "bool"
+        },
+        "keepOnBodyPartRestoration": {
+            "type": "string"
+        },
+        "labelNoun": {
+            "type": "string"
+        },
+        "labelNounPretty": {
+            "type": "string"
+        },
+        "lethalSeverity": {
+            "type": "string"
+        },
+        "makesSickThought": {
+            "type": "string"
+        },
+        "maxSeverity": {
+            "type": "string"
+        },
+        "minSeverity": {
+            "type": "string"
+        },
+        "pregnant": {
+            "type": "string"
+        },
+        "preventsCrawling": {
+            "type": "string"
+        },
+        "preventsPregnancy": {
+            "type": "string"
+        },
+        "priceImpact": {
+            "type": "string"
+        },
+        "priceOffset": {
+            "type": "string"
+        },
+        "removeOnQuestLodgers": {
+            "type": "string"
+        },
+        "removeWithTags": {
+            "type": "string"
+        },
+        "renderNodeProperties": {
+            "type": "string"
+        },
+        "scenarioCanAdd": {
+            "type": "string"
+        },
+        "skinColorTint": {
+            "type": "string"
+        },
+        "skinColorTintStrength": {
+            "type": "string"
+        },
+        "spawnThingOnRemoved": {
+            "type": "string"
+        },
+        "stages": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "string"
+        },
+        "taleOnVisible": {
+            "type": "string"
+        },
+        "targetPrefix": {
+            "type": "string"
+        },
+        "tendable": {
+            "type": "string"
+        }
+    },
+    "ThoughtDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "developmentalStageFilter": {
+            "type": "string"
+        },
+        "doNotApplyToQuestLodgers": {
+            "type": "string"
+        },
+        "durationDays": {
+            "type": "string"
+        },
+        "effectMultiplyingStat": {
+            "type": "string"
+        },
+        "gameCondition": {
+            "type": "string"
+        },
+        "gender": {
+            "type": "string"
+        },
+        "hediff": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        },
+        "invert": {
+            "type": "string"
+        },
+        "maxCumulatedOpinionOffset": {
+            "type": "string"
+        },
+        "minExpectation": {
+            "type": "string"
+        },
+        "minExpectationForNegativeThought": {
+            "type": "string"
+        },
+        "neverNullifyIfAnyTrait": {
+            "type": "string"
+        },
+        "nextThought": {
+            "type": "string"
+        },
+        "nullifiedIfNotColonist": {
+            "type": "string"
+        },
+        "nullifyingGenes": {
+            "type": "string"
+        },
+        "nullifyingHediffs": {
+            "type": "string"
+        },
+        "nullifyingOwnTales": {
+            "type": "string"
+        },
+        "nullifyingPrecepts": {
+            "type": "string"
+        },
+        "nullifyingTraitDegrees": {
+            "type": "string"
+        },
+        "nullifyingTraits": {
+            "type": "string"
+        },
+        "producesMemoryThought": {
+            "type": "string"
+        },
+        "replaceThoughts": {
+            "type": "string"
+        },
+        "requiredTraits": {
+            "type": "string"
+        },
+        "requiredTraitsDegree": {
+            "type": "string"
+        },
+        "showBubble": {
+            "type": "string"
+        },
+        "socialTargetDevelopmentalStageFilter": {
+            "type": "string"
+        },
+        "stackLimit": {
+            "type": "string"
+        },
+        "stackLimitForSameOtherPawn": {
+            "type": "string"
+        },
+        "stackedEffectMultiplier": {
+            "type": "string"
+        },
+        "stages": {
+            "type": "string"
+        },
+        "stagesStack": {
+            "type": "string"
+        },
+        "taleDef": {
+            "type": "DefRef",
+            "targetType": "taleDef"
+        },
+        "thoughtClass": {
+            "type": "string"
+        },
+        "thoughtToMake": {
+            "type": "string"
+        },
+        "validWhileDespawned": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "ChemicalDef": {
+        "addictionHediff": {
+            "type": "string"
+        },
+        "canBinge": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "geneOverdoseChanceFactorImmune": {
+            "type": "string"
+        },
+        "geneOverdoseChanceFactorResist": {
+            "type": "string"
+        },
+        "geneToleranceBuildupFactorImmune": {
+            "type": "string"
+        },
+        "geneToleranceBuildupFactorResist": {
+            "type": "string"
+        },
+        "generateAddictionGenes": {
+            "type": "string"
+        },
+        "onGeneratedAddictedEvents": {
+            "type": "string"
+        },
+        "onGeneratedAddictedToleranceChance": {
+            "type": "string"
+        },
+        "toleranceHediff": {
+            "type": "string"
+        }
+    },
+    "NeedDef": {
+        "baseLevel": {
+            "type": "string"
+        },
+        "colonistAndPrisonersOnly": {
+            "type": "string"
+        },
+        "colonistsOnly": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "developmentalStageFilter": {
+            "type": "string"
+        },
+        "fallPerDay": {
+            "type": "string"
+        },
+        "freezeInMentalState": {
+            "type": "string"
+        },
+        "freezeWhileSleeping": {
+            "type": "string"
+        },
+        "listPriority": {
+            "type": "string"
+        },
+        "major": {
+            "type": "string"
+        },
+        "minIntelligence": {
+            "type": "string"
+        },
+        "needClass": {
+            "type": "string"
+        },
+        "neverOnPrisoner": {
+            "type": "string"
+        },
+        "neverOnSlave": {
+            "type": "string"
+        },
+        "nullifyingPrecepts": {
+            "type": "string"
+        },
+        "onlyIfCausedByGene": {
+            "type": "string"
+        },
+        "onlyIfCausedByHediff": {
+            "type": "string"
+        },
+        "onlyIfCausedByIdeo": {
+            "type": "string"
+        },
+        "onlyIfCausedByTrait": {
+            "type": "string"
+        },
+        "seekerFallPerHour": {
+            "type": "string"
+        },
+        "seekerRisePerHour": {
+            "type": "string"
+        },
+        "showForCaravanMembers": {
+            "type": "string"
+        },
+        "showOnNeedList": {
+            "type": "string"
+        },
+        "showUnitTicks": {
+            "type": "int"
+        },
+        "slavesOnly": {
+            "type": "string"
+        }
+    },
+    "DutyDef": {
+        "alwaysShowWeapon": {
+            "type": "string"
+        },
+        "constantThinkNode": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "hook": {
+            "type": "string"
+        },
+        "ritualSpectateTarget": {
+            "type": "string"
+        },
+        "socialModeMax": {
+            "type": "string"
+        },
+        "thinkNode": {
+            "type": "string"
+        }
+    },
+    "EffecterDef": {
+        "children": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "maintainTicks": {
+            "type": "int"
+        },
+        "offsetTowardsTarget": {
+            "type": "string"
+        },
+        "positionRadius": {
+            "type": "string"
+        }
+    },
+    "SoundDef": {
+        "context": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "maxSimultaneous": {
+            "type": "string"
+        },
+        "maxVoices": {
+            "type": "string"
+        },
+        "priorityMode": {
+            "type": "string"
+        },
+        "slot": {
+            "type": "string"
+        },
+        "subSounds": {
+            "type": "string"
+        },
+        "sustain": {
+            "type": "string"
+        },
+        "sustainFadeoutTime": {
+            "type": "string"
+        },
+        "sustainStartSound": {
+            "type": "string"
+        },
+        "sustainStopSound": {
+            "type": "string"
+        }
+    },
+    "FleckDef": {
+        "acceleration": {
+            "type": "string"
+        },
+        "altitudeLayerIncOffset": {
+            "type": "string"
+        },
+        "archCurve": {
+            "type": "string"
+        },
+        "archDuration": {
+            "type": "string"
+        },
+        "archHeight": {
+            "type": "string"
+        },
+        "attachedToHead": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "fadeInTime": {
+            "type": "string"
+        },
+        "fadeOutTime": {
+            "type": "string"
+        },
+        "fleckSystemClass": {
+            "type": "string"
+        },
+        "graphicData": {
+            "type": "string"
+        },
+        "growthRate": {
+            "type": "float"
+        },
+        "landSound": {
+            "type": "string"
+        },
+        "randomGraphics": {
+            "type": "string"
+        },
+        "realTime": {
+            "type": "string"
+        },
+        "scalers": {
+            "type": "string"
+        },
+        "scalingAnchor": {
+            "type": "string"
+        },
+        "solidTime": {
+            "type": "string"
+        },
+        "speedPerTime": {
+            "type": "string"
+        },
+        "unattachedDrawOffset": {
+            "type": "string"
+        }
+    },
+    "FactionDef": {
+        "allowedArrivalTemperatureRange": {
+            "type": "bool"
+        },
+        "allowedCultures": {
+            "type": "bool"
+        },
+        "allowedMemes": {
+            "type": "bool"
+        },
+        "animalsFleeDanger": {
+            "type": "string"
+        },
+        "apparelStuffFilter": {
+            "type": "string"
+        },
+        "arrivalLayerWhitelist": {
+            "type": "string"
+        },
+        "autoFlee": {
+            "type": "string"
+        },
+        "backstoryFilters": {
+            "type": "string"
+        },
+        "baseTraderKinds": {
+            "type": "string"
+        },
+        "basicMemberKind": {
+            "type": "string"
+        },
+        "canSiege": {
+            "type": "bool"
+        },
+        "canStageAttacks": {
+            "type": "bool"
+        },
+        "canUseAvoidGrid": {
+            "type": "bool"
+        },
+        "caravanTraderKinds": {
+            "type": "string"
+        },
+        "categoryTag": {
+            "type": "string"
+        },
+        "classicIdeo": {
+            "type": "string"
+        },
+        "colorSpectrum": {
+            "type": "string"
+        },
+        "configurationListOrderPriority": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "disallowedMemes": {
+            "type": "string"
+        },
+        "disallowedPrecepts": {
+            "type": "string"
+        },
+        "disallowedRaidAgeRestrictions": {
+            "type": "string"
+        },
+        "dropPodActive": {
+            "type": "string"
+        },
+        "dropPodIncoming": {
+            "type": "string"
+        },
+        "earliestRaidDays": {
+            "type": "string"
+        },
+        "factionIconPath": {
+            "type": "string"
+        },
+        "factionNameMaker": {
+            "type": "string"
+        },
+        "fixedLeaderKinds": {
+            "type": "string"
+        },
+        "fixedName": {
+            "type": "string"
+        },
+        "forageabilityFactor": {
+            "type": "float"
+        },
+        "generateNewLeaderFromMapMembersOnly": {
+            "type": "string"
+        },
+        "hidden": {
+            "type": "string"
+        },
+        "hostileToFactionlessHumanlikes": {
+            "type": "string"
+        },
+        "humanlikeFaction": {
+            "type": "string"
+        },
+        "isPlayer": {
+            "type": "bool"
+        },
+        "leaderForceGenerateNewPawn": {
+            "type": "string"
+        },
+        "leaderTitle": {
+            "type": "string"
+        },
+        "listOrderPriority": {
+            "type": "string"
+        },
+        "maxConfigurableAtWorldCreation": {
+            "type": "string"
+        },
+        "maxPawnCostPerTotalPointsCurve": {
+            "type": "string"
+        },
+        "minSettlementTemperatureChanceCurve": {
+            "type": "string"
+        },
+        "mustStartOneEnemy": {
+            "type": "string"
+        },
+        "pawnGroupMakers": {
+            "type": "string"
+        },
+        "pawnSingular": {
+            "type": "string"
+        },
+        "pawnsPlural": {
+            "type": "string"
+        },
+        "permanentEnemy": {
+            "type": "string"
+        },
+        "permanentEnemyToEveryoneExcept": {
+            "type": "string"
+        },
+        "raidCommonalityFromPointsCurve": {
+            "type": "string"
+        },
+        "raidLootMaker": {
+            "type": "string"
+        },
+        "raidLootValueFromPointsCurve": {
+            "type": "string"
+        },
+        "recipePrerequisiteTags": {
+            "type": "string"
+        },
+        "requiredCountAtGameStart": {
+            "type": "string"
+        },
+        "requiredMemes": {
+            "type": "string"
+        },
+        "royalFavorIconPath": {
+            "type": "string"
+        },
+        "royalFavorLabel": {
+            "type": "string"
+        },
+        "royalTitleInheritanceRelations": {
+            "type": "string"
+        },
+        "royalTitleInheritanceWorkerClass": {
+            "type": "string"
+        },
+        "royalTitleTags": {
+            "type": "string"
+        },
+        "settlementGenerationWeight": {
+            "type": "string"
+        },
+        "settlementNameMaker": {
+            "type": "string"
+        },
+        "settlementTexturePath": {
+            "type": "string"
+        },
+        "startingCountAtWorldCreation": {
+            "type": "string"
+        },
+        "startingResearchTags": {
+            "type": "string"
+        },
+        "startingTechprintsResearchTags": {
+            "type": "string"
+        },
+        "structureMemeWeights": {
+            "type": "string"
+        },
+        "techLevel": {
+            "type": "string"
+        },
+        "xenotypeSet": {
+            "type": "string"
+        }
+    },
+    "ThingSetMakerDef": {
+        "debugParams": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "root": {
+            "type": "string"
+        }
+    },
+    "GameConditionDef": {
+        "allowUnderground": {
+            "type": "bool"
+        },
+        "canAffectAllPlanetLayers": {
+            "type": "bool"
+        },
+        "canBePermanent": {
+            "type": "bool"
+        },
+        "conditionClass": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultDroneLevel": {
+            "type": "string"
+        },
+        "descriptionFuture": {
+            "type": "string"
+        },
+        "endMessage": {
+            "type": "string"
+        },
+        "exclusiveConditions": {
+            "type": "string"
+        },
+        "jumpToSourceKey": {
+            "type": "string"
+        },
+        "letterDef": {
+            "type": "DefRef",
+            "targetType": "letterDef"
+        },
+        "letterHyperlinks": {
+            "type": "string"
+        },
+        "letterText": {
+            "type": "string"
+        },
+        "natural": {
+            "type": "string"
+        },
+        "pennedAnimalsSeekShelter": {
+            "type": "string"
+        },
+        "preventRain": {
+            "type": "string"
+        },
+        "preventShuttleLaunch": {
+            "type": "string"
+        },
+        "silencedByConditions": {
+            "type": "string"
+        },
+        "weatherDef": {
+            "type": "DefRef",
+            "targetType": "weatherDef"
+        }
+    },
+    "GatheringDef": {
+        "calledOffMessage": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "duty": {
+            "type": "string"
+        },
+        "finishedMessage": {
+            "type": "string"
+        },
+        "gatherSpotDefs": {
+            "type": "string"
+        },
+        "letterText": {
+            "type": "string"
+        },
+        "letterTitle": {
+            "type": "string"
+        },
+        "randomSelectionWeight": {
+            "type": "string"
+        },
+        "requiredTitleAny": {
+            "type": "string"
+        },
+        "respectTimetable": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "GeneCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayPriorityInGenepack": {
+            "type": "string"
+        },
+        "displayPriorityInXenotype": {
+            "type": "string"
+        }
+    },
+    "GeneDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayOrderInCategory": {
+            "type": "string"
+        },
+        "hairColorOverride": {
+            "type": "string"
+        },
+        "minMelanin": {
+            "type": "string"
+        },
+        "randomBrightnessFactor": {
+            "type": "float"
+        },
+        "selectionWeight": {
+            "type": "string"
+        },
+        "selectionWeightCultist": {
+            "type": "string"
+        },
+        "selectionWeightFactorDarkSkin": {
+            "type": "string"
+        },
+        "skinColorBase": {
+            "type": "string"
+        }
+    },
+    "GlobalWorldDrawLayerDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "worldDrawLayer": {
+            "type": "string"
+        }
+    },
+    "HistoryEventDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "GoodwillSituationDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "ignoreIllegalLabelCharacterConfigError": {
+            "type": "string"
+        },
+        "meme": {
+            "type": "string"
+        },
+        "naturalGoodwillOffset": {
+            "type": "string"
+        },
+        "otherMeme": {
+            "type": "string"
+        },
+        "versusAll": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "GraphicStateDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "HeadTypeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "eyeOffsetEastWest": {
+            "type": "string"
+        },
+        "gender": {
+            "type": "string"
+        },
+        "graphicPath": {
+            "type": "string"
+        },
+        "randomChosen": {
+            "type": "string"
+        },
+        "selectionWeight": {
+            "type": "string"
+        }
+    },
+    "HediffGiverSetDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "hediffGivers": {
+            "type": "string"
+        }
+    },
+    "InfectionPathwayDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "InspirationDef": {
+        "allowedOnDownedPawns": {
+            "type": "bool"
+        },
+        "associatedSkills": {
+            "type": "string"
+        },
+        "baseDurationDays": {
+            "type": "string"
+        },
+        "baseInspectLine": {
+            "type": "string"
+        },
+        "beginLetter": {
+            "type": "string"
+        },
+        "beginLetterDef": {
+            "type": "DefRef",
+            "targetType": "beginLetterDef"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "endMessage": {
+            "type": "string"
+        },
+        "minAge": {
+            "type": "string"
+        },
+        "requiredAnyNonDisabledWorkType": {
+            "type": "string"
+        },
+        "requiredAnySkill": {
+            "type": "string"
+        },
+        "requiredCapacities": {
+            "type": "string"
+        },
+        "requiredNonDisabledStats": {
+            "type": "string"
+        },
+        "requiredNonDisabledWorkTags": {
+            "type": "string"
+        },
+        "requiredNonDisabledWorkTypes": {
+            "type": "string"
+        },
+        "requiredSkills": {
+            "type": "string"
+        },
+        "statFactors": {
+            "type": "Dictionary",
+            "keyType": "string",
+            "valueType": "float"
+        },
+        "statOffsets": {
+            "type": "string"
+        }
+    },
+    "InteractionDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "ignoreTimeSinceLastInteraction": {
+            "type": "string"
+        },
+        "initiatorThought": {
+            "type": "string"
+        },
+        "initiatorXpGainAmount": {
+            "type": "string"
+        },
+        "initiatorXpGainSkill": {
+            "type": "string"
+        },
+        "interactionMote": {
+            "type": "string"
+        },
+        "logRulesInitiator": {
+            "type": "string"
+        },
+        "recipientThought": {
+            "type": "string"
+        },
+        "socialFightBaseChance": {
+            "type": "string"
+        },
+        "symbol": {
+            "type": "string"
+        },
+        "symbolSource": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "RulePackDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "include": {
+            "type": "string"
+        },
+        "rulePack": {
+            "type": "string"
+        }
+    },
+    "JobDef": {
+        "allowOpportunisticPrefix": {
+            "type": "bool"
+        },
+        "alwaysShowReport": {
+            "type": "string"
+        },
+        "alwaysShowWeapon": {
+            "type": "string"
+        },
+        "carryThingAfterJob": {
+            "type": "string"
+        },
+        "casualInterruptible": {
+            "type": "string"
+        },
+        "checkOverrideOnDamage": {
+            "type": "string"
+        },
+        "collideWithPawns": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayAsAreaInFloatMenu": {
+            "type": "string"
+        },
+        "driverClass": {
+            "type": "string"
+        },
+        "dropThingBeforeJob": {
+            "type": "string"
+        },
+        "ifFlyingKeepFlying": {
+            "type": "string"
+        },
+        "isCrawlingIfDowned": {
+            "type": "bool"
+        },
+        "isIdle": {
+            "type": "bool"
+        },
+        "joyDuration": {
+            "type": "string"
+        },
+        "joyKind": {
+            "type": "string"
+        },
+        "joyMaxParticipants": {
+            "type": "string"
+        },
+        "joySkill": {
+            "type": "string"
+        },
+        "joyXpPerTick": {
+            "type": "string"
+        },
+        "makeTargetPrisoner": {
+            "type": "string"
+        },
+        "neverFleeFromEnemies": {
+            "type": "string"
+        },
+        "neverShowWeapon": {
+            "type": "string"
+        },
+        "overrideFlyChance": {
+            "type": "string"
+        },
+        "playerInterruptible": {
+            "type": "string"
+        },
+        "reportString": {
+            "type": "string"
+        },
+        "suspendable": {
+            "type": "string"
+        },
+        "taleOnCompletion": {
+            "type": "string"
+        },
+        "tryStartFlying": {
+            "type": "string"
+        },
+        "waitAfterArriving": {
+            "type": "string"
+        }
+    },
+    "jobDef": {
+        "allowOpportunisticPrefix": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "driverClass": {
+            "type": "string"
+        },
+        "reportString": {
+            "type": "string"
+        }
+    },
+    "JoyGiverDef": {
+        "baseChance": {
+            "type": "string"
+        },
+        "canDoWhileInBed": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "desireSit": {
+            "type": "string"
+        },
+        "giverClass": {
+            "type": "string"
+        },
+        "jobDef": {
+            "type": "DefRef",
+            "targetType": "jobDef"
+        },
+        "joyKind": {
+            "type": "string"
+        },
+        "pctPawnsEverDo": {
+            "type": "string"
+        },
+        "requireChair": {
+            "type": "string"
+        },
+        "requiredCapacities": {
+            "type": "string"
+        },
+        "requiresEnjoyOutdoors": {
+            "type": "string"
+        },
+        "thingDefs": {
+            "type": "Array",
+            "elementType": "DefRef"
+        },
+        "unroofedOnly": {
+            "type": "string"
+        }
+    },
+    "JoyKindDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "needsThing": {
+            "type": "string"
+        }
+    },
+    "LayoutRoomDef": {
+        "canMergeWithAdjacentRoom": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "edgeTerrain": {
+            "type": "string"
+        },
+        "floorTypes": {
+            "type": "string"
+        },
+        "minSingleRectHeight": {
+            "type": "string"
+        },
+        "minSingleRectWidth": {
+            "type": "string"
+        },
+        "prefabs": {
+            "type": "string"
+        },
+        "roomContentsWorkerType": {
+            "type": "string"
+        },
+        "sketchResolverDef": {
+            "type": "DefRef",
+            "targetType": "sketchResolverDef"
+        }
+    },
+    "ManeuverDef": {
+        "combatLogRulesDeflect": {
+            "type": "string"
+        },
+        "combatLogRulesDodge": {
+            "type": "string"
+        },
+        "combatLogRulesHit": {
+            "type": "string"
+        },
+        "combatLogRulesMiss": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "logEntryDef": {
+            "type": "DefRef",
+            "targetType": "logEntryDef"
+        },
+        "requiredCapacity": {
+            "type": "string"
+        },
+        "verb": {
+            "type": "string"
+        }
+    },
+    "MapGeneratorDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "genSteps": {
+            "type": "string"
+        }
+    },
+    "GenStepDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "genStep": {
+            "type": "string"
+        },
+        "linkWithSite": {
+            "type": "string"
+        },
+        "order": {
+            "type": "string"
+        }
+    },
+    "TileMutatorDef": {
+        "categories": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "genOrder": {
+            "type": "string"
+        },
+        "priority": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "MapMeshFlagDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "RenderSkipFlagDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "MechWeightClassDef": {
+        "canResurrect": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "MeditationFocusDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "incompatibleBackstoriesAny": {
+            "type": "string"
+        },
+        "requiredBackstoriesAny": {
+            "type": "string"
+        },
+        "requiresRoyalTitle": {
+            "type": "string"
+        }
+    },
+    "MentalBreakDef": {
+        "baseCommonality": {
+            "type": "string"
+        },
+        "commonalityFactorPerPopulationCurve": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "intensity": {
+            "type": "string"
+        },
+        "layerWhitelist": {
+            "type": "string"
+        },
+        "mentalState": {
+            "type": "string"
+        },
+        "questLodgersCanDo": {
+            "type": "string"
+        },
+        "requiredTrait": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "MentalStateDef": {
+        "allowBeatfire": {
+            "type": "bool"
+        },
+        "allowGuilty": {
+            "type": "bool"
+        },
+        "baseInspectLine": {
+            "type": "string"
+        },
+        "beginLetter": {
+            "type": "string"
+        },
+        "beginLetterDef": {
+            "type": "DefRef",
+            "targetType": "beginLetterDef"
+        },
+        "beginLetterLabel": {
+            "type": "string"
+        },
+        "blockInteractionInitiationExcept": {
+            "type": "string"
+        },
+        "blockInteractionRecipientExcept": {
+            "type": "string"
+        },
+        "blockNormalThoughts": {
+            "type": "string"
+        },
+        "blockRandomInteraction": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "colonistsOnly": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "drugCategory": {
+            "type": "string"
+        },
+        "escapingPrisonersIgnore": {
+            "type": "string"
+        },
+        "ignoreDrugPolicy": {
+            "type": "string"
+        },
+        "inCaravanCanDo": {
+            "type": "string"
+        },
+        "maxTicksBeforeRecovery": {
+            "type": "string"
+        },
+        "minTicksBeforeRecovery": {
+            "type": "string"
+        },
+        "moodRecoveryThought": {
+            "type": "string"
+        },
+        "nameColor": {
+            "type": "string"
+        },
+        "prisonersCanDo": {
+            "type": "string"
+        },
+        "recoverFromCollapsingExhausted": {
+            "type": "string"
+        },
+        "recoverFromDowned": {
+            "type": "string"
+        },
+        "recoverFromSleep": {
+            "type": "string"
+        },
+        "recoveryMessage": {
+            "type": "string"
+        },
+        "recoveryMtbDays": {
+            "type": "string"
+        },
+        "requiredCapacities": {
+            "type": "string"
+        },
+        "slavesCanDo": {
+            "type": "string"
+        },
+        "slavesOnly": {
+            "type": "string"
+        },
+        "stateClass": {
+            "type": "string"
+        },
+        "stateEffecter": {
+            "type": "string"
+        },
+        "tale": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "ApparelLayerDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "drawOrder": {
+            "type": "string"
+        }
+    },
+    "BillRepeatModeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "listOrder": {
+            "type": "string"
+        }
+    },
+    "BillStoreModeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "ignoreIllegalLabelCharacterConfigError": {
+            "type": "string"
+        },
+        "listOrder": {
+            "type": "string"
+        }
+    },
+    "BodyPartTagDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "vital": {
+            "type": "string"
+        }
+    },
+    "BodyTypeDef": {
+        "attachPoints": {
+            "type": "string"
+        },
+        "attachPointsDessicated": {
+            "type": "string"
+        },
+        "bodyDessicatedGraphicPath": {
+            "type": "string"
+        },
+        "bodyGraphicScale": {
+            "type": "string"
+        },
+        "bodyNakedGraphicPath": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "headOffset": {
+            "type": "string"
+        },
+        "woundAnchors": {
+            "type": "string"
+        }
+    },
+    "ClamorDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "DamageArmorCategoryDef": {
+        "armorRatingStat": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "multStat": {
+            "type": "string"
+        }
+    },
+    "DesignationCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "order": {
+            "type": "string"
+        },
+        "preferredColumn": {
+            "type": "string"
+        },
+        "researchPrerequisites": {
+            "type": "string"
+        },
+        "showPowerGrid": {
+            "type": "string"
+        },
+        "specialDesignatorClasses": {
+            "type": "string"
+        }
+    },
+    "DesignationDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "designateCancelable": {
+            "type": "string"
+        },
+        "removeIfBuildingDespawned": {
+            "type": "string"
+        },
+        "shouldBatchDraw": {
+            "type": "string"
+        },
+        "targetType": {
+            "type": "string"
+        },
+        "texturePath": {
+            "type": "string"
+        }
+    },
+    "DesignatorDropdownGroupDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "iconSource": {
+            "type": "string"
+        },
+        "includeEyeDropperTool": {
+            "type": "string"
+        },
+        "useGridMenu": {
+            "type": "string"
+        }
+    },
+    "DifficultyDef": {
+        "adaptationEffectFactor": {
+            "type": "float"
+        },
+        "adaptationGrowthRateFactorOverZero": {
+            "type": "string"
+        },
+        "allowBigThreats": {
+            "type": "bool"
+        },
+        "allowCaveHives": {
+            "type": "bool"
+        },
+        "allowExtremeWeatherIncidents": {
+            "type": "bool"
+        },
+        "allowIntroThreats": {
+            "type": "bool"
+        },
+        "allowViolentQuests": {
+            "type": "bool"
+        },
+        "butcherYieldFactor": {
+            "type": "float"
+        },
+        "colonistMoodOffset": {
+            "type": "string"
+        },
+        "cropYieldFactor": {
+            "type": "float"
+        },
+        "deepDrillInfestationChanceFactor": {
+            "type": "float"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "difficulty": {
+            "type": "string"
+        },
+        "diseaseIntervalFactor": {
+            "type": "float"
+        },
+        "enemyDeathOnDownedChanceFactor": {
+            "type": "float"
+        },
+        "enemyReproductionRateFactor": {
+            "type": "float"
+        },
+        "fishingYieldFactor": {
+            "type": "float"
+        },
+        "foodPoisonChanceFactor": {
+            "type": "float"
+        },
+        "isCustom": {
+            "type": "bool"
+        },
+        "maintenanceCostFactor": {
+            "type": "float"
+        },
+        "manhunterChanceOnDamageFactor": {
+            "type": "float"
+        },
+        "minThreatPointsRangeCeiling": {
+            "type": "string"
+        },
+        "mineYieldFactor": {
+            "type": "float"
+        },
+        "nomadicMineableResourcesFactor": {
+            "type": "float"
+        },
+        "peacefulTemples": {
+            "type": "string"
+        },
+        "playerPawnInfectionChanceFactor": {
+            "type": "float"
+        },
+        "predatorsHuntHumanlikes": {
+            "type": "string"
+        },
+        "researchSpeedFactor": {
+            "type": "float"
+        },
+        "scariaRotChance": {
+            "type": "string"
+        },
+        "studyEfficiencyFactor": {
+            "type": "float"
+        },
+        "threatScale": {
+            "type": "string"
+        },
+        "tradePriceFactorLoss": {
+            "type": "string"
+        },
+        "wastepackInfestationChanceFactor": {
+            "type": "float"
+        }
+    },
+    "ExpansionDef": {
+        "backgroundPath": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "isCore": {
+            "type": "bool"
+        },
+        "linkedMod": {
+            "type": "string"
+        },
+        "notOwnedIconPath": {
+            "type": "string"
+        },
+        "previewImagesFolderPath": {
+            "type": "string"
+        },
+        "primaryColor": {
+            "type": "string"
+        },
+        "siteUrl": {
+            "type": "string"
+        },
+        "steamUrl": {
+            "type": "string"
+        }
+    },
+    "ExpectationDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "forRoles": {
+            "type": "string"
+        },
+        "joyKindsNeeded": {
+            "type": "string"
+        },
+        "joyToleranceDropPerDay": {
+            "type": "string"
+        },
+        "maxMapWealth": {
+            "type": "string"
+        },
+        "order": {
+            "type": "string"
+        },
+        "ritualQualityOffset": {
+            "type": "string"
+        },
+        "thoughtStage": {
+            "type": "string"
+        }
+    },
+    "FeatureDef": {
+        "acceptableBiomes": {
+            "type": "string"
+        },
+        "canTouchWorldEdge": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "maxPassageWidth": {
+            "type": "string"
+        },
+        "maxPctOfWholeArea": {
+            "type": "string"
+        },
+        "maxRootGroupSize": {
+            "type": "string"
+        },
+        "maxSize": {
+            "type": "string"
+        },
+        "maxSpaceBetweenRootGroups": {
+            "type": "string"
+        },
+        "minRootGroupSize": {
+            "type": "string"
+        },
+        "minRootGroupsInCluster": {
+            "type": "string"
+        },
+        "minSize": {
+            "type": "string"
+        },
+        "nameMaker": {
+            "type": "string"
+        },
+        "order": {
+            "type": "string"
+        },
+        "rootBiomes": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "FleshTypeDef": {
+        "bandagedWounds": {
+            "type": "string"
+        },
+        "corpseCategory": {
+            "type": "string"
+        },
+        "damageEffecter": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "genericWounds": {
+            "type": "string"
+        },
+        "hediffWounds": {
+            "type": "string"
+        },
+        "isOrganic": {
+            "type": "bool"
+        }
+    },
+    "GameSetupStepDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "order": {
+            "type": "string"
+        },
+        "setupStep": {
+            "type": "string"
+        }
+    },
+    "HairDef": {
+        "category": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "noGraphic": {
+            "type": "string"
+        },
+        "styleGender": {
+            "type": "string"
+        },
+        "styleTags": {
+            "type": "string"
+        },
+        "texPath": {
+            "type": "string"
+        }
+    },
+    "StyleItemCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "HibernatableStateDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "HistoryAutoRecorderGroupDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "devModeOnly": {
+            "type": "string"
+        },
+        "fixedScale": {
+            "type": "string"
+        },
+        "historyAutoRecorderDefs": {
+            "type": "string"
+        },
+        "integersOnly": {
+            "type": "string"
+        },
+        "onlyPositiveValues": {
+            "type": "string"
+        },
+        "useFixedScale": {
+            "type": "string"
+        }
+    },
+    "HistoryAutoRecorderDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "graphColor": {
+            "type": "string"
+        },
+        "recordTicksFrequency": {
+            "type": "string"
+        },
+        "valueFormat": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "ImpactSoundTypeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "playOnlyIfHitPawn": {
+            "type": "string"
+        },
+        "soundDef": {
+            "type": "DefRef",
+            "targetType": "soundDef"
+        }
+    },
+    "ImplementOwnerTypeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "implementOwnerRuleName": {
+            "type": "string"
+        },
+        "implementOwnerTypeValue": {
+            "type": "float"
+        }
+    },
+    "IncidentCategoryDef": {
+        "canUseAnomalyChance": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "needsParmsPoints": {
+            "type": "string"
+        },
+        "tale": {
+            "type": "string"
+        }
+    },
+    "IncidentTargetTagDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "InventoryStockGroupDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultThingDef": {
+            "type": "DefRef",
+            "targetType": "defaultThingDef"
+        },
+        "thingDefs": {
+            "type": "Array",
+            "elementType": "DefRef"
+        }
+    },
+    "KeyBindingCategoryDef": {
+        "checkForConflicts": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "isGameUniversal": {
+            "type": "bool"
+        },
+        "selfConflicting": {
+            "type": "string"
+        }
+    },
+    "KeyBindingDef": {
+        "category": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultKeyCodeA": {
+            "type": "string"
+        },
+        "defaultKeyCodeB": {
+            "type": "string"
+        },
+        "devModeOnly": {
+            "type": "string"
+        },
+        "extraConflictTags": {
+            "type": "string"
+        },
+        "ignoreConflictsWith": {
+            "type": "string"
+        }
+    },
+    "LetterDef": {
+        "arriveSound": {
+            "type": "string"
+        },
+        "bounce": {
+            "type": "string"
+        },
+        "color": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "flashColor": {
+            "type": "string"
+        },
+        "flashInterval": {
+            "type": "string"
+        },
+        "letterClass": {
+            "type": "string"
+        },
+        "pauseMode": {
+            "type": "string"
+        }
+    },
+    "LifeStageDef": {
+        "adjective": {
+            "type": "string"
+        },
+        "alwaysDowned": {
+            "type": "string"
+        },
+        "bodyDrawOffset": {
+            "type": "string"
+        },
+        "bodySizeFactor": {
+            "type": "float"
+        },
+        "bodyWidth": {
+            "type": "string"
+        },
+        "canDoRandomMentalBreaks": {
+            "type": "bool"
+        },
+        "canInitiateSocialInteraction": {
+            "type": "bool"
+        },
+        "canSleepWhenStarving": {
+            "type": "bool"
+        },
+        "canSleepWhileHeld": {
+            "type": "bool"
+        },
+        "canVoluntarilySleep": {
+            "type": "bool"
+        },
+        "caravanRideable": {
+            "type": "string"
+        },
+        "claimable": {
+            "type": "string"
+        },
+        "customMoodTipString": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "developmentalStage": {
+            "type": "string"
+        },
+        "equipmentDrawDistanceFactor": {
+            "type": "float"
+        },
+        "eyeSizeFactor": {
+            "type": "float"
+        },
+        "fallAsleepMaxThresholdOverride": {
+            "type": "string"
+        },
+        "foodMaxFactor": {
+            "type": "float"
+        },
+        "headSizeFactor": {
+            "type": "float"
+        },
+        "healthScaleFactor": {
+            "type": "float"
+        },
+        "hungerRateFactor": {
+            "type": "float"
+        },
+        "involuntarySleepIsNegativeEvent": {
+            "type": "string"
+        },
+        "involuntarySleepMTBDaysFromRest": {
+            "type": "string"
+        },
+        "marketValueFactor": {
+            "type": "float"
+        },
+        "meleeDamageFactor": {
+            "type": "float"
+        },
+        "milkable": {
+            "type": "string"
+        },
+        "naturalWakeThresholdOverride": {
+            "type": "string"
+        },
+        "reproductive": {
+            "type": "string"
+        },
+        "shearable": {
+            "type": "string"
+        },
+        "silhouetteGraphicData": {
+            "type": "string"
+        },
+        "sittingOffset": {
+            "type": "string"
+        },
+        "statFactors": {
+            "type": "Dictionary",
+            "keyType": "string",
+            "valueType": "float"
+        },
+        "statOffsets": {
+            "type": "string"
+        },
+        "thinkTreeConstantOverride": {
+            "type": "string"
+        },
+        "thinkTreeMainOverride": {
+            "type": "string"
+        },
+        "visible": {
+            "type": "string"
+        },
+        "voxPitch": {
+            "type": "string"
+        },
+        "voxVolume": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "LogEntryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "iconDamaged": {
+            "type": "string"
+        },
+        "iconDamagedFromInstigator": {
+            "type": "string"
+        }
+    },
+    "MainButtonDef": {
+        "buttonVisible": {
+            "type": "string"
+        },
+        "canBeTutorDenied": {
+            "type": "bool"
+        },
+        "closesWorldView": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultHotKey": {
+            "type": "string"
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "minimized": {
+            "type": "string"
+        },
+        "order": {
+            "type": "string"
+        },
+        "tabWindowClass": {
+            "type": "string"
+        },
+        "validWithClassicIdeo": {
+            "type": "string"
+        },
+        "validWithoutMap": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "MessageTypeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "sound": {
+            "type": "string"
+        }
+    },
+    "OptionCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "isDev": {
+            "type": "bool"
+        },
+        "texPath": {
+            "type": "string"
+        }
+    },
+    "OrderedTakeGroupDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "PawnColumnDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "gap": {
+            "type": "string"
+        },
+        "headerIcon": {
+            "type": "string"
+        },
+        "headerTip": {
+            "type": "string"
+        },
+        "ignoreWhenCalculatingOptimalTableSize": {
+            "type": "string"
+        },
+        "paintable": {
+            "type": "string"
+        },
+        "showIcon": {
+            "type": "string"
+        },
+        "sortable": {
+            "type": "string"
+        },
+        "useLabelShort": {
+            "type": "string"
+        },
+        "width": {
+            "type": "string"
+        },
+        "widthPriority": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "PawnGroupKindDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "PawnTableDef": {
+        "columns": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "minWidth": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "PawnsArrivalModeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "layerWhitelist": {
+            "type": "string"
+        },
+        "minTechLevel": {
+            "type": "string"
+        },
+        "pointsFactorCurve": {
+            "type": "string"
+        },
+        "selectionWeightCurve": {
+            "type": "string"
+        },
+        "selectionWeightCurvesPerFaction": {
+            "type": "string"
+        },
+        "textEnemy": {
+            "type": "string"
+        },
+        "textFriendly": {
+            "type": "string"
+        },
+        "textWillArrive": {
+            "type": "string"
+        },
+        "walkIn": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "PrisonerInteractionModeDef": {
+        "allowInClassicIdeoMode": {
+            "type": "bool"
+        },
+        "allowOnWildMan": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "hideIfNotRecruitable": {
+            "type": "string"
+        },
+        "isChildInteraction": {
+            "type": "bool"
+        },
+        "listOrder": {
+            "type": "string"
+        },
+        "mustBeAwake": {
+            "type": "string"
+        }
+    },
+    "RecordDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayOrder": {
+            "type": "string"
+        },
+        "measuredTimeJobs": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "ResearchProjectTagDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "ReservationLayerDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "RoofDef": {
+        "collapseLeavingThingDef": {
+            "type": "DefRef",
+            "targetType": "collapseLeavingThingDef"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "filthLeaving": {
+            "type": "string"
+        },
+        "isNatural": {
+            "type": "bool"
+        },
+        "isThickRoof": {
+            "type": "bool"
+        },
+        "soundPunchThrough": {
+            "type": "string"
+        }
+    },
+    "ScatterableDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "scatterType": {
+            "type": "string"
+        },
+        "texturePath": {
+            "type": "string"
+        }
+    },
+    "ShaderTypeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "shaderPath": {
+            "type": "string"
+        },
+        "uiShaderPath": {
+            "type": "string"
+        }
+    },
+    "SongDef": {
+        "clipPath": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "playOnMap": {
+            "type": "string"
+        },
+        "volume": {
+            "type": "string"
+        }
+    },
+    "SpecialThingFilterDef": {
+        "allowedByDefault": {
+            "type": "bool"
+        },
+        "configurable": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "parentCategory": {
+            "type": "string"
+        },
+        "saveKey": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "StuffAppearanceDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "StuffCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "destroySoundLarge": {
+            "type": "string"
+        },
+        "destroySoundMedium": {
+            "type": "string"
+        },
+        "destroySoundSmall": {
+            "type": "string"
+        },
+        "noun": {
+            "type": "string"
+        }
+    },
+    "SubcameraDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "depth": {
+            "type": "string"
+        },
+        "format": {
+            "type": "string"
+        },
+        "layer": {
+            "type": "string"
+        }
+    },
+    "TerrainAffordanceDef": {
+        "affordanceOverlayColor": {
+            "type": "string"
+        },
+        "blockAffordanceOverlay": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "order": {
+            "type": "string"
+        },
+        "visualizeOnAffordanceOverlay": {
+            "type": "string"
+        }
+    },
+    "TimeAssignmentDef": {
+        "allowJoy": {
+            "type": "bool"
+        },
+        "allowRest": {
+            "type": "bool"
+        },
+        "color": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "TipSetDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "tips": {
+            "type": "string"
+        }
+    },
+    "TransferableSorterDef": {
+        "comparerClass": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "TrainabilityDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "intelligenceOrder": {
+            "type": "string"
+        }
+    },
+    "WorkGiverEquivalenceGroupDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "PlanetLayerSettingsDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "settings": {
+            "type": "string"
+        }
+    },
+    "PathGridDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "fencePassable": {
+            "type": "string"
+        },
+        "flying": {
+            "type": "string"
+        }
+    },
+    "PawnCapacityDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "labelAnomalyEntity": {
+            "type": "string"
+        },
+        "labelDrones": {
+            "type": "string"
+        },
+        "labelMechanoids": {
+            "type": "string"
+        },
+        "lethalFlesh": {
+            "type": "string"
+        },
+        "lethalMechanoids": {
+            "type": "string"
+        },
+        "listOrder": {
+            "type": "string"
+        },
+        "minForCapable": {
+            "type": "string"
+        },
+        "minValue": {
+            "type": "float"
+        },
+        "showOnAnimals": {
+            "type": "string"
+        },
+        "showOnAnomalyEntities": {
+            "type": "string"
+        },
+        "showOnCaravanHealthTab": {
+            "type": "string"
+        },
+        "showOnDrones": {
+            "type": "string"
+        },
+        "showOnMechanoids": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        },
+        "zeroIfCannotBeAwake": {
+            "type": "string"
+        }
+    },
+    "PawnKindDef": {
+        "abilities": {
+            "type": "string"
+        },
+        "acceptArrestChanceFactor": {
+            "type": "float"
+        },
+        "allowRoyalApparelRequirements": {
+            "type": "bool"
+        },
+        "allowRoyalRoomRequirements": {
+            "type": "bool"
+        },
+        "alternateGraphicChance": {
+            "type": "string"
+        },
+        "alternateGraphics": {
+            "type": "string"
+        },
+        "apparelAllowHeadgearChance": {
+            "type": "string"
+        },
+        "apparelColor": {
+            "type": "string"
+        },
+        "apparelDisallowTags": {
+            "type": "string"
+        },
+        "apparelIgnorePollution": {
+            "type": "string"
+        },
+        "apparelIgnoreSeasons": {
+            "type": "string"
+        },
+        "apparelMoney": {
+            "type": "string"
+        },
+        "apparelRequired": {
+            "type": "string"
+        },
+        "apparelTags": {
+            "type": "string"
+        },
+        "backstoryCryptosleepCommonality": {
+            "type": "string"
+        },
+        "backstoryFilters": {
+            "type": "string"
+        },
+        "backstoryFiltersOverride": {
+            "type": "string"
+        },
+        "biocodeWeaponChance": {
+            "type": "string"
+        },
+        "canArriveManhunter": {
+            "type": "bool"
+        },
+        "canBeSapper": {
+            "type": "bool"
+        },
+        "chemicalAddictionChance": {
+            "type": "string"
+        },
+        "combatEnhancingDrugsChance": {
+            "type": "string"
+        },
+        "combatEnhancingDrugsCount": {
+            "type": "int"
+        },
+        "combatPower": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultFactionDef": {
+            "type": "DefRef",
+            "targetType": "defaultFactionDef"
+        },
+        "defendPointRadius": {
+            "type": "string"
+        },
+        "disallowedTraits": {
+            "type": "string"
+        },
+        "ecoSystemWeight": {
+            "type": "string"
+        },
+        "factionHostileOnDeath": {
+            "type": "string"
+        },
+        "factionLeader": {
+            "type": "string"
+        },
+        "favoriteColor": {
+            "type": "string"
+        },
+        "flyingAnimationDrawSize": {
+            "type": "string"
+        },
+        "flyingAnimationDrawSizeIsMultiplier": {
+            "type": "string"
+        },
+        "flyingAnimationFrameCount": {
+            "type": "int"
+        },
+        "flyingAnimationFramePathPrefix": {
+            "type": "string"
+        },
+        "flyingAnimationFramePathPrefixFemale": {
+            "type": "string"
+        },
+        "flyingAnimationInheritColors": {
+            "type": "string"
+        },
+        "flyingAnimationTicksPerFrame": {
+            "type": "string"
+        },
+        "forceNormalGearQuality": {
+            "type": "string"
+        },
+        "gearHealthRange": {
+            "type": "string"
+        },
+        "humanPregnancyChance": {
+            "type": "string"
+        },
+        "ignoreIdeoApparelColors": {
+            "type": "string"
+        },
+        "initialResistanceRange": {
+            "type": "string"
+        },
+        "initialWillRange": {
+            "type": "string"
+        },
+        "invFoodDef": {
+            "type": "DefRef",
+            "targetType": "invFoodDef"
+        },
+        "invNutrition": {
+            "type": "string"
+        },
+        "inventoryOptions": {
+            "type": "string"
+        },
+        "isFighter": {
+            "type": "bool"
+        },
+        "isGoodBreacher": {
+            "type": "bool"
+        },
+        "itemQuality": {
+            "type": "string"
+        },
+        "labelFemale": {
+            "type": "string"
+        },
+        "labelFemalePlural": {
+            "type": "string"
+        },
+        "labelMale": {
+            "type": "string"
+        },
+        "labelPlural": {
+            "type": "string"
+        },
+        "lifeStages": {
+            "type": "string"
+        },
+        "maxGenerationAge": {
+            "type": "string"
+        },
+        "minGenerationAge": {
+            "type": "string"
+        },
+        "minTitleRequired": {
+            "type": "string"
+        },
+        "race": {
+            "type": "string"
+        },
+        "requiredWorkTags": {
+            "type": "string"
+        },
+        "royalTitleChance": {
+            "type": "string"
+        },
+        "skills": {
+            "type": "string"
+        },
+        "specificApparelRequirements": {
+            "type": "string"
+        },
+        "styleItemTags": {
+            "type": "string"
+        },
+        "techHediffsChance": {
+            "type": "string"
+        },
+        "techHediffsDisallowTags": {
+            "type": "string"
+        },
+        "techHediffsMaxAmount": {
+            "type": "string"
+        },
+        "techHediffsMoney": {
+            "type": "string"
+        },
+        "techHediffsRequired": {
+            "type": "string"
+        },
+        "techHediffsTags": {
+            "type": "string"
+        },
+        "titleRequired": {
+            "type": "string"
+        },
+        "titleSelectOne": {
+            "type": "string"
+        },
+        "trader": {
+            "type": "string"
+        },
+        "useFactionXenotypes": {
+            "type": "string"
+        },
+        "weaponMoney": {
+            "type": "string"
+        },
+        "weaponTags": {
+            "type": "string"
+        },
+        "wildGroupSize": {
+            "type": "string"
+        },
+        "xenotypeSet": {
+            "type": "string"
+        }
+    },
+    "PawnRelationDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "diedThought": {
+            "type": "string"
+        },
+        "diedThoughtFemale": {
+            "type": "string"
+        },
+        "familyByBloodRelation": {
+            "type": "string"
+        },
+        "generationChanceFactor": {
+            "type": "float"
+        },
+        "implied": {
+            "type": "string"
+        },
+        "importance": {
+            "type": "string"
+        },
+        "inbredChanceOnChild": {
+            "type": "string"
+        },
+        "incestOpinionOffset": {
+            "type": "string"
+        },
+        "killedThought": {
+            "type": "string"
+        },
+        "killedThoughtFemale": {
+            "type": "string"
+        },
+        "labelFemale": {
+            "type": "string"
+        },
+        "lostThought": {
+            "type": "string"
+        },
+        "lostThoughtFemale": {
+            "type": "string"
+        },
+        "opinionOffset": {
+            "type": "string"
+        },
+        "reflexive": {
+            "type": "string"
+        },
+        "romanceChanceFactor": {
+            "type": "float"
+        },
+        "soldThoughts": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "PawnRenderNodeTagDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "PawnRenderTreeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "root": {
+            "type": "string"
+        }
+    },
+    "PlanetLayerDef": {
+        "backgroundBiome": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "elevationString": {
+            "type": "string"
+        },
+        "gerundLabel": {
+            "type": "string"
+        },
+        "layerType": {
+            "type": "string"
+        },
+        "tileType": {
+            "type": "string"
+        },
+        "viewGizmoTexPath": {
+            "type": "string"
+        },
+        "viewGizmoTooltip": {
+            "type": "string"
+        },
+        "worldDrawLayers": {
+            "type": "string"
+        },
+        "worldGenSteps": {
+            "type": "string"
+        },
+        "worldTabs": {
+            "type": "string"
+        }
+    },
+    "IssueDef": {
+        "allowMultiplePrecepts": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "iconPath": {
+            "type": "string"
+        }
+    },
+    "PreceptDef": {
+        "abilityStatFactors": {
+            "type": "string"
+        },
+        "allowDuplicates": {
+            "type": "bool"
+        },
+        "allowOptionalRitualObligations": {
+            "type": "bool"
+        },
+        "apparelPreceptSwapDef": {
+            "type": "DefRef",
+            "targetType": "apparelPreceptSwapDef"
+        },
+        "approvesOfBlindness": {
+            "type": "string"
+        },
+        "approvesOfCharity": {
+            "type": "string"
+        },
+        "approvesOfSlavery": {
+            "type": "string"
+        },
+        "associatedMemes": {
+            "type": "string"
+        },
+        "biosculpterPodCycleSpeedFactor": {
+            "type": "float"
+        },
+        "blindPawnChance": {
+            "type": "string"
+        },
+        "blindPsychicSensitivityOffset": {
+            "type": "string"
+        },
+        "buildingDefChances": {
+            "type": "string"
+        },
+        "buildingMinExpectations": {
+            "type": "string"
+        },
+        "buildingRoomRequirements": {
+            "type": "string"
+        },
+        "buildingRoomRequirementsFixed": {
+            "type": "string"
+        },
+        "canGenerateAsSpecialPrecept": {
+            "type": "bool"
+        },
+        "canRemoveInUI": {
+            "type": "bool"
+        },
+        "canUseAlreadyUsedThingDef": {
+            "type": "DefRef",
+            "targetType": "canUseAlreadyUsedThingDef"
+        },
+        "capitalizeAsTitle": {
+            "type": "string"
+        },
+        "classic": {
+            "type": "string"
+        },
+        "classicExtra": {
+            "type": "string"
+        },
+        "classicModeOnly": {
+            "type": "string"
+        },
+        "comps": {
+            "type": "Array",
+            "elementType": "CompProperties"
+        },
+        "conflictingMemes": {
+            "type": "string"
+        },
+        "convertPowerFactor": {
+            "type": "float"
+        },
+        "countsTowardsPreceptLimit": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultDrugPolicyOverride": {
+            "type": "string"
+        },
+        "defaultSelectionWeight": {
+            "type": "string"
+        },
+        "disablesNeeds": {
+            "type": "string"
+        },
+        "disallowFarmingCamps": {
+            "type": "string"
+        },
+        "disallowHuntingCamps": {
+            "type": "string"
+        },
+        "disallowLoggingCamps": {
+            "type": "string"
+        },
+        "disallowMiningCamps": {
+            "type": "string"
+        },
+        "displayOrderInImpact": {
+            "type": "string"
+        },
+        "displayOrderInIssue": {
+            "type": "string"
+        },
+        "enabledForNPCFactions": {
+            "type": "string"
+        },
+        "enablesNeeds": {
+            "type": "string"
+        },
+        "exclusionTags": {
+            "type": "string"
+        },
+        "expectationsOffset": {
+            "type": "string"
+        },
+        "extraTextPawnDeathLetter": {
+            "type": "string"
+        },
+        "genderPrefersNudity": {
+            "type": "string"
+        },
+        "grantedAbilities": {
+            "type": "string"
+        },
+        "iconIgnoresIdeoColor": {
+            "type": "string"
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "ignoreLimitsInEditMode": {
+            "type": "string"
+        },
+        "ignoreNameUniqueness": {
+            "type": "string"
+        },
+        "impact": {
+            "type": "string"
+        },
+        "issue": {
+            "type": "bool"
+        },
+        "leaderRole": {
+            "type": "string"
+        },
+        "likesHumanLeatherApparel": {
+            "type": "string"
+        },
+        "listedForRoles": {
+            "type": "string"
+        },
+        "maxCount": {
+            "type": "int"
+        },
+        "mergeRitualGizmosFromAllIdeos": {
+            "type": "string"
+        },
+        "nameMaker": {
+            "type": "string"
+        },
+        "notifyPlayerOnOpportunity": {
+            "type": "string"
+        },
+        "opposedWorkTypes": {
+            "type": "string"
+        },
+        "preceptClass": {
+            "type": "string"
+        },
+        "preceptInstanceCountCurve": {
+            "type": "string"
+        },
+        "prefersDarkness": {
+            "type": "string"
+        },
+        "prefersNudity": {
+            "type": "string"
+        },
+        "prefersSlabBed": {
+            "type": "string"
+        },
+        "receivesExpectationsQualityOffset": {
+            "type": "string"
+        },
+        "requiredMemes": {
+            "type": "string"
+        },
+        "requiredScars": {
+            "type": "string"
+        },
+        "restrictToSupremeGenderChance": {
+            "type": "string"
+        },
+        "ritualPatternBase": {
+            "type": "string"
+        },
+        "roleApparelRequirementCountCurve": {
+            "type": "string"
+        },
+        "roleApparelRequirements": {
+            "type": "string"
+        },
+        "roleDisabledWorkTags": {
+            "type": "string"
+        },
+        "roleEffects": {
+            "type": "string"
+        },
+        "roleRequiredWorkTagAny": {
+            "type": "string"
+        },
+        "roleRequiredWorkTags": {
+            "type": "string"
+        },
+        "roleRequirements": {
+            "type": "string"
+        },
+        "roleTags": {
+            "type": "string"
+        },
+        "roomRequirementCountCurve": {
+            "type": "string"
+        },
+        "selectionWeight": {
+            "type": "string"
+        },
+        "showRitualFloatMenuOption": {
+            "type": "string"
+        },
+        "sourceAbilityDef": {
+            "type": "DefRef",
+            "targetType": "sourceAbilityDef"
+        },
+        "sourcePawnRoleDef": {
+            "type": "DefRef",
+            "targetType": "sourcePawnRoleDef"
+        },
+        "statFactors": {
+            "type": "Dictionary",
+            "keyType": "string",
+            "valueType": "float"
+        },
+        "statOffsets": {
+            "type": "string"
+        },
+        "takeNameFrom": {
+            "type": "string"
+        },
+        "tipLabelOverride": {
+            "type": "string"
+        },
+        "useChoicesFromBuildingDefs": {
+            "type": "string"
+        },
+        "useCooldownFromAbilityGroupDef": {
+            "type": "DefRef",
+            "targetType": "useCooldownFromAbilityGroupDef"
+        },
+        "useRepeatPenalty": {
+            "type": "string"
+        },
+        "usesIdeoVisualEffects": {
+            "type": "string"
+        },
+        "visible": {
+            "type": "string"
+        },
+        "warnPlayerOnDesignateChopTree": {
+            "type": "string"
+        },
+        "warnPlayerOnDesignateMine": {
+            "type": "string"
+        },
+        "willingToConstructOtherIdeoBuildables": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "PrefabDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "edgeOnly": {
+            "type": "string"
+        },
+        "rotations": {
+            "type": "string"
+        },
+        "size": {
+            "type": "string"
+        },
+        "things": {
+            "type": "string"
+        }
+    },
+    "QuestScriptDef": {
+        "affectedByPoints": {
+            "type": "string"
+        },
+        "affectedByPopulation": {
+            "type": "string"
+        },
+        "autoAccept": {
+            "type": "string"
+        },
+        "canGiveRoyalFavor": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultChallengeRating": {
+            "type": "string"
+        },
+        "defaultCharity": {
+            "type": "string"
+        },
+        "defaultHidden": {
+            "type": "string"
+        },
+        "endOnColonyMove": {
+            "type": "string"
+        },
+        "epic": {
+            "type": "string"
+        },
+        "epicParent": {
+            "type": "string"
+        },
+        "everAcceptableInSpace": {
+            "type": "string"
+        },
+        "expireDaysRange": {
+            "type": "string"
+        },
+        "failedOrExpiredHistoryEvent": {
+            "type": "string"
+        },
+        "hideInvolvedFactionsInfo": {
+            "type": "string"
+        },
+        "isRootSpecial": {
+            "type": "bool"
+        },
+        "questAvailableLetterDef": {
+            "type": "DefRef",
+            "targetType": "questAvailableLetterDef"
+        },
+        "questContentRules": {
+            "type": "string"
+        },
+        "questDescriptionAndNameRules": {
+            "type": "string"
+        },
+        "questDescriptionRules": {
+            "type": "string"
+        },
+        "questNameRules": {
+            "type": "string"
+        },
+        "root": {
+            "type": "string"
+        },
+        "rootIncreasesPopulation": {
+            "type": "string"
+        },
+        "rootMinPoints": {
+            "type": "string"
+        },
+        "rootMinProgressScore": {
+            "type": "string"
+        },
+        "rootSelectionWeight": {
+            "type": "string"
+        },
+        "rootSelectionWeightFactorFromPointsCurve": {
+            "type": "string"
+        },
+        "sendAvailableLetter": {
+            "type": "string"
+        },
+        "successHistoryEvent": {
+            "type": "string"
+        }
+    },
+    "SurgeryOutcomeEffectDef": {
+        "comps": {
+            "type": "Array",
+            "elementType": "CompProperties"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "outcomes": {
+            "type": "string"
+        }
+    },
+    "ResearchProjectDef": {
+        "baseCost": {
+            "type": "float"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "discoveredLetterDisabledWhen": {
+            "type": "string"
+        },
+        "discoveredLetterText": {
+            "type": "string"
+        },
+        "discoveredLetterTitle": {
+            "type": "string"
+        },
+        "generalRules": {
+            "type": "string"
+        },
+        "heldByFactionCategoryTags": {
+            "type": "string"
+        },
+        "hiddenPrerequisites": {
+            "type": "string"
+        },
+        "hideWhen": {
+            "type": "string"
+        },
+        "prerequisites": {
+            "type": "string"
+        },
+        "recalculatePower": {
+            "type": "string"
+        },
+        "requiredResearchBuilding": {
+            "type": "string"
+        },
+        "requiredResearchFacilities": {
+            "type": "string"
+        },
+        "researchViewX": {
+            "type": "string"
+        },
+        "researchViewY": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "string"
+        },
+        "techLevel": {
+            "type": "string"
+        },
+        "techprintCommonality": {
+            "type": "string"
+        },
+        "techprintCount": {
+            "type": "int"
+        },
+        "techprintMarketValue": {
+            "type": "float"
+        }
+    },
+    "ResearchTabDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "generalDescription": {
+            "type": "string"
+        },
+        "generalTitle": {
+            "type": "string"
+        }
+    },
+    "RitualVisualEffectDef": {
+        "comps": {
+            "type": "Array",
+            "elementType": "CompProperties"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "tintColor": {
+            "type": "string"
+        }
+    },
+    "RitualOutcomeEffectDef": {
+        "allowAttachableOutcome": {
+            "type": "bool"
+        },
+        "comps": {
+            "type": "Array",
+            "elementType": "CompProperties"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "effecter": {
+            "type": "string"
+        },
+        "extraInfoLines": {
+            "type": "string"
+        },
+        "extraPredictedOutcomeDescriptions": {
+            "type": "string"
+        },
+        "filthCountToSpawn": {
+            "type": "string"
+        },
+        "filthDefToSpawn": {
+            "type": "string"
+        },
+        "fleckDef": {
+            "type": "DefRef",
+            "targetType": "fleckDef"
+        },
+        "fleckScaleRange": {
+            "type": "string"
+        },
+        "fleckVelocityAngle": {
+            "type": "string"
+        },
+        "fleckVelocitySpeed": {
+            "type": "string"
+        },
+        "flecksPerCell": {
+            "type": "string"
+        },
+        "givesDevelopmentPoints": {
+            "type": "string"
+        },
+        "honorFromQuality": {
+            "type": "string"
+        },
+        "maxQuality": {
+            "type": "string"
+        },
+        "minQuality": {
+            "type": "string"
+        },
+        "outcomeChances": {
+            "type": "string"
+        },
+        "startingQuality": {
+            "type": "string"
+        },
+        "warnOnLowQuality": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "RiverDef": {
+        "branches": {
+            "type": "string"
+        },
+        "debugOpacity": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "degradeChild": {
+            "type": "string"
+        },
+        "degradeThreshold": {
+            "type": "string"
+        },
+        "spawnChance": {
+            "type": "string"
+        },
+        "spawnFlowThreshold": {
+            "type": "string"
+        },
+        "widthOnMap": {
+            "type": "string"
+        },
+        "widthOnWorld": {
+            "type": "string"
+        }
+    },
+    "RoadDef": {
+        "ancientOnly": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "distortionFrequency": {
+            "type": "string"
+        },
+        "distortionIntensity": {
+            "type": "string"
+        },
+        "movementCostMultiplier": {
+            "type": "string"
+        },
+        "pathingMode": {
+            "type": "string"
+        },
+        "priority": {
+            "type": "string"
+        },
+        "roadGenSteps": {
+            "type": "string"
+        },
+        "tilesPerSegment": {
+            "type": "string"
+        },
+        "worldRenderSteps": {
+            "type": "string"
+        },
+        "worldTransitionGroup": {
+            "type": "string"
+        }
+    },
+    "RoadPathingDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "RoadWorldLayerDef": {
+        "color": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "order": {
+            "type": "string"
+        }
+    },
+    "RoomRoleDef": {
+        "avoidViewingArtIfUnowned": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "relatedStats": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "RoomStatDef": {
+        "curve": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayRounded": {
+            "type": "string"
+        },
+        "inputStat": {
+            "type": "string"
+        },
+        "isHidden": {
+            "type": "bool"
+        },
+        "roomlessScore": {
+            "type": "string"
+        },
+        "scoreStages": {
+            "type": "string"
+        },
+        "updatePriority": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "RuleDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "resolvers": {
+            "type": "string"
+        },
+        "symbol": {
+            "type": "string"
+        }
+    },
+    "ScenPartDef": {
+        "canBePlayerAddedRemoved": {
+            "type": "bool"
+        },
+        "canBeRandomlyAdded": {
+            "type": "bool"
+        },
+        "category": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "designatorType": {
+            "type": "string"
+        },
+        "durationRandomRange": {
+            "type": "string"
+        },
+        "gameCondition": {
+            "type": "string"
+        },
+        "gameConditionTargetsWorld": {
+            "type": "string"
+        },
+        "maxUses": {
+            "type": "string"
+        },
+        "pageClass": {
+            "type": "string"
+        },
+        "scenPartClass": {
+            "type": "string"
+        },
+        "selectionWeight": {
+            "type": "string"
+        },
+        "summaryPriority": {
+            "type": "string"
+        }
+    },
+    "ScenarioDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "scenario": {
+            "type": "string"
+        }
+    },
+    "ShipJobDef": {
+        "blocksDisposalIfQueuedUnspawned": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "jobClass": {
+            "type": "string"
+        }
+    },
+    "SitePartDef": {
+        "activeThreatDisturbanceFactor": {
+            "type": "float"
+        },
+        "applyFactionColorToSiteTexture": {
+            "type": "string"
+        },
+        "approachOrderString": {
+            "type": "string"
+        },
+        "approachingReportString": {
+            "type": "string"
+        },
+        "arrivedLetter": {
+            "type": "string"
+        },
+        "arrivedLetterDef": {
+            "type": "DefRef",
+            "targetType": "arrivedLetterDef"
+        },
+        "arrivedLetterHediffHyperlinks": {
+            "type": "string"
+        },
+        "badEvenIfNoMap": {
+            "type": "string"
+        },
+        "conditionCauserDef": {
+            "type": "DefRef",
+            "targetType": "conditionCauserDef"
+        },
+        "considerEnteringAsAttack": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultHidden": {
+            "type": "string"
+        },
+        "disallowsAutomaticDetectionTimerStart": {
+            "type": "string"
+        },
+        "excludesTags": {
+            "type": "string"
+        },
+        "expandingIconTexture": {
+            "type": "string"
+        },
+        "forceExitAndRemoveMapCountdownDurationDays": {
+            "type": "string"
+        },
+        "gravShipsCanLandOn": {
+            "type": "string"
+        },
+        "handlesWorldObjectTimeoutInspectString": {
+            "type": "string"
+        },
+        "ignoreIllegalLabelCharacterConfigError": {
+            "type": "string"
+        },
+        "increasesPopulation": {
+            "type": "string"
+        },
+        "lootTable": {
+            "type": "string"
+        },
+        "mainPartAllThreatsLabel": {
+            "type": "string"
+        },
+        "minFactionTechLevel": {
+            "type": "string"
+        },
+        "minMapSize": {
+            "type": "string"
+        },
+        "minThreatPoints": {
+            "type": "string"
+        },
+        "requiresFaction": {
+            "type": "string"
+        },
+        "selectionWeight": {
+            "type": "string"
+        },
+        "showFactionInInspectString": {
+            "type": "string"
+        },
+        "siteTexture": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "string"
+        },
+        "wantsThreatPoints": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "SketchResolverDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "isRoot": {
+            "type": "bool"
+        },
+        "resolver": {
+            "type": "string"
+        }
+    },
+    "SkillDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "disablingWorkTags": {
+            "type": "string"
+        },
+        "generalRules": {
+            "type": "string"
+        },
+        "lessonInteraction": {
+            "type": "string"
+        },
+        "listOrder": {
+            "type": "string"
+        },
+        "neverDisabledBasedOnWorkTypes": {
+            "type": "string"
+        },
+        "pawnCreatorSummaryVisible": {
+            "type": "string"
+        },
+        "skillLabel": {
+            "type": "string"
+        },
+        "usuallyDefinedInBackstories": {
+            "type": "string"
+        }
+    },
+    "StatCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayAllByDefault": {
+            "type": "string"
+        },
+        "displayOrder": {
+            "type": "string"
+        }
+    },
+    "StatDef": {
+        "alwaysHide": {
+            "type": "string"
+        },
+        "applyFactorsIfNegative": {
+            "type": "string"
+        },
+        "cacheable": {
+            "type": "string"
+        },
+        "capacityFactors": {
+            "type": "string"
+        },
+        "capacityOffsets": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultBaseValue": {
+            "type": "float"
+        },
+        "disableIfSkillDisabled": {
+            "type": "string"
+        },
+        "displayMaxWhenAboveOrEqual": {
+            "type": "string"
+        },
+        "displayPriorityInCategory": {
+            "type": "string"
+        },
+        "finalizeEquippedStatOffset": {
+            "type": "string"
+        },
+        "forInformationOnly": {
+            "type": "string"
+        },
+        "formatString": {
+            "type": "string"
+        },
+        "formatStringUnfinalized": {
+            "type": "string"
+        },
+        "hideAtValue": {
+            "type": "float"
+        },
+        "hideInClassicMode": {
+            "type": "string"
+        },
+        "labelForFullStatList": {
+            "type": "string"
+        },
+        "maxValue": {
+            "type": "float"
+        },
+        "minValue": {
+            "type": "float"
+        },
+        "minifiedThingInherits": {
+            "type": "string"
+        },
+        "neverDisabled": {
+            "type": "string"
+        },
+        "noSkillOffset": {
+            "type": "string"
+        },
+        "parts": {
+            "type": "string"
+        },
+        "postProcessCurve": {
+            "type": "string"
+        },
+        "postProcessStatFactors": {
+            "type": "string"
+        },
+        "roundToFiveOver": {
+            "type": "string"
+        },
+        "roundValue": {
+            "type": "float"
+        },
+        "scenarioRandomizable": {
+            "type": "string"
+        },
+        "showDevelopmentalStageFilter": {
+            "type": "string"
+        },
+        "showIfHediffsPresent": {
+            "type": "string"
+        },
+        "showIfModsLoaded": {
+            "type": "string"
+        },
+        "showIfModsLoadedAny": {
+            "type": "string"
+        },
+        "showIfUndefined": {
+            "type": "string"
+        },
+        "showNonAbstract": {
+            "type": "string"
+        },
+        "showOnAnimals": {
+            "type": "string"
+        },
+        "showOnDefaultValue": {
+            "type": "float"
+        },
+        "showOnDrones": {
+            "type": "string"
+        },
+        "showOnEntities": {
+            "type": "string"
+        },
+        "showOnMechanoids": {
+            "type": "string"
+        },
+        "showOnNonPowerPlants": {
+            "type": "string"
+        },
+        "showOnNonWildManHumanlikes": {
+            "type": "string"
+        },
+        "showOnNonWorkTables": {
+            "type": "string"
+        },
+        "showOnPawnKind": {
+            "type": "string"
+        },
+        "showOnPawns": {
+            "type": "string"
+        },
+        "showOnPlayerMechanoids": {
+            "type": "string"
+        },
+        "showOnSlavesOnly": {
+            "type": "string"
+        },
+        "showOnUnhaulables": {
+            "type": "string"
+        },
+        "showOnUntradeables": {
+            "type": "string"
+        },
+        "showZeroBaseValue": {
+            "type": "float"
+        },
+        "skillNeedFactors": {
+            "type": "string"
+        },
+        "skillNeedOffsets": {
+            "type": "string"
+        },
+        "statFactors": {
+            "type": "Dictionary",
+            "keyType": "string",
+            "valueType": "float"
+        },
+        "supressDisabledError": {
+            "type": "string"
+        },
+        "toStringStyle": {
+            "type": "string"
+        },
+        "toStringStyleUnfinalized": {
+            "type": "string"
+        },
+        "valueIfMissing": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "IncidentDef": {
+        "allowedBiomes": {
+            "type": "bool"
+        },
+        "baseChance": {
+            "type": "string"
+        },
+        "baseChanceWithRoyalty": {
+            "type": "string"
+        },
+        "canOccurOnAllPlanetLayers": {
+            "type": "bool"
+        },
+        "category": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "disabledWhen": {
+            "type": "string"
+        },
+        "disallowedBiomes": {
+            "type": "string"
+        },
+        "diseaseDevelopmentStage": {
+            "type": "string"
+        },
+        "diseaseIncident": {
+            "type": "string"
+        },
+        "diseaseLethalLetterText": {
+            "type": "string"
+        },
+        "diseaseMaxVictims": {
+            "type": "string"
+        },
+        "diseasePartsToAffect": {
+            "type": "string"
+        },
+        "diseaseVictimFractionRange": {
+            "type": "string"
+        },
+        "durationDays": {
+            "type": "string"
+        },
+        "earliestDay": {
+            "type": "string"
+        },
+        "gameCondition": {
+            "type": "string"
+        },
+        "ignoreRecentSelectionWeighting": {
+            "type": "string"
+        },
+        "letterDef": {
+            "type": "DefRef",
+            "targetType": "letterDef"
+        },
+        "letterHyperlinkHediffDefs": {
+            "type": "string"
+        },
+        "letterLabel": {
+            "type": "string"
+        },
+        "letterSingularForm": {
+            "type": "string"
+        },
+        "letterText": {
+            "type": "string"
+        },
+        "mechClusterBuilding": {
+            "type": "string"
+        },
+        "minGreatestPopulation": {
+            "type": "string"
+        },
+        "minPopulation": {
+            "type": "string"
+        },
+        "minRefireDays": {
+            "type": "string"
+        },
+        "minThreatPoints": {
+            "type": "string"
+        },
+        "mtbDaysByBiome": {
+            "type": "string"
+        },
+        "pawnFixedGender": {
+            "type": "string"
+        },
+        "pawnKind": {
+            "type": "string"
+        },
+        "pawnMustBeCapableOfViolence": {
+            "type": "string"
+        },
+        "pointsScaleable": {
+            "type": "string"
+        },
+        "populationEffect": {
+            "type": "string"
+        },
+        "questScriptDef": {
+            "type": "DefRef",
+            "targetType": "questScriptDef"
+        },
+        "refireCheckTags": {
+            "type": "string"
+        },
+        "requireColonistsPresent": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "string"
+        },
+        "tale": {
+            "type": "string"
+        },
+        "targetTags": {
+            "type": "string"
+        },
+        "treeDef": {
+            "type": "DefRef",
+            "targetType": "treeDef"
+        },
+        "treeGenStepDef": {
+            "type": "DefRef",
+            "targetType": "treeGenStepDef"
+        },
+        "treeGrowth": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "WorldObjectDef": {
+        "IncidentTargetTags": {
+            "type": "string"
+        },
+        "allowCaravanIncidentsWhichGenerateMap": {
+            "type": "bool"
+        },
+        "blockExitGridUntilBattleIsWon": {
+            "type": "string"
+        },
+        "canBePlayerHome": {
+            "type": "bool"
+        },
+        "canHaveMap": {
+            "type": "bool"
+        },
+        "comps": {
+            "type": "Array",
+            "elementType": "CompProperties"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "expandMore": {
+            "type": "string"
+        },
+        "expandingIcon": {
+            "type": "string"
+        },
+        "expandingIconDrawSize": {
+            "type": "string"
+        },
+        "expandingIconPriority": {
+            "type": "string"
+        },
+        "expandingIconTexture": {
+            "type": "string"
+        },
+        "fullyExpandedInSpace": {
+            "type": "string"
+        },
+        "inspectorTabs": {
+            "type": "string"
+        },
+        "isTempIncidentMapOwner": {
+            "type": "bool"
+        },
+        "mapGenerator": {
+            "type": "string"
+        },
+        "overrideMapSize": {
+            "type": "string"
+        },
+        "saved": {
+            "type": "string"
+        },
+        "texture": {
+            "type": "string"
+        },
+        "useDynamicDrawer": {
+            "type": "string"
+        },
+        "validLaunchTarget": {
+            "type": "string"
+        },
+        "worldObjectClass": {
+            "type": "string"
+        }
+    },
+    "RaidStrategyDef": {
+        "arrivalTextEnemy": {
+            "type": "string"
+        },
+        "arrivalTextFriendly": {
+            "type": "string"
+        },
+        "arriveModes": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "layerWhitelist": {
+            "type": "string"
+        },
+        "letterLabelEnemy": {
+            "type": "string"
+        },
+        "letterLabelFriendly": {
+            "type": "string"
+        },
+        "minPawns": {
+            "type": "string"
+        },
+        "pawnsCanBringFood": {
+            "type": "string"
+        },
+        "pointsFactorCurve": {
+            "type": "string"
+        },
+        "raidLootValueFactor": {
+            "type": "float"
+        },
+        "selectionWeightCurvesPerFaction": {
+            "type": "string"
+        },
+        "selectionWeightPerPointsCurve": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "StorytellerDef": {
+        "comps": {
+            "type": "Array",
+            "elementType": "CompProperties"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "disableAdaptiveTraining": {
+            "type": "string"
+        },
+        "disableAlerts": {
+            "type": "string"
+        },
+        "disablePermadeath": {
+            "type": "string"
+        },
+        "forcedDifficulty": {
+            "type": "string"
+        },
+        "listOrder": {
+            "type": "string"
+        },
+        "listVisible": {
+            "type": "string"
+        },
+        "populationIntentFactorFromPopCurve": {
+            "type": "string"
+        },
+        "portraitLarge": {
+            "type": "string"
+        },
+        "portraitTiny": {
+            "type": "string"
+        },
+        "tutorialMode": {
+            "type": "string"
+        }
+    },
+    "TaleDef": {
+        "baseInterest": {
+            "type": "string"
+        },
+        "colonistOnly": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defSymbol": {
+            "type": "string"
+        },
+        "defType": {
+            "type": "string"
+        },
+        "expireDays": {
+            "type": "string"
+        },
+        "firstPawnSymbol": {
+            "type": "string"
+        },
+        "historyGraphColor": {
+            "type": "string"
+        },
+        "ignoreChance": {
+            "type": "string"
+        },
+        "maxPerPawn": {
+            "type": "string"
+        },
+        "rulePack": {
+            "type": "string"
+        },
+        "secondPawnSymbol": {
+            "type": "string"
+        },
+        "taleClass": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "usableForArt": {
+            "type": "string"
+        },
+        "usableWithChildren": {
+            "type": "string"
+        }
+    },
+    "TattooDef": {
+        "category": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "noGraphic": {
+            "type": "string"
+        },
+        "styleTags": {
+            "type": "string"
+        },
+        "tattooType": {
+            "type": "string"
+        },
+        "texPath": {
+            "type": "string"
+        },
+        "visibleNorth": {
+            "type": "string"
+        }
+    },
+    "TerrainDef": {
+        "affordances": {
+            "type": "string"
+        },
+        "avoidWander": {
+            "type": "string"
+        },
+        "bridgePropsPath": {
+            "type": "string"
+        },
+        "burnedDef": {
+            "type": "DefRef",
+            "targetType": "burnedDef"
+        },
+        "canEverTerraform": {
+            "type": "bool"
+        },
+        "canFreeze": {
+            "type": "bool"
+        },
+        "canGenerateDefaultDesignator": {
+            "type": "bool"
+        },
+        "categoryType": {
+            "type": "string"
+        },
+        "color": {
+            "type": "string"
+        },
+        "constructEffect": {
+            "type": "string"
+        },
+        "constructionSkillPrerequisite": {
+            "type": "string"
+        },
+        "costList": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "designationCategory": {
+            "type": "string"
+        },
+        "designationHotKey": {
+            "type": "string"
+        },
+        "designatorDropdown": {
+            "type": "string"
+        },
+        "destroyOnBombDamageThreshold": {
+            "type": "string"
+        },
+        "dominantStyleCategory": {
+            "type": "string"
+        },
+        "drawStyleCategory": {
+            "type": "string"
+        },
+        "driesTo": {
+            "type": "string"
+        },
+        "edgeType": {
+            "type": "string"
+        },
+        "extinguishesFire": {
+            "type": "string"
+        },
+        "fertility": {
+            "type": "string"
+        },
+        "floodTerrain": {
+            "type": "string"
+        },
+        "forcePassableByFlyingPawns": {
+            "type": "string"
+        },
+        "generatedFilth": {
+            "type": "string"
+        },
+        "gravshipReplacementTerrain": {
+            "type": "string"
+        },
+        "isPaintable": {
+            "type": "bool"
+        },
+        "layerable": {
+            "type": "string"
+        },
+        "pathCost": {
+            "type": "float"
+        },
+        "placeWorkers": {
+            "type": "string"
+        },
+        "pollutedTexturePath": {
+            "type": "string"
+        },
+        "pollutionCloudColor": {
+            "type": "string"
+        },
+        "pollutionColor": {
+            "type": "string"
+        },
+        "pollutionOverlayScale": {
+            "type": "string"
+        },
+        "pollutionOverlayScrollSpeed": {
+            "type": "string"
+        },
+        "pollutionOverlayTexturePath": {
+            "type": "string"
+        },
+        "pollutionShaderType": {
+            "type": "string"
+        },
+        "pollutionTintColor": {
+            "type": "string"
+        },
+        "renderPrecedence": {
+            "type": "string"
+        },
+        "researchPrerequisites": {
+            "type": "string"
+        },
+        "resourcesFractionWhenDeconstructed": {
+            "type": "string"
+        },
+        "scatterType": {
+            "type": "string"
+        },
+        "spaceEdgeGraphicData": {
+            "type": "string"
+        },
+        "statBases": {
+            "type": "Dictionary",
+            "keyType": "string",
+            "valueType": "float"
+        },
+        "tags": {
+            "type": "string"
+        },
+        "takeFootprints": {
+            "type": "string"
+        },
+        "texturePath": {
+            "type": "string"
+        },
+        "tools": {
+            "type": "string"
+        },
+        "uiIconPath": {
+            "type": "string"
+        },
+        "uiOrder": {
+            "type": "string"
+        },
+        "waterBodyType": {
+            "type": "string"
+        },
+        "waterDepthShader": {
+            "type": "string"
+        },
+        "waterDepthShaderParameters": {
+            "type": "string"
+        }
+    },
+    "TerrainTemplateDef": {
+        "burnedDef": {
+            "type": "DefRef",
+            "targetType": "burnedDef"
+        },
+        "constructionSkillPrerequisite": {
+            "type": "string"
+        },
+        "costList": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "designatorDropdown": {
+            "type": "string"
+        },
+        "dominantStyleCategory": {
+            "type": "string"
+        },
+        "ignoreIllegalLabelCharacterConfigError": {
+            "type": "string"
+        },
+        "renderPrecedenceStart": {
+            "type": "string"
+        },
+        "researchPrerequisites": {
+            "type": "string"
+        },
+        "statBases": {
+            "type": "Dictionary",
+            "keyType": "string",
+            "valueType": "float"
+        },
+        "tags": {
+            "type": "string"
+        },
+        "texturePath": {
+            "type": "string"
+        },
+        "uiOrder": {
+            "type": "string"
+        }
+    },
+    "ThingCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "parent": {
+            "type": "string"
+        },
+        "resourceReadoutRoot": {
+            "type": "string"
+        }
+    },
+    "ThinkTreeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "thinkRoot": {
+            "type": "string"
+        }
+    },
+    "ToolCapacityDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "TraderKindDef": {
+        "category": {
+            "type": "string"
+        },
+        "commonality": {
+            "type": "string"
+        },
+        "commonalityMultFromPopulationIntent": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "faction": {
+            "type": "string"
+        },
+        "hideThingsNotWillingToTrade": {
+            "type": "string"
+        },
+        "orbital": {
+            "type": "string"
+        },
+        "permitRequiredForTrading": {
+            "type": "string"
+        },
+        "requestable": {
+            "type": "string"
+        },
+        "stockGenerators": {
+            "type": "string"
+        },
+        "tradeCurrency": {
+            "type": "string"
+        }
+    },
+    "TrainableDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "defaultTrainable": {
+            "type": "string"
+        },
+        "difficulty": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        },
+        "listPriority": {
+            "type": "string"
+        },
+        "minBodySize": {
+            "type": "string"
+        },
+        "prerequisites": {
+            "type": "string"
+        },
+        "requiredTrainability": {
+            "type": "string"
+        },
+        "steps": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "string"
+        }
+    },
+    "TraitDef": {
+        "allowOnHostileSpawn": {
+            "type": "bool"
+        },
+        "commonality": {
+            "type": "string"
+        },
+        "commonalityFemale": {
+            "type": "string"
+        },
+        "conflictingPassions": {
+            "type": "string"
+        },
+        "conflictingTraits": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "degreeDatas": {
+            "type": "string"
+        },
+        "disabledWorkTags": {
+            "type": "string"
+        },
+        "exclusionTags": {
+            "type": "string"
+        },
+        "forcedPassions": {
+            "type": "string"
+        },
+        "requiredWorkTags": {
+            "type": "string"
+        }
+    },
+    "ConceptDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "gameMode": {
+            "type": "string"
+        },
+        "helpText": {
+            "type": "string"
+        },
+        "helpTextController": {
+            "type": "string"
+        },
+        "highlightTags": {
+            "type": "string"
+        },
+        "needsOpportunity": {
+            "type": "string"
+        },
+        "opportunityDecays": {
+            "type": "string"
+        },
+        "priority": {
+            "type": "string"
+        }
+    },
+    "InstructionDef": {
+        "actionTagsAllowed": {
+            "type": "string"
+        },
+        "concept": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "endTutorial": {
+            "type": "string"
+        },
+        "eventTagInitiate": {
+            "type": "string"
+        },
+        "eventTagInitiateSource": {
+            "type": "string"
+        },
+        "eventTagsEnd": {
+            "type": "string"
+        },
+        "giveOnActivateCount": {
+            "type": "int"
+        },
+        "giveOnActivateDef": {
+            "type": "DefRef",
+            "targetType": "giveOnActivateDef"
+        },
+        "highlightTags": {
+            "type": "string"
+        },
+        "instructionClass": {
+            "type": "string"
+        },
+        "onMapInstruction": {
+            "type": "string"
+        },
+        "recipeDef": {
+            "type": "DefRef",
+            "targetType": "recipeDef"
+        },
+        "recipeTargetCount": {
+            "type": "int"
+        },
+        "rejectInputMessage": {
+            "type": "string"
+        },
+        "resetBuildDesignatorStuffs": {
+            "type": "string"
+        },
+        "startCentered": {
+            "type": "string"
+        },
+        "targetCount": {
+            "type": "int"
+        },
+        "text": {
+            "type": "string"
+        },
+        "textController": {
+            "type": "string"
+        },
+        "thingDef": {
+            "type": "DefRef",
+            "targetType": "thingDef"
+        }
+    },
+    "WeaponClassDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "WeatherDef": {
+        "accuracyMultiplier": {
+            "type": "string"
+        },
+        "ambientSounds": {
+            "type": "string"
+        },
+        "commonalityRainfallFactor": {
+            "type": "float"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "durationRange": {
+            "type": "string"
+        },
+        "eventMakers": {
+            "type": "string"
+        },
+        "favorability": {
+            "type": "string"
+        },
+        "isBad": {
+            "type": "bool"
+        },
+        "moveSpeedMultiplier": {
+            "type": "string"
+        },
+        "overlayClasses": {
+            "type": "string"
+        },
+        "perceivePriority": {
+            "type": "string"
+        },
+        "rainRate": {
+            "type": "float"
+        },
+        "repeatable": {
+            "type": "string"
+        },
+        "skyColorsDay": {
+            "type": "string"
+        },
+        "skyColorsDusk": {
+            "type": "string"
+        },
+        "skyColorsNightEdge": {
+            "type": "string"
+        },
+        "skyColorsNightMid": {
+            "type": "string"
+        },
+        "snowRate": {
+            "type": "float"
+        },
+        "temperatureRange": {
+            "type": "string"
+        },
+        "weatherThought": {
+            "type": "string"
+        },
+        "windSpeedFactor": {
+            "type": "float"
+        },
+        "windSpeedOffset": {
+            "type": "string"
+        }
+    },
+    "WorkGiverDef": {
+        "autoTakeablePriorityDrafted": {
+            "type": "string"
+        },
+        "billGiversAllAnimals": {
+            "type": "string"
+        },
+        "billGiversAllAnimalsCorpses": {
+            "type": "string"
+        },
+        "billGiversAllHumanlikes": {
+            "type": "string"
+        },
+        "billGiversAllHumanlikesCorpses": {
+            "type": "string"
+        },
+        "canBeDoneByMechs": {
+            "type": "bool"
+        },
+        "canBeDoneWhileDrafted": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "directOrderable": {
+            "type": "string"
+        },
+        "doesSmoothing": {
+            "type": "string"
+        },
+        "emergency": {
+            "type": "string"
+        },
+        "equivalenceGroup": {
+            "type": "string"
+        },
+        "feedAnimalsOnly": {
+            "type": "string"
+        },
+        "feedHumanlikesOnly": {
+            "type": "string"
+        },
+        "fixedBillGiverDefs": {
+            "type": "string"
+        },
+        "forceFleck": {
+            "type": "string"
+        },
+        "gerund": {
+            "type": "string"
+        },
+        "giverClass": {
+            "type": "string"
+        },
+        "nonColonistsCanDo": {
+            "type": "string"
+        },
+        "prioritizeSustains": {
+            "type": "string"
+        },
+        "priorityInType": {
+            "type": "string"
+        },
+        "requiredCapacities": {
+            "type": "string"
+        },
+        "scanCells": {
+            "type": "string"
+        },
+        "scanThings": {
+            "type": "string"
+        },
+        "scannerDef": {
+            "type": "DefRef",
+            "targetType": "scannerDef"
+        },
+        "tagToGive": {
+            "type": "string"
+        },
+        "verb": {
+            "type": "string"
+        },
+        "workTags": {
+            "type": "string"
+        },
+        "workType": {
+            "type": "string"
+        }
+    },
+    "WorkTypeDef": {
+        "alwaysStartActive": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "disabledForSlaves": {
+            "type": "string"
+        },
+        "gerundLabel": {
+            "type": "string"
+        },
+        "labelShort": {
+            "type": "string"
+        },
+        "naturalPriority": {
+            "type": "string"
+        },
+        "pawnLabel": {
+            "type": "string"
+        },
+        "relevantSkills": {
+            "type": "string"
+        },
+        "requireCapableColonist": {
+            "type": "string"
+        },
+        "verb": {
+            "type": "string"
+        },
+        "workTags": {
+            "type": "string"
+        }
+    },
+    "WorldGenStepDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "order": {
+            "type": "string"
+        },
+        "worldGenStep": {
+            "type": "string"
+        }
+    },
+    "AbilityGroupDef": {
+        "cooldownTicks": {
+            "type": "int"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "ritualRoleIds": {
+            "type": "string"
+        },
+        "sendMessageOnCooldownComplete": {
+            "type": "string"
+        }
+    },
+    "AbilityDef": {
+        "canUseAoeToGetTargets": {
+            "type": "bool"
+        },
+        "casterMustBeCapableOfViolence": {
+            "type": "string"
+        },
+        "comps": {
+            "type": "Array",
+            "elementType": "CompProperties"
+        },
+        "confirmationDialogText": {
+            "type": "string"
+        },
+        "cooldownTicksRange": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "disableGizmoWhileUndrafted": {
+            "type": "string"
+        },
+        "displayGizmoWhileUndrafted": {
+            "type": "string"
+        },
+        "emissionInterval": {
+            "type": "string"
+        },
+        "emittedFleck": {
+            "type": "string"
+        },
+        "gizmoClass": {
+            "type": "string"
+        },
+        "groupDef": {
+            "type": "DefRef",
+            "targetType": "groupDef"
+        },
+        "hasExternallyHandledCooldown": {
+            "type": "string"
+        },
+        "hostile": {
+            "type": "string"
+        },
+        "hotKey": {
+            "type": "string"
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "jobDef": {
+            "type": "DefRef",
+            "targetType": "jobDef"
+        },
+        "level": {
+            "type": "string"
+        },
+        "overrideGroupCooldown": {
+            "type": "string"
+        },
+        "requiredMemes": {
+            "type": "string"
+        },
+        "sendMessageOnCooldownComplete": {
+            "type": "string"
+        },
+        "showCastingProgressBar": {
+            "type": "string"
+        },
+        "showGizmoOnWorldView": {
+            "type": "string"
+        },
+        "showPsycastEffects": {
+            "type": "string"
+        },
+        "showWhenDrafted": {
+            "type": "string"
+        },
+        "statBases": {
+            "type": "Dictionary",
+            "keyType": "string",
+            "valueType": "float"
+        },
+        "stunTargetWhileCasting": {
+            "type": "string"
+        },
+        "targetRequired": {
+            "type": "string"
+        },
+        "targetWorldCell": {
+            "type": "string"
+        },
+        "uiOrder": {
+            "type": "string"
+        },
+        "verbProperties": {
+            "type": "string"
+        },
+        "warmupMote": {
+            "type": "string"
+        },
+        "warmupMoteSocialSymbol": {
+            "type": "string"
+        },
+        "warmupPreEndSound": {
+            "type": "string"
+        },
+        "warmupPreEndSoundSeconds": {
+            "type": "string"
+        },
+        "warmupSound": {
+            "type": "string"
+        },
+        "warmupStartSound": {
+            "type": "string"
+        },
+        "writeCombatLog": {
+            "type": "string"
+        }
+    },
+    "GauranlenTreeModeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayedStats": {
+            "type": "string"
+        },
+        "drawPosition": {
+            "type": "string"
+        },
+        "hyperlinks": {
+            "type": "string"
+        },
+        "pawnKindDef": {
+            "type": "DefRef",
+            "targetType": "pawnKindDef"
+        },
+        "requiredMemes": {
+            "type": "string"
+        }
+    },
+    "IdeoFoundationDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "foundationClass": {
+            "type": "string"
+        }
+    },
+    "IdeoColorDef": {
+        "colorDef": {
+            "type": "DefRef",
+            "targetType": "colorDef"
+        },
+        "cultures": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "memes": {
+            "type": "string"
+        }
+    },
+    "IdeoIconDef": {
+        "cultures": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "memes": {
+            "type": "string"
+        }
+    },
+    "ComplexLayoutDef": {
+        "areaPrunePercent": {
+            "type": "string"
+        },
+        "canDisconnectRooms": {
+            "type": "bool"
+        },
+        "clearDoorFaction": {
+            "type": "string"
+        },
+        "corridorDef": {
+            "type": "DefRef",
+            "targetType": "corridorDef"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "minRoomHeight": {
+            "type": "string"
+        },
+        "minRoomWidth": {
+            "type": "string"
+        },
+        "rewardThingSetMakerDef": {
+            "type": "DefRef",
+            "targetType": "rewardThingSetMakerDef"
+        },
+        "roomDefs": {
+            "type": "string"
+        },
+        "threats": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "MemeGroupDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "drawOffset": {
+            "type": "string"
+        },
+        "maxRows": {
+            "type": "string"
+        },
+        "renderOrder": {
+            "type": "string"
+        },
+        "renderWithGap": {
+            "type": "string"
+        }
+    },
+    "MemeDef": {
+        "addDesignatorGroups": {
+            "type": "string"
+        },
+        "addDesignators": {
+            "type": "string"
+        },
+        "agreeableTraits": {
+            "type": "string"
+        },
+        "allowDuringTutorial": {
+            "type": "bool"
+        },
+        "allowSymbolsFromDeity": {
+            "type": "bool"
+        },
+        "apparelRequirements": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "consumableBuildings": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "deityCount": {
+            "type": "int"
+        },
+        "deityNameMakerOverride": {
+            "type": "string"
+        },
+        "deityTypeMakerOverride": {
+            "type": "string"
+        },
+        "descriptionMaker": {
+            "type": "string"
+        },
+        "disagreeableTraits": {
+            "type": "string"
+        },
+        "exclusionTags": {
+            "type": "string"
+        },
+        "fixedDeityNameTypes": {
+            "type": "string"
+        },
+        "generalRules": {
+            "type": "string"
+        },
+        "groupDef": {
+            "type": "DefRef",
+            "targetType": "groupDef"
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "impact": {
+            "type": "string"
+        },
+        "preferredWeaponClasses": {
+            "type": "string"
+        },
+        "preventApparelRequirements": {
+            "type": "string"
+        },
+        "randomizationSelectionWeightFactor": {
+            "type": "float"
+        },
+        "renderOrder": {
+            "type": "string"
+        },
+        "replaceRitualsWithTags": {
+            "type": "string"
+        },
+        "replacementPatterns": {
+            "type": "string"
+        },
+        "requireAnyRitualSeat": {
+            "type": "string"
+        },
+        "requireOne": {
+            "type": "string"
+        },
+        "requiredRituals": {
+            "type": "string"
+        },
+        "ritualsToMake": {
+            "type": "string"
+        },
+        "selectOneOrNone": {
+            "type": "string"
+        },
+        "startingResearchProjects": {
+            "type": "string"
+        },
+        "styleItemTags": {
+            "type": "string"
+        },
+        "symbolPackOverride": {
+            "type": "string"
+        },
+        "symbolPacks": {
+            "type": "string"
+        },
+        "thingStyleCategories": {
+            "type": "string"
+        },
+        "veneratedAnimalsCountOffset": {
+            "type": "string"
+        },
+        "veneratedAnimalsCountOverride": {
+            "type": "string"
+        },
+        "worshipRoomLabel": {
+            "type": "string"
+        }
+    },
+    "PlaceDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "placeRules": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "string"
+        }
+    },
+    "RitualAttachableOutcomeEffectDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "disallowedRituals": {
+            "type": "string"
+        },
+        "effectDesc": {
+            "type": "string"
+        },
+        "letterInfoText": {
+            "type": "string"
+        },
+        "requiredFaction": {
+            "type": "string"
+        },
+        "requiredMemeAny": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "RitualPatternDef": {
+        "alwaysStartAnytime": {
+            "type": "string"
+        },
+        "canMergeGizmosFromDifferentIdeos": {
+            "type": "bool"
+        },
+        "canStartAnytime": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "descOverride": {
+            "type": "string"
+        },
+        "iconPathOverride": {
+            "type": "string"
+        },
+        "ignoreConsumableBuildingRequirement": {
+            "type": "string"
+        },
+        "layerBlacklist": {
+            "type": "string"
+        },
+        "maxTechLevel": {
+            "type": "string"
+        },
+        "mergeGizmosForObligations": {
+            "type": "string"
+        },
+        "minTechLevel": {
+            "type": "string"
+        },
+        "nameMaker": {
+            "type": "string"
+        },
+        "patternGroupTag": {
+            "type": "string"
+        },
+        "playsIdeoMusic": {
+            "type": "string"
+        },
+        "ritualBehavior": {
+            "type": "string"
+        },
+        "ritualExpectedDesc": {
+            "type": "string"
+        },
+        "ritualExpectedDescNoAdjective": {
+            "type": "string"
+        },
+        "ritualExplanation": {
+            "type": "string"
+        },
+        "ritualObligationTargetFilter": {
+            "type": "string"
+        },
+        "ritualObligationTriggers": {
+            "type": "string"
+        },
+        "ritualOnlyForIdeoMembers": {
+            "type": "string"
+        },
+        "ritualOutcomeEffect": {
+            "type": "string"
+        },
+        "ritualTargetFilter": {
+            "type": "string"
+        },
+        "shortDescOverride": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "string"
+        }
+    },
+    "IdeoPresetCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "groupLabel": {
+            "type": "string"
+        }
+    },
+    "IdeoPresetDef": {
+        "categoryDef": {
+            "type": "DefRef",
+            "targetType": "categoryDef"
+        },
+        "classicPlus": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "memes": {
+            "type": "string"
+        }
+    },
+    "RitualBehaviorDef": {
+        "cancellationTriggers": {
+            "type": "bool"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "durationTicks": {
+            "type": "int"
+        },
+        "letterText": {
+            "type": "string"
+        },
+        "letterTitle": {
+            "type": "string"
+        },
+        "maxEnhancerDistance": {
+            "type": "string"
+        },
+        "preceptRequirements": {
+            "type": "string"
+        },
+        "roles": {
+            "type": "string"
+        },
+        "soundDefsPerEnhancerCount": {
+            "type": "int"
+        },
+        "spectatorFilter": {
+            "type": "string"
+        },
+        "spectatorGerund": {
+            "type": "string"
+        },
+        "spectatorsLabel": {
+            "type": "string"
+        },
+        "stages": {
+            "type": "string"
+        },
+        "useVisualEffectsFromRoleIdIdeo": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "RitualObligationTargetFilterDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "maxDrumDistance": {
+            "type": "string"
+        },
+        "maxSpeakerDistance": {
+            "type": "string"
+        },
+        "minUnroofedCells": {
+            "type": "string"
+        },
+        "thingDefs": {
+            "type": "Array",
+            "elementType": "DefRef"
+        },
+        "unroofedCellSearchRadius": {
+            "type": "string"
+        },
+        "woodPerParticipant": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "RitualTargetFilterDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "fallBackToGatherSpot": {
+            "type": "string"
+        },
+        "fallbackToRitualSpot": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "IdeoStoryPatternDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "noCapitalizeFirstSentence": {
+            "type": "string"
+        },
+        "rules": {
+            "type": "string"
+        },
+        "segments": {
+            "type": "string"
+        }
+    },
+    "SlaveInteractionModeDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "listOrder": {
+            "type": "string"
+        }
+    },
+    "StyleCategoryDef": {
+        "addDesignatorGroups": {
+            "type": "string"
+        },
+        "addDesignators": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "iconPath": {
+            "type": "string"
+        },
+        "ritualVisualEffectDef": {
+            "type": "DefRef",
+            "targetType": "ritualVisualEffectDef"
+        },
+        "soundOngoingRitual": {
+            "type": "string"
+        },
+        "thingDefStyles": {
+            "type": "string"
+        }
+    },
+    "ThingStyleDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "graphicData": {
+            "type": "string"
+        },
+        "overrideLabel": {
+            "type": "string"
+        },
+        "uiIconPath": {
+            "type": "string"
+        },
+        "uiIconScale": {
+            "type": "string"
+        },
+        "wornGraphicPath": {
+            "type": "string"
+        }
+    },
+    "WeaponClassPairDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "first": {
+            "type": "string"
+        },
+        "second": {
+            "type": "string"
+        }
+    },
+    "AbilityCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "displayOrder": {
+            "type": "string"
+        }
+    },
+    "RoyalTitlePermitDef": {
+        "cooldownDays": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "faction": {
+            "type": "string"
+        },
+        "layerBlacklist": {
+            "type": "string"
+        },
+        "minTitle": {
+            "type": "string"
+        },
+        "permitPointCost": {
+            "type": "float"
+        },
+        "prerequisite": {
+            "type": "string"
+        },
+        "royalAid": {
+            "type": "string"
+        },
+        "uiPosition": {
+            "type": "string"
+        },
+        "usableOnWorldMap": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    },
+    "RoyalTitleDef": {
+        "allowDignifiedMeditationFocus": {
+            "type": "bool"
+        },
+        "awardWorkerClass": {
+            "type": "string"
+        },
+        "bedroomRequirements": {
+            "type": "string"
+        },
+        "canBeInherited": {
+            "type": "bool"
+        },
+        "changeHeirQuestPoints": {
+            "type": "string"
+        },
+        "commonality": {
+            "type": "string"
+        },
+        "decreeMentalBreakCommonality": {
+            "type": "string"
+        },
+        "decreeMtbDays": {
+            "type": "string"
+        },
+        "decreeTags": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "disabledJoyKinds": {
+            "type": "string"
+        },
+        "disabledWorkTags": {
+            "type": "string"
+        },
+        "favorCost": {
+            "type": "float"
+        },
+        "foodRequirement": {
+            "type": "string"
+        },
+        "grantedAbilities": {
+            "type": "string"
+        },
+        "labelFemale": {
+            "type": "string"
+        },
+        "maxPsylinkLevel": {
+            "type": "string"
+        },
+        "minExpectation": {
+            "type": "string"
+        },
+        "permitPointsAwarded": {
+            "type": "string"
+        },
+        "permits": {
+            "type": "string"
+        },
+        "recruitmentResistanceOffset": {
+            "type": "string"
+        },
+        "replaceOnRecruited": {
+            "type": "string"
+        },
+        "requiredApparel": {
+            "type": "string"
+        },
+        "requiredMinimumApparelQuality": {
+            "type": "string"
+        },
+        "seniority": {
+            "type": "string"
+        },
+        "speechCooldown": {
+            "type": "string"
+        },
+        "suppressIdleAlert": {
+            "type": "string"
+        },
+        "throneRoomRequirements": {
+            "type": "string"
+        }
+    },
+    "TransportShipDef": {
+        "arrivingSkyfaller": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "leavingSkyfaller": {
+            "type": "string"
+        },
+        "maxLaunchDistance": {
+            "type": "string"
+        },
+        "shipThing": {
+            "type": "string"
+        },
+        "worldObject": {
+            "type": "string"
+        }
+    },
+    "WeaponCategoryDef": {
+        "defName": {
+            "type": "string",
+            "isKey": true
+        }
+    },
+    "WeaponTraitDef": {
+        "bondedHediffs": {
+            "type": "string"
+        },
+        "bondedThought": {
+            "type": "string"
+        },
+        "commonality": {
+            "type": "string"
+        },
+        "defName": {
+            "type": "string",
+            "isKey": true
+        },
+        "equippedHediffs": {
+            "type": "string"
+        },
+        "equippedStatOffsets": {
+            "type": "string"
+        },
+        "exclusionTags": {
+            "type": "string"
+        },
+        "killThought": {
+            "type": "string"
+        },
+        "marketValueOffset": {
+            "type": "string"
+        },
+        "neverBond": {
+            "type": "string"
+        },
+        "workerClass": {
+            "type": "string"
+        }
+    }
+}
