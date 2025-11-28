@@ -1,44 +1,59 @@
----
-title: Game Design Document (GDD)
-auteur: Manus AI
-date: 2025-11-28
-statut: Finalisé
----
-
 # Game Design Document (GDD)
 
-Ce dossier contient la documentation relative au **contenu, aux règles et à l'expérience de jeu** de GuildForge_Mobile. Il est la référence centrale pour le développement et assure une vision unifiée et cohérente du projet.
-
-## Structure et Systèmes de Jeu
-
-Le GDD est organisé en systèmes de jeu numérotés, reflétant la nouvelle structure et la priorité des systèmes.
-
-| Numéro | Système | Description |
-| :--- | :--- | :--- |
-| 00 | [Vision Globale](00_vision_globale.md) | Point de départ de la documentation. |
-| 01 | [Système Monde](01_systeme_monde/README.md) | La base du jeu (génération procédurale, biomes, factions). |
-| 02 | [Système Conteur IA](02_systeme_conteur_ia/README.md) | Le cœur de l'expérience de jeu (maîtres du récit, événements). |
-| 03 | [Système Personnages](03_systeme_personnages/README.md) | Les entités principales (création, compétences, besoins). |
-| 04 | [Système Faune et Flore](04_systeme_faune_et_flore/README.md) | Les ressources vivantes du monde. |
-| 05 | [Système Construction](05_systeme_construction/README.md) | La création de structures et de zones. |
-| 06 | [Système Ressources et Production](06_systeme_ressources_et_production/README.md) | La collecte et la transformation des ressources. |
-| 07 | [Système Recherche et Progression](07_systeme_recherche_et_progression/README.md) | L'évolution technologique et la progression du joueur. |
-| 08 | [Système Combat](08_systeme_combat/README.md) | Les mécaniques de combat et de défense. |
-| 09 | [Système Économie et Commerce](09_systeme_economie_et_commerce/README.md) | Les échanges et la gestion des valeurs. |
-| 10 | [Design Artistique](10_design_artistique/README.md) | La direction artistique et les assets visuels. |
-| 11 | [Design Audio](11_design_audio/README.md) | L'ambiance sonore et la musique. |
-| 12 | [Système Interface et UX](12_systeme_interface_et_ux/README.md) | L'interface utilisateur et l'expérience de jeu sur mobile. |
-
-## Conventions et Gouvernance
-
-*   **Propriétaire du Dossier (Prop. 7) :** Consultez le fichier `OWNERS.md` pour connaître le responsable de la cohérence de cette section.
-*   **Statut des Documents (Prop. 4, 10) :** Chaque document utilise un **YAML Front Matter** pour indiquer son statut (`Brouillon`, `En Revue`, `Finalisé`). Les documents en cours de travail peuvent également avoir la balise `[BROUILLON]` dans leur titre.
-*   **Liens (Prop. 9) :** Tous les liens entre les documents sont **relatifs** pour garantir leur portabilité et leur fonctionnement hors ligne.
-*   **Cohérence (Prop. 37, 105) :** Les noms de dossiers et de fichiers respectent la convention `snake_case` pour une meilleure compatibilité multi-plateforme.
-
-## Références Générales
-
-*   [Documentation Principale](../../README.md)
-*   [Conventions et Références](../PMD/CONVENTIONS_ET_REFERENCES/README.md)
-*   [Architecture Technique](../TDD/README.md)
-
+| Document | Statut |
+| :--- | :--- |
+| [00_vision_globale.md](./00_vision_globale.md) | Brouillon |
+| [01_systeme_monde/01_generation_procedurale.md](./01_systeme_monde/01_generation_procedurale.md) | Brouillon |
+| [01_systeme_monde/02_biomes_et_environnement.md](./01_systeme_monde/02_biomes_et_environnement.md) | Brouillon |
+| [01_systeme_monde/03_factions_et_relations.md](./01_systeme_monde/03_factions_et_relations.md) | Brouillon |
+| [01_systeme_monde/04_voyages_et_caravanes.md](./01_systeme_monde/04_voyages_et_caravanes.md) | Brouillon |
+| [01_systeme_monde/05_artefacts_et_lieux_anciens.md](./01_systeme_monde/05_artefacts_et_lieux_anciens.md) | Brouillon |
+| [02_systeme_conteur_ia/01_maitres_du_recit.md](./02_systeme_conteur_ia/01_maitres_du_recit.md) | Brouillon |
+| [02_systeme_conteur_ia/02_evenements_aleatoires.md](./02_systeme_conteur_ia/02_evenements_aleatoires.md) | Brouillon |
+| [02_systeme_conteur_ia/03_quetes_et_scenarios.md](./02_systeme_conteur_ia/03_quetes_et_scenarios.md) | Brouillon |
+| [03_systeme_personnages/01_creation_et_historique.md](./03_systeme_personnages/01_creation_et_historique.md) | Brouillon |
+| [03_systeme_personnages/02_competences_et_traits.md](./03_systeme_personnages/02_competences_et_traits.md) | Brouillon |
+| [03_systeme_personnages/03_besoins_et_humeur.md](./03_systeme_personnages/03_besoins_et_humeur.md) | Brouillon |
+| [03_systeme_personnages/04_sante_et_blessures.md](./03_systeme_personnages/04_sante_et_blessures.md) | Brouillon |
+| [03_systeme_personnages/05_relations_sociales.md](./03_systeme_personnages/05_relations_sociales.md) | Brouillon |
+| [03_systeme_personnages/06_equipement_et_inventaire.md](./03_systeme_personnages/06_equipement_et_inventaire.md) | Brouillon |
+| [03_systeme_personnages/07_cycle_de_vie.md](./03_systeme_personnages/07_cycle_de_vie.md) | Brouillon |
+| [03_systeme_personnages/08_gestion_quotidienne.md](./03_systeme_personnages/08_gestion_quotidienne.md) | Brouillon |
+| [04_systeme_faune_et_flore/01_animaux_sauvages_et_domestiques.md](./04_systeme_faune_et_flore/01_animaux_sauvages_et_domestiques.md) | Brouillon |
+| [04_systeme_faune_et_flore/02_plantes_et_cultures.md](./04_systeme_faune_et_flore/02_plantes_et_cultures.md) | Brouillon |
+| [05_systeme_construction/01_structures_et_mobilier.md](./05_systeme_construction/01_structures_et_mobilier.md) | Brouillon |
+| [05_systeme_construction/02_zones_et_ordres.md](./05_systeme_construction/02_zones_et_ordres.md) | Brouillon |
+| [05_systeme_construction/03_temperature_et_confort.md](./05_systeme_construction/03_temperature_et_confort.md) | Brouillon |
+| [06_systeme_ressources_et_production/01_collecte_et_extraction.md](./06_systeme_ressources_et_production/01_collecte_et_extraction.md) | Brouillon |
+| [06_systeme_ressources_et_production/02_agriculture_et_elevage.md](./06_systeme_ressources_et_production/02_agriculture_et_elevage.md) | Brouillon |
+| [06_systeme_ressources_et_production/03_artisanat_et_fabrication.md](./06_systeme_ressources_et_production/03_artisanat_et_fabrication.md) | Brouillon |
+| [06_systeme_ressources_et_production/04_gestion_des_stocks.md](./06_systeme_ressources_et_production/04_gestion_des_stocks.md) | Brouillon |
+| [06_systeme_ressources_et_production/05_catalogue_objets.md](./06_systeme_ressources_et_production/05_catalogue_objets.md) | Brouillon |
+| [07_systeme_recherche_et_progression/01_arbre_technologique_medieval.md](./07_systeme_recherche_et_progression/01_arbre_technologique_medieval.md) | Brouillon |
+| [07_systeme_recherche_et_progression/02_inspiration_et_decouvertes.md](./07_systeme_recherche_et_progression/02_inspiration_et_decouvertes.md) | Brouillon |
+| [08_systeme_combat/01_mecaniques_de_base.md](./08_systeme_combat/01_mecaniques_de_base.md) | Brouillon |
+| [08_systeme_combat/02_equipement_et_armement.md](./08_systeme_combat/02_equipement_et_armement.md) | Brouillon |
+| [08_systeme_combat/03_ia_et_comportement_combat.md](./08_systeme_combat/03_ia_et_comportement_combat.md) | Brouillon |
+| [08_systeme_combat/04_defense_de_la_colonie.md](./08_systeme_combat/04_defense_de_la_colonie.md) | Brouillon |
+| [09_systeme_economie_et_commerce/01_marche_et_valeurs.md](./09_systeme_economie_et_commerce/01_marche_et_valeurs.md) | Brouillon |
+| [09_systeme_economie_et_commerce/02_commerce_et_negociation.md](./09_systeme_economie_et_commerce/02_commerce_et_negociation.md) | Brouillon |
+| [10_design_artistique/animations/principes_animation.md](./10_design_artistique/animations/principes_animation.md) | Brouillon |
+| [10_design_artistique/animations/workflow_animation_godot.md](./10_design_artistique/animations/workflow_animation_godot.md) | Brouillon |
+| [10_design_artistique/charte_graphique/palette_couleurs.md](./10_design_artistique/charte_graphique/palette_couleurs.md) | Brouillon |
+| [10_design_artistique/charte_graphique/style_visuel.md](./10_design_artistique/charte_graphique/style_visuel.md) | Brouillon |
+| [10_design_artistique/charte_graphique/typographie.md](./10_design_artistique/charte_graphique/typographie.md) | Brouillon |
+| [10_design_artistique/concepts_references/concept_arts_personnages.md](./10_design_artistique/concepts_references/concept_arts_personnages.md) | Brouillon |
+| [10_design_artistique/concepts_references/references_environnement.md](./10_design_artistique/concepts_references/references_environnement.md) | Brouillon |
+| [10_design_artistique/modelisation_3d/conventions_nommage_modeles.md](./10_design_artistique/modelisation_3d/conventions_nommage_modeles.md) | Brouillon |
+| [10_design_artistique/modelisation_3d/export_integration_godot.md](./10_design_artistique/modelisation_3d/export_integration_godot.md) | Brouillon |
+| [10_design_artistique/modelisation_3d/optimisation_polycount.md](./10_design_artistique/modelisation_3d/optimisation_polycount.md) | Brouillon |
+| [10_design_artistique/textures_materiaux/creation_materiaux_godot.md](./10_design_artistique/textures_materiaux/creation_materiaux_godot.md) | Brouillon |
+| [10_design_artistique/textures_materiaux/formats_resolutions.md](./10_design_artistique/textures_materiaux/formats_resolutions.md) | Brouillon |
+| [11_design_audio/design_sonore/ambiance_effets_sonores.md](./11_design_audio/design_sonore/ambiance_effets_sonores.md) | Brouillon |
+| [11_design_audio/design_sonore/feedback_audio_ui.md](./11_design_audio/design_sonore/feedback_audio_ui.md) | Brouillon |
+| [11_design_audio/musique/integration_musique_godot.md](./11_design_audio/musique/integration_musique_godot.md) | Brouillon |
+| [11_design_audio/musique/themes_musicaux.md](./11_design_audio/musique/themes_musicaux.md) | Brouillon |
+| [11_design_audio/outils_et_workflow.md](./11_design_audio/outils_et_workflow.md) | Brouillon |
+| [12_systeme_interface_et_ux/01_principes_directeurs_mobile.md](./12_systeme_interface_et_ux/01_principes_directeurs_mobile.md) | Brouillon |
+| [12_systeme_interface_et_ux/02_maquettes_et_flux.md](./12_systeme_interface_et_ux/02_maquettes_et_flux.md) | Brouillon |
+| [OWNERS.md](./OWNERS.md) | Brouillon |

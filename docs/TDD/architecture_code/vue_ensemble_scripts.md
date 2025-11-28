@@ -1,3 +1,7 @@
+---
+Statut: Brouillon
+---
+
 # Vue d'ensemble des Modules de Scripts - GuildForge
 
 **Auteur :** IA Manus

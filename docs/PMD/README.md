@@ -1,37 +1,24 @@
----
-title: Project Management Document (PMD)
-auteur: Manus AI
-date: 2025-11-28
-statut: Finalisé
----
-
 # Project Management Document (PMD)
 
-Ce dossier contient la documentation relative à l'**organisation, la planification, les ressources, les risques et les aspects légaux/financiers** de GuildForge_Mobile.
-
-## Structure
-
-| Section | Description |
+| Document | Statut |
 | :--- | :--- |
-| [Budget et Ressources](budget_ressources/README.md) | Suivi budgétaire et gestion des ressources externes. |
-| [Communication et Workflow](communication_workflow/README.md) | Gestion des contributions, historique des décisions et stratégie de développement. |
-| [Conventions et Références](CONVENTIONS_ET_REFERENCES/README.md) | Conventions de nommage, glossaire, et lignes directrices de documentation. |
-| [Feuille de Route](feuille_route/README.md) | Backlog des fonctionnalités, jalons et objectifs. |
-| [Aspects Légaux](aspects_legaux.md) | Droits d'auteur, licences et autres considérations légales. |
-| [Monétisation](monetisation.md) | Stratégies et modèles de monétisation. |
-| [Rétrospectives](retrospectives/README.md) | Analyses post-mortem et leçons apprises. |
-| [Risques](risques.md) | Identification et gestion des risques du projet. |
-
-## Conventions et Gouvernance
-
-*   **Propriétaire du Dossier (Prop. 7) :** Consultez le fichier `OWNERS.md` pour connaître le responsable de la cohérence de cette section.
-*   **Statut des Documents (Prop. 4, 10) :** Chaque document utilise un **YAML Front Matter** pour indiquer son statut (`Brouillon`, `En Revue`, `Finalisé`). Les documents en cours de travail peuvent également avoir la balise `[BROUILLON]` dans leur titre.
-*   **Liens (Prop. 9) :** Tous les liens entre les documents sont **relatifs** pour garantir leur portabilité et leur fonctionnement hors ligne.
-*   **Cohérence (Prop. 37, 105) :** Les noms de dossiers et de fichiers respectent la convention `snake_case` pour une meilleure compatibilité multi-plateforme.
-
-## Références Générales
-
-*   [Documentation Principale](../../README.md)
-*   [Game Design Document](../GDD/README.md)
-*   [Technical Design Document](../TDD/README.md)
-
+| [OWNERS.md](./OWNERS.md) | Brouillon |
+| [aspects_legaux.md](./aspects_legaux.md) | Brouillon |
+| [budget_ressources/ressources_externes.md](./budget_ressources/ressources_externes.md) | Brouillon |
+| [budget_ressources/suivi_budgetaire.md](./budget_ressources/suivi_budgetaire.md) | Brouillon |
+| [communication_workflow/dev_report_analysis.md](./communication_workflow/dev_report_analysis.md) | Brouillon |
+| [communication_workflow/gestion_contributions.md](./communication_workflow/gestion_contributions.md) | Brouillon |
+| [communication_workflow/gestion_workflow.md](./communication_workflow/gestion_workflow.md) | Brouillon |
+| [communication_workflow/historique_decisions.md](./communication_workflow/historique_decisions.md) | Brouillon |
+| [conventions_et_references/CONVENTIONS_ASSETS_GENERAUX.md](./conventions_et_references/CONVENTIONS_ASSETS_GENERAUX.md) | Brouillon |
+| [conventions_et_references/CONVENTIONS_CONFIGURATION.md](./conventions_et_references/CONVENTIONS_CONFIGURATION.md) | Brouillon |
+| [conventions_et_references/CONVENTIONS_DOCUMENTATION_GENERALE.md](./conventions_et_references/CONVENTIONS_DOCUMENTATION_GENERALE.md) | Brouillon |
+| [conventions_et_references/conventions_codage.md](./conventions_et_references/conventions_codage.md) | Brouillon |
+| [conventions_et_references/conventions_nommage.md](./conventions_et_references/conventions_nommage.md) | Brouillon |
+| [conventions_et_references/glossaire.md](./conventions_et_references/glossaire.md) | Brouillon |
+| [conventions_et_references/templates/template_custom_resource.md](./conventions_et_references/templates/template_custom_resource.md) | Brouillon |
+| [conventions_et_references/templates/template_gdd_section.md](./conventions_et_references/templates/template_gdd_section.md) | Brouillon |
+| [feuille_route/backlog_fonctionnalites.md](./feuille_route/backlog_fonctionnalites.md) | Brouillon |
+| [feuille_route/jalons_objectifs.md](./feuille_route/jalons_objectifs.md) | Brouillon |
+| [monetisation.md](./monetisation.md) | Brouillon |
+| [risques.md](./risques.md) | Brouillon |

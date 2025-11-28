@@ -1,3 +1,7 @@
+---
+Statut: Brouillon
+---
+
 # Zones et Ordres de Construction
 
 Ce document détaillera la gestion des zones (stockage, culture, habitation, etc.) et le système d'ordres de construction, permettant aux joueurs de planifier et de prioriser les tâches de construction pour leurs colons.

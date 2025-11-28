@@ -1,35 +1,25 @@
----
-title: Technical Design Document (TDD)
-auteur: Manus AI
-date: 2025-11-28
-statut: Finalisé
----
-
 # Technical Design Document (TDD)
 
-Ce dossier contient la documentation relative à l'**architecture logicielle, aux outils, aux processus de build et aux tests** de GuildForge_Mobile. Il sert de référence pour tous les aspects techniques du projet.
-
-## Structure
-
-| Section | Description |
+| Document | Statut |
 | :--- | :--- |
-| [Architecture Code](architecture_code/README.md) | Principes de design logiciel, structure du projet Godot, gestion des données. |
-| [Déploiement et Tests](deploiement_tests/README.md) | Stratégies de tests, processus de build Android, déploiement sur les stores. |
-| [Données Externes](donnees_externes/data_definitions_xml_originaux.md) | Définitions des données externes utilisées par le jeu. |
-| [Optimisation Performance](optimisation_performance/README.md) | Stratégies d'optimisation et de profilage. |
-| [Outils et Environnement](outils_environnement/README.md) | Configuration de l'environnement de développement, Godot, gestion de versions. |
-| [Sécurité](securite.md) | Aspects liés à la sécurité du code et des données. |
-
-## Conventions et Gouvernance
-
-*   **Propriétaire du Dossier (Prop. 7) :** Consultez le fichier `OWNERS.md` pour connaître le responsable de la cohérence de cette section.
-*   **Statut des Documents (Prop. 4, 10) :** Chaque document utilise un **YAML Front Matter** pour indiquer son statut (`Brouillon`, `En Revue`, `Finalisé`). Les documents en cours de travail peuvent également avoir la balise `[BROUILLON]` dans leur titre.
-*   **Liens (Prop. 9) :** Tous les liens entre les documents sont **relatifs** pour garantir leur portabilité et leur fonctionnement hors ligne.
-*   **Cohérence (Prop. 37, 105) :** Les noms de dossiers et de fichiers respectent la convention `snake_case` pour une meilleure compatibilité multi-plateforme.
-
-## Références Générales
-
-*   [Documentation Principale](../../README.md)
-*   [Conventions et Références](../PMD/CONVENTIONS_ET_REFERENCES/README.md)
-*   [Game Design Document](../GDD/README.md)
-
+| [OWNERS.md](./OWNERS.md) | Brouillon |
+| [architecture_code/conception_axee_donnees.md](./architecture_code/conception_axee_donnees.md) | Brouillon |
+| [architecture_code/conventions_nommage_code.md](./architecture_code/conventions_nommage_code.md) | Brouillon |
+| [architecture_code/gestion_donnees_godot.md](./architecture_code/gestion_donnees_godot.md) | Brouillon |
+| [architecture_code/gestion_etat_jeu.md](./architecture_code/gestion_etat_jeu.md) | Brouillon |
+| [architecture_code/guide_integration_godot.md](./architecture_code/guide_integration_godot.md) | Brouillon |
+| [architecture_code/integration_ia_technique.md](./architecture_code/integration_ia_technique.md) | Brouillon |
+| [architecture_code/principes_design_logiciel.md](./architecture_code/principes_design_logiciel.md) | Brouillon |
+| [architecture_code/structure_projet_godot.md](./architecture_code/structure_projet_godot.md) | Brouillon |
+| [architecture_code/vue_ensemble_scripts.md](./architecture_code/vue_ensemble_scripts.md) | Brouillon |
+| [deploiement_tests/deploiement_stores.md](./deploiement_tests/deploiement_stores.md) | Brouillon |
+| [deploiement_tests/outils_debug.md](./deploiement_tests/outils_debug.md) | Brouillon |
+| [deploiement_tests/processus_build_android.md](./deploiement_tests/processus_build_android.md) | Brouillon |
+| [deploiement_tests/strategies_tests.md](./deploiement_tests/strategies_tests.md) | Brouillon |
+| [donnees_externes/data_definitions_xml_originaux.md](./donnees_externes/data_definitions_xml_originaux.md) | Brouillon |
+| [optimisation_performance/strategies_optimisation.md](./optimisation_performance/strategies_optimisation.md) | Brouillon |
+| [outils_environnement/configuration_environnement_mobile.md](./outils_environnement/configuration_environnement_mobile.md) | Brouillon |
+| [outils_environnement/configuration_godot.md](./outils_environnement/configuration_godot.md) | Brouillon |
+| [outils_environnement/gestion_versions_git.md](./outils_environnement/gestion_versions_git.md) | Brouillon |
+| [outils_environnement/outils_externes.md](./outils_environnement/outils_externes.md) | Brouillon |
+| [securite.md](./securite.md) | Brouillon |

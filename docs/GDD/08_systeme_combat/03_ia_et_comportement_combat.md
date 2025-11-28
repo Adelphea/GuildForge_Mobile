@@ -1,3 +1,7 @@
+---
+Statut: Brouillon
+---
+
 # IA et Comportement en Combat
 
 Ce document détaillera l'intelligence artificielle des ennemis et des colons en combat, leurs comportements tactiques, leurs réactions aux menaces et leurs priorités.

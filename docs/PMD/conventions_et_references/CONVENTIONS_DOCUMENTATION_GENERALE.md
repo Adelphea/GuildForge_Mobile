@@ -1,100 +1,109 @@
-# Conventions de Documentation Générale - GuildForge Mobile
+---
+Titre: Conventions de Documentation Générale
+Auteur: Manus AI
+Date: 28/11/2025
+Version: 2.0
+Statut: Brouillon
+---
+# Conventions de Documentation Générale
 
-**Auteur :** Manus AI
-**Date :** 28 Novembre 2025
-**Version :** 1.3 (Fusion de 1.2 et 1.1)
-**Tags :** [documentation, rédaction, Markdown, cohérence, qualité, conventions]
-
-Ce document établit les conventions de rédaction, de formatage et de structure pour l'ensemble de la documentation du projet GuildForge Mobile. Il vise à assurer la clarté, la cohérence et la maintenabilité de toutes les ressources documentaires.
+Ce document établit les conventions de style et de structure à respecter pour tous les documents Markdown du dépôt (GDD, TDD, PMD).
 
 ---
 
-## Table des Matières (Prop 9)
+## Historique des Révisions
 
-1.  [Introduction](#1-introduction)
-2.  [Principes Généraux de Rédaction](#2-principes-généraux-de-rédaction)
-3.  [Formatage Markdown](#3-formatage-markdown)
-4.  [Structure des Documents](#4-structure-des-documents)
-5.  [Métadonnées Obligatoires](#5-métadonnées-obligatoires)
-6.  [Gestion des Références et Liens](#6-gestion-des-références-et-liens)
-7.  [Mise à Jour et Maintenance](#7-mise-à-jour-et-maintenance)
-8.  [Historique des Révisions](#8-historique-des-révisions)
+| Version | Date | Auteur | Résumé du Changement |
+| :--- | :--- | :--- | :--- |
+| 2.0 | 28/11/2025 | Manus AI | Définition des conventions de structure (métadonnées YAML, TOC auto, blocs sémantiques, historique des révisions). |
+| 1.0 | 12/10/2025 | Auteur Initial | Création du document initial. |
+
+## Table des Matières
+
+1.  [Structure du Document](#1-structure-du-document)
+2.  [Contenu et Formatage](#2-contenu-et-formatage)
+3.  [Références](#3-références)
 
 ---
 
-## 1. Introduction
+## 1. Structure du Document
 
-Une documentation de haute qualité est aussi cruciale que le code lui-même. Elle sert de référence pour les développeurs, les concepteurs et toute personne impliquée dans le projet. Ces directives visent à standardiser la manière dont la documentation est créée et maintenue, en particulier dans un environnement où l'IA générative est un outil clé.
+### 1.1. Métadonnées (YAML Front Matter)
 
-## 2. Principes Généraux de Rédaction
+Chaque document Markdown doit commencer par un bloc de métadonnées pour la traçabilité et l'automatisation :
 
-*   **Clarté et Concision :** Rédiger des phrases claires, directes et concises. Éviter le jargon inutile et les tournures de phrases complexes.
-*   **Précision :** S'assurer que toutes les informations sont exactes et à jour. Vérifier les faits et les chiffres.
-*   **Cohérence :** Maintenir un ton, un style et une terminologie uniformes à travers tous les documents.
-*   **Public Cible :** Adapter le contenu au public visé (développeurs, concepteurs, etc.).
-*   **Langue :** La langue de travail principale est le français. Utiliser un français correct, sans fautes d'orthographe ou de grammaire.
-
-## 3. Formatage Markdown
-
-La documentation utilise le format Markdown pour sa simplicité et sa lisibilité. Respecter les conventions suivantes :
-
-*   **Titres :** Utiliser `#` pour les titres de niveau 1, `##` pour les titres de niveau 2, etc. (jusqu'à 3 ou 4 niveaux maximum).
-*   **Paragraphes :** Séparer les paragraphes par une ligne vide.
-*   **Listes :** Utiliser `*` ou `-` pour les listes non ordonnées, et `1.`, `2.` pour les listes ordonnées.
-*   **Blocs de Code :** Encadrer les blocs de code par des triple backticks (``````) et spécifier la langue (ex: ````gdscript`).
-*   **Texte en Gras/Italique :** Utiliser `**texte**` pour le gras et `*texte*` pour l'italique.
-*   **Liens :** Utiliser le format `[Texte du lien](URL_EXEMPLE_OU_CHEMIN_RELATIF_ICI) ` pour les liens externes et internes.
-*   **Tableaux :** Utiliser la syntaxe Markdown pour les tableaux afin d'organiser les données structurées.
-
-## 4. Structure des Documents
-
-Chaque document doit idéalement suivre une structure logique :
-
-1.  **En-tête de Métadonnées** (voir section 5).
-2.  **Titre Principal** (`#`).
-3.  **Table des Matières** (cliquable).
-4.  **Introduction** (résumé du contenu et objectif).
-5.  **Sections Détaillées** (corps du document).
-6.  **Références** (liens externes ou internes).
-7.  **Historique des Révisions** (voir section 8).
-
-## 5. Métadonnées Obligatoires (Prop 10)
-
-Chaque document doit commencer par les métadonnées suivantes, immédiatement après le titre principal :
-
-*   **Auteur :** Nom du rédacteur principal ou de l'équipe.
-*   **Date :** Date de la dernière révision majeure (format JJ Mois AAAA).
-*   **Version :** Numéro de version (ex: 1.0, 1.1, 2.0).
-*   **Tags :** Liste de mots-clés pertinents pour la recherche.
-
-Exemple :
-```markdown
-**Auteur :** Manus AI
-**Date :** 28 Novembre 2025
-**Version :** 1.0
-**Tags :** [gdd, système, monde, biomes]
+```yaml
+---
+Titre: Le Titre Complet du Document
+Auteur: Nom de l'Auteur
+Date: JJ/MM/AAAA
+Version: 1.0
+Statut: Brouillon # Doit être : Brouillon, En Revue, Finalisé
+---
 ```
 
-## 6. Gestion des Références et Liens
+### 1.2. Table des Matières (TOC)
 
-*   **Liens Relatifs :** Utiliser des chemins relatifs pour les liens internes au dépôt.
-*   **Liens Absolus :** Utiliser des liens absolus pour les références externes.
-*   **Vérification :** Les liens doivent être vérifiés à chaque révision majeure.
+Pour tout document de plus de 50 lignes, une Table des Matières doit être présente immédiatement après l'en-tête principal. Elle doit être générée automatiquement par l'outil de rendu (GitHub, MkDocs, etc.) en utilisant la syntaxe de titre standard.
 
-## 7. Mise à Jour et Maintenance
+### 1.3. Historique des Révisions
 
-*   **Fréquence :** Les documents doivent être révisés au moins une fois par phase de développement majeure.
-*   **Propriété :** Le responsable de la maintenance du document est listé dans le fichier `OWNERS.md` de la section parente.
+Une section "Historique des Révisions" doit être présente après l'introduction pour suivre l'évolution du contenu.
 
-## 8. Historique des Révisions
+| Version | Date | Auteur | Résumé du Changement |
+| :--- | :--- | :--- | :--- |
+| 1.0 | 01/01/2025 | Auteur Initial | Création du document. |
 
-(Cette section sera complétée par l'historique des versions précédentes.)
+### 1.4. Références
 
----
+La section de référence doit être structurée pour distinguer les sources internes et externes.
 
-## Références
+#### Références Internes
 
-*   [Principes Fondamentaux du Projet GuildForge Mobile](./PRINCIPES_FONDAMENTAUX.md)
+Liste des liens relatifs vers d'autres documents du dépôt.
+
+*   [Conventions de Codage GDScript](./conventions_codage.md)
+
+#### Références Externes
+
+Liste des liens absolus (URL complètes) vers des sources externes.
+
+*   [Documentation Godot Engine](https://docs.godotengine.org/)
+
+## 2. Contenu et Formatage
+
+### 2.1. Blocs de Code et Données
+
+*   **Code :** Tous les exemples de code doivent être dans des blocs de code avec la spécification du langage.
+    ```gdscript
+    # Exemple de code GDScript
+    var health: int = 100
+    ```
+*   **Tableaux :** Les tableaux sont obligatoires pour présenter toutes les données structurées (statistiques, listes de propriétés, etc.).
+
+### 2.2. Mise en Évidence Sémantique
+
+*   **Termes du Glossaire :** Les termes définis dans le glossaire doivent être mis en **gras** lors de leur première apparition dans un document.
+*   **Citations :** Utiliser les blocs de citation (`>`) pour les définitions et les citations.
+*   **Alertes :** Utiliser les blocs d'alerte pour les informations sémantiques :
+    *   **Note :** `> [!NOTE] Information contextuelle ou précision.`
+    *   **Avertissement :** `> [!WARNING] Point critique, décision sujette à changement ou dépendance non résolue.`
+
+### 2.3. Images et Schémas
+
+Toutes les images et schémas doivent être accompagnés d'une légende descriptive et d'une référence au fichier source (chemin relatif).
+
+```markdown
+![Diagramme de flux du système de combat](assets/combat_flow.png)
+```
+
+### 2.4. Liens
+
+*   **Liens Internes :** Doivent être **relatifs** (ex: `./conventions_codage.md`).
+*   **Liens Externes :** Doivent être **absolus** (URL complètes).
+
+## 3. Références
+
 *   [Conventions de Codage GDScript](./conventions_codage.md)
 *   [Conventions de Nommage des Fichiers et Dossiers](./conventions_nommage.md)
 *   [Conventions de Nommage des Assets Généraux](./CONVENTIONS_ASSETS_GENERAUX.md)

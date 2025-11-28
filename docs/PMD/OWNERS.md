@@ -1,3 +1,7 @@
+---
+Statut: Brouillon
+---
+
 # OWNERS - Responsables de la Documentation PMD
 
 Ce document désigne les responsables de la cohérence et de la maintenance du Project Management Document (PMD).

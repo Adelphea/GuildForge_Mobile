@@ -1,3 +1,7 @@
+---
+Statut: Brouillon
+---
+
 # Conception Axée sur les Données - GuildForge
 
 **Auteur :** Adelphea ; Manus IA

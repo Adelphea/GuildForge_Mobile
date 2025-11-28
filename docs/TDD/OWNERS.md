@@ -1,3 +1,7 @@
+---
+Statut: Brouillon
+---
+
 # OWNERS - Responsables de la Documentation TDD
 
 Ce document désigne les responsables de la cohérence et de la maintenance du Technical Design Document (TDD).

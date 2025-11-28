@@ -1,3 +1,7 @@
+---
+Statut: Brouillon
+---
+
 # Gestion de l'État du Jeu - GuildForge Mobile
 
 **Auteur :** IA Manus

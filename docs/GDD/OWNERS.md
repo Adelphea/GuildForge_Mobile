@@ -1,3 +1,7 @@
+---
+Statut: Brouillon
+---
+
 # Propriétaire du Dossier GDD
 
 Ce document désigne les responsables de la cohérence et de la maintenance du Game Design Document (GDD).

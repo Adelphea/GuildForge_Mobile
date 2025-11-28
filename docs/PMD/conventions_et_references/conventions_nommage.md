@@ -1,15 +1,32 @@
-# Conventions de Nommage des Fichiers et Dossiers - GuildForge Mobile
+---
+Statut: Brouillon
+---
+# Conventions de Nommage des Fichiers et Dossiers
 
 **Auteur :** Manus AI
-**Date :** 28 Novembre 2025
-**Version :** 1.2 (Révisée)
-**Tags :** [documentation, conventions, nommage, fichiers, dossiers]
+**Date :** 12 Octobre 2025
+**Version :** 1.1
+**Tags :** [nommage, fichiers, dossiers, organisation, conventions]
 
-Ce document établit les conventions de nommage à respecter pour les fichiers et dossiers du projet, à l'exclusion du code GDScript et des assets (voir documents dédiés).
+Ce document établit les conventions de nommage à respecter pour les fichiers et dossiers du projet, afin d'assurer une organisation claire et une cohérence dans l'arborescence.
 
 ---
 
-## 1. Fichiers et Dossiers (Documentation)
+## Historique des Révisions
+
+| Version | Date | Auteur | Résumé du Changement |
+| :--- | :--- | :--- | :--- |
+| 1.1 | 28/11/2025 | Manus AI | Application des conventions de nommage fichiers de données et structure de document. |
+
+## Table des Matières
+
+1.  [Fichiers et Dossiers de Documentation](#1-fichiers-et-dossiers-de-documentation)
+2.  [Fichiers de Données et Temporaires](#2-fichiers-de-données-et-temporaires)
+3.  [Références](#3-références)
+
+---
+
+## 1. Fichiers et Dossiers de Documentation
 
 | Élément | Convention | Exemple | Note |
 | :--- | :--- | :--- | :--- |
@@ -19,9 +36,15 @@ Ce document établit les conventions de nommage à respecter pour les fichiers e
 
 ---
 
-## 2. Fichiers de Données et Temporaires\n\n| Élément | Convention | Exemple | Note |\n| :--- | :--- | :--- | :--- |\n| **Fichiers de Données (JSON, XML)** | `snake_case` | `game_data_items.json` | Uniformité avec les fichiers Godot. |\n| **Fichiers Temporaires/Exemples** | Préfixe `_` | `_temp_test_data.json` | Préfixer par `_temp_` ou `_example_`. |\n\n## 3. Références
+## 2. Fichiers de Données et Temporaires
 
-*   [Principes Fondamentaux du Projet GuildForge Mobile](./PRINCIPES_FONDAMENTAUX.md)
+| Élément | Convention | Exemple | Note |
+| :--- | :--- | :--- | :--- |
+| **Fichiers de Données (JSON, XML)** | `snake_case` | `game_data_items.json` | Uniformité avec les fichiers Godot. |
+| **Fichiers Temporaires/Exemples** | Préfixe `_` | `_temp_test_data.json` | Préfixer par `_temp_` ou `_example_`. |
+
+## 3. Références
+
 *   [Conventions de Codage GDScript](./conventions_codage.md)
 *   [Conventions de Documentation Générale](./CONVENTIONS_DOCUMENTATION_GENERALE.md)
 *   [Conventions de Nommage des Assets Généraux](./CONVENTIONS_ASSETS_GENERAUX.md)

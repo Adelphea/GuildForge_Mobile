@@ -1,3 +1,6 @@
+---
+Statut: Brouillon
+---
 # Conventions de Codage GDScript - GuildForge Mobile
 
 **Auteur :** Manus AI
@@ -8,6 +11,12 @@
 Ce document détaille les conventions de codage spécifiques au GDScript pour le projet GuildForge Mobile. L'objectif est d'assurer la cohérence, la lisibilité et la maintenabilité du code, facilitant ainsi la collaboration et réduisant les erreurs.
 
 ---
+
+## Historique des Révisions
+
+| Version | Date | Auteur | Résumé du Changement |
+| :--- | :--- | :--- | :--- |
+| 1.1 | 28/11/2025 | Manus AI | Application des conventions de nommage CR, typage, et structure de document. |
 
 ## Table des Matières
 
@@ -44,11 +53,11 @@ Des conventions de codage uniformes sont essentielles pour tout projet collabora
 ### 3.1. Classes et Nœuds
 
 *   **Classes (fichiers .gd) :** Utiliser le `PascalCase` (ex: `PlayerController.gd`, `ItemDefinition.gd`). **Classes de Custom Resource :** Utiliser un suffixe explicite (ex: `ItemDefinition`, `BuildingData`).
-*   **Nœuds dans l'arbre de scène :** Utiliser le `PascalCase` (ex: `Player`, `EnemySpawner`). (Règle consolidée)
+*   **Nœuds dans l'arbre de scène :** Utiliser le `PascalCase` (ex: `Player`, `EnemySpawner`).
 
 ### 3.2. Variables
 
-*   **Variables/Propriétés :** Utiliser le `snake_case` (ex: `current_health`, `max_stack_size`). (Règle consolidée)
+*   **Variables/Propriétés :** Utiliser le `snake_case` (ex: `current_health`, `max_stack_size`).
 *   **Constantes :** Utiliser le `SCREAMING_SNAKE_CASE` (ex: `MAX_COLON_COUNT`, `DEFAULT_SPEED`). **Constantes Math/Physiques :** Utiliser un préfixe de domaine (ex: `MATH_PI`, `PHYSICS_GRAVITY`).
 *   **Variables exportées (`@export`) :** Utiliser le `snake_case`. **Variables Privées :** Utiliser un underscore de tête (ex: `_current_state`).
 
@@ -107,7 +116,21 @@ func get_player_name() -> String:
 ## 7. Gestion des Fichiers et Nœuds Spécifiques
 
 *   Chaque script GDScript doit idéalement contenir une seule classe ou un seul concept logique.
-*   Les scripts doivent être placés dans des dossiers logiques (ex: `scripts/player`, `scripts/items`).\n\n### 7.1. Nœuds et Chemins\n\n*   **Chemins de Nœuds :** Utiliser la syntaxe abrégée `$NodeName` ou `get_node("NodeName")`. **Interdire** les chemins absolus (`/root/...`).\n*   **Nommage UI :** Définir des préfixes pour les éléments d'interface utilisateur (UI) dans les scènes (ex: `Btn_`, `Lbl_`, `Pnl_`, `HBox_`).\n\n### 7.2. Groupes et Énumérations\n\n*   **Énumérations :** Nom de l'énumération en `PascalCase`, membres en `SCREAMING_SNAKE_CASE` (ex: `enum ItemType { WOOD, STONE }`).\n*   **Groupes Godot :** Utiliser `snake_case` avec un préfixe de domaine (ex: `group_enemies`, `group_ui_panels`).\n\n### 7.3. Singletons\n\n*   **Singletons (AutoLoad) :** Utiliser `PascalCase` pour le nom de la classe. S'assurer que le nom de fichier (`snake_case`) et le nom de classe sont cohérents.
+*   Les scripts doivent être placés dans des dossiers logiques (ex: `scripts/player`, `scripts/items`).
+
+### 7.1. Nœuds et Chemins
+
+*   **Chemins de Nœuds :** Utiliser la syntaxe abrégée `$NodeName` ou `get_node("NodeName")`. **Interdire** les chemins absolus (`/root/...`).
+*   **Nommage UI :** Définir des préfixes pour les éléments d'interface utilisateur (UI) dans les scènes (ex: `Btn_`, `Lbl_`, `Pnl_`, `HBox_`).
+
+### 7.2. Groupes et Énumérations
+
+*   **Énumérations :** Nom de l'énumération en `PascalCase`, membres en `SCREAMING_SNAKE_CASE` (ex: `enum ItemType { WOOD, STONE }`).
+*   **Groupes Godot :** Utiliser `snake_case` avec un préfixe de domaine (ex: `group_enemies`, `group_ui_panels`).
+
+### 7.3. Singletons
+
+*   **Singletons (AutoLoad) :** Utiliser `PascalCase` pour le nom de la classe. S'assurer que le nom de fichier (`snake_case`) et le nom de classe sont cohérents.
 
 ## 8. Références
 
@@ -115,4 +138,3 @@ func get_player_name() -> String:
 *   [Documentation Godot sur GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
 *   [GDScript Style Guide (non officiel mais utile)](https://github.com/godotengine/godot-docs/blob/master/contributing/gdscript_style_guide.rst)
 *   [Glossaire du Projet GuildForge Mobile](../../verite_unique/glossaire.md)
-
