@@ -1,3 +1,23 @@
+# Proposition de Consolidation : CONTRIBUTING.md
+
+## Objectif
+
+Consolider les informations de `CONTRIBUTING.md` et `docs/PMD/conventions_et_references/PRINCIPES_FONDAMENTAUX.md` en un seul fichier `CONTRIBUTING.md` à la racine du dépôt. Ce fichier servira de **point d'entrée unique** pour tout nouveau contributeur, couvrant à la fois la philosophie du projet et le guide pratique de contribution.
+
+## Structure Proposée pour le Nouveau CONTRIBUTING.md
+
+| Section | Source Principale | Contenu | Note |
+| :--- | :--- | :--- | :--- |
+| **1. Principes Fondamentaux** | `PRINCIPES_FONDAMENTAUX.md` | L'Introduction et les Principes Fondamentaux des Conventions (Cohérence, Lisibilité, Maintenabilité, Collaboration). | **Conservé intégralement** pour définir la philosophie. |
+| **2. Structure du Dépôt** | `CONTRIBUTING.md` (Section 1) | Le tableau GDD/TDD/PMD et leur rôle. | **Conservé intégralement** pour l'orientation. |
+| **3. Guide de Contribution** | `CONTRIBUTING.md` (Sections 2, 4, 5) | Instructions pratiques : Workflow Git, Numérotation des documents, Statut des documents. | **Conservé et réorganisé** pour le flux de travail. |
+| **4. Conventions de Référence** | `PRINCIPES_FONDAMENTAUX.md` (Section 3) | Liens directs vers les documents de conventions détaillés (`conventions_codage.md`, `conventions_nommage.md`, etc.). | **Conservé et mis en évidence** pour la clarté. |
+| **5. Gouvernance des Conventions** | `PRINCIPES_FONDAMENTAUX.md` (Section 4) | Le processus de validation et de mise à jour des conventions. | **Conservé intégralement** pour la formalisation. |
+| **Déplacement/Suppression** | `CONTRIBUTING.md` (Section 5) | La règle sur l'emplacement des assets (`/data`) est **obsolète** et sera déplacée dans `CONVENTIONS_ASSETS_GENERAUX.md` ou `TDD/architecture_code/structure_projet_godot.md`. | **Supprimé** du `CONTRIBUTING.md` racine. |
+
+## Proposition de Contenu (Nouveau CONTRIBUTING.md)
+
+```markdown
 # Guide de Contribution et Principes Fondamentaux - GuildForge Mobile
 
 Bienvenue contributeur ! Ce document est le point d'entrée essentiel pour toute personne souhaitant contribuer au projet GuildForge Mobile. Il établit la philosophie du projet et vous guide à travers le processus de contribution.
@@ -63,3 +83,4 @@ Toute modification ou ajout aux conventions doit suivre un processus de validati
 2.  **Revue :** La proposition est examinée par les *Owners* de la section concernée.
 3.  **Validation :** Après consensus, la convention est validée et intégrée.
 4.  **Mise à Jour :** Le document de convention est mis à jour et la version est incrémentée.
+```
