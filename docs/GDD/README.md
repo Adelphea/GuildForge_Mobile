@@ -1,33 +1,44 @@
-# Game Design Document Maître - GuildForge Mobile
-
-**Auteur :** Manus AI
-**Date :** 12 Octobre 2025
-**Version :** 2.4
-**Tags :** [game-design, GDD, vision, mécaniques, médiéval, mobile, optimisation]
-
-Ce Document de Conception de Jeu (GDD) Maître est la référence centrale pour le développement de GuildForge Mobile. Il décrit la vision du jeu, un jeu de gestion de colonie et de survie inspiré de RimWorld, se déroulant dans un univers **médiéval** sans éléments fantastiques ou de science-fiction. Ce GDD sert de portail vers des documents de conception plus détaillés, assurant une vision unifiée et cohérente du projet, avec une attention particulière à l'optimisation pour la plateforme mobile.
-
+---
+title: Game Design Document (GDD)
+auteur: Manus AI
+date: 2025-11-28
+statut: Finalisé
 ---
 
-## Contenu du Dossier
+# Game Design Document (GDD)
 
-Le gameplay de GuildForge Mobile est construit autour de mécaniques fondamentales de gestion de colonie et de survie, adaptées pour un environnement médiéval et optimisées pour le mobile. Chaque système est détaillé dans son dossier et ses fichiers Markdown dédiés pour garantir la clarté et la profondeur. Chaque section contient un `README.md` pour une navigation plus détaillée :
+Ce dossier contient la documentation relative au **contenu, aux règles et à l'expérience de jeu** de GuildForge_Mobile. Il est la référence centrale pour le développement et assure une vision unifiée et cohérente du projet.
 
-*   [Vision et Conception Globale](./00_vision_et_conception_globale.md) : Présente la vision d'ensemble et les objectifs principaux du jeu.
-*   [Système du Monde](./01_systeme_monde/README.md) : Décrit la génération procédurale, les biomes, les factions et l'exploration du monde.
-*   [Système Conteur IA](./02_systeme_conteur_ia/README.md) : Détaille la gestion des événements aléatoires et des quêtes par l'IA.
-*   [Système des Personnages](./03_systeme_personnages/README.md) : Couvre la création, les compétences, les besoins, la santé et les relations des colons.
-*   [Système de Construction](./04_systeme_construction/README.md) : Explique les structures, le mobilier, les zones et la gestion de la température/confort.
-*   [Système de Ressources et Production](./05_systeme_ressources_et_production/README.md) : Aborde la collecte, l'agriculture, l'artisanat et la gestion des stocks.
-*   [Système de Recherche et Progression](./06_systeme_recherche_et_progression/README.md) : Décrit l'arbre technologique et les mécanismes de découverte.
-*   [Système de Combat](./07_systeme_combat/README.md) : Détaille les mécaniques de combat, l'équipement, l'IA ennemie et la défense de la colonie.
-*   [Système d'Économie et de Commerce](./08_systeme_economie_et_commerce/README.md) : Présente le marché, les valeurs des biens et les interactions commerciales.
-*   [Système de Faune et Flore](./09_systeme_faune_et_flore/README.md) : Décrit les animaux sauvages et domestiques, ainsi que les plantes et cultures.
-*   [Système d'Interface Utilisateur (UI) et Expérience Utilisateur (UX)](./10_systeme_interface_et_ux/README.md) : Énonce les principes directeurs pour une UI/UX mobile intuitive.
+## Structure et Systèmes de Jeu
+
+Le GDD est organisé en systèmes de jeu numérotés, reflétant la nouvelle structure et la priorité des systèmes.
+
+| Numéro | Système | Description |
+| :--- | :--- | :--- |
+| 00 | [Vision Globale](00_vision_globale.md) | Point de départ de la documentation. |
+| 01 | [Système Monde](01_systeme_monde/README.md) | La base du jeu (génération procédurale, biomes, factions). |
+| 02 | [Système Conteur IA](02_systeme_conteur_ia/README.md) | Le cœur de l'expérience de jeu (maîtres du récit, événements). |
+| 03 | [Système Personnages](03_systeme_personnages/README.md) | Les entités principales (création, compétences, besoins). |
+| 04 | [Système Faune et Flore](04_systeme_faune_et_flore/README.md) | Les ressources vivantes du monde. |
+| 05 | [Système Construction](05_systeme_construction/README.md) | La création de structures et de zones. |
+| 06 | [Système Ressources et Production](06_systeme_ressources_et_production/README.md) | La collecte et la transformation des ressources. |
+| 07 | [Système Recherche et Progression](07_systeme_recherche_et_progression/README.md) | L'évolution technologique et la progression du joueur. |
+| 08 | [Système Combat](08_systeme_combat/README.md) | Les mécaniques de combat et de défense. |
+| 09 | [Système Économie et Commerce](09_systeme_economie_et_commerce/README.md) | Les échanges et la gestion des valeurs. |
+| 10 | [Design Artistique](10_design_artistique/README.md) | La direction artistique et les assets visuels. |
+| 11 | [Design Audio](11_design_audio/README.md) | L'ambiance sonore et la musique. |
+| 12 | [Système Interface et UX](12_systeme_interface_et_ux/README.md) | L'interface utilisateur et l'expérience de jeu sur mobile. |
+
+## Conventions et Gouvernance
+
+*   **Propriétaire du Dossier (Prop. 7) :** Consultez le fichier `OWNERS.md` pour connaître le responsable de la cohérence de cette section.
+*   **Statut des Documents (Prop. 4, 10) :** Chaque document utilise un **YAML Front Matter** pour indiquer son statut (`Brouillon`, `En Revue`, `Finalisé`). Les documents en cours de travail peuvent également avoir la balise `[BROUILLON]` dans leur titre.
+*   **Liens (Prop. 9) :** Tous les liens entre les documents sont **relatifs** pour garantir leur portabilité et leur fonctionnement hors ligne.
+*   **Cohérence (Prop. 37, 105) :** Les noms de dossiers et de fichiers respectent la convention `snake_case` pour une meilleure compatibilité multi-plateforme.
 
 ## Références Générales
 
-*   [Documentation Principale](../README.md)
-*   [Glossaire du Projet GuildForge Mobile](../verite_unique/glossaire.md)
-*   [Stratégies d'Optimisation des Performances pour GuildForge Mobile](../technique/optimisation_performance/strategies_optimisation_performance.md)
+*   [Documentation Principale](../../README.md)
+*   [Conventions et Références](../PMD/CONVENTIONS_ET_REFERENCES/README.md)
+*   [Architecture Technique](../TDD/README.md)
 
