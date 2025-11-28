@@ -43,19 +43,19 @@ Des conventions de codage uniformes sont essentielles pour tout projet collabora
 
 ### 3.1. Classes et Nœuds
 
-*   **Classes (fichiers .gd) :** Utiliser le `PascalCase` (ex: `PlayerController.gd`, `ItemDefinition.gd`). **Classes de Custom Resource :** Utiliser un suffixe explicite (ex: `ItemDefinition`, `BuildingData`). (Prop 17)
+*   **Classes (fichiers .gd) :** Utiliser le `PascalCase` (ex: `PlayerController.gd`, `ItemDefinition.gd`). **Classes de Custom Resource :** Utiliser un suffixe explicite (ex: `ItemDefinition`, `BuildingData`).
 *   **Nœuds dans l'arbre de scène :** Utiliser le `PascalCase` (ex: `Player`, `EnemySpawner`). (Règle consolidée)
 
 ### 3.2. Variables
 
 *   **Variables/Propriétés :** Utiliser le `snake_case` (ex: `current_health`, `max_stack_size`). (Règle consolidée)
-*   **Constantes :** Utiliser le `SCREAMING_SNAKE_CASE` (ex: `MAX_COLON_COUNT`, `DEFAULT_SPEED`). **Constantes Math/Physiques :** Utiliser un préfixe de domaine (ex: `MATH_PI`, `PHYSICS_GRAVITY`). (Prop 35)
-*   **Variables exportées (`@export`) :** Utiliser le `snake_case`. **Variables Privées :** Utiliser un underscore de tête (ex: `_current_state`). (Prop 24)
+*   **Constantes :** Utiliser le `SCREAMING_SNAKE_CASE` (ex: `MAX_COLON_COUNT`, `DEFAULT_SPEED`). **Constantes Math/Physiques :** Utiliser un préfixe de domaine (ex: `MATH_PI`, `PHYSICS_GRAVITY`).
+*   **Variables exportées (`@export`) :** Utiliser le `snake_case`. **Variables Privées :** Utiliser un underscore de tête (ex: `_current_state`).
 
 ### 3.3. Fonctions et Méthodes
 
-*   **Fonctions/Méthodes :** Utiliser le `snake_case` (ex: `_ready()`, `handle_damage()`, `load_data()`). **Fonctions Privées :** Utiliser un underscore de tête (ex: `_update_logic()`). (Prop 24)
-*   **Signaux :** Utiliser le `snake_case`. Nommer au **passé** pour les événements terminés (ex: `item_collected`) ou au **présent** pour les états (ex: `is_moving`). (Prop 28)
+*   **Fonctions/Méthodes :** Utiliser le `snake_case` (ex: `_ready()`, `handle_damage()`, `load_data()`). **Fonctions Privées :** Utiliser un underscore de tête (ex: `_update_logic()`).
+*   **Signaux :** Utiliser le `snake_case`. Nommer au **passé** pour les événements terminés (ex: `item_collected`) ou au **présent** pour les états (ex: `is_moving`).
 
 ## 4. Formatage
 
@@ -96,7 +96,7 @@ func calculate_damage(base_damage: int, multiplier: float) -> int:
 
 ## 6. Typage
 
-*   Rendre obligatoire le **typage statique explicite** (`:` et `->`) pour les arguments de fonction, les valeurs de retour et les variables membres de classe. (Prop 23)
+*   Rendre obligatoire le **typage statique explicite** (`:` et `->`) pour les arguments de fonction, les valeurs de retour et les variables membres de classe.
 
 ```gdscript
 var current_health: int = 100
@@ -107,7 +107,7 @@ func get_player_name() -> String:
 ## 7. Gestion des Fichiers et Nœuds Spécifiques
 
 *   Chaque script GDScript doit idéalement contenir une seule classe ou un seul concept logique.
-*   Les scripts doivent être placés dans des dossiers logiques (ex: `scripts/player`, `scripts/items`).\n\n### 7.1. Nœuds et Chemins (Prop 26, 31)\n\n*   **Chemins de Nœuds :** Utiliser la syntaxe abrégée `$NodeName` ou `get_node("NodeName")`. **Interdire** les chemins absolus (`/root/...`).\n*   **Nommage UI :** Définir des préfixes pour les éléments d'interface utilisateur (UI) dans les scènes (ex: `Btn_`, `Lbl_`, `Pnl_`, `HBox_`).\n\n### 7.2. Groupes et Énumérations (Prop 27, 34)\n\n*   **Énumérations :** Nom de l'énumération en `PascalCase`, membres en `SCREAMING_SNAKE_CASE` (ex: `enum ItemType { WOOD, STONE }`).\n*   **Groupes Godot :** Utiliser `snake_case` avec un préfixe de domaine (ex: `group_enemies`, `group_ui_panels`).\n\n### 7.3. Singletons (Prop 25)\n\n*   **Singletons (AutoLoad) :** Utiliser `PascalCase` pour le nom de la classe. S'assurer que le nom de fichier (`snake_case`) et le nom de classe sont cohérents.
+*   Les scripts doivent être placés dans des dossiers logiques (ex: `scripts/player`, `scripts/items`).\n\n### 7.1. Nœuds et Chemins\n\n*   **Chemins de Nœuds :** Utiliser la syntaxe abrégée `$NodeName` ou `get_node("NodeName")`. **Interdire** les chemins absolus (`/root/...`).\n*   **Nommage UI :** Définir des préfixes pour les éléments d'interface utilisateur (UI) dans les scènes (ex: `Btn_`, `Lbl_`, `Pnl_`, `HBox_`).\n\n### 7.2. Groupes et Énumérations\n\n*   **Énumérations :** Nom de l'énumération en `PascalCase`, membres en `SCREAMING_SNAKE_CASE` (ex: `enum ItemType { WOOD, STONE }`).\n*   **Groupes Godot :** Utiliser `snake_case` avec un préfixe de domaine (ex: `group_enemies`, `group_ui_panels`).\n\n### 7.3. Singletons\n\n*   **Singletons (AutoLoad) :** Utiliser `PascalCase` pour le nom de la classe. S'assurer que le nom de fichier (`snake_case`) et le nom de classe sont cohérents.
 
 ## 8. Références
 
