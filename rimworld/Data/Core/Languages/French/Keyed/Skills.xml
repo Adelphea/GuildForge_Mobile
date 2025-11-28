@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Level -->
+  <Level>Niveau</Level>
+  <!-- EN: skill level -->
+  <SkillLevel>Niveau de compétence</SkillLevel>
+  <!-- EN: Progress to next learned level -->
+  <ProgressToNextLevel>Progression vers le prochain niveau</ProgressToNextLevel>
+  <!-- EN: Experience -->
+  <Experience>Expérience</Experience>
+  <!-- EN: Passion -->
+  <Passion>Passion</Passion>
+  <!-- EN: No passion -->
+  <PassionNone>Pas de passion</PassionNone>
+  <!-- EN: Passion -->
+  <PassionMinor>Passion</PassionMinor>
+  <!-- EN: Burning passion -->
+  <PassionMajor>Passion brûlante</PassionMajor>
+  <!-- EN: Learning speed -->
+  <LearningSpeed>Vitesse d'apprentissage</LearningSpeed>
+  <!-- EN: Learned max today ({0}/{1}, further learning multiplied by {2}) -->
+  <LearnedMaxToday>Apprentissage max aujourd'hui ({0}/{1}, apprentissage supplémentaire multiplié par {2})</LearnedMaxToday>
+  <!-- EN: Children learn skills by watching adults work and by taking lessons at a lesson desk. -->
+  <ChildrenLearn>Les enfants acquièrent des compétences en regardant les adultes travailler et en prenant des cours à un bureau.</ChildrenLearn>
+  <!-- EN: Effects at level {0} -->
+  <EffectsAtLevel>Effets au niveau {0}</EffectsAtLevel>
+  <!-- EN: MAX -->
+  <SkillMax>MAX</SkillMax>
+  <!-- EN: Learned level -->
+  <LearnedLevel>Niveau appris</LearnedLevel>
+  <!-- EN: Negative level adjusted to zero. -->
+  <NegativeLevelAdjustedToZero>Niveau négatif ajusté à zéro.</NegativeLevelAdjustedToZero>
+  <!-- EN: Level capped at {0}. -->
+  <LevelCappedAtMax>Niveau plafonné à {0}.</LevelCappedAtMax>
+  <!-- EN: {GENE_label} gene -->
+  <GeneLabelWithDesc>gène {GENE_label}</GeneLabelWithDesc>
+  <!-- EN: {TRAITLABEL} trait -->
+  <TraitLabelWithDesc>trait {TRAITLABEL}</TraitLabelWithDesc>
+
+  <!-- EN: Barely heard of it -->
+  <Skill0>Inapte</Skill0>
+  <!-- EN: Utter beginner -->
+  <Skill1>Incompétent</Skill1>
+  <!-- EN: Beginner -->
+  <Skill2>Connaissances de base</Skill2>
+  <!-- EN: Basic familiarity -->
+  <Skill3>Familiarisé</Skill3>
+  <!-- EN: Some familiarity -->
+  <Skill4>Amateur</Skill4>
+  <!-- EN: Significant familiarity -->
+  <Skill5>Amateur doué</Skill5>
+  <!-- EN: Capable amateur -->
+  <Skill6>Pratiquant</Skill6>
+  <!-- EN: Weak professional -->
+  <Skill7>Pratiquant compétent</Skill7>
+  <!-- EN: Employable professional -->
+  <Skill8>Professionnel</Skill8>
+  <!-- EN: Solid professional -->
+  <Skill9>Professionnel compétent</Skill9>
+  <!-- EN: Skilled professional -->
+  <Skill10>Spécialiste</Skill10>
+  <!-- EN: Very skilled professional -->
+  <Skill11>Spécialiste de haut niveau</Skill11>
+  <!-- EN: Expert -->
+  <Skill12>Expert</Skill12>
+  <!-- EN: Strong expert -->
+  <Skill13>Expert renommé</Skill13>
+  <!-- EN: Master -->
+  <Skill14>Maître</Skill14>
+  <!-- EN: Strong master -->
+  <Skill15>Grand Maître</Skill15>
+  <!-- EN: Region-known master -->
+  <Skill16>Maître de classe régionale</Skill16>
+  <!-- EN: Region-leading master -->
+  <Skill17>Grand Maître régional</Skill17>
+  <!-- EN: Planet-known master -->
+  <Skill18>Maître de classe planétaire</Skill18>
+  <!-- EN: Planet-leading master -->
+  <Skill19>Grand Maître planétaire</Skill19>
+  <!-- EN: Legendary master -->
+  <Skill20>Légendaire</Skill20>
+  
+</LanguageData>

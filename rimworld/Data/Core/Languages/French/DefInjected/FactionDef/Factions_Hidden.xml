@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: neutral ancients -->
+  <Ancients.label>astronautes</Ancients.label>
+  <Ancients.description>Personne venant des confins de l'espace.</Ancients.description>
+  <!-- EN: Ancients -->
+  <Ancients.fixedName>Astronautes</Ancients.fixedName>
+  <!-- EN: leader -->
+  <Ancients.leaderTitle>meneur</Ancients.leaderTitle>
+  <!-- EN: Ancient soldiers are attacking. -->
+  <Ancients.messageDefendersAttacking>Les {0} de {1} attaquent vos {2}.</Ancients.messageDefendersAttacking>
+  <!-- EN: ancient -->
+  <Ancients.pawnSingular>astronaute</Ancients.pawnSingular>
+  <!-- EN: ancients -->
+  <Ancients.pawnsPlural>astronautes</Ancients.pawnsPlural>
+  
+  <!-- EN: hostile ancients -->
+  <AncientsHostile.label>astronautes hostiles</AncientsHostile.label>
+  <AncientsHostile.description>Personne mal intentionnée venant des confins de l'espace.</AncientsHostile.description>
+  <!-- EN: Ancients -->
+  <AncientsHostile.fixedName>Astronautes hostiles</AncientsHostile.fixedName>
+  <!-- EN: leader -->
+  <AncientsHostile.leaderTitle>chef</AncientsHostile.leaderTitle>
+  <!-- EN: Ancient soldiers are attacking. -->
+  <AncientsHostile.messageDefendersAttacking>Les {0} de {1} attaquent vos {2}.</AncientsHostile.messageDefendersAttacking>
+  <!-- EN: ancient -->
+  <AncientsHostile.pawnSingular>astronaute hostile</AncientsHostile.pawnSingular>
+  <!-- EN: ancients -->
+  <AncientsHostile.pawnsPlural>astronautes hostiles</AncientsHostile.pawnsPlural>
+  
+  <!-- EN: insect geneline -->
+  <Insect.label>insectes</Insect.label>
+  <!-- EN: These giant insect-like creatures live underground and burrow up to attack when attracted by noise or pheromone signals. Originally from the planet Sorne, interstellar entrepreneurs managed to capture, genetically-modify, and vat-grow the insect colonies for use as weapons. It's not clear who placed Sorne insects on this planet, but they are here and as dangerous as ever. -->
+  <Insect.description>Ces créatures géantes ressemblant à des insectes vivent sous terre et s'enfouissent pour attaquer lorsqu'elles sont attirées par le bruit ou les phéromones. Originaires de la planète Sorne, des entrepreneurs interstellaires ont réussi à les capturer, à les modifier génétiquement et à les incuber en cuve pour les utiliser comme armes. On ne sait pas qui a amené quelques insectes sur cette planète, mais ils sont là et toujours aussi dangereux.</Insect.description>
+  <!-- EN: Sorne Geneline -->
+  <Insect.fixedName>Insectes de Sorne</Insect.fixedName>
+  <!-- EN: leader -->
+  <Insect.leaderTitle>dominant</Insect.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Insect.messageDefendersAttacking>Les {0} de {1} attaquent vos {2}.</Insect.messageDefendersAttacking>
+  <!-- EN: insect -->
+  <Insect.pawnSingular>insecte</Insect.pawnSingular>
+  <!-- EN: insects -->
+  <Insect.pawnsPlural>insectes</Insect.pawnsPlural>
+  
+  <!-- EN: mechanoid hive -->
+  <Mechanoid.label>ruche mécanoïde</Mechanoid.label>
+  <!-- EN: Killer machines of unknown origin. Hidden in ancient structures, under mounds of dust, or at the bottom of the ocean, mechanoids can self-maintain for thousands of years. This group of mechs seems to be unified in purpose, but not well-coordinated in action. While local scholars believe they're autonomous weapons left over from an ancient war, tribal legends describe them as the demonic servants of a sleeping god. -->
+  <Mechanoid.description>Machines meurtrières d'origine inconnue. Cachées à l'intérieur d'anciennes structures, sous des monticules de poussière ou au fond de l'océan, les mécanoïdes peuvent s'auto-entretenir pendant des milliers d'années. Ce groupe de mechs semble être unifié dans son objectif, mais pas bien coordonné dans son action. Alors que les érudits locaux pensent qu'il s'agit d'armes autonomes héritées d'une guerre oubliée, les légendes tribales les décrivent comme les serviteurs démoniaques d'un dieu endormi.</Mechanoid.description>
+  <Mechanoid.fixedName>une ruche mécanoïde</Mechanoid.fixedName>
+  <!-- EN: leader -->
+  <Mechanoid.leaderTitle>chef</Mechanoid.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Mechanoid.messageDefendersAttacking>Les {0} de {1} attaquent vos {2}.</Mechanoid.messageDefendersAttacking>
+  <!-- EN: mechanoid -->
+  <Mechanoid.pawnSingular>mécanoïde</Mechanoid.pawnSingular>
+  <!-- EN: mechanoids -->
+  <Mechanoid.pawnsPlural>mécanoïdes</Mechanoid.pawnsPlural>
+  
+</LanguageData>

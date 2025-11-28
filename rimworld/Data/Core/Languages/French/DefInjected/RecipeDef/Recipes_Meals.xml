@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cook fine meal -->
+  <CookMealFine.label>cuisiner un plat raffiné</CookMealFine.label>
+  <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
+  <CookMealFine.description>Prépare un plat raffiné en combinant de la viande et des végétaux.</CookMealFine.description>
+  <!-- EN: protein -->
+  <CookMealFine.ingredients.0.filter.customSummary>protéine</CookMealFine.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking fine meal. -->
+  <CookMealFine.jobString>Cuisine un plat raffiné.</CookMealFine.jobString>
+  
+  <!-- EN: cook carnivore fine meal -->
+  <CookMealFine_Meat.label>cuisiner un plat raffiné carnivore</CookMealFine_Meat.label>
+  <!-- EN: Cook a somewhat complex meal from meat ingredients. -->
+  <CookMealFine_Meat.description>Cuisiner un repas raffiné à base de viande.</CookMealFine_Meat.description>
+  <!-- EN: Cooking carnivore fine meal. -->
+  <CookMealFine_Meat.jobString>Cuisine un plat raffiné carnivore</CookMealFine_Meat.jobString>
+  
+  <!-- EN: cook vegetarian fine meal -->
+  <CookMealFine_Veg.label>cuisiner un plat raffiné végétarien</CookMealFine_Veg.label>
+  <!-- EN: Cook a somewhat complex meal from plant ingredients. -->
+  <CookMealFine_Veg.description>Cuisiner un repas raffiné à base de végétaux.</CookMealFine_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealFine_Veg.ingredients.0.filter.customSummary>ingrédients végétariens</CookMealFine_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking vegetarian fine meal. -->
+  <CookMealFine_Veg.jobString>Cuisine un plat raffiné végétarien</CookMealFine_Veg.jobString>
+  
+  <!-- EN: cook fine meal x4 -->
+  <CookMealFineBulk.label>cuisiner des plats raffinés x4</CookMealFineBulk.label>
+  <!-- EN: Cook 4 somewhat complex meals from a combination of meat and plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. -->
+  <CookMealFineBulk.description>Prépare quatre plats raffinés en combinant de la viande et des végétaux. Certains ingrédients sont gaspillés afin de créer une bonne expérience culinaire.</CookMealFineBulk.description>
+  <!-- EN: protein -->
+  <CookMealFineBulk.ingredients.0.filter.customSummary>protéine</CookMealFineBulk.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking 4 fine meals. -->
+  <CookMealFineBulk.jobString>Cuisine quatre plats raffinés.</CookMealFineBulk.jobString>
+  
+  <!-- EN: cook carnivore fine meal x4 -->
+  <CookMealFineBulk_Meat.label>cuisiner des plats raffinés carnivores x4</CookMealFineBulk_Meat.label>
+  <!-- EN: Cook 4 somewhat complex meals from meat ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealFineBulk_Meat.description>Cuisinez 4 repas raffinés à base de viande. Certains ingrédients sont gaspillés afin de créer une bonne expérience culinaire. Produire des saveurs variées avec uniquement de la viande introduit des inefficacités supplémentaires.</CookMealFineBulk_Meat.description>
+  <!-- EN: Cooking 4 carnivore fine meals. -->
+  <CookMealFineBulk_Meat.jobString>Cuisine 4 plats raffinés carnivores</CookMealFineBulk_Meat.jobString>
+  
+  <!-- EN: cook vegetarian fine meal x4 -->
+  <CookMealFineBulk_Veg.label>cuisiner des plats raffinés végétariens x4</CookMealFineBulk_Veg.label>
+  <!-- EN: Cook 4 somewhat complex meals from plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealFineBulk_Veg.description>Cuisiner 4 repas raffinés à base de végétaux. Certains ingrédients sont gaspillés afin de créer une bonne expérience culinaire. Produire des saveurs variées avec uniquement des végétaux introduit des inefficacités supplémentaires.</CookMealFineBulk_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealFineBulk_Veg.ingredients.0.filter.customSummary>ingrédients végétariens</CookMealFineBulk_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking 4 vegetarian fine meals. -->
+  <CookMealFineBulk_Veg.jobString>Cuisine quatre plats raffinés végétariens.</CookMealFineBulk_Veg.jobString>
+  
+  <!-- EN: cook lavish meal -->
+  <CookMealLavish.label>cuisiner un plat gastronomique</CookMealLavish.label>
+  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
+  <CookMealLavish.description>Cuisine un plat gastronomique à partir de viande et de végétaux. La majorité des ingrédients sont gaspillés afin de créer la meilleur expérience culinaire.</CookMealLavish.description>
+  <!-- EN: protein -->
+  <CookMealLavish.ingredients.0.filter.customSummary>protéine</CookMealLavish.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking lavish meal. -->
+  <CookMealLavish.jobString>Cuisine un plat gastronomique.</CookMealLavish.jobString>
+  
+  <!-- EN: cook carnivore lavish meal -->
+  <CookMealLavish_Meat.label>cuisiner un plat gastronomique carnivore</CookMealLavish_Meat.label>
+  <!-- EN: Cook a very complex meal from meat ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealLavish_Meat.description>Cuisiner un repas gastronomique à base de viande.  La majorité des ingrédients sont gaspillés afin de créer la meilleure expérience culinaire possible. Produire des saveurs variées avec uniquement de la viande introduit des inefficacités supplémentaires.</CookMealLavish_Meat.description>
+  <!-- EN: Cooking carnivore lavish meal. -->
+  <CookMealLavish_Meat.jobString>Cuisine un plat gastronomique carnivore</CookMealLavish_Meat.jobString>
+  
+  <!-- EN: cook vegetarian lavish meal -->
+  <CookMealLavish_Veg.label>cuisiner un plat gastronomique végétarien</CookMealLavish_Veg.label>
+  <!-- EN: Cook a very complex meal from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealLavish_Veg.description>Cuisiner un repas gastronomique à base de végétaux. La majorité des ingrédients sont gaspillés afin de créer la meilleure expérience culinaire possible. Produire des saveurs variées avec uniquement des végétaux introduit des inefficacités supplémentaires.</CookMealLavish_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealLavish_Veg.ingredients.0.filter.customSummary>ingrédients végétariens</CookMealLavish_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking vegetarian lavish meal. -->
+  <CookMealLavish_Veg.jobString>Cuisine un plat gastronomique végétarien.</CookMealLavish_Veg.jobString>
+  
+  <!-- EN: cook lavish meal x4 -->
+  <CookMealLavishBulk.label>cuisiner des plats gastronomiques x4</CookMealLavishBulk.label>
+  <!-- EN: Cook 4 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
+  <CookMealLavishBulk.description>Cuisine quatre plats gastronomiques à partir de viande et de végétaux. La majorité des ingrédients sont gaspillés afin de créer la meilleur expérience culinaire.</CookMealLavishBulk.description>
+  <!-- EN: protein -->
+  <CookMealLavishBulk.ingredients.0.filter.customSummary>protéine</CookMealLavishBulk.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking 4 lavish meals. -->
+  <CookMealLavishBulk.jobString>Cuisine quatre plats gastronomiques.</CookMealLavishBulk.jobString>
+  
+  <!-- EN: cook carnivore lavish meal x4 -->
+  <CookMealLavishBulk_Meat.label>cuisiner des plats gastronomiques carnivores x4</CookMealLavishBulk_Meat.label>
+  <!-- EN: Cook 4 very complex meals from meat ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
+  <CookMealLavishBulk_Meat.description>Cuisiner 4 repas gastronomiques à base de viande. La majorité des ingrédients sont gaspillés afin de créer la meilleure expérience culinaire possible. Produire des saveurs variées avec uniquement de la viande introduit des inefficacités supplémentaires.</CookMealLavishBulk_Meat.description>
+  <!-- EN: Cooking 4 carnivore lavish meals. -->
+  <CookMealLavishBulk_Meat.jobString>Cuisine quatre plats gastronomiques carnivores.</CookMealLavishBulk_Meat.jobString>
+  
+  <!-- EN: cook vegetarian lavish meal x4 -->
+  <CookMealLavishBulk_Veg.label>cuisiner des plats gastronomiques végétariens x4</CookMealLavishBulk_Veg.label>
+  <!-- EN: Cook 4 very complex meals from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealLavishBulk_Veg.description>Cuisiner 4 repas gastronomiques à base de végétaux. La majorité des ingrédients sont gaspillés afin de créer la meilleure expérience culinaire possible. Produire des saveurs variées avec uniquement des végétaux introduit des inefficacités supplémentaires.</CookMealLavishBulk_Veg.description>
+  <!-- EN: vegetarian ingredients -->
+  <CookMealLavishBulk_Veg.ingredients.0.filter.customSummary>ingrédients végétariens</CookMealLavishBulk_Veg.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking 4 vegetarian lavish meals. -->
+  <CookMealLavishBulk_Veg.jobString>Cuisine quatre plats gastronomiques végétariens.</CookMealLavishBulk_Veg.jobString>
+  
+  <!-- EN: cook simple meal -->
+  <CookMealSimple.label>cuisiner un plat simple</CookMealSimple.label>
+  <!-- EN: Cook a straightforward meal from one ingredient. -->
+  <CookMealSimple.description>Prépare un plat basique composé d'un seul ingrédient.</CookMealSimple.description>
+  <!-- EN: Cooking simple meal. -->
+  <CookMealSimple.jobString>Cuisine un plat simple.</CookMealSimple.jobString>
+  
+  <!-- EN: cook simple meal x4 -->
+  <CookMealSimpleBulk.label>cuisiner des plats simples x4</CookMealSimpleBulk.label>
+  <!-- EN: Cook 4 straightforward meals from one ingredient. -->
+  <CookMealSimpleBulk.description>Prépare quatre plats basiques composés d'un seul ingrédient.</CookMealSimpleBulk.description>
+  <!-- EN: Cooking 4 simple meals. -->
+  <CookMealSimpleBulk.jobString>Cuisine quatre plats simples.</CookMealSimpleBulk.jobString>
+  
+  <!-- EN: cook packaged survival meal -->
+  <CookMealSurvival.label>cuisiner une ration de survie</CookMealSurvival.label>
+  <!-- EN: Prepare a packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
+  <CookMealSurvival.description>Cuisiner une ration de survie à partir de viande et de végétaux. La majorité des ingrédients sont gaspillés dans le processus de conservation.</CookMealSurvival.description>
+  <!-- EN: protein -->
+  <CookMealSurvival.ingredients.0.filter.customSummary>protéine</CookMealSurvival.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking survival meal. -->
+  <CookMealSurvival.jobString>Cuisine une ration de survie.</CookMealSurvival.jobString>
+  
+  <!-- EN: cook packaged survival meal x4 -->
+  <CookMealSurvivalBulk.label>cuisiner des rations de survie x4</CookMealSurvivalBulk.label>
+  <!-- EN: Prepare 4 packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
+  <CookMealSurvivalBulk.description>Cuisiner quatre rations de survie à partir de viande et de végétaux. La majorité des ingrédients sont gaspillés dans le processus de conservation.</CookMealSurvivalBulk.description>
+  <!-- EN: protein -->
+  <CookMealSurvivalBulk.ingredients.0.filter.customSummary>protéine</CookMealSurvivalBulk.ingredients.0.filter.customSummary>
+  <!-- EN: Cooking 4 survival meals. -->
+  <CookMealSurvivalBulk.jobString>Cuisine quatre rations de survie.</CookMealSurvivalBulk.jobString>
+  
+</LanguageData>

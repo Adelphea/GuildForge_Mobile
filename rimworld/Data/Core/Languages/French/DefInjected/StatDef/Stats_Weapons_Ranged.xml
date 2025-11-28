@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Accuracy (long) -->
+  <AccuracyLong.label>Précision (longue distance)</AccuracyLong.label>
+  <!-- EN: The weapon's accuracy at a distance of 40 cells or more.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyLong.description>La précision de l'arme à une distance de 40 cases ou plus.\n\nLa chance réelle de toucher sera également affectée par d'autres facteurs.</AccuracyLong.description>
+  
+  <!-- EN: Accuracy (medium) -->
+  <AccuracyMedium.label>Précision (moyenne distance)</AccuracyMedium.label>
+  <!-- EN: The weapon's accuracy at a distance of 25 cells.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyMedium.description>La précision de l'arme à une distance de 25 cases.\n\nLa chance réelle de toucher sera également affectée par d'autres facteurs.</AccuracyMedium.description>
+  
+  <!-- EN: Accuracy (short) -->
+  <AccuracyShort.label>Précision (courte distance)</AccuracyShort.label>
+  <!-- EN: The weapon's accuracy at a distance of 12 cells.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyShort.description>La précision de l'arme à une distance de 12 cases.\n\nLa chance réelle de toucher sera également affectée par d'autres facteurs.</AccuracyShort.description>
+  
+  <!-- EN: Accuracy (close) -->
+  <AccuracyTouch.label>Précision (à bout portant)</AccuracyTouch.label>
+  <!-- EN: The weapon's accuracy at a distance of 3 cells or less.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyTouch.description>La précision de l'arme à une distance de 3 cellules ou moins.\n\nLa chance réelle de toucher sera également affectée par d'autres facteurs.</AccuracyTouch.description>
+  
+  <!-- EN: armor penetration multiplier -->
+  <RangedWeapon_ArmorPenetrationMultiplier.label>multiplicateur de pénétration d'armure</RangedWeapon_ArmorPenetrationMultiplier.label>
+  <!-- EN: A multiplier applied to armor penetration. -->
+  <RangedWeapon_ArmorPenetrationMultiplier.description>Un multiplicateur appliqué à la pénétration de l'armure.</RangedWeapon_ArmorPenetrationMultiplier.description>
+  
+  <!-- EN: ranged cooldown -->
+  <RangedWeapon_Cooldown.label>cadence de tir (arme à distance)</RangedWeapon_Cooldown.label>
+  <!-- EN: How long it takes to recover after firing this weapon. -->
+  <RangedWeapon_Cooldown.description>Délai minimum entre deux tirs de l'arme.</RangedWeapon_Cooldown.description>
+  <!-- EN: {0} s -->
+  <RangedWeapon_Cooldown.formatString>{0} s</RangedWeapon_Cooldown.formatString>
+  
+  <!-- EN: damage multiplier -->
+  <RangedWeapon_DamageMultiplier.label>multiplicateur de dégâts</RangedWeapon_DamageMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's damage. -->
+  <RangedWeapon_DamageMultiplier.description>Un multiplicateur appliqué aux dégâts de cette arme.</RangedWeapon_DamageMultiplier.description>
+  
+  <!-- EN: range multiplier -->
+  <RangedWeapon_RangeMultiplier.label>multiplicateur de portée</RangedWeapon_RangeMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's range. -->
+  <RangedWeapon_RangeMultiplier.description>Un multiplicateur appliqué à la portée de cette arme.</RangedWeapon_RangeMultiplier.description>
+  
+  <!-- EN: aiming time multiplier -->
+  <RangedWeapon_WarmupMultiplier.label>multiplicateur du temps de visée</RangedWeapon_WarmupMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's aiming time. -->
+  <RangedWeapon_WarmupMultiplier.description>Un multiplicateur appliqué au temps de visée de cette arme.</RangedWeapon_WarmupMultiplier.description>
+  
+</LanguageData>

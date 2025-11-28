@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: gave gift -->
+  <GaveGift.label>a donné un cadeau</GaveGift.label>
+  
+  <!-- EN: peace talks backfired -->
+  <PeaceTalksBackfire.label>les pourparlers de paix se soldent par un contrecoup</PeaceTalksBackfire.label>
+  
+  <!-- EN: peace talks disaster -->
+  <PeaceTalksDisaster.label>catastrophe lors des pourparlers de paix</PeaceTalksDisaster.label>
+  
+  <!-- EN: peace talks success -->
+  <PeaceTalksSuccess.label>réussite des pourparlers de paix</PeaceTalksSuccess.label>
+  
+  <!-- EN: peace talks triumph -->
+  <PeaceTalksTriumph.label>les pourparlers de paix remportent un grand succès</PeaceTalksTriumph.label>
+  
+  <!-- EN: requested military aid -->
+  <RequestedMilitaryAid.label>demandé une aide militaire</RequestedMilitaryAid.label>
+  
+  <!-- EN: requested orbital trader -->
+  <RequestedOrbitalTrader.label>demandé un commerçant orbital</RequestedOrbitalTrader.label>
+  
+  <!-- EN: requested trader -->
+  <RequestedTrader.label>demandé une caravane marchande</RequestedTrader.label>
+  
+  <!-- EN: traded -->
+  <Traded.label>négocié</Traded.label>
+  
+</LanguageData>

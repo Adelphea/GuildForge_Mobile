@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: allow adult-only apparel -->
+  <AllowAdultOnlyApparel.label>autoriser les vêtements adultes</AllowAdultOnlyApparel.label>
+  <!-- EN: Allow clothing that can only be worn by adults. -->
+  <AllowAdultOnlyApparel.description>Autoriser les vêtements qui ne peuvent être portés que par des adultes.</AllowAdultOnlyApparel.description>
+  
+  <!-- EN: allow biocoded apparel -->
+  <AllowBiocodedApparel.label>autor. les habits biocodés</AllowBiocodedApparel.label>
+  
+  <!-- EN: allow biocoded weapons -->
+  <AllowBiocodedWeapons.label>autoriser les armes biocodées</AllowBiocodedWeapons.label>
+  
+  <!-- EN: animals -->
+  <AllowBookAnimals.label>animaux</AllowBookAnimals.label>
+  <!-- EN: Allow books which teach animal-related skills. -->
+  <AllowBookAnimals.description>Autoriser les livres qui enseignent des compétences liées aux animaux.</AllowBookAnimals.description>
+  
+  <!-- EN: artistic -->
+  <AllowBookArtistic.label>artiste</AllowBookArtistic.label>
+  <!-- EN: Allow books which teach art skills. -->
+  <AllowBookArtistic.description>Autoriser les livres qui enseignent des compétences artistiques.</AllowBookArtistic.description>
+  
+  <!-- EN: construction -->
+  <AllowBookConstruction.label>construction</AllowBookConstruction.label>
+  <!-- EN: Allow books which teach construction skills. -->
+  <AllowBookConstruction.description>Autoriser les livres qui enseignent des compétences en construction.</AllowBookConstruction.description>
+  
+  <!-- EN: cooking -->
+  <AllowBookCooking.label>cuisine</AllowBookCooking.label>
+  <!-- EN: Allow books which teach cooking skills. -->
+  <AllowBookCooking.description>Autoriser les livres qui enseignent des compétences culinaires.</AllowBookCooking.description>
+  
+  <!-- EN: crafting -->
+  <AllowBookCrafting.label>artisanat</AllowBookCrafting.label>
+  <!-- EN: Allow books which teach crafting skills. -->
+  <AllowBookCrafting.description>Autoriser les livres qui enseignent des compétences en artisanat.</AllowBookCrafting.description>
+  
+  <!-- EN: intellectual -->
+  <AllowBookIntellectual.label>intellectuel</AllowBookIntellectual.label>
+  <!-- EN: Allow books which teach intellectual skills. -->
+  <AllowBookIntellectual.description>Autoriser les livres qui enseignent des compétences intellectuelles.</AllowBookIntellectual.description>
+  
+  <!-- EN: medical -->
+  <AllowBookMedicine.label>médecine</AllowBookMedicine.label>
+  <!-- EN: Allow books which teach medical skills. -->
+  <AllowBookMedicine.description>Autoriser les livres qui enseignent des compétences médicales.</AllowBookMedicine.description>
+  
+  <!-- EN: melee -->
+  <AllowBookMelee.label>mêlée</AllowBookMelee.label>
+  <!-- EN: Allow books which teach melee skills. -->
+  <AllowBookMelee.description>Autoriser les livres qui enseignent des compétences de combat en mêlée.</AllowBookMelee.description>
+  
+  <!-- EN: mining -->
+  <AllowBookMining.label>minage</AllowBookMining.label>
+  <!-- EN: Allow books which teach mining skills. -->
+  <AllowBookMining.description>Autoriser les livres qui enseignent des compétences en exploitation minière.</AllowBookMining.description>
+  
+  <!-- EN: plants -->
+  <AllowBookPlants.label>agriculture</AllowBookPlants.label>
+  <!-- EN: Allow books which teach plant-related skills. -->
+  <AllowBookPlants.description>Autoriser les livres qui enseignent des compétences en agriculture.</AllowBookPlants.description>
+  
+  <!-- EN: shooting -->
+  <AllowBookShooting.label>tir</AllowBookShooting.label>
+  <!-- EN: Allow books which teach shooting skills. -->
+  <AllowBookShooting.description>Autoriser les livres qui enseignent des compétences en tir.</AllowBookShooting.description>
+  
+  <!-- EN: social -->
+  <AllowBookSocial.label>sociabilité</AllowBookSocial.label>
+  <!-- EN: Allow books which teach social skills. -->
+  <AllowBookSocial.description>Autoriser les livres qui enseignent des compétences en sociabilité.</AllowBookSocial.description>
+  
+  <!-- EN: allow burnable -->
+  <AllowBurnableApparel.label>autoriser les incinérables</AllowBurnableApparel.label>
+  
+  <!-- EN: allow burnable -->
+  <AllowBurnableWeapons.label>autoriser les incinérables</AllowBurnableWeapons.label>
+  
+  <!-- EN: allow child-only apparel -->
+  <AllowChildOnlyApparel.label>autoriser les vêtements enfants</AllowChildOnlyApparel.label>
+  <!-- EN: Allow clothing that can only be worn by children. -->
+  <AllowChildOnlyApparel.description>Autoriser les vêtements qui ne peuvent être portés que par des enfants.</AllowChildOnlyApparel.description>
+  
+  <!-- EN: allow colonist corpses -->
+  <AllowCorpsesColonist.label>autoriser les corps de colons</AllowCorpsesColonist.label>
+  <!-- EN: Allow the dead bodies of colonists. -->
+  <AllowCorpsesColonist.description>Autorise les corps de colons décédés.</AllowCorpsesColonist.description>
+  
+  <!-- EN: allow stranger corpses -->
+  <AllowCorpsesStranger.label>autor. les corps d'étrangers</AllowCorpsesStranger.label>
+  <!-- EN: Allow the dead bodies of strangers and enemies. -->
+  <AllowCorpsesStranger.description>Autorise les corps d'étrangers et d'ennemis décédés.</AllowCorpsesStranger.description>
+  
+  <!-- EN: allow tainted apparel -->
+  <AllowDeadmansApparel.label>autor. les habits contaminés</AllowDeadmansApparel.label>
+  <!-- EN: Allow clothing that was once worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
+  <AllowDeadmansApparel.description>Laisser les vêtements qui étaient autrefois portés par un cadavre. La plupart des humains trouvent que ces vêtements sont dérangeants, et les commerçants ne les accepteront pas.</AllowDeadmansApparel.description>
+  
+  <!-- EN: allow females -->
+  <AllowFemaleGender.label>autoriser les femelles</AllowFemaleGender.label>
+  <!-- EN: Allow female individuals. -->
+  <AllowFemaleGender.description>Autorise les individus femelles.</AllowFemaleGender.description>
+  
+  <!-- EN: allow fresh -->
+  <AllowFresh.label>autoriser les produits frais</AllowFresh.label>
+  <!-- EN: Allow organic things which haven't started to rot yet. -->
+  <AllowFresh.description>Autoriser les produits organiques qui n'ont pas encore commencé à se dégrader.</AllowFresh.description>
+  
+  <!-- EN: allow large corpses -->
+  <AllowLargeCorpses.label>autoriser les grands cadavres</AllowLargeCorpses.label>
+  <!-- EN: Allow large, dead bodies. -->
+  <AllowLargeCorpses.description>Autoriser les grands cadavres.</AllowLargeCorpses.description>
+  
+  <!-- EN: normal research -->
+  <AllowMainResearch.label>recherche normale</AllowMainResearch.label>
+  <!-- EN: Allow books which advance research of normal research projects. -->
+  <AllowMainResearch.description>Autoriser les livres qui font progresser la recherche dans les projets de recherche normaux.</AllowMainResearch.description>
+  
+  <!-- EN: allow males -->
+  <AllowMaleGender.label>autoriser les mâles</AllowMaleGender.label>
+  <!-- EN: Allow male individuals. -->
+  <AllowMaleGender.description>Autorise les individus mâles.</AllowMaleGender.description>
+  
+  <!-- EN: allow non-biocoded apparel -->
+  <AllowNonBiocodedApparel.label>autor. les habits non biocodés</AllowNonBiocodedApparel.label>
+  
+  <!-- EN: allow non-biocoded weapons -->
+  <AllowNonBiocodedWeapons.label>autor. les armes non biocodées</AllowNonBiocodedWeapons.label>
+  
+  <!-- EN: allow non-burnable -->
+  <AllowNonBurnableApparel.label>autoriser les non-incinérables</AllowNonBurnableApparel.label>
+  
+  <!-- EN: allow non-burnable -->
+  <AllowNonBurnableWeapons.label>autoriser les non-incinérables</AllowNonBurnableWeapons.label>
+  
+  <!-- EN: allow clean apparel -->
+  <AllowNonDeadmansApparel.label>autor. les habits non contaminés</AllowNonDeadmansApparel.label>
+  <!-- EN: Allow clothing that was never worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
+  <AllowNonDeadmansApparel.description>Autoriser les vêtements qui n'ont jamais été portés par un cadavre. La plupart des humains trouvent que les vêtements contaminés par des cadavres sont dérangeants et les commerçants ne les accepteront pas.</AllowNonDeadmansApparel.description>
+  
+  <!-- EN: allow non-smeltable -->
+  <AllowNonSmeltableApparel.label>autoriser les non-recyclables</AllowNonSmeltableApparel.label>
+  
+  <!-- EN: allow non-smeltable -->
+  <AllowNonSmeltableWeapons.label>autoriser les non-recyclables</AllowNonSmeltableWeapons.label>
+  
+  <!-- EN: allow plant food -->
+  <AllowPlantFood.label>autoriser les plantes fourragères</AllowPlantFood.label>
+  <!-- EN: Allow foods that are of quality equivalent to unharvested plants, like hay. -->
+  <AllowPlantFood.description>Autorise les aliments qui sont de qualité équivalente aux plantes non récoltées, comme le foin.</AllowPlantFood.description>
+  
+  <!-- EN: allow rotten -->
+  <AllowRotten.label>autoriser les corps pourris</AllowRotten.label>
+  <!-- EN: Allow organic things which have started to rot. -->
+  <AllowRotten.description>Autorise les corps déjà putréfiés.</AllowRotten.description>
+  
+  <!-- EN: allow smeltable -->
+  <AllowSmeltable.label>autoriser les recyclables</AllowSmeltable.label>
+  
+  <!-- EN: allow smeltable -->
+  <AllowSmeltableApparel.label>autoriser les recyclables</AllowSmeltableApparel.label>
+  
+  <!-- EN: allow unfinished -->
+  <AllowUnfinished.label>autoriser vêtements inachevés</AllowUnfinished.label>
+  <!-- EN: Allow unfinished items. -->
+  <AllowUnfinished.description>Autoriser les éléments inachevés.</AllowUnfinished.description>
+  
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: They are attacking immediately.\n\nThese raiders intend to breach your walls. They'll determine their own path into your colony and destroy anything in their way. -->
+  <ImmediateAttackBreaching.arrivalTextEnemy>Ils attaquent immédiatement.\n\nCes pillards ont l'intention de faire une brèche dans vos murs. Ils traceront leur propre passage dans votre colonie et détruiront tout ce qui se trouve sur leur chemin.</ImmediateAttackBreaching.arrivalTextEnemy>
+  <!-- EN: They are moving in to help you immediately. -->
+  <ImmediateAttackBreaching.arrivalTextFriendly>Ils arrivent pour vous prêter main forte immédiatement.</ImmediateAttackBreaching.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <ImmediateAttackBreaching.letterLabelEnemy>Raid</ImmediateAttackBreaching.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <ImmediateAttackBreaching.letterLabelFriendly>Amicaux</ImmediateAttackBreaching.letterLabelFriendly>
+  
+  <!-- EN: They are attacking immediately.\n\nThese raiders intend to breach your walls. They'll determine their own path into your colony and destroy anything in their way.\n\nWatch out - they appear to be unusually clever with their tactics. They'll avoid your turrets' fields of fire and notice some of your traps. -->
+  <ImmediateAttackBreachingSmart.arrivalTextEnemy>Ils attaquent immédiatement.\n\nCes pillards ont l'intention de faire une brèche dans vos murs. Ils traceront leur propre passage dans votre colonie et détruiront tout ce qui se trouve sur leur chemin.\n\nFaites attention - avec leurs tactiques, ils semblent être particulièrement rusés.</ImmediateAttackBreachingSmart.arrivalTextEnemy>
+  <!-- EN: They are moving in to help you immediately. -->
+  <ImmediateAttackBreachingSmart.arrivalTextFriendly>Ils arrivent pour vous prêter main forte immédiatement.</ImmediateAttackBreachingSmart.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <ImmediateAttackBreachingSmart.letterLabelEnemy>Raid</ImmediateAttackBreachingSmart.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <ImmediateAttackBreachingSmart.letterLabelFriendly>Amicaux</ImmediateAttackBreachingSmart.letterLabelFriendly>
+  
+</LanguageData>

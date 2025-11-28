@@ -1,0 +1,12 @@
+﻿village
+état
+canton
+arrondissement
+hameau
+bled
+couvent
+district
+bourg
+groupe
+cartel
+regroupement

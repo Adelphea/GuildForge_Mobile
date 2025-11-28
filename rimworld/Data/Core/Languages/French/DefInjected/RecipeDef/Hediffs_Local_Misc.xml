@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cure scaria -->
+  <CureScaria.label>guérir la scaria</CureScaria.label>
+  <!-- EN: This special medical operation cures scaria. -->
+  <CureScaria.description>Cette opération médicale spécifique permet de guérir la scaria.</CureScaria.description>
+  <!-- EN: Curing scaria. -->
+  <CureScaria.jobString>Guérit la scaria.</CureScaria.jobString>
+  <!-- EN: {0} has successfully cured {1}'s scaria. -->
+  <CureScaria.successfullyRemovedHediffMessage>{0} a réussi à guérir {1} de la scaria.</CureScaria.successfullyRemovedHediffMessage>
+  
+  <!-- EN: sterilize -->
+  <Sterilize.label>stériliser</Sterilize.label>
+  <!-- EN: Sterilize a creature so it can no longer reproduce. -->
+  <Sterilize.description>Stériliser une créature pour qu'elle ne puisse plus se reproduire.</Sterilize.description>
+  <!-- EN: sterilizing TargetA. -->
+  <Sterilize.jobString>Stérilise TargetA.</Sterilize.jobString>
+  <!-- EN: {0} has successfully sterilized {1}. -->
+  <Sterilize.successfullyRemovedHediffMessage>{0} a réussi à stériliser {1}.</Sterilize.successfullyRemovedHediffMessage>
+  
+</LanguageData>

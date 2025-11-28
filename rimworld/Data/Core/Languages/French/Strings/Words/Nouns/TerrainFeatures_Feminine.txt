@@ -1,0 +1,27 @@
+﻿plaine
+étendue
+prairie
+forêt
+roche
+carrière
+pierre
+montagne
+colline
+cime
+aiguille
+mesa
+falaise
+crête
+vallée
+gorge
+oasis
+prairie
+grotte
+rivière
+entrée
+crique
+lagune
+fosse
+fosse à bitume
+mer
+dépression

@@ -1,0 +1,16 @@
+﻿société
+compagnie
+équipe
+meute
+armée
+bande
+clique
+organisation
+troupe
+unité
+faction
+coterie
+horde
+tribu
+légion
+cohorte

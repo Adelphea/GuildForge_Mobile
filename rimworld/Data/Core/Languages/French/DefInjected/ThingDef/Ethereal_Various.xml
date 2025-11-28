@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: blight -->
+  <Blight.label>mildiou</Blight.label>
+  
+  <!-- EN: explosion -->
+  <Explosion.label>explosion</Explosion.label>
+  
+  <!-- EN: flying -->
+  <PawnFlyer.label>en vol</PawnFlyer.label>
+  
+  <!-- EN: flying -->
+  <PawnFlyer_Stun.label>en vol</PawnFlyer_Stun.label>
+  
+  <!-- EN: disrupted soil -->
+  <PawnGroundSpawner.label>sol perturbé</PawnGroundSpawner.label>
+  
+  <!-- EN: proximity trigger -->
+  <RadialTrigger.label>déclencheur de proximité</RadialTrigger.label>
+  
+  <!-- EN: rect trigger -->
+  <RectTrigger.label>déclencheur</RectTrigger.label>
+  
+  <!-- EN: tornado -->
+  <Tornado.label>tornade</Tornado.label>
+  
+  <!-- EN: trigger container emptied -->
+  <TriggerContainerEmptied.label>conteneur de déclenchement vidé</TriggerContainerEmptied.label>
+  
+  <!-- EN: trigger unfogged -->
+  <TriggerUnfogged.label>déclencheur non chargé</TriggerUnfogged.label>
+  
+  <!-- EN: tunnel -->
+  <TunnelHiveSpawner.label>tunnel</TunnelHiveSpawner.label>
+  
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿chapeau
+
+
+chapeau haut-de-forme
+manteau
+slip
+costume trois-pièces
+pull
+sweat
+jean
+long manteau
+boxer
+pantalon
+soulier
+nœud papillon
+chapeau melon
+bonnet
+maillot
+
+

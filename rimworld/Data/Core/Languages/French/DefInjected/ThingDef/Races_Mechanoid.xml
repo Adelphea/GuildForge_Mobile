@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: centipede blaster -->
+  <Mech_CentipedeBlaster.label>centipède blaster</Mech_CentipedeBlaster.label>
+  <!-- EN: Heavy combat mechanoids that glide on dozens of tiny legs. Their thick carapace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics. -->
+  <Mech_CentipedeBlaster.description>Un mécanoïde de combat lourd qui glisse sur des dizaines de petites pattes. Son armure lourde et sa force de frappe le rendent très efficace contre les groupes de défenseurs retranchés au même endroit. Plutôt vulnérable aux tactiques d'attaque éclair/repli.</Mech_CentipedeBlaster.description>
+  <!-- EN: head -->
+  <Mech_CentipedeBlaster.tools.head.label>tête</Mech_CentipedeBlaster.tools.head.label>
+  
+  <!-- EN: centipede burner -->
+  <Mech_CentipedeBurner.label>centipède incendiaire</Mech_CentipedeBurner.label>
+  <!-- EN: Heavy combat mechanoids that glide on dozens of tiny legs. Their thick carapace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics. -->
+  <Mech_CentipedeBurner.description>Des mécanoïdes de combat lourds qui glissent sur des dizaines de petites pattes. Leur carapace épaisse et leur puissance de feu les rendent très efficaces contre les groupes de défenseurs statiques. Ils sont quelque peu vulnérables aux tactiques dites de "tir et cours".</Mech_CentipedeBurner.description>
+  <!-- EN: head -->
+  <Mech_CentipedeBurner.tools.head.label>tête</Mech_CentipedeBurner.tools.head.label>
+  
+  <!-- EN: centipede gunner -->
+  <Mech_CentipedeGunner.label>centipède mitrailleur</Mech_CentipedeGunner.label>
+  <!-- EN: Heavy combat mechanoids that glide on dozens of tiny legs. Their thick carapace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics. -->
+  <Mech_CentipedeGunner.description>Des mécanoïdes de combat lourds qui glissent sur des dizaines de petites pattes. Leur carapace épaisse et leur puissance de feu les rendent très efficaces contre les groupes de défenseurs statiques. Ils sont quelque peu vulnérables aux tactiques dites de "tir et cours".</Mech_CentipedeGunner.description>
+  <!-- EN: head -->
+  <Mech_CentipedeGunner.tools.head.label>tête</Mech_CentipedeGunner.tools.head.label>
+  
+  <!-- EN: lancer -->
+  <Mech_Lancer.label>lancier</Mech_Lancer.label>
+  <!-- EN: Fast human-sized combat mechanoids built for medium and long-range combat. Their bodies are light, making them vulnerable targets at close range - especially in melee combat. -->
+  <Mech_Lancer.description>Des mécanoïdes de combat à taille humaine conçus pour le combat à moyenne et longue portée. Leurs corps sont légers, ce qui en fait des cibles vulnérables à courte portée, en particulier en combat de mêlée.</Mech_Lancer.description>
+  <!-- EN: left fist -->
+  <Mech_Lancer.tools.left_fist.label>poing gauche</Mech_Lancer.tools.left_fist.label>
+  <!-- EN: fist -->
+  <Mech_Lancer.tools.left_fist.labelNoLocation>poing</Mech_Lancer.tools.left_fist.labelNoLocation>
+  <!-- EN: right fist -->
+  <Mech_Lancer.tools.right_fist.label>poing droit</Mech_Lancer.tools.right_fist.label>
+  <!-- EN: fist -->
+  <Mech_Lancer.tools.right_fist.labelNoLocation>poing</Mech_Lancer.tools.right_fist.labelNoLocation>
+  <!-- EN: head -->
+  <Mech_Lancer.tools.head.label>tête</Mech_Lancer.tools.head.label>
+  
+  <!-- EN: pikeman -->
+  <Mech_Pikeman.label>piquier</Mech_Pikeman.label>
+  <!-- EN: A clunky multi-legged combat mechanoid specialized as a long-range weapons platform. While effective at distance, it is weak in close-range fights and in melee combat.\n\nVeterans of mechanoid wars know that often, the safest place to be around a pikeman is touching it. -->
+  <Mech_Pikeman.description>Un mécanoïde de combat maladroit, doté de plusieurs pattes et supportant des armes à longue portée. Bien qu'efficace à distance, il est faible lors des combats rapprochés et dans les combats de mêlée.\n\nLes anciens combattants des guerres mécanoïdes savent que bien souvent, la façon la plus sûre d'affronter un piquier est au corps à corps.</Mech_Pikeman.description>
+  <!-- EN: front left leg -->
+  <Mech_Pikeman.tools.front_left_leg.label>patte gauche</Mech_Pikeman.tools.front_left_leg.label>
+  <!-- EN: leg -->
+  <Mech_Pikeman.tools.front_left_leg.labelNoLocation>patte</Mech_Pikeman.tools.front_left_leg.labelNoLocation>
+  <!-- EN: front right leg -->
+  <Mech_Pikeman.tools.front_right_leg.label>patte droite</Mech_Pikeman.tools.front_right_leg.label>
+  <!-- EN: leg -->
+  <Mech_Pikeman.tools.front_right_leg.labelNoLocation>patte</Mech_Pikeman.tools.front_right_leg.labelNoLocation>
+  <!-- EN: head -->
+  <Mech_Pikeman.tools.head.label>tête</Mech_Pikeman.tools.head.label>
+  
+  <!-- EN: scyther -->
+  <Mech_Scyther.label>faucheur</Mech_Scyther.label>
+  <!-- EN: Fast, spindly, human-sized combat mechanoids specializing in rapid approach and close-range combat. Their bodies are covered in points and blades, but they mostly use their two arm blades to lop off limbs or gut their victims alive. -->
+  <Mech_Scyther.description>Des mécanoïdes de combat rapides, minces et de taille humaine, spécialisés dans l'approche rapide et le combat rapproché. Leurs corps sont couverts de pointes et de lames, mais ils utilisent principalement leurs deux lames de bras pour couper des membres ou étriper leurs victimes vivantes.</Mech_Scyther.description>
+  <!-- EN: left blade -->
+  <Mech_Scyther.tools.left_blade.label>lame gauche</Mech_Scyther.tools.left_blade.label>
+  <!-- EN: blade -->
+  <Mech_Scyther.tools.left_blade.labelNoLocation>lame</Mech_Scyther.tools.left_blade.labelNoLocation>
+  <!-- EN: right blade -->
+  <Mech_Scyther.tools.right_blade.label>lame droite</Mech_Scyther.tools.right_blade.label>
+  <!-- EN: blade -->
+  <Mech_Scyther.tools.right_blade.labelNoLocation>lame</Mech_Scyther.tools.right_blade.labelNoLocation>
+  <!-- EN: head -->
+  <Mech_Scyther.tools.head.label>tête</Mech_Scyther.tools.head.label>
+  
+  <!-- EN: termite -->
+  <Mech_Termite.label>termite</Mech_Termite.label>
+  <!-- EN: A medium-sized mechanoid. Termites specialize in burrowing, digging, and breaking through defensive structures. Defenders need to decide whether to try to eliminate the termite before it can dig through their defenses, or take it where it emerges. -->
+  <Mech_Termite.description>Un mécanoïde de taille moyenne. Les termites sont spécialisés dans le creusage, la perforation et le franchissement des structures défensives. Les défenseurs doivent décider s'ils essayent d'éliminer le termite avant qu'il ne puisse creuser à travers leurs défenses, ou le tuer là où il émerge.</Mech_Termite.description>
+  <!-- EN: head -->
+  <Mech_Termite.tools.head.label>tête</Mech_Termite.tools.head.label>
+  
+</LanguageData>

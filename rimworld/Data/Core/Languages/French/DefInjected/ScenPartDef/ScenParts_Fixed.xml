@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: starting people -->
+  <ConfigPage_ConfigureStartingPawns.label>colons de départ</ConfigPage_ConfigureStartingPawns.label>
+  
+  <!-- EN: forced map -->
+  <ForcedMap.label>carte imposée</ForcedMap.label>
+  
+  <!-- EN: planet layer type -->
+  <PlanetLayerFixed.label>type de couche planétaire</PlanetLayerFixed.label>
+  
+  <!-- EN: Player faction -->
+  <PlayerFaction.label>Faction du joueur</PlayerFaction.label>
+  
+  <!-- EN: arrival method -->
+  <PlayerPawnsArriveMethod.label>méthode d'arrivée</PlayerPawnsArriveMethod.label>
+  
+  <!-- EN: surface layer type -->
+  <SurfaceLayerFixed.label>type de couche de surface</SurfaceLayerFixed.label>
+  
+</LanguageData>

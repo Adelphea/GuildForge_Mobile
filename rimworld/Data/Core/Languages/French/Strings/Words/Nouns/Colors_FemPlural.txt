@@ -1,0 +1,12 @@
+﻿//Simple colors only, no mauve and puce
+
+
+rouges
+bleues
+vertes
+violettes
+noires
+blanches
+grises
+oranges
+jaunes

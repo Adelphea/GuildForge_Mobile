@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: starflight basics -->
+  <ShipBasics.label>bases de la construction de vaisseau</ShipBasics.label>
+  <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
+  <ShipBasics.description>Vous ouvre la voie aux recherches avancées sur la construction de vaisseaux spatiaux pour un jour en assembler un pour s'échapper de la planète.</ShipBasics.description>
+  <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nA new Ship category is available in the Architect menu from which you may build ship parts once the appropriate technology is researched. Ships require several different parts in order to launch, including a ship reactor.\n\nShip reactors take 15 days to charge up and many desperate souls want off this planet. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
+  <ShipBasics.discoveredLetterText>S'échapper de cette planète, ce serait enfin la liberté, et peut-être un retour à la maison.\n\nMais aussi incroyablement dangereux.\n\nUne nouvelle catégorie de vaisseau est disponible dans le menu Architecte à partir duquel vous pouvez construire des pièces de vaisseau une fois la technologie appropriée recherchée. Les navires ont besoin de plusieurs pièces différentes pour être lancés, y compris un réacteur de navire.\n\nLes réacteurs de navire mettent 15 jours à se charger et de nombreuses âmes désespérées veulent quitter cette planète. Une fois que vous aurez lancé ce processus, le réacteur du navire émettra une signature énergétique détectable à des milliers de kilomètres. Les pillards afflueront pour vous attaquer par vagues, avec une intensité que vous n'avez jamais vue. Les mécanoïdes sont également connus pour être attirés par ces signatures énergétiques.\n\nCela ne démarrera pas tant que vous n'aurez pas activé le réacteur de votre vaisseau, mais quand vous le ferez, ce sera féroce. Vous devrez stocker des ressources, des armes et des défenses pour résister aux assauts si vous espérez vous échapper vivant.</ShipBasics.discoveredLetterText>
+  <!-- EN: About: Launching the ship -->
+  <ShipBasics.discoveredLetterTitle>À propos de : Lancement du vaisseau</ShipBasics.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->starship structural engineering</li>
+    <li>subject_story->recruited starship engineers for a glitterworld fleet</li>
+    <li>subject_story->was a structural designer in an urbworld skyripper district</li>
+    <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
+    <li>subject_gerund->constructing starship structures</li>
+  -->
+  <ShipBasics.generalRules.rulesStrings>
+    <li>subject->l'ingénierie structurelle des vaisseaux</li>
+    <li>subject_story->a recruté des ingénieurs de vaisseaux pour une flotte d'un monde avancé</li>
+    <li>subject_story->a été concepteur de structures dans un district de gratte-ciel dans un monde urbain</li>
+    <li>subject_story->a récolté des épaves dans la ceinture de débris d'un monde mort</li>
+    <li>subject_gerund->la construction de structures de vaisseaux</li>
+  </ShipBasics.generalRules.rulesStrings>
+  
+  <!-- EN: machine persuasion -->
+  <ShipComputerCore.label>noyau central de l'ordinateur de bord</ShipComputerCore.label>
+  <!-- EN: Build a reward-signal system to persuade an existing persona core into serving as a ship's machine captain. Since people sleep during interstellar travel, a persona core is necessary to handle the complex decisions of a years-long starflight. -->
+  <ShipComputerCore.description>Vous apprend à brider une IA existante pour en faire une IA de navigation pour vaisseau.</ShipComputerCore.description>
+  <!-- EN:
+    <li>subject->persona core incentivization</li>
+    <li>subject->starship AI sanity maintenance</li>
+    <li>subject_story->regained control of an aberrant ship's core with careful reconditioning</li>
+    <li>subject_story->set up colony-management simulations to occupy the ship's core during the many years of interstellar travel</li>
+    <li>subject_story->kept a ship's core company during a 'short' interstellar trip, learning much about cores in the process</li>
+    <li>subject_gerund->incentivizing persona cores</li>
+    <li>subject_gerund->maintaining starship AI sanity</li>
+    <li>subject_gerund->constructing reward-signal systems</li>
+  -->
+  <ShipComputerCore.generalRules.rulesStrings>
+    <li>subject->l'incitation à la personnalité</li>
+    <li>subject->la maintenance de l'IA d'un vaisseau</li>
+    <li>subject_story->a repris le contrôle du noyau d'un vaisseau errant grâce à un reconditionnement minutieux</li>
+    <li>subject_story->a mis en place des simulations de gestion de colonies pour occuper le cœur du vaisseau pendant les nombreuses années de voyage interstellaire</li>
+    <li>subject_story->a tenu compagnie au noyau d'un vaisseau pendant un "court" voyage interstellaire, ce qui lui a permis d'en apprendre beaucoup sur les noyaux</li>
+    <li>subject_gerund->l'incitation à la personnalité</li>
+    <li>subject_gerund->la maintenance de l'IA d'un vaisseau</li>
+    <li>subject_gerund->la construction de systèmes de signaux de récompense</li>
+  </ShipComputerCore.generalRules.rulesStrings>
+  
+  <!-- EN: vacuum cryptosleep casket -->
+  <ShipCryptosleep.label>sarcophages d'hypersommeil de vaisseau</ShipCryptosleep.label>
+  <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
+  <ShipCryptosleep.description>Vous permet de construire des sarcophages d'hypersommeil de vaisseau afin de transporter les colons entre les étoiles.</ShipCryptosleep.description>
+  <!-- EN:
+    <li>subject->starship-grade cryptosleep caskets</li>
+    <li>subject_story->replaced the failed cryptosleep caskets on the CMC Celeste, so the old generation ship could be used again</li>
+    <li>subject_story->was accidentally ejected in deep space, surviving in a self-designed casket for two months</li>
+    <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
+    <li>subject_gerund->constructing hardened cryptosleep caskets</li>
+  -->
+  <ShipCryptosleep.generalRules.rulesStrings>
+    <li>subject->les sarcophages d'hypersommeil de vaisseau</li>
+    <li>subject_story->a remplacé les sarcophages d'hypersommeil défectueux sur le CMC Celeste, afin que le vaisseau d'ancienne génération puisse être utilisé de nouveau</li>
+    <li>subject_story->a été accidentellement éjecté dans l'espace lointain et a survécu dans un sarcophage d'hypersommeil conçu par ses soins pendant deux mois</li>
+    <li>subject_story->a fait un exposé sur les différences entre les équipements de planétaire et les équipements de vaisseau spatial</li>
+    <li>subject_gerund->la construction de sarcophages d'hypersommeil renforcés</li>
+  </ShipCryptosleep.generalRules.rulesStrings>
+  
+  <!-- EN: Johnson-Tanaka drive -->
+  <ShipEngine.label>propulseur Johnson-Tanaka </ShipEngine.label>
+  <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
+  <ShipEngine.description>Vous apprend à construire un propulseur Johnson-Tanaka pour un vaisseau. Le propulseur JT peut vous emmener vers d'autres étoiles en tirant parti des effets d'échelle quantique pour transmettre l'élan vers les étoiles lointaines. Bien sûr, comme pour tous les vaisseaux spatiaux, il faut encore de nombreuses années pour aller n'importe où.</ShipEngine.description>
+  <!-- EN:
+    <li>subject->Johnson-Tanaka theory</li>
+    <li>subject->exotic momentum transfer</li>
+    <li>subject_story->lectured in the university on Johnson, Tanaka and quantum-scale effects</li>
+    <li>subject_story->constructed a Johnson-Tanaka drive from first principles for a thesis</li>
+    <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
+    <li>subject_gerund->constructing starship drives</li>
+  -->
+  <ShipEngine.generalRules.rulesStrings>
+    <li>subject->la théorie Johnson-Tanaka</li>
+    <li>subject->le transfert de quantité de mouvement exotique</li>
+    <li>subject_story->a donné des cours à l'université sur Johnson, Tanaka et les effets à l'échelle quantique</li>
+    <li>subject_story->a construit un propulseur Johnson-Tanaka à partir des premiers principes pour une thèse</li>
+    <li>subject_story->a maintenu un propulseur Johnson-Tanaka pendant deux décennies, alors que le vaisseau voyageait entre les étoiles</li>
+    <li>subject_gerund->la construction de propulseurs de vaisseaux</li>
+  </ShipEngine.generalRules.rulesStrings>
+  
+  <!-- EN: starship reactor -->
+  <ShipReactor.label>réacteur antimatière</ShipReactor.label>
+  <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
+  <ShipReactor.description>Vous apprend à utiliser un noyau de confinement d'antimatière afin de construire un réacteur à antimatière capable d'alimenter un vaisseau. Notez que le long processus de mise sous tension des réacteurs est susceptible d'attirer les pirates.</ShipReactor.description>
+  <!-- EN:
+    <li>subject->starship nuclear reactor</li>
+    <li>subject_story->constructed a new reactor for a colony ship, but never lived to see it lift off</li>
+    <li>subject_story->defended the ship whilst the reactor span up, against raiders desperate to get off-world</li>
+    <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
+    <li>subject_gerund->constructing starship reactors</li>
+  -->
+  <ShipReactor.generalRules.rulesStrings>
+    <li>subject->le réacteur antimatière d'un vaisseau spatial</li>
+    <li>subject_story->a construit un nouveau réacteur pour un vaisseau colonie, mais n'a pas vécu suffisamment longtemps pour le voir décoller</li>
+    <li>subject_story->a défendu le vaisseau pendant que le réacteur était en fonctionnement, contre des pillards prêts à tout pour quitter la planète</li>
+    <li>subject_story->a utilisé le réacteur d'un vaisseau spatial comme source d'énergie de secours pour une banque génétique enfouie sous la calotte glaciaire de la planète</li>
+    <li>subject_gerund->la construction de réacteurs de vaisseaux</li>
+  </ShipReactor.generalRules.rulesStrings>
+  
+  <!-- EN: starflight sensors -->
+  <ShipSensorCluster.label>capteurs de lancement</ShipSensorCluster.label>
+  <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
+  <ShipSensorCluster.description>Vous apprend à construire des capteurs longue-portée adaptés aux vaisseaux spatiaux.</ShipSensorCluster.description>
+  <!-- EN:
+    <li>subject->interstellar navigation</li>
+    <li>subject_story->used prototype starship sensors to detect an incoming extinction-level asteroid and evacuate the planet</li>
+    <li>subject_story->was employed as navigator and cook on a Glitterworld star-yacht</li>
+    <li>subject_story->refined the design of long-range sensors, improving their utility</li>
+    <li>subject_gerund->navigating interstellar space</li>
+    <li>subject_gerund->constructing starship sensors</li>
+  -->
+  <ShipSensorCluster.generalRules.rulesStrings>
+    <li>subject->la navigation interstellaire</li>
+    <li>subject_story->a utilisé les capteurs d'un prototype de vaisseau spatial pour détecter l'arrivée d'un astéroïde de niveau cataclysmique et a fait évacuer la planète</li>
+    <li>subject_story->a été employé comme navigateur et cuisinier sur un star-yacht d'un monde avancé</li>
+    <li>subject_story->a affiné la conception des capteurs longue portée, améliorant ainsi leur utilité</li>
+    <li>subject_gerund->la navigation dans l'espace interstellaire</li>
+    <li>subject_gerund->la construction de capteurs de vaisseau spatial</li>
+  </ShipSensorCluster.generalRules.rulesStrings>
+  
+</LanguageData>

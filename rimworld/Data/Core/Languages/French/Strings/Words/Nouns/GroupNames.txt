@@ -1,0 +1,11 @@
+﻿équipage
+groupe
+parti
+gang
+peloton
+clan
+amas
+escadron
+bataillon
+groupement
+groupuscule

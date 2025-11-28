@@ -1,0 +1,8 @@
+﻿troupeau
+cheptel
+essaim
+fourmillement
+groupe
+rassemblement
+attroupement
+cortège

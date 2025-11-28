@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Main menu-->
+  <!-- EN: A story generator by Tynan Sylvester -->
+  <MainPageCredit>Un simulateur de colonie par Tynan Sylvester</MainPageCredit>
+
+  <!-- Credits -->
+  <!-- EN: Design -->
+  <Credits_Design>Conception</Credits_Design>
+  <!-- EN: Engineering -->
+  <Credits_Developers>Développeurs</Credits_Developers>
+  <!-- EN: Audio -->
+  <Credit_MusicAndSound>Musiques et bruitages</Credit_MusicAndSound>
+  <!-- EN: Art -->
+  <Credit_GameArt>Graphismes du jeu</Credit_GameArt>
+  <!-- EN: Testers -->
+  <Credit_Testers>Testeurs</Credit_Testers>
+  <!-- EN: Additional development -->
+  <Credits_AdditionalDevelopment>Développement complémentaire</Credits_AdditionalDevelopment>
+  <!-- EN: Special thanks -->
+  <Credit_SpecialThanks>Remerciements spéciaux</Credit_SpecialThanks>
+
+  <!-- EN: Volunteer testers -->
+  <Credits_TitleTester>Testeurs de la communauté</Credits_TitleTester>
+
+  <!-- EN: Mods -->
+  <Credits_TitleMods>Mods</Credits_TitleMods>
+
+  <!-- EN: {0} ({1}) language -->
+  <Credits_TitleLanguage>Langue : {0} ({1})</Credits_TitleLanguage>
+  <!-- EN: Anomaly localization -->
+  <Credits_Localization_Anomaly>Traduction d'Anomaly</Credits_Localization_Anomaly>
+  <!-- EN: Odyssey localization -->
+  <Credits_Localization_Odyssey>Traduction d'Odyssey</Credits_Localization_Odyssey>
+  <!-- EN: Lead Localization Project Manager -->
+  <Credits_LeadLocalizationProjectManager>Gestionnaire de projet principal en traduction</Credits_LeadLocalizationProjectManager>
+  <!-- EN: Localization Project Manager -->
+  <Credits_LocalizationProjectManager>Gestionnaire de projet en traduction</Credits_LocalizationProjectManager>
+  <!-- EN: Project Manager -->
+  <Credits_ProjectManager>Gestionnaire de projet</Credits_ProjectManager>
+  <!-- EN: Translator -->
+  <Credits_Translator>Traducteur</Credits_Translator>
+  <!-- EN: Editor -->
+  <Credits_Editor>Éditeur</Credits_Editor>
+  <!-- EN: French -->
+  <Credits_French>Français</Credits_French>
+  <!-- EN: Japanese -->
+  <Credits_Japanese>Japonais</Credits_Japanese>
+  <!-- EN: Korean -->
+  <Credits_Korean>Coréen</Credits_Korean>
+  <!-- EN: Polish -->
+  <Credits_Polish>Polonais</Credits_Polish>
+  <!-- EN: Russian -->
+  <Credits_Russian>Russe</Credits_Russian>
+  <!-- EN: Dutch -->
+  <Credits_Dutch>Néerlandais</Credits_Dutch>
+  <!-- EN: Turkish -->
+  <Credits_Turkish>Turc</Credits_Turkish>
+  <!-- EN: Ukrainian -->
+  <Credits_Ukrainian>Ukrainien</Credits_Ukrainian>
+  <!-- EN: Simplified Chinese -->
+  <Credits_ChineseSimplified>Chinois simplifié</Credits_ChineseSimplified>
+  <!-- EN: Traditional Chinese -->
+  <Credits_ChineseTraditional>Chinois traditionnel</Credits_ChineseTraditional>
+
+  <!-- EN: and many other gracious volunteers! -->
+  <AndOtherVolunteers>et beaucoup d'autres bénévoles généreux !</AndOtherVolunteers>
+
+  <!-- Credits - Currently unused -->
+  <!-- EN: Test lead -->
+  <Credit_TestLead>Testeur en chef</Credit_TestLead>
+  <!-- EN: Community donations -->
+  <Credits_TitleCommunity>Volontaires de la communauté</Credits_TitleCommunity>
+  <!-- EN: Mod donors -->
+  <Credit_ModDonation>Donateurs pour un mod</Credit_ModDonation>
+  <!-- EN: Writing donor -->
+  <Credit_WritingDonation>Donateurs à l'écriture</Credit_WritingDonation>
+
+  <!-- Meta -->
+  <!-- EN: Thanks for playing! -->
+  <ThanksForPlaying>Merci d'avoir joué !</ThanksForPlaying>
+  <!-- EN: Skip credits -->
+  <SkipCredits>Passer</SkipCredits>
+
+
+
+</LanguageData>

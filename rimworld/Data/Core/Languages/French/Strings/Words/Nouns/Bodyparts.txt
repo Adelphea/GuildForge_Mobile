@@ -1,0 +1,14 @@
+﻿œil
+nez
+croc
+menton
+corps
+torse
+bras
+coude
+poignet
+doigt
+genou
+pied
+talon
+orteil

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fabric -->
+  <Fabric.label>en tissu</Fabric.label>
+  <!-- EN: fabric -->
+  <Fabric.noun>tissu</Fabric.noun>
+  
+  <!-- EN: leathery -->
+  <Leathery.label>en cuir</Leathery.label>
+  <!-- EN: leather -->
+  <Leathery.noun>cuir</Leathery.noun>
+  
+  <!-- EN: metallic -->
+  <Metallic.label>métallique</Metallic.label>
+  <!-- EN: metal -->
+  <Metallic.noun>métal</Metallic.noun>
+  
+  <!-- EN: stony -->
+  <Stony.label>en pierre</Stony.label>
+  <!-- EN: stone -->
+  <Stony.noun>pierre</Stony.noun>
+  
+  <!-- EN: woody -->
+  <Woody.label>en bois</Woody.label>
+  <!-- EN: wood -->
+  <Woody.noun>bois</Woody.noun>
+  
+</LanguageData>

@@ -1,0 +1,27 @@
+﻿plaines
+étendues
+prairies
+forêts
+roches
+carrières
+pierres
+montagnes
+collines
+cimes
+aiguilles
+mesas
+falaises
+crêtes
+vallées
+gorges
+oasis
+prairies
+grottes
+rivières
+entrées
+criques
+lagunes
+fosses
+fosses à bitume
+mers
+dépressions

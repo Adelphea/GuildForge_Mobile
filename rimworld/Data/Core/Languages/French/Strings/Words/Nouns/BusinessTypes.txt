@@ -1,0 +1,12 @@
+﻿cartel
+livreur
+exportateur
+importateur
+transporteur
+consortium
+comptoir
+holding
+club
+comité
+institut
+syndicat

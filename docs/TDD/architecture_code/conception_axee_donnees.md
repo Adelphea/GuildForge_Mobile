@@ -11,11 +11,11 @@ Statut: Brouillon
 
 ## 1. Introduction
 
-Ce document détaille comment les informations extraites de l'analyse des fichiers XML de RimWorld seront utilisées pour informer, enrichir et équilibrer les mécaniques de jeu de GuildForge, **en les adaptant rigoureusement à notre univers strictement médiéval et sans éléments fantastiques.** L'objectif est de capitaliser sur la richesse des données existantes pour créer un système de jeu robuste et cohérent, tout en reconnaissant que les fichiers XML sont des **sources d'inspiration et de référence conceptuelle**, et non des données à migrer directement, sauf si explicitement planifié.
+Ce document détaille comment les **1942 fichiers XML d'origine de RimWorld** sont utilisés comme **source de vérité exhaustive** pour la définition des propriétés de jeu. L'objectif est de structurer ces données brutes dans un **modèle Hybride Godot** (Classes de Base + Composition via Resources imbriquées) qui garantit la fidélité fonctionnelle à la logique RimWorld tout en respectant l'ergonomie et les performances de Godot Engine 4.x. Les XML ne sont pas migrés directement, mais servent de **schéma de données fonctionnel** pour la création des Custom Resources.
 
 ## 2. Utilisation des Données XML pour le Game Design
 
-L'analyse des schémas et des relations entre les différentes définitions (Defs) XML de RimWorld fournit une base solide pour la conception de GuildForge. Ces informations seront utilisées pour :
+L'analyse des 1942 fichiers XML d'origine de RimWorld fournit la base de données complète pour la conception de GuildForge. Ces informations sont utilisées pour :
 
 *   **Assurer la cohérence :** Maintenir une logique interne entre les objets, les actions et les effets du jeu.
 *   **Accélérer le développement :** Utiliser les structures existantes comme point de départ pour la création de nouvelles définitions.
@@ -23,7 +23,7 @@ L'analyse des schémas et des relations entre les différentes définitions (Def
 
 ### 2.1. Migration et Structuration des Données
 
-Conformément aux principes de gestion des données du projet, les anciennes données au format XML doivent être converties en resources Godot. L'analyse des `def_schemas` (schémas de définition) est cruciale pour cette étape. Ces schémas, tels que `ThingDef_schema.mmd`, `RecipeDef_schema.mmd`, et `HediffDef_schema.mmd`, serviront de base pour la création des scripts GDScript correspondants qui définiront la structure des `Types` Godot. La création des `Types` Godot est inspirée des `Defs` XML et se réfère à la même logique, adaptée pour Godot.
+Conformément à la stratégie de **Structure Hybride** validée, les données brutes des 1942 fichiers XML sont analysées pour extraire la hiérarchie d'héritage et les propriétés spécifiques. Cette extraction sert de base pour la création des **modèles GDScript Hybrides** (Classes de Base + Interfaces/Mixins) et des **Resources de Composants** (pour les `CompProperties`). Cette approche garantit que la logique fonctionnelle de RimWorld est conservée, tout en utilisant le système de `Resource` Godot pour l'ergonomie et la performance.
 
 **Exemple :** Un `ThingDef` XML décrivant un objet sera transformé en une `ItemDefinition` resource en GDScript, avec des champs correspondant aux propriétés identifiées dans le schéma XML.
 
@@ -88,7 +88,6 @@ Les informations issues de cette analyse seront intégrées à chaque étape du 
 ## 4. Références
 
 *   [GDD Maître](../README.md)
-*   [Rapport Sommaire Initial des Structures XML](./data_definitions_xml_originaux.md)
-*   [Schémas de Définition Résolus](../archives/data_definitions_xml_originaux.md)
+*   [Analyse et Utilité des Données XML d'Origine de RimWorld](../donnees_externes/data_definitions_xml_originaux.md)
 *   [Standardisation des Données pour Godot](gestion_donnees_godot.md)
 

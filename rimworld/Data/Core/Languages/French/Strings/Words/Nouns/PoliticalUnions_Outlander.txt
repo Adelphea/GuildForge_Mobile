@@ -1,0 +1,8 @@
+﻿//Common with tribals
+traité
+pacte
+
+//Outlander specific (different from empire)
+partenariat
+accord
+regroupement

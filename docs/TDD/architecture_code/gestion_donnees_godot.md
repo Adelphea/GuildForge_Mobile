@@ -30,22 +30,25 @@ Les `Resources` de Godot sont des objets héritant de la classe `Resource` qui p
 Pour maintenir une familiarité avec la terminologie de RimWorld tout en utilisant les outils natifs de Godot, nous adoptons la convention suivante :
 
 *   **Suffixe "Def" :** Toutes les `Custom Resources` servant de définitions de jeu (objets, traits, bâtiments, etc.) utiliseront le suffixe `Def` dans leur nom de classe et de fichier. Par exemple, `ItemDef.gd` pour la définition d'un objet.
-*   **Classe de Base `DefBase` :** Toutes les définitions (`...Def`) hériteront d'une classe de base commune nommée `DefBase`. Cette classe contiendra les propriétés partagées par toutes les définitions, comme `defName`, `label`, et `description`.
+*   **Classe de Base `CR_Base` :** Toutes les définitions (`...Def`) hériteront d'une classe de base commune nommée `CR_Base`. Cette classe contiendra les propriétés partagées par toutes les définitions, comme `defName`, `label`, et `description`.
+*   **Composition via CompProperties :** Les fonctionnalités complexes et modulaires (comme les propriétés des composants de RimWorld) seront mappées à des `Custom Resources` imbriquées dédiées (ex: `CompProperties_AffectedByFacilities.gd`), renforçant la stratégie de composition Godot.
 
 Cette approche permet de différencier clairement les définitions de jeu (`...Def`) des autres `Custom Resources` qui pourraient être créées pour d'autres usages, tout en conservant une terminologie cohérente et inspirée de RimWorld.
 
 ### 2.3. Structure Générale des Resources
 
-#### 2.3.1. Classe de Base `DefBase.gd`
-
-```gdscript
-# res://guildforge/scripts/definitions/DefBase.gd
-class_name DefBase extends Resource
-
-@export var defName: String = "" # Nom unique utilisé comme identifiant
-@export var label: String = ""     # Nom affiché dans le jeu
-@export var description: String = "" # Description détaillée
-```
+#### 2.3.1. Classe de Base `CR_Base.gd` (Structure Hybride)
+	
+	```gdscript
+	# res://guildforge/scripts/definitions/CR_Base.gd
+	class_name CR_Base extends Resource
+	
+	@export var defName: String = "" # Nom unique utilisé comme identifiant (ex: "ButcherSpot")
+	@export var parentName: String = "" # Nom du Def parent pour l'héritage (ex: "BuildingBase")
+	@export var defType: String = "" # Type de Def original (ex: "ThingDef")
+	@export var label: String = ""     # Nom affiché dans le jeu
+	@export var description: String = "" # Description détaillée
+	```
 
 #### 2.3.2. Exemple de `ItemDef.gd`
 
@@ -87,36 +90,34 @@ guildforge/
 
 ### 2.5. Intégration des Scripts de Définition dans Godot
 
-Pour que les classes `DefBase`, `ItemDef`, etc., soient reconnues comme des `Custom Resources` dans l'éditeur Godot et puissent être instanciées sous forme de fichiers `.tres`, les étapes suivantes sont nécessaires :
-
-1.  **Emplacement des Scripts :** Les scripts de définition (`DefBase.gd`, `ItemDef.gd`, etc.) doivent être placés dans le dossier `res://guildforge/scripts/definitions/`.
-2.  **Déclaration `class_name` :** Chaque script de définition doit utiliser la déclaration `class_name` (par exemple, `class_name DefBase extends Resource`) pour enregistrer la classe comme un type global dans Godot. Cela permet de l'utiliser directement dans le code et l'éditeur.
-3.  **Création d'Instances `.tres` :**
-    *   **Via l'éditeur :** Dans le panneau `FileSystem` de Godot, faites un clic droit dans le dossier `res://guildforge/resources/definitions/` (ou un sous-dossier spécifique comme `items/`), sélectionnez `New Resource...`, puis recherchez et sélectionnez le `class_name` de votre définition (par exemple, `ItemDef`). Nommez le fichier `.tres` de manière descriptive (par exemple, `item_sword.tres`).
-    *   **Via le code :** Il est également possible de créer et de sauvegarder des instances de `Custom Resources` par script, ce qui est utile pour la génération de contenu ou la migration de données.
-
-    ```gdscript
-    # Exemple de création et sauvegarde d'un ItemDef par script
-    var new_item_def = ItemDef.new()
-    new_item_def.defName = "sword_iron"
-    new_item_def.label = "Épée en Fer"
-    new_item_def.description = "Une épée simple en fer."
-    new_item_def.item_type = ItemDef.ItemType.WEAPON
-    new_item_def.stack_size = 1
-    new_item_def.base_value = 10.0
-    new_item_def.weight = 2.5
-    new_item_def.tags = ["weapon", "melee"]
-
-    ResourceSaver.save(new_item_def, "res://guildforge/resources/definitions/items/sword_iron.tres")
-    ```
-
-Ces étapes garantissent que les définitions sont correctement intégrées et utilisables dans le projet Godot, offrant une approche robuste et flexible pour la gestion des données de jeu.
+Pour que les classes `CR_Base`, `ItemDef`, etc., soient reconnues comme des `Custom Resources` dans l'éditeur Godot et puissent être instanciées sous forme de fichiers `.tres`, les étapes suivantes sont nécessaires :
+	
+	1.  **Emplacement des Scripts :** Les scripts de définition (`CR_Base.gd`, `ItemDef.gd`, etc.) doivent être placés dans le dossier `res://guildforge/scripts/definitions/`.
+	2.  **Déclaration `class_name` :** Chaque script de définition doit utiliser la déclaration `class_name` (par exemple, `class_name CR_Base extends Resource`) pour enregistrer la classe comme un type global dans Godot. Cela permet de l'utiliser directement dans le code et l'éditeur.
+	3.  **Création d'Instances `.tres` :**
+	    *   **Via l'éditeur :** Dans le panneau `FileSystem` de Godot, faites un clic droit dans le dossier `res://guildforge/resources/definitions/` (ou un sous-dossier spécifique comme `items/`), sélectionnez `New Resource...`, puis recherchez et sélectionnez le `class_name` de votre définition (par exemple, `ItemDef`). Nommez le fichier `.tres` de manière descriptive (par exemple, `item_sword.tres`).
+	    *   **Via le code (Script de Conversion) :** La création et la sauvegarde des 6500+ instances de `Custom Resources` seront gérées par un **Script de Conversion** (Phase 184). Ce script lira les fichiers Markdown/YAML, appliquera la logique d'héritage (via `parentName`), et exportera le résultat final dans le format **Godot natif binaire (`.res`)** pour une performance mobile maximale.
+	
+	    ```gdscript
+	    # Exemple de création et sauvegarde d'un ItemDef par script
+	    var new_item_def = ItemDef.new()
+	    new_item_def.defName = "sword_iron"
+	    new_item_def.parentName = "MeleeWeaponBase"
+	    new_item_def.defType = "ThingDef"
+	    new_item_def.label = "Épée en Fer"
+	    new_item_def.description = "Une épée simple en fer."
+	    # ... autres propriétés ...
+	
+	    ResourceSaver.save(new_item_def, "res://guildforge/resources/definitions/items/sword_iron.res", ResourceSaver.FLAG_COMPRESS)
+	    ```
+	
+	Ces étapes garantissent que les définitions sont correctement intégrées et utilisables dans le projet Godot, offrant une approche robuste et flexible pour la gestion des données de jeu. Le format `.res` binaire est privilégié pour la production mobile.
 
 ## 3. Stratégie de Migration des Données XML vers Godot Resources
 
 ### 3.1. Contexte des Fichiers XML (Référence Brute)
 
-Les définitions de jeu (Defs) et autres catégories étaient historiquement stockées dans des fichiers XML, inspirées par le modèle de RimWorld. Ces fichiers sont désormais disponibles en tant que références brutes et immuables dans le dossier `xml_md_documentation/raw_xml_content`. Chaque fichier Markdown dans ce dossier représente un fichier XML original et contient son contenu brut encapsulé dans un bloc de code.
+Les définitions de jeu (Defs) et autres catégories étaient historiquement stockées dans des fichiers XML, inspirées par le modèle de RimWorld. Les **1942 fichiers XML d'origine** sont désormais la **source de vérité** pour l'extraction des propriétés. Ils sont analysés pour informer la structure des `Custom Resources` Godot.
 
 #### 3.1.1. Exemple de Structure XML (Référence)
 
@@ -154,9 +155,9 @@ Il est important de comprendre les caractéristiques du format XML pour mieux ap
 La migration vers les Resources de Godot est la direction stratégique. L'analyse approfondie des fichiers XML/MD bruts est essentielle pour informer cette migration.
 
 *   **Standardisation :** Toutes les nouvelles définitions de jeu sont créées directement en tant que Resources.
-*   **Conversion Progressive :** Les définitions XML existantes sont converties par lots, en s'appuyant sur l'analyse des fichiers MD bruts pour guider le processus.
+*   **Conversion Automatisée :** Les propriétés des 1942 fichiers XML sont extraites et structurées dans un format intermédiaire (Markdown/YAML) pour l'édition humaine, puis converties automatiquement par un script vers le format `.res` binaire de Godot.
 *   **Coexistence Temporaire :** Pendant la transition, le jeu gère les deux formats via un `DataManager` adapté.
-*   **Automatisation :** Des scripts de conversion sont développés pour faciliter le passage du XML aux Resources, dont la conception bénéficiera de l'analyse des structures XML brutes.
+*   **Automatisation :** Un script de conversion est développé pour gérer la logique d'héritage XML (`parentName`) et le passage du format Markdown/YAML au format `.res` binaire de Godot, garantissant l'optimisation mobile.
 
 ### 3.3. Processus de Conversion des Données XML Existantes
 
@@ -180,9 +181,7 @@ La conversion des données XML existantes vers le format `Custom Resource` de Go
 
 ### Références
 
-*   [Rapport Final d'Analyse XML - GuildForge](./data_definitions_xml_originaux.md)
-*   [Analyse Critique de la Méthodologie Actuelle](./data_definitions_xml_originaux.md)
-*   [Méthodes Alternatives d'Analyse de Données Structurées](./data_definitions_xml_originaux.md)
+*   [Analyse et Utilité des Données XML d'Origine de RimWorld](../donnees_externes/data_definitions_xml_originaux.md)
 *   [Standardisation des Formats de Données Godot](../gestion_projet/conventions_directives/coding_conventions.md)
 *   [Historique des Décisions : Migration des Définitions de Jeu](../gestion_projet/communication_workflow/decision_history.md)
 

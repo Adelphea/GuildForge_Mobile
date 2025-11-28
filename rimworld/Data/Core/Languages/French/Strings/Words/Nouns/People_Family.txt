@@ -1,0 +1,12 @@
+﻿fils
+père
+grand-père
+frère
+petit-fils
+oncle
+neveu
+cousin
+beau-fils
+beau-père
+gendre
+cadet

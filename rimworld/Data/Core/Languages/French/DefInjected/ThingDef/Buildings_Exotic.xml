@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ship part (defoliator) -->
+  <DefoliatorShipPart.label>partie de vaisseau (défoliateur)</DefoliatorShipPart.label>
+  <!-- EN: An ancient ship part, torn off of a craft of unknown origin. It might be thousands of years old.\n\nThis one contains a device which annihilates plant life near itself without directly affecting flesh creatures. These kinds of weapons are sometimes scattered across farmlands or forests to remove the enemy's food supply and hiding places without permanently ruining the territory. They're usually associated with orbital-drop mechanoid armies. -->
+  <DefoliatorShipPart.description>Une ancienne partie de vaisseau arrachée à un navire d'origine inconnue. Elle pourrait avoir des milliers d'années.\n\nCelle-ci contient un appareil qui annihile la vie végétale autour d'elle sans affecter directement les créatures animales. Ce types d'arme est parfois dispersé à travers les terres agricoles ou les forêts, pour briser les lignes d'approvisionnement de l'ennemi sans altérer définitivement le territoire. Elles sont généralement associées au largage orbital d'armées de mécanoïdes.</DefoliatorShipPart.description>
+  
+  <!-- EN: ship part (psychic droner) -->
+  <PsychicDronerShipPart.label>partie de vaisseau (drone psychique)</PsychicDronerShipPart.label>
+  <!-- EN: An ancient ship part, torn off of a craft of unknown origin. It might be thousands of years old.\n\nThis one contains a psychic disturbance device. Using incomprehensible archotechnologies, it generates a psychic signal that drives people and animals mad within a wide radius around itself. -->
+  <PsychicDronerShipPart.description>Une ancienne partie de vaisseau arrachée à un navire d'origine inconnue. Elle pourrait avoir des milliers d'années.\n\nCelle-ci contient un dispositif de perturbation psychique. Utilisant des archotechnologies incompréhensibles, elle génère dans un large rayon autour d'elle un signal psychique qui rend les gens et les animaux fous.</PsychicDronerShipPart.description>
+  
+  <!-- EN: ship chunk -->
+  <ShipChunk.label>débris de vaisseau</ShipChunk.label>
+  <!-- EN: A chunk of a spacecraft. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nHaving landed not long ago, it still contains useful resources which you can acquire by deconstructing it. -->
+  <ShipChunk.description>Un morceau de vaisseau spatial. Il semble avoir été arraché soit lors d'une entrée atmosphérique incontrôlée, soit par une sorte d'arme.\n\nÉtant tombé il y a peu de temps, il contient toujours des ressources utilisables que vous pouvez acquérir en le déconstruisant.</ShipChunk.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <ShipChunk.comps.CompInspectString.inspectString>Déconstruire pour des ressources précieuses.</ShipChunk.comps.CompInspectString.inspectString>
+  
+  <!-- EN: imperial shuttle -->
+  <Shuttle.label>navette impériale</Shuttle.label>
+  <!-- EN: A spacer-tech uranium-powered shuttle designed for transit between surface and orbit, or between moons of a planetary system. To prevent unsanctioned use, the shuttle is locked to the pilot's bio-signature. Destroying the shuttle will yield a shuttle engine and other valuable resources. -->
+  <Shuttle.description>Une navette propulsée à l'uranium conçue pour le transit entre la surface et l'orbite, ou entre les lunes d'un système planétaire. Pour éviter toute utilisation non autorisée, la navette est verrouillée à la bio-signature du pilote. Détruire la navette permettra d'obtenir un moteur de navette et d'autres ressources précieuses.</Shuttle.description>
+  
+  <!-- EN: crashed shuttle -->
+  <ShuttleCrashed.label>navette écrasée</ShuttleCrashed.label>
+  <!-- EN: A spacer-tech uranium-powered shuttle designed for transit between surface and orbit, or between moons of a planetary system. To prevent unsanctioned use, the shuttle is locked to the pilot's bio-signature. Destroying the shuttle will yield a shuttle engine and other valuable resources. -->
+  <ShuttleCrashed.description>Une navette propulsée à l'uranium conçue pour le transit entre la surface et l'orbite, ou entre les lunes d'un système planétaire. Pour éviter toute utilisation non autorisée, la navette est verrouillée à la bio-signature du pilote. Détruire la navette permettra d'obtenir un moteur de navette et d'autres ressources précieuses.</ShuttleCrashed.description>
+  
+</LanguageData>

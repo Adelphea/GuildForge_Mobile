@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Audiovisuals -->
+  <!-- EN: Audiovisuals -->
+  <Audiovisuals>Audio et vidéo</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>Volume principal</MasterVolume>
+  <!-- EN: Game volume -->
+  <GameVolume>Volume du jeu</GameVolume>
+  <!-- EN: Music volume -->
+  <MusicVolume>Volume de la musique</MusicVolume>
+  <!-- EN: Ambience volume -->
+  <AmbientVolume>Volume des effets sonores</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>Volume de l'UI</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>Affecte tous les sons.</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>Affecte tous les sons du monde, par ex. couper des arbres, construire des murs.</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>Affecte la musique.</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>Affecte tous les sons ambiants, par ex. vent, insectes.</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>Affecte tous les sons de l'interface, par ex. clics de bouton, messages.</UIVolumeTooltip>
+  <!-- EN: Anti-aliasing -->
+  <Antialiasing>Anti-aliasing</Antialiasing>
+
+  <!-- Gameplay -->
+  <!-- EN: Remember draw styles -->
+  <RememberDrawStyle>Se souvenir des styles de tracé</RememberDrawStyle>
+  <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
+  <RememberDrawStyle_Tooltip>Lorsque activée, les styles de tracé ne seront pas réinitialisés au style de tracé par défaut lors du placement de nouveaux bâtiments ou de nouvelles zones.</RememberDrawStyle_Tooltip>
+  <!-- EN: Zoom switches world map layers -->
+  <ZoomSwitchLayer>le zoom change les couches de la carte du monde</ZoomSwitchLayer>
+  <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
+  <ZoomSwitchLayer_Tooltip>Lorsque activée, un zoom arrière sur la carte du monde permet de passer à une vue orbitale. Un zoom avant permet d'afficher à nouveau la planète.</ZoomSwitchLayer_Tooltip>
+  <!-- EN: Screen-edge mouse scroll -->
+  <EdgeScreenScroll>Défilement sur les bords d'écran</EdgeScreenScroll>
+  <!-- EN: Zoom to mouse -->
+  <ZoomToMouse>Zoom sur le curseur de la souris</ZoomToMouse>
+  <!-- EN: Pause on load -->
+  <PauseOnLoad>Pause lors du chargement</PauseOnLoad>
+  <!-- EN: Pause on urgent letter -->
+  <PauseOnUrgentLetter>Pause lors d'un message urgent</PauseOnUrgentLetter>
+  <!-- EN: Pause on letter -->
+  <AutomaticPauseModeSetting>Pause sur notification</AutomaticPauseModeSetting>
+  <!-- EN: Disable game-specific cursor -->
+  <CustomCursor>Désactiver le curseur spécifique au jeu</CustomCursor>
+  <!-- EN: Hide hats on UI -->
+  <HatsShownOnlyOnMap>Masquer les chapeaux sur l'interface utilisateur</HatsShownOnlyOnMap>
+  <!-- EN: UI scale -->
+  <UIScale>Échelle de l'interface</UIScale>
+  <!-- EN: Keyboard configuration -->
+  <KeyboardConfig>Configuration du clavier</KeyboardConfig>
+  <!-- EN: Controller configuration -->
+  <ControllerConfig>Configuration du contrôleur</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>Modifier</ModifyConfig>
+  <!-- EN: Choose language -->
+  <ChooseLanguage>Choix de la langue</ChooseLanguage>
+  <!-- EN: Reset learning helper -->
+  <ResetAdaptiveTutor>Réinitialisation de l'assistant</ResetAdaptiveTutor>
+  <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
+  <AdaptiveTutorIsReset>L'assistant d'apprentissage est réinitialisé. Toutes les leçons vont vous être ré-enseignées depuis le début.</AdaptiveTutorIsReset>
+  <!-- EN: Keyboard mode -->
+  <SteamDeckKeyboardMode>Mode clavier</SteamDeckKeyboardMode>
+  <!-- EN: Run in background -->
+  <RunInBackground>Exécuter en arrière-plan</RunInBackground>
+  <!-- EN: Development mode -->
+  <DevelopmentMode>Mode Développement</DevelopmentMode>
+  <!-- EN: Auto-reset mods config on crash -->
+  <ResetModsConfigOnCrash>Recharger auto. les mods après un crash</ResetModsConfigOnCrash>
+  <!-- EN: Quick start has no cryptosleep sickness -->
+  <DisableQuickStartCryptoSickness>Pas de mal du caisson lors du démarrage rapide</DisableQuickStartCryptoSickness>
+  <!-- EN: Start game with dev palette on -->
+  <StartDevPaletteOn>Démarrer le jeu avec la palette de développement activée</StartDevPaletteOn>
+  <!-- EN: Open log on warnings -->
+  <OpenLogOnWarnings>Ouvrir le journal lors d'avertissement</OpenLogOnWarnings>
+  <!-- EN: Close log by pressing cancel -->
+  <CloseLogWindowOnEscape>Ferme le journal lorsque "annuler" est appuyé</CloseLogWindowOnEscape>
+  <!-- EN: Verbose logging -->
+  <LogVerbose>Journal verbeux</LogVerbose>
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>Dossier de données enregistrées</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>emplacement des données enregistrées</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>Dossier de fichiers journaux</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>Emplacement des fichiers journaux</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>Ouvrir</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>Montrer</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
+  <NamesYouWantToSee>Noms que vous souhaitez voir apparaître comme nom de famille des personnages ou dans l'histoire du jeu :</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>Ces noms seront plus susceptibles d'apparaître au hasard pendant le jeu.</NamesYouWantToSeeSubText>
+  <!-- EN: Add name -->
+  <AddName>Ajouter nom</AddName>
+  <!-- EN: Type the first name, nickname, or last name. -->
+  <TypeFirstNickOrLastName>Taper le prénom, surnom ou nom.</TypeFirstNickOrLastName>
+  <!-- EN: This name is already on the preferred list. -->
+  <MessageAlreadyPreferredName>Ce nom est déjà dans la liste de préférence.</MessageAlreadyPreferredName>
+  <!-- EN: Storyteller settings -->
+  <ChangeStoryteller>Choix du narrateur</ChangeStoryteller>
+  <!-- EN: Autosave interval -->
+  <AutosaveInterval>Sauvegarde auto.</AutosaveInterval>
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>Le nombre de jours de jeu entre chaque sauvegarde automatique.</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
+  <TemperatureMode>Unité de température</TemperatureMode>
+  <!-- EN: Show realtime clock -->
+  <ShowRealtimeClock>Afficher l'heure réelle</ShowRealtimeClock>
+  <!-- EN: Use 12 hour clock -->
+  <TwelveHourClockMode>Utiliser le système horaire sur 12 heures</TwelveHourClockMode>
+  <!-- EN: Disable tiny font -->
+  <DisableTinyText>Désactiver les petites polices</DisableTinyText>
+  <!-- EN: Maximum number of colonies: {0} -->
+  <MaxNumberOfPlayerSettlements>Nombre maximum de colonies : {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Autosaves count: {0} -->
+  <AutosavesCount>Nombre de sauvegardes auto. : {0}</AutosavesCount>
+  <!-- EN: Map mouse drag sensitivity -->
+  <MapDragSensitivity>Défilement carte: sensibilité souris</MapDragSensitivity>
+  <!-- EN: Plant wind sway -->
+  <PlantWindSway>Balancement des plantes par le vent</PlantWindSway>
+  <!-- EN: Enable test map sizes -->
+  <EnableTestMapSizes>Activer les tailles de cartes en test</EnableTestMapSizes>
+  <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
+  <MaxPermadeathAutosaveIntervalInfo>L'intervalle maximum entre deux sauvegardes automatiques en mode 'Engagement' est de {0} jour.</MaxPermadeathAutosaveIntervalInfo>
+  <!-- EN: Mod Settings -->
+  <ModSettings>Paramètres des Mods</ModSettings>
+  <!-- EN: Permanently disable development mode -->
+  <PermanentlyDisableDevMode>Suppression du mode développeur</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>Compression des textures</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>La désactivation de la compression des textures utilisera beaucoup plus de mémoire vidéo, mais rendra les textures légèrement meilleures dans les zones détaillées. Ne désactivez cette option que si vous savez que vous disposez de beaucoup de mémoire vidéo supplémentaire.\n\nNotez que l'utilisation de certains mods consomme souvent beaucoup plus de mémoire vidéo, vous devrez donc peut-être activer cette option si vous ajoutez certains mods.</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>Sauts de caméra fluides</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>Lorsqu'elle est activée, la caméra effectuera rapidement un panoramique lors de la mise au point sur un nouvel emplacement. Lorsqu'elle est désactivée, la caméra sautera instantanément.</SmoothCameraJumpsDesc>
+  <!-- EN: Gravship cutscenes -->
+  <GravshipCutscenes>Cinématiques de vaisseau gravitationnel</GravshipCutscenes>
+  <!-- EN: When disabled, gravships will take off and land instantly. -->
+  <GravshipCutscenesDesc>Lorsque désactivé, les vaisseaux gravitationnels décolleront et atterriront instantanément.</GravshipCutscenesDesc>
+
+  <!-- Resolution -->
+  <!-- EN: Resolution -->
+  <Resolution>Résolution</Resolution>
+  <!-- EN: Fullscreen -->
+  <Fullscreen>Plein écran</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>Plein écran sans bordure</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>Pour exécuter RimWorld en mode plein écran sans bordure :\n\n1) Ouvrez Steam\n2) Allez dans l'onglet "Bibliothèque" en haut\n3) Trouvez RimWorld dans la liste et faites un clic droit dessus\n4) Choisissez "Propriétés... "\n5) Ajoutez "-popupwindow" sans guillemets à "Options de lancement" dans l'onglet "Général"\n6) Redémarrez le jeu\n7) Si c'est fait correctement, vous ne verrez pas cette fenêtre\n\nAstuce : utilisez la touche Windows + Maj + Gauche/Droite pour déplacer la fenêtre entre vos moniteurs.</BorderlessFullscreenInstructions>
+
+  <!-- Mods -->
+  <!-- EN: Select mod... -->
+  <SelectMod>Sélectionner mod…</SelectMod>
+  <!-- EN: No configurable mods loaded. -->
+  <NoConfigurableMods>Aucun mod configurable.</NoConfigurableMods>
+  
+  <!-- Options reset -->
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>Restaurer tous les paramètres par défaut</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
+  <RestoreToDefaultSettings>Utiliser les paramètres par défaut</RestoreToDefaultSettings>
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
+  <ResetAndRestart>Vos paramètres ont été réinitialisés. Le jeu va maintenant redémarrer automatiquement.</ResetAndRestart>
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>Tous vos paramètres seront réinitialisés par défaut et le jeu sera redémarré. Tous les progrès non enregistrés seront perdus !\n\nContinuer ?</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
+  <ChangedTextureCompressionRestart>La modification de l'option de compression des textures nécessite un redémarrage. Tous les progrès non enregistrés seront perdus !\n\nContinuer ?</ChangedTextureCompressionRestart>
+  
+  <!-- Background image -->
+  <!-- EN: Menu background -->
+  <SetBackgroundImage>Arrière-plan du menu</SetBackgroundImage>
+
+</LanguageData>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: burned stump -->
+  <BurnedTree.label>souche brûlée</BurnedTree.label>
+  <!-- EN: A burned tree stump. It's ugly and yields very little usable wood. -->
+  <BurnedTree.description>Une souche d'arbre brûlée. C'est laid et donne très peu de bois utilisable.</BurnedTree.description>
+  
+  <!-- EN: chopped stump -->
+  <ChoppedStump.label>souche coupée</ChoppedStump.label>
+  <!-- EN: A stump left behind after a tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <ChoppedStump.description>Souche laissée après l'abattage d'un arbre. La souche peut être extraite mais donne très peu de bois utilisable. Laissée à l'extérieur, la souche se détériore avec le temps.</ChoppedStump.description>
+  
+  <!-- EN: dye -->
+  <Dye.label>colorant</Dye.label>
+  <!-- EN: Dye extracted from a tinctoria plant. It can be used to change the color of walls, buildings, and more. -->
+  <Dye.description>Colorant extrait d'une plante tinctoria. Il peut être transformé en différentes couleurs pour teindre les vêtements.</Dye.description>
+  
+  <!-- EN: ambrosia bush -->
+  <Plant_Ambrosia.label>buisson d'ambroisie</Plant_Ambrosia.label>
+  <!-- EN: A rare wild bush which yields the ambrosia fruit. Ambrosia fruit is delicious and produces a drug-like mood boost. Ambrosia cannot be farmed, which makes wild ambrosia groves very valuable.\n\nIts rarity, beauty, and desirability are why ambrosia was named after the food of the ancient Greek gods. -->
+  <Plant_Ambrosia.description>Un buisson rare où pousse de l'ambroisie, un fruit agréable en bouche, légèrement addictif, qui procure un effet euphorisant. L'ambroisie ne peut pas être cultivée, ce qui rend les plantations d'ambroisie sauvages très précieuses. Sa rareté, sa beauté et le plaisir qui en découle sont les raisons pour lesquelles l'ambroisie est appelée "la nourriture des dieux".</Plant_Ambrosia.description>
+  
+  <!-- EN: timbershroom -->
+  <Plant_Timbershroom.label>champignon-bûche</Plant_Timbershroom.label>
+  <!-- EN: A tall brown mushroom with a long stem. When harvested, it yields a wood-like substance. -->
+  <Plant_Timbershroom.description>Un grand champignon brun avec une longue tige. Une fois récolté, il donne une substance ressemblant au bois.</Plant_Timbershroom.description>
+  
+  <!-- EN: tinctoria -->
+  <Plant_Tinctoria.label>tinctoria</Plant_Tinctoria.label>
+  <!-- EN: A genetically-engineered flower-like crop which secretes a self-altering dye. Tinctoria dye can be coaxed into different colors and used to change the color of walls, buildings, and more. -->
+  <Plant_Tinctoria.description>Une culture ressemblant à une fleur génétiquement modifiée qui sécrète un colorant auto-altérant. Le colorant tinctoria permet d'obtenir différentes couleurs et est utilisé pour teindre les vêtements.</Plant_Tinctoria.description>
+  
+  <!-- EN: smashed stump -->
+  <SmashedStump.label>souche brisée</SmashedStump.label>
+  <!-- EN: The remnants of a tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <SmashedStump.description>Les restes d'un arbre détruit par des dégâts. C'est moche. La souche peut être extraite mais donne très peu de bois utilisable. Laissée à l'extérieur, la souche se détériore avec le temps.</SmashedStump.description>
+  
+</LanguageData>

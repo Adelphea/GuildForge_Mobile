@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Mote -->
+  <CracksShieldBreak.label>Particule</CracksShieldBreak.label>
+  
+  <!-- EN: Mote -->
+  <FlashShieldBreak.label>Particule</FlashShieldBreak.label>
+  
+  <!-- EN: Mote -->
+  <GroundCrackHuge.label>Particule</GroundCrackHuge.label>
+  
+  <!-- EN: Mote -->
+  <Mote_ActivatorCountdownGlow.label>Particule</Mote_ActivatorCountdownGlow.label>
+  
+  <!-- EN: Mote -->
+  <Mote_ActivatorProximityGlow.label>Particule</Mote_ActivatorProximityGlow.label>
+  
+  <!-- EN: Mote -->
+  <Mote_AnimalWarcallDistortion.label>Particule</Mote_AnimalWarcallDistortion.label>
+  
+  <!-- EN: Mote -->
+  <Mote_AnimalWarcallFlash.label>Particule</Mote_AnimalWarcallFlash.label>
+  
+  <!-- EN: Mote -->
+  <Mote_Bombardment.label>Particule</Mote_Bombardment.label>
+  
+  <!-- EN: Mote -->
+  <Mote_CocoonBreaking.label>Particule</Mote_CocoonBreaking.label>
+  
+  <!-- EN: Mote -->
+  <Mote_CocoonDestroyedFlyingPiece.label>Particule</Mote_CocoonDestroyedFlyingPiece.label>
+  
+  <!-- EN: Mote -->
+  <Mote_CocoonDestroyedFlyingSlime.label>Particule</Mote_CocoonDestroyedFlyingSlime.label>
+  
+  <!-- EN: Mote -->
+  <Mote_CocoonDestroyedMist.label>Particule</Mote_CocoonDestroyedMist.label>
+  
+  <!-- EN: Mote -->
+  <Mote_CookBit.label>Particule</Mote_CookBit.label>
+  
+  <!-- EN: Mote -->
+  <Mote_FoodBitMeat.label>Particule</Mote_FoodBitMeat.label>
+  
+  <!-- EN: Mote -->
+  <Mote_FoodBitVegetarian.label>Particule</Mote_FoodBitVegetarian.label>
+  
+  <!-- EN: Mote -->
+  <Mote_ForcedVisible.label>Particule</Mote_ForcedVisible.label>
+  
+  <!-- EN: Mote -->
+  <Mote_ForceJob.label>Particule</Mote_ForceJob.label>
+  
+  <!-- EN: Mote -->
+  <Mote_ForceJobMaintained.label>Particule</Mote_ForceJobMaintained.label>
+  
+  <!-- EN: Mote -->
+  <Mote_GiantExplosion.label>Particule</Mote_GiantExplosion.label>
+  
+  <!-- EN: Mote -->
+  <Mote_GiantExplosionInner.label>Particule</Mote_GiantExplosionInner.label>
+  
+  <!-- EN: Mote -->
+  <Mote_Hacking.label>Particule</Mote_Hacking.label>
+  
+  <!-- EN: Mote -->
+  <Mote_Leaf.label>Particule</Mote_Leaf.label>
+  
+  <!-- EN: Mote -->
+  <Mote_PowerBeam.label>Particule</Mote_PowerBeam.label>
+  
+  <!-- EN: Mote -->
+  <Mote_PowerCellBurning.label>Particule</Mote_PowerCellBurning.label>
+  
+  <!-- EN: Mote -->
+  <Mote_PsychicConditionCauserEffect.label>Particule</Mote_PsychicConditionCauserEffect.label>
+  
+  <!-- EN: Mote -->
+  <Mote_PsychicEmanatorEffect.label>Particule</Mote_PsychicEmanatorEffect.label>
+  
+  <!-- EN: Mote -->
+  <Mote_ResurrectAbility.label>Particule</Mote_ResurrectAbility.label>
+  
+  <!-- EN: Mote -->
+  <Mote_ResurrectFlash.label>Particule</Mote_ResurrectFlash.label>
+  
+  <!-- EN: Mote -->
+  <Mote_SparkThrownFastBright.label>Particule</Mote_SparkThrownFastBright.label>
+  
+  <!-- EN: Mote -->
+  <Mote_StoneBit.label>Particule</Mote_StoneBit.label>
+  
+  <!-- EN: Mote -->
+  <Mote_TerrorHalo.label>Particule</Mote_TerrorHalo.label>
+  
+  <!-- EN: Mote -->
+  <Mote_VomitBit.label>Particule</Mote_VomitBit.label>
+  
+</LanguageData>

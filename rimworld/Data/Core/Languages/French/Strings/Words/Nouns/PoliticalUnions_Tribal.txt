@@ -1,0 +1,7 @@
+﻿//Common with outlanders
+traité
+pacte
+
+//Tribe specific
+clan
+peuple
