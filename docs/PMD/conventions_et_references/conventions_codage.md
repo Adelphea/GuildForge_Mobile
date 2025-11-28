@@ -43,19 +43,19 @@ Des conventions de codage uniformes sont essentielles pour tout projet collabora
 
 ### 3.1. Classes et Nœuds
 
-*   **Classes (fichiers .gd) :** Utiliser le `PascalCase` (ex: `PlayerController.gd`, `ItemDefinition.gd`).
-*   **Nœuds dans l'arbre de scène :** Utiliser le `PascalCase` (ex: `Player`, `EnemySpawner`).
+*   **Classes (fichiers .gd) :** Utiliser le `PascalCase` (ex: `PlayerController.gd`, `ItemDefinition.gd`). (Règle consolidée)
+*   **Nœuds dans l'arbre de scène :** Utiliser le `PascalCase` (ex: `Player`, `EnemySpawner`). (Règle consolidée)
 
 ### 3.2. Variables
 
-*   **Variables locales et membres :** Utiliser le `snake_case` (ex: `player_speed`, `current_health`).
-*   **Constantes :** Utiliser le `SCREAMING_SNAKE_CASE` (ex: `MAX_SPEED`, `GRAVITY_STRENGTH`).
+*   **Variables/Propriétés :** Utiliser le `snake_case` (ex: `current_health`, `max_stack_size`). (Règle consolidée)
+*   **Constantes :** Utiliser le `SCREAMING_SNAKE_CASE` (ex: `MAX_COLON_COUNT`, `DEFAULT_SPEED`). (Règle consolidée)
 *   **Variables exportées (`@export`) :** Utiliser le `snake_case`.
 
 ### 3.3. Fonctions et Méthodes
 
-*   **Fonctions et méthodes :** Utiliser le `snake_case` (ex: `_ready()`, `handle_input()`, `update_health()`).
-*   **Signaux :** Utiliser le `snake_case` (ex: `health_changed`, `item_collected`).
+*   **Fonctions/Méthodes :** Utiliser le `snake_case` (ex: `_ready()`, `handle_damage()`, `load_data()`). (Règle consolidée)
+*   **Signaux :** Utiliser le `snake_case` (ex: `colon_died`, `resource_updated`). (Règle consolidée)
 
 ## 4. Formatage
 
@@ -111,7 +111,7 @@ func get_player_name() -> String:
 
 ## 8. Références
 
-*   [Conventions Générales](./conventions_generales.md)
+*   [Conventions de Documentation Générale](./CONVENTIONS_DOCUMENTATION_GENERALE.md)
 *   [Documentation Godot sur GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
 *   [GDScript Style Guide (non officiel mais utile)](https://github.com/godotengine/godot-docs/blob/master/contributing/gdscript_style_guide.rst)
 *   [Glossaire du Projet GuildForge Mobile](../../verite_unique/glossaire.md)
