@@ -53,43 +53,39 @@ Utiliser des préfixes ou suffixes pour indiquer le type d'asset, son état ou s
 
 ### 3.1. Fichiers de Modèles 3D (.blend, .fbx, .gltf)
 
-*   **Format :** `[Catégorie]_[NomObjet]_[Variante].extension`
+*   **Format :** `[Préfixe]_[NomObjet]_[Variante].extension`
+*   **Préfixes :** `SM_` (Static Mesh), `SK_` (Skeletal Mesh).
 *   **Exemples :**
-    *   `Prop_Table_Bois01.blend`
-    *   `Char_Colon_Male01.fbx`
-    *   `Bld_Maison_Niveau01.gltf`
+    *   `SM_Wall_Stone.fbx`
+    *   `SK_Colon_Male.fbx`
 
 ### 3.2. Objets dans les Scènes 3D (Nœuds Godot)
 
 *   **Format :** `[TypeObjet]_[NomObjet]_[Numéro]`
+*   **Préfixes de Collision :** Utiliser `COL_` pour les maillages de collision.
 *   **Exemples :**
     *   `Mesh_Table_01`
     *   `Armature_Colon_Male`
-    *   `Light_Torche_Murale`
+    *   `COL_Wall_Stone`
 
 ### 3.3. Matériaux
 
-*   **Format :** `Mat_[NomMatériau]_[Propriété]`
+*   **Format :** `M_[NomMatériau]_[Propriété]`
+*   **Note :** Utiliser `M_` pour les matériaux internes au logiciel 3D. La convention pour les ressources Matériaux Godot est `MAT_` (voir `CONVENTIONS_ASSETS_GENERAUX.md`).
 *   **Exemples :**
-    *   `Mat_Bois_Clair`
-    *   `Mat_Pierre_Mousse`
-    *   `Mat_Metal_Rouille`
+    *   `M_Wood_PBR`
+    *   `M_Stone_Mossy`
 
 ### 3.4. Textures
 
-*   **Format :** `Tex_[NomTexture]_[TypeMap]_[Résolution]`
-*   **Exemples :**
-    *   `Tex_Bois_Clair_Albedo_2K`
-    *   `Tex_Pierre_Mousse_Normal_1K`
-    *   `Tex_Metal_Rouille_Roughness_512`
+*   **Note :** La convention de nommage des textures a été déplacée et centralisée dans `CONVENTIONS_ASSETS_GENERAUX.md`. Se référer à ce document pour les règles sur les maps PBR (`albedo`, `normal`, `orm`).
 
 ### 3.5. Animations
 
-*   **Format :** `Anim_[Action]_[Variante]`
+*   **Format :** `ANIM_[Action]_[Variante]`
 *   **Exemples :**
-    *   `Anim_Idle_Calm`
-    *   `Anim_Walk_Heavy`
-    *   `Anim_Attack_Sword01`
+    *   `ANIM_Colon_Walk`
+    *   `ANIM_Colon_Idle`
 
 ## 4. Références
 

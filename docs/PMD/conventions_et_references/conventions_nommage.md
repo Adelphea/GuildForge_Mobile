@@ -14,12 +14,12 @@ Ce document établit les conventions de nommage à respecter pour les fichiers e
 | Élément | Convention | Exemple | Note |
 | :--- | :--- | :--- | :--- |
 | **Dossiers** | `snake_case` | `game_design`, `verite_unique` | Minuscules, séparés par des underscores. |
-| **Fichiers (.md)** | `snake_case` | `glossaire.md`, `conventions_nommage.md` | Minuscules, séparés par des underscores. |
-| **Ordre** | Préfixes numériques | `01_systeme_monde.md` | Utiliser des préfixes numériques pour garantir l'ordre dans les sections GDD et TDD. |
+| **Fichiers (.md)** | `snake_case` | `glossaire.md`, `conventions_nommage.md` | Minuscules, séparés par des underscores. (Prop 18) |
+| **Ordre** | Préfixes numériques | `01_systeme_monde.md` | Utiliser des préfixes numériques pour garantir l'ordre dans les sections GDD et TDD. (Prop 19) |
 
 ---
 
-## 2. Références
+## 2. Fichiers de Données et Temporaires (Prop 32, 33)\n\n| Élément | Convention | Exemple | Note |\n| :--- | :--- | :--- | :--- |\n| **Fichiers de Données (JSON, XML)** | `snake_case` | `game_data_items.json` | Uniformité avec les fichiers Godot. (Prop 33) |\n| **Fichiers Temporaires/Exemples** | Préfixe `_` | `_temp_test_data.json` | Préfixer par `_temp_` ou `_example_`. (Prop 32) |\n\n## 3. Références
 
 *   [Principes Fondamentaux du Projet GuildForge Mobile](./PRINCIPES_FONDAMENTAUX.md)
 *   [Conventions de Codage GDScript](./conventions_codage.md)
