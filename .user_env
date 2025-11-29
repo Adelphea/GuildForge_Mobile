@@ -1,0 +1,6 @@
+# connectors_GH_TOKEN
+export GH_TOKEN="ghu_N02XzB5oKohcMCd4IZrCpXPOM9Jw1z3f1v7g"
+
+# connectors_GOOGLE_DRIVE_TOKEN
+export GOOGLE_DRIVE_TOKEN=""
+
