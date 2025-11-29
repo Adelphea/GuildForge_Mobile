@@ -1,0 +1,1 @@
+# CompProperties à vérifier
