@@ -1,9 +1,9 @@
 # État de la Session Manus
 
 ## 1. Plan de Travail
-*   **current_phase_id:** 5
-*   **phase_title:** Développer une réflexion approfondie sur le Protocole de Continuité de l'Agent (Manus) et les Règles de Contribution (incluant le workflow et les conventions).
-*   **next_phase_id:** 6
+*   **current_phase_id:** 6
+*   **phase_title:** Finaliser et appliquer les conventions de contribution et de documentation (PMD) pour établir la base saine du projet.
+*   **next_phase_id:** 7
 *   **specialized_prompt_path:** 
 
 ## 2. Décisions en Attente
