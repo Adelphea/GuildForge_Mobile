@@ -1,32 +1,60 @@
-# RecipeDef.gd
-# Définition de base pour les recettes d'artisanat.
-
+# RecipeDef.gd - Généré automatiquement
 class_name RecipeDef
 extends Def
 
-## Liste des ingrédients requis (chaque élément est un dictionnaire {def_name: String, count: int})
-@export var ingredients: Array[Dictionary] = []
+@export var addsHediff: Variant = null
+@export var allowMixingIngredients: bool = false
+@export var anesthetize: Variant = null
+@export var appliedOnFixedBodyPartGroups: Array[Resource] = []
+@export var appliedOnFixedBodyParts: Array[Resource] = []
+@export var autoStripCorpses: Array[Resource] = []
+@export var conceptLearned: Variant = null
+@export var deathOnFailedSurgeryChance: float = 0.0
+@export var defName: String = ""
+@export var defaultIngredientFilter: Variant = null
+@export var descriptionHyperlinks: Array[Resource] = []
+@export var developmentalStageFilter: Variant = null
+@export var displayPriority: int = 0
+@export var dontShowIfAnyIngredientMissing: Variant = null
+@export var effectWorking: Variant = null
+@export var efficiencyStat: Variant = null
+@export var fixedIngredientFilter: Variant = null
+@export var forceHiddenSpecialFilters: Array[Resource] = []
+@export var hideBodyPartNames: Array[Resource] = []
+@export var ignoreIngredientCountTakeEntireStacks: int = 0
+@export var incompatibleWithHediffTags: Array[Resource] = []
+@export var ingredientValueGetterClass: Array[Resource] = []
+@export var ingredients: Array[Resource] = []
+@export var interruptIfIngredientIsRotting: Variant = null
+@export var isViolation: bool = false
+@export var jobString: Variant = null
+@export var products: Array[Resource] = []
+@export var recipeUsers: Array[Resource] = []
+@export var removesHediff: Variant = null
+@export var requiredGiverWorkType: Variant = null
+@export var researchPrerequisite: Variant = null
+@export var skillRequirements: Array[Resource] = []
+@export var smeltingWorkAmount: int = 0
+@export var soundWorking: Variant = null
+@export var specialProducts: Array[Resource] = []
+@export var successfullyRemovedHediffMessage: Variant = null
+@export var surgeryIgnoreEnvironment: Variant = null
+@export var surgeryOutcomeEffect: Variant = null
+@export var surgerySuccessChanceFactor: float = 0.0
+@export var targetCountAdjustment: int = 0
+@export var targetsBodyPart: Variant = null
+@export var uiIconThing: Variant = null
+@export var unfinishedThingDef: String = ""
+@export var workAmount: int = 0
+@export var workSkill: Variant = null
+@export var workSpeedStat: Variant = null
+@export var workerClass: Array[Resource] = []
+@export var workerCounterClass: int = 0
 
-## Produit final (dictionnaire {def_name: String, count: int})
-@export var product: Dictionary = {}
-
-## Temps de travail requis (en secondes)
-@export var work_amount: float = 10.0
-
-## Compétence requise pour la recette (e.g., "Smithing", "Cooking")
-@export var skill_required: String = ""
-
-## Niveau de compétence minimum requis
-@export var skill_level_required: int = 0
-
-## Méthode de validation spécifique à RecipeDef
-func validate():
-if not super.validate():
-return false
-if ingredients.is_empty():
-push_error("RecipeDef: 'ingredients' ne peut pas être vide.")
-return false
-if product.is_empty() or not product.has("def_name") or not product.has("count"):
-push_error("RecipeDef: 'product' est invalide.")
-return false
-return true
+# --- Méthodes ---
+func validate() -> void:
+    # Validation spécifique à ce DefType
+    if def_name.is_empty():
+        push_error(f"[{deftype}] def_name est vide.")
+    # TODO: Ajouter la logique de validation spécifique ici
+    pass

@@ -1,0 +1,100 @@
+# PreceptDef.gd - Généré automatiquement
+class_name PreceptDef
+extends Def
+
+@export var ability_stat_factors: Array[String] = []
+@export var allow_duplicates: Array[String] = []
+@export var allow_optional_ritual_obligations: Array[String] = []
+@export var apparel_precept_swap_def: String = ""
+@export var approves_of_blindness: Array[String] = []
+@export var approves_of_charity: String = ""
+@export var approves_of_slavery: String = ""
+@export var associated_memes: Array[String] = []
+@export var biosculpter_pod_cycle_speed_factor: float = 0.0
+@export var blind_pawn_chance: float = 0.0
+@export var blind_psychic_sensitivity_offset: float = 0.0
+@export var building_def_chances: Array[String] = []
+@export var building_min_expectations: Array[String] = []
+@export var building_room_requirements: Array[String] = []
+@export var building_room_requirements_fixed: String = ""
+@export var can_generate_as_special_precept: bool = false
+@export var can_remove_in_ui: bool = false
+@export var can_use_already_used_thing_def: bool = false
+@export var capitalize_as_title: String = ""
+@export var classic: String = ""
+@export var classic_extra: String = ""
+@export var classic_mode_only: String = ""
+@export var conflicting_memes: Array[String] = []
+@export var convert_power_factor: float = 0.0
+@export var counts_towards_precept_limit: int = 0
+@export var default_drug_policy_override: String = ""
+@export var default_selection_weight: String = ""
+@export var disables_needs: Array[String] = []
+@export var disallow_farming_camps: Array[String] = []
+@export var disallow_hunting_camps: Array[String] = []
+@export var disallow_logging_camps: Array[String] = []
+@export var disallow_mining_camps: Array[String] = []
+@export var display_order_in_impact: String = ""
+@export var display_order_in_issue: String = ""
+@export var enabled_for_npc_factions: Array[String] = []
+@export var enables_needs: Array[String] = []
+@export var exclusion_tags: Array[String] = []
+@export var expectations_offset: float = 0.0
+@export var extra_text_pawn_death_letter: String = ""
+@export var gender_prefers_nudity: String = ""
+@export var granted_abilities: Array[String] = []
+@export var icon_ignores_ideo_color: String = ""
+@export var icon_path: String = ""
+@export var ignore_limits_in_edit_mode: String = ""
+@export var ignore_name_uniqueness: Array[String] = []
+@export var impact: String = ""
+@export var issue: bool = false
+@export var leader_role: String = ""
+@export var likes_human_leather_apparel: String = ""
+@export var listed_for_roles: Array[String] = []
+@export var max_count: int = 0
+@export var merge_ritual_gizmos_from_all_ideos: Array[String] = []
+@export var name_maker: String = ""
+@export var notify_player_on_opportunity: String = ""
+@export var opposed_work_types: Array[String] = []
+@export var precept_class: Array[String] = []
+@export var precept_instance_count_curve: String = ""
+@export var prefers_darkness: Array[String] = []
+@export var prefers_nudity: String = ""
+@export var prefers_slab_bed: String = ""
+@export var receives_expectations_quality_offset: float = 0.0
+@export var required_memes: Array[String] = []
+@export var required_scars: Array[String] = []
+@export var restrict_to_supreme_gender_chance: float = 0.0
+@export var ritual_pattern_base: String = ""
+@export var role_apparel_requirement_count_curve: String = ""
+@export var role_apparel_requirements: Array[String] = []
+@export var role_disabled_work_tags: Array[String] = []
+@export var role_effects: Array[String] = []
+@export var role_required_work_tag_any: String = ""
+@export var role_required_work_tags: Array[String] = []
+@export var role_requirements: Array[String] = []
+@export var role_tags: Array[String] = []
+@export var room_requirement_count_curve: String = ""
+@export var selection_weight: String = ""
+@export var show_ritual_float_menu_option: String = ""
+@export var source_ability_def: String = ""
+@export var source_pawn_role_def: String = ""
+@export var stat_factors: Array[String] = []
+@export var stat_offsets: Array[String] = []
+@export var take_name_from: String = ""
+@export var tip_label_override: String = ""
+@export var use_choices_from_building_defs: Array[String] = []
+@export var use_cooldown_from_ability_group_def: String = ""
+@export var use_repeat_penalty: String = ""
+@export var uses_ideo_visual_effects: Array[String] = []
+@export var visible: String = ""
+@export var warn_player_on_designate_chop_tree: String = ""
+@export var warn_player_on_designate_mine: String = ""
+@export var willing_to_construct_other_ideo_buildables: Array[String] = []
+@export var worker_class: String = ""
+
+# --- Méthodes de Validation et Logique ---
+func validate() -> void:
+	# Méthode de validation pour s'assurer de la cohérence des données
+	pass
