@@ -49,9 +49,9 @@ Le script `xml_to_cr_pipeline.py` implémente les 10 fonctionnalités suivantes,
 
 | ID | Fonctionnalité | Description | Implémentation dans le Pipeline |
 | :--- | :--- | :--- | :--- |
-| **P1** | **Résolution d'Héritage XML** | Résolution récursive de l'attribut `ParentName` pour fusionner les propriétés des Defs abstraits dans les Defs concrets. | Fonction `_resolve_inheritance()` |
+| **P1** | **Résolution d'Héritage XML (Complète)** | Résolution récursive de l'attribut `ParentName` pour fusionner les propriétés des Defs abstraits dans les Defs concrets. **Nécessite une première passe de collecte des Defs abstraits (P21) et une fonction de fusion récursive (P22).** | Fonction `_resolve_inheritance()` |
 | **P2** | **Sérialisation des Références Inter-Def** | Conversion des références XML (ex: `<thing>MyThingDef</thing>`) en références Godot `ExtResource` pointant vers le fichier `.tres` cible. | Fonction `_generate_tres_content()` |
-| **P3** | **Gestion des Attributs `@Class`** | Conversion des balises `CompProperties` avec l'attribut `@Class` en `SubResource` Godot, assurant le lien vers la classe GDScript appropriée. | Fonction `_generate_tres_content()` |
+| **P3** | **Gestion des Attributs `@Class` (Typée)** | Conversion des balises `CompProperties` avec l'attribut `@Class` en `SubResource` Godot. **Nécessite la génération automatique des classes GDScript pour les CompProperties (P24) et une sérialisation typée (P25).** | Fonction `_generate_tres_content()` |
 | **P4** | **Gestion Récursive des Types Complexes** | Sérialisation des structures de données imbriquées (listes, dictionnaires) en structures Godot équivalentes (Array, Dictionary). | Fonction `_handle_complex_type()` |
 | **P5** | **Pré-traitement des Opérations/Patchs XML** | Identification et ignorance des balises XML non pertinentes pour la conversion (ex: `PatchOperation_...`). | Fonction `_generate_tres_content()` |
 | **P6** | **Mapping `defName` -> `class_name` GDScript** | Détermination dynamique du nom de la classe GDScript (`CR_DefType`) à partir du type de Def XML. | Fonction `run_pipeline()` |
