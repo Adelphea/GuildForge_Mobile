@@ -1,5 +1,3 @@
-# Modèle Économique et Gestion des Coûts - GuildForge Mobile
-
 ---
 statut: Finalisé
 version: 2.0
@@ -7,6 +5,8 @@ auteur: Manus AI
 date: 2025-11-30
 tags: [modèle-économique, coûts, monétisation, gratuit, stratégie]
 ---
+
+# Modèle Économique et Gestion des Coûts - GuildForge Mobile
 
 ## I. Manifeste du Modèle Économique : Zéro Coût Direct
 
