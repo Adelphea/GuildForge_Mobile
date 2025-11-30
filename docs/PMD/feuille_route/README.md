@@ -1,9 +1,11 @@
-# Feuille de Route - GuildForge Mobile
-
-**Auteur :** Manus AI
-**Date :** 12 Octobre 2025
-**Version :** 1.3
-**Tags :** [feuille-de-route, planification, jalons, backlog, développement, gestion-projet]
+---
+statut: Obsolète
+version: 1.3
+auteur: Manus AI
+date: 12 Octobre 2025
+tags: [feuille-de-route, planification, jalons, backlog, développement, gestion-projet]
+---
+# Feuille de Route - GuildForge Mobile (OBSOLÈTE)
 
 Ce dossier contient les documents relatifs à la planification et à la progression du projet GuildForge Mobile. Il sert de guide stratégique pour l'évolution du jeu, la gestion des priorités et le suivi des objectifs, assurant une vision claire et une exécution structurée.
 
@@ -33,4 +35,3 @@ Ce dossier est composé des documents suivants, qui détaillent les aspects fond
 *   [README de la Gestion de Projet](../README.md)
 *   [Gestion du Workflow de Développement](../communication_workflow/workflow_management.md)
 *   [Glossaire du Projet GuildForge Mobile](../../verite_unique/glossaire.md)
-
