@@ -1,235 +1,3190 @@
 # Structure du Dépôt GuildForge_Mobile
 
-Généré automatiquement le 2025-11-28 10:16:39
+Généré automatiquement le 2025-11-30 02:10:52
 
 ```
 GuildForge_Mobile/
 ├── .gitignore
-├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
+├── TREE.md
+├── agent_state.md
 └── GuildForge/
 │   ├── README.md
+│   ├── scripts/
+│   │   ├── .gitignore
+│   │   ├── resources/
+│   │   │   ├── BackstoryDef.gd
+│   │   │   ├── BeardDef.gd
+│   │   │   ├── BiomeDef.gd
+│   │   │   ├── BodyDef.gd
+│   │   │   ├── BodyPartDef.gd
+│   │   │   ├── BodyPartGroupDef.gd
+│   │   │   ├── Color.gd
+│   │   │   ├── CombatLogRules.gd
+│   │   │   ├── CompProperties.gd
+│   │   │   ├── CompProperties_Storable.gd
+│   │   │   ├── DamageMultiplier.gd
+│   │   │   ├── Def.gd
+│   │   │   ├── Effecter.gd
+│   │   │   ├── EffecterChild.gd
+│   │   │   ├── Fleck.gd
+│   │   │   ├── FloatRange.gd
+│   │   │   ├── HairDef.gd
+│   │   │   ├── HeadTypeDef.gd
+│   │   │   ├── HediffDef.gd
+│   │   │   ├── HediffGiver.gd
+│   │   │   ├── HediffStage.gd
+│   │   │   ├── IntRange.gd
+│   │   │   ├── IntVec2.gd
+│   │   │   ├── NameMaker.gd
+│   │   │   ├── RecipeDef.gd
+│   │   │   ├── SkillRecord.gd
+│   │   │   ├── StatModifier.gd
+│   │   │   ├── StyleItemTag.gd
+│   │   │   ├── ThingDef.gd
+│   │   │   ├── ThingDefCountClass.gd
+│   │   │   ├── Tool.gd
+│   │   │   ├── TraitDef.gd
+│   │   │   ├── VerbProperties.gd
 └── data/
 │   ├── README.md
-│   ├── xml_terminology_ability.json
-│   ├── xml_terminology_abilitycategory.json
-│   ├── xml_terminology_abilitygroup.json
-│   ├── xml_terminology_apparellayer.json
-│   ├── xml_terminology_backstory.json
-│   ├── xml_terminology_beard.json
-│   ├── xml_terminology_billrepeatmode.json
-│   ├── xml_terminology_billstoremode.json
-│   ├── xml_terminology_biome.json
-│   ├── xml_terminology_body.json
-│   ├── xml_terminology_bodypart.json
-│   ├── xml_terminology_bodypartgroup.json
-│   ├── xml_terminology_bodyparttag.json
-│   ├── xml_terminology_bodytype.json
-│   ├── xml_terminology_chemical.json
-│   ├── xml_terminology_clamor.json
-│   ├── xml_terminology_color.json
-│   ├── xml_terminology_complexlayout.json
-│   ├── xml_terminology_complexthreat.json
-│   ├── xml_terminology_concept.json
-│   ├── xml_terminology_culture.json
-│   ├── xml_terminology_damage.json
-│   ├── xml_terminology_damagearmorcategory.json
-│   ├── xml_terminology_debugtabmenu.json
-│   ├── xml_terminology_designation.json
-│   ├── xml_terminology_designationcategory.json
-│   ├── xml_terminology_designatordropdowngroup.json
-│   ├── xml_terminology_difficulty.json
-│   ├── xml_terminology_drawstyle.json
-│   ├── xml_terminology_drawstylecategory.json
-│   ├── xml_terminology_drugpolicy.json
-│   ├── xml_terminology_dubsbadhygiene.pollution.json
-│   ├── xml_terminology_dubsbadhygiene.washingjob.json
-│   ├── xml_terminology_duty.json
-│   ├── xml_terminology_effecter.json
-│   ├── xml_terminology_expansion.json
-│   ├── xml_terminology_expectation.json
-│   ├── xml_terminology_faction.json
-│   ├── xml_terminology_feature.json
-│   ├── xml_terminology_fleck.json
-│   ├── xml_terminology_fleshtype.json
-│   ├── xml_terminology_gamecondition.json
-│   ├── xml_terminology_gamesetupstep.json
-│   ├── xml_terminology_gathering.json
-│   ├── xml_terminology_gauranlentreemode.json
-│   ├── xml_terminology_gene.json
-│   ├── xml_terminology_genecategory.json
-│   ├── xml_terminology_genstep.json
-│   ├── xml_terminology_globalworlddrawlayer.json
-│   ├── xml_terminology_goodwillsituation.json
-│   ├── xml_terminology_graphicstate.json
-│   ├── xml_terminology_hair.json
-│   ├── xml_terminology_headtype.json
-│   ├── xml_terminology_hediffgiverset.json
-│   ├── xml_terminology_hibernatablestate.json
-│   ├── xml_terminology_historyautorecorder.json
-│   ├── xml_terminology_historyautorecordergroup.json
-│   ├── xml_terminology_historyevent.json
-│   ├── xml_terminology_hugslib.updatefeature.json
-│   ├── xml_terminology_ideocolor.json
-│   ├── xml_terminology_ideofoundation.json
-│   ├── xml_terminology_ideoicon.json
-│   ├── xml_terminology_ideopreset.json
-│   ├── xml_terminology_ideopresetcategory.json
-│   ├── xml_terminology_ideostorypattern.json
-│   ├── xml_terminology_impactsoundtype.json
-│   ├── xml_terminology_implementownertype.json
-│   ├── xml_terminology_incident.json
-│   ├── xml_terminology_incidentcategory.json
-│   ├── xml_terminology_incidenttargettag.json
-│   ├── xml_terminology_infectionpathway.json
-│   ├── xml_terminology_inspiration.json
-│   ├── xml_terminology_instruction.json
-│   ├── xml_terminology_interaction.json
-│   ├── xml_terminology_inventorystockgroup.json
-│   ├── xml_terminology_issue.json
-│   ├── xml_terminology_itemprocessor.combination.json
-│   ├── xml_terminology_itemprocessor.itemaccepted.json
-│   ├── xml_terminology_job.json
-│   ├── xml_terminology_joygiver.json
-│   ├── xml_terminology_joykind.json
-│   ├── xml_terminology_kcsg.structurelayout.json
-│   ├── xml_terminology_kcsg.symbol.json
-│   ├── xml_terminology_keybinding.json
-│   ├── xml_terminology_keybindingcategory.json
-│   ├── xml_terminology_layoutroom.json
-│   ├── xml_terminology_letter.json
-│   ├── xml_terminology_lifestage.json
-│   ├── xml_terminology_logentry.json
-│   ├── xml_terminology_mainbutton.json
-│   ├── xml_terminology_maneuver.json
-│   ├── xml_terminology_mapgenerator.json
-│   ├── xml_terminology_mapmeshflag.json
-│   ├── xml_terminology_mechweightclass.json
-│   ├── xml_terminology_meditationfocus.json
-│   ├── xml_terminology_meme.json
-│   ├── xml_terminology_memegroup.json
-│   ├── xml_terminology_mentalbreak.json
-│   ├── xml_terminology_mentalstate.json
-│   ├── xml_terminology_messagetype.json
-│   ├── xml_terminology_mvcf.mod.json
-│   ├── xml_terminology_need.json
-│   ├── xml_terminology_optioncategory.json
-│   ├── xml_terminology_orderedtakegroup.json
-│   ├── xml_terminology_pathgrid.json
-│   ├── xml_terminology_pawncapacity.json
-│   ├── xml_terminology_pawncolumn.json
-│   ├── xml_terminology_pawngroupkind.json
-│   ├── xml_terminology_pawnkind.json
-│   ├── xml_terminology_pawnrelation.json
-│   ├── xml_terminology_pawnrendernodetag.json
-│   ├── xml_terminology_pawnrendertree.json
-│   ├── xml_terminology_pawnsarrivalmode.json
-│   ├── xml_terminology_pawntable.json
-│   ├── xml_terminology_place.json
-│   ├── xml_terminology_planetlayer.json
-│   ├── xml_terminology_planetlayersettings.json
-│   ├── xml_terminology_precept.json
-│   ├── xml_terminology_prefab.json
-│   ├── xml_terminology_prisonerinteractionmode.json
-│   ├── xml_terminology_processorframework.process.json
-│   ├── xml_terminology_questscript.json
-│   ├── xml_terminology_raidstrategy.json
-│   ├── xml_terminology_recipe.json
-│   ├── xml_terminology_record.json
-│   ├── xml_terminology_renderskipflag.json
-│   ├── xml_terminology_researchproject.json
-│   ├── xml_terminology_researchprojecttag.json
-│   ├── xml_terminology_researchtab.json
-│   ├── xml_terminology_reservationlayer.json
-│   ├── xml_terminology_ritualattachableoutcomeeffect.json
-│   ├── xml_terminology_ritualbehavior.json
-│   ├── xml_terminology_ritualobligationtargetfilter.json
-│   ├── xml_terminology_ritualoutcomeeffect.json
-│   ├── xml_terminology_ritualpattern.json
-│   ├── xml_terminology_ritualtargetfilter.json
-│   ├── xml_terminology_ritualvisualeffect.json
-│   ├── xml_terminology_river.json
-│   ├── xml_terminology_road.json
-│   ├── xml_terminology_roadpathing.json
-│   ├── xml_terminology_roadworldlayer.json
-│   ├── xml_terminology_roof.json
-│   ├── xml_terminology_roomrole.json
-│   ├── xml_terminology_roomstat.json
-│   ├── xml_terminology_royaltitle.json
-│   ├── xml_terminology_royaltitlepermit.json
-│   ├── xml_terminology_rule.json
-│   ├── xml_terminology_rulepack.json
-│   ├── xml_terminology_scatterable.json
-│   ├── xml_terminology_scenario.json
-│   ├── xml_terminology_scenpart.json
-│   ├── xml_terminology_shadertype.json
-│   ├── xml_terminology_shipjob.json
-│   ├── xml_terminology_sitepart.json
-│   ├── xml_terminology_sketchresolver.json
-│   ├── xml_terminology_skill.json
-│   ├── xml_terminology_slaveinteractionmode.json
-│   ├── xml_terminology_song.json
-│   ├── xml_terminology_sound.json
-│   ├── xml_terminology_specialthingfilter.json
-│   ├── xml_terminology_stat.json
-│   ├── xml_terminology_statcategory.json
-│   ├── xml_terminology_storyteller.json
-│   ├── xml_terminology_stuffappearance.json
-│   ├── xml_terminology_stuffcategory.json
-│   ├── xml_terminology_stylecategory.json
-│   ├── xml_terminology_styleitemcategory.json
-│   ├── xml_terminology_subcamera.json
-│   ├── xml_terminology_surgeryoutcomeeffect.json
-│   ├── xml_terminology_tale.json
-│   ├── xml_terminology_tattoo.json
-│   ├── xml_terminology_terrain.json
-│   ├── xml_terminology_terrainaffordance.json
-│   ├── xml_terminology_terraintemplate.json
-│   ├── xml_terminology_thingcategory.json
-│   ├── xml_terminology_thingsetmaker.json
-│   ├── xml_terminology_thingstyle.json
-│   ├── xml_terminology_thinktree.json
-│   ├── xml_terminology_thought.json
-│   ├── xml_terminology_tilemutator.json
-│   ├── xml_terminology_timeassignment.json
-│   ├── xml_terminology_tipset.json
-│   ├── xml_terminology_toolcapacity.json
-│   ├── xml_terminology_traderkind.json
-│   ├── xml_terminology_trainability.json
-│   ├── xml_terminology_trainable.json
-│   ├── xml_terminology_trait.json
-│   ├── xml_terminology_transferablesorter.json
-│   ├── xml_terminology_transportship.json
-│   ├── xml_terminology_weaponcategory.json
-│   ├── xml_terminology_weaponclass.json
-│   ├── xml_terminology_weaponclasspair.json
-│   ├── xml_terminology_weapontrait.json
-│   ├── xml_terminology_weather.json
-│   ├── xml_terminology_workgiver.json
-│   ├── xml_terminology_workgiverequivalencegroup.json
-│   ├── xml_terminology_worktype.json
-│   ├── xml_terminology_worldgenstep.json
-│   ├── xml_terminology_worldobject.json
+│   ├── rimworld_data/
+│   │   ├── Place official expansions here.txt
+│   │   ├── Core/
+│   │   │   ├── About/
+│   │   │   │   ├── About.xml
+│   │   │   ├── Defs/
+│   │   │   │   ├── AbilityDefs/
+│   │   │   │   │   ├── AbilityDefs.xml
+│   │   │   │   ├── BackstoryDefs/
+│   │   │   │   │   ├── Shuffled/
+│   │   │   │   │   │   ├── InsectsRelated_Child.xml
+│   │   │   │   │   │   ├── Offworld_Glitterworld_Adult.xml
+│   │   │   │   │   │   ├── Offworld_Medieval_Adult.xml
+│   │   │   │   │   │   ├── Offworld_Medieval_Child.xml
+│   │   │   │   │   │   ├── Offworld_Nonspecific_Adult.xml
+│   │   │   │   │   │   ├── Offworld_Nonspecific_Child.xml
+│   │   │   │   │   │   ├── Offworld_Specific_Adult.xml
+│   │   │   │   │   │   ├── Offworld_Specific_Child.xml
+│   │   │   │   │   │   ├── Outsider_Adult.xml
+│   │   │   │   │   │   ├── Pirate_Adult.xml
+│   │   │   │   │   │   ├── Special.xml
+│   │   │   │   │   │   ├── Tribal_Adult.xml
+│   │   │   │   │   │   ├── Tribal_Child.xml
+│   │   │   │   │   ├── Solid/
+│   │   │   │   │   │   ├── Solid_Adult.xml
+│   │   │   │   │   │   ├── Solid_Child.xml
+│   │   │   │   │   │   ├── Solid_Rare.xml
+│   │   │   │   ├── BeardDefs/
+│   │   │   │   │   ├── BeardDefs.xml
+│   │   │   │   ├── BiomeDefs/
+│   │   │   │   │   ├── Biomes_Cold.xml
+│   │   │   │   │   ├── Biomes_Misc.xml
+│   │   │   │   │   ├── Biomes_Temperate.xml
+│   │   │   │   │   ├── Biomes_Warm.xml
+│   │   │   │   │   ├── Biomes_WarmArid.xml
+│   │   │   │   │   ├── Biomes_Water.xml
+│   │   │   │   ├── Bodies/
+│   │   │   │   │   ├── Bodies_Animal_Bird.xml
+│   │   │   │   │   ├── Bodies_Animal_Insect.xml
+│   │   │   │   │   ├── Bodies_Animal_Quadruped.xml
+│   │   │   │   │   ├── Bodies_Animal_Snake.xml
+│   │   │   │   │   ├── Bodies_Humanlike.xml
+│   │   │   │   │   ├── Bodies_Mechanoid.xml
+│   │   │   │   │   ├── BodyPartGroups.xml
+│   │   │   │   │   ├── BodyParts_Animal.xml
+│   │   │   │   │   ├── BodyParts_General.xml
+│   │   │   │   │   ├── BodyParts_Humanoid.xml
+│   │   │   │   │   ├── BodyParts_Mechanoid.xml
+│   │   │   │   │   ├── BodyParts_Organs.xml
+│   │   │   │   ├── Books/
+│   │   │   │   │   ├── BookDefs.xml
+│   │   │   │   ├── ColorDefs/
+│   │   │   │   │   ├── ColorDefs.xml
+│   │   │   │   ├── ComplexThreatDefs/
+│   │   │   │   │   ├── ComplexThreats_Misx.xml
+│   │   │   │   ├── CultureDefs/
+│   │   │   │   │   ├── Cultures.xml
+│   │   │   │   ├── DamageDefs/
+│   │   │   │   │   ├── Damages_Environmental.xml
+│   │   │   │   │   ├── Damages_Medical.xml
+│   │   │   │   │   ├── Damages_MeleeWeapon.xml
+│   │   │   │   │   ├── Damages_Misc.xml
+│   │   │   │   │   ├── Damages_RangedWeapon.xml
+│   │   │   │   │   ├── Damages_Stun.xml
+│   │   │   │   ├── DebugTabMenuDefs/
+│   │   │   │   │   ├── DebugTabMenuDefs.xml
+│   │   │   │   ├── DrawStyleCategoryDefs/
+│   │   │   │   │   ├── DrawStyleCategories.xml
+│   │   │   │   ├── DrawStyleDefs/
+│   │   │   │   │   ├── DrawStyles.xml
+│   │   │   │   ├── DrugPolicyDefs/
+│   │   │   │   │   ├── DrugPolicyDefs.xml
+│   │   │   │   ├── Drugs/
+│   │   │   │   │   ├── Alcohol_Beer.xml
+│   │   │   │   │   ├── Ambrosia.xml
+│   │   │   │   │   ├── DrugBases.xml
+│   │   │   │   │   ├── GoJuice.xml
+│   │   │   │   │   ├── Luciferium.xml
+│   │   │   │   │   ├── Penoxycyline.xml
+│   │   │   │   │   ├── Psychite_Flake.xml
+│   │   │   │   │   ├── Psychite_Tea.xml
+│   │   │   │   │   ├── Psychite_Yayo.xml
+│   │   │   │   │   ├── Smokeleaf.xml
+│   │   │   │   │   ├── WakeUp.xml
+│   │   │   │   ├── DutyDefs/
+│   │   │   │   │   ├── Duties_Caravan.xml
+│   │   │   │   │   ├── Duties_Gatherings.xml
+│   │   │   │   │   ├── Duties_Misc.xml
+│   │   │   │   │   ├── Duties_NonPlayerHome.xml
+│   │   │   │   │   ├── Duties_Rituals.xml
+│   │   │   │   ├── Effects/
+│   │   │   │   │   ├── Effecter_Construction.xml
+│   │   │   │   │   ├── Effecter_Damage.xml
+│   │   │   │   │   ├── Effecter_Ingest.xml
+│   │   │   │   │   ├── Effecter_Misc.xml
+│   │   │   │   │   ├── Effecter_PawnStates.xml
+│   │   │   │   │   ├── Effecter_Recipes.xml
+│   │   │   │   │   ├── Effecter_WorkGeneral.xml
+│   │   │   │   │   ├── Fleck_Meta.xml
+│   │   │   │   │   ├── Fleck_MetaStatus.xml
+│   │   │   │   │   ├── Fleck_Special.xml
+│   │   │   │   │   ├── Fleck_Visual.xml
+│   │   │   │   │   ├── Fleck_Water.xml
+│   │   │   │   │   ├── Mote_Meta.xml
+│   │   │   │   │   ├── Mote_MetaStatus.xml
+│   │   │   │   │   ├── Mote_Special.xml
+│   │   │   │   │   ├── Mote_Visual.xml
+│   │   │   │   ├── FactionDefs/
+│   │   │   │   │   ├── Factions_Base.xml
+│   │   │   │   │   ├── Factions_Hidden.xml
+│   │   │   │   │   ├── Factions_Misc.xml
+│   │   │   │   │   ├── Factions_Player.xml
+│   │   │   │   ├── GameConditionDefs/
+│   │   │   │   │   ├── GameConditions_Misc.xml
+│   │   │   │   ├── GatheringDefs/
+│   │   │   │   │   ├── Gatherings.xml
+│   │   │   │   ├── GeneDefs/
+│   │   │   │   │   ├── GeneDefs_Endogenes.xml
+│   │   │   │   ├── GlobalWorldDrawLayerDefs/
+│   │   │   │   │   ├── GlobalWorldDrawLayers.xml
+│   │   │   │   ├── Goodwill/
+│   │   │   │   │   ├── GoodwillEvents_Diplomatic.xml
+│   │   │   │   │   ├── GoodwillEvents_Misc.xml
+│   │   │   │   │   ├── GoodwillEvents_Pawns.xml
+│   │   │   │   │   ├── GoodwillEvents_Quests.xml
+│   │   │   │   │   ├── GoodwillEvents_World.xml
+│   │   │   │   │   ├── GoodwillSituations_Misc.xml
+│   │   │   │   ├── GoodwillEvents/
+│   │   │   │   │   ├── GoodwillEvents_Pawns.xml
+│   │   │   │   ├── GraphicStateDefs/
+│   │   │   │   │   ├── GraphicStates.xml
+│   │   │   │   ├── HeadTypeDefs/
+│   │   │   │   │   ├── HeadTypeDefs.xml
+│   │   │   │   ├── HediffDefs/
+│   │   │   │   │   ├── Hediffs_Debug.xml
+│   │   │   │   │   ├── Hediffs_Global_Misc.xml
+│   │   │   │   │   ├── Hediffs_Global_Needs.xml
+│   │   │   │   │   ├── Hediffs_Global_Temperature.xml
+│   │   │   │   │   ├── Hediffs_Local_Chronic.xml
+│   │   │   │   │   ├── Hediffs_Local_Infections.xml
+│   │   │   │   │   ├── Hediffs_Local_Injuries.xml
+│   │   │   │   │   ├── Hediffs_Local_Misc.xml
+│   │   │   │   │   ├── Hediffs_Local_TerrainAttacks.xml
+│   │   │   │   │   ├── Hediffs_Psycasts.xml
+│   │   │   │   │   ├── BodyParts/
+│   │   │   │   │   │   ├── Hediffs_BodyParts_Archotech.xml
+│   │   │   │   │   │   ├── Hediffs_BodyParts_Base.xml
+│   │   │   │   │   │   ├── Hediffs_BodyParts_Bionic.xml
+│   │   │   │   │   │   ├── Hediffs_BodyParts_Medieval.xml
+│   │   │   │   │   │   ├── Hediffs_BodyParts_Natural.xml
+│   │   │   │   │   │   ├── Hediffs_BodyParts_Prosthetic.xml
+│   │   │   │   │   │   ├── Hediffs_BodyParts_Special.xml
+│   │   │   │   ├── HediffGiverSetDefs/
+│   │   │   │   │   ├── HediffGiverSets.xml
+│   │   │   │   ├── HistoryEventDefs/
+│   │   │   │   │   ├── HistoryEventDefs.xml
+│   │   │   │   ├── InfectionPathwayDefs/
+│   │   │   │   │   ├── InfectionPathwayDefs.xml
+│   │   │   │   ├── InspirationDefs/
+│   │   │   │   │   ├── Inspirations.xml
+│   │   │   │   ├── InteractionDefs/
+│   │   │   │   │   ├── Interactions_Animal.xml
+│   │   │   │   │   ├── Interactions_Prisoner.xml
+│   │   │   │   │   ├── Interactions_Romance.xml
+│   │   │   │   │   ├── Interactions_Social.xml
+│   │   │   │   ├── JobDefs/
+│   │   │   │   │   ├── Jobs_Animal.xml
+│   │   │   │   │   ├── Jobs_Caravan.xml
+│   │   │   │   │   ├── Jobs_Gatherings.xml
+│   │   │   │   │   ├── Jobs_Joy.xml
+│   │   │   │   │   ├── Jobs_Misc.xml
+│   │   │   │   │   ├── Jobs_Work.xml
+│   │   │   │   ├── Joy/
+│   │   │   │   │   ├── JoyGivers.xml
+│   │   │   │   │   ├── JoyKinds.xml
+│   │   │   │   ├── LayoutRoomDefs/
+│   │   │   │   │   ├── LayoutRooms_AncientRuins.xml
+│   │   │   │   ├── Maneuvers/
+│   │   │   │   │   ├── Maneuvers.xml
+│   │   │   │   ├── MapGeneration/
+│   │   │   │   │   ├── BaseFactionMapGenerator.xml
+│   │   │   │   │   ├── BasePlayerMapGenerator.xml
+│   │   │   │   │   ├── CommonMapGenerator.xml
+│   │   │   │   │   ├── EncounterMapGenerator.xml
+│   │   │   │   │   ├── EscapeShipMapGenerator.xml
+│   │   │   │   │   ├── TileMutators.xml
+│   │   │   │   ├── MapMeshFlagDefs/
+│   │   │   │   │   ├── MapMeshFlagDefs.xml
+│   │   │   │   │   ├── RenderSkipFlagDefs.xml
+│   │   │   │   ├── MechWeightClassDefs/
+│   │   │   │   │   ├── MechWeightClassDefs.xml
+│   │   │   │   ├── MeditationFocusDefs/
+│   │   │   │   │   ├── MeditationFocuses.xml
+│   │   │   │   ├── MentalStateDefs/
+│   │   │   │   │   ├── MentalStates_Mood.xml
+│   │   │   │   │   ├── MentalStates_Special.xml
+│   │   │   │   ├── Misc/
+│   │   │   │   │   ├── ApparelLayerDefs/
+│   │   │   │   │   │   ├── ApparelLayerDefs.xml
+│   │   │   │   │   ├── BillDefs/
+│   │   │   │   │   │   ├── BillRepeatModeDefs.xml
+│   │   │   │   │   │   ├── BillStoreModeDefs.xml
+│   │   │   │   │   ├── BodyPartTagDefs/
+│   │   │   │   │   │   ├── BodyPartTagDefs.xml
+│   │   │   │   │   ├── BodyTypeDefs/
+│   │   │   │   │   │   ├── BodyTypes.xml
+│   │   │   │   │   ├── ClamorDefs/
+│   │   │   │   │   │   ├── ClamorDefs.xml
+│   │   │   │   │   ├── DamageArmorCategoryDef/
+│   │   │   │   │   │   ├── DamageArmorCategoryDefs.xml
+│   │   │   │   │   ├── Designations/
+│   │   │   │   │   │   ├── DesignationCategories.xml
+│   │   │   │   │   │   ├── Designations.xml
+│   │   │   │   │   ├── DesignatorDropdownGroupDef/
+│   │   │   │   │   │   ├── DesignatorDropdownGroupDef.xml
+│   │   │   │   │   ├── DifficultyDefs/
+│   │   │   │   │   │   ├── Difficulties.xml
+│   │   │   │   │   ├── ExpansionDefs/
+│   │   │   │   │   │   ├── ExpansionDefs.xml
+│   │   │   │   │   ├── ExpectationDefs/
+│   │   │   │   │   │   ├── Expectations.xml
+│   │   │   │   │   ├── FeatureDefs/
+│   │   │   │   │   │   ├── Features.xml
+│   │   │   │   │   ├── FleshTypeDefs/
+│   │   │   │   │   │   ├── FleshType.xml
+│   │   │   │   │   ├── GameSetupStepDefs/
+│   │   │   │   │   │   ├── GameSetupSteps.xml
+│   │   │   │   │   ├── HairDefs/
+│   │   │   │   │   │   ├── HairsGeneral.xml
+│   │   │   │   │   │   ├── StyleItemCategoryDefs.xml
+│   │   │   │   │   ├── HibernatableStateDefs/
+│   │   │   │   │   │   ├── HibernatableStateDefs.xml
+│   │   │   │   │   ├── HistoryAutoRecording/
+│   │   │   │   │   │   ├── HistoryAutoRecorderGroups.xml
+│   │   │   │   │   │   ├── HistoryAutoRecorders.xml
+│   │   │   │   │   ├── ImpactSoundTypeDefs/
+│   │   │   │   │   │   ├── ImpactSoundTypeDefs.xml
+│   │   │   │   │   ├── ImplementOwnerTypeDefs/
+│   │   │   │   │   │   ├── ImplementOwnerTypeDefs.xml
+│   │   │   │   │   ├── IncidentCategoryDefs/
+│   │   │   │   │   │   ├── IncidentCategoryDefs.xml
+│   │   │   │   │   ├── IncidentTargetTypeDefs/
+│   │   │   │   │   │   ├── IncidentTargetTagDefs.xml
+│   │   │   │   │   ├── InventoryStockGroupDefs/
+│   │   │   │   │   │   ├── InventoryStockGroups.xml
+│   │   │   │   │   ├── KeyBindings/
+│   │   │   │   │   │   ├── KeyBindingCategories.xml
+│   │   │   │   │   │   ├── KeyBindings.xml
+│   │   │   │   │   ├── LetterDefs/
+│   │   │   │   │   │   ├── CustomChoiceLetters.xml
+│   │   │   │   │   │   ├── CustomNotificationLetters.xml
+│   │   │   │   │   │   ├── MiscLetters.xml
+│   │   │   │   │   │   ├── StandardLetters.xml
+│   │   │   │   │   ├── LifeStageDefs/
+│   │   │   │   │   │   ├── LifeStages.xml
+│   │   │   │   │   ├── LogEntryDefs/
+│   │   │   │   │   │   ├── LogEntryDef.xml
+│   │   │   │   │   ├── MainButtonDefs/
+│   │   │   │   │   │   ├── MainButtons.xml
+│   │   │   │   │   ├── MessageTypeDefs/
+│   │   │   │   │   │   ├── MessageTypeDef.xml
+│   │   │   │   │   ├── OptionCategoryDefs/
+│   │   │   │   │   │   ├── OptionCategories.xml
+│   │   │   │   │   ├── OrderedTakeGroupDefs/
+│   │   │   │   │   │   ├── OrderedTakeGroupDefs.xml
+│   │   │   │   │   ├── PawnColumnDefs/
+│   │   │   │   │   │   ├── PawnColumns_Checkbox.xml
+│   │   │   │   │   │   ├── PawnColumns_CopyPaste.xml
+│   │   │   │   │   │   ├── PawnColumns_Icon.xml
+│   │   │   │   │   │   ├── PawnColumns_Layout.xml
+│   │   │   │   │   │   ├── PawnColumns_Misc.xml
+│   │   │   │   │   │   ├── PawnColumns_Text.xml
+│   │   │   │   │   ├── PawnGroupKindDefs/
+│   │   │   │   │   │   ├── PawnGroupKinds.xml
+│   │   │   │   │   ├── PawnTableDefs/
+│   │   │   │   │   │   ├── PawnTables.xml
+│   │   │   │   │   ├── PawnsArrivalModeDefs/
+│   │   │   │   │   │   ├── PawnsArrivalModes.xml
+│   │   │   │   │   ├── PrisonerInteractionModeDefs/
+│   │   │   │   │   │   ├── PrisonerInteractionMode.xml
+│   │   │   │   │   ├── RecordDefs/
+│   │   │   │   │   │   ├── Records_Misc.xml
+│   │   │   │   │   │   ├── Records_Time.xml
+│   │   │   │   │   ├── ResearchProjectTagDefs/
+│   │   │   │   │   │   ├── ResearchProjectTagDefs.xml
+│   │   │   │   │   ├── ReservationLayerDefs/
+│   │   │   │   │   │   ├── ReservationLayerDefs.xml
+│   │   │   │   │   ├── RoofDefs/
+│   │   │   │   │   │   ├── Roofs.xml
+│   │   │   │   │   ├── ScatterableDefs/
+│   │   │   │   │   │   ├── Scatterables.xml
+│   │   │   │   │   ├── ShaderTypeDefs/
+│   │   │   │   │   │   ├── ShaderTypes.xml
+│   │   │   │   │   ├── SongDefs/
+│   │   │   │   │   │   ├── Songs_Entry.xml
+│   │   │   │   │   │   ├── Songs_Gameplay.xml
+│   │   │   │   │   │   ├── Songs_Misc.xml
+│   │   │   │   │   │   ├── Songs_Tension.xml
+│   │   │   │   │   ├── SpecialThingFilterDefs/
+│   │   │   │   │   │   ├── SpecialThingFilters.xml
+│   │   │   │   │   ├── StuffAppearanceDefs/
+│   │   │   │   │   │   ├── StuffAppearances.xml
+│   │   │   │   │   ├── StuffCategoryDefs/
+│   │   │   │   │   │   ├── StuffCategories.xml
+│   │   │   │   │   ├── SubcameraDefs/
+│   │   │   │   │   │   ├── Subcameras.xml
+│   │   │   │   │   ├── TerrainAffordanceDefs/
+│   │   │   │   │   │   ├── TerrainAffordances.xml
+│   │   │   │   │   ├── TimeAssignmentDefs/
+│   │   │   │   │   │   ├── TimeAssignments.xml
+│   │   │   │   │   ├── TipSetDefs/
+│   │   │   │   │   │   ├── Tips.xml
+│   │   │   │   │   ├── TradeDialogSorterDefs/
+│   │   │   │   │   │   ├── TransferableSorters.xml
+│   │   │   │   │   ├── TrainabilityDefs/
+│   │   │   │   │   │   ├── TrainabilityDefs.xml
+│   │   │   │   │   ├── WorkGiverEquivalenceGroupDef/
+│   │   │   │   │   │   ├── WorkGiverEquivalenceGroup.xml
+│   │   │   │   │   ├── WorldLayerSettingsDefs/
+│   │   │   │   │   │   ├── PlanetLayerSettings.xml
+│   │   │   │   ├── NeedDefs/
+│   │   │   │   │   ├── Needs.xml
+│   │   │   │   ├── PathGridDefs/
+│   │   │   │   │   ├── PathGrids.xml
+│   │   │   │   ├── PawnCapacityDefs/
+│   │   │   │   │   ├── PawnCapacity.xml
+│   │   │   │   ├── PawnKindDefs_Humanlikes/
+│   │   │   │   │   ├── PawnKinds_Mercenary.xml
+│   │   │   │   │   ├── PawnKinds_Outlander.xml
+│   │   │   │   │   ├── PawnKinds_Pirate.xml
+│   │   │   │   │   ├── PawnKinds_Player.xml
+│   │   │   │   │   ├── PawnKinds_Spacer.xml
+│   │   │   │   │   ├── PawnKinds_Special.xml
+│   │   │   │   │   ├── PawnKinds_Tribal.xml
+│   │   │   │   ├── PawnKinds/
+│   │   │   │   │   ├── PawnKinds_Breach.xml
+│   │   │   │   ├── PawnRelationDefs/
+│   │   │   │   │   ├── PawnRelations_FamilyByBlood.xml
+│   │   │   │   │   ├── PawnRelations_FamilyByChoice.xml
+│   │   │   │   │   ├── PawnRelations_Misc.xml
+│   │   │   │   ├── PawnRenderTreeDefs/
+│   │   │   │   │   ├── PawnRenderNodeTagDefs.xml
+│   │   │   │   │   ├── PawnRenderTreeDefs.xml
+│   │   │   │   ├── PlanetLayerDefs/
+│   │   │   │   │   ├── PlanetLayers.xml
+│   │   │   │   ├── PreceptDefs/
+│   │   │   │   │   ├── Precepts_AteNutrientPaste.xml
+│   │   │   │   │   ├── Precepts_Cannibalism.xml
+│   │   │   │   │   ├── Precepts_Corpses.xml
+│   │   │   │   │   ├── Precepts_InsectMeat.xml
+│   │   │   │   │   ├── Precepts_Lovin.xml
+│   │   │   │   │   ├── Precepts_MarriageName.xml
+│   │   │   │   │   ├── Precepts_OrganUse.xml
+│   │   │   │   │   ├── Precepts_PrisonerExecution.xml
+│   │   │   │   │   ├── Precepts_Ritual.xml
+│   │   │   │   │   ├── Precepts_Slavery.xml
+│   │   │   │   │   ├── Precepts_SpouseCount.xml
+│   │   │   │   │   ├── RitualPatternDefs/
+│   │   │   │   │   │   ├── RitualPatterns.xml
+│   │   │   │   ├── PrefabDefs/
+│   │   │   │   │   ├── CommonRoomPrefabs.xml
+│   │   │   │   ├── QuestScriptDefs/
+│   │   │   │   │   ├── Script_BanditCamp.xml
+│   │   │   │   │   ├── Script_DelayedRewardDropPods.xml
+│   │   │   │   │   ├── Script_DownedRefugee.xml
+│   │   │   │   │   ├── Script_EndGame_ShipEscape.xml
+│   │   │   │   │   ├── Script_ItemStash.xml
+│   │   │   │   │   ├── Script_LongRangeMineralScannerLump.xml
+│   │   │   │   │   ├── Script_PeaceTalks.xml
+│   │   │   │   │   ├── Script_PrisonerWillingToJoin.xml
+│   │   │   │   │   ├── Script_TradeRequest.xml
+│   │   │   │   │   ├── Script_TransportPodCrash.xml
+│   │   │   │   │   ├── Script_WandererJoins.xml
+│   │   │   │   │   ├── Scripts_JoinerThreatCore.xml
+│   │   │   │   │   ├── Scripts_Utility_RewardsCore.xml
+│   │   │   │   │   ├── Scripts_Utility_ThreatsCore.xml
+│   │   │   │   ├── RecipeDefs/
+│   │   │   │   │   ├── Recipes_Butchery.xml
+│   │   │   │   │   ├── Recipes_Cremation.xml
+│   │   │   │   │   ├── Recipes_Food.xml
+│   │   │   │   │   ├── Recipes_Meals.xml
+│   │   │   │   │   ├── Recipes_Production.xml
+│   │   │   │   │   ├── Recipes_Surgery_Misc.xml
+│   │   │   │   │   ├── SurgeryOutcomeEffectDefs.xml
+│   │   │   │   ├── ResearchProjectDefs/
+│   │   │   │   │   ├── ResearchProjects_1.xml
+│   │   │   │   │   ├── ResearchProjects_2_Electricity.xml
+│   │   │   │   │   ├── ResearchProjects_3_Microelectronics.xml
+│   │   │   │   │   ├── ResearchProjects_4_MultiAnalyzer.xml
+│   │   │   │   │   ├── ResearchProjects_5_Ship.xml
+│   │   │   │   │   ├── ResearchTabs.xml
+│   │   │   │   ├── RitualEffectDefs/
+│   │   │   │   │   ├── RitualEffectDefs.xml
+│   │   │   │   ├── Rituals/
+│   │   │   │   │   ├── Ritual_Outcomes.xml
+│   │   │   │   ├── RiverDefs/
+│   │   │   │   │   ├── RiverDefs.xml
+│   │   │   │   ├── RoadDefs/
+│   │   │   │   │   ├── RoadDefs.xml
+│   │   │   │   │   ├── RoadPathingDefs.xml
+│   │   │   │   │   ├── RoadWorldLayerDefs.xml
+│   │   │   │   ├── Rooms/
+│   │   │   │   │   ├── RoomRoles.xml
+│   │   │   │   │   ├── RoomStats.xml
+│   │   │   │   ├── RuleDefs/
+│   │   │   │   │   ├── Rules_AncientComplex.xml
+│   │   │   │   │   ├── Rules_BasePart_Indoors.xml
+│   │   │   │   │   ├── Rules_BasePart_Outdoors.xml
+│   │   │   │   │   ├── Rules_Basic.xml
+│   │   │   │   │   ├── Rules_Complex.xml
+│   │   │   │   │   ├── Rules_Interior.xml
+│   │   │   │   │   ├── Rules_Ship.xml
+│   │   │   │   ├── RulePackDefs/
+│   │   │   │   │   ├── RulePacks_Art_Descriptions.xml
+│   │   │   │   │   ├── RulePacks_Art_DescriptionsPhysical.xml
+│   │   │   │   │   ├── RulePacks_Art_ImagesTaleless.xml
+│   │   │   │   │   ├── RulePacks_Battles.xml
+│   │   │   │   │   ├── RulePacks_CombatIncludes.xml
+│   │   │   │   │   ├── RulePacks_CombatMelee.xml
+│   │   │   │   │   ├── RulePacks_CombatRanged.xml
+│   │   │   │   │   ├── RulePacks_Common.xml
+│   │   │   │   │   ├── RulePacks_Damage.xml
+│   │   │   │   │   ├── RulePacks_DamageEvent.xml
+│   │   │   │   │   ├── RulePacks_Event.xml
+│   │   │   │   │   ├── RulePacks_GameplayTips.xml
+│   │   │   │   │   ├── RulePacks_Global.xml
+│   │   │   │   │   ├── RulePacks_Maneuvers.xml
+│   │   │   │   │   ├── RulePacks_Namer_World.xml
+│   │   │   │   │   ├── RulePacks_Namers_Animals.xml
+│   │   │   │   │   ├── RulePacks_Namers_Art.xml
+│   │   │   │   │   ├── RulePacks_Namers_Factions.xml
+│   │   │   │   │   ├── RulePacks_Namers_People.xml
+│   │   │   │   │   ├── RulePacks_Namers_Quests.xml
+│   │   │   │   │   ├── RulePacks_Namers_Scenarios.xml
+│   │   │   │   │   ├── RulePacks_Namers_Traders.xml
+│   │   │   │   │   ├── RulePacks_Namers_WorldFeatures.xml
+│   │   │   │   │   ├── RulePacks_Seeds.xml
+│   │   │   │   │   ├── RulePacks_Transitions.xml
+│   │   │   │   │   ├── RulePacks_Utility.xml
+│   │   │   │   │   ├── Books/
+│   │   │   │   │   │   ├── RulePacks_Book_Descriptions.xml
+│   │   │   │   │   │   ├── RulePacks_Book_Namers.xml
+│   │   │   │   ├── Scenarios/
+│   │   │   │   │   ├── ScenParts_Fixed.xml
+│   │   │   │   │   ├── ScenParts_Various.xml
+│   │   │   │   │   ├── Scenarios_Classic.xml
+│   │   │   │   ├── ShipJobDefs/
+│   │   │   │   │   ├── ShipJobDefs.xml
+│   │   │   │   ├── Sites/
+│   │   │   │   │   ├── Parts/
+│   │   │   │   │   │   ├── AmbushEdge.xml
+│   │   │   │   │   │   ├── AmbushHidden.xml
+│   │   │   │   │   │   ├── BanditCamp.xml
+│   │   │   │   │   │   ├── DownedRefugee.xml
+│   │   │   │   │   │   ├── ItemStash.xml
+│   │   │   │   │   │   ├── Manhunters.xml
+│   │   │   │   │   │   ├── Outpost.xml
+│   │   │   │   │   │   ├── PossibleUnknownThreatMarker.xml
+│   │   │   │   │   │   ├── PreciousLump.xml
+│   │   │   │   │   │   ├── PrisonerWillingToJoin.xml
+│   │   │   │   │   │   ├── SleepingMechanoids.xml
+│   │   │   │   │   │   ├── Turrets.xml
+│   │   │   │   ├── SketchResolverDefs/
+│   │   │   │   │   ├── SketchResolvers.xml
+│   │   │   │   ├── SkillDefs/
+│   │   │   │   │   ├── Skills.xml
+│   │   │   │   ├── SoundDefs/
+│   │   │   │   │   ├── Building_Exotic_Sustainers.xml
+│   │   │   │   │   ├── Building_Oneshots_Misc.xml
+│   │   │   │   │   ├── Building_Oneshots_Natural.xml
+│   │   │   │   │   ├── Building_Sustainers_Ambiences.xml
+│   │   │   │   │   ├── Building_Sustainers_Natural.xml
+│   │   │   │   │   ├── Exotic_Oneshots.xml
+│   │   │   │   │   ├── Interact_Ingest.xml
+│   │   │   │   │   ├── Interact_Oneshots_Melee.xml
+│   │   │   │   │   ├── Interact_Oneshots_Misc.xml
+│   │   │   │   │   ├── Interact_Oneshots_PickupDrop.xml
+│   │   │   │   │   ├── Interact_Oneshots_Violent.xml
+│   │   │   │   │   ├── Interact_Sustainers_Misc.xml
+│   │   │   │   │   ├── Interact_Sustainers_Work.xml
+│   │   │   │   │   ├── Pawn_Animal_Domestic_Vox.xml
+│   │   │   │   │   ├── Pawn_Animal_Insect_Vox.xml
+│   │   │   │   │   ├── Pawn_Animal_Misc_Vox.xml
+│   │   │   │   │   ├── Pawn_Mech_Vox.xml
+│   │   │   │   │   ├── Reload_Oneshots_Misc.xml
+│   │   │   │   │   ├── Ritual_SoundDefs.xml
+│   │   │   │   │   ├── UI_Oneshots_ClockControls.xml
+│   │   │   │   │   ├── UI_Oneshots_Designation.xml
+│   │   │   │   │   ├── UI_Oneshots_Misc.xml
+│   │   │   │   │   ├── UI_Sustainers_Designation.xml
+│   │   │   │   │   ├── UI_Sustainers_Trade.xml
+│   │   │   │   │   ├── World_Oneshots_Doors.xml
+│   │   │   │   │   ├── World_Oneshots_Explosions.xml
+│   │   │   │   │   ├── World_Oneshots_GunTurret.xml
+│   │   │   │   │   ├── World_Oneshots_Misc.xml
+│   │   │   │   │   ├── World_Oneshots_Mortars.xml
+│   │   │   │   │   ├── World_Oneshots_ProjectileImpacts.xml
+│   │   │   │   │   ├── World_Oneshots_Tails.xml
+│   │   │   │   │   ├── World_Oneshots_Weapons.xml
+│   │   │   │   │   ├── World_Sustainers_Ambiences.xml
+│   │   │   │   │   ├── World_Sustainers_Misc.xml
+│   │   │   │   │   ├── World_Sustainers_Weapons.xml
+│   │   │   │   ├── Stats/
+│   │   │   │   │   ├── StatCategories.xml
+│   │   │   │   │   ├── Stats_Abilities.xml
+│   │   │   │   │   ├── Stats_Apparel.xml
+│   │   │   │   │   ├── Stats_Basics_General.xml
+│   │   │   │   │   ├── Stats_Basics_Special.xml
+│   │   │   │   │   ├── Stats_Building_Special.xml
+│   │   │   │   │   ├── Stats_Pawns_Combat.xml
+│   │   │   │   │   ├── Stats_Pawns_General.xml
+│   │   │   │   │   ├── Stats_Pawns_Social.xml
+│   │   │   │   │   ├── Stats_Pawns_WorkGeneral.xml
+│   │   │   │   │   ├── Stats_Pawns_WorkMedical.xml
+│   │   │   │   │   ├── Stats_Pawns_WorkRecipes.xml
+│   │   │   │   │   ├── Stats_Stuff.xml
+│   │   │   │   │   ├── Stats_Weapons_Melee.xml
+│   │   │   │   │   ├── Stats_Weapons_Ranged.xml
+│   │   │   │   ├── Storyteller/
+│   │   │   │   │   ├── Incidents_Caravan_All.xml
+│   │   │   │   │   ├── Incidents_Map_Disease.xml
+│   │   │   │   │   ├── Incidents_Map_Misc.xml
+│   │   │   │   │   ├── Incidents_Map_Special.xml
+│   │   │   │   │   ├── Incidents_Map_Threats.xml
+│   │   │   │   │   ├── Incidents_World_Conditions.xml
+│   │   │   │   │   ├── Incidents_World_Quests.xml
+│   │   │   │   │   ├── RaidStrategies_Basic.xml
+│   │   │   │   │   ├── RaidStrategies_Breach.xml
+│   │   │   │   │   ├── RaidStrategies_Sapper.xml
+│   │   │   │   │   ├── RaidStrategies_Siege.xml
+│   │   │   │   │   ├── Storytellers.xml
+│   │   │   │   ├── TaleDefs/
+│   │   │   │   │   ├── Tales_Caravan.xml
+│   │   │   │   │   ├── Tales_DoublePawn.xml
+│   │   │   │   │   ├── Tales_DoublePawn_Relationships.xml
+│   │   │   │   │   ├── Tales_Event.xml
+│   │   │   │   │   ├── Tales_Health.xml
+│   │   │   │   │   ├── Tales_Incident.xml
+│   │   │   │   │   ├── Tales_Job.xml
+│   │   │   │   │   ├── Tales_NoPawn.xml
+│   │   │   │   │   ├── Tales_SinglePawn.xml
+│   │   │   │   ├── TattooDefs/
+│   │   │   │   │   ├── TattooDefs.xml
+│   │   │   │   ├── TerrainDefs/
+│   │   │   │   │   ├── Terrain_Floors.xml
+│   │   │   │   │   ├── Terrain_Floors_Burned.xml
+│   │   │   │   │   ├── Terrain_Floors_StoneTile.xml
+│   │   │   │   │   ├── Terrain_Foundation.xml
+│   │   │   │   │   ├── Terrain_Natural.xml
+│   │   │   │   │   ├── Terrain_Road.xml
+│   │   │   │   │   ├── Terrain_Special.xml
+│   │   │   │   │   ├── Terrain_Water.xml
+│   │   │   │   ├── ThingCategoryDefs/
+│   │   │   │   │   ├── ThingCategories.xml
+│   │   │   │   ├── ThingDefs_Buildings/
+│   │   │   │   │   ├── Buildings_Ancient.xml
+│   │   │   │   │   ├── Buildings_Ancient_Active.xml
+│   │   │   │   │   ├── Buildings_Ancient_Indoors.xml
+│   │   │   │   │   ├── Buildings_Ancient_Outdoors.xml
+│   │   │   │   │   ├── Buildings_Art.xml
+│   │   │   │   │   ├── Buildings_Base.xml
+│   │   │   │   │   ├── Buildings_Exotic.xml
+│   │   │   │   │   ├── Buildings_Furniture.xml
+│   │   │   │   │   ├── Buildings_Joy.xml
+│   │   │   │   │   ├── Buildings_Mech.xml
+│   │   │   │   │   ├── Buildings_Mech_Turrets.xml
+│   │   │   │   │   ├── Buildings_Misc.xml
+│   │   │   │   │   ├── Buildings_MusicalInstruments.xml
+│   │   │   │   │   ├── Buildings_Natural.xml
+│   │   │   │   │   ├── Buildings_Power.xml
+│   │   │   │   │   ├── Buildings_Production.xml
+│   │   │   │   │   ├── Buildings_Security.xml
+│   │   │   │   │   ├── Buildings_Security_Turrets.xml
+│   │   │   │   │   ├── Buildings_Ship.xml
+│   │   │   │   │   ├── Buildings_Special.xml
+│   │   │   │   │   ├── Buildings_Structure.xml
+│   │   │   │   │   ├── Buildings_Temperature.xml
+│   │   │   │   ├── ThingDefs_Items/
+│   │   │   │   │   ├── Items_Artifacts.xml
+│   │   │   │   │   ├── Items_Exotic.xml
+│   │   │   │   │   ├── Items_Food.xml
+│   │   │   │   │   ├── Items_Luxury.xml
+│   │   │   │   │   ├── Items_Resource_AnimalProduct.xml
+│   │   │   │   │   ├── Items_Resource_Base.xml
+│   │   │   │   │   ├── Items_Resource_Manufactured.xml
+│   │   │   │   │   ├── Items_Resource_RawPlant.xml
+│   │   │   │   │   ├── Items_Resource_Shell.xml
+│   │   │   │   │   ├── Items_Resource_Stuff.xml
+│   │   │   │   │   ├── Items_Resource_Stuff_Leather.xml
+│   │   │   │   │   ├── Items_Unfinished.xml
+│   │   │   │   ├── ThingDefs_Misc/
+│   │   │   │   │   ├── Apparel_Belts.xml
+│   │   │   │   │   ├── Apparel_Headgear.xml
+│   │   │   │   │   ├── Apparel_Packs.xml
+│   │   │   │   │   ├── Apparel_Utility.xml
+│   │   │   │   │   ├── Apparel_Various.xml
+│   │   │   │   │   ├── Ethereal_OrbitalStrikes.xml
+│   │   │   │   │   ├── Ethereal_SignalActions.xml
+│   │   │   │   │   ├── Ethereal_Skyfallers.xml
+│   │   │   │   │   ├── Ethereal_Various.xml
+│   │   │   │   │   ├── Filth_Various.xml
+│   │   │   │   │   ├── Things_Special.xml
+│   │   │   │   │   ├── Various_Stone.xml
+│   │   │   │   │   ├── Weapons/
+│   │   │   │   │   │   ├── BaseWeapons.xml
+│   │   │   │   │   │   ├── Breach.xml
+│   │   │   │   │   │   ├── MeleeMedieval.xml
+│   │   │   │   │   │   ├── MeleeNeolithic.xml
+│   │   │   │   │   │   ├── RangedIndustrial.xml
+│   │   │   │   │   │   ├── RangedIndustrialConsumable.xml
+│   │   │   │   │   │   ├── RangedIndustrialGrenades.xml
+│   │   │   │   │   │   ├── RangedMechanoid.xml
+│   │   │   │   │   │   ├── RangedNeolithic.xml
+│   │   │   │   │   │   ├── RangedSpacer.xml
+│   │   │   │   │   │   ├── RangedSpecial.xml
+│   │   │   │   │   │   ├── Weapons_Breach.xml
+│   │   │   │   ├── ThingDefs_Plants/
+│   │   │   │   │   ├── Plants_Bases.xml
+│   │   │   │   │   ├── Plants_Cave.xml
+│   │   │   │   │   ├── Plants_Cultivated_Decorative.xml
+│   │   │   │   │   ├── Plants_Cultivated_Farm.xml
+│   │   │   │   │   ├── Plants_Special.xml
+│   │   │   │   │   ├── Plants_Wild_Arid.xml
+│   │   │   │   │   ├── Plants_Wild_General.xml
+│   │   │   │   │   ├── Plants_Wild_Swamp.xml
+│   │   │   │   │   ├── Plants_Wild_Temperate.xml
+│   │   │   │   │   ├── Plants_Wild_Tropical.xml
+│   │   │   │   ├── ThingDefs_Races/
+│   │   │   │   │   ├── Races_Animal_Base.xml
+│   │   │   │   │   ├── Races_Animal_Bears.xml
+│   │   │   │   │   ├── Races_Animal_BigBirds.xml
+│   │   │   │   │   ├── Races_Animal_BigCats.xml
+│   │   │   │   │   ├── Races_Animal_CatGroup.xml
+│   │   │   │   │   ├── Races_Animal_ChickenGroup.xml
+│   │   │   │   │   ├── Races_Animal_CowGroup.xml
+│   │   │   │   │   ├── Races_Animal_Hares.xml
+│   │   │   │   │   ├── Races_Animal_Insect.xml
+│   │   │   │   │   ├── Races_Animal_MiscGroup.xml
+│   │   │   │   │   ├── Races_Animal_PigGroup.xml
+│   │   │   │   │   ├── Races_Animal_SheepGroup.xml
+│   │   │   │   │   ├── Races_Animal_SquirrelGroup.xml
+│   │   │   │   │   ├── Races_Animal_WargGroup.xml
+│   │   │   │   │   ├── Races_Animal_WildCanines.xml
+│   │   │   │   │   ├── Races_Humanlike.xml
+│   │   │   │   │   ├── Races_Mechanoid.xml
+│   │   │   │   ├── ThingSetMakerDefs/
+│   │   │   │   │   ├── ThingSetMakers_MapGen.xml
+│   │   │   │   │   ├── ThingSetMakers_Misc.xml
+│   │   │   │   │   ├── ThingSetMakers_Reward.xml
+│   │   │   │   ├── ThinkTreeDefs/
+│   │   │   │   │   ├── Animal.xml
+│   │   │   │   │   ├── Humanlike.xml
+│   │   │   │   │   ├── Insect.xml
+│   │   │   │   │   ├── Mechanoid.xml
+│   │   │   │   │   ├── SubTrees_Ability.xml
+│   │   │   │   │   ├── SubTrees_Duty.xml
+│   │   │   │   │   ├── SubTrees_Misc.xml
+│   │   │   │   ├── ThoughtDefs/
+│   │   │   │   │   ├── Thoughts_Anesthetic.xml
+│   │   │   │   │   ├── Thoughts_Memory_Death.xml
+│   │   │   │   │   ├── Thoughts_Memory_Debug.xml
+│   │   │   │   │   ├── Thoughts_Memory_Eating.xml
+│   │   │   │   │   ├── Thoughts_Memory_Gatherings.xml
+│   │   │   │   │   ├── Thoughts_Memory_Lost.xml
+│   │   │   │   │   ├── Thoughts_Memory_Misc.xml
+│   │   │   │   │   ├── Thoughts_Memory_RoomStats.xml
+│   │   │   │   │   ├── Thoughts_Memory_Social.xml
+│   │   │   │   │   ├── Thoughts_Memory_Special.xml
+│   │   │   │   │   ├── Thoughts_Situation_General.xml
+│   │   │   │   │   ├── Thoughts_Situation_Needs.xml
+│   │   │   │   │   ├── Thoughts_Situation_RoomStats.xml
+│   │   │   │   │   ├── Thoughts_Situation_Social.xml
+│   │   │   │   │   ├── Thoughts_Situation_Special.xml
+│   │   │   │   │   ├── Thoughts_Situation_Traits.xml
+│   │   │   │   │   ├── Thoughts_Situation_TraitsPerm.xml
+│   │   │   │   ├── ToolCapacityDefs/
+│   │   │   │   │   ├── ToolCapacity.xml
+│   │   │   │   ├── TraderKindDefs/
+│   │   │   │   │   ├── TraderKinds_Base_Neolithic.xml
+│   │   │   │   │   ├── TraderKinds_Base_Outlander.xml
+│   │   │   │   │   ├── TraderKinds_Caravan_Neolithic.xml
+│   │   │   │   │   ├── TraderKinds_Caravan_Outlander.xml
+│   │   │   │   │   ├── TraderKinds_Orbital_Misc.xml
+│   │   │   │   │   ├── TraderKinds_Visitor_Neolithic.xml
+│   │   │   │   │   ├── TraderKinds_Visitor_Outlander.xml
+│   │   │   │   ├── TrainableDefs/
+│   │   │   │   │   ├── Trainables.xml
+│   │   │   │   ├── TraitDefs/
+│   │   │   │   │   ├── Traits_Singular.xml
+│   │   │   │   │   ├── Traits_Spectrum.xml
+│   │   │   │   ├── Tutor/
+│   │   │   │   │   ├── Concepts_Entry.xml
+│   │   │   │   │   ├── Concepts_NotedOpportunistic.xml
+│   │   │   │   │   ├── Concepts_NotedSelfshow.xml
+│   │   │   │   │   ├── Concepts_TriggeredModal.xml
+│   │   │   │   │   ├── Instructions.xml
+│   │   │   │   ├── WeaponClassDefs/
+│   │   │   │   │   ├── WeaponClassDefs.xml
+│   │   │   │   ├── WeatherDefs/
+│   │   │   │   │   ├── Weathers.xml
+│   │   │   │   ├── WorkGiverDefs/
+│   │   │   │   │   ├── WorkGivers.xml
+│   │   │   │   ├── WorkTypeDefs/
+│   │   │   │   │   ├── WorkTypes.xml
+│   │   │   │   ├── WorldGeneration/
+│   │   │   │   │   ├── WorldGenerator.xml
+│   │   │   │   ├── WorldObjectDefs/
+│   │   │   │   │   ├── WorldObjects.xml
+│   │   │   │   │   ├── WorldObjects_Debug.xml
+│   │   │   ├── Languages/
+│   │   │   │   ├── Danish (Dansk).tar
+│   │   │   │   ├── Dutch (Nederlands).tar
+│   │   │   │   ├── Estonian (Eesti).tar
+│   │   │   │   ├── Finnish (Suomi).tar
+│   │   │   │   ├── German (Deutsch).tar
+│   │   │   │   ├── Hungarian (Magyar).tar
+│   │   │   │   ├── Italian (Italiano).tar
+│   │   │   │   ├── Polish (Polski).tar
+│   │   │   │   ├── Swedish (Svenska).tar
+│   │   │   │   ├── English/
+│   │   │   │   │   ├── About.txt
+│   │   │   │   │   ├── LanguageInfo.xml
+│   │   │   │   │   ├── DefInjected/
+│   │   │   │   │   │   ├── ConceptDef/
+│   │   │   │   │   │   │   ├── Example_Concepts.xml
+│   │   │   │   │   │   ├── TraitDef/
+│   │   │   │   │   │   │   ├── Example_Traits.xml
+│   │   │   │   │   ├── Keyed/
+│   │   │   │   │   │   ├── Alerts.xml
+│   │   │   │   │   │   ├── Credits.xml
+│   │   │   │   │   │   ├── Dates.xml
+│   │   │   │   │   │   ├── Designators.xml
+│   │   │   │   │   │   ├── Dialog_StatsReports.xml
+│   │   │   │   │   │   ├── Dialog_Trees.xml
+│   │   │   │   │   │   ├── Dialogs_Various.xml
+│   │   │   │   │   │   ├── Enums.xml
+│   │   │   │   │   │   ├── FloatMenu.xml
+│   │   │   │   │   │   ├── GameplayCommands.xml
+│   │   │   │   │   │   ├── Grammar.xml
+│   │   │   │   │   │   ├── ITabs.xml
+│   │   │   │   │   │   ├── Incidents.xml
+│   │   │   │   │   │   ├── Letters.xml
+│   │   │   │   │   │   ├── MainTabs.xml
+│   │   │   │   │   │   ├── Menu_KeyBindings.xml
+│   │   │   │   │   │   ├── Menu_Options.xml
+│   │   │   │   │   │   ├── Menus_Main.xml
+│   │   │   │   │   │   ├── Messages.xml
+│   │   │   │   │   │   ├── Misc.xml
+│   │   │   │   │   │   ├── Misc_Gameplay.xml
+│   │   │   │   │   │   ├── PlayInterface.xml
+│   │   │   │   │   │   ├── ScenParts.xml
+│   │   │   │   │   │   ├── Skills.xml
+│   │   │   │   │   │   ├── TerrainTags.xml
+│   │   │   │   │   │   ├── Time.xml
+│   │   │   │   │   │   ├── WITabs.xml
+│   │   │   │   │   │   ├── WorkTags.xml
+│   │   │   │   │   ├── Strings/
+│   │   │   │   │   │   ├── Names/
+│   │   │   │   │   │   │   ├── Animal_Female.txt
+│   │   │   │   │   │   │   ├── Animal_Male.txt
+│   │   │   │   │   │   │   ├── Animal_Unisex.txt
+│   │   │   │   │   │   │   ├── Business.txt
+│   │   │   │   │   │   │   ├── Celestial.txt
+│   │   │   │   │   │   │   ├── CelestialPrefix.txt
+│   │   │   │   │   │   │   ├── CelestialSuffix.txt
+│   │   │   │   │   │   │   ├── EmpireTown.txt
+│   │   │   │   │   │   │   ├── Imperial_First_Female.txt
+│   │   │   │   │   │   │   ├── Imperial_First_Male.txt
+│   │   │   │   │   │   │   ├── Imperial_Last.txt
+│   │   │   │   │   │   │   ├── Nick_Unisex_Pig.txt
+│   │   │   │   │   │   │   ├── Nick_Unisex_Waster.txt
+│   │   │   │   │   │   │   ├── OutlanderTown.txt
+│   │   │   │   │   │   ├── WordParts/
+│   │   │   │   │   │   │   ├── CapitalLetters.txt
+│   │   │   │   │   │   │   ├── PlaceEndings.txt
+│   │   │   │   │   │   │   ├── Syllables_Byzantinian.txt
+│   │   │   │   │   │   │   ├── Syllables_Dirtmole.txt
+│   │   │   │   │   │   │   ├── Syllables_English.txt
+│   │   │   │   │   │   │   ├── Syllables_Galician.txt
+│   │   │   │   │   │   │   ├── Syllables_Impid.txt
+│   │   │   │   │   │   │   ├── Syllables_Neanderthal.txt
+│   │   │   │   │   │   │   ├── Syllables_Pig.txt
+│   │   │   │   │   │   │   ├── Syllables_Waster.txt
+│   │   │   │   │   │   │   ├── Syllables_Yttakin.txt
+│   │   │   │   │   │   ├── Words/
+│   │   │   │   │   │   │   ├── Adjectives/
+│   │   │   │   │   │   │   │   ├── Angsty.txt
+│   │   │   │   │   │   │   │   ├── Badass.txt
+│   │   │   │   │   │   │   │   ├── CompassDirections.txt
+│   │   │   │   │   │   │   │   ├── Curious.txt
+│   │   │   │   │   │   │   │   ├── Friendly.txt
+│   │   │   │   │   │   │   │   ├── Large.txt
+│   │   │   │   │   │   │   │   ├── Natural.txt
+│   │   │   │   │   │   │   │   ├── PoliticalUnions.txt
+│   │   │   │   │   │   │   ├── Foreign/
+│   │   │   │   │   │   │   │   ├── Tribal.txt
+│   │   │   │   │   │   │   ├── Misc/
+│   │   │   │   │   │   │   │   ├── Numbers_SmallRoman.txt
+│   │   │   │   │   │   │   ├── Nouns/
+│   │   │   │   │   │   │   │   ├── AnimalGroups.txt
+│   │   │   │   │   │   │   │   ├── Animals.txt
+│   │   │   │   │   │   │   │   ├── Animals_Badass.txt
+│   │   │   │   │   │   │   │   ├── Apparel.txt
+│   │   │   │   │   │   │   │   ├── Artworks.txt
+│   │   │   │   │   │   │   │   ├── Bodyparts.txt
+│   │   │   │   │   │   │   │   ├── BusinessTypes.txt
+│   │   │   │   │   │   │   │   ├── Colors.txt
+│   │   │   │   │   │   │   │   ├── Colors_Badass.txt
+│   │   │   │   │   │   │   │   ├── Communities.txt
+│   │   │   │   │   │   │   │   ├── Concepts_Angsty.txt
+│   │   │   │   │   │   │   │   ├── Concepts_Badass.txt
+│   │   │   │   │   │   │   │   ├── Concepts_Positive.txt
+│   │   │   │   │   │   │   │   ├── Enemies.txt
+│   │   │   │   │   │   │   │   ├── Games.txt
+│   │   │   │   │   │   │   │   ├── Gore.txt
+│   │   │   │   │   │   │   │   ├── GroupNames.txt
+│   │   │   │   │   │   │   │   ├── Mechanoid.txt
+│   │   │   │   │   │   │   │   ├── NaturalObject.txt
+│   │   │   │   │   │   │   │   ├── People_Allies.txt
+│   │   │   │   │   │   │   │   ├── People_Badass.txt
+│   │   │   │   │   │   │   │   ├── People_Family.txt
+│   │   │   │   │   │   │   │   ├── People_Jobs.txt
+│   │   │   │   │   │   │   │   ├── PersonalCharacteristics.txt
+│   │   │   │   │   │   │   │   ├── PoliticalUnions_Outlander.txt
+│   │   │   │   │   │   │   │   ├── PoliticalUnions_Tribal.txt
+│   │   │   │   │   │   │   │   ├── Quests.txt
+│   │   │   │   │   │   │   │   ├── Stories.txt
+│   │   │   │   │   │   │   │   ├── TalkTopics_Heavy.txt
+│   │   │   │   │   │   │   │   ├── TalkTopics_Light.txt
+│   │   │   │   │   │   │   │   ├── TerrainFeatures.txt
+│   │   │   │   │   │   │   │   ├── TreeTypes.txt
+│   │   │   │   │   │   │   │   ├── Vegetables.txt
+│   │   │   │   │   │   │   │   ├── Weapons.txt
+│   │   │   │   │   │   │   ├── Verbs/
+│   │   │   │   │   │   │   │   ├── Friendly.txt
+│   │   │   │   ├── French/
+│   │   │   │   │   ├── FriendlyName.txt
+│   │   │   │   │   ├── LanguageInfo.xml
+│   │   │   │   │   ├── Backstories DELETE_ME/
+│   │   │   │   │   │   ├── Backstories.xml
+│   │   │   │   │   ├── DefInjected/
+│   │   │   │   │   │   ├── ApparelLayerDef/
+│   │   │   │   │   │   │   ├── ApparelLayerDefs.xml
+│   │   │   │   │   │   ├── BackstoryDef/
+│   │   │   │   │   │   │   ├── InsectsRelated_Child.xml
+│   │   │   │   │   │   │   ├── Offworld_Glitterworld_Adult.xml
+│   │   │   │   │   │   │   ├── Offworld_Medieval_Adult.xml
+│   │   │   │   │   │   │   ├── Offworld_Medieval_Child.xml
+│   │   │   │   │   │   │   ├── Offworld_Nonspecific_Adult.xml
+│   │   │   │   │   │   │   ├── Offworld_Nonspecific_Child.xml
+│   │   │   │   │   │   │   ├── Offworld_Specific_Adult.xml
+│   │   │   │   │   │   │   ├── Offworld_Specific_Child.xml
+│   │   │   │   │   │   │   ├── Outsider_Adult.xml
+│   │   │   │   │   │   │   ├── Pirate_Adult.xml
+│   │   │   │   │   │   │   ├── Solid_Adult.xml
+│   │   │   │   │   │   │   ├── Solid_Child.xml
+│   │   │   │   │   │   │   ├── Solid_Rare.xml
+│   │   │   │   │   │   │   ├── Special.xml
+│   │   │   │   │   │   │   ├── Tribal_Adult.xml
+│   │   │   │   │   │   │   ├── Tribal_Child.xml
+│   │   │   │   │   │   ├── BeardDef/
+│   │   │   │   │   │   │   ├── BeardDefs.xml
+│   │   │   │   │   │   ├── BillRepeatModeDef/
+│   │   │   │   │   │   │   ├── BillRepeatModeDefs.xml
+│   │   │   │   │   │   ├── BillStoreModeDef/
+│   │   │   │   │   │   │   ├── BillStoreModeDefs.xml
+│   │   │   │   │   │   ├── BiomeDef/
+│   │   │   │   │   │   │   ├── Biomes_Cold.xml
+│   │   │   │   │   │   │   ├── Biomes_Misc.xml
+│   │   │   │   │   │   │   ├── Biomes_Temperate.xml
+│   │   │   │   │   │   │   ├── Biomes_Warm.xml
+│   │   │   │   │   │   │   ├── Biomes_WarmArid.xml
+│   │   │   │   │   │   │   ├── Biomes_Water.xml
+│   │   │   │   │   │   ├── BodyDef/
+│   │   │   │   │   │   │   ├── Bodies_Animal_Bird.xml
+│   │   │   │   │   │   │   ├── Bodies_Animal_Insect.xml
+│   │   │   │   │   │   │   ├── Bodies_Animal_Quadruped.xml
+│   │   │   │   │   │   │   ├── Bodies_Animal_Snake.xml
+│   │   │   │   │   │   │   ├── Bodies_Humanlike.xml
+│   │   │   │   │   │   │   ├── Bodies_Mechanoid.xml
+│   │   │   │   │   │   ├── BodyPartDef/
+│   │   │   │   │   │   │   ├── Bodies_Mechanoid.xml
+│   │   │   │   │   │   │   ├── BodyParts_Animal.xml
+│   │   │   │   │   │   │   ├── BodyParts_General.xml
+│   │   │   │   │   │   │   ├── BodyParts_Humanoid.xml
+│   │   │   │   │   │   │   ├── BodyParts_Mechanoid.xml
+│   │   │   │   │   │   │   ├── BodyParts_Organs.xml
+│   │   │   │   │   │   ├── BodyPartGroupDef/
+│   │   │   │   │   │   │   ├── BodyPartGroups.xml
+│   │   │   │   │   │   ├── ChemicalDef/
+│   │   │   │   │   │   │   ├── Alcohol_Beer.xml
+│   │   │   │   │   │   │   ├── Ambrosia.xml
+│   │   │   │   │   │   │   ├── GoJuice.xml
+│   │   │   │   │   │   │   ├── Luciferium.xml
+│   │   │   │   │   │   │   ├── Psychite_Yayo.xml
+│   │   │   │   │   │   │   ├── Smokeleaf.xml
+│   │   │   │   │   │   │   ├── WakeUp.xml
+│   │   │   │   │   │   ├── ColorDef/
+│   │   │   │   │   │   │   ├── ColorDefs.xml
+│   │   │   │   │   │   ├── ConceptDef/
+│   │   │   │   │   │   │   ├── Concepts_Entry.xml
+│   │   │   │   │   │   │   ├── Concepts_NotedOpportunistic.xml
+│   │   │   │   │   │   │   ├── Concepts_NotedSelfshow.xml
+│   │   │   │   │   │   │   ├── Concepts_TriggeredModal.xml
+│   │   │   │   │   │   ├── CultureDef/
+│   │   │   │   │   │   │   ├── Cultures.xml
+│   │   │   │   │   │   ├── DamageDef/
+│   │   │   │   │   │   │   ├── Damages_Environmental.xml
+│   │   │   │   │   │   │   ├── Damages_Medical.xml
+│   │   │   │   │   │   │   ├── Damages_MeleeWeapon.xml
+│   │   │   │   │   │   │   ├── Damages_Misc.xml
+│   │   │   │   │   │   │   ├── Damages_RangedWeapon.xml
+│   │   │   │   │   │   │   ├── Damages_Stun.xml
+│   │   │   │   │   │   ├── DebugTabMenuDef/
+│   │   │   │   │   │   │   ├── DebugTabMenuDefs.xml
+│   │   │   │   │   │   ├── DesignationCategoryDef/
+│   │   │   │   │   │   │   ├── DesignationCategories.xml
+│   │   │   │   │   │   ├── DesignatorDropdownGroupDef/
+│   │   │   │   │   │   │   ├── DesignatorDropdownGroupDef.xml
+│   │   │   │   │   │   ├── DifficultyDef/
+│   │   │   │   │   │   │   ├── Difficulties.xml
+│   │   │   │   │   │   ├── DrawStyleDef/
+│   │   │   │   │   │   │   ├── DrawStyles.xml
+│   │   │   │   │   │   ├── DrugPolicyDef/
+│   │   │   │   │   │   │   ├── DrugPolicyDefs.xml
+│   │   │   │   │   │   ├── DutyDef/
+│   │   │   │   │   │   │   ├── Duties_Gatherings.xml
+│   │   │   │   │   │   ├── ExpansionDef/
+│   │   │   │   │   │   │   ├── ExpansionDefs.xml
+│   │   │   │   │   │   ├── ExpectationDef/
+│   │   │   │   │   │   │   ├── Expectations.xml
+│   │   │   │   │   │   ├── FactionDef/
+│   │   │   │   │   │   │   ├── Factions_Hidden.xml
+│   │   │   │   │   │   │   ├── Factions_Misc.xml
+│   │   │   │   │   │   │   ├── Factions_Player.xml
+│   │   │   │   │   │   ├── GameConditionDef/
+│   │   │   │   │   │   │   ├── Buildings_Exotic.xml
+│   │   │   │   │   │   │   ├── GameConditions_Misc.xml
+│   │   │   │   │   │   ├── GatheringDef/
+│   │   │   │   │   │   │   ├── Gatherings.xml
+│   │   │   │   │   │   ├── GeneCategoryDef/
+│   │   │   │   │   │   │   ├── GeneDefs_Endogenes.xml
+│   │   │   │   │   │   ├── GeneDef/
+│   │   │   │   │   │   │   ├── GeneDefs_Endogenes.xml
+│   │   │   │   │   │   ├── GoodwillSituationDef/
+│   │   │   │   │   │   │   ├── GoodwillSituations_Misc.xml
+│   │   │   │   │   │   ├── HairDef/
+│   │   │   │   │   │   │   ├── HairsGeneral.xml
+│   │   │   │   │   │   ├── HediffDef/
+│   │   │   │   │   │   │   ├── Alcohol_Beer.xml
+│   │   │   │   │   │   │   ├── Ambrosia.xml
+│   │   │   │   │   │   │   ├── GoJuice.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Archotech.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Bionic.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Medieval.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Prosthetic.xml
+│   │   │   │   │   │   │   ├── Hediffs_Debug.xml
+│   │   │   │   │   │   │   ├── Hediffs_Global_Misc.xml
+│   │   │   │   │   │   │   ├── Hediffs_Global_Needs.xml
+│   │   │   │   │   │   │   ├── Hediffs_Global_Temperature.xml
+│   │   │   │   │   │   │   ├── Hediffs_Local_Chronic.xml
+│   │   │   │   │   │   │   ├── Hediffs_Local_Infections.xml
+│   │   │   │   │   │   │   ├── Hediffs_Local_Injuries.xml
+│   │   │   │   │   │   │   ├── Hediffs_Local_Misc.xml
+│   │   │   │   │   │   │   ├── Hediffs_Local_TerrainAttacks.xml
+│   │   │   │   │   │   │   ├── Hediffs_Psycasts.xml
+│   │   │   │   │   │   │   ├── Luciferium.xml
+│   │   │   │   │   │   │   ├── Penoxycyline.xml
+│   │   │   │   │   │   │   ├── Psychite_Flake.xml
+│   │   │   │   │   │   │   ├── Psychite_Tea.xml
+│   │   │   │   │   │   │   ├── Psychite_Yayo.xml
+│   │   │   │   │   │   │   ├── Smokeleaf.xml
+│   │   │   │   │   │   │   ├── WakeUp.xml
+│   │   │   │   │   │   ├── HediffGiverSetDef/
+│   │   │   │   │   │   │   ├── HediffGiverSets.xml
+│   │   │   │   │   │   ├── HistoryAutoRecorderDef/
+│   │   │   │   │   │   │   ├── HistoryAutoRecorders.xml
+│   │   │   │   │   │   ├── HistoryAutoRecorderGroupDef/
+│   │   │   │   │   │   │   ├── HistoryAutoRecorderGroups.xml
+│   │   │   │   │   │   ├── HistoryEventDef/
+│   │   │   │   │   │   │   ├── GoodwillEvents_Diplomatic.xml
+│   │   │   │   │   │   │   ├── GoodwillEvents_Misc.xml
+│   │   │   │   │   │   │   ├── GoodwillEvents_Pawns.xml
+│   │   │   │   │   │   │   ├── GoodwillEvents_Quests.xml
+│   │   │   │   │   │   │   ├── GoodwillEvents_World.xml
+│   │   │   │   │   │   │   ├── HistoryEventDefs.xml
+│   │   │   │   │   │   │   ├── PawnRelations_Misc.xml
+│   │   │   │   │   │   │   ├── Precepts_AteNutrientPaste.xml
+│   │   │   │   │   │   │   ├── Precepts_Cannibalism.xml
+│   │   │   │   │   │   │   ├── Precepts_Corpses.xml
+│   │   │   │   │   │   │   ├── Precepts_InsectMeat.xml
+│   │   │   │   │   │   │   ├── Precepts_Lovin.xml
+│   │   │   │   │   │   │   ├── Precepts_MarriageName.xml
+│   │   │   │   │   │   │   ├── Precepts_OrganUse.xml
+│   │   │   │   │   │   │   ├── Precepts_PrisonerExecution.xml
+│   │   │   │   │   │   │   ├── Precepts_Slavery.xml
+│   │   │   │   │   │   │   ├── Precepts_SpouseCount.xml
+│   │   │   │   │   │   ├── IncidentDef/
+│   │   │   │   │   │   │   ├── Incidents_Caravan_All.xml
+│   │   │   │   │   │   │   ├── Incidents_Map_Disease.xml
+│   │   │   │   │   │   │   ├── Incidents_Map_Misc.xml
+│   │   │   │   │   │   │   ├── Incidents_Map_Special.xml
+│   │   │   │   │   │   │   ├── Incidents_Map_Threats.xml
+│   │   │   │   │   │   │   ├── Incidents_World_Conditions.xml
+│   │   │   │   │   │   │   ├── Incidents_World_Quests.xml
+│   │   │   │   │   │   ├── InfectionPathwayDef/
+│   │   │   │   │   │   │   ├── InfectionPathwayDefs.xml
+│   │   │   │   │   │   ├── InspirationDef/
+│   │   │   │   │   │   │   ├── Inspirations.xml
+│   │   │   │   │   │   ├── InstructionDef/
+│   │   │   │   │   │   │   ├── Instructions.xml
+│   │   │   │   │   │   ├── InteractionDef/
+│   │   │   │   │   │   │   ├── Interactions_Animal.xml
+│   │   │   │   │   │   │   ├── Interactions_Prisoner.xml
+│   │   │   │   │   │   │   ├── Interactions_Romance.xml
+│   │   │   │   │   │   │   ├── Interactions_Social.xml
+│   │   │   │   │   │   ├── IssueDef/
+│   │   │   │   │   │   │   ├── Precepts_AteNutrientPaste.xml
+│   │   │   │   │   │   │   ├── Precepts_Cannibalism.xml
+│   │   │   │   │   │   │   ├── Precepts_Corpses.xml
+│   │   │   │   │   │   │   ├── Precepts_InsectMeat.xml
+│   │   │   │   │   │   │   ├── Precepts_Lovin.xml
+│   │   │   │   │   │   │   ├── Precepts_MarriageName.xml
+│   │   │   │   │   │   │   ├── Precepts_OrganUse.xml
+│   │   │   │   │   │   │   ├── Precepts_PrisonerExecution.xml
+│   │   │   │   │   │   │   ├── Precepts_Ritual.xml
+│   │   │   │   │   │   │   ├── Precepts_Slavery.xml
+│   │   │   │   │   │   │   ├── Precepts_SpouseCount.xml
+│   │   │   │   │   │   ├── JobDef/
+│   │   │   │   │   │   │   ├── Jobs_Animal.xml
+│   │   │   │   │   │   │   ├── Jobs_Caravan.xml
+│   │   │   │   │   │   │   ├── Jobs_Gatherings.xml
+│   │   │   │   │   │   │   ├── Jobs_Joy.xml
+│   │   │   │   │   │   │   ├── Jobs_Misc.xml
+│   │   │   │   │   │   │   ├── Jobs_Work.xml
+│   │   │   │   │   │   ├── JoyKindDef/
+│   │   │   │   │   │   │   ├── JoyKinds.xml
+│   │   │   │   │   │   ├── KeyBindingCategoryDef/
+│   │   │   │   │   │   │   ├── ImpliedDefs.xml
+│   │   │   │   │   │   │   ├── KeyBindingCategories.xml
+│   │   │   │   │   │   ├── KeyBindingDef/
+│   │   │   │   │   │   │   ├── ImpliedDefs.xml
+│   │   │   │   │   │   │   ├── KeyBindings.xml
+│   │   │   │   │   │   ├── LifeStageDef/
+│   │   │   │   │   │   │   ├── LifeStages.xml
+│   │   │   │   │   │   ├── MainButtonDef/
+│   │   │   │   │   │   │   ├── MainButtons.xml
+│   │   │   │   │   │   ├── MechWeightClassDef/
+│   │   │   │   │   │   │   ├── MechWeightClassDefs.xml
+│   │   │   │   │   │   ├── MeditationFocusDef/
+│   │   │   │   │   │   │   ├── MeditationFocuses.xml
+│   │   │   │   │   │   ├── MentalBreakDef/
+│   │   │   │   │   │   │   ├── MentalStates_Mood.xml
+│   │   │   │   │   │   ├── MentalStateDef/
+│   │   │   │   │   │   │   ├── MentalStates_Mood.xml
+│   │   │   │   │   │   │   ├── MentalStates_Special.xml
+│   │   │   │   │   │   ├── NeedDef/
+│   │   │   │   │   │   │   ├── Alcohol_Beer.xml
+│   │   │   │   │   │   │   ├── Ambrosia.xml
+│   │   │   │   │   │   │   ├── GoJuice.xml
+│   │   │   │   │   │   │   ├── Luciferium.xml
+│   │   │   │   │   │   │   ├── Needs.xml
+│   │   │   │   │   │   │   ├── Psychite_Yayo.xml
+│   │   │   │   │   │   │   ├── Smokeleaf.xml
+│   │   │   │   │   │   │   ├── WakeUp.xml
+│   │   │   │   │   │   ├── OptionCategoryDef/
+│   │   │   │   │   │   │   ├── OptionCategories.xml
+│   │   │   │   │   │   ├── OrderedTakeGroupDef/
+│   │   │   │   │   │   │   ├── OrderedTakeGroupDefs.xml
+│   │   │   │   │   │   ├── PawnCapacityDef/
+│   │   │   │   │   │   │   ├── PawnCapacity.xml
+│   │   │   │   │   │   ├── PawnColumnDef/
+│   │   │   │   │   │   │   ├── ImpliedDefs.xml
+│   │   │   │   │   │   │   ├── PawnColumns_Checkbox.xml
+│   │   │   │   │   │   │   ├── PawnColumns_Icon.xml
+│   │   │   │   │   │   │   ├── PawnColumns_Misc.xml
+│   │   │   │   │   │   │   ├── PawnColumns_Text.xml
+│   │   │   │   │   │   ├── PawnKindDef/
+│   │   │   │   │   │   │   ├── PawnKinds_Breach.xml
+│   │   │   │   │   │   │   ├── PawnKinds_Mercenary.xml
+│   │   │   │   │   │   │   ├── PawnKinds_Outlander.xml
+│   │   │   │   │   │   │   ├── PawnKinds_Pirate.xml
+│   │   │   │   │   │   │   ├── PawnKinds_Player.xml
+│   │   │   │   │   │   │   ├── PawnKinds_Spacer.xml
+│   │   │   │   │   │   │   ├── PawnKinds_Special.xml
+│   │   │   │   │   │   │   ├── PawnKinds_Tribal.xml
+│   │   │   │   │   │   │   ├── Races_Animal_Bears.xml
+│   │   │   │   │   │   │   ├── Races_Animal_BigBirds.xml
+│   │   │   │   │   │   │   ├── Races_Animal_BigCats.xml
+│   │   │   │   │   │   │   ├── Races_Animal_CatGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_ChickenGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_CowGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_Hares.xml
+│   │   │   │   │   │   │   ├── Races_Animal_Insect.xml
+│   │   │   │   │   │   │   ├── Races_Animal_MiscGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_PigGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_SheepGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_SquirrelGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_WargGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_WildCanines.xml
+│   │   │   │   │   │   │   ├── Races_Mechanoid.xml
+│   │   │   │   │   │   ├── PawnRelationDef/
+│   │   │   │   │   │   │   ├── PawnRelations_FamilyByBlood.xml
+│   │   │   │   │   │   │   ├── PawnRelations_FamilyByChoice.xml
+│   │   │   │   │   │   │   ├── PawnRelations_Misc.xml
+│   │   │   │   │   │   ├── PawnRenderTreeDef/
+│   │   │   │   │   │   │   ├── PawnRenderTreeDefs.xml
+│   │   │   │   │   │   ├── PawnsArrivalModeDef/
+│   │   │   │   │   │   │   ├── PawnsArrivalModes.xml
+│   │   │   │   │   │   ├── PlanetLayerDef/
+│   │   │   │   │   │   │   ├── PlanetLayers.xml
+│   │   │   │   │   │   ├── PlanetLayerSettingsDef/
+│   │   │   │   │   │   │   ├── PlanetLayerSettings.xml
+│   │   │   │   │   │   ├── PreceptDef/
+│   │   │   │   │   │   │   ├── Precepts_AteNutrientPaste.xml
+│   │   │   │   │   │   │   ├── Precepts_Cannibalism.xml
+│   │   │   │   │   │   │   ├── Precepts_Corpses.xml
+│   │   │   │   │   │   │   ├── Precepts_InsectMeat.xml
+│   │   │   │   │   │   │   ├── Precepts_Lovin.xml
+│   │   │   │   │   │   │   ├── Precepts_MarriageName.xml
+│   │   │   │   │   │   │   ├── Precepts_SpouseCount.xml
+│   │   │   │   │   │   ├── PrisonerInteractionModeDef/
+│   │   │   │   │   │   │   ├── PrisonerInteractionMode.xml
+│   │   │   │   │   │   ├── QuestScriptDef/
+│   │   │   │   │   │   │   ├── Script_BanditCamp.xml
+│   │   │   │   │   │   │   ├── Script_DelayedRewardDropPods.xml
+│   │   │   │   │   │   │   ├── Script_DownedRefugee.xml
+│   │   │   │   │   │   │   ├── Script_EndGame_ShipEscape.xml
+│   │   │   │   │   │   │   ├── Script_ItemStash.xml
+│   │   │   │   │   │   │   ├── Script_LongRangeMineralScannerLump.xml
+│   │   │   │   │   │   │   ├── Script_PeaceTalks.xml
+│   │   │   │   │   │   │   ├── Script_PrisonerWillingToJoin.xml
+│   │   │   │   │   │   │   ├── Script_TradeRequest.xml
+│   │   │   │   │   │   │   ├── Script_TransportPodCrash.xml
+│   │   │   │   │   │   │   ├── Script_WandererJoins.xml
+│   │   │   │   │   │   │   ├── Scripts_JoinerThreatCore.xml
+│   │   │   │   │   │   │   ├── Scripts_Utility_RewardsCore.xml
+│   │   │   │   │   │   │   ├── Scripts_Utility_ThreatsCore.xml
+│   │   │   │   │   │   ├── RaidStrategyDef/
+│   │   │   │   │   │   │   ├── RaidStrategies_Basic.xml
+│   │   │   │   │   │   │   ├── RaidStrategies_Breach.xml
+│   │   │   │   │   │   │   ├── RaidStrategies_Sapper.xml
+│   │   │   │   │   │   │   ├── RaidStrategies_Siege.xml
+│   │   │   │   │   │   ├── RecipeDef/
+│   │   │   │   │   │   │   ├── Alcohol_Beer.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Archotech.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Bionic.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Medieval.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Natural.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Prosthetic.xml
+│   │   │   │   │   │   │   ├── Hediffs_Local_Chronic.xml
+│   │   │   │   │   │   │   ├── Hediffs_Local_Misc.xml
+│   │   │   │   │   │   │   ├── ImpliedDefs.xml
+│   │   │   │   │   │   │   ├── Items_Exotic.xml
+│   │   │   │   │   │   │   ├── Recipes_Butchery.xml
+│   │   │   │   │   │   │   ├── Recipes_Cremation.xml
+│   │   │   │   │   │   │   ├── Recipes_Food.xml
+│   │   │   │   │   │   │   ├── Recipes_Meals.xml
+│   │   │   │   │   │   │   ├── Recipes_Production.xml
+│   │   │   │   │   │   │   ├── Recipes_Surgery_Misc.xml
+│   │   │   │   │   │   │   ├── Various_Stone.xml
+│   │   │   │   │   │   ├── RecordDef/
+│   │   │   │   │   │   │   ├── Records_Misc.xml
+│   │   │   │   │   │   │   ├── Records_Time.xml
+│   │   │   │   │   │   ├── ResearchProjectDef/
+│   │   │   │   │   │   │   ├── ResearchProjects_1.xml
+│   │   │   │   │   │   │   ├── ResearchProjects_2_Electricity.xml
+│   │   │   │   │   │   │   ├── ResearchProjects_3_Microelectronics.xml
+│   │   │   │   │   │   │   ├── ResearchProjects_4_MultiAnalyzer.xml
+│   │   │   │   │   │   │   ├── ResearchProjects_5_Ship.xml
+│   │   │   │   │   │   ├── ResearchTabDef/
+│   │   │   │   │   │   │   ├── ResearchTabs.xml
+│   │   │   │   │   │   ├── RitualOutcomeEffectDef/
+│   │   │   │   │   │   │   ├── Ritual_Outcomes.xml
+│   │   │   │   │   │   ├── RiverDef/
+│   │   │   │   │   │   │   ├── RiverDefs.xml
+│   │   │   │   │   │   ├── RoadDef/
+│   │   │   │   │   │   │   ├── RoadDefs.xml
+│   │   │   │   │   │   ├── RoofDef/
+│   │   │   │   │   │   │   ├── Roofs.xml
+│   │   │   │   │   │   ├── RoomRoleDef/
+│   │   │   │   │   │   │   ├── RoomRoles.xml
+│   │   │   │   │   │   ├── RoomStatDef/
+│   │   │   │   │   │   │   ├── RoomStats.xml
+│   │   │   │   │   │   ├── RulePackDef/
+│   │   │   │   │   │   │   ├── Interactions_Prisoner.xml
+│   │   │   │   │   │   │   ├── Interactions_Romance.xml
+│   │   │   │   │   │   │   ├── Interactions_Social.xml
+│   │   │   │   │   │   │   ├── RulePacks_Art_Descriptions.xml
+│   │   │   │   │   │   │   ├── RulePacks_Art_DescriptionsPhysical.xml
+│   │   │   │   │   │   │   ├── RulePacks_Art_ImagesTaleless.xml
+│   │   │   │   │   │   │   ├── RulePacks_Battles.xml
+│   │   │   │   │   │   │   ├── RulePacks_Book_Descriptions.xml
+│   │   │   │   │   │   │   ├── RulePacks_Book_Namers.xml
+│   │   │   │   │   │   │   ├── RulePacks_CombatIncludes.xml
+│   │   │   │   │   │   │   ├── RulePacks_CombatMelee.xml
+│   │   │   │   │   │   │   ├── RulePacks_CombatRanged.xml
+│   │   │   │   │   │   │   ├── RulePacks_Common.xml
+│   │   │   │   │   │   │   ├── RulePacks_Damage.xml
+│   │   │   │   │   │   │   ├── RulePacks_DamageEvent.xml
+│   │   │   │   │   │   │   ├── RulePacks_Event.xml
+│   │   │   │   │   │   │   ├── RulePacks_GameplayTips.xml
+│   │   │   │   │   │   │   ├── RulePacks_Global.xml
+│   │   │   │   │   │   │   ├── RulePacks_Maneuvers.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namer_World.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namers_Animals.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namers_Art.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namers_Factions.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namers_People.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namers_Quests.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namers_Scenarios.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namers_Traders.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namers_WorldFeatures.xml
+│   │   │   │   │   │   │   ├── RulePacks_Seeds.xml
+│   │   │   │   │   │   │   ├── RulePacks_Transitions.xml
+│   │   │   │   │   │   │   ├── RulePacks_Utility.xml
+│   │   │   │   │   │   ├── ScenPartDef/
+│   │   │   │   │   │   │   ├── ScenParts_Fixed.xml
+│   │   │   │   │   │   │   ├── ScenParts_Various.xml
+│   │   │   │   │   │   ├── ScenarioDef/
+│   │   │   │   │   │   │   ├── Scenarios_Classic.xml
+│   │   │   │   │   │   ├── SitePartDef/
+│   │   │   │   │   │   │   ├── AmbushEdge.xml
+│   │   │   │   │   │   │   ├── AmbushHidden.xml
+│   │   │   │   │   │   │   ├── BanditCamp.xml
+│   │   │   │   │   │   │   ├── DownedRefugee.xml
+│   │   │   │   │   │   │   ├── ItemStash.xml
+│   │   │   │   │   │   │   ├── Manhunters.xml
+│   │   │   │   │   │   │   ├── Outpost.xml
+│   │   │   │   │   │   │   ├── PossibleUnknownThreatMarker.xml
+│   │   │   │   │   │   │   ├── PreciousLump.xml
+│   │   │   │   │   │   │   ├── PrisonerWillingToJoin.xml
+│   │   │   │   │   │   │   ├── SleepingMechanoids.xml
+│   │   │   │   │   │   │   ├── Turrets.xml
+│   │   │   │   │   │   ├── SkillDef/
+│   │   │   │   │   │   │   ├── Skills.xml
+│   │   │   │   │   │   ├── SpecialThingFilterDef/
+│   │   │   │   │   │   │   ├── SpecialThingFilters.xml
+│   │   │   │   │   │   ├── StatCategoryDef/
+│   │   │   │   │   │   │   ├── StatCategories.xml
+│   │   │   │   │   │   ├── StatDef/
+│   │   │   │   │   │   │   ├── Stats_Abilities.xml
+│   │   │   │   │   │   │   ├── Stats_Apparel.xml
+│   │   │   │   │   │   │   ├── Stats_Basics_General.xml
+│   │   │   │   │   │   │   ├── Stats_Basics_Special.xml
+│   │   │   │   │   │   │   ├── Stats_Building_Special.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_Combat.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_General.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_Social.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_WorkGeneral.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_WorkMedical.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_WorkRecipes.xml
+│   │   │   │   │   │   │   ├── Stats_Stuff.xml
+│   │   │   │   │   │   │   ├── Stats_Weapons_Melee.xml
+│   │   │   │   │   │   │   ├── Stats_Weapons_Ranged.xml
+│   │   │   │   │   │   ├── StorytellerDef/
+│   │   │   │   │   │   │   ├── Storytellers.xml
+│   │   │   │   │   │   ├── StuffCategoryDef/
+│   │   │   │   │   │   │   ├── StuffCategories.xml
+│   │   │   │   │   │   ├── StyleItemCategoryDef/
+│   │   │   │   │   │   │   ├── StyleItemCategoryDefs.xml
+│   │   │   │   │   │   ├── SurgeryOutcomeEffectDef/
+│   │   │   │   │   │   │   ├── SurgeryOutcomeEffectDefs.xml
+│   │   │   │   │   │   ├── TaleDef/
+│   │   │   │   │   │   │   ├── Tales_Caravan.xml
+│   │   │   │   │   │   │   ├── Tales_DoublePawn.xml
+│   │   │   │   │   │   │   ├── Tales_DoublePawn_Relationships.xml
+│   │   │   │   │   │   │   ├── Tales_Event.xml
+│   │   │   │   │   │   │   ├── Tales_Health.xml
+│   │   │   │   │   │   │   ├── Tales_Incident.xml
+│   │   │   │   │   │   │   ├── Tales_Job.xml
+│   │   │   │   │   │   │   ├── Tales_NoPawn.xml
+│   │   │   │   │   │   │   ├── Tales_SinglePawn.xml
+│   │   │   │   │   │   ├── TattooDef/
+│   │   │   │   │   │   │   ├── TattooDefs.xml
+│   │   │   │   │   │   ├── TerrainAffordanceDef/
+│   │   │   │   │   │   │   ├── TerrainAffordances.xml
+│   │   │   │   │   │   ├── TerrainDef/
+│   │   │   │   │   │   │   ├── ImpliedDefs.xml
+│   │   │   │   │   │   │   ├── Terrain_Floors.xml
+│   │   │   │   │   │   │   ├── Terrain_Floors_Burned.xml
+│   │   │   │   │   │   │   ├── Terrain_Floors_StoneTile.xml
+│   │   │   │   │   │   │   ├── Terrain_Foundation.xml
+│   │   │   │   │   │   │   ├── Terrain_Natural.xml
+│   │   │   │   │   │   │   ├── Terrain_Road.xml
+│   │   │   │   │   │   │   ├── Terrain_Special.xml
+│   │   │   │   │   │   │   ├── Terrain_Water.xml
+│   │   │   │   │   │   ├── TerrainTemplateDef/
+│   │   │   │   │   │   │   ├── Terrain_Floors.xml
+│   │   │   │   │   │   ├── ThingCategoryDef/
+│   │   │   │   │   │   │   ├── ThingCategories.xml
+│   │   │   │   │   │   ├── ThingDef/
+│   │   │   │   │   │   │   ├── Alcohol_Beer.xml
+│   │   │   │   │   │   │   ├── Ambrosia.xml
+│   │   │   │   │   │   │   ├── Apparel_Belts.xml
+│   │   │   │   │   │   │   ├── Apparel_Headgear.xml
+│   │   │   │   │   │   │   ├── Apparel_Packs.xml
+│   │   │   │   │   │   │   ├── Apparel_Utility.xml
+│   │   │   │   │   │   │   ├── Apparel_Various.xml
+│   │   │   │   │   │   │   ├── BookDefs.xml
+│   │   │   │   │   │   │   ├── Breach.xml
+│   │   │   │   │   │   │   ├── Buildings_Ancient.xml
+│   │   │   │   │   │   │   ├── Buildings_Ancient_Active.xml
+│   │   │   │   │   │   │   ├── Buildings_Ancient_Indoors.xml
+│   │   │   │   │   │   │   ├── Buildings_Ancient_Outdoors.xml
+│   │   │   │   │   │   │   ├── Buildings_Art.xml
+│   │   │   │   │   │   │   ├── Buildings_Exotic.xml
+│   │   │   │   │   │   │   ├── Buildings_Furniture.xml
+│   │   │   │   │   │   │   ├── Buildings_Joy.xml
+│   │   │   │   │   │   │   ├── Buildings_Mech.xml
+│   │   │   │   │   │   │   ├── Buildings_Mech_Turrets.xml
+│   │   │   │   │   │   │   ├── Buildings_Misc.xml
+│   │   │   │   │   │   │   ├── Buildings_MusicalInstruments.xml
+│   │   │   │   │   │   │   ├── Buildings_Natural.xml
+│   │   │   │   │   │   │   ├── Buildings_Power.xml
+│   │   │   │   │   │   │   ├── Buildings_Production.xml
+│   │   │   │   │   │   │   ├── Buildings_Security.xml
+│   │   │   │   │   │   │   ├── Buildings_Security_Turrets.xml
+│   │   │   │   │   │   │   ├── Buildings_Ship.xml
+│   │   │   │   │   │   │   ├── Buildings_Special.xml
+│   │   │   │   │   │   │   ├── Buildings_Structure.xml
+│   │   │   │   │   │   │   ├── Buildings_Temperature.xml
+│   │   │   │   │   │   │   ├── Effecter_Construction.xml
+│   │   │   │   │   │   │   ├── Effecter_Damage.xml
+│   │   │   │   │   │   │   ├── Effecter_Ingest.xml
+│   │   │   │   │   │   │   ├── Effecter_Misc.xml
+│   │   │   │   │   │   │   ├── Ethereal_OrbitalStrikes.xml
+│   │   │   │   │   │   │   ├── Ethereal_SignalActions.xml
+│   │   │   │   │   │   │   ├── Ethereal_Skyfallers.xml
+│   │   │   │   │   │   │   ├── Ethereal_Various.xml
+│   │   │   │   │   │   │   ├── Filth_Various.xml
+│   │   │   │   │   │   │   ├── GoJuice.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Archotech.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Bionic.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Natural.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Prosthetic.xml
+│   │   │   │   │   │   │   ├── Hediffs_Psycasts.xml
+│   │   │   │   │   │   │   ├── Items_Artifacts.xml
+│   │   │   │   │   │   │   ├── Items_Exotic.xml
+│   │   │   │   │   │   │   ├── Items_Food.xml
+│   │   │   │   │   │   │   ├── Items_Luxury.xml
+│   │   │   │   │   │   │   ├── Items_Resource_AnimalProduct.xml
+│   │   │   │   │   │   │   ├── Items_Resource_Manufactured.xml
+│   │   │   │   │   │   │   ├── Items_Resource_RawPlant.xml
+│   │   │   │   │   │   │   ├── Items_Resource_Shell.xml
+│   │   │   │   │   │   │   ├── Items_Resource_Stuff.xml
+│   │   │   │   │   │   │   ├── Items_Resource_Stuff_Leather.xml
+│   │   │   │   │   │   │   ├── Items_Unfinished.xml
+│   │   │   │   │   │   │   ├── Luciferium.xml
+│   │   │   │   │   │   │   ├── MeleeMedieval.xml
+│   │   │   │   │   │   │   ├── MeleeNeolithic.xml
+│   │   │   │   │   │   │   ├── Mote_Meta.xml
+│   │   │   │   │   │   │   ├── Mote_MetaStatus.xml
+│   │   │   │   │   │   │   ├── Mote_Special.xml
+│   │   │   │   │   │   │   ├── Mote_Visual.xml
+│   │   │   │   │   │   │   ├── Penoxycyline.xml
+│   │   │   │   │   │   │   ├── Plants_Cave.xml
+│   │   │   │   │   │   │   ├── Plants_Cultivated_Decorative.xml
+│   │   │   │   │   │   │   ├── Plants_Cultivated_Farm.xml
+│   │   │   │   │   │   │   ├── Plants_Special.xml
+│   │   │   │   │   │   │   ├── Plants_Wild_Arid.xml
+│   │   │   │   │   │   │   ├── Plants_Wild_General.xml
+│   │   │   │   │   │   │   ├── Plants_Wild_Swamp.xml
+│   │   │   │   │   │   │   ├── Plants_Wild_Temperate.xml
+│   │   │   │   │   │   │   ├── Plants_Wild_Tropical.xml
+│   │   │   │   │   │   │   ├── Psychite_Flake.xml
+│   │   │   │   │   │   │   ├── Psychite_Tea.xml
+│   │   │   │   │   │   │   ├── Psychite_Yayo.xml
+│   │   │   │   │   │   │   ├── Races_Animal_Bears.xml
+│   │   │   │   │   │   │   ├── Races_Animal_BigBirds.xml
+│   │   │   │   │   │   │   ├── Races_Animal_BigCats.xml
+│   │   │   │   │   │   │   ├── Races_Animal_CatGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_ChickenGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_CowGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_Hares.xml
+│   │   │   │   │   │   │   ├── Races_Animal_Insect.xml
+│   │   │   │   │   │   │   ├── Races_Animal_MiscGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_PigGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_SheepGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_SquirrelGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_WargGroup.xml
+│   │   │   │   │   │   │   ├── Races_Animal_WildCanines.xml
+│   │   │   │   │   │   │   ├── Races_Humanlike.xml
+│   │   │   │   │   │   │   ├── Races_Mechanoid.xml
+│   │   │   │   │   │   │   ├── RangedIndustrial.xml
+│   │   │   │   │   │   │   ├── RangedIndustrialConsumable.xml
+│   │   │   │   │   │   │   ├── RangedIndustrialGrenades.xml
+│   │   │   │   │   │   │   ├── RangedMechanoid.xml
+│   │   │   │   │   │   │   ├── RangedNeolithic.xml
+│   │   │   │   │   │   │   ├── RangedSpacer.xml
+│   │   │   │   │   │   │   ├── RangedSpecial.xml
+│   │   │   │   │   │   │   ├── Smokeleaf.xml
+│   │   │   │   │   │   │   ├── Things_Special.xml
+│   │   │   │   │   │   │   ├── Various_Stone.xml
+│   │   │   │   │   │   │   ├── WakeUp.xml
+│   │   │   │   │   │   │   ├── Weapons_Breach.xml
+│   │   │   │   │   │   ├── ThinkTreeDef/
+│   │   │   │   │   │   │   ├── Mechanoid.xml
+│   │   │   │   │   │   ├── ThoughtDef/
+│   │   │   │   │   │   │   ├── Alcohol_Beer.xml
+│   │   │   │   │   │   │   ├── Ambrosia.xml
+│   │   │   │   │   │   │   ├── Expectations.xml
+│   │   │   │   │   │   │   ├── GoJuice.xml
+│   │   │   │   │   │   │   ├── Precepts_AteNutrientPaste.xml
+│   │   │   │   │   │   │   ├── Psychite_Flake.xml
+│   │   │   │   │   │   │   ├── Psychite_Tea.xml
+│   │   │   │   │   │   │   ├── Psychite_Yayo.xml
+│   │   │   │   │   │   │   ├── Smokeleaf.xml
+│   │   │   │   │   │   │   ├── Thoughts_Anesthetic.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Death.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Debug.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Eating.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Gatherings.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Lost.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Misc.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_RoomStats.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Social.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Special.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_General.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_Needs.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_RoomStats.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_Social.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_Special.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_Traits.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_TraitsPerm.xml
+│   │   │   │   │   │   │   ├── WakeUp.xml
+│   │   │   │   │   │   ├── TileMutatorDef/
+│   │   │   │   │   │   │   ├── TileMutators.xml
+│   │   │   │   │   │   ├── TimeAssignmentDef/
+│   │   │   │   │   │   │   ├── TimeAssignments.xml
+│   │   │   │   │   │   ├── TipSetDef/
+│   │   │   │   │   │   │   ├── Tips.xml
+│   │   │   │   │   │   ├── ToolCapacityDef/
+│   │   │   │   │   │   │   ├── ToolCapacity.xml
+│   │   │   │   │   │   ├── TraderKindDef/
+│   │   │   │   │   │   │   ├── TraderKinds_Caravan_Neolithic.xml
+│   │   │   │   │   │   │   ├── TraderKinds_Caravan_Outlander.xml
+│   │   │   │   │   │   │   ├── TraderKinds_Orbital_Misc.xml
+│   │   │   │   │   │   │   ├── TraderKinds_Visitor_Neolithic.xml
+│   │   │   │   │   │   │   ├── TraderKinds_Visitor_Outlander.xml
+│   │   │   │   │   │   ├── TrainabilityDef/
+│   │   │   │   │   │   │   ├── TrainabilityDefs.xml
+│   │   │   │   │   │   ├── TrainableDef/
+│   │   │   │   │   │   │   ├── Trainables.xml
+│   │   │   │   │   │   ├── TraitDef/
+│   │   │   │   │   │   │   ├── Traits_Singular.xml
+│   │   │   │   │   │   │   ├── Traits_Spectrum.xml
+│   │   │   │   │   │   ├── TransferableSorterDef/
+│   │   │   │   │   │   │   ├── TransferableSorters.xml
+│   │   │   │   │   │   ├── WeaponClassDef/
+│   │   │   │   │   │   │   ├── WeaponClassDefs.xml
+│   │   │   │   │   │   ├── WeatherDef/
+│   │   │   │   │   │   │   ├── Weathers.xml
+│   │   │   │   │   │   ├── WorkGiverDef/
+│   │   │   │   │   │   │   ├── WorkGivers.xml
+│   │   │   │   │   │   ├── WorkTypeDef/
+│   │   │   │   │   │   │   ├── WorkTypes.xml
+│   │   │   │   │   │   ├── WorldObjectDef/
+│   │   │   │   │   │   │   ├── Incidents_Caravan_All.xml
+│   │   │   │   │   │   │   ├── WorldObjects.xml
+│   │   │   │   │   │   │   ├── WorldObjects_Debug.xml
+│   │   │   │   │   ├── Keyed/
+│   │   │   │   │   │   ├── Alerts.xml
+│   │   │   │   │   │   ├── Credits.xml
+│   │   │   │   │   │   ├── Dates.xml
+│   │   │   │   │   │   ├── Designators.xml
+│   │   │   │   │   │   ├── Dialog_StatsReports.xml
+│   │   │   │   │   │   ├── Dialog_Trees.xml
+│   │   │   │   │   │   ├── Dialogs_Various.xml
+│   │   │   │   │   │   ├── Enums.xml
+│   │   │   │   │   │   ├── FloatMenu.xml
+│   │   │   │   │   │   ├── GameplayCommands.xml
+│   │   │   │   │   │   ├── Grammar.xml
+│   │   │   │   │   │   ├── ITabs.xml
+│   │   │   │   │   │   ├── Incidents.xml
+│   │   │   │   │   │   ├── Letters.xml
+│   │   │   │   │   │   ├── MainTabs.xml
+│   │   │   │   │   │   ├── Menu_KeyBindings.xml
+│   │   │   │   │   │   ├── Menu_Options.xml
+│   │   │   │   │   │   ├── Menus_Main.xml
+│   │   │   │   │   │   ├── Messages.xml
+│   │   │   │   │   │   ├── Misc.xml
+│   │   │   │   │   │   ├── Misc_Gameplay.xml
+│   │   │   │   │   │   ├── PlayInterface.xml
+│   │   │   │   │   │   ├── ScenParts.xml
+│   │   │   │   │   │   ├── Skills.xml
+│   │   │   │   │   │   ├── TerrainTags.xml
+│   │   │   │   │   │   ├── Time.xml
+│   │   │   │   │   │   ├── WITabs.xml
+│   │   │   │   │   │   ├── WorkTags.xml
+│   │   │   │   │   ├── Strings/
+│   │   │   │   │   │   ├── Names/
+│   │   │   │   │   │   │   ├── Animal_Female.txt
+│   │   │   │   │   │   │   ├── Animal_Male.txt
+│   │   │   │   │   │   │   ├── Animal_Unisex.txt
+│   │   │   │   │   │   │   ├── Business.txt
+│   │   │   │   │   │   │   ├── Celestial.txt
+│   │   │   │   │   │   │   ├── CelestialPrefix.txt
+│   │   │   │   │   │   │   ├── CelestialSuffix.txt
+│   │   │   │   │   │   │   ├── ColonyNames.txt
+│   │   │   │   │   │   │   ├── EmpireTown.txt
+│   │   │   │   │   │   │   ├── Imperial_First_Female.txt
+│   │   │   │   │   │   │   ├── Imperial_First_Male.txt
+│   │   │   │   │   │   │   ├── Imperial_Last.txt
+│   │   │   │   │   │   │   ├── OutlanderTown.txt
+│   │   │   │   │   │   │   ├── WorldFeatures/
+│   │   │   │   │   │   │   │   ├── Archipelagos_America.txt
+│   │   │   │   │   │   │   │   ├── Bays_USA.txt
+│   │   │   │   │   │   │   │   ├── ColdDeserts_NorthAmerica.txt
+│   │   │   │   │   │   │   │   ├── Forests_USA.txt
+│   │   │   │   │   │   │   │   ├── HotDeserts_NorthAmerica.txt
+│   │   │   │   │   │   │   │   ├── HotDeserts_SouthAmerica.txt
+│   │   │   │   │   │   │   │   ├── HotDeserts_World.txt
+│   │   │   │   │   │   │   │   ├── Islands_Canada.txt
+│   │   │   │   │   │   │   │   ├── Islands_USA.txt
+│   │   │   │   │   │   │   │   ├── Lakes_Canada.txt
+│   │   │   │   │   │   │   │   ├── Lakes_USA.txt
+│   │   │   │   │   │   │   │   ├── MountainRanges_Canada.txt
+│   │   │   │   │   │   │   │   ├── MountainRanges_USA.txt
+│   │   │   │   │   │   │   │   ├── Oceans.txt
+│   │   │   │   │   │   │   │   ├── Peninsulas_Canada.txt
+│   │   │   │   │   │   │   │   ├── Plateaus_USA.txt
+│   │   │   │   │   │   │   │   ├── Seas_America.txt
+│   │   │   │   │   │   │   │   ├── Seas_World.txt
+│   │   │   │   │   │   │   │   ├── Swamps_USA.txt
+│   │   │   │   │   │   ├── WordParts/
+│   │   │   │   │   │   │   ├── CapitalLetters.txt
+│   │   │   │   │   │   │   ├── PlaceEndings.txt
+│   │   │   │   │   │   │   ├── Syllables_Byzantinian.txt
+│   │   │   │   │   │   │   ├── Syllables_Byzantinian_Cap.txt
+│   │   │   │   │   │   │   ├── Syllables_Dirtmole.txt
+│   │   │   │   │   │   │   ├── Syllables_Dirtmole_Cap.txt
+│   │   │   │   │   │   │   ├── Syllables_English.txt
+│   │   │   │   │   │   │   ├── Syllables_English_Cap.txt
+│   │   │   │   │   │   │   ├── Syllables_Galician.txt
+│   │   │   │   │   │   │   ├── Syllables_Galician_Cap.txt
+│   │   │   │   │   │   │   ├── Syllables_Impid.txt
+│   │   │   │   │   │   │   ├── Syllables_Impid_Cap.txt
+│   │   │   │   │   │   │   ├── Syllables_Neanderthal.txt
+│   │   │   │   │   │   │   ├── Syllables_Neanderthal_Cap.txt
+│   │   │   │   │   │   │   ├── Syllables_Pig.txt
+│   │   │   │   │   │   │   ├── Syllables_Pig_Cap.txt
+│   │   │   │   │   │   │   ├── Syllables_Tribal.txt
+│   │   │   │   │   │   │   ├── Syllables_Waster.txt
+│   │   │   │   │   │   │   ├── Syllables_Waster_Cap.txt
+│   │   │   │   │   │   │   ├── Syllables_Yttakin.txt
+│   │   │   │   │   │   │   ├── Syllables_Yttakin_Cap.txt
+│   │   │   │   │   │   ├── Words/
+│   │   │   │   │   │   │   ├── Adjectives/
+│   │   │   │   │   │   │   │   ├── Angsty.txt
+│   │   │   │   │   │   │   │   ├── Angsty_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Angsty_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Angsty_Plural.txt
+│   │   │   │   │   │   │   │   ├── Badass.txt
+│   │   │   │   │   │   │   │   ├── Badass_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Badass_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Badass_Plural.txt
+│   │   │   │   │   │   │   │   ├── CompassDirections.txt
+│   │   │   │   │   │   │   │   ├── CompassDirections_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── CompassDirections_Feminine.txt
+│   │   │   │   │   │   │   │   ├── CompassDirections_MascPlural.txt
+│   │   │   │   │   │   │   │   ├── CompassDirections_Masculine.txt
+│   │   │   │   │   │   │   │   ├── Curious.txt
+│   │   │   │   │   │   │   │   ├── Curious_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Curious_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Curious_Plural.txt
+│   │   │   │   │   │   │   │   ├── Friendly.txt
+│   │   │   │   │   │   │   │   ├── Friendly_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Friendly_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Friendly_Plural.txt
+│   │   │   │   │   │   │   │   ├── Large.txt
+│   │   │   │   │   │   │   │   ├── Large_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Large_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Large_Plural.txt
+│   │   │   │   │   │   │   │   ├── Natural.txt
+│   │   │   │   │   │   │   │   ├── Natural_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Natural_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Natural_Plural.txt
+│   │   │   │   │   │   │   │   ├── PoliticalUnions.txt
+│   │   │   │   │   │   │   │   ├── PoliticalUnions_Feminine.txt
+│   │   │   │   │   │   │   ├── Foreign/
+│   │   │   │   │   │   │   │   ├── Tribal.txt
+│   │   │   │   │   │   │   │   ├── Tribal_Cap.txt
+│   │   │   │   │   │   │   ├── Misc/
+│   │   │   │   │   │   │   │   ├── Numbers_SmallRoman.txt
+│   │   │   │   │   │   │   ├── Nouns/
+│   │   │   │   │   │   │   │   ├── AnimalGroups.txt
+│   │   │   │   │   │   │   │   ├── AnimalGroups_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Animals.txt
+│   │   │   │   │   │   │   │   ├── Animals_Badass.txt
+│   │   │   │   │   │   │   │   ├── Animals_Badass_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Animals_Badass_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Animals_Badass_Plural.txt
+│   │   │   │   │   │   │   │   ├── Animals_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Animals_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Animals_Plural.txt
+│   │   │   │   │   │   │   │   ├── Apparel.txt
+│   │   │   │   │   │   │   │   ├── Apparel_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Apparel_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Apparel_Plural.txt
+│   │   │   │   │   │   │   │   ├── Artworks.txt
+│   │   │   │   │   │   │   │   ├── Artworks_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Bodyparts.txt
+│   │   │   │   │   │   │   │   ├── Bodyparts_Feminine.txt
+│   │   │   │   │   │   │   │   ├── BusinessTypes.txt
+│   │   │   │   │   │   │   │   ├── BusinessTypes_Cap.txt
+│   │   │   │   │   │   │   │   ├── BusinessTypes_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── BusinessTypes_FemPlural_Cap.txt
+│   │   │   │   │   │   │   │   ├── BusinessTypes_Feminine.txt
+│   │   │   │   │   │   │   │   ├── BusinessTypes_Feminine_Cap.txt
+│   │   │   │   │   │   │   │   ├── BusinessTypes_Plural.txt
+│   │   │   │   │   │   │   │   ├── BusinessTypes_Plural_Cap.txt
+│   │   │   │   │   │   │   │   ├── Colors.txt
+│   │   │   │   │   │   │   │   ├── Colors_Badass.txt
+│   │   │   │   │   │   │   │   ├── Colors_Badass_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Colors_Badass_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Colors_Badass_Plural.txt
+│   │   │   │   │   │   │   │   ├── Colors_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Colors_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Colors_Plural.txt
+│   │   │   │   │   │   │   │   ├── Communities.txt
+│   │   │   │   │   │   │   │   ├── Communities_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Concepts_Angsty.txt
+│   │   │   │   │   │   │   │   ├── Concepts_Angsty_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Concepts_Badass.txt
+│   │   │   │   │   │   │   │   ├── Concepts_Badass_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Concepts_Positive.txt
+│   │   │   │   │   │   │   │   ├── Concepts_Positive_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Enemies.txt
+│   │   │   │   │   │   │   │   ├── Enemies_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Enemies_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Enemies_Plural.txt
+│   │   │   │   │   │   │   │   ├── Games.txt
+│   │   │   │   │   │   │   │   ├── Games_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Gore.txt
+│   │   │   │   │   │   │   │   ├── GroupNames.txt
+│   │   │   │   │   │   │   │   ├── GroupNames_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Mechanoid.txt
+│   │   │   │   │   │   │   │   ├── Mechanoid_Plural.txt
+│   │   │   │   │   │   │   │   ├── NaturalObject.txt
+│   │   │   │   │   │   │   │   ├── NaturalObject_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── NaturalObject_Feminine.txt
+│   │   │   │   │   │   │   │   ├── NaturalObject_Plural.txt
+│   │   │   │   │   │   │   │   ├── People_Allies.txt
+│   │   │   │   │   │   │   │   ├── People_Badass.txt
+│   │   │   │   │   │   │   │   ├── People_Badass_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── People_Badass_Feminine.txt
+│   │   │   │   │   │   │   │   ├── People_Badass_Plural.txt
+│   │   │   │   │   │   │   │   ├── People_Family.txt
+│   │   │   │   │   │   │   │   ├── People_Family_Feminine.txt
+│   │   │   │   │   │   │   │   ├── People_Jobs.txt
+│   │   │   │   │   │   │   │   ├── People_Jobs_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── People_Jobs_Feminine.txt
+│   │   │   │   │   │   │   │   ├── People_Jobs_Plural.txt
+│   │   │   │   │   │   │   │   ├── PersonalCharacteristics.txt
+│   │   │   │   │   │   │   │   ├── PersonalCharacteristics_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── PersonalCharacteristics_Feminine.txt
+│   │   │   │   │   │   │   │   ├── PersonalCharacteristics_Plural.txt
+│   │   │   │   │   │   │   │   ├── PoliticalUnions_Outlander.txt
+│   │   │   │   │   │   │   │   ├── PoliticalUnions_Outlander_Feminine.txt
+│   │   │   │   │   │   │   │   ├── PoliticalUnions_Tribal.txt
+│   │   │   │   │   │   │   │   ├── PoliticalUnions_Tribal_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Quests.txt
+│   │   │   │   │   │   │   │   ├── Stories.txt
+│   │   │   │   │   │   │   │   ├── TalkTopics_Heavy.txt
+│   │   │   │   │   │   │   │   ├── TalkTopics_Light.txt
+│   │   │   │   │   │   │   │   ├── TerrainFeatures.txt
+│   │   │   │   │   │   │   │   ├── TerrainFeatures_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── TerrainFeatures_Feminine.txt
+│   │   │   │   │   │   │   │   ├── TerrainFeatures_Plural.txt
+│   │   │   │   │   │   │   │   ├── TreeTypes.txt
+│   │   │   │   │   │   │   │   ├── TreeTypes_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── TreeTypes_Feminine.txt
+│   │   │   │   │   │   │   │   ├── TreeTypes_Plural.txt
+│   │   │   │   │   │   │   │   ├── Vegetables.txt
+│   │   │   │   │   │   │   │   ├── Vegetables_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Vegetables_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Vegetables_Plural.txt
+│   │   │   │   │   │   │   │   ├── Weapons.txt
+│   │   │   │   │   │   │   │   ├── Weapons_FemPlural.txt
+│   │   │   │   │   │   │   │   ├── Weapons_Feminine.txt
+│   │   │   │   │   │   │   │   ├── Weapons_Plural.txt
+│   │   │   │   │   │   │   ├── Verbs/
+│   │   │   │   │   │   │   │   ├── Friendly.txt
+│   │   │   │   │   ├── WordInfo/
+│   │   │   │   │   │   ├── Gender/
+│   │   │   │   │   │   │   ├── Female.txt
+│   │   │   │   │   │   │   ├── Male.txt
+│   │   │   │   │   │   │   ├── Plural.txt
+│   │   │   │   │   │   │   ├── Singular.txt
+│   │   │   │   │   │   │   ├── new_words.txt
+│   │   ├── Ideology/
+│   │   │   ├── About/
+│   │   │   │   ├── About.xml
+│   │   │   ├── AssetBundles/
+│   │   │   │   ├── resources_ideology
+│   │   │   │   ├── resources_ideology.manifest
+│   │   │   ├── Defs/
+│   │   │   │   ├── AbilityDefs/
+│   │   │   │   │   ├── Abilities.xml
+│   │   │   │   ├── ComplexThreatDefs/
+│   │   │   │   │   ├── ComplexThreats_Misc.xml
+│   │   │   │   ├── DutyDefs/
+│   │   │   │   │   ├── Duties_Gatherings.xml
+│   │   │   │   │   ├── Duties_Rituals.xml
+│   │   │   │   ├── Effects/
+│   │   │   │   │   ├── Effecter_Misc.xml
+│   │   │   │   │   ├── Effecter_Ritual.xml
+│   │   │   │   │   ├── Effecter_WorkGeneral.xml
+│   │   │   │   │   ├── Fleck_RitualEffects.xml
+│   │   │   │   │   ├── Fleck_Visual.xml
+│   │   │   │   │   ├── Mote_RitualEffect.xml
+│   │   │   │   │   ├── Mote_Visual.xml
+│   │   │   │   ├── Ethereal/
+│   │   │   │   │   ├── Ethereal_Various.xml
+│   │   │   │   ├── FactionDefs/
+│   │   │   │   │   ├── Factions_Misc.xml
+│   │   │   │   ├── GauranlenTreeModDefs/
+│   │   │   │   │   ├── GauranlenTreeModeDefs.xml
+│   │   │   │   ├── Goodwill/
+│   │   │   │   │   ├── GoodwillSituations_MemeCompatibility.xml
+│   │   │   │   ├── HediffDefs/
+│   │   │   │   │   ├── Hediffs_Casts.xml
+│   │   │   │   │   ├── Hediffs_Various.xml
+│   │   │   │   ├── IdeoFoundationDefs/
+│   │   │   │   │   ├── IdeoFoundations.xml
+│   │   │   │   ├── IdeoSymbolDefs/
+│   │   │   │   │   ├── IdeoColorDefs.xml
+│   │   │   │   │   ├── IdeoIconDefs_Specific.xml
+│   │   │   │   │   ├── IdeoIconDefs_Universal.xml
+│   │   │   │   ├── IncidentDefs/
+│   │   │   │   │   ├── Incidents_Map_Special.xml
+│   │   │   │   ├── InteractionDefs/
+│   │   │   │   │   ├── Interactions_Prisoner.xml
+│   │   │   │   │   ├── Interactions_Slave.xml
+│   │   │   │   │   ├── Interactions_Social.xml
+│   │   │   │   │   ├── Interactions_Speech.xml
+│   │   │   │   ├── JobDefs/
+│   │   │   │   │   ├── Jobs_Gatherings.xml
+│   │   │   │   │   ├── Jobs_Misc.xml
+│   │   │   │   │   ├── Jobs_Work.xml
+│   │   │   │   ├── LayoutDefs/
+│   │   │   │   │   ├── Layouts_Misc.xml
+│   │   │   │   ├── LayoutRoomDefs/
+│   │   │   │   │   ├── LayoutRooms_AncientComplex.xml
+│   │   │   │   ├── MainButtonDefs/
+│   │   │   │   │   ├── MainButtons.xml
+│   │   │   │   ├── MapGeneration/
+│   │   │   │   │   ├── BasePlayerMapGenerator.xml
+│   │   │   │   │   ├── CommonMapGenerator.xml
+│   │   │   │   ├── MemeDefs/
+│   │   │   │   │   ├── Memes_GenderSupremacy.xml
+│   │   │   │   │   ├── Memes_GroupRelation.xml
+│   │   │   │   │   ├── Memes_Individualism.xml
+│   │   │   │   │   ├── Memes_Misc.xml
+│   │   │   │   │   ├── Memes_Primacy.xml
+│   │   │   │   │   ├── Memes_Structures_Basic.xml
+│   │   │   │   │   ├── Memes_Structures_OriginsReligious.xml
+│   │   │   │   ├── MentalStateDefs/
+│   │   │   │   │   ├── MentalStates_Mood.xml
+│   │   │   │   │   ├── MentalStates_Special.xml
+│   │   │   │   ├── Misc/
+│   │   │   │   │   ├── DesignationCategories.xml
+│   │   │   │   │   ├── ExpectationDefs/
+│   │   │   │   │   │   ├── Expectations.xml
+│   │   │   │   │   ├── LetterDefs/
+│   │   │   │   │   │   ├── CustomNotificationLetters.xml
+│   │   │   │   │   ├── PawnGroupKindDefs/
+│   │   │   │   │   │   ├── PawnGroupKinds_NeutralCamp.xml
+│   │   │   │   │   ├── PlaceDefs/
+│   │   │   │   │   │   ├── Places.xml
+│   │   │   │   │   ├── ShaderTypeDefs/
+│   │   │   │   │   │   ├── ShaderTypes.xml
+│   │   │   │   │   ├── SpecialThingFilterDefs/
+│   │   │   │   │   │   ├── SpecialThingFilters.xml
+│   │   │   │   ├── NeedDefs/
+│   │   │   │   │   ├── Needs.xml
+│   │   │   │   ├── PawnColumnDefs/
+│   │   │   │   │   ├── PawnColumns_Icon.xml
+│   │   │   │   ├── PawnKinds/
+│   │   │   │   │   ├── PawnKinds_NeutralCamps.xml
+│   │   │   │   │   ├── PawnKinds_Special.xml
+│   │   │   │   ├── PreceptDefs/
+│   │   │   │   │   ├── Precepts_Animal.xml
+│   │   │   │   │   ├── Precepts_AnimalPersonhood.xml
+│   │   │   │   │   ├── Precepts_AnimalSlaughter.xml
+│   │   │   │   │   ├── Precepts_Apostasy.xml
+│   │   │   │   │   ├── Precepts_Apparel.xml
+│   │   │   │   │   ├── Precepts_AteNutrientPaste.xml
+│   │   │   │   │   ├── Precepts_AutonomousWeapons.xml
+│   │   │   │   │   ├── Precepts_BlindPsysense.xml
+│   │   │   │   │   ├── Precepts_Blindness.xml
+│   │   │   │   │   ├── Precepts_BodyMod.xml
+│   │   │   │   │   ├── Precepts_Bond.xml
+│   │   │   │   │   ├── Precepts_Buildings.xml
+│   │   │   │   │   ├── Precepts_Cannibalism.xml
+│   │   │   │   │   ├── Precepts_Charity.xml
+│   │   │   │   │   ├── Precepts_Comfort.xml
+│   │   │   │   │   ├── Precepts_Corpses.xml
+│   │   │   │   │   ├── Precepts_DrugUse.xml
+│   │   │   │   │   ├── Precepts_FungusEating.xml
+│   │   │   │   │   ├── Precepts_HighLife.xml
+│   │   │   │   │   ├── Precepts_IdeoDiversity.xml
+│   │   │   │   │   ├── Precepts_InsectMeat.xml
+│   │   │   │   │   ├── Precepts_KillingInnocentAnimals.xml
+│   │   │   │   │   ├── Precepts_Lighting.xml
+│   │   │   │   │   ├── Precepts_Lovin.xml
+│   │   │   │   │   ├── Precepts_MarriageName.xml
+│   │   │   │   │   ├── Precepts_MeatEating.xml
+│   │   │   │   │   ├── Precepts_Mining.xml
+│   │   │   │   │   ├── Precepts_Nudity.xml
+│   │   │   │   │   ├── Precepts_OrganUse.xml
+│   │   │   │   │   ├── Precepts_Pain.xml
+│   │   │   │   │   ├── Precepts_PrisonerExecution.xml
+│   │   │   │   │   ├── Precepts_Proselytizing.xml
+│   │   │   │   │   ├── Precepts_Raiders.xml
+│   │   │   │   │   ├── Precepts_Ranching.xml
+│   │   │   │   │   ├── Precepts_Relics.xml
+│   │   │   │   │   ├── Precepts_Research.xml
+│   │   │   │   │   ├── Precepts_Ritual.xml
+│   │   │   │   │   ├── Precepts_RitualSeats.xml
+│   │   │   │   │   ├── Precepts_Role.xml
+│   │   │   │   │   ├── Precepts_RoughLiving.xml
+│   │   │   │   │   ├── Precepts_Scarification.xml
+│   │   │   │   │   ├── Precepts_Skullspike.xml
+│   │   │   │   │   ├── Precepts_Slavery.xml
+│   │   │   │   │   ├── Precepts_SmallSpaces.xml
+│   │   │   │   │   ├── Precepts_SpouseCount.xml
+│   │   │   │   │   ├── Precepts_Temperature.xml
+│   │   │   │   │   ├── Precepts_Transhumanism.xml
+│   │   │   │   │   ├── Precepts_TreeCutting.xml
+│   │   │   │   │   ├── Precepts_Trees.xml
+│   │   │   │   │   ├── Precepts_Weapons.xml
+│   │   │   │   │   ├── Precepts_WorkDrive.xml
+│   │   │   │   │   ├── Ritual_AttachableOutcomes_Special.xml
+│   │   │   │   │   ├── RitualPatternDefs/
+│   │   │   │   │   │   ├── RitualPatterns.xml
+│   │   │   │   ├── PreconfiguredIdeos/
+│   │   │   │   │   ├── IdeoPresetDefs.xml
+│   │   │   │   ├── PrisonerInteractionModeDefs/
+│   │   │   │   │   ├── PrisonerInteractionMode.xml
+│   │   │   │   ├── QuestScriptDefs/
+│   │   │   │   │   ├── Script_AncientSignalActivation.xml
+│   │   │   │   │   ├── Script_Beggars.xml
+│   │   │   │   │   ├── Script_EndGame_ArchonexusVictory.xml
+│   │   │   │   │   ├── Script_Hack_AncientComplex.xml
+│   │   │   │   │   ├── Script_Hack_Spacedrone.xml
+│   │   │   │   │   ├── Script_Loot_AncientComplex.xml
+│   │   │   │   │   ├── Script_Missions.xml
+│   │   │   │   │   ├── Script_RelicHunt.xml
+│   │   │   │   │   ├── Script_ReliquaryPilgrims.xml
+│   │   │   │   │   ├── Script_WorkSite.xml
+│   │   │   │   │   ├── Script_WorshipppedTerminal.xml
+│   │   │   │   ├── RenderSkipFlagDefs/
+│   │   │   │   │   ├── RenderSkipFlagDefs.xml
+│   │   │   │   ├── ResearchProjectDefs/
+│   │   │   │   │   ├── ResearchProjects_Misc.xml
+│   │   │   │   ├── Rituals/
+│   │   │   │   │   ├── Ritual_Behaviors.xml
+│   │   │   │   │   ├── Ritual_Outcomes.xml
+│   │   │   │   │   ├── Ritual_Targets.xml
+│   │   │   │   │   ├── Ritual_VisualEffects.xml
+│   │   │   │   ├── Rooms/
+│   │   │   │   │   ├── RoomRoles.xml
+│   │   │   │   │   ├── RoomStats.xml
+│   │   │   │   ├── RuleDefs/
+│   │   │   │   │   ├── Rules_AncientComplex.xml
+│   │   │   │   │   ├── Rules_Complex.xml
+│   │   │   │   ├── RulePackDefs/
+│   │   │   │   │   ├── RulePacks_Deity_Names.xml
+│   │   │   │   │   ├── RulePacks_Deity_Types.xml
+│   │   │   │   │   ├── RulePacks_Ideo_Building.xml
+│   │   │   │   │   ├── RulePacks_Ideo_Description.xml
+│   │   │   │   │   ├── RulePacks_Ideo_Names.xml
+│   │   │   │   │   ├── RulePacks_Ideo_Relic.xml
+│   │   │   │   │   ├── RulePacks_Ideo_Role.xml
+│   │   │   │   │   ├── RulePacks_LeaderTitles.xml
+│   │   │   │   │   ├── RulePacks_Ritual_Duel.xml
+│   │   │   │   │   ├── RulePacks_Ritual_Festival.xml
+│   │   │   │   │   ├── RulePacks_Ritual_Funeral.xml
+│   │   │   │   │   ├── RulePacks_Ritual_Mutilation.xml
+│   │   │   │   │   ├── RulePacks_Ritual_Sacrifice.xml
+│   │   │   │   ├── Sites/
+│   │   │   │   │   ├── AncientAltar.xml
+│   │   │   │   │   ├── AncientComplex.xml
+│   │   │   │   │   ├── WorkSites.xml
+│   │   │   │   │   ├── WorshippedTerminal.xml
+│   │   │   │   │   ├── Parts/
+│   │   │   │   │   │   ├── Archonexus.xml
+│   │   │   │   ├── SketchResolverDefs/
+│   │   │   │   │   ├── SketchResolvers.xml
+│   │   │   │   ├── SlaveInteractionModeDefs/
+│   │   │   │   │   ├── SlaveInteractionMode.xml
+│   │   │   │   ├── SongDefs/
+│   │   │   │   │   ├── Songs_Misc.xml
+│   │   │   │   ├── SoundDefs/
+│   │   │   │   │   ├── Ability_SoundDefs.xml
+│   │   │   │   │   ├── Biosculpter_SoundDefs.xml
+│   │   │   │   │   ├── Building_Exotic_Sustainers.xml
+│   │   │   │   │   ├── Building_Oneshots_Misc.xml
+│   │   │   │   │   ├── Building_Ritual_Sustainers.xml
+│   │   │   │   │   ├── Building_Sustainers_Ambiences.xml
+│   │   │   │   │   ├── Exotic_Oneshots.xml
+│   │   │   │   │   ├── Interact_OneShots_Misc.xml
+│   │   │   │   │   ├── Interact_Sustainers_Work.xml
+│   │   │   │   │   ├── Pawn_Vox.xml
+│   │   │   │   │   ├── Ritual_Sustainers.xml
+│   │   │   │   │   ├── SleepAccelerator_SoundDefs.xml
+│   │   │   │   │   ├── UI_Oneshots_Misc.xml
+│   │   │   │   │   ├── World_OneShot_Misc.xml
+│   │   │   │   │   ├── World_Sustainers_Misc.xml
+│   │   │   │   ├── StatDefs/
+│   │   │   │   │   ├── Stats_Basics_Special.xml
+│   │   │   │   │   ├── Stats_Buildings_Special.xml
+│   │   │   │   │   ├── Stats_Misc.xml
+│   │   │   │   │   ├── Stats_Pawns_General.xml
+│   │   │   │   │   ├── Stats_Pawns_Ideo.xml
+│   │   │   │   │   ├── Stats_Pawns_Social.xml
+│   │   │   │   │   ├── Stats_Pawns_WorkGeneral.xml
+│   │   │   │   ├── Storyteller/
+│   │   │   │   │   ├── Incidents_World_Quests.xml
+│   │   │   │   ├── StyleCategoryDefs/
+│   │   │   │   │   ├── StyleCategoryDefs.xml
+│   │   │   │   ├── TattooDefs/
+│   │   │   │   │   ├── TattooDefs.xml
+│   │   │   │   ├── TerrainDefs/
+│   │   │   │   │   ├── Terrain_Floors.xml
+│   │   │   │   │   ├── Terrain_Special.xml
+│   │   │   │   ├── ThingDefs_Buildings/
+│   │   │   │   │   ├── Buildings_Ancient_Active.xml
+│   │   │   │   │   ├── Buildings_Art.xml
+│   │   │   │   │   ├── Buildings_Exotic.xml
+│   │   │   │   │   ├── Buildings_Ideo.xml
+│   │   │   │   │   ├── Buildings_Misc.xml
+│   │   │   │   │   ├── Buildings_Special.xml
+│   │   │   │   ├── ThingDefs_Misc/
+│   │   │   │   │   ├── Apparel_Headgear.xml
+│   │   │   │   │   ├── Apparel_Various.xml
+│   │   │   │   │   ├── Ethereal_Skyfallers.xml
+│   │   │   │   │   ├── Filth_Various.xml
+│   │   │   │   │   ├── FloorCoverings.xml
+│   │   │   │   │   ├── Relics.xml
+│   │   │   │   ├── ThingDefs_Plants/
+│   │   │   │   │   ├── Plants_Special.xml
+│   │   │   │   ├── ThingDefs_Races/
+│   │   │   │   │   ├── Races_Animal_Special.xml
+│   │   │   │   ├── ThingSetMakerDefs/
+│   │   │   │   │   ├── ThingSetMakers_MapGen.xml
+│   │   │   │   │   ├── ThingSetMakers_Reward.xml
+│   │   │   │   ├── ThingStyleDefs/
+│   │   │   │   │   ├── ThingStyleDefs.xml
+│   │   │   │   ├── ThinkTreeDefs/
+│   │   │   │   │   ├── Dryad.xml
+│   │   │   │   ├── ThoughtDefs/
+│   │   │   │   │   ├── Thoughts_IdeoBuilding.xml
+│   │   │   │   │   ├── Thoughts_IdeoRaiding.xml
+│   │   │   │   │   ├── Thoughts_IdeoRole.xml
+│   │   │   │   │   ├── Thoughts_Memory_Misc.xml
+│   │   │   │   │   ├── Thoughts_Memory_Social.xml
+│   │   │   │   │   ├── Thoughts_Memory_Terror.xml
+│   │   │   │   │   ├── Thoughts_Ritual.xml
+│   │   │   │   │   ├── Thoughts_Ritual_Quality.xml
+│   │   │   │   │   ├── Thoughts_Situation_Social.xml
+│   │   │   │   │   ├── Thoughts_Situation_Special.xml
+│   │   │   │   │   ├── Thoughts_Situational.xml
+│   │   │   │   ├── TipSetDefs/
+│   │   │   │   │   ├── Tips.xml
+│   │   │   │   ├── Tutor/
+│   │   │   │   │   ├── Tutor.xml
+│   │   │   │   ├── WeaponClassPairDefs/
+│   │   │   │   │   ├── WeaponClassPairDefs.xml
+│   │   │   │   ├── WorkGiverDefs/
+│   │   │   │   │   ├── WorkGivers.xml
+│   │   │   │   ├── WorldObjectDefs/
+│   │   │   │   │   ├── WorldObjects.xml
+│   │   │   ├── Languages/
+│   │   │   │   ├── Dutch (Nederlands).tar
+│   │   │   │   ├── German (Deutsch).tar
+│   │   │   │   ├── Hungarian (Magyar).tar
+│   │   │   │   ├── Italian (Italiano).tar
+│   │   │   │   ├── Polish (Polski).tar
+│   │   │   │   ├── English/
+│   │   │   │   │   ├── Keyed/
+│   │   │   │   │   │   ├── Alerts.xml
+│   │   │   │   │   │   ├── Dialog_StatsReports.xml
+│   │   │   │   │   │   ├── Dialogs_Various.xml
+│   │   │   │   │   │   ├── FloatMenu.xml
+│   │   │   │   │   │   ├── GameplayCommands.xml
+│   │   │   │   │   │   ├── ITabs.xml
+│   │   │   │   │   │   ├── Letters.xml
+│   │   │   │   │   │   ├── MainTabs.xml
+│   │   │   │   │   │   ├── Menus_Main.xml
+│   │   │   │   │   │   ├── Messages.xml
+│   │   │   │   │   │   ├── Misc_Gameplay.xml
+│   │   │   │   ├── French/
+│   │   │   │   │   ├── DefInjected/
+│   │   │   │   │   │   ├── AbilityDef/
+│   │   │   │   │   │   │   ├── Abilities.xml
+│   │   │   │   │   │   ├── ColorDef/
+│   │   │   │   │   │   │   ├── IdeoColorDefs.xml
+│   │   │   │   │   │   ├── ConceptDef/
+│   │   │   │   │   │   │   ├── Tutor.xml
+│   │   │   │   │   │   ├── DesignationCategoryDef/
+│   │   │   │   │   │   │   ├── DesignationCategories.xml
+│   │   │   │   │   │   ├── DesignatorDropdownGroupDef/
+│   │   │   │   │   │   │   ├── Terrain_Floors.xml
+│   │   │   │   │   │   ├── DutyDef/
+│   │   │   │   │   │   │   ├── Duties_Gatherings.xml
+│   │   │   │   │   │   ├── ExpectationDef/
+│   │   │   │   │   │   │   ├── Expectations.xml
+│   │   │   │   │   │   ├── FactionDef/
+│   │   │   │   │   │   │   ├── Factions_Misc.xml
+│   │   │   │   │   │   ├── GauranlenTreeModeDef/
+│   │   │   │   │   │   │   ├── GauranlenTreeModeDefs.xml
+│   │   │   │   │   │   ├── GoodwillSituationDef/
+│   │   │   │   │   │   │   ├── GoodwillSituations_MemeCompatibility.xml
+│   │   │   │   │   │   ├── HediffDef/
+│   │   │   │   │   │   │   ├── Hediffs_Casts.xml
+│   │   │   │   │   │   │   ├── Hediffs_Various.xml
+│   │   │   │   │   │   │   ├── Precepts_Scarification.xml
+│   │   │   │   │   │   ├── HistoryEventDef/
+│   │   │   │   │   │   │   ├── Precepts_Animal.xml
+│   │   │   │   │   │   │   ├── Precepts_AnimalSlaughter.xml
+│   │   │   │   │   │   │   ├── Precepts_Apostasy.xml
+│   │   │   │   │   │   │   ├── Precepts_AutonomousWeapons.xml
+│   │   │   │   │   │   │   ├── Precepts_Blindness.xml
+│   │   │   │   │   │   │   ├── Precepts_Cannibalism.xml
+│   │   │   │   │   │   │   ├── Precepts_Charity.xml
+│   │   │   │   │   │   │   ├── Precepts_FungusEating.xml
+│   │   │   │   │   │   │   ├── Precepts_IdeoDiversity.xml
+│   │   │   │   │   │   │   ├── Precepts_KillingInnocentAnimals.xml
+│   │   │   │   │   │   │   ├── Precepts_MeatEating.xml
+│   │   │   │   │   │   │   ├── Precepts_OrganUse.xml
+│   │   │   │   │   │   │   ├── Precepts_Proselytizing.xml
+│   │   │   │   │   │   │   ├── Precepts_Raiders.xml
+│   │   │   │   │   │   │   ├── Precepts_Ranching.xml
+│   │   │   │   │   │   │   ├── Precepts_Relics.xml
+│   │   │   │   │   │   │   ├── Precepts_Scarification.xml
+│   │   │   │   │   │   │   ├── Precepts_Slavery.xml
+│   │   │   │   │   │   │   ├── Precepts_SpouseCount.xml
+│   │   │   │   │   │   │   ├── Precepts_Transhumanism.xml
+│   │   │   │   │   │   │   ├── Precepts_Trees.xml
+│   │   │   │   │   │   │   ├── Precepts_Weapons.xml
+│   │   │   │   │   │   ├── IdeoPresetCategoryDef/
+│   │   │   │   │   │   │   ├── IdeoPresetDefs.xml
+│   │   │   │   │   │   ├── IdeoPresetDef/
+│   │   │   │   │   │   │   ├── IdeoPresetDefs.xml
+│   │   │   │   │   │   ├── IdeoStoryPatternDef/
+│   │   │   │   │   │   │   ├── RulePacks_Ideo_Description.xml
+│   │   │   │   │   │   ├── IncidentDef/
+│   │   │   │   │   │   │   ├── Incidents_Map_Special.xml
+│   │   │   │   │   │   │   ├── Incidents_World_Quests.xml
+│   │   │   │   │   │   │   ├── WorkSites.xml
+│   │   │   │   │   │   ├── InteractionDef/
+│   │   │   │   │   │   │   ├── Interactions_Prisoner.xml
+│   │   │   │   │   │   │   ├── Interactions_Slave.xml
+│   │   │   │   │   │   │   ├── Interactions_Social.xml
+│   │   │   │   │   │   │   ├── Interactions_Speech.xml
+│   │   │   │   │   │   ├── IssueDef/
+│   │   │   │   │   │   │   ├── Precepts_Animal.xml
+│   │   │   │   │   │   │   ├── Precepts_AnimalPersonhood.xml
+│   │   │   │   │   │   │   ├── Precepts_AnimalSlaughter.xml
+│   │   │   │   │   │   │   ├── Precepts_Apostasy.xml
+│   │   │   │   │   │   │   ├── Precepts_Apparel.xml
+│   │   │   │   │   │   │   ├── Precepts_AutonomousWeapons.xml
+│   │   │   │   │   │   │   ├── Precepts_BlindPsysense.xml
+│   │   │   │   │   │   │   ├── Precepts_Blindness.xml
+│   │   │   │   │   │   │   ├── Precepts_BodyMod.xml
+│   │   │   │   │   │   │   ├── Precepts_Bond.xml
+│   │   │   │   │   │   │   ├── Precepts_Buildings.xml
+│   │   │   │   │   │   │   ├── Precepts_Charity.xml
+│   │   │   │   │   │   │   ├── Precepts_Comfort.xml
+│   │   │   │   │   │   │   ├── Precepts_DrugUse.xml
+│   │   │   │   │   │   │   ├── Precepts_FungusEating.xml
+│   │   │   │   │   │   │   ├── Precepts_IdeoDiversity.xml
+│   │   │   │   │   │   │   ├── Precepts_KillingInnocentAnimals.xml
+│   │   │   │   │   │   │   ├── Precepts_Lighting.xml
+│   │   │   │   │   │   │   ├── Precepts_MeatEating.xml
+│   │   │   │   │   │   │   ├── Precepts_Mining.xml
+│   │   │   │   │   │   │   ├── Precepts_Nudity.xml
+│   │   │   │   │   │   │   ├── Precepts_Pain.xml
+│   │   │   │   │   │   │   ├── Precepts_Proselytizing.xml
+│   │   │   │   │   │   │   ├── Precepts_Raiders.xml
+│   │   │   │   │   │   │   ├── Precepts_Ranching.xml
+│   │   │   │   │   │   │   ├── Precepts_Relics.xml
+│   │   │   │   │   │   │   ├── Precepts_Research.xml
+│   │   │   │   │   │   │   ├── Precepts_RitualSeats.xml
+│   │   │   │   │   │   │   ├── Precepts_Role.xml
+│   │   │   │   │   │   │   ├── Precepts_RoughLiving.xml
+│   │   │   │   │   │   │   ├── Precepts_Scarification.xml
+│   │   │   │   │   │   │   ├── Precepts_Skullspike.xml
+│   │   │   │   │   │   │   ├── Precepts_Slavery.xml
+│   │   │   │   │   │   │   ├── Precepts_SmallSpaces.xml
+│   │   │   │   │   │   │   ├── Precepts_Temperature.xml
+│   │   │   │   │   │   │   ├── Precepts_Transhumanism.xml
+│   │   │   │   │   │   │   ├── Precepts_TreeCutting.xml
+│   │   │   │   │   │   │   ├── Precepts_Trees.xml
+│   │   │   │   │   │   │   ├── Precepts_Weapons.xml
+│   │   │   │   │   │   │   ├── Precepts_WorkDrive.xml
+│   │   │   │   │   │   ├── JobDef/
+│   │   │   │   │   │   │   ├── Jobs_Gatherings.xml
+│   │   │   │   │   │   │   ├── Jobs_Misc.xml
+│   │   │   │   │   │   │   ├── Jobs_Work.xml
+│   │   │   │   │   │   ├── MainButtonDef/
+│   │   │   │   │   │   │   ├── MainButtons.xml
+│   │   │   │   │   │   ├── MemeDef/
+│   │   │   │   │   │   │   ├── Memes_GenderSupremacy.xml
+│   │   │   │   │   │   │   ├── Memes_GroupRelation.xml
+│   │   │   │   │   │   │   ├── Memes_Individualism.xml
+│   │   │   │   │   │   │   ├── Memes_Misc.xml
+│   │   │   │   │   │   │   ├── Memes_Primacy.xml
+│   │   │   │   │   │   │   ├── Memes_Structures_Basic.xml
+│   │   │   │   │   │   │   ├── Memes_Structures_OriginsReligious.xml
+│   │   │   │   │   │   ├── MentalStateDef/
+│   │   │   │   │   │   │   ├── MentalStates_Mood.xml
+│   │   │   │   │   │   │   ├── MentalStates_Special.xml
+│   │   │   │   │   │   ├── NeedDef/
+│   │   │   │   │   │   │   ├── Needs.xml
+│   │   │   │   │   │   ├── PawnColumnDef/
+│   │   │   │   │   │   │   ├── PawnColumns_Icon.xml
+│   │   │   │   │   │   ├── PawnKindDef/
+│   │   │   │   │   │   │   ├── PawnKinds_NeutralCamps.xml
+│   │   │   │   │   │   │   ├── PawnKinds_Special.xml
+│   │   │   │   │   │   │   ├── Races_Animal_Special.xml
+│   │   │   │   │   │   ├── PlaceDef/
+│   │   │   │   │   │   │   ├── Places.xml
+│   │   │   │   │   │   ├── PreceptDef/
+│   │   │   │   │   │   │   ├── Precepts_Animal.xml
+│   │   │   │   │   │   │   ├── Precepts_AnimalPersonhood.xml
+│   │   │   │   │   │   │   ├── Precepts_AnimalSlaughter.xml
+│   │   │   │   │   │   │   ├── Precepts_Apostasy.xml
+│   │   │   │   │   │   │   ├── Precepts_Apparel.xml
+│   │   │   │   │   │   │   ├── Precepts_AteNutrientPaste.xml
+│   │   │   │   │   │   │   ├── Precepts_AutonomousWeapons.xml
+│   │   │   │   │   │   │   ├── Precepts_BlindPsysense.xml
+│   │   │   │   │   │   │   ├── Precepts_Blindness.xml
+│   │   │   │   │   │   │   ├── Precepts_BodyMod.xml
+│   │   │   │   │   │   │   ├── Precepts_Bond.xml
+│   │   │   │   │   │   │   ├── Precepts_Buildings.xml
+│   │   │   │   │   │   │   ├── Precepts_Cannibalism.xml
+│   │   │   │   │   │   │   ├── Precepts_Charity.xml
+│   │   │   │   │   │   │   ├── Precepts_Comfort.xml
+│   │   │   │   │   │   │   ├── Precepts_Corpses.xml
+│   │   │   │   │   │   │   ├── Precepts_DrugUse.xml
+│   │   │   │   │   │   │   ├── Precepts_FungusEating.xml
+│   │   │   │   │   │   │   ├── Precepts_HighLife.xml
+│   │   │   │   │   │   │   ├── Precepts_IdeoDiversity.xml
+│   │   │   │   │   │   │   ├── Precepts_InsectMeat.xml
+│   │   │   │   │   │   │   ├── Precepts_KillingInnocentAnimals.xml
+│   │   │   │   │   │   │   ├── Precepts_Lighting.xml
+│   │   │   │   │   │   │   ├── Precepts_Lovin.xml
+│   │   │   │   │   │   │   ├── Precepts_MarriageName.xml
+│   │   │   │   │   │   │   ├── Precepts_MeatEating.xml
+│   │   │   │   │   │   │   ├── Precepts_Mining.xml
+│   │   │   │   │   │   │   ├── Precepts_Nudity.xml
+│   │   │   │   │   │   │   ├── Precepts_OrganUse.xml
+│   │   │   │   │   │   │   ├── Precepts_Pain.xml
+│   │   │   │   │   │   │   ├── Precepts_PrisonerExecution.xml
+│   │   │   │   │   │   │   ├── Precepts_Proselytizing.xml
+│   │   │   │   │   │   │   ├── Precepts_Raiders.xml
+│   │   │   │   │   │   │   ├── Precepts_Ranching.xml
+│   │   │   │   │   │   │   ├── Precepts_Relics.xml
+│   │   │   │   │   │   │   ├── Precepts_Research.xml
+│   │   │   │   │   │   │   ├── Precepts_Ritual.xml
+│   │   │   │   │   │   │   ├── Precepts_RitualSeats.xml
+│   │   │   │   │   │   │   ├── Precepts_Role.xml
+│   │   │   │   │   │   │   ├── Precepts_RoughLiving.xml
+│   │   │   │   │   │   │   ├── Precepts_Scarification.xml
+│   │   │   │   │   │   │   ├── Precepts_Skullspike.xml
+│   │   │   │   │   │   │   ├── Precepts_Slavery.xml
+│   │   │   │   │   │   │   ├── Precepts_SmallSpaces.xml
+│   │   │   │   │   │   │   ├── Precepts_SpouseCount.xml
+│   │   │   │   │   │   │   ├── Precepts_Temperature.xml
+│   │   │   │   │   │   │   ├── Precepts_Transhumanism.xml
+│   │   │   │   │   │   │   ├── Precepts_TreeCutting.xml
+│   │   │   │   │   │   │   ├── Precepts_Trees.xml
+│   │   │   │   │   │   │   ├── Precepts_Weapons.xml
+│   │   │   │   │   │   │   ├── Precepts_WorkDrive.xml
+│   │   │   │   │   │   ├── PrisonerInteractionModeDef/
+│   │   │   │   │   │   │   ├── PrisonerInteractionMode.xml
+│   │   │   │   │   │   ├── QuestScriptDef/
+│   │   │   │   │   │   │   ├── Script_AncientSignalActivation.xml
+│   │   │   │   │   │   │   ├── Script_Beggars.xml
+│   │   │   │   │   │   │   ├── Script_EndGame_ArchonexusVictory.xml
+│   │   │   │   │   │   │   ├── Script_Hack_AncientComplex.xml
+│   │   │   │   │   │   │   ├── Script_Hack_Spacedrone.xml
+│   │   │   │   │   │   │   ├── Script_Loot_AncientComplex.xml
+│   │   │   │   │   │   │   ├── Script_Missions.xml
+│   │   │   │   │   │   │   ├── Script_RelicHunt.xml
+│   │   │   │   │   │   │   ├── Script_ReliquaryPilgrims.xml
+│   │   │   │   │   │   │   ├── Script_WorkSite.xml
+│   │   │   │   │   │   │   ├── Script_WorshipppedTerminal.xml
+│   │   │   │   │   │   ├── ResearchProjectDef/
+│   │   │   │   │   │   │   ├── ResearchProjects_Misc.xml
+│   │   │   │   │   │   ├── RitualAttachableOutcomeEffectDef/
+│   │   │   │   │   │   │   ├── Ritual_AttachableOutcomes_Special.xml
+│   │   │   │   │   │   ├── RitualBehaviorDef/
+│   │   │   │   │   │   │   ├── Ritual_Behaviors.xml
+│   │   │   │   │   │   ├── RitualOutcomeEffectDef/
+│   │   │   │   │   │   │   ├── Ritual_Outcomes.xml
+│   │   │   │   │   │   ├── RitualPatternDef/
+│   │   │   │   │   │   │   ├── RitualPatterns.xml
+│   │   │   │   │   │   ├── RoomRoleDef/
+│   │   │   │   │   │   │   ├── RoomRoles.xml
+│   │   │   │   │   │   ├── RoomStatDef/
+│   │   │   │   │   │   │   ├── RoomStats.xml
+│   │   │   │   │   │   ├── RulePackDef/
+│   │   │   │   │   │   │   ├── Interactions_Social.xml
+│   │   │   │   │   │   │   ├── Interactions_Speech.xml
+│   │   │   │   │   │   │   ├── Memes_Structures_OriginsReligious.xml
+│   │   │   │   │   │   │   ├── Places.xml
+│   │   │   │   │   │   │   ├── RulePacks_Deity_Names.xml
+│   │   │   │   │   │   │   ├── RulePacks_Deity_Types.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ideo_Building.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ideo_Description.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ideo_Names.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ideo_Relic.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ideo_Role.xml
+│   │   │   │   │   │   │   ├── RulePacks_LeaderTitles.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ritual_Duel.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ritual_Festival.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ritual_Funeral.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ritual_Mutilation.xml
+│   │   │   │   │   │   │   ├── RulePacks_Ritual_Sacrifice.xml
+│   │   │   │   │   │   ├── SitePartDef/
+│   │   │   │   │   │   │   ├── AncientAltar.xml
+│   │   │   │   │   │   │   ├── AncientComplex.xml
+│   │   │   │   │   │   │   ├── Archonexus.xml
+│   │   │   │   │   │   │   ├── WorkSites.xml
+│   │   │   │   │   │   │   ├── WorshippedTerminal.xml
+│   │   │   │   │   │   ├── SlaveInteractionModeDef/
+│   │   │   │   │   │   │   ├── SlaveInteractionMode.xml
+│   │   │   │   │   │   ├── SpecialThingFilterDef/
+│   │   │   │   │   │   │   ├── SpecialThingFilters.xml
+│   │   │   │   │   │   ├── StatDef/
+│   │   │   │   │   │   │   ├── Stats_Basics_Special.xml
+│   │   │   │   │   │   │   ├── Stats_Buildings_Special.xml
+│   │   │   │   │   │   │   ├── Stats_Misc.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_General.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_Ideo.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_Social.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_WorkGeneral.xml
+│   │   │   │   │   │   ├── StyleCategoryDef/
+│   │   │   │   │   │   │   ├── StyleCategoryDefs.xml
+│   │   │   │   │   │   ├── TattooDef/
+│   │   │   │   │   │   │   ├── TattooDefs.xml
+│   │   │   │   │   │   ├── TerrainDef/
+│   │   │   │   │   │   │   ├── Terrain_Floors.xml
+│   │   │   │   │   │   │   ├── Terrain_Special.xml
+│   │   │   │   │   │   ├── TerrainTemplateDef/
+│   │   │   │   │   │   │   ├── Terrain_Floors.xml
+│   │   │   │   │   │   ├── ThingDef/
+│   │   │   │   │   │   │   ├── Apparel_Headgear.xml
+│   │   │   │   │   │   │   ├── Apparel_Various.xml
+│   │   │   │   │   │   │   ├── Buildings_Ancient_Active.xml
+│   │   │   │   │   │   │   ├── Buildings_Art.xml
+│   │   │   │   │   │   │   ├── Buildings_Exotic.xml
+│   │   │   │   │   │   │   ├── Buildings_Ideo.xml
+│   │   │   │   │   │   │   ├── Buildings_Misc.xml
+│   │   │   │   │   │   │   ├── Buildings_Special.xml
+│   │   │   │   │   │   │   ├── Ethereal_Skyfallers.xml
+│   │   │   │   │   │   │   ├── Ethereal_Various.xml
+│   │   │   │   │   │   │   ├── Filth_Various.xml
+│   │   │   │   │   │   │   ├── FloorCoverings.xml
+│   │   │   │   │   │   │   ├── Hediffs_Casts.xml
+│   │   │   │   │   │   │   ├── Mote_RitualEffect.xml
+│   │   │   │   │   │   │   ├── Mote_Visual.xml
+│   │   │   │   │   │   │   ├── Plants_Special.xml
+│   │   │   │   │   │   │   ├── Races_Animal_Special.xml
+│   │   │   │   │   │   │   ├── Relics.xml
+│   │   │   │   │   │   ├── ThoughtDef/
+│   │   │   │   │   │   │   ├── Expectations.xml
+│   │   │   │   │   │   │   ├── Precepts_Animal.xml
+│   │   │   │   │   │   │   ├── Precepts_AnimalSlaughter.xml
+│   │   │   │   │   │   │   ├── Precepts_Apostasy.xml
+│   │   │   │   │   │   │   ├── Precepts_Apparel.xml
+│   │   │   │   │   │   │   ├── Precepts_AutonomousWeapons.xml
+│   │   │   │   │   │   │   ├── Precepts_Blindness.xml
+│   │   │   │   │   │   │   ├── Precepts_BodyMod.xml
+│   │   │   │   │   │   │   ├── Precepts_Cannibalism.xml
+│   │   │   │   │   │   │   ├── Precepts_Charity.xml
+│   │   │   │   │   │   │   ├── Precepts_Comfort.xml
+│   │   │   │   │   │   │   ├── Precepts_DrugUse.xml
+│   │   │   │   │   │   │   ├── Precepts_FungusEating.xml
+│   │   │   │   │   │   │   ├── Precepts_HighLife.xml
+│   │   │   │   │   │   │   ├── Precepts_IdeoDiversity.xml
+│   │   │   │   │   │   │   ├── Precepts_InsectMeat.xml
+│   │   │   │   │   │   │   ├── Precepts_KillingInnocentAnimals.xml
+│   │   │   │   │   │   │   ├── Precepts_Lighting.xml
+│   │   │   │   │   │   │   ├── Precepts_Lovin.xml
+│   │   │   │   │   │   │   ├── Precepts_MeatEating.xml
+│   │   │   │   │   │   │   ├── Precepts_Mining.xml
+│   │   │   │   │   │   │   ├── Precepts_Nudity.xml
+│   │   │   │   │   │   │   ├── Precepts_OrganUse.xml
+│   │   │   │   │   │   │   ├── Precepts_Pain.xml
+│   │   │   │   │   │   │   ├── Precepts_PrisonerExecution.xml
+│   │   │   │   │   │   │   ├── Precepts_Ranching.xml
+│   │   │   │   │   │   │   ├── Precepts_Relics.xml
+│   │   │   │   │   │   │   ├── Precepts_Scarification.xml
+│   │   │   │   │   │   │   ├── Precepts_Skullspike.xml
+│   │   │   │   │   │   │   ├── Precepts_Slavery.xml
+│   │   │   │   │   │   │   ├── Precepts_Transhumanism.xml
+│   │   │   │   │   │   │   ├── Precepts_TreeCutting.xml
+│   │   │   │   │   │   │   ├── Precepts_Trees.xml
+│   │   │   │   │   │   │   ├── Precepts_Weapons.xml
+│   │   │   │   │   │   │   ├── Thoughts_IdeoBuilding.xml
+│   │   │   │   │   │   │   ├── Thoughts_IdeoRaiding.xml
+│   │   │   │   │   │   │   ├── Thoughts_IdeoRole.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Misc.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Social.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Terror.xml
+│   │   │   │   │   │   │   ├── Thoughts_Ritual.xml
+│   │   │   │   │   │   │   ├── Thoughts_Ritual_Quality.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_Social.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_Special.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situational.xml
+│   │   │   │   │   │   ├── TipSetDef/
+│   │   │   │   │   │   │   ├── Tips.xml
+│   │   │   │   │   │   ├── WorkGiverDef/
+│   │   │   │   │   │   │   ├── WorkGivers.xml
+│   │   │   │   │   │   ├── WorldObjectDef/
+│   │   │   │   │   │   │   ├── WorldObjects.xml
+│   │   │   │   │   ├── Keyed/
+│   │   │   │   │   │   ├── Alerts.xml
+│   │   │   │   │   │   ├── Dialog_StatsReports.xml
+│   │   │   │   │   │   ├── Dialogs_Various.xml
+│   │   │   │   │   │   ├── FloatMenu.xml
+│   │   │   │   │   │   ├── GameplayCommands.xml
+│   │   │   │   │   │   ├── ITabs.xml
+│   │   │   │   │   │   ├── Letters.xml
+│   │   │   │   │   │   ├── MainTabs.xml
+│   │   │   │   │   │   ├── Menus_Main.xml
+│   │   │   │   │   │   ├── Messages.xml
+│   │   │   │   │   │   ├── Misc_Gameplay.xml
+│   │   │   ├── Patches/
+│   │   │   │   ├── Traits.xml
+│   │   ├── Royalty/
+│   │   │   ├── About/
+│   │   │   │   ├── About.xml
+│   │   │   ├── AssetBundles/
+│   │   │   │   ├── resources_royalty
+│   │   │   │   ├── resources_royalty.manifest
+│   │   │   ├── Defs/
+│   │   │   │   ├── AbilityDefs/
+│   │   │   │   │   ├── Abilities.xml
+│   │   │   │   │   ├── AbilityCategories.xml
+│   │   │   │   ├── BackstoryDefs/
+│   │   │   │   │   ├── Shuffled/
+│   │   │   │   │   │   ├── ImperialCommon_Adult.xml
+│   │   │   │   │   │   ├── ImperialCommon_Child.xml
+│   │   │   │   │   │   ├── ImperialFighter_Adult.xml
+│   │   │   │   │   │   ├── ImperialFighter_Child.xml
+│   │   │   │   │   │   ├── ImperialRoyal_Adult.xml
+│   │   │   │   │   │   ├── ImperialRoyal_Child.xml
+│   │   │   │   ├── CultureDefs/
+│   │   │   │   │   ├── Cultures.xml
+│   │   │   │   ├── DutyDefs/
+│   │   │   │   │   ├── Duties_Gatherings.xml
+│   │   │   │   │   ├── Duties_Misc.xml
+│   │   │   │   ├── Effects/
+│   │   │   │   │   ├── Effecter_Misc.xml
+│   │   │   │   │   ├── Fleck_Visual.xml
+│   │   │   │   │   ├── Mote_Visual.xml
+│   │   │   │   ├── FactionDefs/
+│   │   │   │   │   ├── Faction_Empire.xml
+│   │   │   │   │   ├── Factions_Misc.xml
+│   │   │   │   ├── GatheringDefs/
+│   │   │   │   │   ├── Gatherings.xml
+│   │   │   │   ├── HairDefs/
+│   │   │   │   │   ├── HairsRoyal.xml
+│   │   │   │   ├── HediffDefs/
+│   │   │   │   │   ├── Hediffs_BodyParts_Archotech_EmpireRoyal.xml
+│   │   │   │   │   ├── Hediffs_BodyParts_BaseEmpire.xml
+│   │   │   │   │   ├── Hediffs_BodyParts_Bionic_Empire.xml
+│   │   │   │   │   ├── Hediffs_BodyParts_Prosthetic_Empire.xml
+│   │   │   │   │   ├── Hediffs_Local_Misc.xml
+│   │   │   │   │   ├── Hediffs_Psycasts.xml
+│   │   │   │   ├── IncidentDefs/
+│   │   │   │   │   ├── Incidents_Map_Misc.xml
+│   │   │   │   │   ├── Incidents_Map_Special.xml
+│   │   │   │   │   ├── Incidents_World_Quests.xml
+│   │   │   │   ├── InteractionDefs/
+│   │   │   │   │   ├── Interactions_Social.xml
+│   │   │   │   ├── JobDefs/
+│   │   │   │   │   ├── Jobs_Misc.xml
+│   │   │   │   ├── Joy/
+│   │   │   │   │   ├── JoyGivers.xml
+│   │   │   │   ├── MapGeneration/
+│   │   │   │   │   ├── BasePlayerMapGenerator.xml
+│   │   │   │   ├── MentalStateDefs/
+│   │   │   │   │   ├── MentalStates_Special.xml
+│   │   │   │   ├── Misc/
+│   │   │   │   │   ├── Places.xml
+│   │   │   │   │   ├── ShaderTypes.xml
+│   │   │   │   ├── NeedDefs/
+│   │   │   │   │   ├── Needs.xml
+│   │   │   │   ├── PawnKinds/
+│   │   │   │   │   ├── PawnKinds_Empire.xml
+│   │   │   │   │   ├── PawnKinds_Refugee.xml
+│   │   │   │   ├── PreceptDefs/
+│   │   │   │   │   ├── Precepts_Ritual.xml
+│   │   │   │   │   ├── RitualPatternDefs/
+│   │   │   │   │   │   ├── RitualPatterns.xml
+│   │   │   │   ├── QuestScriptDefs/
+│   │   │   │   │   ├── Script_Bestower.xml
+│   │   │   │   │   ├── Script_ChangeRoyalHeir.xml
+│   │   │   │   │   ├── Script_Hospitality_Refugee.xml
+│   │   │   │   │   ├── Script_PawnLend.xml
+│   │   │   │   │   ├── Script_ShuttleCrash_Rescue.xml
+│   │   │   │   │   ├── Script_WandererJoins.xml
+│   │   │   │   │   ├── Scripts_Missions.xml
+│   │   │   │   │   ├── Scripts_Permits.xml
+│   │   │   │   │   ├── Scripts_ProblemCausers.xml
+│   │   │   │   │   ├── Scripts_Utility_TransportShip.xml
+│   │   │   │   │   ├── BuildMonument/
+│   │   │   │   │   │   ├── Script_BuildMonument_Root_Basic.xml
+│   │   │   │   │   │   ├── Script_BuildMonument_Root_TimeProtect.xml
+│   │   │   │   │   │   ├── Script_BuildMonument_TextCommon.xml
+│   │   │   │   │   │   ├── Script_BuildMonument_Worker.xml
+│   │   │   │   │   ├── Decree/
+│   │   │   │   │   │   ├── Scripts_Decree.xml
+│   │   │   │   │   │   ├── Scripts_Decree_Utility.xml
+│   │   │   │   │   ├── Hospitality/
+│   │   │   │   │   │   ├── Script_EndGame_RoyalAscent.xml
+│   │   │   │   │   │   ├── Script_Hospitality_Root_Animals.xml
+│   │   │   │   │   │   ├── Script_Hospitality_Root_Joiners.xml
+│   │   │   │   │   │   ├── Script_Hospitality_Root_Prisoners.xml
+│   │   │   │   │   │   ├── Script_Hospitality_TextCommon.xml
+│   │   │   │   │   │   ├── Script_Hospitality_Utility.xml
+│   │   │   │   │   │   ├── Script_Hospitality_Worker.xml
+│   │   │   │   │   ├── Intro/
+│   │   │   │   │   │   ├── Script_Intro_Deserter.xml
+│   │   │   │   │   │   ├── Script_Intro_Wimp.xml
+│   │   │   │   │   ├── RewardThreat/
+│   │   │   │   │   │   ├── Scripts_ItemPodThreat.xml
+│   │   │   │   │   │   ├── Scripts_JoinerThreat.xml
+│   │   │   │   │   │   ├── Scripts_RewardMechpods.xml
+│   │   │   │   │   │   ├── Scripts_RewardRaid.xml
+│   │   │   │   │   ├── Utility/
+│   │   │   │   │   │   ├── Scripts_Utility.xml
+│   │   │   │   │   │   ├── Scripts_Utility_Helpers.xml
+│   │   │   │   │   │   ├── Scripts_Utility_Threats.xml
+│   │   │   │   ├── ResearchProjectDefs/
+│   │   │   │   │   ├── ResearchProjects_Apparel.xml
+│   │   │   │   │   ├── ResearchProjects_Implants.xml
+│   │   │   │   │   ├── ResearchProjects_MusicalInstruments.xml
+│   │   │   │   ├── Rituals/
+│   │   │   │   │   ├── Ritual_AttachableOutcomes_Universal.xml
+│   │   │   │   │   ├── Ritual_Behaviors.xml
+│   │   │   │   │   ├── Ritual_Outcomes.xml
+│   │   │   │   │   ├── Ritual_Targets.xml
+│   │   │   │   ├── Rooms/
+│   │   │   │   │   ├── RoomRoles.xml
+│   │   │   │   ├── RoyalTitles/
+│   │   │   │   │   ├── RoyalPermits_Empire.xml
+│   │   │   │   │   ├── RoyalTitles_Empire.xml
+│   │   │   │   │   ├── Thoughts_RoyalTitles.xml
+│   │   │   │   ├── RuleDefs/
+│   │   │   │   │   ├── Rules_Complex.xml
+│   │   │   │   │   ├── Rules_Interior.xml
+│   │   │   │   ├── RulePackDefs/
+│   │   │   │   │   ├── RulePacks_Namers_Factions.xml
+│   │   │   │   ├── ShipObjectDefs/
+│   │   │   │   │   ├── TransportShipDefs.xml
+│   │   │   │   ├── Sites/
+│   │   │   │   │   ├── Parts/
+│   │   │   │   │   │   ├── MechCluster.xml
+│   │   │   │   │   │   ├── RaidSource.xml
+│   │   │   │   ├── SketchResolverDefs/
+│   │   │   │   │   ├── SketchResolvers.xml
+│   │   │   │   ├── SongDefs/
+│   │   │   │   │   ├── Songs_Gameplay.xml
+│   │   │   │   │   ├── Songs_Tension.xml
+│   │   │   │   ├── SoundDefs/
+│   │   │   │   │   ├── Building_Exotic_Sustainers.xml
+│   │   │   │   │   ├── Building_Oneshots_Misc.xml
+│   │   │   │   │   ├── Exotic_Oneshots.xml
+│   │   │   │   │   ├── Exotic_Sustainers.xml
+│   │   │   │   │   ├── Interact_Oneshots_Melee.xml
+│   │   │   │   │   ├── Interact_Psycasts.xml
+│   │   │   │   │   ├── UI_OneShots_Misc.xml
+│   │   │   │   │   ├── World_Oneshots_Apparel.xml
+│   │   │   │   │   ├── World_Oneshots_Misc.xml
+│   │   │   │   │   ├── World_Oneshots_Weapons.xml
+│   │   │   │   ├── Stats/
+│   │   │   │   │   ├── Stats_Apparel.xml
+│   │   │   │   │   ├── Stats_Basics_Special.xml
+│   │   │   │   │   ├── Stats_Pawns_General.xml
+│   │   │   │   ├── StoryTeller/
+│   │   │   │   │   ├── Incidents_Map_Disease.xml
+│   │   │   │   ├── TaleDefs/
+│   │   │   │   │   ├── Tales_Job.xml
+│   │   │   │   ├── TerrainDefs/
+│   │   │   │   │   ├── Terrain_Floors_FineCarpet.xml
+│   │   │   │   │   ├── Terrain_Floors_FineStoneTile.xml
+│   │   │   │   ├── ThingDefs_Buildings/
+│   │   │   │   │   ├── Buildings_ConditionCausers.xml
+│   │   │   │   │   ├── Buildings_Exotic.xml
+│   │   │   │   │   ├── Buildings_Furniture.xml
+│   │   │   │   │   ├── Buildings_Mech.xml
+│   │   │   │   │   ├── Buildings_Mech_Activators.xml
+│   │   │   │   │   ├── Buildings_Mech_ShieldGenerators.xml
+│   │   │   │   │   ├── Buildings_Mech_Spawners.xml
+│   │   │   │   │   ├── Buildings_Misc.xml
+│   │   │   │   │   ├── Buildings_MusicalInstruments.xml
+│   │   │   │   ├── ThingDefs_Misc/
+│   │   │   │   │   ├── Apparel_Packs.xml
+│   │   │   │   │   ├── Apparel_Psychic.xml
+│   │   │   │   │   ├── Apparel_Royal.xml
+│   │   │   │   │   ├── Apparel_Various.xml
+│   │   │   │   │   ├── Ethereal_Skyfallers.xml
+│   │   │   │   │   ├── Ethereal_Various.xml
+│   │   │   │   │   ├── Items_Exotic.xml
+│   │   │   │   │   ├── Weapons/
+│   │   │   │   │   │   ├── MeleeBladelink.xml
+│   │   │   │   │   │   ├── MeleeMedieval.xml
+│   │   │   │   │   │   ├── MeleeUltratech.xml
+│   │   │   │   │   │   ├── OrbitalWeapons.xml
+│   │   │   │   │   │   ├── PsychicWeapons.xml
+│   │   │   │   ├── ThingDefs_Plants/
+│   │   │   │   │   ├── Plants_Wild.xml
+│   │   │   │   ├── ThingStyleDefs/
+│   │   │   │   │   ├── ThingStyleDefs.xml
+│   │   │   │   ├── ThoughtDefs/
+│   │   │   │   │   ├── Thoughts_Memory_Death.xml
+│   │   │   │   │   ├── Thoughts_Memory_Eating.xml
+│   │   │   │   │   ├── Thoughts_Memory_Misc.xml
+│   │   │   │   │   ├── Thoughts_Memory_Rituals.xml
+│   │   │   │   │   ├── Thoughts_Memory_RoomStats.xml
+│   │   │   │   │   ├── Thoughts_Memory_Special.xml
+│   │   │   │   │   ├── Thoughts_Situation_MusicalInstruments.xml
+│   │   │   │   │   ├── Thoughts_Situation_Special.xml
+│   │   │   │   ├── TimeAssignmentDefs/
+│   │   │   │   │   ├── TimeAssignments.xml
+│   │   │   │   ├── TipSetDefs/
+│   │   │   │   │   ├── Tips.xml
+│   │   │   │   ├── TraderKindDefs/
+│   │   │   │   │   ├── TraderKinds_Base_Empire.xml
+│   │   │   │   │   ├── TraderKinds_Caravan_Empire.xml
+│   │   │   │   │   ├── TraderKinds_Orbital_Empire.xml
+│   │   │   │   ├── Tutor/
+│   │   │   │   │   ├── Concepts_NotedOpportunistic.xml
+│   │   │   │   ├── WeaponTraitDefs/
+│   │   │   │   │   ├── WeaponCategoryDefs.xml
+│   │   │   │   │   ├── WeaponTraitDefs.xml
+│   │   │   │   ├── WorldObjectDefs/
+│   │   │   │   │   ├── WorldObjects.xml
+│   │   │   ├── Languages/
+│   │   │   │   ├── Dutch (Nederlands).tar
+│   │   │   │   ├── German (Deutsch).tar
+│   │   │   │   ├── Hungarian (Magyar).tar
+│   │   │   │   ├── Italian (Italiano).tar
+│   │   │   │   ├── Polish (Polski).tar
+│   │   │   │   ├── English/
+│   │   │   │   │   ├── Keyed/
+│   │   │   │   │   │   ├── Alerts.xml
+│   │   │   │   │   │   ├── Designators.xml
+│   │   │   │   │   │   ├── Dialog_StatReports.xml
+│   │   │   │   │   │   ├── Dialog_Trees.xml
+│   │   │   │   │   │   ├── Dialogs_Various.xml
+│   │   │   │   │   │   ├── GameplayCommands.xml
+│   │   │   │   │   │   ├── ITabs.xml
+│   │   │   │   │   │   ├── Incidents.xml
+│   │   │   │   │   │   ├── Letters.xml
+│   │   │   │   │   │   ├── MainTabs.xml
+│   │   │   │   │   │   ├── Messages.xml
+│   │   │   │   │   │   ├── Misc_Gameplay.xml
+│   │   │   │   ├── French/
+│   │   │   │   │   ├── DefInjected/
+│   │   │   │   │   │   ├── AbilityDef/
+│   │   │   │   │   │   │   ├── Abilities.xml
+│   │   │   │   │   │   ├── BackstoryDef/
+│   │   │   │   │   │   │   ├── ImperialCommon_Adult.xml
+│   │   │   │   │   │   │   ├── ImperialCommon_Child.xml
+│   │   │   │   │   │   │   ├── ImperialFighter_Adult.xml
+│   │   │   │   │   │   │   ├── ImperialFighter_Child.xml
+│   │   │   │   │   │   │   ├── ImperialRoyal_Adult.xml
+│   │   │   │   │   │   │   ├── ImperialRoyal_Child.xml
+│   │   │   │   │   │   ├── ConceptDef/
+│   │   │   │   │   │   │   ├── Concepts_NotedOpportunistic.xml
+│   │   │   │   │   │   ├── CultureDef/
+│   │   │   │   │   │   │   ├── Cultures.xml
+│   │   │   │   │   │   ├── DutyDef/
+│   │   │   │   │   │   │   ├── Duties_Gatherings.xml
+│   │   │   │   │   │   ├── FactionDef/
+│   │   │   │   │   │   │   ├── Faction_Empire.xml
+│   │   │   │   │   │   │   ├── Factions_Misc.xml
+│   │   │   │   │   │   ├── GameConditionDef/
+│   │   │   │   │   │   │   ├── Buildings_ConditionCausers.xml
+│   │   │   │   │   │   ├── GatheringDef/
+│   │   │   │   │   │   │   ├── Gatherings.xml
+│   │   │   │   │   │   ├── HairDef/
+│   │   │   │   │   │   │   ├── HairsRoyal.xml
+│   │   │   │   │   │   ├── HediffDef/
+│   │   │   │   │   │   │   ├── Buildings_ConditionCausers.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Archotech_EmpireRoyal.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Bionic_Empire.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Prosthetic_Empire.xml
+│   │   │   │   │   │   │   ├── Hediffs_Local_Misc.xml
+│   │   │   │   │   │   │   ├── Hediffs_Psycasts.xml
+│   │   │   │   │   │   │   ├── WeaponTraitDefs.xml
+│   │   │   │   │   │   ├── IncidentDef/
+│   │   │   │   │   │   │   ├── Incidents_Map_Disease.xml
+│   │   │   │   │   │   │   ├── Incidents_Map_Misc.xml
+│   │   │   │   │   │   │   ├── Incidents_Map_Special.xml
+│   │   │   │   │   │   │   ├── Incidents_World_Quests.xml
+│   │   │   │   │   │   ├── InteractionDef/
+│   │   │   │   │   │   │   ├── Interactions_Social.xml
+│   │   │   │   │   │   ├── JobDef/
+│   │   │   │   │   │   │   ├── Jobs_Misc.xml
+│   │   │   │   │   │   ├── NeedDef/
+│   │   │   │   │   │   │   ├── Needs.xml
+│   │   │   │   │   │   ├── PawnKindDef/
+│   │   │   │   │   │   │   ├── PawnKinds_Empire.xml
+│   │   │   │   │   │   │   ├── PawnKinds_Refugee.xml
+│   │   │   │   │   │   ├── PlaceDef/
+│   │   │   │   │   │   │   ├── Places.xml
+│   │   │   │   │   │   ├── PreceptDef/
+│   │   │   │   │   │   │   ├── Precepts_Ritual.xml
+│   │   │   │   │   │   ├── QuestScriptDef/
+│   │   │   │   │   │   │   ├── Script_Bestower.xml
+│   │   │   │   │   │   │   ├── Script_BuildMonument_Root_Basic.xml
+│   │   │   │   │   │   │   ├── Script_BuildMonument_Root_TimeProtect.xml
+│   │   │   │   │   │   │   ├── Script_BuildMonument_Worker.xml
+│   │   │   │   │   │   │   ├── Script_ChangeRoyalHeir.xml
+│   │   │   │   │   │   │   ├── Script_EndGame_RoyalAscent.xml
+│   │   │   │   │   │   │   ├── Script_Hospitality_Refugee.xml
+│   │   │   │   │   │   │   ├── Script_Hospitality_Root_Animals.xml
+│   │   │   │   │   │   │   ├── Script_Hospitality_Root_Joiners.xml
+│   │   │   │   │   │   │   ├── Script_Hospitality_Root_Prisoners.xml
+│   │   │   │   │   │   │   ├── Script_Hospitality_Utility.xml
+│   │   │   │   │   │   │   ├── Script_Hospitality_Worker.xml
+│   │   │   │   │   │   │   ├── Script_Intro_Deserter.xml
+│   │   │   │   │   │   │   ├── Script_Intro_Wimp.xml
+│   │   │   │   │   │   │   ├── Script_PawnLend.xml
+│   │   │   │   │   │   │   ├── Script_ShuttleCrash_Rescue.xml
+│   │   │   │   │   │   │   ├── Script_WandererJoins.xml
+│   │   │   │   │   │   │   ├── Scripts_Decree.xml
+│   │   │   │   │   │   │   ├── Scripts_Decree_Utility.xml
+│   │   │   │   │   │   │   ├── Scripts_ItemPodThreat.xml
+│   │   │   │   │   │   │   ├── Scripts_JoinerThreat.xml
+│   │   │   │   │   │   │   ├── Scripts_Missions.xml
+│   │   │   │   │   │   │   ├── Scripts_Permits.xml
+│   │   │   │   │   │   │   ├── Scripts_ProblemCausers.xml
+│   │   │   │   │   │   │   ├── Scripts_RewardMechpods.xml
+│   │   │   │   │   │   │   ├── Scripts_RewardRaid.xml
+│   │   │   │   │   │   │   ├── Scripts_Utility_Helpers.xml
+│   │   │   │   │   │   │   ├── Scripts_Utility_Threats.xml
+│   │   │   │   │   │   ├── RecipeDef/
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Archotech_EmpireRoyal.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Bionic_Empire.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Prosthetic_Empire.xml
+│   │   │   │   │   │   │   ├── Hediffs_Local_Misc.xml
+│   │   │   │   │   │   ├── ResearchProjectDef/
+│   │   │   │   │   │   │   ├── ResearchProjects_Apparel.xml
+│   │   │   │   │   │   │   ├── ResearchProjects_Implants.xml
+│   │   │   │   │   │   │   ├── ResearchProjects_MusicalInstruments.xml
+│   │   │   │   │   │   ├── RitualAttachableOutcomeEffectDef/
+│   │   │   │   │   │   │   ├── Ritual_AttachableOutcomes_Universal.xml
+│   │   │   │   │   │   ├── RitualBehaviorDef/
+│   │   │   │   │   │   │   ├── Ritual_Behaviors.xml
+│   │   │   │   │   │   ├── RitualOutcomeEffectDef/
+│   │   │   │   │   │   │   ├── Ritual_Outcomes.xml
+│   │   │   │   │   │   ├── RoomRoleDef/
+│   │   │   │   │   │   │   ├── RoomRoles.xml
+│   │   │   │   │   │   ├── RoyalTitleDef/
+│   │   │   │   │   │   │   ├── RoyalTitles_Empire.xml
+│   │   │   │   │   │   ├── RoyalTitlePermitDef/
+│   │   │   │   │   │   │   ├── RoyalPermits_Empire.xml
+│   │   │   │   │   │   ├── RulePackDef/
+│   │   │   │   │   │   │   ├── Faction_Empire.xml
+│   │   │   │   │   │   │   ├── MeleeBladelink.xml
+│   │   │   │   │   │   │   ├── RulePacks_Namers_Factions.xml
+│   │   │   │   │   │   │   ├── Script_BuildMonument_TextCommon.xml
+│   │   │   │   │   │   │   ├── Script_Hospitality_TextCommon.xml
+│   │   │   │   │   │   │   ├── Tales_Job.xml
+│   │   │   │   │   │   ├── SitePartDef/
+│   │   │   │   │   │   │   ├── Buildings_ConditionCausers.xml
+│   │   │   │   │   │   │   ├── MechCluster.xml
+│   │   │   │   │   │   │   ├── RaidSource.xml
+│   │   │   │   │   │   ├── StatDef/
+│   │   │   │   │   │   │   ├── Stats_Apparel.xml
+│   │   │   │   │   │   │   ├── Stats_Basics_Special.xml
+│   │   │   │   │   │   │   ├── Stats_Pawns_General.xml
+│   │   │   │   │   │   ├── TaleDef/
+│   │   │   │   │   │   │   ├── Tales_Job.xml
+│   │   │   │   │   │   ├── TerrainDef/
+│   │   │   │   │   │   │   ├── Terrain_Floors_FineStoneTile.xml
+│   │   │   │   │   │   ├── TerrainTemplateDef/
+│   │   │   │   │   │   │   ├── Terrain_Floors_FineCarpet.xml
+│   │   │   │   │   │   ├── ThingDef/
+│   │   │   │   │   │   │   ├── Apparel_Packs.xml
+│   │   │   │   │   │   │   ├── Apparel_Psychic.xml
+│   │   │   │   │   │   │   ├── Apparel_Royal.xml
+│   │   │   │   │   │   │   ├── Apparel_Various.xml
+│   │   │   │   │   │   │   ├── Buildings_ConditionCausers.xml
+│   │   │   │   │   │   │   ├── Buildings_Exotic.xml
+│   │   │   │   │   │   │   ├── Buildings_Furniture.xml
+│   │   │   │   │   │   │   ├── Buildings_Mech.xml
+│   │   │   │   │   │   │   ├── Buildings_Mech_Activators.xml
+│   │   │   │   │   │   │   ├── Buildings_Mech_ShieldGenerators.xml
+│   │   │   │   │   │   │   ├── Buildings_Mech_Spawners.xml
+│   │   │   │   │   │   │   ├── Buildings_Misc.xml
+│   │   │   │   │   │   │   ├── Buildings_MusicalInstruments.xml
+│   │   │   │   │   │   │   ├── Ethereal_Skyfallers.xml
+│   │   │   │   │   │   │   ├── Ethereal_Various.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Archotech_EmpireRoyal.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Bionic_Empire.xml
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Prosthetic_Empire.xml
+│   │   │   │   │   │   │   ├── Items_Exotic.xml
+│   │   │   │   │   │   │   ├── MeleeBladelink.xml
+│   │   │   │   │   │   │   ├── MeleeMedieval.xml
+│   │   │   │   │   │   │   ├── MeleeUltratech.xml
+│   │   │   │   │   │   │   ├── Mote_Visual.xml
+│   │   │   │   │   │   │   ├── OrbitalWeapons.xml
+│   │   │   │   │   │   │   ├── Plants_Wild.xml
+│   │   │   │   │   │   │   ├── PsychicWeapons.xml
+│   │   │   │   │   │   ├── ThingStyleDef/
+│   │   │   │   │   │   │   ├── ThingStyleDefs.xml
+│   │   │   │   │   │   ├── ThoughtDef/
+│   │   │   │   │   │   │   ├── Hediffs_BodyParts_Archotech_EmpireRoyal.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Death.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Eating.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Misc.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Rituals.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_RoomStats.xml
+│   │   │   │   │   │   │   ├── Thoughts_Memory_Special.xml
+│   │   │   │   │   │   │   ├── Thoughts_RoyalTitles.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_MusicalInstruments.xml
+│   │   │   │   │   │   │   ├── Thoughts_Situation_Special.xml
+│   │   │   │   │   │   │   ├── WeaponTraitDefs.xml
+│   │   │   │   │   │   ├── TimeAssignmentDef/
+│   │   │   │   │   │   │   ├── TimeAssignments.xml
+│   │   │   │   │   │   ├── TipSetDef/
+│   │   │   │   │   │   │   ├── Tips.xml
+│   │   │   │   │   │   ├── TraderKindDef/
+│   │   │   │   │   │   │   ├── TraderKinds_Caravan_Empire.xml
+│   │   │   │   │   │   │   ├── TraderKinds_Orbital_Empire.xml
+│   │   │   │   │   │   ├── TransportShipDef/
+│   │   │   │   │   │   │   ├── TransportShipDefs.xml
+│   │   │   │   │   │   ├── WeaponTraitDef/
+│   │   │   │   │   │   │   ├── WeaponTraitDefs.xml
+│   │   │   │   │   │   ├── WorldObjectDef/
+│   │   │   │   │   │   │   ├── WorldObjects.xml
+│   │   │   │   │   ├── Keyed/
+│   │   │   │   │   │   ├── Alerts.xml
+│   │   │   │   │   │   ├── Designators.xml
+│   │   │   │   │   │   ├── Dialog_StatReports.xml
+│   │   │   │   │   │   ├── Dialog_Trees.xml
+│   │   │   │   │   │   ├── Dialogs_Various.xml
+│   │   │   │   │   │   ├── GameplayCommands.xml
+│   │   │   │   │   │   ├── ITabs.xml
+│   │   │   │   │   │   ├── Incidents.xml
+│   │   │   │   │   │   ├── Letters.xml
+│   │   │   │   │   │   ├── MainTabs.xml
+│   │   │   │   │   │   ├── Messages.xml
+│   │   │   │   │   │   ├── Misc_Gameplay.xml
+│   │   │   ├── Patches/
+│   │   │   │   ├── Recipes_Prosthetics.xml
+│   │   │   │   ├── Things_Drugs.xml
+│   ├── schema_mfd/
+│   │   ├── 01_raw_extraction/
+│   │   │   ├── Def_Hierarchy_DAG.json
+│   │   │   ├── raw_properties_per_deftype.json
+│   │   ├── 02_validated_schema/
+│   │   │   ├── Comp_Schema_Formal.json
+│   │   │   ├── Formal_Schema_Properties_Validated.json
+│   │   │   ├── Schema_Metadonnees_Maitre.json
+│   │   ├── 03_documentation/
+│   │   │   ├── DefType_Hierarchy.md
+│   │   ├── 04_generated_code/
+│   │   │   ├── CR_AbilityCategoryDef.gd
+│   │   │   ├── CR_AbilityDef.gd
+│   │   │   ├── CR_AbilityGroupDef.gd
+│   │   │   ├── CR_ApparelLayerDef.gd
+│   │   │   ├── CR_BackstoryDef.gd
+│   │   │   ├── CR_BeardDef.gd
+│   │   │   ├── CR_BillRepeatModeDef.gd
+│   │   │   ├── CR_BillStoreModeDef.gd
+│   │   │   ├── CR_BiomeDef.gd
+│   │   │   ├── CR_BodyDef.gd
+│   │   │   ├── CR_BodyPartDef.gd
+│   │   │   ├── CR_BodyPartGroupDef.gd
+│   │   │   ├── CR_BodyPartTagDef.gd
+│   │   │   ├── CR_BodyTypeDef.gd
+│   │   │   ├── CR_ChemicalDef.gd
+│   │   │   ├── CR_ClamorDef.gd
+│   │   │   ├── CR_ColorDef.gd
+│   │   │   ├── CR_ComplexLayoutDef.gd
+│   │   │   ├── CR_ComplexThreatDef.gd
+│   │   │   ├── CR_ConceptDef.gd
+│   │   │   ├── CR_CultureDef.gd
+│   │   │   ├── CR_DamageArmorCategoryDef.gd
+│   │   │   ├── CR_DamageDef.gd
+│   │   │   ├── CR_DebugTabMenuDef.gd
+│   │   │   ├── CR_DesignationCategoryDef.gd
+│   │   │   ├── CR_DesignationDef.gd
+│   │   │   ├── CR_DesignatorDropdownGroupDef.gd
+│   │   │   ├── CR_DifficultyDef.gd
+│   │   │   ├── CR_DrawStyleCategoryDef.gd
+│   │   │   ├── CR_DrawStyleDef.gd
+│   │   │   ├── CR_DrugPolicyDef.gd
+│   │   │   ├── CR_DutyDef.gd
+│   │   │   ├── CR_EffecterDef.gd
+│   │   │   ├── CR_ExpansionDef.gd
+│   │   │   ├── CR_ExpectationDef.gd
+│   │   │   ├── CR_FactionDef.gd
+│   │   │   ├── CR_FeatureDef.gd
+│   │   │   ├── CR_FleckDef.gd
+│   │   │   ├── CR_FleshTypeDef.gd
+│   │   │   ├── CR_GameConditionDef.gd
+│   │   │   ├── CR_GameSetupStepDef.gd
+│   │   │   ├── CR_GatheringDef.gd
+│   │   │   ├── CR_GauranlenTreeModeDef.gd
+│   │   │   ├── CR_GenStepDef.gd
+│   │   │   ├── CR_GeneCategoryDef.gd
+│   │   │   ├── CR_GeneDef.gd
+│   │   │   ├── CR_GlobalWorldDrawLayerDef.gd
+│   │   │   ├── CR_GoodwillSituationDef.gd
+│   │   │   ├── CR_GraphicStateDef.gd
+│   │   │   ├── CR_HairDef.gd
+│   │   │   ├── CR_HeadTypeDef.gd
+│   │   │   ├── CR_HediffDef.gd
+│   │   │   ├── CR_HediffGiverSetDef.gd
+│   │   │   ├── CR_HibernatableStateDef.gd
+│   │   │   ├── CR_HistoryAutoRecorderDef.gd
+│   │   │   ├── CR_HistoryAutoRecorderGroupDef.gd
+│   │   │   ├── CR_HistoryEventDef.gd
+│   │   │   ├── CR_IdeoColorDef.gd
+│   │   │   ├── CR_IdeoFoundationDef.gd
+│   │   │   ├── CR_IdeoIconDef.gd
+│   │   │   ├── CR_IdeoPresetCategoryDef.gd
+│   │   │   ├── CR_IdeoPresetDef.gd
+│   │   │   ├── CR_IdeoStoryPatternDef.gd
+│   │   │   ├── CR_ImpactSoundTypeDef.gd
+│   │   │   ├── CR_ImplementOwnerTypeDef.gd
+│   │   │   ├── CR_IncidentCategoryDef.gd
+│   │   │   ├── CR_IncidentDef.gd
+│   │   │   ├── CR_IncidentTargetTagDef.gd
+│   │   │   ├── CR_InfectionPathwayDef.gd
+│   │   │   ├── CR_InspirationDef.gd
+│   │   │   ├── CR_InstructionDef.gd
+│   │   │   ├── CR_InteractionDef.gd
+│   │   │   ├── CR_InventoryStockGroupDef.gd
+│   │   │   ├── CR_IssueDef.gd
+│   │   │   ├── CR_JobDef.gd
+│   │   │   ├── CR_JoyGiverDef.gd
+│   │   │   ├── CR_JoyKindDef.gd
+│   │   │   ├── CR_KeyBindingCategoryDef.gd
+│   │   │   ├── CR_KeyBindingDef.gd
+│   │   │   ├── CR_LayoutRoomDef.gd
+│   │   │   ├── CR_LetterDef.gd
+│   │   │   ├── CR_LifeStageDef.gd
+│   │   │   ├── CR_LogEntryDef.gd
+│   │   │   ├── CR_MainButtonDef.gd
+│   │   │   ├── CR_ManeuverDef.gd
+│   │   │   ├── CR_MapGeneratorDef.gd
+│   │   │   ├── CR_MapMeshFlagDef.gd
+│   │   │   ├── CR_MechWeightClassDef.gd
+│   │   │   ├── CR_MeditationFocusDef.gd
+│   │   │   ├── CR_MemeDef.gd
+│   │   │   ├── CR_MemeGroupDef.gd
+│   │   │   ├── CR_MentalBreakDef.gd
+│   │   │   ├── CR_MentalStateDef.gd
+│   │   │   ├── CR_MessageTypeDef.gd
+│   │   │   ├── CR_NeedDef.gd
+│   │   │   ├── CR_OptionCategoryDef.gd
+│   │   │   ├── CR_OrderedTakeGroupDef.gd
+│   │   │   ├── CR_PathGridDef.gd
+│   │   │   ├── CR_PawnCapacityDef.gd
+│   │   │   ├── CR_PawnColumnDef.gd
+│   │   │   ├── CR_PawnGroupKindDef.gd
+│   │   │   ├── CR_PawnKindDef.gd
+│   │   │   ├── CR_PawnRelationDef.gd
+│   │   │   ├── CR_PawnRenderNodeTagDef.gd
+│   │   │   ├── CR_PawnRenderTreeDef.gd
+│   │   │   ├── CR_PawnTableDef.gd
+│   │   │   ├── CR_PawnsArrivalModeDef.gd
+│   │   │   ├── CR_PlaceDef.gd
+│   │   │   ├── CR_PlanetLayerDef.gd
+│   │   │   ├── CR_PlanetLayerSettingsDef.gd
+│   │   │   ├── CR_PreceptDef.gd
+│   │   │   ├── CR_PrefabDef.gd
+│   │   │   ├── CR_PrisonerInteractionModeDef.gd
+│   │   │   ├── CR_QuestScriptDef.gd
+│   │   │   ├── CR_RaidStrategyDef.gd
+│   │   │   ├── CR_RecipeDef.gd
+│   │   │   ├── CR_RecordDef.gd
+│   │   │   ├── CR_RenderSkipFlagDef.gd
+│   │   │   ├── CR_ResearchProjectDef.gd
+│   │   │   ├── CR_ResearchProjectTagDef.gd
+│   │   │   ├── CR_ResearchTabDef.gd
+│   │   │   ├── CR_ReservationLayerDef.gd
+│   │   │   ├── CR_RitualAttachableOutcomeEffectDef.gd
+│   │   │   ├── CR_RitualBehaviorDef.gd
+│   │   │   ├── CR_RitualObligationTargetFilterDef.gd
+│   │   │   ├── CR_RitualOutcomeEffectDef.gd
+│   │   │   ├── CR_RitualPatternDef.gd
+│   │   │   ├── CR_RitualTargetFilterDef.gd
+│   │   │   ├── CR_RitualVisualEffectDef.gd
+│   │   │   ├── CR_RiverDef.gd
+│   │   │   ├── CR_RoadDef.gd
+│   │   │   ├── CR_RoadPathingDef.gd
+│   │   │   ├── CR_RoadWorldLayerDef.gd
+│   │   │   ├── CR_RoofDef.gd
+│   │   │   ├── CR_RoomRoleDef.gd
+│   │   │   ├── CR_RoomStatDef.gd
+│   │   │   ├── CR_RoyalTitleDef.gd
+│   │   │   ├── CR_RoyalTitlePermitDef.gd
+│   │   │   ├── CR_RuleDef.gd
+│   │   │   ├── CR_RulePackDef.gd
+│   │   │   ├── CR_ScatterableDef.gd
+│   │   │   ├── CR_ScenPartDef.gd
+│   │   │   ├── CR_ScenarioDef.gd
+│   │   │   ├── CR_ShaderTypeDef.gd
+│   │   │   ├── CR_ShipJobDef.gd
+│   │   │   ├── CR_SitePartDef.gd
+│   │   │   ├── CR_SketchResolverDef.gd
+│   │   │   ├── CR_SkillDef.gd
+│   │   │   ├── CR_SlaveInteractionModeDef.gd
+│   │   │   ├── CR_SongDef.gd
+│   │   │   ├── CR_SoundDef.gd
+│   │   │   ├── CR_SpecialThingFilterDef.gd
+│   │   │   ├── CR_StatCategoryDef.gd
+│   │   │   ├── CR_StatDef.gd
+│   │   │   ├── CR_StorytellerDef.gd
+│   │   │   ├── CR_StuffAppearanceDef.gd
+│   │   │   ├── CR_StuffCategoryDef.gd
+│   │   │   ├── CR_StyleCategoryDef.gd
+│   │   │   ├── CR_StyleItemCategoryDef.gd
+│   │   │   ├── CR_SubcameraDef.gd
+│   │   │   ├── CR_SurgeryOutcomeEffectDef.gd
+│   │   │   ├── CR_TaleDef.gd
+│   │   │   ├── CR_TattooDef.gd
+│   │   │   ├── CR_TerrainAffordanceDef.gd
+│   │   │   ├── CR_TerrainDef.gd
+│   │   │   ├── CR_TerrainTemplateDef.gd
+│   │   │   ├── CR_ThingCategoryDef.gd
+│   │   │   ├── CR_ThingDef.gd
+│   │   │   ├── CR_ThingSetMakerDef.gd
+│   │   │   ├── CR_ThingStyleDef.gd
+│   │   │   ├── CR_ThinkTreeDef.gd
+│   │   │   ├── CR_ThoughtDef.gd
+│   │   │   ├── CR_TileMutatorDef.gd
+│   │   │   ├── CR_TimeAssignmentDef.gd
+│   │   │   ├── CR_TipSetDef.gd
+│   │   │   ├── CR_ToolCapacityDef.gd
+│   │   │   ├── CR_TraderKindDef.gd
+│   │   │   ├── CR_TrainabilityDef.gd
+│   │   │   ├── CR_TrainableDef.gd
+│   │   │   ├── CR_TraitDef.gd
+│   │   │   ├── CR_TransferableSorterDef.gd
+│   │   │   ├── CR_TransportShipDef.gd
+│   │   │   ├── CR_WeaponCategoryDef.gd
+│   │   │   ├── CR_WeaponClassDef.gd
+│   │   │   ├── CR_WeaponClassPairDef.gd
+│   │   │   ├── CR_WeaponTraitDef.gd
+│   │   │   ├── CR_WeatherDef.gd
+│   │   │   ├── CR_WorkGiverDef.gd
+│   │   │   ├── CR_WorkGiverEquivalenceGroupDef.gd
+│   │   │   ├── CR_WorkTypeDef.gd
+│   │   │   ├── CR_WorldGenStepDef.gd
+│   │   │   ├── CR_WorldObjectDef.gd
+│   │   │   ├── CR_jobDef.gd
+│   │   │   ├── CompProperties_AIUSablePack.gd
+│   │   │   ├── CompProperties_AbilityChunkskip.gd
+│   │   │   ├── CompProperties_AbilityConvert.gd
+│   │   │   ├── CompProperties_AbilityCounsel.gd
+│   │   │   ├── CompProperties_AbilityEffectWithDuration.gd
+│   │   │   ├── CompProperties_AbilityEffecterOnTarget.gd
+│   │   │   ├── CompProperties_AbilityFarskip.gd
+│   │   │   ├── CompProperties_AbilityFlashstorm.gd
+│   │   │   ├── CompProperties_AbilityFleckOnTarget.gd
+│   │   │   ├── CompProperties_AbilityForceJob.gd
+│   │   │   ├── CompProperties_AbilityGiveHediff.gd
+│   │   │   ├── CompProperties_AbilityGiveInspiration.gd
+│   │   │   ├── CompProperties_AbilityGiveMentalState.gd
+│   │   │   ├── CompProperties_AbilityNeuroquake.gd
+│   │   │   ├── CompProperties_AbilityOffsetPrisonerResistance.gd
+│   │   │   ├── CompProperties_AbilityReassure.gd
+│   │   │   ├── CompProperties_AbilityRequiresCapacity.gd
+│   │   │   ├── CompProperties_AbilitySmokepop.gd
+│   │   │   ├── CompProperties_AbilitySocialInteraction.gd
+│   │   │   ├── CompProperties_AbilitySpawn.gd
+│   │   │   ├── CompProperties_AbilityStartConversion.gd
+│   │   │   ├── CompProperties_AbilityStartRitual.gd
+│   │   │   ├── CompProperties_AbilityStartTrial.gd
+│   │   │   ├── CompProperties_AbilityStopMentalState.gd
+│   │   │   ├── CompProperties_AbilityTeleport.gd
+│   │   │   ├── CompProperties_AbilityTransferEntropy.gd
+│   │   │   ├── CompProperties_AbilityWallraise.gd
+│   │   │   ├── CompProperties_AbilityWaterskip.gd
+│   │   │   ├── CompProperties_AbilityWordOfLove.gd
+│   │   │   ├── CompProperties_AmbientSound.gd
+│   │   │   ├── CompProperties_ApparelReloadable.gd
+│   │   │   ├── CompProperties_Art.gd
+│   │   │   ├── CompProperties_AssignableToPawn.gd
+│   │   │   ├── CompProperties_Battery.gd
+│   │   │   ├── CompProperties_BiosculpterPod.gd
+│   │   │   ├── CompProperties_BiosculpterPod_AgeReversalCycle.gd
+│   │   │   ├── CompProperties_BiosculpterPod_HealingCycle.gd
+│   │   │   ├── CompProperties_BiosculpterPod_PleasureCycle.gd
+│   │   │   ├── CompProperties_BladelinkWeapon.gd
+│   │   │   ├── CompProperties_Book.gd
+│   │   │   ├── CompProperties_CameraShaker.gd
+│   │   │   ├── CompProperties_CanBeDormant.gd
+│   │   │   ├── CompProperties_CauseHediff_Apparel.gd
+│   │   │   ├── CompProperties_CausesGameCondition.gd
+│   │   │   ├── CompProperties_CausesGameCondition_ClimateAdjuster.gd
+│   │   │   ├── CompProperties_CausesGameCondition_PsychicEmanation.gd
+│   │   │   ├── CompProperties_DamageOnInterval.gd
+│   │   │   ├── CompProperties_DarklightOverlay.gd
+│   │   │   ├── CompProperties_DestroyAfterDelay.gd
+│   │   │   ├── CompProperties_Drug.gd
+│   │   │   ├── CompProperties_DryadCocoon.gd
+│   │   │   ├── CompProperties_Effecter.gd
+│   │   │   ├── CompProperties_EggLayer.gd
+│   │   │   ├── CompProperties_EmptyStateGraphic.gd
+│   │   │   ├── CompProperties_Explosive.gd
+│   │   │   ├── CompProperties_Facility.gd
+│   │   │   ├── CompProperties_FacilityInUse.gd
+│   │   │   ├── CompProperties_FadesInOut.gd
+│   │   │   ├── CompProperties_FireOverlay.gd
+│   │   │   ├── CompProperties_FireOverlayRitual.gd
+│   │   │   ├── CompProperties_FleckEmitter.gd
+│   │   │   ├── CompProperties_Flickable.gd
+│   │   │   ├── CompProperties_Forbiddable.gd
+│   │   │   ├── CompProperties_GeneratedName.gd
+│   │   │   ├── CompProperties_GiveHediffSeverity.gd
+│   │   │   ├── CompProperties_GiveThoughtToAllMapPawnsOnDestroy.gd
+│   │   │   ├── CompProperties_Glower.gd
+│   │   │   ├── CompProperties_Hackable.gd
+│   │   │   ├── CompProperties_HasSources.gd
+│   │   │   ├── CompProperties_Hatcher.gd
+│   │   │   ├── CompProperties_HeatPusher.gd
+│   │   │   ├── CompProperties_Hibernatable.gd
+│   │   │   ├── CompProperties_HoldingPlatformTarget.gd
+│   │   │   ├── CompProperties_Ingredients.gd
+│   │   │   ├── CompProperties_InspectString.gd
+│   │   │   ├── CompProperties_Interactable.gd
+│   │   │   ├── CompProperties_Launchable_TransportPod.gd
+│   │   │   ├── CompProperties_LeaveFilthOnDestroyed.gd
+│   │   │   ├── CompProperties_Lifespan.gd
+│   │   │   ├── CompProperties_Lightball.gd
+│   │   │   ├── CompProperties_LongRangeMineralScanner.gd
+│   │   │   ├── CompProperties_Maintainable.gd
+│   │   │   ├── CompProperties_Mannable.gd
+│   │   │   ├── CompProperties_MechGestatorTank.gd
+│   │   │   ├── CompProperties_MeditationFocus.gd
+│   │   │   ├── CompProperties_Milkable.gd
+│   │   │   ├── CompProperties_MoteEmitter.gd
+│   │   │   ├── CompProperties_MoteEmitterProximityScan.gd
+│   │   │   ├── CompProperties_MoteEmitterRandomColor.gd
+│   │   │   ├── CompProperties_NeuralSupercharger.gd
+│   │   │   ├── CompProperties_OrbitalBeam.gd
+│   │   │   ├── CompProperties_OverseerSubject.gd
+│   │   │   ├── CompProperties_PawnSpawnOnWakeup.gd
+│   │   │   ├── CompProperties_PlantDamager.gd
+│   │   │   ├── CompProperties_Plantable.gd
+│   │   │   ├── CompProperties_PlaySoundOnDestroy.gd
+│   │   │   ├── CompProperties_PolluteOverTime.gd
+│   │   │   ├── CompProperties_Power.gd
+│   │   │   ├── CompProperties_ProjectileInterceptor.gd
+│   │   │   ├── CompProperties_ProximityFuse.gd
+│   │   │   ├── CompProperties_Psylinkable.gd
+│   │   │   ├── CompProperties_Refuelable.gd
+│   │   │   ├── CompProperties_ReportWorkSpeed.gd
+│   │   │   ├── CompProperties_RitualEffectConstantCircle.gd
+│   │   │   ├── CompProperties_RitualEffectDrum.gd
+│   │   │   ├── CompProperties_RitualEffectIntervalSpawnArea.gd
+│   │   │   ├── CompProperties_RitualEffectIntervalSpawnCircle.gd
+│   │   │   ├── CompProperties_RitualEffectIntervalSpawnDividedCircle.gd
+│   │   │   ├── CompProperties_RitualEffectLightball.gd
+│   │   │   ├── CompProperties_RitualEffectSpawnOnPawn.gd
+│   │   │   ├── CompProperties_RitualEffectSpawnOnRole.gd
+│   │   │   ├── CompProperties_RitualEffectStaticAreaRandomMote.gd
+│   │   │   ├── CompProperties_RitualHediffGiverInRoom.gd
+│   │   │   ├── CompProperties_RitualTargetEffecterSpawner.gd
+│   │   │   ├── CompProperties_Rottable.gd
+│   │   │   ├── CompProperties_ScannerMineralsDeep.gd
+│   │   │   ├── CompProperties_Schedule.gd
+│   │   │   ├── CompProperties_SelfhealHitpoints.gd
+│   │   │   ├── CompProperties_SendSignalOnCountdown.gd
+│   │   │   ├── CompProperties_SendSignalOnMotion.gd
+│   │   │   ├── CompProperties_Shearable.gd
+│   │   │   ├── CompProperties_ShipLandingBeacon.gd
+│   │   │   ├── CompProperties_SkyfallerRandomizeDirection.gd
+│   │   │   ├── CompProperties_SmokeCloudMaker.gd
+│   │   │   ├── CompProperties_SpawnEffecterOnDestroy.gd
+│   │   │   ├── CompProperties_SpawnEffectersInRoom.gd
+│   │   │   ├── CompProperties_SpawnSubplant.gd
+│   │   │   ├── CompProperties_Spawner.gd
+│   │   │   ├── CompProperties_SpawnerFilth.gd
+│   │   │   ├── CompProperties_SpawnerPawn.gd
+│   │   │   ├── CompProperties_StopManhunter.gd
+│   │   │   ├── CompProperties_Studiable.gd
+│   │   │   ├── CompProperties_Stunnable.gd
+│   │   │   ├── CompProperties_TargetEffectResurrect.gd
+│   │   │   ├── CompProperties_TargetEffect_BrainDamageChance.gd
+│   │   │   ├── CompProperties_TargetEffect_FleckConnecting.gd
+│   │   │   ├── CompProperties_TargetEffect_FleckOnTarget.gd
+│   │   │   ├── CompProperties_TargetEffect_GoodwillImpact.gd
+│   │   │   ├── CompProperties_Targetable.gd
+│   │   │   ├── CompProperties_TempControl.gd
+│   │   │   ├── CompProperties_TemperatureRuinable.gd
+│   │   │   ├── CompProperties_TerrainPumpDry.gd
+│   │   │   ├── CompProperties_ThingContainer.gd
+│   │   │   ├── CompProperties_ThrownFleckEmitter.gd
+│   │   │   ├── CompProperties_ThrownMoteEmitter.gd
+│   │   │   ├── CompProperties_Transporter.gd
+│   │   │   ├── CompProperties_TreeConnection.gd
+│   │   │   ├── CompProperties_Usable.gd
+│   │   │   ├── CompProperties_UseEffect.gd
+│   │   │   ├── CompProperties_UseEffectArtifact.gd
+│   │   │   ├── CompProperties_UseEffectInstallImplant.gd
+│   │   │   ├── CompProperties_UseEffectPlaySound.gd
+│   │   │   ├── CompProperties_UseEffectPlayWarmupSound.gd
+│   │   │   ├── CompProperties_Useable_CallBossgroup.gd
+│   │   │   ├── CompProperties_WakeUpDormant.gd
 └── docs/
 │   ├── README.md
 │   ├── GDD/
 │   │   ├── 00_vision_globale.md
-│   │   ├── README.md
 │   │   ├── OWNERS.md
+│   │   ├── README.md
 │   │   ├── 01_systeme_monde/
 │   │   │   ├── 01_generation_procedurale.md
 │   │   │   ├── 02_biomes_et_environnement.md
 │   │   │   ├── 03_factions_et_relations.md
 │   │   │   ├── 04_voyages_et_caravanes.md
 │   │   │   ├── 05_artefacts_et_lieux_anciens.md
-│   │   │   ├── README.md
 │   │   ├── 02_systeme_conteur_ia/
 │   │   │   ├── 01_maitres_du_recit.md
 │   │   │   ├── 02_evenements_aleatoires.md
 │   │   │   ├── 03_quetes_et_scenarios.md
-│   │   │   ├── README.md
 │   │   ├── 03_systeme_personnages/
 │   │   │   ├── 01_creation_et_historique.md
 │   │   │   ├── 02_competences_et_traits.md
@@ -239,109 +3194,82 @@ GuildForge_Mobile/
 │   │   │   ├── 06_equipement_et_inventaire.md
 │   │   │   ├── 07_cycle_de_vie.md
 │   │   │   ├── 08_gestion_quotidienne.md
-│   │   │   ├── README.md
 │   │   ├── 04_systeme_faune_et_flore/
 │   │   │   ├── 01_animaux_sauvages_et_domestiques.md
 │   │   │   ├── 02_plantes_et_cultures.md
-│   │   │   ├── README.md
 │   │   ├── 05_systeme_construction/
 │   │   │   ├── 01_structures_et_mobilier.md
 │   │   │   ├── 02_zones_et_ordres.md
 │   │   │   ├── 03_temperature_et_confort.md
-│   │   │   ├── README.md
 │   │   ├── 06_systeme_ressources_et_production/
 │   │   │   ├── 01_collecte_et_extraction.md
 │   │   │   ├── 02_agriculture_et_elevage.md
 │   │   │   ├── 03_artisanat_et_fabrication.md
 │   │   │   ├── 04_gestion_des_stocks.md
 │   │   │   ├── 05_catalogue_objets.md
-│   │   │   ├── README.md
 │   │   ├── 07_systeme_recherche_et_progression/
 │   │   │   ├── 01_arbre_technologique_medieval.md
 │   │   │   ├── 02_inspiration_et_decouvertes.md
-│   │   │   ├── README.md
 │   │   ├── 08_systeme_combat/
 │   │   │   ├── 01_mecaniques_de_base.md
 │   │   │   ├── 02_equipement_et_armement.md
 │   │   │   ├── 03_ia_et_comportement_combat.md
 │   │   │   ├── 04_defense_de_la_colonie.md
-│   │   │   ├── README.md
 │   │   ├── 09_systeme_economie_et_commerce/
 │   │   │   ├── 01_marche_et_valeurs.md
 │   │   │   ├── 02_commerce_et_negociation.md
-│   │   │   ├── README.md
 │   │   ├── 10_design_artistique/
-│   │   │   ├── README.md
 │   │   │   ├── animations/
 │   │   │   │   ├── principes_animation.md
 │   │   │   │   ├── workflow_animation_godot.md
 │   │   │   ├── charte_graphique/
-│   │   │   │   ├── README.md
 │   │   │   │   ├── palette_couleurs.md
 │   │   │   │   ├── style_visuel.md
 │   │   │   │   ├── typographie.md
 │   │   │   ├── concepts_references/
-│   │   │   │   ├── README.md
 │   │   │   │   ├── concept_arts_personnages.md
 │   │   │   │   ├── references_environnement.md
-│   │   │   ├── textures_materiaux/
-│   │   │   │   ├── README.md
-│   │   │   │   ├── creation_materiaux_godot.md
-│   │   │   │   ├── formats_resolutions.md
 │   │   │   ├── modelisation_3d/
-│   │   │   │   ├── README.md
 │   │   │   │   ├── conventions_nommage_modeles.md
 │   │   │   │   ├── export_integration_godot.md
 │   │   │   │   ├── optimisation_polycount.md
+│   │   │   ├── textures_materiaux/
+│   │   │   │   ├── creation_materiaux_godot.md
+│   │   │   │   ├── formats_resolutions.md
 │   │   ├── 11_design_audio/
-│   │   │   ├── README.md
 │   │   │   ├── outils_et_workflow.md
 │   │   │   ├── design_sonore/
-│   │   │   │   ├── README.md
 │   │   │   │   ├── ambiance_effets_sonores.md
 │   │   │   │   ├── feedback_audio_ui.md
 │   │   │   ├── musique/
-│   │   │   │   ├── README.md
 │   │   │   │   ├── integration_musique_godot.md
 │   │   │   │   ├── themes_musicaux.md
 │   │   ├── 12_systeme_interface_et_ux/
 │   │   │   ├── 01_principes_directeurs_mobile.md
 │   │   │   ├── 02_maquettes_et_flux.md
-│   │   │   ├── README.md
 │   ├── PMD/
 │   │   ├── README.md
 │   │   ├── aspects_legaux.md
-│   │   ├── monetisation.md
-│   │   ├── risques.md
-│   │   ├── OWNERS.md
-│   │   ├── budget_ressources/
-│   │   │   ├── README.md
-│   │   │   ├── ressources_externes.md
-│   │   │   ├── suivi_budgetaire.md
-│   │   ├── communication_workflow/
-│   │   │   ├── README.md
-│   │   │   ├── dev_report_analysis.md
-│   │   │   ├── gestion_contributions.md
-│   │   │   ├── gestion_workflow.md
-│   │   │   ├── historique_decisions.md
-│   │   │   ├── strategie_dev_ia.md
+│   │   ├── conventions_generales.md
+│   │   ├── conventions_techniques.md
+│   │   ├── glossaire.md
+│   │   ├── modele_economique.md
+│   │   ├── principes_fondamentaux.md
 │   │   ├── feuille_route/
 │   │   │   ├── README.md
 │   │   │   ├── backlog_fonctionnalites.md
 │   │   │   ├── jalons_objectifs.md
-│   │   ├── retrospectives/
-│   │   │   ├── README.md
-│   │   ├── conventions_et_references/
-│   │   │   ├── README.md
-│   │   │   ├── conventions_codage.md
-│   │   │   ├── conventions_generales.md
-│   │   │   ├── conventions_nommage.md
-│   │   │   ├── glossaire.md
-│   │   │   ├── lignes_directrices_documentation.md
 │   ├── TDD/
-│   │   ├── README.md
-│   │   ├── securite.md
 │   │   ├── OWNERS.md
+│   │   ├── README.md
+│   │   ├── TDD-00_fondations_et_conventions.md
+│   │   ├── TDD-01_architecture_de_donnees.md
+│   │   ├── TDD-02_architecture_des_systemes_de_base.md
+│   │   ├── TDD-03_gestion_des_actifs_et_integration.md
+│   │   ├── TDD-04_specifications_des_systemes_de_jeu.md
+│   │   ├── TDD-05_operations_performance_et_extensibilite.md
+│   │   ├── TDD-FINAL_validation.md
+│   │   ├── securite.md
 │   │   ├── architecture_code/
 │   │   │   ├── README.md
 │   │   │   ├── conception_axee_donnees.md
@@ -349,6 +3277,7 @@ GuildForge_Mobile/
 │   │   │   ├── gestion_donnees_godot.md
 │   │   │   ├── gestion_etat_jeu.md
 │   │   │   ├── guide_integration_godot.md
+│   │   │   ├── integration_ia_technique.md
 │   │   │   ├── principes_design_logiciel.md
 │   │   │   ├── structure_projet_godot.md
 │   │   │   ├── vue_ensemble_scripts.md

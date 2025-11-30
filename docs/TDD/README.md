@@ -1,25 +1,15 @@
 # Technical Design Document (TDD)
 
-| Document | Statut |
-| :--- | :--- |
-| [OWNERS.md](./OWNERS.md) | Brouillon |
-| [architecture_code/conception_axee_donnees.md](./architecture_code/conception_axee_donnees.md) | Brouillon |
-| [architecture_code/conventions_nommage_code.md](./architecture_code/conventions_nommage_code.md) | Brouillon |
-| [architecture_code/gestion_donnees_godot.md](./architecture_code/gestion_donnees_godot.md) | Brouillon |
-| [architecture_code/gestion_etat_jeu.md](./architecture_code/gestion_etat_jeu.md) | Brouillon |
-| [architecture_code/guide_integration_godot.md](./architecture_code/guide_integration_godot.md) | Brouillon |
-| [architecture_code/integration_ia_technique.md](./architecture_code/integration_ia_technique.md) | Brouillon |
-| [architecture_code/principes_design_logiciel.md](./architecture_code/principes_design_logiciel.md) | Brouillon |
-| [architecture_code/structure_projet_godot.md](./architecture_code/structure_projet_godot.md) | Brouillon |
-| [architecture_code/vue_ensemble_scripts.md](./architecture_code/vue_ensemble_scripts.md) | Brouillon |
-| [deploiement_tests/deploiement_stores.md](./deploiement_tests/deploiement_stores.md) | Brouillon |
-| [deploiement_tests/outils_debug.md](./deploiement_tests/outils_debug.md) | Brouillon |
-| [deploiement_tests/processus_build_android.md](./deploiement_tests/processus_build_android.md) | Brouillon |
-| [deploiement_tests/strategies_tests.md](./deploiement_tests/strategies_tests.md) | Brouillon |
-| [donnees_externes/data_definitions_xml_originaux.md](./donnees_externes/data_definitions_xml_originaux.md) | Brouillon |
-| [optimisation_performance/strategies_optimisation.md](./optimisation_performance/strategies_optimisation.md) | Brouillon |
-| [outils_environnement/configuration_environnement_mobile.md](./outils_environnement/configuration_environnement_mobile.md) | Brouillon |
-| [outils_environnement/configuration_godot.md](./outils_environnement/configuration_godot.md) | Brouillon |
-| [outils_environnement/gestion_versions_git.md](./outils_environnement/gestion_versions_git.md) | Brouillon |
-| [outils_environnement/outils_externes.md](./outils_environnement/outils_externes.md) | Brouillon |
-| [securite.md](./securite.md) | Brouillon |
+Ce document sert de table des matières pour le Technical Design Document (TDD) du projet GuildForge_Mobile.
+
+Le TDD est structuré en sections numérotées (TDD-XX) qui couvrent l'intégralité des spécifications techniques du projet.
+
+| Document | Titre | Statut |
+| :--- | :--- | :--- |
+| [TDD-00_fondations_et_conventions.md](./TDD-00_fondations_et_conventions.md) | Fondations et Conventions | Brouillon |
+| [TDD-01_architecture_de_donnees.md](./TDD-01_architecture_de_donnees.md) | Architecture de Données | Brouillon |
+| [TDD-02_architecture_des_systemes_de_base.md](./TDD-02_architecture_des_systemes_de_base.md) | Architecture des Systèmes de Base | Brouillon |
+| [TDD-03_gestion_des_actifs_et_integration.md](./TDD-03_gestion_des_actifs_et_integration.md) | Gestion des Actifs et Intégration | Brouillon |
+| [TDD-04_specifications_des_systemes_de_jeu.md](./TDD-04_specifications_des_systemes_de_jeu.md) | Spécifications des Systèmes de Jeu | Brouillon |
+| [TDD-05_operations_performance_et_extensibilite.md](./TDD-05_operations_performance_et_extensibilite.md) | Opérations, Performance et Extensibilité | Brouillon |
+
