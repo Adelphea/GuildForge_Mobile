@@ -1,5 +1,0 @@
----
-Statut: Brouillon
----
-
-_to_write="""# Formats et Résolutions des Textures - GuildForge Mobile**Auteur :** Manus AI  **Date :** 12 Octobre 2025  **Version :** 1.2  **Tags :** [art, textures, formats, résolutions, optimisation, mobile, Godot, performance]Ce document établit les directives concernant les formats et les résolutions des textures utilisées dans GuildForge Mobile. L
