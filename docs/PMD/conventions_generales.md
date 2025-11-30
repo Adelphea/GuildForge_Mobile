@@ -46,7 +46,8 @@ Ces règles garantissent la cohérence de l'arborescence du dépôt.
 | 16 | **Nommage Général** | Utilisation du **`snake_case`** (minuscules et underscores) pour tous les noms de dossiers et de fichiers Markdown. | `conventions_et_references`, `principes_fondamentaux.md` |
 | 17 | **Nommage Spécifique** | Les fichiers de haut niveau (`CONTRIBUTING.md`, `README.md`) peuvent utiliser des majuscules. Les sections principales du GDD doivent utiliser une numérotation à deux chiffres. | `01_monde_du_jeu.md` |
 | 18 | **Nommage Godot (Scripts/Scènes)** | Les scripts Godot (`.gd`) et les scènes (`.tscn`) doivent utiliser le **`PascalCase`**. | `DefManager.gd`, `MainMenu.tscn` |
-| 19 | **Nommage Godot (Resources/Assets)** | Les ressources Godot (`.tres`) doivent utiliser le **`snake_case`** pour les instances de données. Les noms d'assets doivent suivre les conventions définies dans `conventions_techniques.md`. | `player_stats.tres` |
+| 19 | **Nommage Godot (Resources/Assets)** | Les ressources Godot (`.tres`) doivent utiliser le **`snake_case`** pour les instances de données. | `player_stats.tres` |
+| 20 | **Nommage des Assets 3D** | Utilisation de préfixes pour les modèles 3D (`SM_` pour Static Mesh, `SK_` pour Skeletal Mesh) et les matériaux (`MAT_`). Le format est `[Préfixe]_[NomObjet]_[Variante]`. | `SM_Wall_Stone`, `SK_Colon_Male` |
 
 ## IV. Conventions de Commit
 

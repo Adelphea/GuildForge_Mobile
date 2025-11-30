@@ -74,3 +74,17 @@ Ces règles couvrent les aspects d'industrialisation et de gestion de projet.
 
 ---
 *Ce document est soumis à validation avant d'être intégré au dépôt.*
+
+
+## V. Conventions de Production Audio et Workflow
+
+Ces règles couvrent les outils, le workflow et les spécifications techniques pour la production et l'intégration des assets audio.
+
+| # | Règle | Domaine | Implication Clé |
+| :--- | :--- | :--- | :--- |
+| 37 | **Outils de Production** | Workflow | Utilisation recommandée de DAW (Reaper/LMMS) et d'éditeurs audio (Audacity) pour la création et l'édition. |
+| 38 | **Format Audio** | Optimisation | Utilisation du format **OGG Vorbis** pour la musique et les sons longs, et **WAV** pour les sons courts et critiques (UI Clicks). |
+| 39 | **Compression Mobile** | Optimisation | Exporter les fichiers audio dans des formats compressés adaptés au jeu mobile (OGG Vorbis recommandé, ADPCM pour SFX courts). |
+| 40 | **Workflow de Création** | Workflow | Le processus doit inclure la Conception Sonore, l'Enregistrement/Génération, l'Édition/Traitement et le Mixage. |
+| 41 | **Intégration Godot** | Architecture | Configurer les propriétés d'importation (bouclage, compression) et assigner les sons aux **Bus Audio** appropriés (Musique, SFX, UI). |
+| 42 | **Gestion de la Mémoire** | Performance | La musique de fond et les sons longs doivent être chargés en *streaming* pour éviter de bloquer la mémoire au chargement. |

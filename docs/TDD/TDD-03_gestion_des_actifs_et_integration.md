@@ -65,7 +65,31 @@ res://assets/
 *   **Règle :** Tout actif importé doit passer par un processus d'importation automatisé (scripts Godot ou outils externes) pour appliquer les règles de compression et de nommage.
 *   **Exemple :** Un script doit vérifier que toutes les textures dans `res://assets/sprites/` sont importées avec la compression ETC2.
 
-## IV. Historique des Révisions
+
+
+## IV. Pipeline d'Intégration des Assets 2D
+
+Cette section détaille le workflow technique pour l'intégration des assets 2D (sprites, animations) et audio, de la création à l'importation dans Godot.
+
+### IV.1. Workflow d'Animation 2D (Spritesheets)
+
+1.  **Préparation des Sprites :** Design des personnages/objets, découpage en frames et organisation en **Spritesheets** (PNG). L'utilisation de Spritesheets est impérative pour réduire les Draw Calls.
+2.  **Création des Animations :** Animation frame par frame, en s'assurant que les animations cycliques sont parfaitement bouclées.
+3.  **Intégration dans Godot :**
+    *   **`AnimatedSprite2D` :** Pour les animations simples.
+    *   **`AnimationPlayer` :** Pour les animations complexes et les transitions.
+    *   **`AnimationTree` :** Pour la gestion des états d'animation complexes (ex: `StateMachine`).
+
+### IV.2. Spécifications Techniques des Assets 2D
+
+| Type d'Asset | Spécification Technique | Limite/Recommandation |
+| :--- | :--- | :--- |
+| **Spritesheets** | Résolution | Max 1024x1024 pour les assets principaux, 512x512 pour les assets secondaires. |
+| **Spritesheets** | Format | PNG avec transparence. Utilisation de la compression VRAM (ETC2/ASTC) pour toutes les textures. |
+| **Audio** | Format | OGG Vorbis pour la musique/ambiances, WAV pour les SFX courts. |
+| **Audio** | Gestion | Chargement en *streaming* pour la musique et les sons longs. |
+
+## V. Historique des Révisions
 
 | Version | Date | Auteur | Description |
 | :--- | :--- | :--- | :--- |
