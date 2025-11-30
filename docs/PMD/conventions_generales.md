@@ -21,6 +21,7 @@ Ces règles garantissent l'uniformité, la cohérence et la qualité du contenu.
 | 5 | **Formatage du Texte** | Utiliser la police **grasse** pour les termes clés. Utiliser les `backticks` pour les noms de fichiers, de classes, de variables ou de fonctions. | Améliore la lisibilité et le scan rapide. |
 | 6 | **Structuration du Texte** | Chaque section doit commencer par un paragraphe d'introduction. Utiliser les blocs de citation (`>`) pour les définitions formelles. | Assure une transition fluide et met en évidence les informations clés. |
 | 7 | **Chiffres et Listes** | Écrire les chiffres de zéro à neuf en toutes lettres. Réserver les listes numérotées aux étapes séquentielles et les listes à puces aux énumérations simples. | Améliore la qualité rédactionnelle et la clarté procédurale. |
+| 8 | **Cohérence du Lore (Backstories)** | Les backstories (historiques de colons) doivent être validées pour s'assurer qu'elles sont compatibles avec l'univers médiéval-fantastique du jeu et qu'elles ne contiennent pas de références anachroniques ou hors-sujet. | Maintient la cohérence narrative du jeu. |
 
 ## II. Conventions de Documentation (Format et Structure)
 

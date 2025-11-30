@@ -83,6 +83,15 @@ Cette section détaille la gestion des données mutables (état de la partie).
 *   **Versionnage :** Chaque fichier de sauvegarde doit inclure un numéro de version du jeu.
 *   **Migration :** Le système de chargement doit inclure un mécanisme de migration (`SaveMigrator`) pour mettre à jour les anciennes versions de sauvegarde vers la version actuelle.
 
+### II.3. Spécification des Custom Resources (CR) pour Personnages
+
+Les définitions de personnages doivent inclure des CR spécifiques pour les traits et les historiques, qui sont des données immuables.
+
+| Élément | Règle Impérative | Justification |
+| :--- | :--- | :--- |
+| **CR_TraitDef** | Définit les traits de caractère (nom, description, effets sur les statistiques). | Permet l'ajout de nouveaux traits sans modifier le code. |
+| **CR_BackstoryDef** | Définit les historiques (enfance, âge adulte) avec leurs impacts sur les compétences et les traits. | Assure la cohérence de la génération des colons. |
+
 ## V. Historique des Révisions
 
 | Version | Date | Auteur | Description |

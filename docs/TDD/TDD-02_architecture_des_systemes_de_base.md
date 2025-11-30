@@ -38,6 +38,20 @@ La communication entre les systèmes et les composants doit se faire principalem
 
 ## II. Structure de l'Arborescence Fonctionnelle (Scene Tree)
 
+### II.3. Système de Génération de Monde (World Generation System)
+
+Le système de génération de monde est un composant critique qui doit être géré de manière asynchrone pour respecter le principe de **Performance Mobile** (Principe 1).
+
+| Composant | Rôle | Implémentation Technique |
+| :--- | :--- | :--- |
+| **WorldGenerator** | Singleton responsable de l'exécution de l'algorithme de génération. | Script global (AutoLoad) qui gère le multithreading et le déterminisme via la `Seed`. |
+| **TileData** | Structure de données pour chaque tuile du Polyèdre de Goldberg. | `Custom Resource` Godot pour la sérialisation et le stockage des propriétés globales (Biome, Température, Humidité). |
+| **MapLoader** | Système responsable du chargement/déchargement des cartes locales. | Utilise le **Chargement Asynchrone** pour charger les données de la carte isométrique à partir du `map_data_path` de la `TileData`. |
+
+**Spécification Technique du Monde :**
+*   **Structure Géodésique :** Utilisation du **Polyèdre de Goldberg** pour la carte du monde (grille majoritairement hexagonale).
+*   **Performance :** La génération des cartes isométriques locales est **pré-calculée** et stockée, puis chargée de manière **asynchrone** pour minimiser les temps de chargement sur mobile.
+
 L'arborescence de scène (Scene Tree) doit être organisée de manière logique pour faciliter le débogage et la gestion des ressources.
 
 ### II.1. Nœuds Racines (Singletons)
@@ -85,8 +99,22 @@ Un `ScreenManager` (Singleton) doit gérer l'affichage et la transition entre le
 
 *   **Avantage :** Permet de décharger les scènes d'UI non utilisées pour optimiser la mémoire (Principe 1).
 
-## IV. Historique des Révisions
+## IV. Simulation Environnementale (Végétation et Faune)
+
+### IV.1. Cycle de Vie de la Végétation
+
+*   **Implémentation :** Le cycle de vie des plantes (croissance, floraison, récolte, dépérissement) doit être géré par un **Système ECS** qui itère sur les Entités `PlantComponent`.
+*   **Dépendance :** Les propriétés des plantes sont définies par des `CR_PlantDef` (TDD-01).
+*   **Mécanisme :** La croissance est basée sur la température, l'humidité et la fertilité de la tuile (GDD-01).
+
+### IV.2. Cycle de Vie de la Faune
+
+*   **Implémentation :** La reproduction, le vieillissement et la mort des animaux doivent être gérés par un **Système ECS** qui itère sur les Entités `AnimalComponent`.
+*   **Mécanisme :** La reproduction est basée sur la présence de partenaires, la saison et la capacité de charge du biome (GDD-01).
+
+## V. Historique des Révisions
 
 | Version | Date | Auteur | Description |
 | :--- | :--- | :--- | :--- |
 | 1.0 | 2025-11-30 | Manus (ACP) | Création du document spécifiant l'architecture ECS, la gestion d'état, la communication par Signals et la structure de l'arborescence. |
+| 1.1 | 2025-11-30 | Manus (AGDSE) | Intégration des spécifications techniques du Système de Génération de Monde (Polyèdre de Goldberg, TileData, Chargement Asynchrone) déplacées de GDD-01. |

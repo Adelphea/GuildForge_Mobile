@@ -72,6 +72,20 @@ L'Entité Colon doit être une composition des composants suivants (liste non ex
 
 ## V. Système de Santé et de Blessures (Hediffs)
 
+### V.4. Spécification des Dégâts et des Parties du Corps
+
+*   **Types de Dégâts :** Les types de dégâts (Tranchant, Contondant, Perforant, Brûlure) doivent être définis par des `CR_DamageDef` (TDD-01).
+*   **Localisation :** Le système doit gérer la localisation des dégâts sur les parties du corps définies par `CR_BodyPartDef` (TDD-01).
+
+## VII. Système de Tâches et de Priorités
+
+### VII.1. Logique de Tâches
+
+*   **Implémentation :** Les ordres de construction/travail sont des `TaskComponent` ajoutés à un `TaskManager` (Singleton).
+*   **Priorité :** Le système doit gérer une échelle de priorité des tâches (Priorité 1 à 4) pour la prise de décision de l'AI des colons.
+
+## VIII. Système de Construction et de Zones
+
 Ce système est critique pour la survie et la gestion des personnages. Il est basé sur le concept de **Hediffs** (Health Differences) de RimWorld.
 
 ### V.1. Architecture du Système
