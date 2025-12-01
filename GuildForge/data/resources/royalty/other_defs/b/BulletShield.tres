@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/b/BulletShield.tres")"
+label = "skipshield"
+description = "Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. The process is forceful enough to detonate explosive projectiles. People and items are not affected."
+level = "6"
+iconPath = "UI/Abilities/BulletShield"
+writeCombatLog = "True"
+hotKey = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Misc12.tres")"
+canUseAoeToGetTargets = "False"
+casterMustBeCapableOfViolence = "false"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(4), SubResource(5)]

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/e/Empire_Fighter_StellicGuardMelee.tres")"
+label = "stellic warden"
+titleSelectOne = SubResource(1)
+weaponTags = SubResource(2)
+apparelRequired = SubResource(3)
+skills = SubResource(4)
+initialResistanceRange = "19~30"

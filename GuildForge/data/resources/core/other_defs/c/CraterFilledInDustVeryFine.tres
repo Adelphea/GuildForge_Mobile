@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CraterFilledInDustVeryFine.tres")"
+randomGraphics = SubResource(1)
+altitudeLayer = "MoteOverhead"
+fadeInTime = "0.25"
+solidTime = "2"
+fadeOutTime = "1"

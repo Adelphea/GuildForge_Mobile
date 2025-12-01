@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/e/EditingPrecepts.tres")"
+label = "editing precepts"
+helpText = "You can edit precepts by clicking on them."
+priority = "1"
+gameMode = "Entry"
+highlightTags = SubResource(1)

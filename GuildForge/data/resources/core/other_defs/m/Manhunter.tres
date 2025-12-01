@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalStateDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalStateDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Manhunter.tres")"
+stateClass = "MentalState_Manhunter"
+label = "manhunter"
+category = "Aggro"
+nameColor = Vector3(0.9, 0.2, 0.5)
+beginLetter = "{0} has become a manhunter!"
+recoveryMessage = "{0}'s manhunting bloodlust has come to an end."
+baseInspectLine = "Maddened: Manhunter"
+inCaravanCanDo = "true"

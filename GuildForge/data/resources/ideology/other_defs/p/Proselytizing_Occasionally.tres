@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/Proselytizing_Occasionally.tres")"
+label = "occasional"
+description = "Those who know the truth should try to bring it to others, when it seems appropriate."
+displayOrderInIssue = "20"
+statFactors = SubResource(1)

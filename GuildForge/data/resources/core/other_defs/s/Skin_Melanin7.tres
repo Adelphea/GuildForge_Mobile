@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GeneDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GeneDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Skin_Melanin7.tres")"
+skinColorBase = Vector3(228, 158, 90)
+minMelanin = "0.75"

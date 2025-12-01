@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/MeatEating_Horrible.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/MeatEating.tres")"
+label = "horrible"
+description = "Eating meat of any kind is a horrible act."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/High.tres")"
+displayOrderInIssue = "10"
+displayOrderInImpact = "1000"
+exclusionTags = SubResource(1)
+disallowHuntingCamps = "true"
+comps = Array[SubResource(2), SubResource(3)]

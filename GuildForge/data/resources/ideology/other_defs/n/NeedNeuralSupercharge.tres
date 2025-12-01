@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/NeedNeuralSupercharge.tres")"
+thoughtClass = "Thought_Situational"
+workerClass = "ThoughtWorker_NeedNeuralSupercharge"
+validWhileDespawned = "true"
+minExpectation = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Moderate.tres")"
+doNotApplyToQuestLodgers = "true"
+stages = SubResource(1)

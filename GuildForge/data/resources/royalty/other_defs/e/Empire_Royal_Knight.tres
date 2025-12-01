@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/e/Empire_Royal_Knight.tres")"
+label = "knight"
+labelFemale = "dame"
+titleRequired = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/k/Knight.tres")"
+combatPower = "130"
+specificApparelRequirements = SubResource(1)
+apparelColor = Vector3(58, 58, 58)
+techHediffsMoney = "500~1000"
+initialWillRange = "10~13"
+initialResistanceRange = "38~58"
+useFactionXenotypes = "false"
+xenotypeSet = SubResource(9)

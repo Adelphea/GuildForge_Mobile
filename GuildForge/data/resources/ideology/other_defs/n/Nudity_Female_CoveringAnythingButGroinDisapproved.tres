@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/Nudity_Female_CoveringAnythingButGroinDisapproved.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/Nudity_Female.tres")"
+label = "pants at most"
+description = Color(Women should cover their groin, but may not cover anything else. Utility items like shields belts or jump packs are acceptable, as is wearing clothing during unsafe temperatures., 1.0)
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/High.tres")"
+displayOrderInIssue = "100"
+displayOrderInImpact = "750"
+comps = Array[SubResource(1), SubResource(2), SubResource(3), SubResource(4)]
+prefersNudity = "true"
+genderPrefersNudity = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Female.tres")"

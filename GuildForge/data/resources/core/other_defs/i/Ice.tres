@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/Ice.tres")"
+label = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/Ice.tres")"
+texturePath = "Terrain/Surfaces/Ice"
+edgeType = "FadeRough"
+renderPrecedence = "350"
+pathCost = "14"
+statBases = SubResource(1)
+scatterType = "SoftGray"
+tags = SubResource(2)
+affordances = SubResource(3)
+generatedFilth = "Filth_Dirt"
+fertility = "0.00"
+takeFootprints = "True"
+pollutedTexturePath = "Terrain/Surfaces/IcePolluted"
+pollutionOverlayTexturePath = "Terrain/Surfaces/PollutionIce"
+pollutionColor = Color((1, 1, 1, 1))
+pollutionCloudColor = Color((1, 1, 1, 0.66))
+canEverTerraform = "false"

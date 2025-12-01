@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ColorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ColorDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/l/LightSapphire.tres")"
+label = "light sapphire"
+color = Vector3(115, 171, 255)

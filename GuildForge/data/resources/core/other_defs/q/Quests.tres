@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MainButtonDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MainButtonDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/q/Quests.tres")"
+label = "quests"
+description = Color(View available, active, and historical quests., 1.0)
+tabWindowClass = "MainTabWindow_Quests"
+order = "65"
+defaultHotKey = "F7"
+validWithoutMap = "true"

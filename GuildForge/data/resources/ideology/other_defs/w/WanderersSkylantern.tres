@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/w/WanderersSkylantern.tres")"
+label = "Wanderers"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Special.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_WanderersSkylanterns"
+baseChance = "0"
+letterLabel = "Friendly visitors"
+letterText = "Your skylanterns have attracted some friendly travelers. The travelers were amazed by the spectacle you created and hope they'll get to participate next time.\n\nThey will visit and leave a gift."
+letterDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PositiveEvent.tres")"

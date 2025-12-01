@@ -1,0 +1,23 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Town_Councilman.tres")"
+label = "town councilman"
+labelPlural = "town councilmen"
+combatPower = "40"
+factionLeader = "true"
+minGenerationAge = "30"
+isFighter = "false"
+gearHealthRange = "1~1"
+itemQuality = "Good"
+weaponMoney = "200~200"
+weaponTags = SubResource(1)
+apparelMoney = "700~1200"
+apparelTags = SubResource(2)
+apparelRequired = SubResource(3)
+techHediffsChance = "0.15"
+techHediffsMoney = "600~1500"
+techHediffsTags = SubResource(4)
+initialWillRange = "3~5"
+initialResistanceRange = "7~11"

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/e/EditingMemes.tres")"
+label = "editing memes"
+helpText = "You can edit memes by clicking on them."
+priority = "10"
+gameMode = "Entry"
+highlightTags = SubResource(1)

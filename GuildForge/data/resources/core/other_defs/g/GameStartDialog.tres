@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ScenPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ScenPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GameStartDialog.tres")"
+label = "game start dialog"
+category = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Misc.tres")"
+scenPartClass = "ScenPart_GameStartDialog"
+maxUses = "1"

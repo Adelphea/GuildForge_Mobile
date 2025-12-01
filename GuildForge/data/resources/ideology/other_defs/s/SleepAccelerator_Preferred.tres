@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/SleepAccelerator_Preferred.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/SleepAccelerator.tres")"
+label = "preferred"
+description = "One should always use a sleep accelerator. Slow-sleeping is just foolishly wasting your potential."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Medium.tres")"
+requiredMemes = SubResource(1)
+comps = Array[SubResource(2)]

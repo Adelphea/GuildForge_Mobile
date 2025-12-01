@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/FlakArmor.tres")"
+label = "flak armor"
+description = "Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly."
+baseCost = "1200"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+researchViewX = "6.00"
+researchViewY = "4.10"
+generalRules = SubResource(3)

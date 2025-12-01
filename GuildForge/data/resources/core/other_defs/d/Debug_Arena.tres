@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorldObjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorldObjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Debug_Arena.tres")"
+label = "debug arena"
+worldObjectClass = "MapParent"
+texture = "World/WorldObjects/Ambush"
+comps = Array[SubResource(1)]

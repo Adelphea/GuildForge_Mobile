@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualPatternDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualPatternDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/CelebrationPartyChat.tres")"
+nameMaker = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/NamerRitualFestival.tres")"
+ritualExpectedDesc = "Every year on {DATE}, {MEMBERS} can have a special celebration."
+iconPathOverride = "UI/Icons/Rituals/RitualFestival"
+canStartAnytime = "true"
+ritualObligationTriggers = SubResource(1)
+ritualObligationTargetFilter = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/g/GatheringSpotOrAltar.tres")"
+ritualBehavior = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/d/DateRitual.tres")"
+ritualOutcomeEffect = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/CelebratedDate.tres")"
+tags = SubResource(3)
+patternGroupTag = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/CelebratedDate.tres")"

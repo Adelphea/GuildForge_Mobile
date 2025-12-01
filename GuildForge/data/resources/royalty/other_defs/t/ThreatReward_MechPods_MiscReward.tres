@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/t/ThreatReward_MechPods_MiscReward.tres")"
+rootSelectionWeight = "1.3"
+rootMinPoints = "400"
+expireDaysRange = "4~8"
+canGiveRoyalFavor = "true"
+questNameRules = SubResource(1)
+questDescriptionRules = SubResource(3)
+root = SubResource(5)

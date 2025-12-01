@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StorytellerDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StorytellerDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Randy.tres")"
+label = "Randy Random"
+description = Color(Randy doesn't follow rules. He'll generate random events, and he doesn't care if they make a story of triumph or utter hopelessness. It's all drama to him.\n\nWarning: Since Randy is truly random, he will sometimes send extremely difficult or unfair groups of events at you. It makes for high drama - and unavoidable sacrifices., 1.0)
+portraitLarge = "UI/HeroArt/Storytellers/RandyRandom"
+portraitTiny = "UI/HeroArt/Storytellers/RandyRandomTiny"
+listOrder = "40"
+comps = Array[SubResource(1), SubResource(4), SubResource(5), SubResource(6), SubResource(9), SubResource(10), SubResource(12), SubResource(14), SubResource(16), SubResource(21), SubResource(26), SubResource(28)]

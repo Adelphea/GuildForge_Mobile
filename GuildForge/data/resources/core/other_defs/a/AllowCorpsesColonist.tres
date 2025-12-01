@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AllowCorpsesColonist.tres")"
+label = "allow colonist corpses"
+description = "Allow the dead bodies of colonists."
+parentCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CorpsesHumanlike.tres")"
+allowedByDefault = "false"
+saveKey = "allowCorpsesColonist"
+workerClass = "SpecialThingFilterWorker_CorpsesColonist"

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/ColoredLights.tres")"
+label = "advanced lights"
+description = "Build powerful outdoors lights. Additionally, customize the color of electric lights and reduce their power consumption by half. This does not affect sun lamps."
+baseCost = "300"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+recalculatePower = "true"
+researchViewX = "6.00"
+researchViewY = "2.70"
+generalRules = SubResource(2)

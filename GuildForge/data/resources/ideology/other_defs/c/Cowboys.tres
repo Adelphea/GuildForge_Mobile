@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/Cowboys.tres")"
+label = "cowboys"
+description = "Men should keep a strong grip over their herds and their women. Raising animals for food is much better than farming plants. We don't tolerate arguments about any of this.\n\nUnlocks the animals specialist role."
+categoryDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/Strong.tres")"
+memes = SubResource(1)

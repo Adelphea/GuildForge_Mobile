@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/h/Harp.tres")"
+label = "harp"
+description = "Craft the harp, a simple stationary musical instrument popular among nobility in some cultures."
+baseCost = "500"
+techLevel = "Medieval"
+researchViewX = "1.00"
+researchViewY = "4.20"
+prerequisites = SubResource(1)
+generalRules = SubResource(2)

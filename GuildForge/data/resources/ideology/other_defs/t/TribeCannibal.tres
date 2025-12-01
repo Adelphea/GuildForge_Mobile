@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/TribeCannibal.tres")"
+label = "cannibal tribe"
+description = "These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particularly vicious tribe believes eating the flesh of their enemies is a great honor."
+requiredCountAtGameStart = "0"
+colorSpectrum = SubResource(1)
+factionIconPath = "World/WorldObjects/Expanding/CannibalTribe"
+permanentEnemy = "true"
+requiredMemes = SubResource(2)
+disallowedMemes = SubResource(3)
+maxConfigurableAtWorldCreation = "9999"
+configurationListOrderPriority = "31"
+startingCountAtWorldCreation = "0"

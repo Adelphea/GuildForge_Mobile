@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecordDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecordDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TimeHauling.tres")"
+label = "time hauling"
+description = "Total time spent hauling things."
+type = "Time"
+workerClass = "RecordWorker_TimeHauling"

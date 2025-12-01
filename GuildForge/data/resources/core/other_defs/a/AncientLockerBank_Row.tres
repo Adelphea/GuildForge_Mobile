@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PrefabDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PrefabDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AncientLockerBank_Row.tres")"
+edgeOnly = "true"
+size = Vector2(6, 1)
+things = SubResource(1)

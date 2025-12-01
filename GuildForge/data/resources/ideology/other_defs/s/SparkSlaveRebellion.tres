@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InteractionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InteractionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/SparkSlaveRebellion.tres")"
+label = "spark slave rebellion"
+symbol = "Things/Mote/SpeechSymbols/SparkSlaveRebellion"
+workerClass = "InteractionWorker_SparkSlaveRebellion"
+initiatorXpGainSkill = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Social.tres")"
+initiatorXpGainAmount = "230"
+logRulesInitiator = SubResource(1)

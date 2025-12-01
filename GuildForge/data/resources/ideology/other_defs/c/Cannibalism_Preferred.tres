@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/Cannibalism_Preferred.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cannibalism.tres")"
+label = "preferred"
+description = "To consume human meat is a noble and necessary part of life."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Medium.tres")"
+displayOrderInIssue = "10"
+displayOrderInImpact = "100"
+likesHumanLeatherApparel = "true"
+comps = Array[SubResource(1), SubResource(2), SubResource(3)]

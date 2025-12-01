@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MeleeDamageFactor.tres")"
+label = "melee damage factor"
+description = "A multiplier on the amount of melee damage inflicted by this person."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnCombat.tres")"
+toStringStyle = "PercentZero"
+defaultBaseValue = "1"
+hideAtValue = "1"
+minValue = "0.0001"
+displayPriorityInCategory = "5200"
+parts = SubResource(1)

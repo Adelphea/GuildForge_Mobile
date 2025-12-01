@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AdvancedFabrication.tres")"
+label = "advanced fabrication"
+description = "Fabricate advanced components from standard components and other materials."
+baseCost = "4000"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+requiredResearchBuilding = "HiTechResearchBench"
+requiredResearchFacilities = SubResource(2)
+researchViewX = "18.00"
+researchViewY = "3.00"
+generalRules = SubResource(3)

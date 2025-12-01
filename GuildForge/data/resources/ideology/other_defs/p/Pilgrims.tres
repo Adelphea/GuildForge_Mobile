@@ -1,0 +1,27 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/Pilgrims.tres")"
+label = "pilgrims"
+pawnSingular = "pilgrim"
+pawnsPlural = "pilgrims"
+categoryTag = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/Pilgrims.tres")"
+canSiege = "false"
+canStageAttacks = "false"
+hidden = "true"
+description = "A group of pilgrims seeking to venerate an ancient relic."
+factionIconPath = "World/WorldObjects/Expanding/SettlementTemporary"
+factionNameMaker = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/NamerFactionOutlander.tres")"
+settlementNameMaker = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/NamerSettlementOutlander.tres")"
+colorSpectrum = SubResource(1)
+generateNewLeaderFromMapMembersOnly = "true"
+leaderTitle = "leader"
+requiredCountAtGameStart = "0"
+mustStartOneEnemy = "false"
+techLevel = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/Neolithic.tres")"
+basicMemberKind = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/PovertyPilgrim.tres")"
+disallowedMemes = SubResource(2)
+xenotypeSet = SubResource(5)
+backstoryFilters = SubResource(15)
+settlementTexturePath = "World/WorldObjects/DefaultSettlement"

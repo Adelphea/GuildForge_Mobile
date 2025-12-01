@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PsychicSoothe.tres")"
+label = "psychic soothe"
+category = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Misc.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_PsychicSoothe"
+baseChance = "1.0"
+minRefireDays = "15"
+durationDays = "1.5~3.0"
+canOccurOnAllPlanetLayers = "true"

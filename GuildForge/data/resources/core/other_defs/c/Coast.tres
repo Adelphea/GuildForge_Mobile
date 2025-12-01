@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TileMutatorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TileMutatorDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Coast.tres")"
+label = "coast"
+description = "This tile borders the coast."
+categories = SubResource(1)
+workerClass = "TileMutatorWorker_Coast"
+genOrder = "100"

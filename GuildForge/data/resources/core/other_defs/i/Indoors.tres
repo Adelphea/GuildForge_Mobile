@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_NeedDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_NeedDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/i/Indoors.tres")"
+needClass = "Need_Indoors"
+label = "indoors"
+description = "Indoors expresses the need to feel safe within walls and under a roof. It improves when someone spends time inside."
+minIntelligence = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Humanlike.tres")"
+colonistAndPrisonersOnly = "true"
+onlyIfCausedByIdeo = "true"
+onlyIfCausedByHediff = "true"
+onlyIfCausedByTrait = "true"
+onlyIfCausedByGene = "true"
+listPriority = "100"
+freezeWhileSleeping = "true"

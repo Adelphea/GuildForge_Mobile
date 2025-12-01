@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeaponTraitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeaponTraitDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/t/ThoughtCalm.tres")"
+label = "calm thoughts"
+description = "This weapon's persona is relaxed and steady. It whispers calming thoughts to whoever it is bonded with, increasing their mood."
+bondedThought = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/b/BondedThoughtCalm.tres")"
+commonality = "1"
+marketValueOffset = "300"
+exclusionTags = SubResource(1)

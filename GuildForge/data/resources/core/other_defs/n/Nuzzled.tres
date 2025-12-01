@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/Nuzzled.tres")"
+durationDays = "1"
+stackLimit = "3"
+stackedEffectMultiplier = "0.5"
+stagesStack = "true"
+developmentalStageFilter = Color(Baby, Child, Adult, 1.0)
+nullifyingTraits = SubResource(1)
+nullifyingHediffs = SubResource(2)
+stages = SubResource(4)

@@ -1,0 +1,34 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DifficultyDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DifficultyDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/Easy.tres")"
+label = "community builder"
+description = "Build a community with a taste of danger. Threats appear, but they're weakened.
+
+(*SectionTitle)Recommended for:(/SectionTitle)
+
+- Players who are new to this kind of game.
+- Players who want to build a perfect colony.
+- Players who want to relax."
+difficulty = "1"
+threatScale = "0.30"
+predatorsHuntHumanlikes = "false"
+colonistMoodOffset = "10"
+cropYieldFactor = "1.20"
+mineYieldFactor = "1.20"
+researchSpeedFactor = "1.20"
+diseaseIntervalFactor = "2.5"
+enemyReproductionRateFactor = "0.15"
+playerPawnInfectionChanceFactor = "0.5"
+deepDrillInfestationChanceFactor = "0.25"
+wastepackInfestationChanceFactor = "0.25"
+nomadicMineableResourcesFactor = "0.75"
+foodPoisonChanceFactor = "0.5"
+maintenanceCostFactor = "1"
+enemyDeathOnDownedChanceFactor = "0.90"
+adaptationGrowthRateFactorOverZero = "0.25"
+scariaRotChance = "0.000"
+allowExtremeWeatherIncidents = "false"
+minThreatPointsRangeCeiling = "45"
+studyEfficiencyFactor = "1.2"

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+maxValue = "1.5"
+toStringStyle = "PercentZero"
+capacityFactors = SubResource(1)

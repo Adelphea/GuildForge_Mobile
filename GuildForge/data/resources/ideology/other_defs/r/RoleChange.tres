@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualOutcomeEffectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualOutcomeEffectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/RoleChange.tres")"
+description = "A new role will be assigned to a colonist."
+workerClass = "RitualOutcomeEffectWorker_RoleChange"
+extraPredictedOutcomeDescriptions = SubResource(1)
+comps = Array[SubResource(2)]
+outcomeChances = SubResource(3)

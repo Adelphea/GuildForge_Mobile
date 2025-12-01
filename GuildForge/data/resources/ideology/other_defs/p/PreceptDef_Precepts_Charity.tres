@@ -1,0 +1,5 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+comps = Array[SubResource(1), SubResource(2), SubResource(3), SubResource(4), SubResource(5), SubResource(6), SubResource(7)]

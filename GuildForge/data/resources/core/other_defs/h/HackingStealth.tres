@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/HackingStealth.tres")"
+label = "hacking stealth"
+description = "How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnWork.tres")"
+defaultBaseValue = "100"
+minValue = "10"
+skillNeedFactors = SubResource(1)
+scenarioRandomizable = "true"
+displayPriorityInCategory = "4509"

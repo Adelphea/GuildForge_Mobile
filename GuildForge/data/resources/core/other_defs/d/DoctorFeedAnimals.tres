@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DoctorFeedAnimals.tres")"
+label = "feed animals"
+giverClass = "WorkGiver_FeedPatient"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Doctor.tres")"
+verb = "feed"
+gerund = "feeding"
+priorityInType = "40"
+requiredCapacities = SubResource(1)
+prioritizeSustains = "true"
+feedAnimalsOnly = "true"
+equivalenceGroup = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/FeedPatientAnimals.tres")"
+canBeDoneByMechs = "false"

@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Riverbank.tres")"
+label = "riverbank"
+texturePath = "Terrain/Surfaces/Riverbank"
+pollutedTexturePath = "Terrain/Surfaces/RiverbankPolluted"
+edgeType = "FadeRough"
+categoryType = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Soil.tres")"
+renderPrecedence = "339"
+pathCost = "4"
+statBases = SubResource(1)
+scatterType = "Rocky"
+affordances = SubResource(2)
+generatedFilth = "Filth_Dirt"
+fertility = "1.4"
+takeFootprints = "True"
+tools = SubResource(3)
+tags = SubResource(6)

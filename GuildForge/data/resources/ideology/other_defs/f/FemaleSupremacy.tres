@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/FemaleSupremacy.tres")"
+label = "female supremacy"
+description = "Women are the superior gender and should rule."
+iconPath = "UI/Memes/SupremacyFemale"
+impact = "2"
+generalRules = SubResource(1)
+descriptionMaker = SubResource(3)
+symbolPacks = SubResource(6)
+agreeableTraits = SubResource(11)

@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/Nudism.tres")"
+label = "nudism"
+description = Color(Clothing binds, controls, and suffocates us. We should all hang free., 1.0)
+iconPath = "UI/Memes/Nudism"
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Misc.tres")"
+impact = "3"
+renderOrder = "999"
+preventApparelRequirements = "true"
+consumableBuildings = SubResource(1)
+requireOne = SubResource(2)
+generalRules = SubResource(5)
+descriptionMaker = SubResource(7)
+symbolPacks = SubResource(10)
+styleItemTags = SubResource(13)
+agreeableTraits = SubResource(15)

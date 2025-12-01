@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/ButcherCorpseMechanoid.tres")"
+label = "shred mechanoid"
+description = "Shred a dead mechanoid to try to salvage usable material."
+jobString = "Shredding mechanoid."
+workAmount = "300"
+soundWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Recipe_ButcherCorpseMechanoid.tres")"

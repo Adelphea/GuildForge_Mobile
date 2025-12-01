@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/SpouseCount_Male_MaxTwo.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SpouseCount_Male.tres")"
+label = "two or fewer"
+description = "Men may have up to two spouses."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Medium.tres")"
+displayOrderInIssue = "70"
+displayOrderInImpact = "-100"
+associatedMemes = SubResource(1)
+comps = Array[SubResource(2), SubResource(3), SubResource(4)]

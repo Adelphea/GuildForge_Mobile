@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+renderPrecedence = "220"
+description = "Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources."
+texturePath = "Terrain/Surfaces/Flagstone"
+pollutionShaderType = SubResource(1)
+pollutionOverlayTexturePath = "Terrain/Surfaces/PollutionFloorSmooth"
+pollutionColor = Color((1, 1, 1, 1))
+resourcesFractionWhenDeconstructed = "0"
+isPaintable = "true"
+statBases = SubResource(2)
+designatorDropdown = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Floor_Flagstone.tres")"
+tags = SubResource(3)
+uiOrder = "2070"

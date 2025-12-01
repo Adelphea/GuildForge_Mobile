@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnCapacityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnCapacityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Breathing.tres")"
+label = "breathing"
+listOrder = "80"
+workerClass = "PawnCapacityWorker_Breathing"
+lethalFlesh = "true"
+showOnMechanoids = "false"
+showOnAnomalyEntities = "false"
+showOnDrones = "false"

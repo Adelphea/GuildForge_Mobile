@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CookMealLavish_Veg.tres")"
+label = "cook vegetarian lavish meal"
+description = "Cook a very complex meal from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies."
+jobString = "Cooking vegetarian lavish meal."
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)
+products = SubResource(7)
+displayPriority = "800"

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/ReleasePrisoner.tres")"
+label = "release prisoners"
+giverClass = "WorkGiver_Warden_ReleasePrisoner"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/Warden.tres")"
+verb = "release"
+gerund = "releasing"
+priorityInType = "100"
+requiredCapacities = SubResource(1)
+equivalenceGroup = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/ReleasePrisoner.tres")"

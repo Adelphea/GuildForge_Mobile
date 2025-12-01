@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+layerable = "true"
+bridge = "true"
+isFoundation = "true"
+isPaintable = "true"
+designationCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Structure.tres")"
+fertility = "0"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Bridgeable.tres")"
+preventCraters = "true"
+edgeType = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hard.tres")"
+renderPrecedence = "400"
+autoRebuildable = "true"
+tags = SubResource(1)
+drawStyleCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Foundations.tres")"
+destroyBuildingsOnDestroyed = "true"
+destroyEffect = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Bridge_Collapse.tres")"
+destroyEffectWater = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Bridge_CollapseWater.tres")"
+cropIcon = "false"

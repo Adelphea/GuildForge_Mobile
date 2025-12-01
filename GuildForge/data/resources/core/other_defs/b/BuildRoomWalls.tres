@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BuildRoomWalls.tres")"
+text = "Awesome! Next, we'll build a room.\n\n1. Click ARCHITECT.\n2. Click STRUCTURE.\n3. Select WALL.\n4. Select WOOD as the material.\n5. Drag out four walls to form the shape indicated on the map."
+instructionClass = "Instruction_BuildRoomWalls"
+eventTagInitiate = "InstructionDeactivated-UnforbidStartingResources"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+rejectInputMessage = "Please build wooden walls along the edges of the highlighted rectangle."
+onMapInstruction = "Build walls"
+resetBuildDesignatorStuffs = "true"

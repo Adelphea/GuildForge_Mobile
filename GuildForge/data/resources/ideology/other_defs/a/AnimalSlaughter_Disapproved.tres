@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/AnimalSlaughter_Disapproved.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/AnimalSlaughter.tres")"
+label = "disapproved"
+description = "To slaughter an animal is an ugly thing."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Low.tres")"
+displayOrderInImpact = "1000"
+displayOrderInIssue = "0"
+exclusionTags = SubResource(1)
+conflictingMemes = SubResource(2)
+associatedMemes = SubResource(3)
+disallowHuntingCamps = "true"
+comps = Array[SubResource(4), SubResource(5), SubResource(6)]

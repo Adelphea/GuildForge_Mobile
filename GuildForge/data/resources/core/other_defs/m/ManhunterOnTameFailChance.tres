@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnColumnDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnColumnDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/ManhunterOnTameFailChance.tres")"
+workerClass = "PawnColumnWorker_ManhunterOnTameFailChance"
+headerIcon = "World/WorldObjects/Expanding/Sites/Manhunters"
+headerTip = "The chance that this creature will attack when a tamer tries to tame it and fails."
+width = "45"
+sortable = "true"

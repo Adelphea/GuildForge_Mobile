@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DeepDrilling.tres")"
+label = "deep drilling"
+description = "Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources."
+baseCost = "1000"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+requiredResearchBuilding = "HiTechResearchBench"
+researchViewX = "13.00"
+researchViewY = "4.20"
+generalRules = SubResource(2)

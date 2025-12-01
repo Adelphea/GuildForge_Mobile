@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Tame.tres")"
+label = "tame animals"
+giverClass = "WorkGiver_Tame"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Handling.tres")"
+verb = "tame"
+gerund = "taming"
+priorityInType = "80"
+tagToGive = "Fieldwork"
+requiredCapacities = SubResource(1)

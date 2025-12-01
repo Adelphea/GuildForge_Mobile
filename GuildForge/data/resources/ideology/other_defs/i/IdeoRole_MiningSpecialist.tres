@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/i/IdeoRole_MiningSpecialist.tres")"
+label = "mining specialist"
+description = "A special ideoligious status focusing on mining to the exclusion of all else. This specialized role gives increased mining speed, and the ability to boost the mining speed of nearby allies. Holders of this role will refuse to do some non-mining work."
+iconPath = "UI/Roles/SpecialistMining"
+nameMaker = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/NamerRoleMiner.tres")"
+roleRequirements = SubResource(1)
+roleRequiredWorkTagAny = SubResource(4)
+roleTags = SubResource(5)
+requiredMemes = SubResource(6)
+roleEffects = SubResource(7)
+grantedAbilities = SubResource(9)
+displayOrderInImpact = "2"
+roleDisabledWorkTags = SubResource(10)

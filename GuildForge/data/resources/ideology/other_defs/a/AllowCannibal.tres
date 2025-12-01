@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/AllowCannibal.tres")"
+label = "allow food with human meat"
+description = "Allow food that is acceptable to cannibals (i.e. it contains human meat). This accounts for meals whose classification depends on their ingredients."
+parentCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Foods.tres")"
+allowedByDefault = "true"
+saveKey = "allowCannibal"
+workerClass = "SpecialThingFilterWorker_Cannibal"

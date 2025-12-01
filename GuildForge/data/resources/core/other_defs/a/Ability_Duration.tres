@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/Ability_Duration.tres")"
+label = "duration"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/Ability.tres")"
+description = "How long the effects of this ability last."
+defaultBaseValue = "0"
+minValue = "0"
+hideAtValue = "0"
+formatString = "{0} s"
+showIfUndefined = "false"
+displayPriorityInCategory = "999"

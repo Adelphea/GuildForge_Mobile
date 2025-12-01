@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeatherDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeatherDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/u/Underground.tres")"
+label = "underground"
+description = "There is no weather underground."
+repeatable = "true"
+favorability = "Good"
+perceivePriority = "0"
+skyColorsDay = SubResource(1)
+skyColorsDusk = SubResource(2)
+skyColorsNightEdge = SubResource(3)
+skyColorsNightMid = SubResource(4)

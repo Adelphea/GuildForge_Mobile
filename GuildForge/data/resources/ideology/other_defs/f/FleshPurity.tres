@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/FleshPurity.tres")"
+label = "flesh purity"
+description = "The human body should not be debased."
+iconPath = "UI/Memes/FleshPurity"
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Misc.tres")"
+impact = "2"
+renderOrder = "60"
+consumableBuildings = SubResource(1)
+exclusionTags = SubResource(2)
+requireOne = SubResource(3)
+generalRules = SubResource(6)
+descriptionMaker = SubResource(8)
+symbolPacks = SubResource(11)
+styleItemTags = SubResource(15)
+agreeableTraits = SubResource(20)
+disagreeableTraits = SubResource(21)

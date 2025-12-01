@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoyalTitleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoyalTitleDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/d/Duke.tres")"
+label = "dominus"
+description = "The Imperial title of dominus is the highest of the middle-ranked independent rulers.\n\nIn the Empire, domini control provinces, mega-cities, or moons. At war, a dominus can field a division-level force, or a fleet with capital ships and dozens of support craft."
+seniority = "700"
+commonality = "1"
+recruitmentResistanceOffset = "125"
+requiredApparel = SubResource(1)

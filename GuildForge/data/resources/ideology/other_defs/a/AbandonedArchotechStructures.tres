@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorldObjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorldObjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/AbandonedArchotechStructures.tres")"
+label = "archotech structure"
+worldObjectClass = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/AbandonedArchotechStructures.tres")"
+description = "An archotech structure that you can study."
+texture = "World/WorldObjects/ArchotechStructure"
+expandingIcon = "true"
+expandingIconTexture = "World/WorldObjects/Expanding/ArchotechStructure"
+canBePlayerHome = "true"

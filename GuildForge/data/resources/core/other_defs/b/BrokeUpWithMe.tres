@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BrokeUpWithMe.tres")"
+thoughtClass = "Thought_MemorySocial"
+developmentalStageFilter = "Adult"
+durationDays = "60"
+stackLimit = "300"
+stackLimitForSameOtherPawn = "1"
+stages = SubResource(1)
+thoughtToMake = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BrokeUpWithMeMood.tres")"

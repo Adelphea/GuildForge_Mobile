@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/e/Empire_Royal_NobleWimp.tres")"
+label = "noble"
+combatPower = "40"
+titleSelectOne = SubResource(1)
+specificApparelRequirements = SubResource(2)
+weaponTags = SubResource(11)
+techHediffsMoney = "0"
+disallowedTraits = SubResource(12)
+allowRoyalRoomRequirements = "False"
+allowRoyalApparelRequirements = "False"
+initialWillRange = "5~7"
+initialResistanceRange = "26~40"
+humanPregnancyChance = "0"
+useFactionXenotypes = "false"
+xenotypeSet = SubResource(13)

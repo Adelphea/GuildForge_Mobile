@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/Cannibals.tres")"
+label = "cannibals"
+description = Color(The flesh of man and woman is the highest form of sustenance. Also, it's just delicious.\n\nWill have gladiator duels, prisoner sacrifices, and human meat feasts.)
+categoryDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/Strong.tres")"
+memes = SubResource(1)

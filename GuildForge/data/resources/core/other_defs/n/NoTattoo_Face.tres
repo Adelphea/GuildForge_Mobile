@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TattooDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TattooDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/NoTattoo_Face.tres")"
+label = "none"
+texPath = "Things/Mote/Transparent"
+iconPath = "Things/Mote/Transparent"
+tattooType = "Face"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Minimal.tres")"
+noGraphic = "true"
+styleTags = SubResource(1)

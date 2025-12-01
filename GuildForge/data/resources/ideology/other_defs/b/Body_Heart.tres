@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TattooDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TattooDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/b/Body_Heart.tres")"
+label = "heart"
+texPath = "Things/Pawn/Humanlike/Tattoos/Body_Heart/Body_Heart"
+tattooType = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Body.tres")"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/Punk.tres")"
+styleTags = SubResource(1)

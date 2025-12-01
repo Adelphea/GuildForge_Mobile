@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Crush.tres")"
+label = "crush"
+workerClass = "DamageWorker_AddInjury"
+externalViolence = "true"
+deathMessage = "{0} has been crushed to death."
+hediff = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Crush.tres")"
+hediffSkin = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cut.tres")"
+hediffSolid = "Crack"
+harmAllLayersUntilOutside = "true"
+impactSoundType = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Blunt.tres")"
+armorCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Blunt.tres")"
+overkillPctToDestroyPart = "0.4~1.0"

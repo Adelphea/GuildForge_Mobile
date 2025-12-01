@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/Wait_Asleep.tres")"
+driverClass = "JobDriver_LayDown"
+reportString = "sleeping."
+carryThingAfterJob = "true"
+dropThingBeforeJob = "false"
+isCrawlingIfDowned = "false"
+neverShowWeapon = "true"

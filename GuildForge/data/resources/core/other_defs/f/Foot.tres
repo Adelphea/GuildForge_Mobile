@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BodyPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BodyPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Foot.tres")"
+label = "foot"
+hitPoints = "25"
+frostbiteVulnerability = "0.5"
+skinCovered = "true"
+canBeVacuumBurnt = "false"
+tags = SubResource(1)

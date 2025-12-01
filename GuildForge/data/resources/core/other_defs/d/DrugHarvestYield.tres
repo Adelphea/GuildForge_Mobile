@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DrugHarvestYield.tres")"
+label = "drug crop harvest yield"
+description = "The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+maxValue = "1.5"
+toStringStyle = "PercentZero"
+neverDisabled = "true"
+statFactors = SubResource(1)
+scenarioRandomizable = "true"
+displayPriorityInCategory = "4552"

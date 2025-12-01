@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/h/Hack_Spacedrone.tres")"
+rootSelectionWeight = "0"
+isRootSpecial = "true"
+defaultChallengeRating = "1"
+epicParent = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/RelicHunt.tres")"
+questNameRules = SubResource(1)
+questDescriptionRules = SubResource(3)
+root = SubResource(5)

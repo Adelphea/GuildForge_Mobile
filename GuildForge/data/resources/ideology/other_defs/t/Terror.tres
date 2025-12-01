@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Terror.tres")"
+workerClass = "StatWorker_Terror"
+label = "terror"
+description = "The intensity of terror this person is experiencing."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BasicsPawn.tres")"
+defaultBaseValue = "0"
+hideAtValue = "0"
+maxValue = "100"
+toStringStyle = "PercentZero"
+showOnPawns = "false"
+displayPriorityInCategory = "3600"
+showIfUndefined = "false"

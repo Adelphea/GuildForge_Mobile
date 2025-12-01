@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MapCameraZoom.tres")"
+text = "Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now!"
+textController = "Great!\n\nYou can also zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.\n\nTry it now!"
+instructionClass = "Instruction_LearnConcept"
+eventTagInitiate = "InstructionDeactivated-MapCameraDolly"
+concept = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CameraZoom.tres")"

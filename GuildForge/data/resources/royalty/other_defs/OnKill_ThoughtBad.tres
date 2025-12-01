@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeaponTraitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeaponTraitDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/o/OnKill_ThoughtBad.tres")"
+label = "kill sorrow"
+description = Color(This weapon's persona hates killing. If this weapon kills someone, its sorrow will transmit psychically to the wielder, reducing their mood for a few days., 1.0)
+killThought = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/o/OnKill_BadThought.tres")"
+commonality = "1"
+marketValueOffset = "-500"
+exclusionTags = SubResource(1)

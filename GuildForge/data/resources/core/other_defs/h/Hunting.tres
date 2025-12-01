@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hunting.tres")"
+labelShort = "hunt"
+pawnLabel = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/h/Hunter.tres")"
+gerundLabel = "hunting"
+description = "Kill animals which are designated to be hunted."
+verb = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hunt.tres")"
+naturalPriority = "950"
+disabledForSlaves = "true"
+relevantSkills = SubResource(1)
+workTags = SubResource(2)

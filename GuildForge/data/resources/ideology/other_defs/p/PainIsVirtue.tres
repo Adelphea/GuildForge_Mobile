@@ -1,0 +1,25 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/PainIsVirtue.tres")"
+label = "pain is virtue"
+description = "Virtue is shown through suffering of self and others."
+iconPath = "UI/Memes/PainIsVirtue"
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Misc.tres")"
+impact = "3"
+renderOrder = "80"
+consumableBuildings = SubResource(1)
+requireOne = SubResource(2)
+generalRules = SubResource(9)
+apparelRequirements = SubResource(11)
+descriptionMaker = SubResource(16)
+symbolPacks = SubResource(19)
+thingStyleCategories = SubResource(25)
+ritualsToMake = "1"
+replaceRitualsWithTags = SubResource(27)
+replacementPatterns = SubResource(28)
+requiredRituals = SubResource(29)
+addDesignators = SubResource(31)
+agreeableTraits = SubResource(32)
+disagreeableTraits = SubResource(33)

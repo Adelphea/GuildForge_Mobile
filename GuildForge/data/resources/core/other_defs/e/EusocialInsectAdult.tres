@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_LifeStageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_LifeStageDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EusocialInsectAdult.tres")"
+label = "adult"
+visible = "false"
+milkable = "true"

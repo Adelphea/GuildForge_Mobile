@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Fabrication.tres")"
+label = "fabrication"
+description = "Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction."
+baseCost = "4000"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+requiredResearchBuilding = "HiTechResearchBench"
+requiredResearchFacilities = SubResource(2)
+researchViewX = "16.00"
+researchViewY = "3.00"
+discoveredLetterTitle = "About: Getting advanced components"
+discoveredLetterText = "You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components."
+generalRules = SubResource(3)

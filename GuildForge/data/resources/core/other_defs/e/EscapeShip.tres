@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorldObjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorldObjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EscapeShip.tres")"
+label = "landed ship"
+description = "The location of a hidden ship which can help you escape the planet."
+worldObjectClass = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EscapeShip.tres")"
+texture = "World/WorldObjects/JourneyDestination"
+expandingIcon = "true"
+expandingIconTexture = "World/WorldObjects/Expanding/JourneyDestination"
+expandingIconPriority = "50"
+expandMore = "true"
+IncidentTargetTags = SubResource(1)
+mapGenerator = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EscapeShip.tres")"
+canBePlayerHome = "true"
+comps = Array[SubResource(2), SubResource(3), SubResource(4), SubResource(5)]

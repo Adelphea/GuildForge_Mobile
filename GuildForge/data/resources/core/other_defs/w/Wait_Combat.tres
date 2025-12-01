@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/Wait_Combat.tres")"
+driverClass = "JobDriver_Wait"
+reportString = "watching for targets."
+alwaysShowWeapon = "true"
+suspendable = "false"
+isIdle = "true"
+carryThingAfterJob = "true"
+dropThingBeforeJob = "false"
+tryStartFlying = "true"
+overrideFlyChance = "1"

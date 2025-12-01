@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HairDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HairDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/Primal.tres")"
+label = "primal"
+styleGender = "FemaleUsually"
+texPath = "Things/Pawn/Humanlike/Hairs/Primal"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Tribal.tres")"
+styleTags = SubResource(1)

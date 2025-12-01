@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PrefabDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PrefabDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Shelves_Rows.tres")"
+size = Vector2(4, 5)
+things = SubResource(1)

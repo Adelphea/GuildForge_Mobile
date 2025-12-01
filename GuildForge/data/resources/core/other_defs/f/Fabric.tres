@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StuffCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StuffCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Fabric.tres")"
+label = "fabric"
+noun = "fabric"
+destroySoundSmall = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BuildingDestroyed_Soft_Small.tres")"
+destroySoundMedium = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BuildingDestroyed_Soft_Medium.tres")"

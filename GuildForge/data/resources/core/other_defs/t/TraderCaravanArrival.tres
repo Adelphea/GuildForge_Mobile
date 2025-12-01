@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TraderCaravanArrival.tres")"
+label = "trader caravan arrival"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_TraderCaravanArrival"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/FactionArrival.tres")"
+baseChance = "4"
+requireColonistsPresent = "True"

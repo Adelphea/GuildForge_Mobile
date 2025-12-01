@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_LetterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_LetterDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/RitualOutcomePositive.tres")"
+color = Vector3(120, 176, 216)
+flashColor = Vector3(106, 179, 231)
+flashInterval = "90"
+arriveSound = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/RitualConclusion_Positive.tres")"

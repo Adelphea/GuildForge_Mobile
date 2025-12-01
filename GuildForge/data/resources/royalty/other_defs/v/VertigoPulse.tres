@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/v/VertigoPulse.tres")"
+label = "vertigo pulse"
+description = "Interfere with the spatial orientation sense of everyone near the target point, causing intermittent loss of balance. Flesh creatures will become extremely nauseous as well."
+level = "3"
+iconPath = "UI/Abilities/NauseaPulse"
+writeCombatLog = "True"
+hotKey = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Misc7.tres")"
+casterMustBeCapableOfViolence = "false"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(4), SubResource(5)]

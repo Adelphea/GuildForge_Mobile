@@ -1,0 +1,24 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Mud.tres")"
+label = "mud"
+texturePath = "Terrain/Surfaces/Mud"
+pollutedTexturePath = "Terrain/Surfaces/MudPolluted"
+pollutionOverlayTexturePath = "Terrain/Surfaces/PollutionMud"
+pollutionShaderType = SubResource(1)
+pollutionColor = Color((1, 1, 1, 1))
+edgeType = "FadeRough"
+categoryType = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Soil.tres")"
+renderPrecedence = "330"
+pathCost = "14"
+statBases = SubResource(2)
+affordances = SubResource(3)
+generatedFilth = "Filth_Dirt"
+fertility = "0"
+takeFootprints = "True"
+avoidWander = "true"
+driesTo = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Soil.tres")"
+tools = SubResource(4)
+tags = SubResource(7)

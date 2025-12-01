@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/h/Hospitality_Refugee.tres")"
+rootSelectionWeight = "1.0"
+rootSelectionWeightFactorFromPointsCurve = SubResource(1)
+rootMinPoints = "0"
+expireDaysRange = "4~8"
+hideInvolvedFactionsInfo = "true"
+affectedByPopulation = "true"
+affectedByPoints = "false"
+defaultCharity = "true"
+successHistoryEvent = SubResource(3)
+failedOrExpiredHistoryEvent = SubResource(4)
+questNameRules = SubResource(5)
+questDescriptionAndNameRules = SubResource(7)
+questDescriptionRules = SubResource(9)
+questContentRules = SubResource(11)
+root = SubResource(13)

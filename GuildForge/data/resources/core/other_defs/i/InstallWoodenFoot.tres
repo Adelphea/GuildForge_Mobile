@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/InstallWoodenFoot.tres")"
+label = "install wooden foot"
+description = "Install a wooden foot."
+descriptionHyperlinks = SubResource(1)
+jobString = "Installing wooden foot."
+workAmount = "1000"
+appliedOnFixedBodyParts = SubResource(2)
+addsHediff = "WoodenFoot"
+uiIconThing = "WoodLog"

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MedicalPotency.tres")"
+label = "medical potency"
+description = "How effective this is when used to tend wounds and diseases, or do surgery.\n\nHigher medical potency improves the quality of tending, and acts as a multiplier on the chance of success during surgery.\nMedical potency is just one factor in medical outcomes, among many others, including doctor ability, equipment, cleanliness, and luck."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BasicsNonPawnImportant.tres")"
+defaultBaseValue = "0.0"
+minValue = "0.2"
+toStringStyle = "PercentZero"
+showIfUndefined = "false"
+displayPriorityInCategory = "4000"

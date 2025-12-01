@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RaidStrategyDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RaidStrategyDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/ImmediateAttackBreachingSmart.tres")"
+workerClass = "RaidStrategyWorker_ImmediateAttackBreachingSmart"
+arrivalTextEnemy = "They are attacking immediately.\n\nThese raiders intend to breach your walls. They'll determine their own path into your colony and destroy anything in their way.\n\nWatch out - they appear to be unusually clever with their tactics. They'll avoid your turrets' fields of fire and notice some of your traps."

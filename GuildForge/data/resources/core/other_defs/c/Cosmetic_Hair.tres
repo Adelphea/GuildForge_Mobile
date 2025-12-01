@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GeneCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GeneCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cosmetic_Hair.tres")"
+label = "cosmetic - hair"
+displayPriorityInXenotype = "285"

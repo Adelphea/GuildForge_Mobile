@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ManeuverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ManeuverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Smash.tres")"
+requiredCapacity = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Blunt.tres")"
+verb = SubResource(1)
+logEntryDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MeleeAttack.tres")"
+combatLogRulesHit = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Maneuver_Smash_MeleeHit.tres")"
+combatLogRulesDeflect = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Maneuver_Smash_MeleeDeflect.tres")"
+combatLogRulesMiss = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Maneuver_Smash_MeleeMiss.tres")"
+combatLogRulesDodge = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Maneuver_Smash_MeleeDodge.tres")"

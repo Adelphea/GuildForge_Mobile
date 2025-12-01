@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DoctorTendEmergency.tres")"
+label = "tend to patients with urgent needs"
+giverClass = "WorkGiver_TendOtherUrgent"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Doctor.tres")"
+emergency = "true"
+verb = "tend to"
+gerund = "tending to"
+requiredCapacities = SubResource(1)
+priorityInType = "110"
+prioritizeSustains = "true"

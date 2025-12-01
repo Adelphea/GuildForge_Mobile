@@ -1,0 +1,29 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ExpansionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ExpansionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/o/Odyssey.tres")"
+label = "ExtResource("res://GuildForge/data/resources/core/other_defs/o/Odyssey.tres")"
+description = "Build your own ship and travel across the planet!
+
+Start small: just a grav engine, a few rooms, thrusters, and enough fuel to lift off. Over time, make it into a home by adding living quarters, labs, workshops, and everything else your mobile colony needs.
+
+Explore new biomes like the fungal glowforests, glacial plains, and toxic scarlands. Search through crashlanded orbital platforms, insect-infested caves, and other dangerous locations for ancient tech to upgrade your ship.
+
+Fly into space. Land on collapsed space stations, ore-rich asteroids, and derelict satellites. Search for treasure, but be prepared for a fight with other orbital scavengers and mechanoid defenses.
+
+Tame, train, and trade cute new animals that can fly and swim. Teach them to dig and forage, nuzzle your colonists, and track down your foes.
+
+Follow maps and rumours to find quests across the planet. Hunt the alpha thrumbo, raid ancient cryptosleep bunkers, mine through asteroids to loot stashes, and more.
+
+Face the mechhive in a new end game. Seize control of the machine mind, or destroy it for good.
+
+Listen to a new album of music by Alistair Lindsay."
+linkedMod = "Ludeon.RimWorld.Odyssey"
+siteUrl = "https://rimworldgame.com/"
+steamUrl = "https://store.steampowered.com/app/3022790/"
+iconPath = "UI/HeroArt/ExpansionIcon_Odyssey"
+notOwnedIconPath = "UI/HeroArt/NotOwned_Odyssey"
+backgroundPath = "UI/HeroArt/MenuBG_Odyssey"
+previewImagesFolderPath = "UI/HeroArt/Preview_Odyssey"
+primaryColor = Vector3(255, 255, 255)

@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DutyDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DutyDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/PlayTargetInstrument.tres")"
+label = "playing music"
+hook = "HighPriority"
+thinkNode = SubResource(1)

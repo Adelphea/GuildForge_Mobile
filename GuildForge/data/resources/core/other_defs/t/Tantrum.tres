@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalBreakDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalBreakDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Tantrum.tres")"
+mentalState = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Tantrum.tres")"
+baseCommonality = "0.333"
+intensity = "Major"

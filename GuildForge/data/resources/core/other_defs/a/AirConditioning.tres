@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AirConditioning.tres")"
+label = "air conditioning"
+description = "Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods."
+baseCost = "500"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+tags = SubResource(2)
+researchViewX = "6.00"
+researchViewY = "2.10"
+generalRules = SubResource(3)

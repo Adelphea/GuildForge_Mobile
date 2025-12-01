@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/ExecuteGuiltyColonist.tres")"
+label = "execute guilty colonists"
+giverClass = "WorkGiver_ExecuteGuiltyColonist"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/Warden.tres")"
+verb = "execute"
+gerund = "executing"
+priorityInType = "110"
+requiredCapacities = SubResource(1)

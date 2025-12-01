@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EquipWeapons.tres")"
+text = "Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist."
+textController = "Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press left trigger button.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist."
+instructionClass = "Instruction_EquipWeapons"
+eventTagInitiate = "InstructionDeactivated-SetToGrowRice"
+rejectInputMessage = "Please have your colonists equip weapons."
+onMapInstruction = "Equip this"

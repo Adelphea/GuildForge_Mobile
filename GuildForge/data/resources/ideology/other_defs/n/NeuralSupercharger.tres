@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/NeuralSupercharger.tres")"
+label = "neural supercharger"
+description = "Construct neural supercharger devices. Neural superchargers improve consciousness and learning rate, but they also increase hunger and the effect must be refreshed daily. Transhumanists often hold neural supercharging as an important practice."
+baseCost = "1500"
+techLevel = "Industrial"
+requiredResearchBuilding = "HiTechResearchBench"
+prerequisites = SubResource(1)
+researchViewX = "12.00"
+researchViewY = "0.6"
+generalRules = SubResource(2)

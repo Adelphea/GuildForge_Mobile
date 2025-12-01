@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/p/PawnLend.tres")"
+rootSelectionWeight = "1"
+expireDaysRange = "4~8"
+questNameRules = SubResource(1)
+questDescriptionRules = SubResource(3)
+root = SubResource(5)

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/LongRangeScan.tres")"
+label = "operate long range scanner"
+giverClass = "WorkGiver_OperateScanner"
+workType = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/Research.tres")"
+priorityInType = "50"
+verb = "scan at"
+gerund = "scanning at"
+scannerDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/LongRangeMineralScanner.tres")"
+requiredCapacities = SubResource(1)
+canBeDoneByMechs = "false"

@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/ConstructSmoothWalls.tres")"
+label = "smooth walls"
+giverClass = "WorkGiver_ConstructSmoothWall"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Construction.tres")"
+priorityInType = "10"
+verb = "smooth"
+gerund = "smoothing"
+scanThings = "false"
+scanCells = "true"
+doesSmoothing = "true"
+requiredCapacities = SubResource(1)

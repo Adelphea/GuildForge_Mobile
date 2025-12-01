@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ScenPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ScenPartDef.gd")
+scenPartClass = "ScenPart_Rule_DisallowDesignator"
+category = "Rule"
+selectionWeight = "0.25"
+summaryPriority = "380"
+maxUses = "1"

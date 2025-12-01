@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/g/GiveQuest_EndGame_RoyalAscent.tres")"
+label = "royal ascent"
+questScriptDef = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/e/EndGame_RoyalAscent.tres")"
+baseChance = "0"

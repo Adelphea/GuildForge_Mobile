@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StyleCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StyleCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Techist.tres")"
+label = "techist"
+iconPath = "UI/StyleCategories/Techist"
+soundOngoingRitual = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/RitualSustainer_Techist.tres")"
+ritualVisualEffectDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Techist.tres")"
+thingDefStyles = SubResource(1)
+addDesignators = SubResource(13)
+addDesignatorGroups = SubResource(14)

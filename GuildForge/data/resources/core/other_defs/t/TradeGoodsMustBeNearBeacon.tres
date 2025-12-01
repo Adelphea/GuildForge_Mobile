@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TradeGoodsMustBeNearBeacon.tres")"
+label = "Trade goods and trade beacons"
+priority = "-1000"
+helpText = "To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it."

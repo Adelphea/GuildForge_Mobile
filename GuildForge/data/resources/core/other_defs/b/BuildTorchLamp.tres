@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BuildTorchLamp.tres")"
+text = "You'll also want some light inside, or your colonists will get grumpy in the dark.\n\nBuild a TORCH LAMP inside the room."
+instructionClass = "Instruction_BuildInRoom"
+eventTagInitiate = "InstructionDeactivated-BuildBeds"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+thingDef = "TorchLamp"
+targetCount = "1"
+onMapInstruction = "Build a torch lamp inside the room"
+rejectInputMessage = "Please build a torch lamp inside the room."

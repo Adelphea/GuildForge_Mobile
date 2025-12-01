@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/StuffPower_Insulation_Cold.tres")"
+label = "Insulation - Cold"
+labelForFullStatList = "Insulation - Cold (material factor)"
+description = "How much an apparel made of this material improves a wearer's minimum comfortable temperature when worn."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/StuffStatFactors.tres")"
+defaultBaseValue = "0"
+hideAtValue = "0"
+toStringStyle = "TemperatureOffset"
+displayPriorityInCategory = "4507"

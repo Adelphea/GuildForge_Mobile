@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/r/Reign.tres")"
+driverClass = "JobDriver_Reign"
+reportString = "meditating royally at"
+allowOpportunisticPrefix = "true"
+neverShowWeapon = "true"
+joyDuration = "6250"
+joyKind = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Meditative.tres")"

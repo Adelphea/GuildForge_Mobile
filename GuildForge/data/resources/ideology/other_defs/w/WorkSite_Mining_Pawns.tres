@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GenStepDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GenStepDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/w/WorkSite_Mining_Pawns.tres")"
+linkWithSite = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/w/WorkSite_Mining.tres")"
+order = "406"
+genStep = SubResource(1)

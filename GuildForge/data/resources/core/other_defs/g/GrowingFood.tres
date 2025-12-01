@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GrowingFood.tres")"
+label = "Growing zones"
+priority = "37"
+helpText = "To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground."
+highlightTags = SubResource(1)

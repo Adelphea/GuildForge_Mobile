@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TaleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TaleDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PlayedGame.tres")"
+label = "played game"
+taleClass = "Tale_SinglePawnAndDef"
+type = "Volatile"
+defSymbol = "OBJECT"
+baseInterest = "0.5"
+rulePack = SubResource(1)

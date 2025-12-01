@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_NeedDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_NeedDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Food.tres")"
+needClass = "Need_Food"
+label = "food"
+description = "Food is the amount of nutrition a creature has consumed recently. If it is at zero, a creature will become increasingly malnourished and eventually die."
+listPriority = "800"
+major = "true"
+showForCaravanMembers = "true"
+developmentalStageFilter = Color(Baby, Child, Adult, 1.0)
+showUnitTicks = "true"

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SoundDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SoundDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/Interact_Tend.tres")"
+sustain = "True"
+context = "MapOnly"
+maxVoices = "3"
+priorityMode = "PrioritizeNearest"
+sustainStartSound = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Tend_Start.tres")"
+subSounds = SubResource(1)

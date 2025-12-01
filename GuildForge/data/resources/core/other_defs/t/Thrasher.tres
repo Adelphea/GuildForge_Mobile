@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Thrasher.tres")"
+label = "scavenger thrasher"
+race = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Human.tres")"
+canBeSapper = "true"
+apparelMoney = "300~800"
+apparelTags = SubResource(1)
+weaponMoney = "100~160"
+weaponTags = SubResource(2)
+initialResistanceRange = "14~23"

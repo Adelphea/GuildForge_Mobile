@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Make_Patchleather.tres")"
+label = "make patchleather"
+description = "Combine various types of leather to create weak patchleather."
+jobString = "Making patchleather."
+workSpeedStat = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GeneralLaborSpeed.tres")"
+effectWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Tailor.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Recipe_Tailor.tres")"
+workAmount = "900"
+allowMixingIngredients = "true"
+targetCountAdjustment = "50"
+recipeUsers = SubResource(1)
+ingredients = SubResource(2)
+fixedIngredientFilter = SubResource(8)
+products = SubResource(11)
+workSkill = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Crafting.tres")"
+displayPriority = "0"

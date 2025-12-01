@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MeleeArmorPenetration.tres")"
+workerClass = "StatWorker_MeleeArmorPenetration"
+label = "melee armor penetration"
+description = "Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnCombat.tres")"
+defaultBaseValue = "0"
+minValue = "0"
+toStringStyle = "PercentZero"
+forInformationOnly = "true"
+displayPriorityInCategory = "4100"
+showDevelopmentalStageFilter = "Child, Adult"

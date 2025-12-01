@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SharpDamageMultiplier.tres")"
+label = "sharp damage"
+description = "A multiplier on damage from sharp-type attacks for weapons made of this material."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/StuffStatFactors.tres")"
+defaultBaseValue = "1"
+minValue = "0.05"
+toStringStyle = "PercentZero"
+showIfUndefined = "false"
+displayPriorityInCategory = "4505"

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SterileMaterials.tres")"
+label = "sterile materials"
+description = Color(Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking., 1.0)
+baseCost = "600"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+researchViewX = "8.00"
+researchViewY = "0.90"
+generalRules = SubResource(2)

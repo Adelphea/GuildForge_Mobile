@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InteractionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InteractionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TameAttempt.tres")"
+label = "tame attempt"
+symbol = "Things/Mote/SpeechSymbols/PrisonerRecruit"
+workerClass = "InteractionWorker_RecruitAttempt"
+initiatorXpGainSkill = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/Animals.tres")"
+initiatorXpGainAmount = "90"
+logRulesInitiator = SubResource(1)

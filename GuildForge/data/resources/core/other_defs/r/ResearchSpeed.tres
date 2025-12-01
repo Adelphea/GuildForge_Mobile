@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/ResearchSpeed.tres")"
+label = "research speed"
+description = "How fast this person performs research and how quickly they can find things using scanning equipment."
+minValue = "0.1"
+displayPriorityInCategory = "4500"

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/FarmingCommand.tres")"
+label = "farming command"
+description = "Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours."
+iconPath = "UI/Abilities/FarmingCommand"
+warmupMoteSocialSymbol = "UI/Abilities/FarmingCommand"
+showWhenDrafted = "false"
+hostile = "false"
+casterMustBeCapableOfViolence = "false"
+comps = Array[SubResource(1)]

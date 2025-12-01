@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/o/OutlanderRough.tres")"
+label = "rough outlander union"
+description = Color(These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group has a streak of barbarity in them.)
+factionIconPath = "World/WorldObjects/Expanding/TownRough"

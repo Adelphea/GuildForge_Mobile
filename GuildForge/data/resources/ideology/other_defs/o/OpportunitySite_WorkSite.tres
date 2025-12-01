@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/o/OpportunitySite_WorkSite.tres")"
+rootSelectionWeight = "0"
+isRootSpecial = "true"
+autoAccept = "true"
+sendAvailableLetter = "false"
+successHistoryEvent = SubResource(1)
+questNameRules = SubResource(2)
+questDescriptionRules = SubResource(4)
+root = SubResource(6)

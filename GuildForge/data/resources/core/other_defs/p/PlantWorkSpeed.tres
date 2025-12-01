@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PlantWorkSpeed.tres")"
+label = "plant work speed"
+description = "The speed at which this person sows and harvests plants."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+neverDisabled = "true"
+statFactors = SubResource(1)
+skillNeedFactors = SubResource(2)
+capacityFactors = SubResource(4)
+displayPriorityInCategory = "4550"
+showOnPawnKind = SubResource(7)

@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoIconDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoIconDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/e/EmbodiedTheist_Bolthand.tres")"
+iconPath = "UI/Ideoligions/EmbodiedTheist_Bolthand"
+memes = SubResource(1)

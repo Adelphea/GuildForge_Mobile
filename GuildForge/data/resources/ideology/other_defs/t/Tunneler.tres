@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Tunneler.tres")"
+label = "tunneler"
+description = "Humans ought to live underground, and enjoy the succulent fruit of the depths."
+iconPath = "UI/Memes/Tunneler"
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Misc.tres")"
+impact = "3"
+requireOne = SubResource(1)
+generalRules = SubResource(6)
+descriptionMaker = SubResource(8)
+renderOrder = "110"
+addDesignators = SubResource(11)
+styleItemTags = SubResource(12)
+startingResearchProjects = SubResource(14)
+agreeableTraits = SubResource(15)

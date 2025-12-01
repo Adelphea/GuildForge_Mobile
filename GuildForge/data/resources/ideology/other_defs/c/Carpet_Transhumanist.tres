@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainTemplateDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainTemplateDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/Carpet_Transhumanist.tres")"
+label = "hex carpet ({0})"
+description = "Fine carpet with a hexagonal pattern for that ultra-technological look."
+texturePath = "Terrain/Surfaces/HexCarpet"
+designatorDropdown = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/Floor_Transhumanist_Carpet.tres")"
+dominantStyleCategory = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Techist.tres")"

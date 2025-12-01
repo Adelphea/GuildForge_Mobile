@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainTemplateDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainTemplateDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/Carpet_Morbid.tres")"
+label = "morbid carpet ({0})"
+description = "Fine carpet in a morbid style."
+texturePath = "Terrain/Surfaces/MorbidCarpet"
+designatorDropdown = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/Floor_Morbid_Carpet.tres")"
+dominantStyleCategory = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Morbid.tres")"

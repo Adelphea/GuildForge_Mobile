@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/m/Mission_BanditCamp.tres")"
+rootSelectionWeight = "1.3"
+rootMinPoints = "350"
+expireDaysRange = "10"
+affectedByPopulation = "true"
+everAcceptableInSpace = "true"
+successHistoryEvent = SubResource(1)
+questNameRules = SubResource(2)
+questDescriptionRules = SubResource(4)
+root = SubResource(6)

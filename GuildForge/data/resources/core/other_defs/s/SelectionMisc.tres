@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_KeyBindingCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_KeyBindingCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SelectionMisc.tres")"
+label = "misc"
+description = "Generic controls that are re-used by many items and objects throughout the game."
+checkForConflicts = SubResource(1)

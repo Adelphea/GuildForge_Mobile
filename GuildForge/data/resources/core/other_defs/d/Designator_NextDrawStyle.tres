@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_KeyBindingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_KeyBindingDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Designator_NextDrawStyle.tres")"
+label = "next draw style"
+defaultKeyCodeA = "E"
+ignoreConflictsWith = SubResource(1)

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TileMutatorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TileMutatorDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/u/UndergroundCave.tres")"
+label = "underground cave"
+categories = SubResource(1)
+priority = "5"
+workerClass = "TileMutatorWorker_UndergroundCave"
+genOrder = "-100"

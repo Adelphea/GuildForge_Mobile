@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PavedTile.tres")"
+label = "paved tile"
+renderPrecedence = "230"
+description = "Concrete tiles. Cheap, but neutral in terms of looks and slow to build."
+texturePath = "Terrain/Surfaces/PavedTile"
+color = Vector3(140, 140, 140)
+isPaintable = "true"
+statBases = SubResource(1)
+costList = SubResource(2)
+designationHotKey = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Misc8.tres")"
+researchPrerequisites = SubResource(3)
+uiOrder = "2030"

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MarriageName_UsuallyMans.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MarriageName.tres")"
+label = "usually man's"
+description = "Most couples share the man's name."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Low.tres")"
+classic = "true"
+displayOrderInIssue = "0"
+defaultSelectionWeight = "1"
+comps = Array[SubResource(1), SubResource(2)]

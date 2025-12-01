@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BodyPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BodyPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/HeadWithEarHoles.tres")"
+label = "head"
+hitPoints = "25"
+bleedRate = "2"
+skinCovered = "true"
+tags = SubResource(1)
+executionPartPriority = "500"

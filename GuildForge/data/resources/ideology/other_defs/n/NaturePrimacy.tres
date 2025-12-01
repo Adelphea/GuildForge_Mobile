@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/NaturePrimacy.tres")"
+label = "nature primacy"
+description = "Man is a stain on nature's perfection."
+iconPath = "UI/Memes/PrimacyNature"
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/Primacy.tres")"
+impact = "2"
+renderOrder = "50"
+veneratedAnimalsCountOffset = "1"
+exclusionTags = SubResource(1)
+generalRules = SubResource(2)
+descriptionMaker = SubResource(4)
+symbolPacks = SubResource(7)
+preferredWeaponClasses = SubResource(12)
+thingStyleCategories = SubResource(13)
+styleItemTags = SubResource(15)

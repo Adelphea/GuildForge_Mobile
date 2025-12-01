@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/Structure_OriginHindu.tres")"
+label = "Hindu origin"
+description = "This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar."
+iconPath = "UI/Structures/OriginHindu"
+deityCount = "4"
+symbolPackOverride = "true"
+worshipRoomLabel = "shrine"
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Theist_Embodied.tres")"
+requireAnyRitualSeat = SubResource(1)
+consumableBuildings = SubResource(2)
+generalRules = SubResource(3)
+descriptionMaker = SubResource(5)
+symbolPacks = SubResource(12)
+fixedDeityNameTypes = SubResource(27)
+thingStyleCategories = SubResource(60)

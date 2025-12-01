@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Construction.tres")"
+labelShort = "construct"
+pawnLabel = "Constructor"
+gerundLabel = "constructing"
+description = "Build things that you've designated, and fix damaged or broken-down buildings."
+verb = "Construct"
+naturalPriority = "900"
+requireCapableColonist = "true"
+relevantSkills = SubResource(1)
+workTags = SubResource(2)

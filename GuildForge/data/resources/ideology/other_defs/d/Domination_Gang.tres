@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/d/Domination_Gang.tres")"
+label = "domination gang"
+description = "Our beliefs are law and truth. We will try to convince them. Anyone who resists our teaching is a vile subhuman who must be crushed.\n\n Unlocks melee and shooting specialist roles. Will have gladiator duels."
+categoryDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/Strong.tres")"
+memes = SubResource(1)

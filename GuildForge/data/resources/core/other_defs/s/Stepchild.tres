@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnRelationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnRelationDef.gd")
+workerClass = "PawnRelationWorker_Stepchild"
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Stepchild.tres")"
+label = "stepson"
+labelFemale = "stepdaughter"
+importance = "145"
+opinionOffset = "5"
+implied = "true"

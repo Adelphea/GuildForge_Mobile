@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SoldPrisoner.tres")"
+thoughtClass = "Thought_Tale"
+workerClass = "ThoughtWorker_Tale"
+taleDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SoldPrisoner.tres")"
+validWhileDespawned = "true"
+stages = SubResource(1)
+nullifyingTraits = SubResource(3)
+nullifyingHediffs = SubResource(4)
+nullifyingPrecepts = SubResource(6)
+nullifiedIfNotColonist = "true"

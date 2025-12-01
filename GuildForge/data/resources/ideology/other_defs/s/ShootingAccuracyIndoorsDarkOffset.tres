@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/ShootingAccuracyIndoorsDarkOffset.tres")"
+label = "shooting accuracy indoors dark"
+description = "An offset on shooting accuracy if the target is indoors in the dark."

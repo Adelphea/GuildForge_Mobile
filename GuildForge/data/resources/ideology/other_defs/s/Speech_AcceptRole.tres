@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InteractionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InteractionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/Speech_AcceptRole.tres")"
+label = "role acceptance speech"
+workerClass = "InteractionWorker"
+ignoreTimeSinceLastInteraction = "True"
+symbol = "Things/Mote/SpeechSymbols/RoleChange"
+logRulesInitiator = SubResource(1)

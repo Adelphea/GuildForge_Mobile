@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Mined_Know_Prohibited.tres")"
+thoughtClass = "Thought_MemorySocial"
+durationDays = "4"
+stackLimit = "100"
+stackLimitForSameOtherPawn = "1"
+stages = SubResource(1)

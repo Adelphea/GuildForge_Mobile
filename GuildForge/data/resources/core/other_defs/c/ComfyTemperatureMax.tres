@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/ComfyTemperatureMax.tres")"
+label = "max comfortable temperature"
+description = Color(Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die., 1.0)
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnResistances.tres")"
+defaultBaseValue = "40"
+toStringStyle = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Temperature.tres")"
+minValue = "-2000"
+maxValue = "2000"
+parts = SubResource(1)
+scenarioRandomizable = "true"
+displayPriorityInCategory = "4100"
+cacheable = "true"

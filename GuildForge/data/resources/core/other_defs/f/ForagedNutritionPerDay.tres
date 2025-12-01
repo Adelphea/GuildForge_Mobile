@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/ForagedNutritionPerDay.tres")"
+label = "foraged food amount"
+description = "The amount of nutrition this person will automatically forage per day while traveling by caravan."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnFood.tres")"
+minValue = "0"
+defaultBaseValue = "0"
+hideAtValue = "0"
+toStringStyle = "FloatMaxTwo"
+workerClass = "StatWorker_ForagedNutritionPerDay"
+showOnAnimals = "true"
+showOnMechanoids = "false"
+showOnEntities = "false"
+showOnDrones = "false"
+skillNeedOffsets = SubResource(1)
+capacityFactors = SubResource(3)
+displayPriorityInCategory = "1000"

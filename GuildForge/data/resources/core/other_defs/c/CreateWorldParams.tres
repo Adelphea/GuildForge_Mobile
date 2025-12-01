@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CreateWorldParams.tres")"
+text = "Welcome to RimWorld!\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE!"
+eventTagInitiate = "PageStart-CreateWorldParams"
+actionTagsAllowed = SubResource(1)
+eventTagsEnd = SubResource(2)
+highlightTags = SubResource(3)
+startCentered = "true"
+rejectInputMessage = "Click GENERATE to generate your world."

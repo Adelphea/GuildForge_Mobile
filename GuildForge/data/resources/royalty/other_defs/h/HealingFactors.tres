@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/h/HealingFactors.tres")"
+label = "healing factors"
+description = "Craft bionics that enhance natural healing processes."
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+researchViewX = "18.00"
+researchViewY = "4.20"
+generalRules = SubResource(3)

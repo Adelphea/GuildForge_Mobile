@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MarshyTerrain.tres")"
+label = "marshy soil"
+texturePath = "Terrain/Surfaces/MarshyTerrain"
+pollutionOverlayTexturePath = "Terrain/Surfaces/PollutionMarsh"
+pollutionColor = Color((1, 1, 1, 0.15))
+edgeType = "FadeRough"
+categoryType = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Soil.tres")"
+renderPrecedence = "337"
+pathCost = "14"
+statBases = SubResource(1)
+scatterType = "Rocky"
+affordances = SubResource(2)
+generatedFilth = "Filth_Dirt"
+fertility = "1.0"
+takeFootprints = "True"
+driesTo = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Soil.tres")"
+tools = SubResource(3)
+tags = SubResource(6)

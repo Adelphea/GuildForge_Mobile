@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnRelationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnRelationDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Bond.tres")"
+label = "bond"
+importance = "85"
+diedThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BondedAnimalDied.tres")"
+soldThoughts = SubResource(1)
+lostThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BondedAnimalLost.tres")"
+killedThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/k/KilledMyBondedAnimal.tres")"
+opinionOffset = "50"
+implied = "false"
+reflexive = "true"

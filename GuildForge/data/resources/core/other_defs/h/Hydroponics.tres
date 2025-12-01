@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hydroponics.tres")"
+label = "hydroponics"
+description = "Build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside."
+baseCost = "700"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+researchViewX = "6.00"
+researchViewY = "1.50"
+generalRules = SubResource(2)

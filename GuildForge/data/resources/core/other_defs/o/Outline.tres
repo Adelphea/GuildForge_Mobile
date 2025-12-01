@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoadWorldLayerDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoadWorldLayerDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/o/Outline.tres")"
+order = "0"
+color = Vector3(0.1, 0.1, 0.1)

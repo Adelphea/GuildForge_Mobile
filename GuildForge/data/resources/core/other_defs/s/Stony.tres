@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StuffCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StuffCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Stony.tres")"
+label = "stony"
+noun = "stone"
+destroySoundSmall = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BuildingDestroyed_Stone_Small.tres")"
+destroySoundMedium = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BuildingDestroyed_Stone_Medium.tres")"
+destroySoundLarge = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BuildingDestroyed_Stone_Big.tres")"

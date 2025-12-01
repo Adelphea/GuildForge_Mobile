@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Refuel.tres")"
+label = "refuel buildings"
+giverClass = "WorkGiver_Refuel"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hauling.tres")"
+verb = "refuel"
+gerund = "refueling"
+priorityInType = "140"
+requiredCapacities = SubResource(1)
+prioritizeSustains = "true"

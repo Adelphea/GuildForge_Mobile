@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/ButcherCorpseFlesh.tres")"
+label = "butcher creature"
+description = Color(Butcher a creature to obtain its meat, leather, and other body products., 1.0)
+workerCounterClass = "RecipeWorkerCounter_ButcherAnimals"
+jobString = "Butchering."
+workAmount = "450"
+workSpeedStat = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/ButcheryFleshSpeed.tres")"
+workSkill = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cooking.tres")"
+efficiencyStat = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/ButcheryFleshEfficiency.tres")"
+effectWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/ButcherFlesh.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Recipe_ButcherCorpseFlesh.tres")"
+interruptIfIngredientIsRotting = "true"
+uiIconThing = "Meat_Muffalo"
+forceHiddenSpecialFilters = SubResource(1)
+ingredients = SubResource(2)
+specialProducts = SubResource(6)
+fixedIngredientFilter = SubResource(7)
+defaultIngredientFilter = SubResource(12)

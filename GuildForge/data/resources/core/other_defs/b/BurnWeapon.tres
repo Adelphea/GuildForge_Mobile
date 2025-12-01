@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BurnWeapon.tres")"
+label = "burn weapon"
+description = "Burn unwanted weapon to completely destroy it."
+jobString = "Burning weapon."
+workAmount = "60"
+workSpeedStat = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GeneralLaborSpeed.tres")"
+requiredGiverWorkType = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hauling.tres")"
+effectWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cremate.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Recipe_Cremate.tres")"
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)
+forceHiddenSpecialFilters = SubResource(8)
+defaultIngredientFilter = SubResource(9)

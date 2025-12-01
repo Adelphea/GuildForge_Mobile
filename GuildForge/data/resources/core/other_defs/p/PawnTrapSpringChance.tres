@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnTrapSpringChance.tres")"
+label = "trap spring chance"
+description = "Chance to spring a trap the character is unaware of."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnCombat.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+hideAtValue = "1"
+toStringStyle = "PercentZero"
+showIfUndefined = "false"
+displayPriorityInCategory = "4047"

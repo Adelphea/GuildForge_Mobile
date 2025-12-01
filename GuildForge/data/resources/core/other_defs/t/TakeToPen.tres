@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TakeToPen.tres")"
+label = "rope animals"
+giverClass = "WorkGiver_TakeToPen"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Handling.tres")"
+verb = "rope"
+gerund = "roping"
+priorityInType = "130"
+requiredCapacities = SubResource(1)
+prioritizeSustains = "true"

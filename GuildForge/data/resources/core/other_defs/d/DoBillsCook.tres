@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DoBillsCook.tres")"
+label = "cook meals at stove"
+giverClass = "WorkGiver_DoBill"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cooking.tres")"
+priorityInType = "100"
+fixedBillGiverDefs = SubResource(1)
+verb = "cook at"
+gerund = "cooking at"
+requiredCapacities = SubResource(2)
+prioritizeSustains = "true"

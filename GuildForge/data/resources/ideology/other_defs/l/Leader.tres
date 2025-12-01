@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityGroupDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityGroupDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/l/Leader.tres")"
+cooldownTicks = "600000"
+sendMessageOnCooldownComplete = "true"
+ritualRoleIds = SubResource(1)

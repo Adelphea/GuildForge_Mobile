@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualOutcomeEffectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualOutcomeEffectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/Sacrifice.tres")"
+description = "Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days."
+workerClass = "RitualOutcomeEffectWorker_Consumable"
+extraPredictedOutcomeDescriptions = SubResource(1)
+comps = Array[SubResource(2), SubResource(3), SubResource(4), SubResource(5), SubResource(8)]
+outcomeChances = SubResource(9)

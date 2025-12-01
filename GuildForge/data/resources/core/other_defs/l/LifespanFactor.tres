@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/LifespanFactor.tres")"
+label = "lifespan factor"
+description = "Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnHealth.tres")"
+toStringStyle = "PercentZero"
+defaultBaseValue = "1"
+hideAtValue = "1"
+minValue = "0.01"
+showOnAnimals = "false"
+showOnMechanoids = "false"
+showOnDrones = "false"
+displayPriorityInCategory = "4299"

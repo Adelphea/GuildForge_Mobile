@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/AnimalProductsSellImprovement.tres")"
+label = "animal products price improvement"
+description = Color(When this person sells meat, leather, or wool, prices are improved by this percentage.)
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnSocial.tres")"
+defaultBaseValue = "0"
+hideAtValue = "0"
+toStringStyle = "PercentTwo"
+disableIfSkillDisabled = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Social.tres")"
+displayPriorityInCategory = "2570"

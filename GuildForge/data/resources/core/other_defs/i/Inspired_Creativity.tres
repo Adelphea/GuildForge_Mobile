@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InspirationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InspirationDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/Inspired_Creativity.tres")"
+label = "inspired creativity"
+baseDurationDays = "8"
+beginLetter = Color(The next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed.)
+beginLetterDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PositiveEvent.tres")"
+endMessage = "{0} is no longer inspired (inspired creativity)."
+baseInspectLine = "Inspired: Inspired creativity"
+minAge = "13"
+requiredAnyNonDisabledWorkType = SubResource(1)
+associatedSkills = SubResource(2)
+requiredAnySkill = SubResource(3)
+requiredCapacities = SubResource(4)

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JoyGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JoyGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EatChocolate.tres")"
+giverClass = "JoyGiver_Ingest"
+baseChance = "2.5"
+thingDefs = SubResource(1)
+joyKind = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/Gluttonous.tres")"
+requiredCapacities = SubResource(2)

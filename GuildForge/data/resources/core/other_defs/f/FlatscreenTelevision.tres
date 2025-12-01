@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/FlatscreenTelevision.tres")"
+label = "flatscreen television"
+description = "Produce high-resolution flatscreen televisions for greater enjoyment."
+baseCost = "2000"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+requiredResearchBuilding = "HiTechResearchBench"
+researchViewX = "11.00"
+researchViewY = "0.60"
+generalRules = SubResource(2)

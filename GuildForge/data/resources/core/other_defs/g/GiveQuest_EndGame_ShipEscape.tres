@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GiveQuest_EndGame_ShipEscape.tres")"
+label = "journey offer"
+letterLabel = "Journey offer"
+questScriptDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EndGame_ShipEscape.tres")"
+baseChance = "0"

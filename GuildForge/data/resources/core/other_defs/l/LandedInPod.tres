@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TaleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TaleDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/LandedInPod.tres")"
+label = "landed in pod"
+taleClass = "Tale_SinglePawn"
+type = "Volatile"
+baseInterest = "1.0"
+rulePack = SubResource(1)

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/ClassicLike.tres")"
+label = "classic-like"
+description = "Your colonists get a belief system like classic RimWorld. The rest of the world has separate ideoligions generated for them."
+categoryDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Mild.tres")"
+iconPath = "UI/HeroArt/RimWorldLogo"
+classicPlus = "true"
+memes = SubResource(1)

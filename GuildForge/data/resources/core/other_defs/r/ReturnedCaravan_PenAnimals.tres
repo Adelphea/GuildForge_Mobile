@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/ReturnedCaravan_PenAnimals.tres")"
+driverClass = "JobDriver_ReturnedCaravan_PenAnimals"
+reportString = "taking TargetA back to a pen."
+casualInterruptible = "false"
+allowOpportunisticPrefix = "true"

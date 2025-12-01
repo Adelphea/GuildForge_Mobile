@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/d/DarknessCombat_Preferred.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/d/DarknessCombat.tres")"
+label = "Preferred"
+description = "We fight better in the dark."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/High.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "100"
+associatedMemes = SubResource(1)
+conflictingMemes = SubResource(2)
+statOffsets = SubResource(3)

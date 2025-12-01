@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HeadTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HeadTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Male_AverageNormal.tres")"
+graphicPath = "Things/Pawn/Humanlike/Heads/Male/Male_Average_Normal"
+gender = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Male.tres")"
+eyeOffsetEastWest = Vector3(0.18, 0, 0.17)

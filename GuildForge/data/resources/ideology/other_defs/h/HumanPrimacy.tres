@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/h/HumanPrimacy.tres")"
+label = "human primacy"
+description = "Humans are the moral center of the universe."
+iconPath = "UI/Memes/PrimacyHuman"
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/Primacy.tres")"
+impact = "2"
+renderOrder = "50"
+veneratedAnimalsCountOverride = "0"
+requireOne = SubResource(1)
+consumableBuildings = SubResource(3)
+exclusionTags = SubResource(4)
+generalRules = SubResource(5)
+descriptionMaker = SubResource(7)
+symbolPacks = SubResource(10)
+ritualsToMake = "1"
+replaceRitualsWithTags = SubResource(13)
+replacementPatterns = SubResource(14)

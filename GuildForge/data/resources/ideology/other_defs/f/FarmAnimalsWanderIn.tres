@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualAttachableOutcomeEffectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualAttachableOutcomeEffectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/FarmAnimalsWanderIn.tres")"
+workerClass = "RitualAttachableOutcomeEffectWorker_FarmAnimalsWanderIn"
+label = "farm animals wander in"
+effectDesc = "a group of farm animals will be attracted and join the colony."
+letterInfoText = "Curious farm animals have wandered in, attracted by the commotion."
+requiredMemeAny = SubResource(1)

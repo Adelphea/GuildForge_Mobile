@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/HardWorkerVsLazy.tres")"
+thoughtClass = "Thought_HardWorkerVsLazy"
+workerClass = "ThoughtWorker_HardWorkerVsLazy"
+validWhileDespawned = "true"
+stages = SubResource(1)

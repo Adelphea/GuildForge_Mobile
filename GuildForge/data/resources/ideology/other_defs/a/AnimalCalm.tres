@@ -1,0 +1,23 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/AnimalCalm.tres")"
+label = "Animal calm"
+description = "Use unique methods of connecting with animals to calm a maddened beast."
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/MultiRole.tres")"
+iconPath = "UI/Abilities/AnimalCalm"
+warmupMoteSocialSymbol = "UI/Abilities/AnimalCalm"
+hotKey = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Misc12.tres")"
+jobDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CastAbilityOnThingMelee.tres")"
+overrideGroupCooldown = "True"
+cooldownTicksRange = "1200000"
+stunTargetWhileCasting = "True"
+showPsycastEffects = "False"
+sendMessageOnCooldownComplete = "true"
+displayGizmoWhileUndrafted = "True"
+disableGizmoWhileUndrafted = "False"
+warmupSound = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/AnimalCalm_Resolve.tres")"
+casterMustBeCapableOfViolence = "false"
+comps = Array[SubResource(1)]
+verbProperties = SubResource(2)

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/WorkTableEfficiencyFactor.tres")"
+label = "work efficiency factor"
+description = "Work efficiency is multiplied by this value."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Building.tres")"
+defaultBaseValue = "1"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+showOnNonWorkTables = "false"
+hideAtValue = "1"
+displayPriorityInCategory = "3000"

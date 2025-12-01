@@ -1,0 +1,23 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MossyTerrain.tres")"
+label = "lichen-covered soil"
+texturePath = "Terrain/Surfaces/Mossy"
+pollutedTexturePath = "Terrain/Surfaces/MossyPolluted"
+pollutionOverlayTexturePath = "Terrain/Surfaces/PollutionMossy"
+pollutionShaderType = SubResource(1)
+pollutionOverlayScale = Vector2(0.66, 0.66)
+pollutionColor = Color((1, 1, 1, 1))
+edgeType = "FadeRough"
+categoryType = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Soil.tres")"
+renderPrecedence = "315"
+pathCost = "3"
+statBases = SubResource(2)
+generatedFilth = "Filth_Dirt"
+affordances = SubResource(3)
+fertility = "1"
+takeFootprints = "True"
+avoidWander = "false"
+tags = SubResource(4)

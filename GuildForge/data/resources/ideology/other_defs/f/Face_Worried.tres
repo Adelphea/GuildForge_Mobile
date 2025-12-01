@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TattooDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TattooDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/Face_Worried.tres")"
+label = "worried"
+texPath = "Things/Pawn/Humanlike/Tattoos/Face_Worried/FaceTattooWorried"
+tattooType = "Face"
+visibleNorth = "false"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Tribal.tres")"
+styleTags = SubResource(1)

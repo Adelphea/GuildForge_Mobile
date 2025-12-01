@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GoodwillSituationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GoodwillSituationDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/FemaleSupremacy_MaleSupremacy.tres")"
+label = "female supremacy vs male supremacy"
+workerClass = "GoodwillSituationWorker_MemeCompatibility"
+meme = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/FemaleSupremacy.tres")"
+otherMeme = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/MaleSupremacy.tres")"
+naturalGoodwillOffset = "-30"

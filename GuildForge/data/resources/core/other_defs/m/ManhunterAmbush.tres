@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/ManhunterAmbush.tres")"
+label = "manhunter ambush"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/ThreatBig.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_Ambush_ManhunterPack"
+pointsScaleable = "true"
+minRefireDays = "0.17"
+letterText = "{0} has been ambushed by scaria-infected manhunting {1}!"
+letterLabel = "Caravan ambushed (manhunters)"
+letterDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/ThreatBig.tres")"
+tale = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CaravanAmbushedByManhunter.tres")"
+letterHyperlinkHediffDefs = SubResource(2)
+mtbDaysByBiome = SubResource(3)

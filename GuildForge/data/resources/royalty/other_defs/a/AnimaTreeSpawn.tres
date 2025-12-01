@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/a/AnimaTreeSpawn.tres")"
+label = "anima tree"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Special.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_AnimaTreeSpawn"
+treeDef = "Plant_TreeAnima"
+treeGenStepDef = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/a/AnimaTrees.tres")"
+treeGrowth = "0.05"
+letterLabel = "Anima tree"
+letterText = "An anima tree has sprouted nearby.\n\nTribal peoples can use this as a powerful meditation focus, but only if artificial structures are not placed nearby."
+letterDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PositiveEvent.tres")"

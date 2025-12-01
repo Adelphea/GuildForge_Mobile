@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TameAnimalChance.tres")"
+label = "tame animal chance"
+description = "The base chance this person will successfully tame an animal on any given attempt.\n\nThe actual chance is also affected by the animal's wildness.\nFailed tame attempt can induce animal attacks, especially for more vicious animals."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnSocial.tres")"
+defaultBaseValue = "1"
+minValue = "0.01"
+toStringStyle = "PercentTwo"
+displayPriorityInCategory = "1901"
+skillNeedFactors = SubResource(1)
+capacityFactors = SubResource(3)
+scenarioRandomizable = "true"

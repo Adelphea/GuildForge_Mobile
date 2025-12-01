@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd")
+settlementTexturePath = "World/WorldObjects/DefaultSettlement"
+playerInitialSettlementNameMaker = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/NamerInitialSettlementColony.tres")"
+colorSpectrum = SubResource(1)

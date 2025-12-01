@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AncientConcrete.tres")"
+label = "ancient concrete"
+description = "Ancient concrete flooring."
+statBases = SubResource(1)
+renderPrecedence = "70"
+texturePath = "Terrain/Surfaces/AncientConcrete"
+color = Vector3(140, 140, 140)
+isPaintable = "true"
+edgeType = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hard.tres")"
+designationCategory = SubResource(2)

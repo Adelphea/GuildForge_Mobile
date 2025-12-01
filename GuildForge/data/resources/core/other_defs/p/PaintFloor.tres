@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PaintFloor.tres")"
+label = "paint floor"
+giverClass = "WorkGiver_PaintFloor"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/Art.tres")"
+priorityInType = "200"
+verb = "paint"
+gerund = "painting"
+scanThings = "false"
+scanCells = "true"
+requiredCapacities = SubResource(1)
+canBeDoneByMechs = "false"

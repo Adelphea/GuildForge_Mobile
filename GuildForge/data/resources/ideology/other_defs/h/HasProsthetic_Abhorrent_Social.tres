@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/h/HasProsthetic_Abhorrent_Social.tres")"
+thoughtClass = "Thought_SituationalSocial"
+workerClass = "ThoughtWorker_Precept_HasProsthetic_Social"
+stages = SubResource(1)
+nullifyingTraits = SubResource(3)

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/ResearchCommand.tres")"
+label = "research command"
+description = "Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours."
+iconPath = "UI/Abilities/ResearchCommand"
+warmupMoteSocialSymbol = "UI/Abilities/ResearchCommand"
+showWhenDrafted = "false"
+hostile = "false"
+casterMustBeCapableOfViolence = "false"
+comps = Array[SubResource(1)]

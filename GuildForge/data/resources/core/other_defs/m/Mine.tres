@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Mine.tres")"
+label = "mine"
+giverClass = "WorkGiver_Miner"
+workType = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Mining.tres")"
+priorityInType = "100"
+verb = "mine"
+gerund = "mining"
+tagToGive = "Fieldwork"
+requiredCapacities = SubResource(1)

@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeatherDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeatherDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Rain.tres")"
+label = "rain"
+description = Color(Rain reduces the accuracy of ranged weapons, extinguishes fire, and slows people down., 1.0)
+temperatureRange = "0~100"
+windSpeedFactor = "1.5"
+accuracyMultiplier = "0.8"
+favorability = "Neutral"
+perceivePriority = "1"
+weatherThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SoakingWet.tres")"
+rainRate = "1"
+moveSpeedMultiplier = "0.9"
+ambientSounds = SubResource(1)
+overlayClasses = SubResource(2)
+commonalityRainfallFactor = SubResource(3)
+skyColorsDay = SubResource(5)
+skyColorsDusk = SubResource(6)
+skyColorsNightEdge = SubResource(7)
+skyColorsNightMid = SubResource(8)

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/j/JumpSmoke.tres")"
+graphicData = SubResource(1)
+altitudeLayer = "Projectile"
+solidTime = "0.2"
+fadeOutTime = "0.2"
+growthRate = "1.2"

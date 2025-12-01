@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/Cannibalism_RequiredRavenous.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cannibalism.tres")"
+label = "required (ravenous)"
+description = "Man-flesh is morality. To eat a meal without it is unthinkable."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/High.tres")"
+displayOrderInImpact = "1000"
+likesHumanLeatherApparel = "true"
+requiredMemes = SubResource(1)
+comps = Array[SubResource(2), SubResource(3), SubResource(4), SubResource(5), SubResource(6)]

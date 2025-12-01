@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HistoryAutoRecorderDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HistoryAutoRecorderDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/ThreatPoints.tres")"
+label = "fun points /10"
+graphColor = Color((1, 0.5, 0.5, 1))
+recordTicksFrequency = "30000"
+workerClass = "HistoryAutoRecorderWorker_ThreatPoints"
+valueFormat = "{0} points"

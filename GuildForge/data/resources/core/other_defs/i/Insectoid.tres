@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleshTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleshTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/Insectoid.tres")"
+corpseCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CorpsesInsect.tres")"
+damageEffecter = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Damage_HitInsect.tres")"
+isOrganic = "true"
+genericWounds = SubResource(1)

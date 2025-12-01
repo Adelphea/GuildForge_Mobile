@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/StrawMatting.tres")"
+label = "straw matting"
+description = "Rough straw matting for use in animal barns. It is cheap and accepts very little filth."
+texturePath = "Terrain/Surfaces/StrawMatting"
+pollutedTexturePath = "Terrain/Surfaces/StrawMattingPolluted"
+pollutionOverlayTexturePath = None
+pollutionColor = Color((1, 1, 1, 1))
+pollutionTintColor = Color((1, 1, 1, 1))
+edgeType = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hard.tres")"
+renderPrecedence = "240"
+burnedDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BurnedStrawMatting.tres")"
+pathCost = "1"
+statBases = SubResource(1)
+costList = SubResource(2)
+designationHotKey = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Misc6.tres")"
+uiOrder = "2010"

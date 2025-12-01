@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualBehaviorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualBehaviorDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/d/DancePartyTech.tres")"
+workerClass = "RitualBehaviorWorker_DancePartyTech"
+durationTicks = "5000"
+roles = SubResource(1)
+spectatorsLabel = "Participants"
+spectatorGerund = "participate"
+stages = SubResource(2)

@@ -1,0 +1,23 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnRelationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnRelationDef.gd")
+workerClass = "PawnRelationWorker_Parent"
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/Parent.tres")"
+label = "father"
+labelFemale = "mother"
+importance = "195"
+diedThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MyFatherDied.tres")"
+diedThoughtFemale = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MyMotherDied.tres")"
+killedThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/k/KilledMyFather.tres")"
+killedThoughtFemale = "ExtResource("res://GuildForge/data/resources/core/other_defs/k/KilledMyMother.tres")"
+lostThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MyFatherLost.tres")"
+lostThoughtFemale = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MyMotherLost.tres")"
+soldThoughts = SubResource(1)
+opinionOffset = "30"
+generationChanceFactor = "1.0"
+romanceChanceFactor = "0.03"
+incestOpinionOffset = "-30"
+inbredChanceOnChild = "0.8"
+implied = "false"
+familyByBloodRelation = "true"

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Mortars.tres")"
+label = "mortars"
+description = "Build mortars which can lob shells long distances - even over walls."
+baseCost = "2000"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+hideWhen = SubResource(2)
+researchViewX = "7.00"
+researchViewY = "4.10"
+generalRules = SubResource(3)

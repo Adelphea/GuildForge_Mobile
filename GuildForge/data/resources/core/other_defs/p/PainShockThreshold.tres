@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PainShockThreshold.tres")"
+label = "pain shock threshold"
+description = "The pain level at which this creature is downed from pain."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnResistances.tres")"
+minValue = "0.01"
+maxValue = "0.99"
+defaultBaseValue = "0.8"
+toStringStyle = "PercentZero"
+showOnMechanoids = "false"
+showOnDrones = "false"
+displayPriorityInCategory = "2000"

@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BedRestEffectiveness.tres")"
+label = "rest effectiveness"
+description = "How fast people sleeping on this gain rest."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Building.tres")"
+defaultBaseValue = "0.0"
+minValue = "0.4"
+valueIfMissing = "0.8"
+toStringStyle = "PercentZero"
+showIfUndefined = "false"
+parts = SubResource(1)
+displayPriorityInCategory = "4000"
+cacheable = "true"

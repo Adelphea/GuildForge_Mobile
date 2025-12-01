@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/a/ArtificialMetabolism.tres")"
+label = "artificial metabolism"
+description = "Craft bionics that process food more safely or efficiently than a biological stomach."
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+researchViewX = "18.00"
+researchViewY = "5.40"
+generalRules = SubResource(3)

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PrisonerInteractionModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PrisonerInteractionModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/ReduceWill.tres")"
+label = "reduce will only"
+isChildInteraction = "true"
+listOrder = "26"
+description = "Wardens will threaten the prisoner to reduce their will, but won't enslave them."
+allowOnWildMan = "false"

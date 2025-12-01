@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoyalTitleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoyalTitleDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/a/Acolyte.tres")"
+label = "acolyte"
+description = "The title of acolyte is the title of senior learners in the psychic cult, and encompasses a wide range of practical positions. Some acolytes are purely students, learning to lead troops, manage societies, or use psycasts in specialized schools. Others come from wealthy families and might own city buildings or farm complexes.\n\nDuring wartime, an acolyte might lead a platoon of troops, captain a small frigate, or serve their liege as an advisor."
+seniority = "200"
+favorCost = "6"
+minExpectation = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Moderate.tres")"
+changeHeirQuestPoints = "1200"
+recruitmentResistanceOffset = "10"
+commonality = "1"
+canBeInherited = "True"
+permitPointsAwarded = "1"
+disabledWorkTags = SubResource(1)
+requiredApparel = SubResource(2)
+throneRoomRequirements = SubResource(11)
+bedroomRequirements = SubResource(32)
+foodRequirement = SubResource(47)
+maxPsylinkLevel = "2"

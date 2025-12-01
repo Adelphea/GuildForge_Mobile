@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AllowNonDeadmansApparel.tres")"
+label = "allow clean apparel"
+description = "Allow clothing that was never worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it."
+parentCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/Apparel.tres")"
+allowedByDefault = "true"
+saveKey = "allowNonDeadmansApparel"
+workerClass = "SpecialThingFilterWorker_NonDeadmansApparel"

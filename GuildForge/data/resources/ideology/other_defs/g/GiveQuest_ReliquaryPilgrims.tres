@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/g/GiveQuest_ReliquaryPilgrims.tres")"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GiveQuest.tres")"
+label = "pilgrims arrive"
+targetTags = SubResource(1)
+letterLabel = "pilgrims arrive"
+questScriptDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/ReliquaryPilgrims.tres")"
+workerClass = "IncidentWorker_GiveQuest"
+baseChance = "0"
+requireColonistsPresent = "True"

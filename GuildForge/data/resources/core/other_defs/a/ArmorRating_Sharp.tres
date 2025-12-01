@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/ArmorRating_Sharp.tres")"
+label = "Armor - Sharp"
+labelForFullStatList = "Armor - Sharp (armor stat)"
+description = "The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.
+
+Upon taking damage, first this armor rating is reduced by the attack's armor penetration value.
+
+The remaining armor rating is then compared against a random number from 0 to 100.
+
+    - If the random number is under half the armor rating, the damage deflects harmlessly.
+    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.
+    - If the random number is greater than the armor rating, the armor has no effect.
+
+For example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.
+
+Each layer of armor is applied separately, from the outside in."
+displayPriorityInCategory = "100"
+parts = SubResource(1)

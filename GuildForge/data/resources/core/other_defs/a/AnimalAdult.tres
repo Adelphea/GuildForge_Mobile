@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_LifeStageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_LifeStageDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AnimalAdult.tres")"
+label = "adult"
+visible = "false"
+reproductive = "true"
+milkable = "true"
+shearable = "true"
+caravanRideable = "true"

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/WaterMovingShallow.tres")"
+label = "shallow moving water"
+texturePath = "Terrain/Surfaces/WaterShallowRamp"
+pollutedTexturePath = "Terrain/Surfaces/WaterShallowRampPolluted"
+waterDepthShader = "Map/WaterDepth"
+renderPrecedence = "398"
+affordances = SubResource(1)
+tags = SubResource(2)
+waterDepthShaderParameters = SubResource(3)

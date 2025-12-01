@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/i/IdeoDiversity_Standard.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/i/IdeoDiversity.tres")"
+label = "neutral"
+description = "Other beliefs are neither approved or disapproved."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Low.tres")"
+displayOrderInIssue = "30"
+defaultSelectionWeight = "1"
+comps = Array[SubResource(1), SubResource(2)]

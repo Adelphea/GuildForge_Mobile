@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PredatorHunt.tres")"
+driverClass = "JobDriver_PredatorHunt"
+reportString = "hunting TargetA."
+casualInterruptible = "false"
+checkOverrideOnDamage = "OnlyIfInstigatorNotJobTarget"
+allowOpportunisticPrefix = "true"
+neverFleeFromEnemies = "true"

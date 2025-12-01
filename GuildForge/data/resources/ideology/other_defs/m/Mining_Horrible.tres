@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Mining_Horrible.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Mining.tres")"
+label = "horrible"
+description = "Violating the natural earth with mining tools is a horrible act."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/High.tres")"
+displayOrderInIssue = "10"
+displayOrderInImpact = "1000"
+warnPlayerOnDesignateMine = "true"
+opposedWorkTypes = SubResource(1)
+conflictingMemes = SubResource(2)
+associatedMemes = SubResource(3)
+disallowMiningCamps = "true"
+comps = Array[SubResource(4), SubResource(5), SubResource(6), SubResource(7)]

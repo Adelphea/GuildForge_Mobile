@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/Structure_Ideological.tres")"
+label = "ideological"
+description = "There are no gods. The moral structure of the universe is found in our grand narrative of social forces."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Structure.tres")"
+iconPath = "UI/Structures/Structure_Ideological"
+impact = "0"
+worshipRoomLabel = "sanctuary"
+randomizationSelectionWeightFactor = "5"
+deityCount = "0"
+consumableBuildings = SubResource(1)
+renderOrder = "-1"
+generalRules = SubResource(2)
+descriptionMaker = SubResource(4)
+symbolPacks = SubResource(10)

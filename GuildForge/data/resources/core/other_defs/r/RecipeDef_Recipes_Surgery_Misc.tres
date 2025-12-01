@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+effectWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Surgery.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Recipe_Surgery.tres")"
+workSpeedStat = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MedicalOperationSpeed.tres")"
+workSkill = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Medicine.tres")"
+workSkillLearnFactor = "16"
+surgeryOutcomeEffect = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SurgeryOutcomeBase.tres")"

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/b/BrainWiring.tres")"
+label = "brain wiring"
+description = "Craft brain implants that induce or prevent blunt sensations like joy or pain."
+requiredResearchBuilding = "HiTechResearchBench"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+researchViewX = "12.00"
+researchViewY = "1.20"
+generalRules = SubResource(3)

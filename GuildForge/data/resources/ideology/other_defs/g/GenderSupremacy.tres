@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeGroupDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeGroupDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/g/GenderSupremacy.tres")"
+drawOffset = Vector2(0.65, 0.23)
+maxRows = "1"
+renderOrder = "2000"

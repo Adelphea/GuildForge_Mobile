@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/ProductionCommand.tres")"
+label = "production command"
+description = "Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours."
+iconPath = "UI/Abilities/ProductionCommand"
+warmupMoteSocialSymbol = "UI/Abilities/ProductionCommand"
+showWhenDrafted = "false"
+hostile = "false"
+casterMustBeCapableOfViolence = "false"
+comps = Array[SubResource(1)]

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/RoomReadingBonus.tres")"
+label = "reading bonus"
+description = Color(Provides a bonus to research speed, XP gained from reading, and recreation gained from reading in the same room as the bookcase. This is increased by placing more and higher quality books in the bookcase., 1.0)
+workerClass = "StatWorker_RoomReadingBonus"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Building.tres")"
+defaultBaseValue = "1"
+minValue = "1"
+toStringStyle = "PercentZero"
+parts = SubResource(1)
+displayPriorityInCategory = "4200"

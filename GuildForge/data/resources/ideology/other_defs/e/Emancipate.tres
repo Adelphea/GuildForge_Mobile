@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SlaveInteractionModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SlaveInteractionModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/e/Emancipate.tres")"
+label = "emancipate"
+listOrder = "30"
+description = "A warden will free this slave."

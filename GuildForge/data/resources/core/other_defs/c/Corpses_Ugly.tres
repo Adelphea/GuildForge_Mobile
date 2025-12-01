@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Corpses_Ugly.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Corpses.tres")"
+label = "ugly"
+description = "The sight of a dead person is horrible."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Low.tres")"
+classic = "true"
+displayOrderInIssue = "10"
+defaultSelectionWeight = "1"
+comps = Array[SubResource(1), SubResource(2)]

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/AutobongSmoke.tres")"
+graphicData = SubResource(1)
+altitudeLayer = "MoteOverhead"
+fadeInTime = "0.50"
+solidTime = "20"
+fadeOutTime = "0.5"
+growthRate = "0.05"

@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PrefabDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PrefabDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AncientSystemRack.tres")"
+rotations = "North"
+size = Vector2(2, 4)
+things = SubResource(1)

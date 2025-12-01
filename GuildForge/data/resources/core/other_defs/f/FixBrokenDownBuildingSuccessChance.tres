@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/FixBrokenDownBuildingSuccessChance.tres")"
+label = "repair success chance"
+description = "The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+maxValue = "1"
+toStringStyle = "PercentZero"
+skillNeedFactors = SubResource(1)
+capacityFactors = SubResource(4)
+displayPriorityInCategory = "4600"

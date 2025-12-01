@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HeadTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HeadTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Female_NarrowNormal.tres")"
+graphicPath = "Things/Pawn/Humanlike/Heads/Female/Female_Narrow_Normal"
+gender = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Female.tres")"

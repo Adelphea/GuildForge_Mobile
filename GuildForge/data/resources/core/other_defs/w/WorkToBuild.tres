@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/WorkToBuild.tres")"
+label = "work to build"
+description = "The base amount of work it takes to build a structure, once all materials are gathered.\n\nThe work required to deconstruct the structure is also based on this."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Building.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+toStringStyle = "WorkAmount"
+roundToFiveOver = "300"
+showIfUndefined = "false"
+scenarioRandomizable = "true"
+displayPriorityInCategory = "3101"

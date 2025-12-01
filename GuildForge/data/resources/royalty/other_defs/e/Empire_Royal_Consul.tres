@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/e/Empire_Royal_Consul.tres")"
+label = "consul"
+titleRequired = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/c/Consul.tres")"
+combatPower = "135"
+apparelMoney = "9999999"
+specificApparelRequirements = SubResource(1)
+techHediffsChance = "0.25"
+techHediffsMoney = "2000~2500"
+techHediffsMaxAmount = "2"
+initialWillRange = "15~18"
+initialResistanceRange = "19~30"
+useFactionXenotypes = "false"
+xenotypeSet = SubResource(10)

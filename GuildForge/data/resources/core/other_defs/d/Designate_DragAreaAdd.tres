@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SoundDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SoundDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Designate_DragAreaAdd.tres")"
+sustain = "True"
+maxSimultaneous = "1"
+priorityMode = "PrioritizeNearest"
+sustainStartSound = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Designate_DragAreaAdd_Start.tres")"
+subSounds = SubResource(1)

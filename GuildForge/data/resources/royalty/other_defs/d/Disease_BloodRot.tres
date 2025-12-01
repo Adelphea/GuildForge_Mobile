@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/d/Disease_BloodRot.tres")"
+label = "blood rot"
+diseaseIncident = "BloodRot"
+letterLabel = "Disease: Blood rot"
+diseaseVictimFractionRange = "0~0.2"
+minThreatPoints = "700"
+minPopulation = "4"

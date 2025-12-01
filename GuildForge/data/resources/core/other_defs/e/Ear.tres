@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BodyPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BodyPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/Ear.tres")"
+label = "ear"
+hitPoints = "12"
+frostbiteVulnerability = "5"
+skinCovered = "true"
+beautyRelated = "true"
+tags = SubResource(1)

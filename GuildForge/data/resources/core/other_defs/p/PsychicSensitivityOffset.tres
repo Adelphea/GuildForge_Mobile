@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PsychicSensitivityOffset.tres")"
+label = "psychic sensitivity offset"
+description = "An offset applied to the user's psychic sensitivity."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Basics.tres")"
+defaultBaseValue = "0"
+toStringStyle = "PercentZero"
+showOnAnimals = "false"
+displayPriorityInCategory = "3500"
+showIfUndefined = "false"
+showOnPawns = "false"
+parts = SubResource(1)
+cacheable = "true"

@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/o/OpeningComms.tres")"
+label = "Using the comms console"
+helpText = "To communicate, select a colonist and right-click on the comms console."
+helpTextController = "To communicate, select a colonist and press the left trigger button on the comms console."

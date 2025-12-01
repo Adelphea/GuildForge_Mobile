@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HairDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HairDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Lackland.tres")"
+label = "lackland"
+styleGender = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Male.tres")"
+texPath = "Things/Pawn/Humanlike/Hairs/Lackland"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/u/Urban.tres")"
+styleTags = SubResource(1)

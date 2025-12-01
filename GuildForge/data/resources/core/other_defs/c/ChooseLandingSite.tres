@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/ChooseLandingSite.tres")"
+text = "Here you choose your starting site.\n\nClick a temperate forest (light green) with no brown hills. Then click NEXT.\n\nOptionally, you can use the TERRAIN tab to view information about the selected tile."
+eventTagInitiate = "PageStart-SelectStartingSite"
+actionTagsAllowed = SubResource(1)
+eventTagsEnd = SubResource(2)
+rejectInputMessage = "Please choose a temperate forest site with no hills (light green with no brown dots)."

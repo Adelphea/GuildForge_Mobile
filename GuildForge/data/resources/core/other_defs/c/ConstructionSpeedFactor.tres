@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/ConstructionSpeedFactor.tres")"
+label = "construction speed"
+labelForFullStatList = "construction speed (material factor)"
+description = "The speed at which buildings made of this are constructed is multiplied by this value.\n\nSome materials, like stone, are slow to build from, while others, like wood, are fast."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BasicsNonPawn.tres")"
+defaultBaseValue = "1"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+hideAtValue = "1"
+displayPriorityInCategory = "2500"

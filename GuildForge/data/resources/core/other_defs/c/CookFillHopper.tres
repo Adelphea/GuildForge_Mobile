@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CookFillHopper.tres")"
+label = "fill food hoppers"
+giverClass = "WorkGiver_CookFillHopper"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hauling.tres")"
+priorityInType = "50"
+verb = "fill"
+gerund = "filling"
+requiredCapacities = SubResource(1)

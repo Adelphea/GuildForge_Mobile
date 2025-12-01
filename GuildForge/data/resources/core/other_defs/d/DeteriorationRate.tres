@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DeteriorationRate.tres")"
+label = "deterioration rate"
+description = "The rate at which this item deteriorates when left outside, in average hit points per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BasicsNonPawn.tres")"
+showIfUndefined = "false"
+defaultBaseValue = "0"
+minValue = "0"
+toStringStyle = "FloatTwo"
+formatString = "{0} / day"
+parts = SubResource(1)
+scenarioRandomizable = "true"
+displayPriorityInCategory = "2500"

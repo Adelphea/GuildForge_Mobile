@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MeleeWeapon_DamageMultiplier.tres")"
+label = "melee damage multiplier"
+description = "A damage multiplier applied to melee combat."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/Weapon_Melee.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+toStringStyle = "PercentZero"
+showIfUndefined = "false"
+displayPriorityInCategory = "5008"
+parts = SubResource(1)
+scenarioRandomizable = "true"

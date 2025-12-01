@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AnimalGatherSpeed.tres")"
+label = "animal gather speed"
+description = Color(The speed at which this person milks, shears, and otherwise gathers resources from animals., 1.0)
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+statFactors = SubResource(1)
+skillNeedFactors = SubResource(2)
+capacityFactors = SubResource(4)
+displayPriorityInCategory = "4501"

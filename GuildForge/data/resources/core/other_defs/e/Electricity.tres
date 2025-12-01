@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/Electricity.tres")"
+label = "electricity"
+description = "Harness the power of electricity for a hundred different tasks."
+baseCost = "1600"
+techLevel = "Industrial"
+tags = SubResource(1)
+researchViewX = "4.00"
+researchViewY = "3.00"
+discoveredLetterTitle = "About: Electricity"
+discoveredLetterText = Color(Your colony has harnessed the power which outsiders call "electricity". It has the potential to transform every aspect of your people's way of life.\n\nYou have now unlocked the Power tab in the Architect menu from which you may build electric generators, power conduits, and other mechanisms to control this new force. The Power tab also displays the electric grid which connects electric generators and appliances., 1.0)
+generalRules = SubResource(2)

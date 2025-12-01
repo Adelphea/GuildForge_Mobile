@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JoyGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JoyGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/Play_Billiards.tres")"
+giverClass = "JoyGiver_PlayBilliards"
+baseChance = "4"
+thingDefs = SubResource(1)
+jobDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/Play_Billiards.tres")"
+joyKind = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/Gaming_Dexterity.tres")"
+requiredCapacities = SubResource(2)

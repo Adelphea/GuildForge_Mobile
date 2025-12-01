@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MedicalTendQuality.tres")"
+label = "medical tend quality"
+description = Color(The base quality of tending given when tending wounds and illnesses.\n\nThe actual tend quality will also be affected by factors like medicine used, facilities, luck, and so on.)
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+toStringStyle = "PercentZero"
+neverDisabled = "true"
+skillNeedFactors = SubResource(1)
+capacityFactors = SubResource(3)
+postProcessCurve = SubResource(6)
+displayPriorityInCategory = "4651"

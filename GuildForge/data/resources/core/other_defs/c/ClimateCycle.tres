@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GameConditionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GameConditionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/ClimateCycle.tres")"
+conditionClass = "GameCondition_ClimateCycle"
+label = "climate cycle"
+description = "A multi-year climate cycle due to an elliptical orbit."
+canBePermanent = "true"
+allowUnderground = "false"

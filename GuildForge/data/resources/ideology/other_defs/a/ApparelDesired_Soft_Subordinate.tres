@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/ApparelDesired_Soft_Subordinate.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/ApparelDesire.tres")"
+label = "relaxed"
+description = "{GENDER} members will be pleased when wearing {APPAREL_indefinite}. {GENDER} members will arrive wearing {APPAREL_indefinite} if it doesn't interfere with any other apparel."
+preceptClass = "Precept_Apparel"
+workerClass = "PreceptWorker_Apparel"
+useChoicesFromBuildingDefs = "true"
+countsTowardsPreceptLimit = "false"
+canGenerateAsSpecialPrecept = "false"
+ignoreLimitsInEditMode = "true"
+apparelPreceptSwapDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/a/ApparelDesired_Strong_Subordinate.tres")"
+comps = Array[SubResource(1), SubResource(2)]

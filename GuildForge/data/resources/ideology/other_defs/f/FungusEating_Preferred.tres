@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/FungusEating_Preferred.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/f/FungusEating.tres")"
+label = "preferred"
+description = "Fungus is the right crop to eat. Crops of the light are poisoned by the air and sun."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Low.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "100"
+requiredMemes = SubResource(1)
+comps = Array[SubResource(2), SubResource(3), SubResource(4), SubResource(5)]

@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalStateDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalStateDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Roaming.tres")"
+stateClass = "MentalState_Roaming"
+workerClass = "MentalStateWorker_Roaming"
+label = "roaming"
+minTicksBeforeRecovery = "99999999"
+category = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Misc.tres")"
+nameColor = Vector3(0.65, 0.9, 0.93)
+baseInspectLine = "Mental state: Roaming"
+inCaravanCanDo = "false"
+recoverFromSleep = "false"
+recoverFromDowned = "false"
+recoverFromCollapsingExhausted = "false"

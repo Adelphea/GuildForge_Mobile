@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_LifeStageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_LifeStageDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EusocialInsectLarva.tres")"
+label = "larva"
+voxPitch = "1.6"
+voxVolume = "0.4"
+bodySizeFactor = "0.2"
+foodMaxFactor = "2"
+healthScaleFactor = "0.25"
+hungerRateFactor = "0.4"
+marketValueFactor = "0.4"
+meleeDamageFactor = "0.5"
+statFactors = SubResource(1)

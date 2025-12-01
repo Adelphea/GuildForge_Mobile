@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EMP.tres")"
+label = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EMP.tres")"
+externalViolenceForMechanoids = "true"
+deathMessage = "{0} has been EMPed to death."
+harmsHealth = "false"
+impactSoundType = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/Electric.tres")"
+defaultDamage = "50"
+explosionSnowMeltAmount = "0"
+explosionCellFleck = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BlastEMP.tres")"
+explosionColorEdge = Color((0.8, 0.8, 0.8, 0.8))
+explosionInteriorFleck = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/ElectricalSpark.tres")"
+soundExplosion = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/Explosion_EMP.tres")"
+combatLogRules = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Damage_EMP.tres")"
+causeStun = "true"
+stunResistStat = SubResource(1)
+stunAdaptationTicks = "2200"

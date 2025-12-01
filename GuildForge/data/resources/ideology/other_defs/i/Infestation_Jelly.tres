@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/i/Infestation_Jelly.tres")"
+label = "insect jelly"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Special.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_InsectJelly"
+baseChance = "0"
+letterLabel = "Insect jelly"
+letterText = "Giant insects have tunneled up from underneath and deposited some surplus insect jelly on the surface."
+letterDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PositiveEvent.tres")"

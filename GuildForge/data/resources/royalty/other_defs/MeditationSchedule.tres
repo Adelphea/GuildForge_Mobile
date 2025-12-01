@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/m/MeditationSchedule.tres")"
+label = "Meditation schedule"
+helpText = "You can assign your colonists to meditate on a specific schedule.\n\nOpen the SCHEDULE tab, select the 'Meditate' assignment and click-drag the times when you want someone to meditate."
+highlightTags = SubResource(1)

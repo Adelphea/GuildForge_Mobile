@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Make_ComponentSpacer.tres")"
+label = "make advanced component"
+description = "Make an advanced component."
+jobString = "Making advanced component."
+workSpeedStat = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GeneralLaborSpeed.tres")"
+effectWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cook.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Recipe_Machining.tres")"
+workAmount = "10000"
+unfinishedThingDef = "UnfinishedComponent"
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(14)
+products = SubResource(16)
+researchPrerequisite = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AdvancedFabrication.tres")"
+skillRequirements = SubResource(17)
+workSkill = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Crafting.tres")"
+displayPriority = "10"

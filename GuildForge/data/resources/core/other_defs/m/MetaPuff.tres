@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MetaPuff.tres")"
+graphicData = SubResource(1)
+altitudeLayer = "MoteOverhead"
+realTime = "true"
+fadeInTime = "0.04"
+solidTime = "0.03"
+fadeOutTime = "1"

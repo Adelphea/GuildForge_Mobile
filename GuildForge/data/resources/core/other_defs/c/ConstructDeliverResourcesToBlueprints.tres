@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/ConstructDeliverResourcesToBlueprints.tres")"
+label = "deliver resources to blueprints"
+giverClass = "WorkGiver_ConstructDeliverResourcesToBlueprints"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Construction.tres")"
+priorityInType = "60"
+verb = "work on"
+gerund = "working on"
+requiredCapacities = SubResource(1)
+nonColonistsCanDo = "true"
+prioritizeSustains = "true"
+equivalenceGroup = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AssistInConstruction.tres")"

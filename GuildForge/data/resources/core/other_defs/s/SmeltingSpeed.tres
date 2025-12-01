@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SmeltingSpeed.tres")"
+label = "smelting speed"
+description = "The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+statFactors = SubResource(1)
+capacityFactors = SubResource(2)
+displayPriorityInCategory = "4500"

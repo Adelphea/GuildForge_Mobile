@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MultiAnalyzer.tres")"
+label = "multi-analyzer"
+description = "Build multi-analyzers which increase research speed and allow higher-level research projects."
+baseCost = "4000"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+requiredResearchBuilding = "HiTechResearchBench"
+researchViewX = "14.00"
+researchViewY = "3.00"
+generalRules = SubResource(3)

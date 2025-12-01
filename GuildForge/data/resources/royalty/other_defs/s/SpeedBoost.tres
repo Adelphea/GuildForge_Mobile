@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeaponTraitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeaponTraitDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/s/SpeedBoost.tres")"
+label = "fast mover"
+description = "This weapon's persona has a sense of motion. It confers this onto the wielder, making them move 15% faster as long as the weapon is held."
+equippedHediffs = SubResource(1)
+commonality = "1"
+marketValueOffset = "600"

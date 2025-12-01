@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BodyPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BodyPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hoof.tres")"
+label = "hoof"
+hitPoints = "10"
+frostbiteVulnerability = "6"
+skinCovered = "true"
+alive = "false"
+bleedRate = "0"
+solid = "true"
+permanentInjuryChanceFactor = "0"
+tags = SubResource(1)

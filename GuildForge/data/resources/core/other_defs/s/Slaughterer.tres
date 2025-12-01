@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalBreakDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalBreakDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Slaughterer.tres")"
+mentalState = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Slaughterer.tres")"
+baseCommonality = "0.75"
+intensity = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/Extreme.tres")"

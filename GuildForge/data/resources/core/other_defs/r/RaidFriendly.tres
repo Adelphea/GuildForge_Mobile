@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/RaidFriendly.tres")"
+label = "friendly raid"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AllyAssistance.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_RaidFriendly"
+baseChance = "3.0"
+pointsScaleable = "true"

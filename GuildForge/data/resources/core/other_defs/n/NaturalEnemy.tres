@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GoodwillSituationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GoodwillSituationDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/NaturalEnemy.tres")"
+label = "natural enemy"
+workerClass = "GoodwillSituationWorker_NaturalEnemy"

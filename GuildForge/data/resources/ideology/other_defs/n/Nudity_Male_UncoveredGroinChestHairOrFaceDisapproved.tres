@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/Nudity_Male.tres")"
+label = "totally covered"
+description = "Men must cover their entire body, including their hair and face."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/High.tres")"
+displayOrderInIssue = "10"
+displayOrderInImpact = "750"
+associatedMemes = SubResource(1)
+comps = Array[SubResource(2), SubResource(3)]

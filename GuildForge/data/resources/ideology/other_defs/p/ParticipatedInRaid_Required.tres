@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/ParticipatedInRaid_Required.tres")"
+thoughtClass = "Thought_Memory"
+durationDays = "5"
+stackedEffectMultiplier = "1"
+stackLimit = "300"
+stages = SubResource(1)

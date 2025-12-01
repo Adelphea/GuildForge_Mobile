@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/i/IdeoRole_ResearchSpecialist.tres")"
+label = "research specialist"
+description = "A special ideoligious status focusing on research to the exclusion of all else. This specialized role gives increased research and hacking speed, and the ability to boost research abilities of nearby allies. Holders of this role will refuse to perform some non-research tasks."
+iconPath = "UI/Roles/SpecialistResearch"
+nameMaker = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/NamerRoleResearcher.tres")"
+roleRequirements = SubResource(1)
+roleRequiredWorkTags = SubResource(4)
+roleTags = SubResource(5)
+requiredMemes = SubResource(6)
+roleEffects = SubResource(7)
+grantedAbilities = SubResource(10)
+displayOrderInImpact = "2"
+roleApparelRequirements = SubResource(11)
+roleDisabledWorkTags = SubResource(17)

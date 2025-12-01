@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Mining.tres")"
+labelShort = "mine"
+pawnLabel = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Miner.tres")"
+gerundLabel = "mining"
+description = "Digging and drilling."
+verb = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Mine.tres")"
+naturalPriority = "600"
+requireCapableColonist = "true"
+relevantSkills = SubResource(1)
+workTags = SubResource(2)

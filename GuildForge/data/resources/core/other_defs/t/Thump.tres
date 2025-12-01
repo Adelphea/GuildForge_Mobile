@@ -1,0 +1,27 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Thump.tres")"
+label = "thump"
+workerClass = "DamageWorker_AddInjury"
+externalViolence = "true"
+isExplosive = "true"
+deathMessage = "{0} has been shot to death."
+hediff = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Crush.tres")"
+hediffSolid = "Crack"
+harmAllLayersUntilOutside = "true"
+impactSoundType = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Blunt.tres")"
+armorCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Sharp.tres")"
+minDamageToFragment = "15"
+defaultDamage = "5"
+defaultArmorPenetration = "0"
+buildingDamageFactorImpassable = "15"
+buildingDamageFactorPassable = "7.5"
+plantDamageFactor = "4"
+explosionAffectOutsidePartsOnly = "false"
+explosionCellFleck = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BlastDry.tres")"
+explosionColorCenter = Vector3(0.73, 0.93, 0.96)
+explosionColorEdge = Vector3(0.71, 0.82, 0.90)
+soundExplosion = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/Explosion_Thump.tres")"
+combatLogRules = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Damage_Bomb.tres")"

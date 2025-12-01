@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Tile_Transhumanist.tres")"
+label = "hex tile"
+description = "Fine steel plates with a hexagonal pattern for that ultra-technological look."
+texturePath = "Terrain/Surfaces/HexTile"
+renderPrecedence = "228"
+canGenerateDefaultDesignator = "false"
+constructionSkillPrerequisite = "6"
+dominantStyleCategory = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Techist.tres")"
+color = Vector3(105, 105, 105)
+costList = SubResource(1)
+isPaintable = "true"
+statBases = SubResource(2)
+tags = SubResource(3)
+uiOrder = "2055"

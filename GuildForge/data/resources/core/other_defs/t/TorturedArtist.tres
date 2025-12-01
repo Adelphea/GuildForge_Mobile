@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TraitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TraitDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TorturedArtist.tres")"
+commonality = "0.6"
+forcedPassions = SubResource(1)
+degreeDatas = SubResource(2)

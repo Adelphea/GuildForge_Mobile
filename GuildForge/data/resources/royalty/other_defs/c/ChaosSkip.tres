@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/c/ChaosSkip.tres")"
+label = "chaos skip"
+description = "Teleport the target to a random position near where it started. Objects above a certain size cannot be teleported."
+level = "3"
+iconPath = "UI/Abilities/SkipChaos"
+writeCombatLog = "True"
+hotKey = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Misc8.tres")"
+casterMustBeCapableOfViolence = "false"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(4)]

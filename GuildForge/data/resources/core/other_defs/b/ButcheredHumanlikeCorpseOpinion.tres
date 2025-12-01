@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/ButcheredHumanlikeCorpseOpinion.tres")"
+thoughtClass = "Thought_MemorySocial"
+durationDays = "5"
+stackLimit = "100"
+stackLimitForSameOtherPawn = "3"
+validWhileDespawned = "true"
+stages = SubResource(1)
+nullifyingTraits = SubResource(3)
+nullifyingHediffs = SubResource(4)
+nullifyingOwnTales = SubResource(6)

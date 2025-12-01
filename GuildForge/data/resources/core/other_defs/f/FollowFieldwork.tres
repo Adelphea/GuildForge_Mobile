@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnColumnDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnColumnDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/FollowFieldwork.tres")"
+workerClass = "PawnColumnWorker_FollowFieldwork"
+sortable = "true"
+headerIcon = "UI/Icons/Animal/FollowFieldwork"
+headerTip = "Follow master while the master is doing field work (hunting or taming animals)."
+paintable = "true"

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/Insulation_Cold.tres")"
+label = "Insulation - Cold"
+labelForFullStatList = "Insulation - Cold (armor stat)"
+description = "How much this apparel improves a wearer's minimum comfortable temperature.\n\nGreater values allow surviving in colder temperatures."
+displayPriorityInCategory = "90"
+parts = SubResource(1)
+cacheable = "true"

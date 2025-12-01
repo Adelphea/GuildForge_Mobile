@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/Nudity_Female_Mandatory.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/Nudity_Female.tres")"
+label = "fully nude"
+description = "Women must be entirely nude at all times. Utility items like shields belts or jump packs are acceptable, as is wearing clothing during unsafe temperatures."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/High.tres")"
+displayOrderInIssue = "120"
+displayOrderInImpact = "750"
+associatedMemes = SubResource(1)
+comps = Array[SubResource(2), SubResource(3)]
+prefersNudity = "true"
+genderPrefersNudity = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Female.tres")"

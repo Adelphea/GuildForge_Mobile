@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/RangedWeapon_RangeMultiplier.tres")"
+label = "range multiplier"
+description = "A multiplier applied to this weapon's range."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/Weapon_Ranged.tres")"
+defaultBaseValue = "1"
+alwaysHide = "true"
+minValue = "0"
+toStringStyle = "PercentZero"
+displayPriorityInCategory = "5389"

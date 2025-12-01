@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/g/Guilty.tres")"
+label = "guilty"
+description = "Our people carry guilt from ages past. Others are more worthy."
+iconPath = "UI/Memes/Guilty"
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/g/GroupRelation.tres")"
+impact = "1"
+consumableBuildings = SubResource(1)
+exclusionTags = SubResource(2)
+requireOne = SubResource(3)
+generalRules = SubResource(6)
+descriptionMaker = SubResource(8)
+apparelRequirements = SubResource(11)
+symbolPacks = SubResource(16)

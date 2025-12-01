@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/v/VisitSickPawn.tres")"
+label = "visit sick people"
+giverClass = "WorkGiver_VisitSickPawn"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Doctor.tres")"
+priorityInType = "10"
+verb = "visit"
+gerund = "visiting"
+workTags = SubResource(1)
+canBeDoneByMechs = "false"

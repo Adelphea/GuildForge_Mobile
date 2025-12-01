@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MeatAmount.tres")"
+label = "meat amount"
+description = "The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BasicsPawn.tres")"
+defaultBaseValue = "140"
+workerClass = "StatWorker_MeatAmount"
+minValue = "0"
+showOnMechanoids = "false"
+showOnDrones = "false"
+toStringStyle = "Integer"
+parts = SubResource(1)
+postProcessCurve = SubResource(13)
+displayPriorityInCategory = "3552"

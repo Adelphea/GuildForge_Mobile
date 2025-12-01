@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/f/Farskip.tres")"
+label = "farskip"
+description = Color(Skip the caster, along with anyone standing near them, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map.)
+level = "5"
+iconPath = "UI/Abilities/Farskip"
+hotKey = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Misc12.tres")"
+targetWorldCell = "True"
+showGizmoOnWorldView = "True"
+hostile = "false"
+casterMustBeCapableOfViolence = "false"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(3)]

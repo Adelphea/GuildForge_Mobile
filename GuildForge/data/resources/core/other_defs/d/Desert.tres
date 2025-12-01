@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FeatureDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FeatureDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Desert.tres")"
+workerClass = "FeatureWorker_Biome"
+order = "300"
+rootBiomes = SubResource(1)
+acceptableBiomes = SubResource(2)
+nameMaker = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/NamerDesert.tres")"

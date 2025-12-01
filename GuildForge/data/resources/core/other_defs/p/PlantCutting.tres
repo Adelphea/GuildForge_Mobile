@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PlantCutting.tres")"
+labelShort = "plant cut"
+pawnLabel = "Plant cutter"
+gerundLabel = "plant cutting"
+description = "Cut or harvest plants as designated."
+verb = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cut.tres")"
+naturalPriority = "500"
+requireCapableColonist = "true"
+relevantSkills = SubResource(1)
+workTags = SubResource(2)

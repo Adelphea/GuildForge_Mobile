@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FeatureDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FeatureDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/Peninsula.tres")"
+workerClass = "FeatureWorker_Peninsula"
+order = "30"
+minSize = "30"
+maxSize = "400"
+nameMaker = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/NamerPeninsula.tres")"

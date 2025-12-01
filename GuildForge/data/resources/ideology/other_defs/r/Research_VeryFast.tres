@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/Research_VeryFast.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/Research.tres")"
+label = "very fast"
+description = "Research is among the most meaningful acts a person can perform."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Medium.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "1000"
+statFactors = SubResource(1)

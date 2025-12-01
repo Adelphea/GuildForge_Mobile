@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GroundPenetratingScanner.tres")"
+label = "ground-penetrating scanner"
+description = "Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct."
+baseCost = "1000"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+requiredResearchBuilding = "HiTechResearchBench"
+researchViewX = "14.00"
+researchViewY = "4.20"
+generalRules = SubResource(2)

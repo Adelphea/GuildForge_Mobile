@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/p/PsycastPsychicEffect.tres")"
+fleckSystemClass = "FleckSystemThrown"
+altitudeLayer = "MoteOverhead"
+fadeInTime = "0.03"
+fadeOutTime = "0.05"
+solidTime = "0.15"
+growthRate = "1.5"
+graphicData = SubResource(1)

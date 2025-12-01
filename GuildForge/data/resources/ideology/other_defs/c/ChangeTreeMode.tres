@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/ChangeTreeMode.tres")"
+label = "change dryad types"
+giverClass = "WorkGiver_ChangeTreeMode"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BasicWorker.tres")"
+verb = "change dryad caste for"
+gerund = "changing dryad caste for"
+priorityInType = "30"

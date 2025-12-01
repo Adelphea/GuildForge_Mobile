@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DoBillsBrew.tres")"
+label = "brew liquors"
+giverClass = "WorkGiver_DoBill"
+workType = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cooking.tres")"
+priorityInType = "30"
+fixedBillGiverDefs = SubResource(1)
+verb = "brew at"
+gerund = "brewing at"
+requiredCapacities = SubResource(2)
+prioritizeSustains = "true"
+canBeDoneByMechs = "false"

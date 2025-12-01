@@ -1,0 +1,26 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeatherDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeatherDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/RainyThunderstorm.tres")"
+label = "rainy thunderstorm"
+isBad = "true"
+description = "The lightning will start fires, but the rain will put it out. The rain also reduces movement speed and shooting accuracy."
+temperatureRange = "0~999"
+windSpeedFactor = "1.5"
+windSpeedOffset = "1.25"
+favorability = "Bad"
+perceivePriority = "2"
+weatherThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SoakingWet.tres")"
+accuracyMultiplier = "0.8"
+rainRate = "1"
+moveSpeedMultiplier = "0.8"
+ambientSounds = SubResource(1)
+durationRange = "15000~40000"
+eventMakers = SubResource(2)
+overlayClasses = SubResource(5)
+commonalityRainfallFactor = SubResource(6)
+skyColorsDay = SubResource(8)
+skyColorsDusk = SubResource(9)
+skyColorsNightEdge = SubResource(10)
+skyColorsNightMid = SubResource(11)

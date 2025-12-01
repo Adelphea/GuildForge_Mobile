@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/ExecutionCut.tres")"
+label = "execution cut"
+workerClass = "DamageWorker_AddInjury"
+execution = "true"
+hediff = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/ExecutionCut.tres")"
+hediffSkin = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/ExecutionCut.tres")"
+deathMessage = "{0} has been executed by cutting."
+hasForcefulImpact = "false"
+canInterruptJobs = "false"
+impactSoundType = None
+armorCategory = None

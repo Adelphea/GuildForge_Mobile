@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/ExpandAreaHome.tres")"
+text = Color(Next, you'll learn to expand the HOME AREA.\n\nColonists will clean floors and extinguish fires in the home area only, and ignore fires or filth outside of it.\n\nThe home area is added automatically when you build things - but you can also expand it manually.\n\nSelect the EXPAND HOME AREA tool and drag out a new area on the map., 1.0)
+instructionClass = "Instruction_ExpandAreaHome"
+eventTagInitiate = "InstructionDeactivated-SelectResearchProject"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+rejectInputMessage = "Please expand the home area a bit, just for practice."
+targetCount = "30"

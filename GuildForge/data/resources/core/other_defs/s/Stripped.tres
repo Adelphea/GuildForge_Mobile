@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TaleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TaleDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Stripped.tres")"
+label = "stripped"
+taleClass = "Tale_DoublePawn"
+type = "Volatile"
+firstPawnSymbol = "TAKER"
+secondPawnSymbol = "STRIPPED"
+baseInterest = "2"
+usableWithChildren = "false"
+rulePack = SubResource(1)

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TaleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TaleDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/IncreasedMenagerie.tres")"
+label = "increased menagerie"
+taleClass = "Tale_DoublePawn"
+type = "Volatile"
+firstPawnSymbol = "HUMAN"
+secondPawnSymbol = "ANIMAL"
+baseInterest = "2"
+rulePack = SubResource(1)

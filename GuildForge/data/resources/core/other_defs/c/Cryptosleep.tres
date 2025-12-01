@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cryptosleep.tres")"
+label = "cryptosleep casket"
+description = "Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation."
+baseCost = "2000"
+techLevel = "Spacer"
+prerequisites = SubResource(1)
+requiredResearchBuilding = "HiTechResearchBench"
+requiredResearchFacilities = SubResource(2)
+researchViewX = "15.00"
+researchViewY = "2.40"
+generalRules = SubResource(3)

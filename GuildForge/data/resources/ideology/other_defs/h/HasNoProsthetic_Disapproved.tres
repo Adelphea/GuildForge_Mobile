@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/h/HasNoProsthetic_Disapproved.tres")"
+workerClass = "ThoughtWorker_Precept_HasNoProsthetic"
+minExpectation = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Moderate.tres")"
+doNotApplyToQuestLodgers = "true"
+stages = SubResource(1)
+nullifyingTraits = SubResource(3)

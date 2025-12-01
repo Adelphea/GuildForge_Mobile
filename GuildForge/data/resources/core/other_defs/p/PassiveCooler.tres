@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PassiveCooler.tres")"
+label = "passive cooler"
+description = "Make passive coolers, to cool indoor spaces without using electricity."
+baseCost = "400"
+techLevel = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/Neolithic.tres")"
+tags = SubResource(1)
+researchViewX = "0.00"
+researchViewY = "2.10"
+generalRules = SubResource(2)

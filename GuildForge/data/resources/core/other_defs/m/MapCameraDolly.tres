@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MapCameraDolly.tres")"
+text = "Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now!"
+textController = "Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now!"
+eventTagInitiate = "GameStartDialogClosed"
+instructionClass = "Instruction_LearnConcept"
+concept = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CameraDolly.tres")"

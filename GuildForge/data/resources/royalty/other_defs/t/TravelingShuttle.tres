@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorldObjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WorldObjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/t/TravelingShuttle.tres")"
+label = "imperial shuttle"
+description = "An imperial shuttle in flight."
+expandingIconDrawSize = "1"

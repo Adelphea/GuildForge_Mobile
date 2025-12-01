@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnsArrivalModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnsArrivalModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EdgeWalkIn.tres")"
+workerClass = "PawnsArrivalModeWorker_EdgeWalkIn"
+selectionWeightCurve = SubResource(1)
+textEnemy = "A group of {0} from {1} have arrived nearby."
+textFriendly = "A group of friendly {0} from {1} have arrived nearby."
+textWillArrive = "{0_pawnsPluralDef} will arrive on foot."
+walkIn = "true"

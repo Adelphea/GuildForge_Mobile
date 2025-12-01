@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeaponTraitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_WeaponTraitDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/n/NeedKill.tres")"
+label = "kill thirst"
+description = "This weapon's persona finds purpose in bloodshed. If it does not kill for 20 days, it will become angry and psychically complain to whoever is bonded to it."
+commonality = "1"
+marketValueOffset = "-700"
+exclusionTags = SubResource(1)

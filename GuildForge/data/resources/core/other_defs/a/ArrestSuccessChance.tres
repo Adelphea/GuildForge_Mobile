@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/ArrestSuccessChance.tres")"
+label = "Arrest success chance"
+description = "How effective this person is in arresting people. This affects chance that this person will be able to arrest someone without resistance."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnSocial.tres")"
+defaultBaseValue = "1"
+minValue = "0.6"
+maxValue = "1"
+valueIfMissing = "0.4"
+toStringStyle = "PercentTwo"
+skillNeedFactors = SubResource(1)
+capacityFactors = SubResource(3)
+displayPriorityInCategory = "2000"
+parts = SubResource(5)

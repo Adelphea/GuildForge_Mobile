@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/e/Empire_Fighter_Champion.tres")"
+label = "champion"
+maxGenerationAge = "40"
+combatPower = "100"
+weaponTags = SubResource(1)
+apparelRequired = SubResource(2)
+apparelColor = Vector3(250, 250, 250)
+techHediffsTags = SubResource(3)
+skills = SubResource(4)
+initialWillRange = "3~5"
+initialResistanceRange = "12~20"
+useFactionXenotypes = "false"
+xenotypeSet = SubResource(6)

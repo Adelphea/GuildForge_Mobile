@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InspirationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InspirationDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/i/Inspired_Taming.tres")"
+label = "inspired taming"
+baseDurationDays = "8"
+beginLetter = "[PAWN_pronoun] will successfully tame the next animal regardless of difficulty.\n\nThe inspiration will end after 8 days, or when an animal was tamed."
+beginLetterDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PositiveEvent.tres")"
+endMessage = "{0} is no longer inspired (inspired taming)."
+baseInspectLine = "Inspired: Inspired taming"
+requiredNonDisabledStats = SubResource(1)
+requiredNonDisabledWorkTypes = SubResource(2)
+requiredSkills = SubResource(3)
+associatedSkills = SubResource(4)
+requiredCapacities = SubResource(5)

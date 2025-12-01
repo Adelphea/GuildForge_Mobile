@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThingCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThingCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/StoneBlocks.tres")"
+label = "stone blocks"
+parent = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/ResourcesRaw.tres")"
+iconPath = "UI/Icons/ThingCategories/StoneBlocks"
+resourceReadoutRoot = "true"

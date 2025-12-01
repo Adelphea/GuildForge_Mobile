@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/LeatherAmount.tres")"
+label = "leather amount"
+description = "The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BasicsPawn.tres")"
+defaultBaseValue = "0"
+workerClass = "StatWorker_LeatherAmount"
+minValue = "0"
+toStringStyle = "Integer"
+hideAtValue = "0"
+parts = SubResource(1)
+postProcessCurve = SubResource(5)
+displayPriorityInCategory = "3551"

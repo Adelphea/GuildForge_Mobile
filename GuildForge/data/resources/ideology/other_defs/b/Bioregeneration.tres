@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/b/Bioregeneration.tres")"
+label = "bioregeneration"
+description = Color(Unlock the biosculpter pod's bioregeneration cycle. This cycle heals old scars, regenerates small lost body parts like fingers and toes, and cures many of the physical maladies that come with old age., 1.0)
+baseCost = "4000"
+techLevel = "Industrial"
+requiredResearchBuilding = "HiTechResearchBench"
+requiredResearchFacilities = SubResource(1)
+prerequisites = SubResource(2)
+researchViewX = "15.00"
+researchViewY = "0.60"
+generalRules = SubResource(3)

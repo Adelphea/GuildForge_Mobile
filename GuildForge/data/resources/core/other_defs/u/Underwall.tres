@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/u/Underwall.tres")"
+label = "underwall"
+texturePath = "Terrain/Surfaces/Underwall"
+edgeType = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hard.tres")"
+renderPrecedence = "0"
+fertility = "0"

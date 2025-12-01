@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AllowLargeCorpses.tres")"
+label = "allow large corpses"
+description = "Allow large, dead bodies."
+parentCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Corpses.tres")"
+allowedByDefault = "true"
+saveKey = "allowLargeCorpses"
+configurable = "true"
+workerClass = "SpecialThingFilterWorker_CorpsesLarge"

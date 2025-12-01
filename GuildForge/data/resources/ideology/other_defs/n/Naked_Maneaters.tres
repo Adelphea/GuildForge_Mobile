@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/Naked_Maneaters.tres")"
+label = "naked maneaters"
+description = "Cannibal feasts are much better when both you and the meal are naked. It's almost like you can merge into one.\n\nIncludes sacrifices and gladiator duels."
+categoryDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/i/Intense.tres")"
+memes = SubResource(1)

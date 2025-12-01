@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoadDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoadDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AncientAsphaltHighway.tres")"
+label = "ancient asphalt highway"
+priority = "50"
+ancientOnly = "true"
+movementCostMultiplier = "0.5"
+tilesPerSegment = "400"
+pathingMode = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Bulldoze.tres")"
+roadGenSteps = SubResource(1)
+worldRenderSteps = SubResource(20)
+worldTransitionGroup = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/Asphalt.tres")"

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoyalTitleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RoyalTitleDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/s/Stellarch.tres")"
+label = "stellarch"
+description = "The Imperial title of stellarch represents dominion over an entire star system.\n\nIn the Empire, since interstellar travel times are years long, stellarchs rule their systems with a great degree of independence. They each swear fealty to the Emperor, but since the Emperor may be many light-years away, a stellarch may go years or decades without interacting with him."
+seniority = "900"
+commonality = "0.1"
+recruitmentResistanceOffset = "200"
+replaceOnRecruited = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/c/Consul.tres")"
+requiredApparel = SubResource(1)

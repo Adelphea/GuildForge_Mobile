@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/d/Darkness.tres")"
+label = "darkness"
+description = "Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness."
+iconPath = "UI/Memes/Darkness"
+groupDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Misc.tres")"
+impact = "3"
+exclusionTags = SubResource(1)
+requireOne = SubResource(2)
+generalRules = SubResource(6)
+descriptionMaker = SubResource(8)
+renderOrder = "100"

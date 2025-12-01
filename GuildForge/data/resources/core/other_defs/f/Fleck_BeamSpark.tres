@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Fleck_BeamSpark.tres")"
+fadeInTime = "0.03"
+solidTime = "0.1"
+fadeOutTime = "0.5"
+altitudeLayer = "MoteOverhead"
+graphicData = SubResource(1)
+acceleration = Vector3(0, 0, 0.5)
+speedPerTime = "0.2~0.5"

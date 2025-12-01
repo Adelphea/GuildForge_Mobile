@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ScenPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ScenPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DisableIncident.tres")"
+label = "disable incident"
+scenPartClass = "ScenPart_DisableIncident"
+category = "Rule"
+selectionWeight = "1.0"
+summaryPriority = "360"

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/o/OrganUse_HorribleSellOK.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/core/other_defs/o/OrganUse.tres")"
+label = "no harvest"
+description = Color(Harvesting organs is a horrible thing. However, it's okay to buy, install, or sell them.)
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Low.tres")"
+displayOrderInIssue = "10"
+displayOrderInImpact = "200"
+defaultSelectionWeight = "1"
+associatedMemes = SubResource(1)
+comps = Array[SubResource(2), SubResource(3), SubResource(4)]

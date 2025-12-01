@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/CertaintyLossFactor.tres")"
+label = "global certainty loss factor"
+description = "A multiplier on how much certainty this person loses when someone else tries to convert them away from their ideoligion."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/BasicsPawn.tres")"
+defaultBaseValue = "1"
+hideAtValue = "1"
+toStringStyle = "PercentZero"
+showOnAnimals = "false"
+showOnMechanoids = "false"
+scenarioRandomizable = "true"
+displayPriorityInCategory = "1900"

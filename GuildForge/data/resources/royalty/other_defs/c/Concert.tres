@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GatheringDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GatheringDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/c/Concert.tres")"
+label = "concert"
+randomSelectionWeight = "1"
+letterTitle = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/c/Concert.tres")"
+letterText = Color({ORGANIZER_labelShort} is holding a concert! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost, both from social contact and from the music itself., 1.0)
+calledOffMessage = "The concert has been cancelled."
+finishedMessage = "The concert has concluded."
+duty = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/c/Concert.tres")"
+workerClass = "GatheringWorker_Concert"
+requiredTitleAny = SubResource(1)

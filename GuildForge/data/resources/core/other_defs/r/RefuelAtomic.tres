@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/RefuelAtomic.tres")"
+driverClass = "JobDriver_RefuelAtomic"
+reportString = "refueling TargetA."
+suspendable = "false"
+allowOpportunisticPrefix = "true"

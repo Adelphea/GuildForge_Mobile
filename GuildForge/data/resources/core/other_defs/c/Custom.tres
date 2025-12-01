@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DifficultyDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DifficultyDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/Custom.tres")"
+label = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/Custom.tres")"
+description = "This setting allows you to define your own playstyle in detail.
+
+(*SectionTitle)Recommended for:(/SectionTitle)
+
+- Players who are happy with one of the standard playstyles levels, but want to change a few things.
+- Players who want to experiment with something different."
+isCustom = "true"

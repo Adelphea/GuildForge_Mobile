@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/ShootingAccuracyFactor_Long.tres")"
+label = "accuracy factor (long)"
+description = "A multiplier on accuracy at a distance of 40 cells or more."
+displayPriorityInCategory = "4046"

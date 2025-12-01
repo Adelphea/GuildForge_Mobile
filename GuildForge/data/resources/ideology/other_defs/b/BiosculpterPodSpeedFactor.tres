@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/b/BiosculpterPodSpeedFactor.tres")"
+label = "biosculpter pod speed factor"
+description = "A multiplier on the speed of a biosculpter pod. This is affected by the cleanliness of the room - a cleaner room will result in a quicker biosculpting cycle."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Building.tres")"
+defaultBaseValue = "1"
+showIfUndefined = "false"
+minValue = "0"
+toStringStyle = "PercentZero"
+parts = SubResource(1)
+displayPriorityInCategory = "4100"

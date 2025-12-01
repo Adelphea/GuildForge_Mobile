@@ -1,0 +1,31 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/e/Empire_Common_Trader.tres")"
+label = "imperial trader"
+race = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Human.tres")"
+defaultFactionDef = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/e/Empire.tres")"
+minTitleRequired = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/f/Freeholder.tres")"
+maxGenerationAge = "65"
+trader = "true"
+isFighter = "false"
+backstoryCryptosleepCommonality = "0.08"
+chemicalAddictionChance = "0.1"
+combatEnhancingDrugsChance = "0.15"
+invNutrition = "2.55"
+itemQuality = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/Normal.tres")"
+inventoryOptions = SubResource(1)
+combatPower = "40"
+weaponTags = SubResource(4)
+weaponMoney = "1100~3500"
+apparelMoney = "1250~2500"
+apparelTags = SubResource(5)
+apparelDisallowTags = SubResource(6)
+specificApparelRequirements = SubResource(7)
+techHediffsChance = "0.15"
+techHediffsMoney = "1000~1800"
+techHediffsTags = SubResource(9)
+initialWillRange = "3~5"
+initialResistanceRange = "16~25"
+xenotypeSet = SubResource(10)

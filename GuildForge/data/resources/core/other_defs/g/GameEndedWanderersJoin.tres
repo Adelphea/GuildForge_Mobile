@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GameEndedWanderersJoin.tres")"
+label = "wanderers join"
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Special.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_GameEndedWanderersJoin"
+letterLabel = "Wanderers join"
+letterText = "A few wanderers have stumbled across the remains of the colony and decided to stay.\n\nPerhaps they will be able to continue its story."
+baseChance = "0"
+minRefireDays = "60"
+minGreatestPopulation = "3"
+pawnKind = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/StrangerInBlack.tres")"
+pawnFixedGender = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Male.tres")"
+pawnMustBeCapableOfViolence = "true"

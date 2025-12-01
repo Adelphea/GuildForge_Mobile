@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/w/Wallraise.tres")"
+label = "wallraise"
+description = "Form a temporary wall by skipping rubble and soil up from deep under the ground."
+level = "4"
+iconPath = "UI/Abilities/Wallraise"
+writeCombatLog = "True"
+hotKey = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Misc10.tres")"
+casterMustBeCapableOfViolence = "false"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(4), SubResource(6), SubResource(7)]

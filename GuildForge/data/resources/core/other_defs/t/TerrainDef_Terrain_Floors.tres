@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+texturePath = "Terrain/Surfaces/GenericFloorTile"
+designatorDropdown = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Floor_Tile_Metal.tres")"
+constructEffect = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/ConstructMetal.tres")"
+isPaintable = "true"
+researchPrerequisites = SubResource(1)
+constructionSkillPrerequisite = "3"

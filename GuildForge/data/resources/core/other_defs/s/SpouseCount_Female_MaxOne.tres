@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SpouseCount_Female_MaxOne.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SpouseCount_Female.tres")"
+label = "one only"
+description = "Women may have one spouse only."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Low.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "-100"
+defaultSelectionWeight = "1"
+classic = "true"
+comps = Array[SubResource(1), SubResource(2), SubResource(3), SubResource(4)]

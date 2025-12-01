@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ColorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ColorDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Structure_UmberBurnt.tres")"
+label = "burnt umber"
+color = Vector3(90, 58, 32)
+displayOrder = "440"

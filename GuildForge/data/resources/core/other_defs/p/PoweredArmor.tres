@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PoweredArmor.tres")"
+label = "marine armor"
+description = "Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components."
+baseCost = "6000"
+techLevel = "Spacer"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+requiredResearchBuilding = "HiTechResearchBench"
+requiredResearchFacilities = SubResource(3)
+researchViewX = "18.00"
+researchViewY = "1.10"
+generalRules = SubResource(4)

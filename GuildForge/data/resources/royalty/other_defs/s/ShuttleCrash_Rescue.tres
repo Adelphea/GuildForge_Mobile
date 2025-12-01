@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/s/ShuttleCrash_Rescue.tres")"
+rootSelectionWeight = "1.9"
+rootMinPoints = "150"
+expireDaysRange = "0.4~0.6"
+defaultCharity = "true"
+successHistoryEvent = SubResource(1)
+failedOrExpiredHistoryEvent = SubResource(2)
+questNameRules = SubResource(3)
+questDescriptionAndNameRules = SubResource(5)
+questDescriptionRules = SubResource(7)
+questContentRules = SubResource(9)
+root = SubResource(11)

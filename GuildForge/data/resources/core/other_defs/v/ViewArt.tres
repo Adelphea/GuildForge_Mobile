@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JoyGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JoyGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/v/ViewArt.tres")"
+giverClass = "JoyGiver_ViewArt"
+baseChance = "1"
+jobDef = "ExtResource("res://GuildForge/data/resources/core/other_defs/v/ViewArt.tres")"
+joyKind = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Meditative.tres")"
+canDoWhileInBed = "true"
+requiredCapacities = SubResource(1)

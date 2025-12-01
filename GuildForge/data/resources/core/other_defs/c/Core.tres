@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ExpansionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ExpansionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Core.tres")"
+label = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Core.tres")"
+description = "Core RimWorld content."
+linkedMod = "Ludeon.RimWorld"
+iconPath = "UI/HeroArt/RimWorldLogo"
+backgroundPath = "UI/HeroArt/BGPlanet"
+isCore = "True"

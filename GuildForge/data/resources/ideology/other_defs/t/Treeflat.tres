@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoIconDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoIconDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Treeflat.tres")"
+iconPath = "UI/Ideoligions/Treeflat"
+cultures = SubResource(1)
+memes = SubResource(2)

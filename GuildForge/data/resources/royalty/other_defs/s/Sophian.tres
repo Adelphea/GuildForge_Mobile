@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_CultureDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_CultureDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/s/Sophian.tres")"
+label = "sophian"
+description = "A techno-feudal culture centered on the planet Sophiamunda."
+pawnNameMaker = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/n/NamerPersonSophian.tres")"
+pawnNameMakerFemale = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/n/NamerPersonSophianFemale.tres")"
+ideoNameMaker = SubResource(1)
+deityNameMaker = SubResource(2)
+deityTypeMaker = SubResource(3)
+leaderTitleMaker = SubResource(4)
+festivalNameMaker = SubResource(5)
+preferredWeaponClasses = SubResource(6)
+allowedPlaceTags = SubResource(7)
+iconPath = "World/WorldObjects/Expanding/Empire"
+styleItemTags = SubResource(8)

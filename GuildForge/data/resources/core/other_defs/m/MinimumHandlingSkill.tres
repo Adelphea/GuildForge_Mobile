@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MinimumHandlingSkill.tres")"
+workerClass = "StatWorker_MinimumHandlingSkill"
+label = "minimum handling skill"
+description = Color(This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals., 1.0)
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/Animals.tres")"
+defaultBaseValue = "0"
+minValue = "0"
+roundValue = "true"
+toStringStyle = "Integer"
+showOnMechanoids = "false"
+showOnEntities = "false"
+showOnDrones = "false"
+showOnNonWildManHumanlikes = "false"
+parts = SubResource(1)
+displayPriorityInCategory = "1500"

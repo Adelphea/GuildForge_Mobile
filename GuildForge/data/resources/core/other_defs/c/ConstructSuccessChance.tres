@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/ConstructSuccessChance.tres")"
+label = "construct success chance"
+description = "The chance that this person will succeed in constructing something.\nFailing means wasting time and resources."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+maxValue = "1"
+toStringStyle = "PercentZero"
+skillNeedFactors = SubResource(1)
+capacityFactors = SubResource(4)
+scenarioRandomizable = "true"
+displayPriorityInCategory = "4601"

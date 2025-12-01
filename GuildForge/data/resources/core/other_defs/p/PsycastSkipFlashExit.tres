@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PsycastSkipFlashExit.tres")"
+altitudeLayer = "VisEffects"
+fadeInTime = "0.03"
+fadeOutTime = "1.3"
+solidTime = "0.08"
+graphicData = SubResource(1)

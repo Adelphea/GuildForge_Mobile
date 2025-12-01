@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SoilRich.tres")"
+label = "rich soil"
+texturePath = "Terrain/Surfaces/SoilRich"
+pollutedTexturePath = "Terrain/Surfaces/SoilRichPolluted"
+edgeType = "FadeRough"
+categoryType = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Soil.tres")"
+renderPrecedence = "335"
+pathCost = "2"
+statBases = SubResource(1)
+affordances = SubResource(2)
+generatedFilth = "Filth_Dirt"
+fertility = "1.4"
+takeFootprints = "True"
+tools = SubResource(3)
+tags = SubResource(6)
+spaceEdgeGraphicData = SubResource(7)

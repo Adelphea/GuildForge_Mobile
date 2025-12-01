@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Make_ChemfuelFromWood.tres")"
+label = "make chemfuel from wood"
+description = "Make a batch of chemfuel by extracting and condensing wood gas from logs."
+jobString = "Refining chemfuel from wood."
+effectWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cremate.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Recipe_Cremate.tres")"
+workAmount = "2000"
+workSpeedStat = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GeneralLaborSpeed.tres")"
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)
+products = SubResource(7)

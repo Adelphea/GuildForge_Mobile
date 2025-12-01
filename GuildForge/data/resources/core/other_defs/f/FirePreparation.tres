@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/FirePreparation.tres")"
+label = "Fire preparation"
+priority = "2"
+helpText = Color(Fires can easily burn down a colony. To defeat them, you must prepare before they happen.
+\nThese design elements can help reduce the damage from fires:
+\n1. Instead of constructing one super-building, build separate buildings with spaces in between.
+\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.
+\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire., 1.0)

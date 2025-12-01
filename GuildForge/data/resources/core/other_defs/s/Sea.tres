@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FeatureDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FeatureDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Sea.tres")"
+workerClass = "FeatureWorker_Biome"
+order = "120"
+minSize = "15"
+maxSize = "1500"
+rootBiomes = SubResource(1)
+canTouchWorldEdge = "false"
+nameMaker = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/NamerSea.tres")"

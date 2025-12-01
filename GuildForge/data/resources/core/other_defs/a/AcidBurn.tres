@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AcidBurn.tres")"
+label = "acid burn"
+workerClass = "DamageWorker_AddInjury"
+armorCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Sharp.tres")"
+hediff = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AcidBurn.tres")"
+scaleDamageToBuildingsBasedOnFlammability = "false"

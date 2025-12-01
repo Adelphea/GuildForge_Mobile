@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StorytellerDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StorytellerDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cassandra.tres")"
+label = "Cassandra Classic"
+description = Color(Cassandra creates story events on a classic increasing curve of challenge and tension. She'll push you with dangerous events, then give breathing room, then come back to push once more., 1.0)
+portraitLarge = "UI/HeroArt/Storytellers/CassandraClassic"
+portraitTiny = "UI/HeroArt/Storytellers/CassandraClassicTiny"
+listOrder = "20"
+comps = Array[SubResource(1), SubResource(2), SubResource(4), SubResource(7), SubResource(10), SubResource(12), SubResource(13), SubResource(14), SubResource(15), SubResource(16), SubResource(18), SubResource(20), SubResource(22), SubResource(24), SubResource(26), SubResource(28), SubResource(33), SubResource(38), SubResource(40), SubResource(41)]

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/LargeRiver.tres")"
+label = "large river"
+spawnFlowThreshold = "500000"
+spawnChance = "0.75"
+degradeThreshold = "250000"
+degradeChild = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/River.tres")"
+branches = SubResource(1)
+widthOnWorld = "0.6"
+widthOnMap = "14"
+debugOpacity = "0.4"

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+description = "A celebratory gathering for your colonists to have fun. A leader will give an encouraging speech, then everyone will socialize for a while."
+issue = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Ritual.tres")"
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Medium.tres")"
+iconPath = "UI/Icons/Rituals/RitualFestival"
+preceptClass = "Precept_Ritual"
+ritualPatternBase = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/CelebrationPartyChat.tres")"
+allowDuplicates = "true"
+countsTowardsPreceptLimit = "false"
+ignoreLimitsInEditMode = "true"
+receivesExpectationsQualityOffset = "true"

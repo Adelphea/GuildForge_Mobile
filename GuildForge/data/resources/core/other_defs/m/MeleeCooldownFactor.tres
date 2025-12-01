@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MeleeCooldownFactor.tres")"
+label = "melee cooldown"
+description = "A multiplier on the time this creature takes to recover after making a melee attack."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnCombat.tres")"
+defaultBaseValue = "1"
+minValue = "0.05"
+toStringStyle = "PercentZero"
+showIfUndefined = "false"
+displayPriorityInCategory = "5201"

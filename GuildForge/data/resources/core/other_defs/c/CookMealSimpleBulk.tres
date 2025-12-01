@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CookMealSimpleBulk.tres")"
+label = "cook simple meal x4"
+description = "Cook 4 straightforward meals from one ingredient."
+jobString = "Cooking 4 simple meals."
+workAmount = "1200"
+workSpeedStat = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CookSpeed.tres")"
+requiredGiverWorkType = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cooking.tres")"
+effectWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cook.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Recipe_CookMeal.tres")"
+allowMixingIngredients = "true"
+ingredientValueGetterClass = "IngredientValueGetter_Nutrition"
+ingredients = SubResource(1)
+products = SubResource(5)
+workSkill = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Cooking.tres")"
+displayPriority = "110"

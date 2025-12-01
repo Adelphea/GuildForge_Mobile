@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/Proselytizing.tres")"
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Low.tres")"
+requiredMemes = SubResource(1)
+associatedMemes = SubResource(2)
+proselytizes = "true"
+comps = Array[SubResource(3), SubResource(4), SubResource(5)]

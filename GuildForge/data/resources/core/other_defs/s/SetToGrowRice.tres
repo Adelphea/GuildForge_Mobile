@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SetToGrowRice.tres")"
+text = "You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice."
+textController = "You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice."
+instructionClass = "Instruction_SetGrowingZonePlant"
+eventTagInitiate = "InstructionDeactivated-MakeGrowingZone"
+actionTagsAllowed = SubResource(1)
+eventTagsEnd = SubResource(2)
+highlightTags = SubResource(3)
+rejectInputMessage = "Please set your growing zone to grow rice."
+onMapInstruction = "Set this growing zone to grow rice"

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/b/BioSculpter_Despised.tres")"
+issue = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/b/Biosculpting.tres")"
+label = "despised"
+description = "Biosculpter pods violate the purity human flesh and should never be used."
+impact = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/Low.tres")"
+displayOrderInIssue = "10"
+comps = Array[SubResource(1)]

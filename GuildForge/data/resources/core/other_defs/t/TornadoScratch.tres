@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TornadoScratch.tres")"
+label = "scratch"
+workerClass = "DamageWorker_AddInjury"
+externalViolence = "true"
+deathMessage = "{0} has been killed by a tornado."
+hediff = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Scratch.tres")"
+hediffSolid = "Crack"
+harmAllLayersUntilOutside = "true"
+impactSoundType = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/Tornado.tres")"
+armorCategory = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Sharp.tres")"
+overkillPctToDestroyPart = "0~0.7"

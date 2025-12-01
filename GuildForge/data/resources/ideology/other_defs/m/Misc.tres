@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeGroupDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MemeGroupDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/m/Misc.tres")"
+drawOffset = Vector2(0.05, 0.46)
+maxRows = "2"
+renderOrder = "1000"
+renderWithGap = "true"

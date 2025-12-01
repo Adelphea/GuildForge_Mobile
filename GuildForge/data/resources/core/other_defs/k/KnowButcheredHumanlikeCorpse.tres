@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/k/KnowButcheredHumanlikeCorpse.tres")"
+durationDays = "6"
+stackLimit = "1"
+doNotApplyToQuestLodgers = "true"
+nullifyingTraits = SubResource(1)
+nullifyingHediffs = SubResource(2)
+stages = SubResource(4)

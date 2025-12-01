@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TraitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TraitDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DislikesWomen.tres")"
+commonality = "1.7"
+commonalityFemale = "0.3"
+degreeDatas = SubResource(1)

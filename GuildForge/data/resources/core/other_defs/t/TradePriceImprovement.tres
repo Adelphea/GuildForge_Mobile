@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TradePriceImprovement.tres")"
+label = "trade price improvement"
+description = "When this person acts as a trade negotiator, buy and sell prices are improved by this percentage."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnSocial.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+maxValue = "0.395"
+displayMaxWhenAboveOrEqual = "true"
+toStringStyle = "PercentTwo"
+displayPriorityInCategory = "2599"
+skillNeedFactors = SubResource(1)
+capacityFactors = SubResource(3)
+parts = SubResource(6)

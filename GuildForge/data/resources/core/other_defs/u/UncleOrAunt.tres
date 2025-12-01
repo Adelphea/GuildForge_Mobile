@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnRelationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PawnRelationDef.gd")
+workerClass = "PawnRelationWorker_UncleOrAunt"
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/u/UncleOrAunt.tres")"
+label = "uncle"
+labelFemale = "aunt"
+importance = "160"
+diedThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MyUncleDied.tres")"
+diedThoughtFemale = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MyAuntDied.tres")"
+killedThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/k/KilledMyKin.tres")"
+lostThought = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MyUncleLost.tres")"
+lostThoughtFemale = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MyAuntLost.tres")"
+soldThoughts = SubResource(1)
+opinionOffset = "10"
+romanceChanceFactor = "0.25"
+incestOpinionOffset = "-15"
+implied = "true"
+familyByBloodRelation = "true"
+inbredChanceOnChild = "0.4"

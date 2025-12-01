@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EquipDelay.tres")"
+label = "equip delay"
+description = "The time it takes to equip and unequip this item."
+category = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/Apparel.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+toStringStyle = "FloatMaxOne"
+formatString = "{0} s"
+showOnPawns = "false"
+displayPriorityInCategory = "50"

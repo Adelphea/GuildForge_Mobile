@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/Pain.tres")"
+workerClass = "ThoughtWorker_Pain"
+validWhileDespawned = "true"
+developmentalStageFilter = Color(Baby, Child, Adult, 1.0)
+nullifyingTraits = SubResource(1)
+neverNullifyIfAnyTrait = SubResource(2)
+nullifyingPrecepts = SubResource(3)
+stages = SubResource(5)
