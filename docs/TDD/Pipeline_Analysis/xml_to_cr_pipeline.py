@@ -68,26 +68,44 @@ def get_gd_output_path(def_type, is_comp_property=False):
     os.makedirs(path, exist_ok=True)
     return path
 
-def get_tres_output_path(module_name, def_type, def_name=""):
+def get_tres_output_path(xml_path, def_type, def_name=""):
     """Détermine le chemin de sortie pour les fichiers .tres (instances)."""
-    # Utilise la nouvelle architecture pour les instances .tres
-    def_type_lower = def_type.lower().replace("def", "").replace("cr_", "")
+    # 1. Déterminer le dossier de base (suppression du tri par module)
+    base_path = TRES_OUTPUT_PATH
     
-    if def_type_lower in ["thing", "biome", "hediff", "backstory", "body"]:
-        folder = f"{def_type_lower}_defs"
+    # 2. Déterminer le dossier de type de Def
+    if def_type == "ThingDef":
+        def_folder = "thing_defs"
     else:
-        folder = "other_defs"
+        def_folder = f"{def_type}_defs"
         
-        # Sous-classification par première lettre du defName pour tous les dossiers
-        base_path = os.path.join(TRES_OUTPUT_PATH, module_name, folder)
+    # 3. Déterminer la sous-catégorie (pour ThingDef uniquement)
+    if def_type == "ThingDef":
+        # Logique V2: Utiliser la Catégorie de Fichier Source
+        # Ex: .../Core/Defs/ThingDefs_Buildings/Building_Wall.xml -> ThingDefs_Buildings
         
-        if def_name and def_name[0].isalpha():
-            sub_folder = def_name[0].lower()
-            path = os.path.join(base_path, sub_folder)
-        else:
-            path = base_path
+        parts = xml_path.split(os.sep)
+        sub_category = None
+        for part in parts:
+            if part.startswith("ThingDefs_"):
+                sub_category = part
+                break
+        
+        if sub_category is None:
+            sub_category = "ThingDefs_Misc" # Catégorie par défaut si non trouvé
+            
+        # Chemin final: GuildForge/data/resources/thing_defs/ThingDefs_Buildings/
+        path = os.path.join(base_path, def_folder, sub_category)
+        
+    else:
+        # Logique V2: Structure plate pour les autres DefTypes
+        # Chemin final: GuildForge/data/resources/JobDef_defs/
+        path = os.path.join(base_path, def_folder)
+        
     os.makedirs(path, exist_ok=True)
     return path
+    # Utilise la nouvelle architecture pour les instances .tres
+
 
 def generate_gdscript_class(def_type, is_comp_property=False):
     """P24: Génère le fichier GDScript de la classe Custom Resource (CR_DefType ou CompProperty)."""
@@ -125,12 +143,12 @@ class_name {class_name}
         f.write(content.strip())
     print(f"Généré: {file_path}")
 
-def generate_tres_instance(module_name, def_type, def_name, properties):
+def generate_tres_instance(xml_path, def_type, def_name, properties):
     """Génère le fichier .tres (instance de Custom Resource)."""
     class_name = f"CR_{def_type}"
     
     # Déterminer le chemin de sortie
-    output_dir = get_tres_output_path(module_name, def_type, def_name)
+    output_dir = get_tres_output_path(xml_path, def_type, def_name)
     file_path = os.path.join(output_dir, f"{def_name}.tres")
 
     # 1. Déterminer le chemin de la classe GDScript pour ExtResource
@@ -373,13 +391,10 @@ def collect_all_def_names():
                                 def_list = [def_list]
                                 
                             for def_data in def_list:
-                                def_name = get_def_name_from_xml(def_data)
                                 
                                 if def_name != "UnknownDef":
                                     # Déterminer le chemin de sortie pour l'instance .tres
-                                    module_name = get_module_name(xml_path)
-                                    output_dir = get_tres_output_path(module_name, def_type, def_name)
-                                    
+                                    output_dir = get_tres_output_path(xml_path, def_type, def_name)
                                     # Le chemin final sera res://GuildForge/data/resources/core/thing_defs/DefName.tres
                                     tres_path = f"{PROJECT_ROOT}{output_dir.replace('GuildForge_Mobile/', '')}/{def_name}.tres"
                                     DEFNAME_TO_PATH_MAP[def_name] = tres_path
@@ -468,8 +483,7 @@ def run_pipeline():
                                     def_name = f"{def_type}_{os.path.splitext(file_name)[0]}"
                                 
                                 # 6. Génération de l'instance .tres
-                                module_name = get_module_name(xml_path)
-                                generate_tres_instance(module_name, def_type, def_name, properties)
+                                generate_tres_instance(xml_path, def_type, def_name, properties)
                                 
                 except Exception as e:
                     print(f"Erreur critique lors du traitement de {xml_path}: {e}")
