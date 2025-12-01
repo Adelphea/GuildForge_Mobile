@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetCategoryDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetCategoryDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Intense.tres")"
-label = "intense"
-description = "Extremely disruptive beliefs which make the game very different from classic RimWorld. These add significant difficulty."
-groupLabel = "Preset ideoligions"

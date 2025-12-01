@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RoadWorldLayerDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_RoadWorldLayerDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Dirt.tres")"
-order = "100"
-color = Vector3(0.5, 0.4, 0.3)

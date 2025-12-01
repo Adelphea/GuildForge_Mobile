@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
-hediffClass = "Hediff_AddedPart"
-priceImpact = "true"

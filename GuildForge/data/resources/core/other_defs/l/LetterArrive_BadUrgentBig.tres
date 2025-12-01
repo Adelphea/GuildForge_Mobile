@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SoundDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SoundDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/LetterArrive_BadUrgentBig.tres")"
-maxSimultaneous = "1"
-subSounds = SubResource(1)

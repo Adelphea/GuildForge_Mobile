@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/AncientPostbox.tres")"
-label = "ancient postbox"
-description = "An ancient postbox, smashed and deteriorated to uselessness. It seems to have been moved here long ago for some unknown reason."
-graphicData = SubResource(1)
-statBases = SubResource(3)

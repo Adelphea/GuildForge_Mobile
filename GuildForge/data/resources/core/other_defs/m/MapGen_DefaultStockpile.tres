@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThingSetMakerDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThingSetMakerDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/MapGen_DefaultStockpile.tres")"
-debugParams = SubResource(1)
-root = SubResource(2)

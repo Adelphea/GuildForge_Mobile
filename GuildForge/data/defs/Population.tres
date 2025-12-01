@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HistoryAutoRecorderGroupDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_HistoryAutoRecorderGroupDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Population.tres")"
-label = "population"
-integersOnly = "true"
-historyAutoRecorderDefs = SubResource(1)

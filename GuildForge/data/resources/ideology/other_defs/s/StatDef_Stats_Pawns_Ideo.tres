@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
-category = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PawnCombat.tres")"
-defaultBaseValue = "0"
-toStringStyle = "PercentZero"
-showOnAnimals = "false"
-alwaysHide = "true"

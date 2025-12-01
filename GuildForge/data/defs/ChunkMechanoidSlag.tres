@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ChunkMechanoidSlag.tres")"
-label = "mechanoid slag chunk"
-description = "The remains of a smashed mechanoid. While useless in its current form, it can be smelted to recover steel."
-graphicData = SubResource(1)
-saveCompressible = "false"

@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnGroupKindDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnGroupKindDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Combat.tres")"
-workerClass = "PawnGroupKindWorker_Normal"

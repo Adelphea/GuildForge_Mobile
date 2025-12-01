@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
-comps = Array[SubResource(1), SubResource(2)]
-injuryProps = SubResource(3)

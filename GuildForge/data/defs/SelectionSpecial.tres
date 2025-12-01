@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_KeyBindingCategoryDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_KeyBindingCategoryDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/SelectionSpecial.tres")"
-label = "special"
-description = "Special controls reserved for specific functions on specific objects."
-checkForConflicts = SubResource(1)

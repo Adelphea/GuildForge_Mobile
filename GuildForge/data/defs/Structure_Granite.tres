@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ColorDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ColorDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Structure_Granite.tres")"
-label = "granite"
-color = Vector3(105, 95, 97)
-displayOrder = "590"

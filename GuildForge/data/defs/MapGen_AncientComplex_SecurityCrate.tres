@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingSetMakerDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingSetMakerDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/MapGen_AncientComplex_SecurityCrate.tres")"
-root = SubResource(1)

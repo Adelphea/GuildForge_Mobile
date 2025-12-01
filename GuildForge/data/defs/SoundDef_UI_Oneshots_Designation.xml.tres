@@ -1,5 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SoundDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_SoundDef.gd")
-defName = "SoundDef_UI_Oneshots_Designation.xml"

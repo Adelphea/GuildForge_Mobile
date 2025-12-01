@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualAttachableOutcomeEffectDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualAttachableOutcomeEffectDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/DiscoverAncientComplex.tres")"
-label = "discover ancient complex"
-effectDesc = "you will discover the location of an ancient complex nearby."
-letterInfoText = "You've discovered the location of an ancient complex."
-workerClass = "RitualAttachableOutcomeEffectWorker_DiscoverAncientComplex"

@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Blindness_Cult.tres")"
-label = "blindness cult"
-description = Color(Blindless opens the inner eye, and suffering illuminates the true sight.\n\nUnlocks the medical specialist role. Will have sacrifices, ritual blindings and scarifications. These people have reduced comfort expectations., 1.0)
-categoryDef = "ExtResource("res://GuildForge/data/defs/Intense.tres")"
-memes = SubResource(1)

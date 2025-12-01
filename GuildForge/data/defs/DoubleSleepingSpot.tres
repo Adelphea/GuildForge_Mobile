@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/DoubleSleepingSpot.tres")"
-label = "double sleeping spot"
-description = "Designates a spot on the ground where two people should sleep together. Not comfortable."
-graphicData = SubResource(1)
-size = Vector2(2, 2)

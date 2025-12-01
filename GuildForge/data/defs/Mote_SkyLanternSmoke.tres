@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Mote_SkyLanternSmoke.tres")"
-thingClass = "MoteThrown"
-altitudeLayer = "Skyfaller"
-mote = SubResource(1)
-graphicData = SubResource(2)

@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
-formatString = "{0} / day"
-formatStringUnfinalized = "{0} / day"
-toStringStyle = "PercentZero"
-showIfModsLoadedAny = SubResource(1)

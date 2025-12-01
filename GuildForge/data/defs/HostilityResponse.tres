@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/HostilityResponse.tres")"
-label = "Hostility response modes"
-priority = "5"
-helpText = Color(You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu., 1.0)
-highlightTags = SubResource(1)

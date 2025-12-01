@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
-description = "Fine stone tiles in a totemic style."
-texturePath = "Terrain/Surfaces/TotemicTiles"
-designatorDropdown = "ExtResource("res://GuildForge/data/defs/Floor_Totemic_Tile.tres")"
-dominantStyleCategory = "ExtResource("res://GuildForge/data/defs/Totemic.tres")"

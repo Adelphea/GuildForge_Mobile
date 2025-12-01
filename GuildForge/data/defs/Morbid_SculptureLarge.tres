@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingStyleDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingStyleDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Morbid_SculptureLarge.tres")"
-graphicData = SubResource(1)
-uiIconScale = "1.77"

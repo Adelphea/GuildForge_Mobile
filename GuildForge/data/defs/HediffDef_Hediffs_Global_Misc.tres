@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
-hediffClass = "HediffWithComps"
-defaultLabelColor = Vector3(0.9, 1.0, 0.35)
-initialSeverity = "0.001"
-removeOnRedressChanceByDaysCurve = SubResource(1)

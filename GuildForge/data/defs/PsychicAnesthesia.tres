@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/PsychicAnesthesia.tres")"
-label = "psychic anesthesia"
-description = "Psychically-induced pain insensitivity."
-isBad = "false"
-stages = SubResource(1)

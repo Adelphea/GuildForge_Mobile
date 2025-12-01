@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Blindness_Elevated_NonBlind_Social.tres")"
-workerClass = "ThoughtWorker_Precept_NonBlind_Social"
-thoughtClass = "Thought_SituationalSocial"
-stages = SubResource(1)

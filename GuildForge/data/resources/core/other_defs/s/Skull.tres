@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HeadTypeDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HeadTypeDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/s/Skull.tres")"
-graphicPath = "Things/Pawn/Humanlike/Heads/None_Average_Skull"
-selectionWeight = "0"
-randomChosen = "false"
-gender = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/None.tres")"

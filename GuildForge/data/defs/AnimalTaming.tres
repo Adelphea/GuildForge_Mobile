@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/AnimalTaming.tres")"
-label = "Animal taming"
-priority = "10.1"
-helpText = "You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts."
-highlightTags = SubResource(1)

@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BillStoreModeDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_BillStoreModeDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/SpecificStockpile.tres")"
-label = "take to {0}"
-listOrder = "20"
-ignoreIllegalLabelCharacterConfigError = "true"

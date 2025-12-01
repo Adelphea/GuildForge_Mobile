@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ColorDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ColorDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Structure_White.tres")"
-label = "white"
-color = Vector3(184, 184, 184)
-displayOrder = "530"
-displayInStylingStationUI = "false"

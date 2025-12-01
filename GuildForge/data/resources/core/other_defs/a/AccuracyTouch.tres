@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_StatDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/a/AccuracyTouch.tres")"
-label = "Accuracy (close)"
-description = "The weapon's accuracy at a distance of 3 cells or less.\n\nAn actual shot's chance to hit will also be affected by other factors."
-displayPriorityInCategory = "5110"

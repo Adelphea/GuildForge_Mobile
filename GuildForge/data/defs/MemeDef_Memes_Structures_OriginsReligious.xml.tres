@@ -1,5 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_MemeDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_MemeDef.gd")
-defName = "MemeDef_Memes_Structures_OriginsReligious.xml"

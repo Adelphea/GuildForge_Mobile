@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ScenPartDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ScenPartDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/PlayerFaction.tres")"
-label = "Player faction"
-category = "Fixed"
-scenPartClass = "ScenPart_PlayerFaction"
-summaryPriority = "1000"

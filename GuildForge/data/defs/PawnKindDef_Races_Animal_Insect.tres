@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
-defaultFactionDef = "ExtResource("res://GuildForge/data/defs/Insect.tres")"
-canArriveManhunter = "false"
-moveSpeedFactorByTerrainTag = SubResource(1)

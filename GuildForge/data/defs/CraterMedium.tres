@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/CraterMedium.tres")"
-size = Vector2(3, 3)
-graphicData = SubResource(1)
-building = SubResource(2)

@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/CameraDolly.tres")"
-label = "Camera dolly"
-priority = "95"
-helpText = "Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys."
-helpTextController = "Move the camera by using the D-pad."

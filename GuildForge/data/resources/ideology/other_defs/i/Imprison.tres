@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SlaveInteractionModeDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SlaveInteractionModeDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/i/Imprison.tres")"
-label = "imprison"
-listOrder = "20"
-description = Color(A warden will imprison this slave. Once imprisoned, they can be recruited, or enslaved once again., 1.0)

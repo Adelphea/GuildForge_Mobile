@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualOutcomeEffectDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualOutcomeEffectDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/DestroyConsumableBuilding_ChristmasTree.tres")"
-effecter = "ExtResource("res://GuildForge/data/defs/VanishChristmasTree.tres")"

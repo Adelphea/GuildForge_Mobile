@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RulePackDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_RulePackDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Maneuver_Bite_MeleeHit.tres")"
-include = SubResource(1)

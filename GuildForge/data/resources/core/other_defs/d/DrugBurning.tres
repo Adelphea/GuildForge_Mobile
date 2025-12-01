@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/DrugBurning.tres")"
-label = "Drug burning"
-helpText = Color(Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire., 1.0)
-highlightTags = SubResource(1)

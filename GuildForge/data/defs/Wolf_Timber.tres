@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Wolf_Timber.tres")"
-label = "timber wolf"
-labelPlural = "timber wolves"
-race = "ExtResource("res://GuildForge/data/defs/Wolf_Timber.tres")"
-lifeStages = SubResource(1)

@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DrawStyleDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DrawStyleDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/FilledRectangle.tres")"
-label = "filled rectangle"
-uiIconPath = "UI/Widgets/DrawStyles/RectangleFilled"
-drawStyleType = "DrawStyle_FilledRectangle"
-drawOutline = "true"

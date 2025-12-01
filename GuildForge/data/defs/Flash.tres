@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_FleckDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_FleckDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Flash.tres")"
-altitudeLayer = "MoteOverhead"
-solidTime = "0.05"
-fadeOutTime = "0.05"
-graphicData = SubResource(1)

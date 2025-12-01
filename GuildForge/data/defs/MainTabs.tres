@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_KeyBindingCategoryDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_KeyBindingCategoryDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/MainTabs.tres")"
-label = "main tabs"
-description = "Controls for the main tabs."
-isGameUniversal = "true"
-checkForConflicts = SubResource(1)

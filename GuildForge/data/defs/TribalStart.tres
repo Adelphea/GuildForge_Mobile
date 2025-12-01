@@ -1,5 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectTagDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectTagDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/TribalStart.tres")"

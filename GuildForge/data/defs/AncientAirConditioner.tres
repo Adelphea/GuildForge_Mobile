@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/AncientAirConditioner.tres")"
-label = "ancient air conditioner"
-description = "An ancient air conditioning machine. Its internals were smashed long ago and what wasn't looted has rusted away in the time since."
-graphicData = SubResource(1)
-statBases = SubResource(3)

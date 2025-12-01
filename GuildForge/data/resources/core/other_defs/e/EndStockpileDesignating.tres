@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_InstructionDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/e/EndStockpileDesignating.tres")"
-text = "Right-click to get out of stockpile designating mode."
-textController = "Press left trigger button to get out of stockpile designating mode."
-eventTagInitiate = "InstructionDeactivated-MakeStockpile"
-eventTagsEnd = SubResource(1)

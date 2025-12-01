@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DamageDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Decayed.tres")"
-label = "decayed organ"
-workerClass = "DamageWorker_AddInjury"
-deathMessage = "{0} died from metabolic disruptions caused by organ decay."
-hediff = "ExtResource("res://GuildForge/data/resources/core/other_defs/d/Decayed.tres")"

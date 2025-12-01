@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualOutcomeEffectDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualOutcomeEffectDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/DestroyConsumableBuilding.tres")"
-description = "The ritual target will be destroyed."
-workerClass = "RitualOutcomeEffectWorker_RemoveConsumableBuilding"
-comps = Array[SubResource(1)]

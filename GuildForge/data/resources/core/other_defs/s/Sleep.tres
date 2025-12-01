@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TimeAssignmentDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TimeAssignmentDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/Sleep.tres")"
-label = "sleep"
-color = Vector3(51, 51, 127)

@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BodyDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_BodyDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/QuadrupedAnimalWithHoovesTusksAndTrunk.tres")"
-label = "quadruped animal"
-corePart = SubResource(1)

@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FactionDef.gd")
-raidLootValueFromPointsCurve = SubResource(1)
-messageDefendersAttacking = "{0} from {1} are attacking your {2}."

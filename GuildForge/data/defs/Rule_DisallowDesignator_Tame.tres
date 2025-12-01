@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ScenPartDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ScenPartDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Rule_DisallowDesignator_Tame.tres")"
-label = "cannot tame"
-description = "Cannot tame animals."
-designatorType = "Designator_Tame"

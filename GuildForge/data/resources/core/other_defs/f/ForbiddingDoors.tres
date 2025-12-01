@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/ForbiddingDoors.tres")"
-label = "Forbidding doors"
-priority = "15"
-helpText = "You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway."
-highlightTags = SubResource(1)

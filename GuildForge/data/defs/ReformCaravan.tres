@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ReformCaravan.tres")"
-label = "Reforming caravans"
-helpText = "After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view."
-highlightTags = SubResource(1)

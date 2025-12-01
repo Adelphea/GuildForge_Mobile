@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ScenPartDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ScenPartDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Rule_DisallowDesignator_ZoneAdd_Growing.tres")"
-label = "cannot sow"
-description = "Cannot sow plants on the ground."
-designatorType = "Designator_ZoneAdd_Growing"

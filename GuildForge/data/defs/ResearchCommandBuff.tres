@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ResearchCommandBuff.tres")"
-label = "research command"
-description = "This person's research speed is boosted because they are near someone who is using the research command ability."
-debugLabelExtra = "other"
-stages = SubResource(1)

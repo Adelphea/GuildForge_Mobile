@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/DEV_Unburnable.tres")"
-label = "unburnable"
-description = "Cannot catch fire."
-stages = SubResource(1)

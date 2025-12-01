@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualTargetFilterDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualTargetFilterDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/AltarIdeogramOrRitualSpot.tres")"
-fallbackToRitualSpot = "true"
-workerClass = "RitualTargetFilter_AltarOrIdeogram"

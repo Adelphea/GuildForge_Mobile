@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ScenarioDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ScenarioDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/LostTribe.tres")"
-label = "Lost Tribe"
-description = Color(Your tribe was destroyed by the great blood machines sent by the gods. Five of you managed to escape. Now, it's time to build up a new home.\n\nNote: Since you'll start poor and lack technology, this is a difficult scenario., 1.0)
-scenario = SubResource(1)

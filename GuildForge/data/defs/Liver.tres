@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Liver.tres")"
-label = "liver"
-description = "A biological human liver. Plays an important role in metabolism."
-descriptionHyperlinks = SubResource(1)
-statBases = SubResource(2)

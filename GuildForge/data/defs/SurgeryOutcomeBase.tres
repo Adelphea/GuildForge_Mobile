@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SurgeryOutcomeEffectDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_SurgeryOutcomeEffectDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/SurgeryOutcomeBase.tres")"
-outcomes = SubResource(1)
-comps = Array[SubResource(17), SubResource(18), SubResource(19), SubResource(22), SubResource(23), SubResource(24)]

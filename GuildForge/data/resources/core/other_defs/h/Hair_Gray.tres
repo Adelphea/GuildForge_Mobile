@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GeneDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GeneDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/h/Hair_Gray.tres")"
-label = "gray hair"
-hairColorOverride = Vector3(0.65, 0.65, 0.65)
-selectionWeight = "0.02"
-displayOrderInCategory = "10"

@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Tree_Worshippers.tres")"
-label = "tree-worshippers"
-categoryDef = "ExtResource("res://GuildForge/data/defs/Intense.tres")"
-description = Color(We live in harmony with the Gauranlen trees. Trees should never be cut, and animals should not be harmed.\n\n Unlocks the plants specialist role. These people live in rough conditions without complains, and can connect more deeply with the Gauranlen trees., 1.0)
-memes = SubResource(1)

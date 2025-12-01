@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RulePackDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RulePackDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/g/Gathering_Concert.tres")"
-rulePack = SubResource(1)

@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SurgeryOutcomeEffectDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SurgeryOutcomeEffectDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/s/SurgeryOutcomeMinorFailure.tres")"
-outcomes = SubResource(1)

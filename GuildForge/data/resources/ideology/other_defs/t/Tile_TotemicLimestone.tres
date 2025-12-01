@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Tile_TotemicLimestone.tres")"
-label = "totemic limestone tile"
-color = Vector3(158, 153, 135)
-costList = SubResource(1)

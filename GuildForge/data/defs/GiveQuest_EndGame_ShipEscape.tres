@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/GiveQuest_EndGame_ShipEscape.tres")"
-label = "journey offer"
-letterLabel = "Journey offer"
-questScriptDef = "ExtResource("res://GuildForge/data/defs/EndGame_ShipEscape.tres")"
-baseChance = "0"

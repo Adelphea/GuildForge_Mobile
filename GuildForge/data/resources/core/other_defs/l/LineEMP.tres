@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/l/LineEMP.tres")"
-graphicData = SubResource(1)
-altitudeLayer = "MoteOverhead"
-solidTime = "0"
-fadeOutTime = "0.4"

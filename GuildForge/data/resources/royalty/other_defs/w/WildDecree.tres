@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalBreakDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_MentalBreakDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/w/WildDecree.tres")"
-mentalState = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/Wander_Sad.tres")"
-intensity = "Major"
-workerClass = "MentalBreakWorker_WildDecree"

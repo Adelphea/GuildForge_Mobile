@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_QuestScriptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_QuestScriptDef.gd")
-decreeSelectionWeight = "1"
-defaultChallengeRating = "1"
-autoAccept = "true"
-decreeTags = SubResource(1)

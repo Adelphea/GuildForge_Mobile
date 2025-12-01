@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BeardDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_BeardDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/n/NoBeard.tres")"
-label = "no beard"
-noGraphic = "true"
-category = "ExtResource("res://GuildForge/data/resources/core/other_defs/m/Minimal.tres")"
-styleTags = SubResource(1)

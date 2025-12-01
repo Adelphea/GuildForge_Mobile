@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/AncientWashingMachine.tres")"
-label = "ancient washing machine"
-description = "An ancient device used for washing textiles. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say."
-graphicData = SubResource(1)
-statBases = SubResource(3)

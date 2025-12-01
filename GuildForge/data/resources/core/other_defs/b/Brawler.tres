@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TraitDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TraitDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/b/Brawler.tres")"
-degreeDatas = SubResource(1)
-conflictingTraits = SubResource(7)
-requiredWorkTags = SubResource(8)
-conflictingPassions = SubResource(9)

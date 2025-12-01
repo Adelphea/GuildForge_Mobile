@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/t/TileGranite.tres")"
-label = "granite tile"
-color = Vector3(105, 95, 97)
-costList = SubResource(1)

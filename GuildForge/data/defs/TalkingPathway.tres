@@ -1,5 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BodyPartTagDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_BodyPartTagDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/TalkingPathway.tres")"

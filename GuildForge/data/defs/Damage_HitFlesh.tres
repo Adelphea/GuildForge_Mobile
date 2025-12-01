@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_EffecterDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_EffecterDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Damage_HitFlesh.tres")"
-children = SubResource(1)
-offsetTowardsTarget = "0.25~0.25"
-positionRadius = "0.1"

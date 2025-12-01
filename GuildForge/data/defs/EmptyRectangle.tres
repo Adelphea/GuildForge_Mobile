@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_DrawStyleDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_DrawStyleDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/EmptyRectangle.tres")"
-label = "empty rectangle"
-uiIconPath = "UI/Widgets/DrawStyles/RectangleEmpty"
-drawStyleType = "DrawStyle_EmptyRectangle"
-drawOutline = "true"

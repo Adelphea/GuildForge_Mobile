@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/EggTurkeyUnfertilized.tres")"
-label = "turkey egg (unfert.)"
-description = "An unfertilized turkey egg. It can be eaten raw, but it's much better cooked."
-graphicData = SubResource(1)
-statBases = SubResource(2)

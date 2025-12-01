@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/PsychicFocus.tres")"
-label = "psychic focus"
-description = Color(Psychically-induced mental focus, increasing sight, hearing and movement capacities., 1.0)
-isBad = "false"
-stages = SubResource(1)

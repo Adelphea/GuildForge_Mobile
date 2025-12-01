@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/Classic_DanceParty.tres")"
-label = "dance party"
-ritualPatternBase = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/c/CelebrationPartyDanceTech.tres")"
-classic = "true"
-classicModeOnly = "true"

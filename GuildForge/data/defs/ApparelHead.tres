@@ -1,5 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnRenderNodeTagDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnRenderNodeTagDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ApparelHead.tres")"

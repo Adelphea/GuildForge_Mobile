@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThingCategoryDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThingCategoryDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/w/WeaponsRanged.tres")"
-label = "ranged weapons"
-parent = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/w/Weapons.tres")"

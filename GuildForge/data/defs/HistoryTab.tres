@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/HistoryTab.tres")"
-label = "History tab"
-priority = "1"
-helpText = "You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen."
-highlightTags = SubResource(1)

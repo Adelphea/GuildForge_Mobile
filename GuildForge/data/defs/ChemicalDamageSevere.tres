@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ChemicalDamageSevere.tres")"
-label = "chemical damage"
-description = "Chemical damage at the cellular level."
-debugLabelExtra = "severe"
-stages = SubResource(1)

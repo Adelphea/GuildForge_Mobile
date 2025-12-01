@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorldObjectDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorldObjectDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Settlement_ThirdArchonexusCycle.tres")"
-label = "third archonexus settlement"
-mapGenerator = "ExtResource("res://GuildForge/data/defs/BasePlayer_ThirdArchonexusCycle.tres")"
-worldObjectClass = "ArchotechSettlement"

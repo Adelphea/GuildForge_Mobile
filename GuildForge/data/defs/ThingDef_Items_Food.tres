@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-description = Color(A masterpiece of the culinary arts, this meal nourishes the body, mind, and soul.)
-statBases = SubResource(1)
-ingestible = SubResource(2)

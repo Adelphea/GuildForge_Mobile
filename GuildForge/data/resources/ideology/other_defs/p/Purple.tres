@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ColorDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ColorDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/Purple.tres")"
-label = "purple"
-color = Vector3(170, 86, 191)

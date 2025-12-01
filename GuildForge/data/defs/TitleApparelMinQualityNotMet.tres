@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/TitleApparelMinQualityNotMet.tres")"
-workerClass = "ThoughtWorker_RoyalTitleApparelMinQualityNotMet"
-validWhileDespawned = "true"
-nullifyingTraits = SubResource(1)
-stages = SubResource(2)

@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/MeleeHitChanceOutdoorsLitOffset.tres")"
-label = "melee hit chance outdoors lit"
-description = "An offset on melee hit chance if the target is outdoors during the day."

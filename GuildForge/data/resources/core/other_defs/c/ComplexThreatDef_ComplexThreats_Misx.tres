@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ComplexThreatDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ComplexThreatDef.gd")
-postSpawnPassiveThreatFactor = "0.5"
-spawnInOtherRoomChance = "0.5"

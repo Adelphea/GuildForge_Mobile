@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/MateCustomChildhood.tres")"
-title = "curious kid"
-titleShort = "curious kid"
-description = "[PAWN_nameDef] spent most of [PAWN_possessive] childhood dreaming of becoming a famous artist who could impress people with [PAWN_possessive] creations."
-skillGains = SubResource(1)

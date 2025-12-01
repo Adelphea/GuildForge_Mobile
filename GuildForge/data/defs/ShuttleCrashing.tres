@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ShuttleCrashing.tres")"
-label = "shuttle (crashing)"
-thingClass = "ExtResource("res://GuildForge/data/defs/ShuttleIncoming.tres")"
-size = Vector2(5, 3)
-skyfaller = SubResource(1)

@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/RelicInertSwordHandle.tres")"
-label = "hilt"
-graphicData = SubResource(1)
-stuffCategories = SubResource(2)
-costStuffCount = "100"

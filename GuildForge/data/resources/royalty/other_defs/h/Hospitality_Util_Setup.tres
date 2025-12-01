@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_QuestScriptDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/h/Hospitality_Util_Setup.tres")"
-root = SubResource(1)

@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TerrainDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/t/Tile_MorbidSlate.tres")"
-label = "morbid slate tile"
-color = Vector3(70, 70, 70)
-costList = SubResource(1)

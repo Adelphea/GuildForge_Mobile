@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnColumnDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnColumnDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/MedicalCare.tres")"
-headerIcon = "UI/Icons/ThingCategories/Medicine"
-workerClass = "PawnColumnWorker_MedicalCare"
-headerTip = "Medical care"
-sortable = "true"

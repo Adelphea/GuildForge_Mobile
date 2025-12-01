@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Dryad_Medicinemaker.tres")"
-label = "medicinemaker dryad"
-race = "ExtResource("res://GuildForge/data/defs/Dryad_Medicinemaker.tres")"
-lifeStages = SubResource(1)

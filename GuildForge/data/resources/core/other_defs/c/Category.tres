@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TransferableSorterDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_TransferableSorterDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/c/Category.tres")"
-label = "category"
-comparerClass = "TransferableComparer_Category"

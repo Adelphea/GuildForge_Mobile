@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_DebugTabMenuDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_DebugTabMenuDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Settings.tres")"
-label = "settings"
-menuClass = "DebugTabMenu_Settings"
-displayOrder = "100"

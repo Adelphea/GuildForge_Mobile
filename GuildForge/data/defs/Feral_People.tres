@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Feral_People.tres")"
-label = "feral people"
-description = "We are animals and animals are us. We are trees and we live by them and love them as us.\n\nUnlocks animal and plants specialist roles. Increases taming abilities of every member. Cutting trees and slaughtering animals are unacceptable. These people can connect more deeply with the Gauranlen trees."
-categoryDef = "ExtResource("res://GuildForge/data/defs/Intense.tres")"
-memes = SubResource(1)

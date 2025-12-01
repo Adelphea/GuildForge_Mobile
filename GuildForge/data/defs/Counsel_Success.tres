@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InteractionDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_InteractionDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Counsel_Success.tres")"
-label = "successful counsel"
-symbol = "UI/Abilities/Counsel"
-logRulesInitiator = SubResource(1)

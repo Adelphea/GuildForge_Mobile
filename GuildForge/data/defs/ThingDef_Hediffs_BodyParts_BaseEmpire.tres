@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-thingSetMakerTags = SubResource(1)
-tradeTags = SubResource(2)
-techHediffsTags = SubResource(3)

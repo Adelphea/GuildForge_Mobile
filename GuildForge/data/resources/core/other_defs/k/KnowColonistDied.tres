@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThoughtDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/k/KnowColonistDied.tres")"
-durationDays = "6"
-stackLimit = "5"
-nullifyingTraits = SubResource(1)
-stages = SubResource(2)

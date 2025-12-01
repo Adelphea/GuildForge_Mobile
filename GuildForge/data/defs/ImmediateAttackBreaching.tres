@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ImmediateAttackBreaching.tres")"
-workerClass = "RaidStrategyWorker_ImmediateAttackBreaching"
-arrivalTextEnemy = "They are attacking immediately.\n\nThese raiders intend to breach your walls. They'll determine their own path into your colony and destroy anything in their way."

@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DesignatorDropdownGroupDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_DesignatorDropdownGroupDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/f/Floor_Carpet_Fine.tres")"
-label = "fine carpet"
-iconSource = "Placed"
-useGridMenu = "true"
-includeEyeDropperTool = "true"

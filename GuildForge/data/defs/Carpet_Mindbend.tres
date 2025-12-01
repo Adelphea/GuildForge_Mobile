@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Carpet_Mindbend.tres")"
-label = "mindbend carpet"
-description = "Fine carpet decorated in a mind-bending style often associated with drug use."
-designatorDropdown = "ExtResource("res://GuildForge/data/defs/Floor_MindbendCarpet.tres")"
-costList = SubResource(1)

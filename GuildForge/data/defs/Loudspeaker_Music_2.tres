@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SoundDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_SoundDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Loudspeaker_Music_2.tres")"
-sustain = "True"
-context = "MapOnly"
-priorityMode = "PrioritizeNearest"
-subSounds = SubResource(1)

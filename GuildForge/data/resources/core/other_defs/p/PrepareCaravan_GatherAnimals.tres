@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_JobDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/PrepareCaravan_GatherAnimals.tres")"
-driverClass = "JobDriver_PrepareCaravan_GatherAnimals"
-reportString = "leading TargetA to caravan spot."
-casualInterruptible = "false"
-allowOpportunisticPrefix = "true"

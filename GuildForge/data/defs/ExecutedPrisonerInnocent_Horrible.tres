@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ExecutedPrisonerInnocent_Horrible.tres")"
-durationDays = "6"
-nullifyingTraits = SubResource(1)
-nullifyingHediffs = SubResource(2)
-stages = SubResource(4)

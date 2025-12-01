@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_LetterDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_LetterDef.gd")
-letterClass = "ChoiceLetter"
-color = Vector3(95, 151, 191)
-flashInterval = "-1"

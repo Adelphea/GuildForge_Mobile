@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainAffordanceDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainAffordanceDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/MovingFluid.tres")"
-label = "moving water"
-order = "2300"
-visualizeOnAffordanceOverlay = "true"
-affordanceOverlayColor = Vector3(0, 0, 200)

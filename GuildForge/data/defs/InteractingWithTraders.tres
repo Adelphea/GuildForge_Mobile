@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/InteractingWithTraders.tres")"
-label = "Interacting with traders"
-helpText = "You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to their head."
-helpTextController = "You can talk to people with ? over their heads.\n\nSelect a colonist and press the left trigger button on the character with ? attached to their head."

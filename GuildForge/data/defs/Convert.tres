@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PrisonerInteractionModeDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_PrisonerInteractionModeDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Convert.tres")"
-label = "convert"
-listOrder = "28"
-description = "Wardens will attempt to convert the prisoner to their ideoligion."
-allowInClassicIdeoMode = "false"

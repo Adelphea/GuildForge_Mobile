@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_jobDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_jobDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/TriggerObject.tres")"
-driverClass = "JobDriver_UseItem"
-allowOpportunisticPrefix = "true"
-reportString = "triggering TargetA."

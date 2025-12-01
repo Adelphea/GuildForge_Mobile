@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_KeyBindingCategoryDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_KeyBindingCategoryDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/Game.tres")"
-label = "in-game global"
-description = "Colony mode controls that apply in most situations."
-isGameUniversal = "true"
-checkForConflicts = SubResource(1)

@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IdeoPresetDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/Progressive_Humanism.tres")"
-label = "transcendent humanists"
-description = "The human race is at the peak of nature and must use technology to step beyond. We do this by enhancing our bodies with technology, but we like to hear others' view on the matter.\n\nUnlocks research and production specialist roles."
-categoryDef = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/i/Intense.tres")"
-memes = SubResource(1)

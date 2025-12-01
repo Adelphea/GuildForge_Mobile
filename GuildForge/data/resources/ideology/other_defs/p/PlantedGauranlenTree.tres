@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HistoryEventDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_HistoryEventDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/p/PlantedGauranlenTree.tres")"
-label = "planted Gauranlen tree"

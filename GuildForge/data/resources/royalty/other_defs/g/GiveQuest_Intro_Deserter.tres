@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_IncidentDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/g/GiveQuest_Intro_Deserter.tres")"
-label = "imperial deserter"
-questScriptDef = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/i/Intro_Deserter.tres")"
-baseChance = "0"

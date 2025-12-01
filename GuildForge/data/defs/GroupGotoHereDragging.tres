@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/GroupGotoHereDragging.tres")"
-label = "Positioning fighters"
-helpText = "Right-click and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit!"
-helpTextController = "Hold the left trigger button and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit!"

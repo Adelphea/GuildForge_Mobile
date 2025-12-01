@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThingStyleDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_ThingStyleDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/r/Rustic_WallLamp.tres")"
-graphicData = SubResource(1)
-uiIconPath = "Things/Building/BuildingStyles/Rustic/WallLamp/WallLampRustic_MenuIcon"

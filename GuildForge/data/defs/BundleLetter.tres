@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_LetterDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_LetterDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/BundleLetter.tres")"
-letterClass = "ExtResource("res://GuildForge/data/defs/BundleLetter.tres")"
-color = Vector3(175, 176, 185)

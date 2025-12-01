@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/GiveQuest_Intro_Wimp.tres")"
-label = "imperial wimp"
-questScriptDef = "ExtResource("res://GuildForge/data/defs/Intro_Wimp.tres")"
-baseChance = "0"

@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_KeyBindingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_KeyBindingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Misc9.tres")"
-label = "Misc 9"
-defaultKeyCodeA = "I"

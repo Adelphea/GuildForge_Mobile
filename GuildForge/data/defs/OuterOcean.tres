@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_FeatureDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_FeatureDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/OuterOcean.tres")"
-workerClass = "FeatureWorker_OuterOcean"
-order = "150"
-minSize = "15"
-nameMaker = "ExtResource("res://GuildForge/data/defs/NamerOcean.tres")"

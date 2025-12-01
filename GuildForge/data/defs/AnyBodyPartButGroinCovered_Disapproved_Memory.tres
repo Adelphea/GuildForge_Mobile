@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/AnyBodyPartButGroinCovered_Disapproved_Memory.tres")"
-thoughtClass = "Thought_Memory"
-durationDays = "0.5"
-stackLimit = "1"
-stages = SubResource(1)

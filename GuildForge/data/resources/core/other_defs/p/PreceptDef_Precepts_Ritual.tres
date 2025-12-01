@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_PreceptDef.gd")
-issue = "ExtResource("res://GuildForge/data/resources/core/other_defs/r/Ritual.tres")"
-preceptClass = "Precept_Ritual"
-visible = "false"
-countsTowardsPreceptLimit = "false"
-selectionWeight = "1.0"

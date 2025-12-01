@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ObservedSkullspike.tres")"
-thoughtClass = "Thought_MemoryObservation"
-durationDays = "1"
-stackLimit = "5"
-stages = SubResource(1)

@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TaleDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_TaleDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/TileSettled.tres")"
-taleClass = "Tale"
-type = "PermanentHistorical"
-usableForArt = "false"
-historyGraphColor = Vector3(0.46, 0.98, 0.97)

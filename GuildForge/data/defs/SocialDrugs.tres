@@ -1,7 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_DrugPolicyDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_DrugPolicyDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/SocialDrugs.tres")"
-label = "social drugs"
-entries = SubResource(1)

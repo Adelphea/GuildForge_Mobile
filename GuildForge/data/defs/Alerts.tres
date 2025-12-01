@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Alerts.tres")"
-label = "ExtResource("res://GuildForge/data/defs/Alerts.tres")"
-priority = "27"
-helpText = "The alerts at the right edge of the screen tell you about issues that need your attention.\n\nKeep an eye on the alerts."
-highlightTags = SubResource(1)

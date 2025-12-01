@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualOutcomeEffectDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_RitualOutcomeEffectDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/a/AnimaTreeLinking.tres")"
-workerClass = "RitualOutcomeEffectWorker_AnimaTreeLinking"
-warnOnLowQuality = "false"
-givesDevelopmentPoints = "false"
-comps = Array[SubResource(1)]

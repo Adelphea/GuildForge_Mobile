@@ -1,9 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ArchotechTower.tres")"
-label = "archotech tower"
-description = "A moderately-sized archotech tower rising from the ground. Traces along its surface glow steadily with a strange color. Humans can only begin to guess at its purpose."
-size = Vector2(5, 5)
-graphicData = SubResource(1)

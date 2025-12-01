@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ColorDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ColorDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Structure_MagentaSubtle.tres")"
-label = "subtle magenta"
-color = Vector3(101, 67, 82)
-displayOrder = "80"

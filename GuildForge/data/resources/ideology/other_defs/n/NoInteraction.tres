@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SlaveInteractionModeDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_SlaveInteractionModeDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/ideology/other_defs/n/NoInteraction.tres")"
-label = "no interaction"
-listOrder = "0"
-description = "Wardens will not interact with this slave."

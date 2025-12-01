@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/ChoppedStump_Gauranlen.tres")"
-label = "chopped gauranlen stump"
-description = "A stump left behind after a garuanlen tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time."
-graphicData = SubResource(1)

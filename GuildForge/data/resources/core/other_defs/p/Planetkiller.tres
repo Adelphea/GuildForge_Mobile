@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GameConditionDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_GameConditionDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/core/other_defs/p/Planetkiller.tres")"
-conditionClass = "ExtResource("res://GuildForge/data/resources/core/other_defs/g/GameCondition_Planetkiller.tres")"
-label = "planetkiller"
-description = "An interstellar planetkiller weapon is approaching this planet. It will smash the planet apart like a rifle bullet hitting an egg, annihilating all life."

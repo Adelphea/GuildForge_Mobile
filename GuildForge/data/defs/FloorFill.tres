@@ -1,6 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SketchResolverDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_SketchResolverDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/FloorFill.tres")"
-resolver = SubResource(1)

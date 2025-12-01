@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/TakeRoamingAnimalsToPen.tres")"
-giverClass = "WorkGiver_TakeRoamingAnimalsToPen"
-label = "rope roaming animals"
-priorityInType = "160"

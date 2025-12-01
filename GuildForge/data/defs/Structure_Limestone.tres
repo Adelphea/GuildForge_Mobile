@@ -1,8 +1,0 @@
-[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ColorDef.gd" id=1]
-
-[resource]
-script = ExtResource("res://res://GuildForge/scripts/resources/CR_ColorDef.gd")
-defName = "ExtResource("res://GuildForge/data/defs/Structure_Limestone.tres")"
-label = "limestone"
-color = Vector3(158, 153, 135)
-displayOrder = "560"
