@@ -1,0 +1,52 @@
+[
+    {
+        "DefName": "Wall",
+        "Statut": "\u00c9chec (.tres Introuvable)",
+        "D\u00e9tails": "Le fichier .tres attendu \u00e0 /home/ubuntu/GuildForge_Mobile/GuildForge/data/resources/core/other_defs/w/Wall.tres n'existe pas."
+    },
+    {
+        "DefName": "Apparel_FlakVest",
+        "Statut": "\u00c9chec (.tres Introuvable)",
+        "D\u00e9tails": "Le fichier .tres attendu \u00e0 /home/ubuntu/GuildForge_Mobile/GuildForge/data/resources/core/other_defs/a/Apparel_FlakVest.tres n'existe pas."
+    },
+    {
+        "DefName": "Gun_HeavySMG",
+        "Statut": "\u00c9chec (.tres Introuvable)",
+        "D\u00e9tails": "Le fichier .tres attendu \u00e0 /home/ubuntu/GuildForge_Mobile/GuildForge/data/resources/core/other_defs/g/Gun_HeavySMG.tres n'existe pas."
+    },
+    {
+        "DefName": "ColorDef_IdeoColorDefs",
+        "Statut": "\u00c9chec (XML Introuvable)",
+        "D\u00e9tails": "Impossible de localiser le fichier XML pour ColorDef_IdeoColorDefs dans le module ideology."
+    },
+    {
+        "DefName": "Steel",
+        "Statut": "\u00c9chec (.tres Introuvable)",
+        "D\u00e9tails": "Le fichier .tres attendu \u00e0 /home/ubuntu/GuildForge_Mobile/GuildForge/data/resources/core/other_defs/s/Steel.tres n'existe pas."
+    },
+    {
+        "DefName": "Pawn",
+        "Statut": "\u00c9chec (XML Introuvable)",
+        "D\u00e9tails": "Impossible de localiser le fichier XML pour Pawn dans le module core."
+    },
+    {
+        "DefName": "Gene_LongJump",
+        "Statut": "\u00c9chec (XML Introuvable)",
+        "D\u00e9tails": "Impossible de localiser le fichier XML pour Gene_LongJump dans le module biotech."
+    },
+    {
+        "DefName": "Axe",
+        "Statut": "\u00c9chec (XML Introuvable)",
+        "D\u00e9tails": "Impossible de localiser le fichier XML pour Axe dans le module core."
+    },
+    {
+        "DefName": "Gun_SniperRifle",
+        "Statut": "\u00c9chec (.tres Introuvable)",
+        "D\u00e9tails": "Le fichier .tres attendu \u00e0 /home/ubuntu/GuildForge_Mobile/GuildForge/data/resources/core/other_defs/g/Gun_SniperRifle.tres n'existe pas."
+    },
+    {
+        "DefName": "JobDriver_LayDown",
+        "Statut": "\u00c9chec (XML Introuvable)",
+        "D\u00e9tails": "Impossible de localiser le fichier XML pour JobDriver_LayDown dans le module core."
+    }
+]
