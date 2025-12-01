@@ -46,21 +46,35 @@ def get_module_name(xml_path):
     except ValueError:
         return "core"
 
-def get_tres_output_path(module_name, def_type, def_name):
+def get_tres_output_path(xml_path, def_type, def_name):
     """Détermine le chemin de sortie pour les fichiers .tres (instances)."""
-    def_type_lower = def_type.lower().replace("def", "").replace("cr_", "")
+    # 1. Déterminer le dossier de base (suppression du tri par module)
+    base_path = TRES_OUTPUT_PATH
     
-    # Correction: Le pipeline semble tout mettre dans other_defs
-    folder = "other_defs"
-        
-    # Sous-classification par première lettre du defName pour tous les dossiers
-    base_path = os.path.join(TRES_OUTPUT_PATH, module_name, folder)
-    
-    if def_name and def_name[0].isalpha():
-        sub_folder = def_name[0].lower()
-        path = os.path.join(base_path, sub_folder)
+    # 2. Déterminer le dossier de type de Def
+    if def_type == "ThingDef":
+        def_folder = "thing_defs"
     else:
-        path = base_path
+        def_folder = f"{def_type}_defs"
+        
+    # 3. Déterminer la sous-catégorie (pour ThingDef uniquement)
+    if def_type == "ThingDef":
+        # Logique V2: Utiliser la Catégorie de Fichier Source
+        parts = xml_path.split(os.sep)
+        sub_category = None
+        for part in parts:
+            if part.startswith("ThingDefs_"):
+                sub_category = part
+                break
+        
+        if sub_category is None:
+            sub_category = "ThingDefs_Misc"
+            
+        path = os.path.join(base_path, def_folder, sub_category)
+        
+    else:
+        # Logique V2: Structure plate pour les autres DefTypes
+        path = os.path.join(base_path, def_folder)
         
     return os.path.join(path, f"{def_name}.tres")
 
@@ -182,7 +196,7 @@ def analyze_data():
             continue
             
         # 2. Déterminer le chemin .tres
-        tres_path = get_tres_output_path(module_name, def_type, def_name)
+        tres_path = get_tres_output_path(xml_path, def_type, def_name)
         if not os.path.exists(tres_path):
             report.append({
                 "DefName": def_name,
