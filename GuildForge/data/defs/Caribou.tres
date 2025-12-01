@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Caribou.tres")"
+label = "caribou"
+labelPlural = "caribou"
+race = "ExtResource("res://GuildForge/data/defs/Caribou.tres")"
+combatPower = "110"
+ecoSystemWeight = "1.1"
+wildGroupSize = "3~9"
+lifeStages = SubResource(1)

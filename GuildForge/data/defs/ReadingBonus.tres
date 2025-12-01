@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RoomStatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RoomStatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ReadingBonus.tres")"
+label = "reading bonus"
+workerClass = "RoomStatWorker_ReadingBonus"
+roomlessScore = "1"
+updatePriority = "0"
+isHidden = "true"

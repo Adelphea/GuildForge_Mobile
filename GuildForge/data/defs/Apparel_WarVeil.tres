@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_WarVeil.tres")"
+label = "veil"
+description = "A piece of fabric which covers the wearer's face."
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+graphicData = SubResource(1)
+uiIconScale = "1.15"
+stuffCategories = SubResource(2)
+costStuffCount = "20"
+statBases = SubResource(3)
+equippedStatOffsets = SubResource(4)
+apparel = SubResource(6)
+recipeMaker = SubResource(14)
+tradeTags = SubResource(16)

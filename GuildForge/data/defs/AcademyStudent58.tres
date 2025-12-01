@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AcademyStudent58.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/AcademyStudent58.tres")"
+slot = "Childhood"
+title = "academy student"
+titleShort = "student"
+description = "[PAWN_nameDef] went to school like a good space cadet would. [PAWN_pronoun] was very tall and was known for [PAWN_possessive] good looks.
+
+Though [PAWN_pronoun] worried more about [PAWN_possessive] hairstyle than [PAWN_possessive] grades, [PAWN_pronoun] still somehow passed the final exams."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Cleaning.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

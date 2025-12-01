@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HeavyTurrets.tres")"
+label = "autocannon turret"
+description = "Produce the heavy autocannon turret."
+baseCost = "1600"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+requiredResearchBuilding = "ExtResource("res://GuildForge/data/defs/HiTechResearchBench.tres")"
+hideWhen = SubResource(3)
+researchViewX = "13.00"
+researchViewY = "3.60"
+generalRules = SubResource(4)

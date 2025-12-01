@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AcidBurn.tres")"
+label = "acid burn"
+labelNoun = "an acid burn"
+description = "An acid burn."
+comps = Array[SubResource(1)]
+injuryProps = SubResource(2)

@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Mining_Disapproved.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Mining.tres")"
+label = "disapproved"
+description = "Mining into the natural earth is an ugly act."
+impact = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "100"
+warnPlayerOnDesignateMine = "true"
+opposedWorkTypes = SubResource(1)
+conflictingMemes = SubResource(2)
+associatedMemes = SubResource(3)
+disallowMiningCamps = "true"
+comps = Array[SubResource(4), SubResource(5), SubResource(6), SubResource(7)]

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SoundDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SoundDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Flamethrower_Firing.tres")"
+sustain = "true"
+context = "MapOnly"
+maxSimultaneous = "2"
+priorityMode = "PrioritizeNearest"
+sustainStartSound = "ExtResource("res://GuildForge/data/defs/Flamethrower_Firing_Start.tres")"
+sustainStopSound = "ExtResource("res://GuildForge/data/defs/Flamethrower_Firing_Resolve.tres")"
+subSounds = SubResource(1)

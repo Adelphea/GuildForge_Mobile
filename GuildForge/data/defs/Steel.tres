@@ -1,0 +1,23 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Steel.tres")"
+label = "steel"
+description = Color(An iron-carbon metal alloy used for building a huge variety of structures, weapons, and machines., 1.0)
+graphicData = SubResource(1)
+soundInteract = "ExtResource("res://GuildForge/data/defs/Metal_Drop.tres")"
+soundDrop = "ExtResource("res://GuildForge/data/defs/Metal_Drop.tres")"
+statBases = SubResource(2)
+useHitPoints = "false"
+healthAffectsPrice = "false"
+slagDef = "ExtResource("res://GuildForge/data/defs/ChunkSlagSteel.tres")"
+thingCategories = SubResource(3)
+deepCommonality = "4"
+deepCountPerPortion = "45"
+deepLumpSizeRange = "20~30"
+burnableByRecipe = "false"
+smeltable = "true"
+stuffProps = SubResource(4)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+allowedArchonexusCount = "80"

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SoldiersKid55.tres")"
+title = "soldier's kid"
+titleShort = "soldier kid"
+description = "[PAWN_nameDef] was raised on the ancient starship where [PAWN_possessive] parents were stationed. [PAWN_pronoun] learned the basics of firearm operations and maintenance from the soldiers on board. [PAWN_nameDef] became accustomed to a strict routine and frequent discipline."
+slot = "Childhood"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)
+requiredWorkTags = SubResource(3)
+workDisables = SubResource(4)
+forcedTraits = SubResource(5)

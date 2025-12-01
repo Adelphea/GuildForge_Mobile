@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MedicineUltratech.tres")"
+label = "glitterworld medicine"
+description = "A kit of advanced ultra-tech medical supplies, probably manufactured on a distant glitterworld. It contains advanced polymorphic drugs, nanite diagnostic and healing assisters, a mini-imager, and various multi-use tools."
+possessionCount = "2"
+graphicData = SubResource(1)
+techLevel = "Ultra"
+statBases = SubResource(2)
+tradeTags = SubResource(3)
+thingSetMakerTags = SubResource(4)
+allowedArchonexusCount = "5"

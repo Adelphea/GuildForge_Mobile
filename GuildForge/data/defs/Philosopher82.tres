@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Philosopher82.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Philosopher82.tres")"
+slot = "Childhood"
+title = "philosopher"
+titleShort = "thinker"
+description = Color([PAWN_nameDef] was a student on a glitterworld. [PAWN_pronoun] had a hard time in school, since the other kids thought [PAWN_objective] rather strange.
+
+[PAWN_pronoun] always maintained a distance from these events, being continuously surprised by the many interesting and awkward ways life can go., 1.0)
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = "Violent"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

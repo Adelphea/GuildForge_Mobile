@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_Duster.tres")"
+description = "A long duster coat for blocking the sun and grit of the outdoors."
+label = "duster"
+possessionCount = "1"
+recipeMaker = SubResource(1)
+graphicData = SubResource(2)
+costStuffCount = "80"
+stuffCategories = SubResource(3)
+thingCategories = SubResource(4)
+statBases = SubResource(5)
+equippedStatOffsets = SubResource(6)
+apparel = SubResource(8)
+colorGenerator = SubResource(13)
+tradeTags = SubResource(20)

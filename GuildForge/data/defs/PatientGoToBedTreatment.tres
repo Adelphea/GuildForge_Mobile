@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PatientGoToBedTreatment.tres")"
+label = "go to bed for treatment"
+giverClass = "WorkGiver_PatientGoToBedTreatment"
+workType = "ExtResource("res://GuildForge/data/defs/Patient.tres")"
+verb = "receive treatment in"
+gerund = "receiving treatment in"
+tagToGive = "RestingForMedicalReasons"

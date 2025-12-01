@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_BowlerHat.tres")"
+label = "bowler hat"
+description = "A good-looking hat which projects a slightly urban, money-loving style. Improves social impact."
+possessionCount = "1"
+graphicData = SubResource(1)
+costStuffCount = "20"
+uiIconScale = "1.25"
+statBases = SubResource(2)
+equippedStatOffsets = SubResource(3)
+apparel = SubResource(5)
+tradeTags = SubResource(6)

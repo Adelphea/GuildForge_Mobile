@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HackerProdigy84.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/HackerProdigy84.tres")"
+slot = "Childhood"
+title = "hacker prodigy"
+titleShort = "hacker"
+description = "[PAWN_nameDef] was raised as the only child of wealthy surgeons. After being pressured into accepting a medical apprenticeship, [PAWN_pronoun] snapped. [PAWN_pronoun] seized [PAWN_possessive] inheritance and went underground to learn how to exploit computer networks. [PAWN_pronoun] quickly became one of the most feared hackers on [PAWN_possessive] home planet."
+skillGains = SubResource(1)
+workDisables = "ManualDumb, Cooking"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

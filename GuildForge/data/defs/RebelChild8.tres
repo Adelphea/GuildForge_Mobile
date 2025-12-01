@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RebelChild8.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/RebelChild8.tres")"
+slot = "Childhood"
+title = "rebel child"
+titleShort = "rebel"
+description = "[PAWN_nameDef] was born under authoritarian rule. Despite intense oppression from family and community, [PAWN_pronoun] never gave up fighting for [PAWN_possessive] dignity and [PAWN_possessive] freedom.
+
+[PAWN_pronoun] was often put into hopeless situations where even family would try to terrorize [PAWN_objective] into propriety. [PAWN_pronoun] learned to trust no one."
+skillGains = SubResource(1)
+workDisables = "Caring"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+thingClass = "ThingWithComps"
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+rotatable = "false"
+fillPercent = "0.5"
+statBases = SubResource(2)
+pathCost = "42"
+blockWind = "true"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+passability = "PassThroughOnly"
+receivesSignals = "true"
+building = SubResource(3)
+comps = Array[SubResource(4), SubResource(5), SubResource(7), SubResource(8), SubResource(9)]
+placeWorkers = SubResource(10)
+drawPlaceWorkersWhileSelected = "true"

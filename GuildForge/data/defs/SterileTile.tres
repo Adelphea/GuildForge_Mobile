@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SterileTile.tres")"
+label = "sterile tile"
+renderPrecedence = "243"
+description = "Sterile tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build, but quick to clean."
+texturePath = "Terrain/Surfaces/GenericFloorTile"
+color = Vector3(0.71, 0.71, 0.71)
+pollutionTintColor = Color((0.95, 0.95, 0.93, 1))
+isPaintable = "true"
+statBases = SubResource(1)
+costList = SubResource(2)
+constructEffect = "ExtResource("res://GuildForge/data/defs/ConstructMetal.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc4.tres")"
+constructionSkillPrerequisite = "6"
+researchPrerequisites = SubResource(3)
+uiOrder = "2050"

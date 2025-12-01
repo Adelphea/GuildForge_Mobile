@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CleanFilth.tres")"
+label = "clean filth"
+giverClass = "WorkGiver_CleanFilth"
+workType = "ExtResource("res://GuildForge/data/defs/Cleaning.tres")"
+verb = "clean"
+gerund = "cleaning"
+priorityInType = "5"
+requiredCapacities = SubResource(1)

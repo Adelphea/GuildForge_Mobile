@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/NavyScientist52.tres")"
+title = "navy scientist"
+titleShort = "scientist"
+description = Color(Interstellar warfare is won by technology, so glitterworld navies are always at the peak of modern research. Even better, they occasionally find archotechnological artifacts floating in space.\n\n[PAWN_nameDef] worked in a navy lab., 1.0)
+slot = "Adulthood"
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+requiredWorkTags = SubResource(3)
+possessions = SubResource(4)

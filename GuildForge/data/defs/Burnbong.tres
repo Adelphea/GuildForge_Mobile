@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Burnbong.tres")"
+label = "burnbong"
+description = "A wood structure packed with smokeleaf. It can be ignited during a ritual and produce a huge amount of smokeleaf smoke for a few hours, after which it is destroyed."
+drawerType = "RealtimeOnly"
+graphicData = SubResource(1)
+size = Vector2(1, 1)
+costList = SubResource(3)
+killedLeavings = SubResource(4)
+leaveResourcesWhenKilled = "false"
+statBases = SubResource(5)
+comps = Array[SubResource(6), SubResource(7), SubResource(8)]

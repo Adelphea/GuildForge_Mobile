@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TradeRequest.tres")"
+rootSelectionWeight = "1.1"
+rootMinProgressScore = "8"
+defaultChallengeRating = "1"
+expireDaysRange = "4~8"
+everAcceptableInSpace = "true"
+questNameRules = SubResource(1)
+questDescriptionRules = SubResource(3)
+root = SubResource(5)

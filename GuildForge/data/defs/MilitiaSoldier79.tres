@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MilitiaSoldier79.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/MilitiaSoldier79.tres")"
+slot = "Adulthood"
+title = "militia soldier"
+titleShort = "soldier"
+description = Color([PAWN_nameDef] joined the militia forces and fought for rights and peace.\n\nAfter [PAWN_possessive] homeworld was unexpectedly destroyed in the wars, [PAWN_pronoun] traveled great distances, seeking a refuge where [PAWN_pronoun] could build a new, free way of life.)
+skillGains = SubResource(1)
+workDisables = "Cooking, Cleaning"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+shuffleable = "False"

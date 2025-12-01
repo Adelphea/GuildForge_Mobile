@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CoreworldJeweler19.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/CoreworldJeweler19.tres")"
+slot = "Adulthood"
+title = "coreworld jeweler"
+titleShort = "jeweler"
+description = Color(After [PAWN_nameDef] had completed all of [PAWN_possessive] surgeries, [PAWN_pronoun] found that [PAWN_pronoun] had a lot of time and energy to dedicate to [PAWN_possessive] passion: trinket crafting. [PAWN_pronoun] spent years perfecting [PAWN_possessive] art as a jeweler, then left [PAWN_possessive] home world to sell [PAWN_possessive] wares across the galaxy., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+shuffleable = "False"

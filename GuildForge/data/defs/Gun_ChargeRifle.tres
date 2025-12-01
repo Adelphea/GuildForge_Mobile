@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_ChargeRifle.tres")"
+label = "charge rifle"
+description = "A charged-shot assault rifle. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done."
+techLevel = "Spacer"
+graphicData = SubResource(1)
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_ChargeRifle.tres")"
+statBases = SubResource(2)
+recipeMaker = SubResource(3)
+costList = SubResource(6)
+thingSetMakerTags = SubResource(7)
+weaponTags = SubResource(8)
+tradeTags = SubResource(9)
+weaponClasses = SubResource(10)
+verbs = SubResource(11)
+tools = SubResource(13)

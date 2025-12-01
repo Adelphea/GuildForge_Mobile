@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Siege.tres")"
+workerClass = "RaidStrategyWorker_Siege"
+minPawns = "4"
+raidLootValueFactor = "0"
+arriveModes = SubResource(1)
+pointsFactorCurve = SubResource(2)
+selectionWeightPerPointsCurve = SubResource(4)
+letterLabelEnemy = "ExtResource("res://GuildForge/data/defs/Siege.tres")"
+arrivalTextEnemy = "It looks like they want to besiege the colony and pound you with mortars from a distance. You can try to wait them out - or go get them."
+letterLabelFriendly = "Friendlies"
+arrivalTextFriendly = "It looks like they want to use siege tactics to help you."
+layerWhitelist = SubResource(6)

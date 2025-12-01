@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ScenPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ScenPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/StartingThing_Defined.tres")"
+label = "start with"
+scenPartClass = "ScenPart_StartingThing_Defined"
+category = "StartingItem"
+selectionWeight = "1.0"
+summaryPriority = "300"

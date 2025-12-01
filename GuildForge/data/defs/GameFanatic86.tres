@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GameFanatic86.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/GameFanatic86.tres")"
+slot = "Childhood"
+title = "game fanatic"
+titleShort = "gamer"
+description = Color([PAWN_nameDef] was a fanatical gamer who learned to survive in virtual reality games.
+
+Once, while attempting to prove [PAWN_possessive] skills in the real world, [PAWN_pronoun] was abducted by a criminal scientist and experimented on. [PAWN_pronoun] escaped, but the experience stayed with him.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

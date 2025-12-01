@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/JoyGainFactor.tres")"
+label = "recreation power"
+description = "How effectively this item entertains people and fulfills the need for recreation."
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+defaultBaseValue = "1"
+minValue = "0.3"
+toStringStyle = "PercentZero"
+showIfUndefined = "false"
+parts = SubResource(1)
+displayPriorityInCategory = "4010"

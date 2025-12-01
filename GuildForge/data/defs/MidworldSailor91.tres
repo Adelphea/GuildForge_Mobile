@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MidworldSailor91.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/MidworldSailor91.tres")"
+slot = "Adulthood"
+title = "midworld sailor"
+titleShort = "sailor"
+description = Color([PAWN_nameDef] joined [PAWN_possessive] country's Royal Navy. After years as a non-commissioned officer, [PAWN_pronoun] eventually cracked and used the skills [PAWN_pronoun] had acquired to start a mutiny on [PAWN_possessive] ship.\n\nIn the end, [PAWN_nameDef] was the leader of a large group of trained and dangerous pirates. [PAWN_pronoun] henceforth always had chefs to cook for him., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Cooking.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Unity_Family.tres")"
+label = "unity family"
+description = "The community is a family of hard-working, like-minded people. Putting yourself first is not acceptable."
+categoryDef = "ExtResource("res://GuildForge/data/defs/Mild.tres")"
+memes = SubResource(1)

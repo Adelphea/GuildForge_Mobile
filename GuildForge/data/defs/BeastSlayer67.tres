@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BeastSlayer67.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/BeastSlayer67.tres")"
+slot = "Adulthood"
+title = "beast slayer"
+titleShort = "slayer"
+description = "[PAWN_nameDef] traveled between planets, following news of animal attacks. [PAWN_pronoun] would camp on the planet for weeks, learning about [PAWN_possessive] prey before striking. [PAWN_pronoun] most enjoyed hunting thrumbos.\n\nPreferring to work alone, [PAWN_nameDef] enjoyed the thrill of the hunt, and the meat from the kill."
+skillGains = SubResource(1)
+workDisables = "Caring"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

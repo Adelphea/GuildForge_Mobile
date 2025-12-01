@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BeardDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BeardDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Stubble.tres")"
+label = "stubble"
+texPath = "Things/Pawn/Humanlike/Beards/BeardStubble"
+styleGender = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+offsetNarrowSouth = Vector3(0, 0, 0.02)
+category = "ExtResource("res://GuildForge/data/defs/Minimal.tres")"
+styleTags = SubResource(1)

@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BrothelGofer84.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/BrothelGofer84.tres")"
+slot = "Childhood"
+title = "brothel gofer"
+titleShort = "gofer"
+description = "Born on a steam-powered midworld wracked by a century of economic crises, [PAWN_nameDef] went to work at a young age. Scrounging, shoe-polishing, sewing - [PAWN_pronoun] did it all. But [PAWN_pronoun] was most known as a brothel gofer, delivering all manner of aphrodisiacs and chemicals to the girls' rooms."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

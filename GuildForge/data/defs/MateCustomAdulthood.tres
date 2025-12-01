@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MateCustomAdulthood.tres")"
+title = "busker"
+titleShort = "busker"
+description = Color(After being laid off by an interplanetary megacorp, [PAWN_nameDef] spent several years disillusioned and fighting alcohol addiction.\n\n[PAWN_pronoun] ended up busking aboard a space freighter, playing a beaten-up guitar and entertaining the crew with blues and folk songs from the distant past., 1.0)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+forcedTraits = SubResource(3)
+possessions = SubResource(4)

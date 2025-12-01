@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ThreatReward_Raid_Joiner.tres")"
+rootSelectionWeight = "0.6"
+rootMinPoints = "0"
+expireDaysRange = "0.3"
+rootIncreasesPopulation = "true"
+defaultCharity = "true"
+successHistoryEvent = SubResource(1)
+failedOrExpiredHistoryEvent = SubResource(2)
+questNameRules = SubResource(3)
+questDescriptionRules = SubResource(5)
+root = SubResource(7)

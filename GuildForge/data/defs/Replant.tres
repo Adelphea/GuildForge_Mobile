@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Replant.tres")"
+label = "replant tree"
+giverClass = "WorkGiver_Replant"
+workType = "ExtResource("res://GuildForge/data/defs/Growing.tres")"
+priorityInType = "60"
+verb = "replant"
+gerund = "replanting"
+requiredCapacities = SubResource(1)
+nonColonistsCanDo = "true"
+canBeDoneByMechs = "false"

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TakePrisonerToBed.tres")"
+label = "take prisoners to bed"
+giverClass = "WorkGiver_Warden_TakeToBed"
+workType = "ExtResource("res://GuildForge/data/defs/Warden.tres")"
+verb = "take to bed"
+gerund = "taking to bed"
+priorityInType = "90"
+requiredCapacities = SubResource(1)

@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientSpacerCrate.tres")"
+label = "ancient spacer crate"
+description = "An ancient, broken crate. Any valuables it once contained were taken long ago."
+noRightClickDraftAttack = "true"
+graphicData = SubResource(1)
+rotatable = "false"
+size = Vector2(1, 1)
+fillPercent = "0.30"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(3)
+passability = "PassThroughOnly"
+pathCost = "50"
+building = SubResource(4)

@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MercenaryRecruit36.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MercenaryRecruit36.tres")"
+slot = "Childhood"
+title = "mercenary recruit"
+titleShort = "mercenary"
+description = "Descended from a long line of mercenaries, [PAWN_nameDef] grew up in a busy trading hub.
+
+[PAWN_possessive] interest in the foreign goods at the market often distracted [PAWN_objective] from [PAWN_possessive] chores and training."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

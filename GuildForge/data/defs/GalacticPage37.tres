@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GalacticPage37.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/GalacticPage37.tres")"
+slot = "Childhood"
+title = "galactic page"
+titleShort = "page"
+description = Color([PAWN_nameDef] served the high admiral of a space fleet. [PAWN_pronoun] learned the ways of court, including etiquette and speechcraft.
+
+In [PAWN_possessive] feudal society, it was considered a great honor to serve a man of such prestige., 1.0)
+skillGains = SubResource(1)
+workDisables = "ManualDumb, ManualSkilled"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

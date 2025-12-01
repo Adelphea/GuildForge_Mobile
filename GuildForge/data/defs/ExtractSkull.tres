@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ExtractSkull.tres")"
+label = "extract skull"
+giverClass = "WorkGiver_ExtractSkull"
+workType = "ExtResource("res://GuildForge/data/defs/BasicWorker.tres")"
+verb = "extract"
+gerund = "extracting skull of"
+priorityInType = "20"
+requiredCapacities = SubResource(1)
+canBeDoneByMechs = "false"

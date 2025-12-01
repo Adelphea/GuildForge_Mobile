@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TournamentFighter28.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/TournamentFighter28.tres")"
+slot = "Adulthood"
+title = "tournament fighter"
+titleShort = "fighter"
+description = "Motivated by the violence in [PAWN_possessive] environment, [PAWN_nameDef] studied martial arts, eventually signing up for an unarmed fighting tournament.\n\nUnlike [PAWN_possessive] opponents, [PAWN_nameDef] looked to the ancient warriors for guidance. [PAWN_pronoun] trained from dusk till dawn, perfecting [PAWN_possessive] skills."
+skillGains = SubResource(1)
+workDisables = "ManualSkilled"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+shuffleable = "False"

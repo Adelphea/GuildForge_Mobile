@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualAttachableOutcomeEffectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualAttachableOutcomeEffectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InsectJellyTunnels.tres")"
+workerClass = "RitualAttachableOutcomeEffectWorker_InsectJellyTunnels"
+label = "insect jelly"
+effectDesc = "insect jelly deposits will be deposited from underground."
+letterInfoText = "A giant insect colony underground has deposited some insect jelly."
+requiredMemeAny = SubResource(1)
+requiredFaction = "ExtResource("res://GuildForge/data/defs/Insect.tres")"

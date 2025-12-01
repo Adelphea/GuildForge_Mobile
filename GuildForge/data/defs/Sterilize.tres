@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Sterilize.tres")"
+label = "sterilize"
+description = "Sterilize a creature so it can no longer reproduce."
+workerClass = "Recipe_AddHediff"
+jobString = "sterilizing TargetA."
+workAmount = "500"
+hideBodyPartNames = "true"
+isViolation = "true"
+targetsBodyPart = "false"
+addsHediff = "ExtResource("res://GuildForge/data/defs/Sterilized.tres")"
+successfullyRemovedHediffMessage = "{0} has successfully sterilized {1}."
+surgeryIgnoreEnvironment = "true"
+skillRequirements = SubResource(1)

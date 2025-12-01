@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Streamer52.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/Streamer52.tres")"
+slot = "Adulthood"
+title = "Streamer"
+titleShort = "Streamer"
+description = Color([PAWN_nameDef] worked as a videogame streamer, and was known for [PAWN_possessive] monkey-related impressions and jokes.\n\nA pandemic forced [PAWN_objective] to go into cryptosleep for several years. During [PAWN_possessive] sleep, [PAWN_pronoun] was launched on an interstellar diplomatic mission. Nothing was heard of [PAWN_objective] ever again., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

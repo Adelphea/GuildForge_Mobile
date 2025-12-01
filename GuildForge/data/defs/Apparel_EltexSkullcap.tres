@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_EltexSkullcap.tres")"
+label = "eltex skullcap"
+description = "A tight skullcap designed for psychic focusing. It provides no physical protection, but its special materials enhance the wearer's psychic sensitivity and dissipate neural heat."
+thingCategories = SubResource(1)
+graphicData = SubResource(2)
+statBases = SubResource(3)
+equippedStatOffsets = SubResource(4)
+apparel = SubResource(5)
+colorGenerator = SubResource(9)

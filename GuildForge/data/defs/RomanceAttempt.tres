@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InteractionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InteractionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RomanceAttempt.tres")"
+label = "romance attempt"
+workerClass = "InteractionWorker_RomanceAttempt"
+symbol = "Things/Mote/SpeechSymbols/Romance"
+logRulesInitiator = SubResource(1)

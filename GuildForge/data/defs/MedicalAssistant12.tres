@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MedicalAssistant12.tres")"
+title = "medical assistant"
+titleShort = "medic"
+description = "[PAWN_nameDef] was born during a catastrophic war in which both sides used incendiary weapons. [PAWN_pronoun] grew up helping [PAWN_possessive] parents in an infirmary, treating the cascade of horrific burns from the battlefields. [PAWN_pronoun] was left with a lifelong fear of fire."
+slot = "Childhood"
+workDisables = SubResource(1)
+skillGains = SubResource(2)
+spawnCategories = SubResource(3)
+disallowedTraits = SubResource(4)

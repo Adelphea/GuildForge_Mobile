@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BoyScout42.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/BoyScout42.tres")"
+slot = "Childhood"
+title = "boy scout"
+titleShort = "scout"
+description = "[PAWN_nameDef] was in a boy scout troop on a midworld.
+
+[PAWN_pronoun] learned many survival skills including how to thrive in the outdoors and how to tend to basic wounds."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

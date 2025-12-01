@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PlagueChild44.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/PlagueChild44.tres")"
+slot = "Childhood"
+title = "plague child"
+titleShort = "child"
+description = Color(Born on a world wracked by plague, both of [PAWN_nameDef]'s parents were doctors. 
+
+[PAWN_nameDef] was raised in reverse-quarantine, under the Hippocratic oath. [PAWN_pronoun] experienced little social interaction. However, [PAWN_pronoun] gained a lot of medical experience assisting in treatments.)
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = Color(Violent, Animals, Artistic, Cooking)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

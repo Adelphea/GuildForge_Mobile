@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Ranching_Central_AnimalMassPerCapita.tres")"
+workerClass = "ThoughtWorker_Precept_AnimalBodySizePerCapita"
+minExpectationForNegativeThought = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+doNotApplyToQuestLodgers = "true"
+stages = SubResource(1)

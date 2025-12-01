@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SimpleProstheticLeg.tres")"
+label = "prosthetic leg"
+labelNoun = "a prosthetic leg"
+description = Color(An installed prosthetic leg. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg., 1.0)
+descriptionHyperlinks = SubResource(1)
+spawnThingOnRemoved = "ExtResource("res://GuildForge/data/defs/SimpleProstheticLeg.tres")"
+addedPartProps = SubResource(2)

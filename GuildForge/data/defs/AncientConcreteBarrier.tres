@@ -1,0 +1,25 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientConcreteBarrier.tres")"
+label = "ancient concrete barrier"
+thingClass = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+description = "A traffic management solution from long ago."
+noRightClickDraftAttack = "true"
+graphicData = SubResource(1)
+castEdgeShadows = "true"
+staticSunShadowHeight = "0.2"
+startingHpRange = "0.5~1.3"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+pathCost = "42"
+pathCostIgnoreRepeat = "true"
+passability = "PassThroughOnly"
+fillPercent = "0.5"
+canOverlapZones = "false"
+statBases = SubResource(2)
+building = SubResource(3)
+costList = SubResource(4)
+filthLeaving = "ExtResource("res://GuildForge/data/defs/Filth_RubbleBuilding.tres")"
+repairEffect = "ExtResource("res://GuildForge/data/defs/ConstructDirt.tres")"

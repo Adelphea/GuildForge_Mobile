@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OpenMainTabWork.tres")"
+text = "You can control which colonist does what kind of work.\n\nOpen the WORK tab at the bottom of the screen."
+eventTagInitiate = "InstructionDeactivated-ChopTrees"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+eventTagsEnd = SubResource(3)
+rejectInputMessage = "Please open the 'Work' tab."

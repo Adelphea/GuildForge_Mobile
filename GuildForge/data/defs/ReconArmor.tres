@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ReconArmor.tres")"
+label = "recon armor"
+description = "Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components."
+baseCost = "6000"
+techLevel = "Spacer"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+requiredResearchBuilding = "ExtResource("res://GuildForge/data/defs/HiTechResearchBench.tres")"
+requiredResearchFacilities = SubResource(3)
+researchViewX = "17.00"
+researchViewY = "1.10"
+generalRules = SubResource(4)

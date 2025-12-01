@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Flu.tres")"
+label = "flu"
+description = "An infectious disease caused by the influenza virus."
+makesSickThought = "true"
+lethalSeverity = "1"
+tendable = "true"
+comps = Array[SubResource(1), SubResource(2)]
+stages = SubResource(3)

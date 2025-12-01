@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Pampered87.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Pampered87.tres")"
+slot = "Childhood"
+title = "pampered"
+titleShort = "pampered"
+description = Color(Born on a decadent glitterworld, [PAWN_nameDef] was given every expensive toy.
+
+This pampered lifestyle caused [PAWN_objective] to miss many basic life lessons. [PAWN_pronoun] developed a special aversion to cooking, and always ordered the staff to do the kitchen work., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Cooking.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

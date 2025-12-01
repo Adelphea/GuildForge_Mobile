@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_TreeWillow.tres")"
+label = "willow tree"
+description = Color(One of the fastest growing shade trees, willows provide a beautiful, leafy canopy. It doesn't yield much usable wood., 1.0)
+graphicData = SubResource(1)
+statBases = SubResource(4)
+plant = SubResource(5)

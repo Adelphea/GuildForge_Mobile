@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PsychicInvisibility.tres")"
+label = "psychic invisibility"
+hediffClass = "HediffWithComps"
+description = Color(Psychically-induced invisibility. This actually affects others nearby, making their brains unable to perceive the sight of this individual, even if the eyes are unaffected., 1.0)
+isBad = "false"
+comps = Array[SubResource(1), SubResource(2), SubResource(3)]

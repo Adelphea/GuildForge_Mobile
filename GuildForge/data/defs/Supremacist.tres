@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Supremacist.tres")"
+label = "supremacist"
+description = "Our people should dominate all others."
+iconPath = "UI/Memes/Supremacist"
+groupDef = "ExtResource("res://GuildForge/data/defs/GroupRelation.tres")"
+impact = "1"
+consumableBuildings = SubResource(1)
+exclusionTags = SubResource(2)
+requireOne = SubResource(3)
+generalRules = SubResource(6)
+descriptionMaker = SubResource(8)
+symbolPacks = SubResource(11)

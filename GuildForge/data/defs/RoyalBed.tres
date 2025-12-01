@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RoyalBed.tres")"
+label = "royal bed"
+description = "A luxurious gold-inlaid bed fit for the highborn. Very comfy and beautiful, it is a work of art in itself. Fits two."
+graphicData = SubResource(1)
+thingSetMakerTags = SubResource(3)
+statBases = SubResource(4)
+size = Vector2(2, 2)
+costStuffCount = "100"
+costList = SubResource(5)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+leaveResourcesWhenKilled = "True"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc4.tres")"
+constructionSkillPrerequisite = "8"
+building = SubResource(6)

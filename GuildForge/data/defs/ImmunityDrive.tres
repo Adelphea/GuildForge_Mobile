@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ImmunityDrive.tres")"
+label = "immunity drive"
+description = "This person has received moral support of an ideoligious nature. Their mental certainty has energized their body and boosted their immune system."
+hediffClass = "HediffWithComps"
+stages = SubResource(1)
+comps = Array[SubResource(4)]
+isBad = "false"

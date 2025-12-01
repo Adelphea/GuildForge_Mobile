@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+thingClass = "ThingWithComps"
+resourceReadoutPriority = "ExtResource("res://GuildForge/data/defs/Middle.tres")"
+useHitPoints = "true"
+statBases = SubResource(1)
+techLevel = "Ultra"
+tradeTags = SubResource(2)

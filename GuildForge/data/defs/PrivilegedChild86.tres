@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PrivilegedChild86.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/PrivilegedChild86.tres")"
+slot = "Childhood"
+title = "privileged child"
+titleShort = "privileged"
+description = "Born to an upper-class family, [PAWN_nameDef] grew up with all the best things - the best education, the best social contacts, and of course the best technology money could buy.
+
+Unfortunately, living in such decadence left [PAWN_nameDef] rather spoiled when it came to labor."
+skillGains = SubResource(1)
+workDisables = "ManualDumb"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

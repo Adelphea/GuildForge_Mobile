@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InjuryHealingFactor.tres")"
+label = "injury healing factor"
+description = "The multiplier applied to a person's injury healing rate."
+category = "ExtResource("res://GuildForge/data/defs/PawnHealth.tres")"
+defaultBaseValue = "1.0"
+toStringStyle = "PercentZero"
+minValue = "0"
+displayPriorityInCategory = "2201"
+hideAtValue = "1"
+parts = SubResource(1)

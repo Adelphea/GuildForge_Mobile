@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Undertaker93.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/Undertaker93.tres")"
+slot = "Adulthood"
+title = "undertaker"
+titleShort = "undertaker"
+description = Color([PAWN_nameDef] roamed, offering grief assistance to those who've had a recent loss. While [PAWN_pronoun] never shied away from physical confrontation, [PAWN_pronoun] prefers to confront tough situations with a calm word., 1.0)
+skillGains = SubResource(1)
+workDisables = "Violent"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

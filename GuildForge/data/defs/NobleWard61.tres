@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/NobleWard61.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/NobleWard61.tres")"
+slot = "Childhood"
+title = "noble ward"
+titleShort = "ward"
+description = Color([PAWN_nameDef] was adopted by a prominent noble family after being left on their doorstep by [PAWN_possessive] mother.
+
+[PAWN_pronoun] quickly learned secrets that passed between the nobles like cheap wine - of worlds beyond [PAWN_possessive] own, languages, cultures and technologies both new and old., 1.0)
+skillGains = SubResource(1)
+workDisables = Color(ManualDumb, Firefighting, PlantWork, Mining)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

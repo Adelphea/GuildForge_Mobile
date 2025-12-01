@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RebelSlave14.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/RebelSlave14.tres")"
+slot = "Childhood"
+title = "rebel slave"
+titleShort = "rebel"
+description = "[PAWN_nameDef] was born into corporate slavery and raised to perform menial tasks for minimum pay. [PAWN_pronoun] was just another cog in the machine. 
+
+[PAWN_nameDef] found [PAWN_possessive] freedom by joining a rebel organization whose goal was to break free from their corporate masters."
+skillGains = SubResource(1)
+workDisables = "Artistic, Mining"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

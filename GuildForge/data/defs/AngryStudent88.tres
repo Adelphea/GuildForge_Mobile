@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AngryStudent88.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/AngryStudent88.tres")"
+slot = "Childhood"
+title = "angry student"
+titleShort = "student"
+description = "[PAWN_nameDef] trained towards [PAWN_possessive] dream of working for [PAWN_possessive] hometown's local council.
+
+For reasons [PAWN_pronoun] never quite understood, [PAWN_pronoun] was bullied relentlessly by [PAWN_possessive] classmates. [PAWN_pronoun] chose to repress [PAWN_possessive] rage."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

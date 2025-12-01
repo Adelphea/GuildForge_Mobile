@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Disease_Abasia.tres")"
+label = "paralytic abasia"
+diseaseIncident = "ExtResource("res://GuildForge/data/defs/Abasia.tres")"
+letterLabel = "Disease: Paralytic abasia"
+diseaseVictimFractionRange = "0~0.25"
+minThreatPoints = "300"
+minPopulation = "4"

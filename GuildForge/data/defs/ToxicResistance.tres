@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ToxicResistance.tres")"
+label = "toxic resistance"
+description = "How well this creature resists toxic buildup."
+category = "ExtResource("res://GuildForge/data/defs/PawnResistances.tres")"
+defaultBaseValue = "0"
+hideAtValue = "0"
+maxValue = "1"
+toStringStyle = "PercentZero"
+displayPriorityInCategory = "3451"

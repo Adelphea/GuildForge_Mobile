@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/IdeoRitualSeat.tres")"
+label = "ritual seat"
+description = "A building of ideoligious significance. Believers sit or kneel on this while watching rituals."
+issue = "ExtResource("res://GuildForge/data/defs/IdeoRitualSeat.tres")"
+workerClass = "PreceptWorker_RitualSeat"
+preceptClass = "Precept_RitualSeat"
+nameMaker = "ExtResource("res://GuildForge/data/defs/NamerIdeoBuilding.tres")"
+impact = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+buildingDefChances = SubResource(1)
+allowDuplicates = "false"
+countsTowardsPreceptLimit = "false"
+canRemoveInUI = "false"
+defaultSelectionWeight = "1"

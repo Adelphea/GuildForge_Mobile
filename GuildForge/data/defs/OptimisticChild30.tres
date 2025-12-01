@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OptimisticChild30.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/OptimisticChild30.tres")"
+slot = "Childhood"
+title = "optimistic child"
+titleShort = "optimistic"
+description = "[PAWN_nameDef] was blessed with loving parents and a pleasant midworld life. [PAWN_pronoun] was an  optimistic and sociable kid who loved making friends and listening to their stories. [PAWN_possessive] imagination would run wild with ideas and questions."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

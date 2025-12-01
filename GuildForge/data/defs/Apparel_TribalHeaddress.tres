@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_TribalHeaddress.tres")"
+label = "tribal headdress"
+description = "Elegant traditional garb, often with religious significance. Improves social impact."
+recipeMaker = SubResource(1)
+graphicData = SubResource(5)
+uiIconScale = "1.15"
+stuffCategories = SubResource(6)
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+costStuffCount = "50"
+statBases = SubResource(7)
+equippedStatOffsets = SubResource(8)
+apparel = SubResource(10)
+tradeTags = SubResource(15)

@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_EmpLauncher.tres")"
+label = "EMP launcher"
+description = Color(A wide-barreled EMP shell launcher. The shell will upon impact release a burst of electromagnetic energy, stunning mechanical targets (mechanoids, turrets, mortars) and depleting shields in the area of effect.)
+graphicData = SubResource(1)
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_Rifle.tres")"
+generateCommonality = "0.3"
+weaponClasses = SubResource(2)
+weaponTags = SubResource(3)
+statBases = SubResource(4)
+costList = SubResource(5)
+recipeMaker = SubResource(6)
+verbs = SubResource(8)
+tools = SubResource(11)

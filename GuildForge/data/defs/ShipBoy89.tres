@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShipBoy89.tres")"
+title = "ship boy"
+titleFemale = "ship girl"
+titleShort = "ship boy"
+titleShortFemale = "ship girl"
+description = Color([PAWN_nameDef] was born to low-ranked servants on an ancient starship. The ship's machine persona was like a third parent to [PAWN_objective], and the parts crafting crew [PAWN_pronoun] worked for was like a second family.
+\n[PAWN_nameDef] rarely saw plants or animals, and still finds them unnerving to touch., 1.0)
+slot = "Childhood"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)
+workDisables = SubResource(3)

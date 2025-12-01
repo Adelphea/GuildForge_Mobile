@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/EndTable.tres")"
+label = "end table"
+description = "A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect."
+surfaceType = "Item"
+uiOrder = "2060"
+graphicData = SubResource(1)
+statBases = SubResource(3)
+pathCost = "30"
+defaultPlacingRot = "South"
+costStuffCount = "30"
+placeWorkers = SubResource(4)
+researchPrerequisites = SubResource(5)
+comps = Array[SubResource(6)]
+staticSunShadowHeight = "0"
+castEdgeShadows = "false"

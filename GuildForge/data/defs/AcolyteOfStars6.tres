@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AcolyteOfStars6.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/AcolyteOfStars6.tres")"
+slot = "Adulthood"
+title = "acolyte of stars"
+titleShort = "priest"
+description = Color(Ever the dreamer, [PAWN_nameDef] traveled across the universe to find the thing [PAWN_pronoun] felt was calling to him.\n\n[PAWN_pronoun] became poorer and poorer, but used every means possible to carry on., 1.0)
+skillGains = SubResource(1)
+workDisables = "ManualDumb, Violent"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

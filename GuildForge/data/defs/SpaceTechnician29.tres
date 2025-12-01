@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpaceTechnician29.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/SpaceTechnician29.tres")"
+slot = "Adulthood"
+title = "space technician"
+titleShort = "technician"
+description = "[PAWN_nameDef] finally managed to flee [PAWN_possessive] criminal life by getting a maintenance job on a nearby space station. [PAWN_pronoun] performed multiple repairing and building operations. [PAWN_pronoun] also used to participate in basic research activities and often defused co-workers' arguments. [PAWN_pronoun] never liked doing art."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

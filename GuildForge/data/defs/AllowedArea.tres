@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnColumnDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnColumnDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AllowedArea.tres")"
+label = "allowed area"
+workerClass = "PawnColumnWorker_AllowedArea"
+sortable = "true"

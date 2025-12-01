@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_Nutrifungus.tres")"
+label = "nutrifungus"
+description = Color(A meaty bioengineered mushroom grown for its nutritious value. It can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it.)
+statBases = SubResource(1)
+graphicData = SubResource(2)
+selectable = "true"
+pathCost = "14"
+ingestible = None
+plant = SubResource(4)

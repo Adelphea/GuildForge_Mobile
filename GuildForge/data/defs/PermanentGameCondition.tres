@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ScenPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ScenPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PermanentGameCondition.tres")"
+label = "permanent game condition"
+scenPartClass = "ScenPart_PermaGameCondition"
+category = "GameCondition"
+selectionWeight = "1.0"
+summaryPriority = "350"

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Raccoon.tres")"
+label = "raccoon"
+race = "ExtResource("res://GuildForge/data/defs/Raccoon.tres")"
+combatPower = "35"
+ecoSystemWeight = "0.30"
+lifeStages = SubResource(1)

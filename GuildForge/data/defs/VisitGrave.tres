@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_JoyGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_JoyGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/VisitGrave.tres")"
+giverClass = "JoyGiver_VisitGrave"
+baseChance = "1"
+jobDef = "ExtResource("res://GuildForge/data/defs/VisitGrave.tres")"
+joyKind = "ExtResource("res://GuildForge/data/defs/Meditative.tres")"

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ScenPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ScenPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ForcedHediff.tres")"
+label = "forced health condition"
+scenPartClass = "ScenPart_ForcedHediff"
+category = "PlayerPawnModifier"
+selectionWeight = "1.0"
+summaryPriority = "459"

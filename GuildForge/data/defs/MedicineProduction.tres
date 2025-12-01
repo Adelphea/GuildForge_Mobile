@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MedicineProduction.tres")"
+label = "medicine production"
+description = Color(Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth., 1.0)
+baseCost = "1500"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+requiredResearchBuilding = "ExtResource("res://GuildForge/data/defs/HiTechResearchBench.tres")"
+researchViewX = "11.00"
+researchViewY = "0.00"
+generalRules = SubResource(2)

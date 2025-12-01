@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpaceMarineMedic10.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/SpaceMarineMedic10.tres")"
+slot = "Adulthood"
+title = "space marine medic"
+titleShort = "medic"
+description = "[PAWN_nameDef] joined a colony contact expeditionary force as a medic. The mission turned bad when the colonists turned out to be suffering from a zombifying disease. [PAWN_pronoun] ran and fought for days.\n\nCornered with wounded men, [PAWN_pronoun] sprayed enough ammunition to wear out four machine gun barrels, and learned the value of high-volume fire. But [PAWN_possessive] nickname, Noob, stuck from that day forward."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+forcedTraits = SubResource(3)
+possessions = SubResource(4)
+shuffleable = "False"

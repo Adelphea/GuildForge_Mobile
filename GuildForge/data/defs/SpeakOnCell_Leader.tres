@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_DutyDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_DutyDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpeakOnCell_Leader.tres")"
+hook = "HighPriority"
+socialModeMax = "Off"
+ritualSpectateTarget = "true"
+thinkNode = SubResource(1)

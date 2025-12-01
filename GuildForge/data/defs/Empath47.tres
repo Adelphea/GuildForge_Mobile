@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Empath47.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Empath47.tres")"
+slot = "Childhood"
+title = "empath"
+titleShort = "empath"
+description = "[PAWN_nameDef] was an incredibly empathetic child, so much that [PAWN_pronoun] was totally overwhelmed by simple social interactions. Once, [PAWN_pronoun] stepped on a bug and felt so guilty [PAWN_pronoun] cried for an hour.
+
+[PAWN_nameDef] did try to use a gun one time, but it went very poorly, as the loud noise made [PAWN_objective] flinch uncontrollably."
+skillGains = SubResource(1)
+workDisables = Color(Violent, Social, Animals, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

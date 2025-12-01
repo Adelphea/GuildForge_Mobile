@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InstalledOrgan_Abhorrent.tres")"
+durationDays = "6"
+stages = SubResource(1)

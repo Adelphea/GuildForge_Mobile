@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BurnedStrawMatting.tres")"
+label = "burned straw matting"
+renderPrecedence = "240"
+description = "Straw matting that has been burned in a fire."
+texturePath = "Terrain/Surfaces/BurnedStrawmatting"
+edgeType = "FadeRough"

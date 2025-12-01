@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DefenseLawyer71.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/DefenseLawyer71.tres")"
+slot = "Adulthood"
+title = "defense lawyer"
+titleShort = "lawyer"
+description = "[PAWN_nameDef] found that [PAWN_pronoun] could make more money with a quick word than a blaster. Seeking a job where [PAWN_possessive] silver tongue could be useful, [PAWN_pronoun] turned to the law.\n\n[PAWN_pronoun] often defended the illegal speeder racers [PAWN_pronoun] grew up with."
+skillGains = SubResource(1)
+workDisables = Color(ManualDumb, ManualSkilled, Caring, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

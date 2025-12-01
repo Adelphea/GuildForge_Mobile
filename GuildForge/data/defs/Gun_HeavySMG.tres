@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_HeavySMG.tres")"
+label = "heavy SMG"
+description = Color(A compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well., 1.0)
+graphicData = SubResource(1)
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_SMG.tres")"
+weaponClasses = SubResource(2)
+recipeMaker = SubResource(3)
+thingSetMakerTags = SubResource(5)
+statBases = SubResource(6)
+costList = SubResource(7)
+verbs = SubResource(8)
+weaponTags = SubResource(10)
+tools = SubResource(11)

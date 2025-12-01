@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/JumpRange.tres")"
+label = "Jump range"
+description = "The maximum jump distance."
+category = "ExtResource("res://GuildForge/data/defs/Apparel.tres")"
+minValue = "0"
+toStringStyle = "FloatOne"
+formatString = "{0} c"
+showIfUndefined = "false"
+displayPriorityInCategory = "60"
+parts = SubResource(1)

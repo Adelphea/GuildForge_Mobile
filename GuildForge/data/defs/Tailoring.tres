@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Tailoring.tres")"
+labelShort = "tailor"
+pawnLabel = "ExtResource("res://GuildForge/data/defs/Tailor.tres")"
+gerundLabel = "tailoring"
+description = "Create apparel from raw materials."
+verb = "Tailor at"
+naturalPriority = "450"
+relevantSkills = SubResource(1)
+workTags = SubResource(2)

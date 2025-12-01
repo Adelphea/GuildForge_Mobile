@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DryadCocoon.tres")"
+label = "dryad cocoon"
+thingClass = "ThingWithComps"
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+description = "A sphere of fibrous plant matter. A dryad inside is slowly morphing into a new form. Gauranlen trees grow these spheres to help protect the dryads as they morph."
+drawerType = "MapMeshAndRealTime"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+graphicData = SubResource(1)
+statBases = SubResource(2)
+fillPercent = "0.5"
+selectable = "true"
+building = SubResource(3)
+comps = Array[SubResource(4)]

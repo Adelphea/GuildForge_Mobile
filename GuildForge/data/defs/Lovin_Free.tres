@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Lovin_Free.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Lovin.tres")"
+label = "free"
+description = Color(Physical intimacy is a natural part of life, with any partner, married or not., 1.0)
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "-100"
+classic = "true"
+defaultSelectionWeight = "1"
+associatedMemes = SubResource(1)

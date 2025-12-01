@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientEquipmentBlocks.tres")"
+label = "ancient equipment blocks"
+description = "A collection of ancient equipment blocks of unknown function. Valuable parts are missing, and everything else is degraded to uselessness."
+size = Vector2(4, 2)
+fillPercent = "0.50"
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(3)
+passability = "PassThroughOnly"
+pathCost = "50"
+killedLeavings = SubResource(4)

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/VinhoKing98.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/VinhoKing98.tres")"
+slot = "Adulthood"
+title = "vinho king"
+titleShort = "booze king"
+description = Color(After prohibition came to Aracena VI, [PAWN_nameDef] expanded [PAWN_possessive] underground liquor business until it dominated the market on two continents. They called [PAWN_objective] the Vinho King.\n\nThough [PAWN_pronoun] mostly controlled [PAWN_possessive] competition by masterful political maneuvering, [PAWN_pronoun] was not above the occasional beat-down or stiletto assassination., 1.0)
+skillGains = SubResource(1)
+workDisables = "PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+shuffleable = "False"

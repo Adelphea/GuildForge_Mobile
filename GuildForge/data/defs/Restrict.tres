@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnTableDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnTableDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Restrict.tres")"
+workerClass = "PawnTable_PlayerPawnsTimetable"
+columns = SubResource(1)

@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShootingComa59.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/ShootingComa59.tres")"
+slot = "Childhood"
+title = "shooting coma"
+titleShort = "coma child"
+description = "[PAWN_nameDef] fell into a coma at a young age and spent years dreaming about shooting. When [PAWN_pronoun] awoke, [PAWN_pronoun] was useless at most tasks - but [PAWN_pronoun] could aim pretty well."
+skillGains = SubResource(1)
+workDisables = Color(ManualDumb, ManualSkilled, Intellectual, Artistic)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

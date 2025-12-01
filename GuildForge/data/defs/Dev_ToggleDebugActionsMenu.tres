@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_KeyBindingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_KeyBindingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Dev_ToggleDebugActionsMenu.tres")"
+label = "toggle debug actions menu"
+defaultKeyCodeA = "ExtResource("res://GuildForge/data/defs/Slash.tres")"
+devModeOnly = "true"

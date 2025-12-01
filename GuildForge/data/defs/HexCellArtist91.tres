@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HexCellArtist91.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/HexCellArtist91.tres")"
+slot = "Childhood"
+title = "hex-cell artist"
+titleShort = "artist"
+description = "[PAWN_nameDef] crafted sculptures from spent hex-cells and traded them to a local museum for food.
+
+After [PAWN_possessive] popularity grew, [PAWN_pronoun] was approached by a pirate and abducted. The pirate kept [PAWN_objective] prisoner and forced [PAWN_objective] to create sculptures for sale."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Intellectual.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

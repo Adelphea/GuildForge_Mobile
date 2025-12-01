@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Anesthetize.tres")"
+label = "anesthetize"
+description = "Render a creature unconscious by administering general anesthetic."
+workerClass = "ExtResource("res://GuildForge/data/defs/Recipe_Surgery.tres")"
+jobString = "Anesthetizing."
+workAmount = "0"
+hideBodyPartNames = "true"
+targetsBodyPart = "false"
+surgerySuccessChanceFactor = "2"
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)

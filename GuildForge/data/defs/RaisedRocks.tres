@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RaisedRocks.tres")"
+label = "raised rocks"
+description = "A fragile wall made of rubble. It will collapse in time."
+graphicData = SubResource(1)
+tickerType = "Rare"
+scatterableOnMapGen = "false"
+leaveResourcesWhenKilled = "false"
+filthLeaving = "ExtResource("res://GuildForge/data/defs/Filth_RubbleRock.tres")"
+building = SubResource(2)
+comps = Array[SubResource(3)]

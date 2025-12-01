@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BalletDancer81.tres")"
+title = "ballet dancer"
+titleShort = "dancer"
+titleShortFemale = "ballerina"
+description = "[PAWN_nameDef] was a dancer in a traditional ballet troupe. [PAWN_pronoun] mastered the ancient motions and entertained thousands."
+slot = "Adulthood"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)
+requiredWorkTags = SubResource(3)
+forcedTraits = SubResource(4)

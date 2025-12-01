@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TestSubject39.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/TestSubject39.tres")"
+slot = "Adulthood"
+title = "test subject"
+titleShort = "subject"
+description = "[PAWN_nameDef] enrolled in a scientific study that promised it could make [PAWN_objective] smarter. Unfortunately, the side effects were very different than [PAWN_pronoun] expected. [PAWN_pronoun] went insane and killed a number of people before escaping."
+skillGains = SubResource(1)
+workDisables = "Caring, Social, Artistic, Cooking, Cleaning, PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TakeBeerOutOfFermentingBarrel.tres")"
+label = "take beer out of fermenting barrels"
+giverClass = "WorkGiver_TakeBeerOutOfFermentingBarrel"
+workType = "ExtResource("res://GuildForge/data/defs/Hauling.tres")"
+verb = "take beer"
+gerund = "taking beer from"
+priorityInType = "20"
+requiredCapacities = SubResource(1)
+canBeDoneByMechs = "false"

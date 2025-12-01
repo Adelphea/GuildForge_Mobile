@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_GameSetupStepDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_GameSetupStepDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Grids.tres")"
+order = "0"
+setupStep = SubResource(1)

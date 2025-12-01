@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeleeWeapon_Spear.tres")"
+label = "spear"
+description = "A polearm tipped with a sharp point for stabbing opponents."
+graphicData = SubResource(1)
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+weaponTags = SubResource(2)
+weaponClasses = SubResource(3)
+costStuffCount = "75"
+thingSetMakerTags = SubResource(4)
+statBases = SubResource(5)
+equippedAngleOffset = "-25"
+stuffCategories = SubResource(6)
+tools = SubResource(7)
+recipeMaker = SubResource(12)

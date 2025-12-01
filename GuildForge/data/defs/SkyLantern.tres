@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SkyLantern.tres")"
+thingClass = "Skyfaller"
+label = "skylantern"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+size = Vector2(1, 1)
+graphicData = SubResource(1)
+skyfaller = SubResource(2)
+comps = Array[SubResource(7), SubResource(9), SubResource(10), SubResource(11)]

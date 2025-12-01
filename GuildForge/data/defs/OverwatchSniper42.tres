@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OverwatchSniper42.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/OverwatchSniper42.tres")"
+slot = "Adulthood"
+title = "overwatch sniper"
+titleShort = "sniper"
+description = Color([PAWN_nameDef] didn't know why [PAWN_pronoun] joined the military, but [PAWN_pronoun] stayed to protect [PAWN_possessive] fellow soldiers.\n\nArmy life broke [PAWN_objective] down and built [PAWN_objective] back up. It taught [PAWN_objective] marksmanship, hand to hand combat and how to patch a bullet wound in a hurry., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+possessions = SubResource(3)
+shuffleable = "False"

@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DeepDrillingSpeed.tres")"
+label = "deep drilling speed"
+description = "A speed at which this person uses a deep drill to extract underground resources."
+category = "ExtResource("res://GuildForge/data/defs/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+statFactors = SubResource(1)
+skillNeedFactors = SubResource(2)
+capacityFactors = SubResource(4)
+scenarioRandomizable = "true"
+displayPriorityInCategory = "4901"

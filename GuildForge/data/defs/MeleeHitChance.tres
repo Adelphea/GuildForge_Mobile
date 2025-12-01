@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeleeHitChance.tres")"
+label = "melee hit chance"
+description = "Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit."
+category = "ExtResource("res://GuildForge/data/defs/PawnCombat.tres")"
+neverDisabled = "true"
+defaultBaseValue = "0"
+minValue = "0"
+showOnPawns = "false"
+toStringStyle = "PercentZero"
+toStringStyleUnfinalized = "FloatOne"
+finalizeEquippedStatOffset = "false"
+noSkillOffset = "4"
+skillNeedOffsets = SubResource(1)
+capacityOffsets = SubResource(3)
+postProcessCurve = SubResource(6)
+parts = SubResource(8)
+displayPriorityInCategory = "4100"

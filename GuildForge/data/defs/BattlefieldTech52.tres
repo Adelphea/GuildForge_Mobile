@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BattlefieldTech52.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/BattlefieldTech52.tres")"
+slot = "Adulthood"
+title = "battlefield tech"
+titleShort = "technician"
+description = "[PAWN_nameDef] had received firearms training, but [PAWN_possessive] work was focused on technical adaptation and manipulation of combat mechanoids on the battlefield.\n\n[PAWN_pronoun] developed PTSD after narrowly escaping a primitive firebomb attack in a wheat field. The army medically discharged [PAWN_objective] from service."
+skillGains = SubResource(1)
+workDisables = "Firefighting, PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

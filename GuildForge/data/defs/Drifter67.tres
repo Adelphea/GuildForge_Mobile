@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Drifter67.tres")"
+title = "drifter"
+titleShort = "drifter"
+description = "[PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] traveled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested."
+slot = "Adulthood"
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+possessions = SubResource(3)

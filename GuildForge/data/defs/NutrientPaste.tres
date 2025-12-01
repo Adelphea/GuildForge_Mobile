@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/NutrientPaste.tres")"
+label = "nutrient paste"
+description = "Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all."
+baseCost = "400"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+researchViewX = "8.00"
+researchViewY = "1.50"
+tags = SubResource(2)
+generalRules = SubResource(3)

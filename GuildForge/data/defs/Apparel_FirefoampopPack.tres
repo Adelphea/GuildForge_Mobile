@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_FirefoampopPack.tres")"
+label = "firefoam pop pack"
+description = Color(A utility pack made for firefighters. When triggered, a burst of fire-retardant foam is released, covering a wide circle around its wearer., 1.0)
+techLevel = "Industrial"
+comps = Array[SubResource(1), SubResource(2), SubResource(3)]
+verbs = SubResource(4)
+recipeMaker = SubResource(6)
+costList = SubResource(9)
+graphicData = SubResource(10)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+statBases = SubResource(11)
+thingCategories = SubResource(12)
+generateAllowChance = "0.15"
+apparel = SubResource(13)
+allowedArchonexusCount = "1"
+tradeTags = SubResource(33)

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BountyHunter41.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/BountyHunter41.tres")"
+slot = "Adulthood"
+title = "bounty hunter"
+titleShort = "hunter"
+description = "[PAWN_nameDef] was a bounty hunter on a massive glitterworld. [PAWN_pronoun] worked sensitive assignments for extremely wealthy clients, and was known for quiet execution and total discretion."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+shuffleable = "False"

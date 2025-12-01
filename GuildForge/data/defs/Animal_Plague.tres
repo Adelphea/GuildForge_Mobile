@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Animal_Plague.tres")"
+label = "plague"
+description = "An infectious disease caused by bacteria. This strain is adapted to infecting non-human species."
+debugLabelExtra = "animal"
+makesSickThought = "true"
+lethalSeverity = "1"
+tendable = "true"
+comps = Array[SubResource(1), SubResource(2)]
+stages = SubResource(3)

@@ -1,0 +1,24 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_PsychicInsanityLance.tres")"
+label = "psychic insanity lance"
+description = Color(A limited-use psychic effector. It overwhelms the target's mind with terrifying perceptual distortions, driving them into a berserk state. There is a risk of brain damage. It has a long range, but requires line of sight., 1.0)
+graphicData = SubResource(1)
+techLevel = "Archotech"
+tradeTags = SubResource(2)
+thingSetMakerTags = SubResource(3)
+statBases = SubResource(4)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+thingCategories = SubResource(5)
+apparel = SubResource(6)
+resourceReadoutPriority = "ExtResource("res://GuildForge/data/defs/Middle.tres")"
+tradeNeverStack = "true"
+smeltable = "false"
+burnableByRecipe = "false"
+drawGUIOverlay = "false"
+relicChance = "3"
+verbs = SubResource(22)
+comps = Array[SubResource(25), SubResource(26), SubResource(27), SubResource(28), SubResource(29), SubResource(30), SubResource(31)]
+allowedArchonexusCount = "1"

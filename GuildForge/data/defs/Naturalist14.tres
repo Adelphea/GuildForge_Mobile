@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Naturalist14.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Naturalist14.tres")"
+slot = "Childhood"
+title = "naturalist"
+titleShort = "naturalist"
+description = "[PAWN_nameDef] grew up on a backwater planet with minimal education. [PAWN_pronoun] had to hunt and grow food to survive.
+
+[PAWN_possessive] family's home was frequently raided for food by scavengers. This made [PAWN_nameDef] very suspicious and slow to trust anyone [PAWN_pronoun] doesn't know."
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = "Social, Intellectual"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

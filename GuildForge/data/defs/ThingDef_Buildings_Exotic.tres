@@ -1,0 +1,26 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+size = Vector2(6, 3)
+passability = "Impassable"
+fillPercent = "1"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+blockWind = "true"
+receivesSignals = "true"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+rotatable = "false"
+selectable = "true"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+soundImpactDefault = "ExtResource("res://GuildForge/data/defs/BulletImpact_Metal.tres")"
+drawerType = "MapMeshOnly"
+repairEffect = "ExtResource("res://GuildForge/data/defs/ConstructMetal.tres")"
+forceDebugSpawnable = "true"
+leaveResourcesWhenKilled = "false"
+neverMultiSelect = "true"
+canOverlapZones = "false"
+statBases = SubResource(1)
+killedLeavings = SubResource(2)
+damageMultipliers = SubResource(3)
+building = SubResource(5)
+comps = Array[SubResource(6)]

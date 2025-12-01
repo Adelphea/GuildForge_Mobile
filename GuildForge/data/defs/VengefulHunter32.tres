@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/VengefulHunter32.tres")"
+title = "vengeful hunter"
+titleShort = "vengeful"
+description = Color(Following the death of a close friend by animal attack, [PAWN_nameDef] hunted the beast responsible. [PAWN_pronoun] tracked it to a nearby village, only to find one of the villagers wearing its pelt., 1.0)
+slot = "Adulthood"
+spawnCategories = SubResource(1)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+skillGains = SubResource(2)
+requiredWorkTags = SubResource(3)
+workDisables = SubResource(4)
+possessions = SubResource(5)

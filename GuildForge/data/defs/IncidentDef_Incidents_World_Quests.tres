@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+category = "ExtResource("res://GuildForge/data/defs/GiveQuest.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_GiveQuest"
+letterDef = "ExtResource("res://GuildForge/data/defs/NewQuest.tres")"
+baseChance = "1"
+canOccurOnAllPlanetLayers = "true"

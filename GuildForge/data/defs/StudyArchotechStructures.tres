@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/StudyArchotechStructures.tres")"
+label = "study archotech structures"
+giverClass = "WorkGiver_StudyInteract"
+workType = "ExtResource("res://GuildForge/data/defs/Research.tres")"
+verb = "study"
+gerund = "studying"
+priorityInType = "110"
+canBeDoneByMechs = "false"

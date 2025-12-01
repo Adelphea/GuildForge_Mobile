@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ChatWithPrisoner.tres")"
+label = "chat with prisoners"
+giverClass = "WorkGiver_Warden_Chat"
+workType = "ExtResource("res://GuildForge/data/defs/Warden.tres")"
+verb = "chat with"
+gerund = "chatting with"
+priorityInType = "60"
+requiredCapacities = SubResource(1)

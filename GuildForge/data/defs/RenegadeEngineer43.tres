@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RenegadeEngineer43.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/RenegadeEngineer43.tres")"
+slot = "Adulthood"
+title = "renegade engineer"
+titleShort = "engineer"
+description = "After a daring escape from the prison planet with a small crew of fellow inmates, [PAWN_nameDef] set [PAWN_possessive] gaze on [PAWN_possessive] homeworld.\n\n[PAWN_pronoun] traveled there, recruited more followers, hijacked a space cruiser, and launched into the void."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

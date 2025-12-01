@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+devNote = "insect"
+statBases = SubResource(1)
+race = SubResource(3)
+ingredient = SubResource(4)
+receivesSignals = "true"
+comps = Array[SubResource(7), SubResource(9)]

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HistoryAutoRecorderDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HistoryAutoRecorderDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PopIntent.tres")"
+label = "pop intent x10"
+graphColor = Color((0, 1, 0, 1))
+recordTicksFrequency = "60000"
+workerClass = "HistoryAutoRecorderWorker_PopIntent"
+valueFormat = "{0} days"

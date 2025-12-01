@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientStorageCylinder.tres")"
+label = "ancient storage cylinder"
+description = "An ancient device that looks like it once stored some kind of fluid. Valuable parts are missing, and everything else is degraded to uselessness."
+noRightClickDraftAttack = "true"
+size = Vector2(2, 1)
+fillPercent = "0.50"
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(3)
+passability = "PassThroughOnly"
+pathCost = "50"
+building = SubResource(4)

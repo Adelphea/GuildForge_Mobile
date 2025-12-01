@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CountryLordling92.tres")"
+title = "country lordling"
+titleFemale = "country lady"
+titleShort = "field lord"
+titleShortFemale = "field lady"
+description = Color([PAWN_nameDef] grew up in a noble family's manor in the outer country. [PAWN_possessive] early years were full of lessons in horseback riding, politics, and religion.
+\n[PAWN_nameDef] and [PAWN_possessive] friends found many ways to break the rules and have fun in the fields and forests., 1.0)
+slot = "Childhood"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)

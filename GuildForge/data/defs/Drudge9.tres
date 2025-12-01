@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Drudge9.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Drudge9.tres")"
+slot = "Childhood"
+title = "drudge"
+titleShort = "drudge"
+description = "[PAWN_nameDef] was never sure what [PAWN_pronoun] wanted to do with [PAWN_possessive] life. [PAWN_pronoun] spent most of [PAWN_possessive] time doing low-wage jobs and wondering what [PAWN_possessive] future would be like.
+
+[PAWN_pronoun] entertained [PAWN_objective]self with space sims and survival games, dreaming of one day being somewhere more interesting."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

@@ -1,0 +1,25 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HospitalBed.tres")"
+label = "hospital bed"
+description = "A bed specially designed for use in hospitals. Adjustable for a patient and festooned with built-in equipment, it improves medical outcomes over normal beds."
+graphicData = SubResource(1)
+castEdgeShadows = "True"
+statBases = SubResource(2)
+comps = Array[SubResource(4)]
+size = Vector2(1, 2)
+stuffCategories = SubResource(7)
+costStuffCount = "40"
+costList = SubResource(8)
+building = SubResource(9)
+fillPercent = "0.4"
+pathCost = "42"
+leaveResourcesWhenKilled = "True"
+staticSunShadowHeight = "0.17"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc5.tres")"
+researchPrerequisites = SubResource(10)
+constructionSkillPrerequisite = "8"
+techLevel = "Industrial"
+uiIconScale = "0.90"

@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PowerMadScholar30.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/PowerMadScholar30.tres")"
+slot = "Childhood"
+title = "power-mad scholar"
+titleShort = "scholar"
+description = Color("Knowledge is power." These words sparked something within [PAWN_nameDef], and came to form [PAWN_possessive] core drive. When not entombed within libraries, [PAWN_pronoun] would take things apart to see first-hand how they worked, with little regard for the border between mechanical and organic.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

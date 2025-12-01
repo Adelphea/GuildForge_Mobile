@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_MentalStateDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_MentalStateDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CocoonDisturbed.tres")"
+stateClass = "MentalState_CocoonDisturbed"
+label = "cocoon disturbed"
+category = "Aggro"
+nameColor = Vector3(0.9, 0.2, 0.5)
+minTicksBeforeRecovery = "99999999"
+baseInspectLine = "Enraged: Cocoon disturbed"
+stateEffecter = "ExtResource("res://GuildForge/data/defs/Berserk.tres")"

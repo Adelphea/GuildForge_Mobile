@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FactoryWorker58.tres")"
+title = "factory worker"
+titleShort = "worker"
+description = "[PAWN_nameDef] did menial, unskilled work in an industrial factory. [PAWN_possessive] job also included caring for the mules and horses which transported the goods."
+slot = "Adulthood"
+workDisables = SubResource(1)
+requiredWorkTags = SubResource(2)
+skillGains = SubResource(3)
+spawnCategories = SubResource(4)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"

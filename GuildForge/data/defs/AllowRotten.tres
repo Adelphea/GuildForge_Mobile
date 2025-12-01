@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AllowRotten.tres")"
+label = "allow rotten"
+description = "Allow organic things which have started to rot."
+parentCategory = "ExtResource("res://GuildForge/data/defs/Root.tres")"
+allowedByDefault = "true"
+saveKey = "allowRotten"
+workerClass = "SpecialThingFilterWorker_Rotten"

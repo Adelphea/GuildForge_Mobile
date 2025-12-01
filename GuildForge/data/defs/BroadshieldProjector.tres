@@ -1,0 +1,24 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BroadshieldProjector.tres")"
+label = "burnout low-shield"
+description = "A man-portable low-angle shield projector. Bullets can go out, but not in. Its compact power source burns out after a few seconds of use."
+altitudeLayer = "BuildingOnTop"
+drawerType = "MapMeshAndRealTime"
+pathCost = "0"
+passability = "Standable"
+fillPercent = "0.35"
+graphicData = SubResource(1)
+statBases = SubResource(4)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+killedLeavings = None
+rotatable = "false"
+selectable = "true"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+soundImpactDefault = "ExtResource("res://GuildForge/data/defs/BulletImpact_Metal.tres")"
+repairEffect = "ExtResource("res://GuildForge/data/defs/ConstructMetal.tres")"
+resourcesFractionWhenDeconstructed = "0"
+building = SubResource(5)
+comps = Array[SubResource(6), SubResource(7)]

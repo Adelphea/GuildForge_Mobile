@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SteleGrand.tres")"
+label = "grand stele"
+description = Color(A towering slab with extensive engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events., 1.0)
+size = Vector2(3, 3)
+statBases = SubResource(1)
+costStuffCount = "250"
+uiIconScale = "0.7"
+uiIconOffset = Vector2(0, 0.02)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+graphicData = SubResource(2)
+comps = Array[SubResource(5)]

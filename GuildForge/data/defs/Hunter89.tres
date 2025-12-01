@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Hunter89.tres")"
+title = "hunter"
+titleShort = "hunter"
+description = "[PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season."
+slot = "Adulthood"
+requiredWorkTags = SubResource(1)
+skillGains = SubResource(2)
+spawnCategories = SubResource(3)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+possessions = SubResource(4)

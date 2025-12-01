@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DrugSynthesisSpeed.tres")"
+label = "drug synthesis speed"
+description = "How fast this character synthesizes complex chemical drugs."
+category = "ExtResource("res://GuildForge/data/defs/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+supressDisabledError = "true"
+statFactors = SubResource(1)
+skillNeedFactors = SubResource(2)
+capacityFactors = SubResource(4)
+displayPriorityInCategory = "4511"
+disableIfSkillDisabled = "ExtResource("res://GuildForge/data/defs/Crafting.tres")"

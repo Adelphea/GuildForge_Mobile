@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PsychoidLeaves.tres")"
+label = "psychoid leaves"
+description = "Raw cut leaves of a psychoid plant. Can be refined into various form of the stimulant drug psychite."
+possessionCount = "10"
+graphicData = SubResource(1)
+statBases = SubResource(2)
+comps = Array[SubResource(3)]
+thingCategories = SubResource(4)
+ingestible = SubResource(5)

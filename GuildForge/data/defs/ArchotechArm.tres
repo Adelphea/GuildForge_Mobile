@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ArchotechArm.tres")"
+label = "archotech arm"
+labelNoun = "an archotech arm"
+description = Color(An installed archotech arm. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.)
+descriptionHyperlinks = SubResource(1)
+comps = Array[SubResource(2)]
+spawnThingOnRemoved = "ExtResource("res://GuildForge/data/defs/ArchotechArm.tres")"
+addedPartProps = SubResource(6)

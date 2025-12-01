@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_Fibercorn.tres")"
+label = "fibercorn"
+description = "An inedible, fibrous plant which produces a small amount of a wood-like substance."
+graphicData = SubResource(1)
+minifiedDef = SubResource(2)
+statBases = SubResource(3)
+selectable = "true"
+pathCost = "14"
+plant = SubResource(4)

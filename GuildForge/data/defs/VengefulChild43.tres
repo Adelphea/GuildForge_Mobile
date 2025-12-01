@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/VengefulChild43.tres")"
+title = "vengeful child"
+titleShort = "vengeful"
+description = "As a child, [PAWN_nameDef] returned to [PAWN_possessive] village to find that it had been wiped out by bandits. [PAWN_pronoun] swore revenge on the attackers and began a violent rampage across the wilderness."
+slot = "Childhood"
+workDisables = SubResource(1)
+skillGains = SubResource(2)
+spawnCategories = SubResource(3)

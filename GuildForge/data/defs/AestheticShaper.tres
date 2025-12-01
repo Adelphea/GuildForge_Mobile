@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AestheticShaper.tres")"
+label = "aesthetic shaper"
+description = "A sophisticated package of hormonal and mechanite influences shapes the muscles and fat on the body, adding non-functional aesthetic tissue where needed to achieve a desired appearance. This implant can be configured to form various body shapes according to the user's taste - or that of their partner."
+descriptionHyperlinks = SubResource(1)
+thingSetMakerTags = SubResource(2)
+costList = SubResource(3)
+recipeMaker = SubResource(4)

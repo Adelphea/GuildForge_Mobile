@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SlaveInteractionModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SlaveInteractionModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Execute.tres")"
+label = "execute"
+listOrder = "40"
+description = "A warden will execute this slave on the spot by cutting."

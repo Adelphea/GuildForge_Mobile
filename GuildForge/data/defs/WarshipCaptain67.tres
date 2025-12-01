@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WarshipCaptain67.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/WarshipCaptain67.tres")"
+slot = "Adulthood"
+title = "warship captain"
+titleShort = "captain"
+description = Color(Years of being commanding officer of an advanced corvette taught [PAWN_nameDef] the art of leadership, the techniques of higher engineering, and how to stay calm while enemies try to kill you.\n\nUnfortunately, [PAWN_nameDef] only very rarely had contact with nature.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+shuffleable = "False"

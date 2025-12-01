@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_Potato.tres")"
+label = "potato plant"
+description = "A highly nutritious tuber. Potatoes grow well even in somewhat poor soil, and form a delicious crispy outer coating when fried in oil."
+statBases = SubResource(1)
+graphicData = SubResource(2)
+selectable = "true"
+pathCost = "14"
+ingestible = None
+plant = SubResource(3)

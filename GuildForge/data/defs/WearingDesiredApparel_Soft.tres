@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WearingDesiredApparel_Soft.tres")"
+workerClass = "ThoughtWorker_Precept_WearingDesiredApparel"
+thoughtClass = "Thought_Situational_WearingDesiredApparel"
+stages = SubResource(1)

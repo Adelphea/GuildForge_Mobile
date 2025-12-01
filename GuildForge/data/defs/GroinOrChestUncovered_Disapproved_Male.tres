@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GroinOrChestUncovered_Disapproved_Male.tres")"
+workerClass = "ThoughtWorker_Precept_GroinOrChestUncovered"
+gender = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+stages = SubResource(1)
+nullifyingTraits = SubResource(3)
+nullifyingGenes = SubResource(4)

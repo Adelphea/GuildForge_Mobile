@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Leather_Fox.tres")"
+label = "foxfur"
+description = "The pelt of a fox. It protects well from the cold and is quite luxurious, fetching a high price."
+graphicData = SubResource(1)
+statBases = SubResource(2)
+stuffProps = SubResource(3)

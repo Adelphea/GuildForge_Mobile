@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_Burka.tres")"
+label = "burka"
+description = "A large garment that conceals the wearer's entire head and body."
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+graphicData = SubResource(1)
+costStuffCount = "60"
+stuffCategories = SubResource(2)
+thingCategories = SubResource(3)
+statBases = SubResource(4)
+equippedStatOffsets = SubResource(5)
+apparel = SubResource(6)
+colorGenerator = SubResource(13)
+recipeMaker = SubResource(14)

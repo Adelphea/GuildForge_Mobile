@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WarChild24.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/WarChild24.tres")"
+slot = "Childhood"
+title = "war child"
+titleShort = "war child"
+description = Color([PAWN_nameDef]'s parents were drafted into a civil war. Growing up surrounded by fighting and death, [PAWN_pronoun] became well-accustomed to tragedy. [PAWN_possessive] expressive side, however, never developed.)
+skillGains = SubResource(1)
+workDisables = "Caring, Artistic"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

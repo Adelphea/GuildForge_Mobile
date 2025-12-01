@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualBehaviorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualBehaviorDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TrialPrisoner.tres")"
+workerClass = "RitualBehaviorWorker_Trial"
+durationTicks = "5000"
+roles = SubResource(1)
+stages = SubResource(4)

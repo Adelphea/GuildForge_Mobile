@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Schematic.tres")"
+label = "schematic"
+description = "A book which describes technology and methods for using it. Reading schematics can help unlock new technologies."
+graphicData = SubResource(1)
+uiIconPath = "Things/Item/Book/Schematic/Schematic"
+statBases = SubResource(2)
+comps = Array[SubResource(3)]

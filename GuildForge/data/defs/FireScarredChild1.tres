@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FireScarredChild1.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/FireScarredChild1.tres")"
+slot = "Childhood"
+title = "fire-scarred child"
+titleShort = "scarred"
+description = "[PAWN_nameDef] was an active child who lived an uneventful childhood until [PAWN_pronoun] fell into a fire and suffered horrific burns to [PAWN_possessive] hands and arms. Although the scars have faded, [PAWN_pronoun] can't bear to be in close proximity to fire."
+skillGains = SubResource(1)
+workDisables = "Cooking, Firefighting"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

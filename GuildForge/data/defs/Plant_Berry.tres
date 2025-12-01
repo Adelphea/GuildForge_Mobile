@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_Berry.tres")"
+label = "berry bush"
+description = "A bushy wild plant which yields delicious berries. Berries can be cooked, but they're also good to eat even when raw."
+statBases = SubResource(1)
+graphicData = SubResource(2)
+selectable = "true"
+neverMultiSelect = "false"
+fillPercent = "0.20"
+pathCost = "30"
+plant = SubResource(4)

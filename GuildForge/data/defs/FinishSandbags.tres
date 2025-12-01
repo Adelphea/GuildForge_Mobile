@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FinishSandbags.tres")"
+text = Color(Let's just wait for all your constructions to be built.\n\nConsider using the WORK tab to assign more colonists to Construct.\n\nAlso, you can speed up time to shorten the wait.\n\nOnce everything's built, I'll send an attacker to test your defenses!, 1.0)
+instructionClass = "Instruction_FinishConstruction"
+eventTagInitiate = "InstructionDeactivated-BuildSandbags"
+actionTagsAllowed = SubResource(1)
+rejectInputMessage = "Please wait for your colonists to finish building the sandbags."

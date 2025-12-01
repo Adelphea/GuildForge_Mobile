@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PrisonerInteractionModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PrisonerInteractionModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MaintainOnly.tres")"
+label = "maintain only"
+listOrder = "0"
+description = "Just feed the prisoner and provide for their basic needs, without attempting any other interaction."

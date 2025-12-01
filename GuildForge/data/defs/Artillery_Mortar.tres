@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Artillery_Mortar.tres")"
+label = "mortar"
+description = "Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged."
+recoilPower = "3"
+graphicData = SubResource(1)
+weaponTags = SubResource(2)
+verbs = SubResource(3)
+comps = Array[SubResource(6)]
+building = SubResource(7)

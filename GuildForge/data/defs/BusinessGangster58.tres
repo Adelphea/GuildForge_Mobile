@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BusinessGangster58.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/BusinessGangster58.tres")"
+slot = "Adulthood"
+title = "business gangster"
+titleShort = "gangster"
+description = Color(Staying one step ahead of the law, [PAWN_nameDef] became a legitimate businessman and silenced anyone who dared say otherwise. As proprietor of brothels, speakeasies and eateries, [PAWN_nameDef]'s good fortune continued while [PAWN_possessive] competition suffered a series of unfortunate and unexplained accidents.)
+skillGains = SubResource(1)
+workDisables = Color(Caring, Cleaning, PlantWork, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

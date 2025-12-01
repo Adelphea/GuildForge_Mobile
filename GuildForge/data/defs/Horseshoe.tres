@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Horseshoe.tres")"
+graphicData = SubResource(1)
+altitudeLayer = "MoteLow"
+solidTime = "10"
+fadeOutTime = "4"
+landSound = "ExtResource("res://GuildForge/data/defs/HorseshoeImpact.tres")"

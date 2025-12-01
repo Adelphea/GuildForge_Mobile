@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Bow_Short.tres")"
+label = "short bow"
+description = "A simple short selfbow made from a single piece of wood."
+possessionCount = "1"
+graphicData = SubResource(1)
+soundInteract = "ExtResource("res://GuildForge/data/defs/Bow_Small.tres")"
+costList = SubResource(2)
+statBases = SubResource(3)
+weaponTags = SubResource(4)
+weaponClasses = SubResource(5)
+recipeMaker = SubResource(6)
+verbs = SubResource(9)
+tools = SubResource(11)
+rotateInShelves = "false"

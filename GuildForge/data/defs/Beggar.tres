@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Beggar.tres")"
+label = "beggar"
+race = "ExtResource("res://GuildForge/data/defs/Human.tres")"
+defaultFactionDef = "ExtResource("res://GuildForge/data/defs/Beggars.tres")"
+combatPower = "35"
+gearHealthRange = "0.1~0.3"
+itemQuality = "Awful"
+apparelMoney = "45~190"
+apparelAllowHeadgearChance = "0.2"
+apparelTags = SubResource(1)
+weaponMoney = "60~200"
+weaponTags = SubResource(2)
+techHediffsMoney = "50~50"
+techHediffsTags = SubResource(3)
+techHediffsChance = "0.15"
+inventoryOptions = SubResource(4)
+initialWillRange = "0~1"
+initialResistanceRange = "4~8"

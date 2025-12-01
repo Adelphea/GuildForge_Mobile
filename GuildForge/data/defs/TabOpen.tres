@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SoundDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SoundDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TabOpen.tres")"
+maxSimultaneous = "1"
+subSounds = SubResource(1)

@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeleeWeapon_Zeushammer.tres")"
+label = "zeushammer"
+description = "A warhammer with an embedded EMP capacitor. Upon impact, it blasts the target with an EMP burst in addition to the physical damage."
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_ZeusHammer.tres")"
+meleeHitSound = "ExtResource("res://GuildForge/data/defs/MeleeHit_ZeusHammer.tres")"
+equippedAngleOffset = "-65"
+relicChance = "3"
+smeltable = "false"
+weaponClasses = SubResource(1)
+graphicData = SubResource(2)
+tools = SubResource(3)

@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GiveQuest_EndGame_ArchonexusVictory.tres")"
+label = "archonexus victory"
+letterLabel = "archonexus victory"
+questScriptDef = "ExtResource("res://GuildForge/data/defs/EndGame_ArchonexusVictory.tres")"
+baseChance = "0"

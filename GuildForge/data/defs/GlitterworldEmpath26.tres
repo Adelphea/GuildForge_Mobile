@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GlitterworldEmpath26.tres")"
+title = "glitterworld empath"
+titleShort = "empath"
+description = "[PAWN_nameDef] found it easy to relate to others and mediate conflict. [PAWN_pronoun] was selected to train as an empath. The training intensified [PAWN_possessive] natural abilities, but [PAWN_pronoun] became unable to cause others pain."
+slot = "Adulthood"
+workDisables = SubResource(1)
+requiredWorkTags = SubResource(2)
+skillGains = SubResource(3)
+spawnCategories = SubResource(4)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+disallowedTraits = SubResource(5)

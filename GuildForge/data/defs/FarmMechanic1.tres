@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FarmMechanic1.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/FarmMechanic1.tres")"
+slot = "Childhood"
+title = "farm mechanic"
+titleShort = "mechanic"
+description = "Growing up on a farming planet, [PAWN_nameDef] spent [PAWN_possessive] time learning about the automated machinery that grew and harvested the multitude of crops."
+skillGains = SubResource(1)
+workDisables = "Intellectual, Artistic"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Philosopher97.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/Philosopher97.tres")"
+slot = "Adulthood"
+title = "philosopher"
+titleShort = "sage"
+description = "[PAWN_nameDef]'s thirst for archaeo-technological knowledge drove [PAWN_objective] to spend years surveying abandoned data centers and studying ancient coding languages.\n\n[PAWN_pronoun] claimed to be one of the few who could piece together the tragedy of the past - and offer a path to the future."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

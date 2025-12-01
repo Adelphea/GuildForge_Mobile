@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MasterTrader65.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/MasterTrader65.tres")"
+slot = "Adulthood"
+title = "master trader"
+titleShort = "trader"
+description = "[PAWN_nameDef] was a master at trading. [PAWN_pronoun] earned [PAWN_possessive] nickname by helping a village through a trying time."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Mining.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

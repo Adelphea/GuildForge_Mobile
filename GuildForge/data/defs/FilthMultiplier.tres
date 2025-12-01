@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FilthMultiplier.tres")"
+label = "filth multiplier"
+description = "How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. This only applies to organic filth."
+category = "ExtResource("res://GuildForge/data/defs/Terrain.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+showOnPawns = "false"
+toStringStyle = "PercentZero"

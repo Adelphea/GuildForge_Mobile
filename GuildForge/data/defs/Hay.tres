@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Hay.tres")"
+label = "hay"
+description = Color(Nutrient-rich grasses and shoots, harvested and compacted for storage. Hay is good animal feed, but inedible for humans., 1.0)
+stackLimit = "200"
+graphicData = SubResource(1)
+statBases = SubResource(2)
+comps = Array[SubResource(3)]
+thingCategories = SubResource(4)
+ingestible = SubResource(5)
+allowedArchonexusCount = "400"

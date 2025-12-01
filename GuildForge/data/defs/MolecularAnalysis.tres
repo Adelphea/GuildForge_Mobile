@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MolecularAnalysis.tres")"
+label = "molecular analysis"
+description = "Craft bionics with molecular analyzers for assisting the immune system or analyzing food."
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+researchViewX = "19.00"
+researchViewY = "3.60"
+generalRules = SubResource(3)

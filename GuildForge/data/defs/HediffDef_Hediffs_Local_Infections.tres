@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+hediffClass = "HediffWithComps"
+makesSickThought = "true"
+makesAlert = "false"
+minSeverity = "0.001"
+maxSeverity = "1"
+initialSeverity = "0.001"
+tendable = "true"
+comps = Array[SubResource(1), SubResource(2), SubResource(3)]

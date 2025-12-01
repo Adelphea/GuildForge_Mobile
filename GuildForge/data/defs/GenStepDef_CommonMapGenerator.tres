@@ -1,0 +1,6 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_GenStepDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_GenStepDef.gd")
+order = "960"
+genStep = SubResource(1)

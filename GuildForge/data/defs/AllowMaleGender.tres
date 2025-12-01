@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AllowMaleGender.tres")"
+label = "allow males"
+description = "Allow male individuals."
+parentCategory = "ExtResource("res://GuildForge/data/defs/Animals.tres")"
+allowedByDefault = "true"
+saveKey = "allowMaleGender"
+workerClass = "SpecialThingFilterWorker_AllowMales"

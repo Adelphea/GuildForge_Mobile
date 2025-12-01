@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualBehaviorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualBehaviorDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TreeConnection.tres")"
+durationTicks = "2000"
+useVisualEffectsFromRoleIdIdeo = "connector"
+roles = SubResource(1)
+spectatorsLabel = "Spectators"
+spectatorGerund = "spectate"
+stages = SubResource(3)

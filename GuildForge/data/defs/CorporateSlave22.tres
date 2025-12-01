@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CorporateSlave22.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/CorporateSlave22.tres")"
+slot = "Childhood"
+title = "corporate slave"
+titleShort = "soldier"
+description = Color([PAWN_nameDef] grew up in a colony owned by a large glitterworld corporation. All children had virtual reality devices attached by force, and were raised in a brutal digital world.
+
+Constantly forced to fight others for the entertainment of the wealthy, gunplay and tactics became the center of [PAWN_nameDef]'s universe., 1.0)
+skillGains = SubResource(1)
+workDisables = "Cooking, Cleaning"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Shell_AntigrainWarhead.tres")"
+label = "antigrain warhead"
+description = "An ultra-tech warhead powered by a grain of antimatter. Usually used by spacecraft or glitterworld war machines, it creates a huge explosion and starts fires around the target. Can be fired from mortars or installed as a trap. Explodes when damaged."
+graphicData = SubResource(1)
+tradeability = "Sellable"
+statBases = SubResource(2)
+techLevel = "Spacer"
+thingSetMakerTags = SubResource(3)
+comps = Array[SubResource(4)]
+projectileWhenLoaded = "ExtResource("res://GuildForge/data/defs/Bullet_Shell_AntigrainWarhead.tres")"

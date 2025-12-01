@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Filth_Water.tres")"
+label = "water puddle"
+statBases = SubResource(1)
+graphicData = SubResource(2)
+filth = SubResource(3)

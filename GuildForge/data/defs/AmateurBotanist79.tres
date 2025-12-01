@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AmateurBotanist79.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/AmateurBotanist79.tres")"
+slot = "Childhood"
+title = "amateur botanist"
+titleShort = "botanist"
+description = Color(Spending many summers crawling through dirt, [PAWN_nameDef] found [PAWN_pronoun] had quite the green thumb. Instead of learning to cook the food [PAWN_pronoun] grew, [PAWN_pronoun] just grew more and more., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Cooking.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

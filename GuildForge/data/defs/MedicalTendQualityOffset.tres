@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MedicalTendQualityOffset.tres")"
+label = "medical tend quality offset"
+description = "Medical tend quality is offset by this value."
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+defaultBaseValue = "0"
+minValue = "0"
+toStringStyle = "PercentZero"
+hideAtValue = "0"
+displayPriorityInCategory = "2000"

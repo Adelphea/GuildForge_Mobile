@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShootingAccuracyTurret.tres")"
+label = "shooting accuracy"
+labelForFullStatList = "shooting accuracy (turrets)"
+description = "Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target."
+category = "ExtResource("res://GuildForge/data/defs/BasicsNonPawn.tres")"
+workerClass = "StatWorker_ShootingAccuracy"
+defaultBaseValue = "0.96"
+toStringStyle = "PercentOne"
+toStringStyleUnfinalized = "FloatOne"
+showIfUndefined = "false"
+displayPriorityInCategory = "4000"

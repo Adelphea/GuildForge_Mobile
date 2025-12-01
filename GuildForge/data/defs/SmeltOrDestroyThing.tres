@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SmeltOrDestroyThing.tres")"
+label = "smelt or destroy thing"
+description = "Use heat and strong electromagnets to break down metallic things like weapons and armor into useful resources, or destroy them if they are not smeltable."
+jobString = "Smelting/destroying things."
+workAmount = "400"
+smeltingWorkAmount = "1600"
+workSpeedStat = "ExtResource("res://GuildForge/data/defs/SmeltingSpeed.tres")"
+effectWorking = "ExtResource("res://GuildForge/data/defs/Smelt.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/defs/Recipe_Smelt.tres")"
+specialProducts = SubResource(1)
+ingredients = SubResource(2)
+fixedIngredientFilter = SubResource(6)
+defaultIngredientFilter = SubResource(8)

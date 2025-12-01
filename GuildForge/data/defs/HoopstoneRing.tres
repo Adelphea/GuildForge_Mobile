@@ -1,0 +1,23 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HoopstoneRing.tres")"
+label = "hoopstone ring"
+description = "A simple ancient game played with stones and a large ring in the ground. Players try to toss stones through the ring from a distance. It's relaxing, and trains shooting skills."
+graphicData = SubResource(1)
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+rotatable = "false"
+socialPropernessMatters = "true"
+maxTechLevelToBuild = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+drawPlaceWorkersWhileSelected = "true"
+thingCategories = SubResource(4)
+statBases = SubResource(5)
+stuffCategories = SubResource(6)
+building = SubResource(7)
+costStuffCount = "20"
+pathCost = "14"
+placeWorkers = SubResource(8)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Joy.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc1.tres")"

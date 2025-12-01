@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Concrete.tres")"
+label = "concrete"
+description = "Rough concrete. It is cheap and quick to build, but is also quite ugly."
+texturePath = "Terrain/Surfaces/Concrete"
+color = Vector3(140, 140, 140)
+edgeType = "ExtResource("res://GuildForge/data/defs/Hard.tres")"
+renderPrecedence = "70"
+isPaintable = "true"
+statBases = SubResource(1)
+costList = SubResource(2)
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc6.tres")"
+researchPrerequisites = SubResource(3)
+uiOrder = "2020"

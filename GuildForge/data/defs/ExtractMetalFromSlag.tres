@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ExtractMetalFromSlag.tres")"
+label = "smelt metal from slag"
+description = "Use heat and strong electromagnets to extract useful metal from slag chunks."
+jobString = "Smelting metal from slag."
+workAmount = "400"
+workSpeedStat = "ExtResource("res://GuildForge/data/defs/SmeltingSpeed.tres")"
+effectWorking = "ExtResource("res://GuildForge/data/defs/Smelt.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/defs/Recipe_Smelt.tres")"
+ingredients = SubResource(1)
+products = SubResource(5)
+fixedIngredientFilter = SubResource(6)

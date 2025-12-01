@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Disease_GutWorms.tres")"
+label = "gut worms"
+diseaseIncident = "ExtResource("res://GuildForge/data/defs/GutWorms.tres")"
+diseasePartsToAffect = SubResource(1)
+letterLabel = "Disease: Gut worms"

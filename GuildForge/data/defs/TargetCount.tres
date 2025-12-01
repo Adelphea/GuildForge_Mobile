@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BillRepeatModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BillRepeatModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TargetCount.tres")"
+label = "do until you have X"
+listOrder = "10"

@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/IdeoRole_ProductionSpecialist.tres")"
+label = "production specialist"
+description = "A special ideoligious status focusing on crafting and construction to the exclusion of all else. This specialized role gives increased crafting and construction efficiency, and the ability to boost the production abilities of nearby allies. Holders of this role will refuse to do some non-production work."
+iconPath = "UI/Roles/SpecialistProduction"
+nameMaker = "ExtResource("res://GuildForge/data/defs/NamerRoleProductionSpecialist.tres")"
+roleRequirements = SubResource(1)
+roleRequiredWorkTagAny = SubResource(4)
+roleTags = SubResource(5)
+requiredMemes = SubResource(6)
+roleEffects = SubResource(7)
+grantedAbilities = SubResource(11)
+displayOrderInImpact = "2"
+roleDisabledWorkTags = SubResource(12)

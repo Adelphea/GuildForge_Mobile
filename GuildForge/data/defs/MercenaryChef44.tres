@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MercenaryChef44.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/MercenaryChef44.tres")"
+slot = "Adulthood"
+title = "mercenary chef"
+titleShort = "mercenary"
+description = Color(Following in [PAWN_possessive] family's footsteps, [PAWN_nameDef] was a soldier for hire.\n\n[PAWN_pronoun] was a naturally gifted sharpshooter. However, [PAWN_possessive] real passion is in perfecting a new recipe or dissecting a new gadget., 1.0)
+skillGains = SubResource(1)
+workDisables = "PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+forcedTraits = SubResource(3)
+possessions = SubResource(4)
+shuffleable = "False"

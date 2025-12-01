@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DarktorchFungus.tres")"
+label = "fungus darktorch"
+description = "A specially-treated fungus torch that produces a dim light over a large area. People who prefer darklight work best with this light source. Can be automatically refueled with raw fungus. Produces a small amount of heat."
+graphicData = SubResource(1)
+uiIconPath = "Things/Building/Misc/FungusDarktorch/FungusDarkTorch_MenuIcon"
+uiOrder = "2810"
+costList = SubResource(2)
+comps = Array[SubResource(3), SubResource(4), SubResource(7), SubResource(8), SubResource(9)]

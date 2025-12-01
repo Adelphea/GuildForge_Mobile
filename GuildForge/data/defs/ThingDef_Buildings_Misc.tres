@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+rotatable = "false"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+useHitPoints = "true"
+passability = "PassThroughOnly"
+fillPercent = "0.5"
+thingCategories = SubResource(1)
+statBases = SubResource(2)
+stuffCategories = SubResource(3)
+colorPerStuff = SubResource(4)
+placeWorkers = SubResource(6)
+building = SubResource(7)
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"

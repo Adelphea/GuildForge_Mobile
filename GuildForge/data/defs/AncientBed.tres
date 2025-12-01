@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientBed.tres")"
+label = "ancient bed"
+thingClass = "Building_Bed"
+description = Color(An old, rotted mattress on a rusty frame. Though uncomfortable, it can still be used, but it's too dilapidated to restore.)
+noRightClickDraftAttack = "true"
+graphicData = SubResource(1)
+statBases = SubResource(3)
+size = Vector2(1, 2)
+building = SubResource(4)
+comps = Array[SubResource(5)]
+fillPercent = "0.4"
+pathCost = "42"
+staticSunShadowHeight = "0.17"
+castEdgeShadows = "True"
+techLevel = "Medieval"

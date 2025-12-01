@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Chicken.tres")"
+label = "chicken"
+labelMale = "rooster"
+labelFemale = "hen"
+race = "ExtResource("res://GuildForge/data/defs/Chicken.tres")"
+combatPower = "30"
+ecoSystemWeight = "0.30"
+flyingAnimationFramePathPrefix = "Things/Pawn/Animal/Chicken/Chicken_Flying_"
+flyingAnimationFrameCount = "8"
+flyingAnimationTicksPerFrame = "2"
+flyingAnimationDrawSize = "2.4"
+flyingAnimationDrawSizeIsMultiplier = "true"
+flyingAnimationInheritColors = "true"
+lifeStages = SubResource(1)

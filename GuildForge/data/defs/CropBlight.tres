@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CropBlight.tres")"
+label = "crop blight"
+category = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_CropBlight"
+baseChance = "0.3"
+minRefireDays = "30"
+pointsScaleable = "true"

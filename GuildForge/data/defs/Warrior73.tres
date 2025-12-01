@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Warrior73.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/Warrior73.tres")"
+slot = "Adulthood"
+title = "warrior"
+titleShort = "warrior"
+description = "[PAWN_nameDef] was a war hero during [PAWN_possessive] planet's third world war. [PAWN_pronoun] helped prevent the launch of nuclear weapons during a particularly tense standoff."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Intellectual.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+possessions = SubResource(3)
+shuffleable = "False"

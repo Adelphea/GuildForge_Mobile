@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TraderKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TraderKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Orbital_PirateMerchant.tres")"
+label = "slave ship"
+orbital = "true"
+requestable = "false"
+category = "Slaver"
+faction = SubResource(1)
+commonalityMultFromPopulationIntent = SubResource(2)
+stockGenerators = SubResource(4)

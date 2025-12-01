@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HackerKid98.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/HackerKid98.tres")"
+slot = "Childhood"
+title = "hacker kid"
+titleShort = "hacker"
+description = Color(Born on a high-tech world, [PAWN_nameDef] learned to hack computers at a young age. 
+
+Spending many hours tinkering alone made [PAWN_objective] very good with machines, but very bad with humans., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Social.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

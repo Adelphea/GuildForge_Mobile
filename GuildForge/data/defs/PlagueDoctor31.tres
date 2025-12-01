@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PlagueDoctor31.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/PlagueDoctor31.tres")"
+slot = "Adulthood"
+title = "plague doctor"
+titleShort = "doctor"
+description = "[PAWN_nameDef] provided medical care on multiple plague-wracked worlds, always working under the Hippocratic oath. [PAWN_pronoun] improved conditions for those under quarantine while administering complex medical treatments and developing medicines.\n\n[PAWN_pronoun] never had time to enjoy a normal life outside of work."
+skillGains = SubResource(1)
+workDisables = Color(Violent, Animals, Artistic, Cooking)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

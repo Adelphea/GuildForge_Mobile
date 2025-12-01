@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Sheriff52.tres")"
+title = "sheriff"
+titleShort = "sheriff"
+description = Color([PAWN_nameDef] was the law enforcer in an isolated industrial town. [PAWN_pronoun] dealt with petty crime, dispute resolution, and the occasional drunken saloon shootout., 1.0)
+slot = "Adulthood"
+requiredWorkTags = SubResource(1)
+skillGains = SubResource(2)
+spawnCategories = SubResource(3)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+possessions = SubResource(4)

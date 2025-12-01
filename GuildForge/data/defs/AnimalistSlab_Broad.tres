@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AnimalistSlab_Broad.tres")"
+label = "animalist slab (broad)"
+description = "A wooden bas relief of animalist imagery for decorating a floor."
+dominantStyleCategory = "ExtResource("res://GuildForge/data/defs/Animalist.tres")"
+statBases = SubResource(1)
+graphicData = SubResource(2)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+stuffCategories = SubResource(3)
+costStuffCount = "150"

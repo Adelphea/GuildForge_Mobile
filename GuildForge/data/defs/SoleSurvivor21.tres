@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SoleSurvivor21.tres")"
+title = "sole survivor"
+titleShort = "survivor"
+description = Color([PAWN_nameDef]'s entire tribe was wiped out in a raid. Though [PAWN_pronoun] was adopted by another group, [PAWN_pronoun] was emotionally scarred, and preferred to stay near home, cooking and tending crops.)
+slot = "Childhood"
+workDisables = SubResource(1)
+skillGains = SubResource(2)
+spawnCategories = SubResource(3)

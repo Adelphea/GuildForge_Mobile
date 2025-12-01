@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DeepSpaceMiner3.tres")"
+title = "deep space miner"
+titleShort = "miner"
+description = "[PAWN_nameDef] did the sweaty, grimy work of pulling metal out of asteroids on a deep space rig. [PAWN_pronoun] used [PAWN_possessive] hands-on industrial skills daily - and wasn't bad in a bar fight either."
+slot = "Adulthood"
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+requiredWorkTags = SubResource(3)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+possessions = SubResource(4)

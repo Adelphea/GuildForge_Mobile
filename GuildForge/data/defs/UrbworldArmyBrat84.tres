@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/UrbworldArmyBrat84.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/UrbworldArmyBrat84.tres")"
+slot = "Childhood"
+title = "urbworld army brat"
+titleShort = "army brat"
+description = Color([PAWN_nameDef] grew up on an urbworld military base. [PAWN_pronoun] was too young to fight, but [PAWN_pronoun] learned to make [PAWN_objective]self useful in other ways.
+
+[PAWN_pronoun] became familiar with guns and military equipment, but never really got in touch with the natural world., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

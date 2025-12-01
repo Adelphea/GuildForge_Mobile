@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DoctorTendToAnimals.tres")"
+label = "tend to animals"
+giverClass = "WorkGiver_TendOther_Animal"
+workType = "ExtResource("res://GuildForge/data/defs/Doctor.tres")"
+verb = "tend to"
+gerund = "tending to"
+requiredCapacities = SubResource(1)
+priorityInType = "50"
+prioritizeSustains = "true"
+canBeDoneByMechs = "false"

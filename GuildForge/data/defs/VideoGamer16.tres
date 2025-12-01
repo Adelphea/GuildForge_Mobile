@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/VideoGamer16.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/VideoGamer16.tres")"
+slot = "Childhood"
+title = "video gamer"
+titleShort = "gamer"
+description = "[PAWN_nameDef] grew up on a midworld, mostly locked in [PAWN_possessive] room, playing video games. [PAWN_pronoun] was warm-hearted, with a deep fondness for animals.
+
+As [PAWN_pronoun] grew up, [PAWN_pronoun] turned to drugs to enhance [PAWN_possessive] reality. During these trying times [PAWN_pronoun] found passion and refuge in the gym."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

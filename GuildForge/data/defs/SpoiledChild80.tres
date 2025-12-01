@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpoiledChild80.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SpoiledChild80.tres")"
+slot = "Childhood"
+title = "spoiled child"
+titleShort = "spoiled"
+description = Color([PAWN_nameDef] was the child of an industrious space engineer. [PAWN_possessive] parents forbade most manual and dangerous tasks, so [PAWN_pronoun] learned art and music instead.
+
+[PAWN_pronoun] loved animals, but [PAWN_possessive] parents never let [PAWN_objective] have a pet - though [PAWN_pronoun] played with other people's pets a lot., 1.0)
+skillGains = SubResource(1)
+workDisables = "ManualDumb"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

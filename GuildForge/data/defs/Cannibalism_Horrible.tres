@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Cannibalism_Horrible.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Cannibalism.tres")"
+label = "horrible"
+description = "Eating human flesh is a horrible thing to do."
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+displayOrderInIssue = "40"
+displayOrderInImpact = "100"
+defaultSelectionWeight = "1"
+comps = Array[SubResource(1), SubResource(2), SubResource(3), SubResource(4), SubResource(5), SubResource(6)]

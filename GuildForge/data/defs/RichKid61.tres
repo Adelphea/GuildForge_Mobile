@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RichKid61.tres")"
+title = "rich kid"
+titleShort = "rich kid"
+description = Color([PAWN_nameDef] came from a wealthy and influential bloodline. [PAWN_possessive] expensive education included lessons on dueling, leadership, and military strategy., 1.0)
+slot = "Childhood"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)

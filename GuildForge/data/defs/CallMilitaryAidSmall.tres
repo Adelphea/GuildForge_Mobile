@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CallMilitaryAidSmall.tres")"
+label = "call trooper squad"
+description = "Call a group of 4 light troopers to aid you in battle."
+workerClass = "RoyalTitlePermitWorker_CallAid"
+minTitle = "ExtResource("res://GuildForge/data/defs/Acolyte.tres")"
+faction = "ExtResource("res://GuildForge/data/defs/Empire.tres")"
+permitPointCost = "1"
+uiPosition = Vector2(0, 3)
+royalAid = SubResource(1)
+layerBlacklist = SubResource(2)
+cooldownDays = "40"

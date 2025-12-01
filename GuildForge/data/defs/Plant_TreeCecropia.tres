@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_TreeCecropia.tres")"
+label = "cecropia tree"
+description = "One of the most common rainforest trees. Cecropia grows very fast, but yields little usable wood."
+graphicData = SubResource(1)
+statBases = SubResource(3)
+plant = SubResource(4)
+ingestible = None

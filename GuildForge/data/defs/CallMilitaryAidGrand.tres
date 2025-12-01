@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CallMilitaryAidGrand.tres")"
+label = "call cataphract squad"
+description = "Call a group of 4 heavy cataphracts to aid you in battle."
+workerClass = "RoyalTitlePermitWorker_CallAid"
+minTitle = "ExtResource("res://GuildForge/data/defs/Count.tres")"
+faction = "ExtResource("res://GuildForge/data/defs/Empire.tres")"
+permitPointCost = "1"
+prerequisite = "ExtResource("res://GuildForge/data/defs/CallMilitaryAidLarge.tres")"
+uiPosition = Vector2(1, 7)
+royalAid = SubResource(1)
+layerBlacklist = SubResource(2)
+cooldownDays = "60"

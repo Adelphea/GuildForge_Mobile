@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/JunkyardMechanic51.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/JunkyardMechanic51.tres")"
+slot = "Childhood"
+title = "junkyard mechanic"
+titleShort = "mechanic"
+description = Color(Left for dead at a young age, [PAWN_nameDef] was rescued by an old man who ran an urbworld junkyard. The old man forced [PAWN_nameDef] to do dangerous, demanding work.
+
+[PAWN_nameDef] became very familiar with machines, but [PAWN_pronoun] grew up with almost no other experiences.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Animals.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

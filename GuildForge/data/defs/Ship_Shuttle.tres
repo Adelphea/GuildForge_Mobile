@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TransportShipDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TransportShipDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Ship_Shuttle.tres")"
+label = "shuttle"
+shipThing = "ExtResource("res://GuildForge/data/defs/Shuttle.tres")"
+arrivingSkyfaller = "ExtResource("res://GuildForge/data/defs/ShuttleIncoming.tres")"
+leavingSkyfaller = "ExtResource("res://GuildForge/data/defs/ShuttleLeaving.tres")"
+worldObject = "ExtResource("res://GuildForge/data/defs/TravelingShuttle.tres")"
+maxLaunchDistance = "70"

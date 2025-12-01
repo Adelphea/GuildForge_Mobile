@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Mercenary4.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/Mercenary4.tres")"
+slot = "Adulthood"
+title = "mercenary"
+titleShort = "mercenary"
+description = Color(After escaping a crew of rimworld slavers, [PAWN_nameDef] developed a lack of respect for life. [PAWN_pronoun] proceeded to sign on to a mercenary group where [PAWN_pronoun] developed skills using guns and survival techniques. [PAWN_nameDef] did dirty work where [PAWN_pronoun] found it, and traveled to many worlds., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

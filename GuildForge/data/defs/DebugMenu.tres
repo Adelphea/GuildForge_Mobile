@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_KeyBindingCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_KeyBindingCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DebugMenu.tres")"
+label = "debug menu"
+description = "Controls used in debug menus. Active in development mode only."
+checkForConflicts = SubResource(1)

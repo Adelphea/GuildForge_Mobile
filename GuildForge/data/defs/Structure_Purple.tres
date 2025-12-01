@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ColorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ColorDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Structure_Purple.tres")"
+label = "purple"
+color = Vector3(99, 50, 119)
+displayOrder = "90"

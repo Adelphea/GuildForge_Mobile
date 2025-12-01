@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TestSubject92.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/TestSubject92.tres")"
+slot = "Adulthood"
+title = "test subject"
+titleShort = "subject"
+description = "[PAWN_nameDef]'s tests went from geometry to quantum physics, and [PAWN_pronoun] could run the grand gauntlet without a scratch.\n\nOne day, Mother said that [PAWN_possessive] final test lay beyond the red door, and that even if [PAWN_pronoun] couldn't hear her voice, Mother would always be there."
+skillGains = SubResource(1)
+workDisables = Color(Caring, Social, PlantWork, Mining)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+shuffleable = "False"

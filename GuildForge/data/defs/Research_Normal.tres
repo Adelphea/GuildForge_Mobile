@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Research_Normal.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Research.tres")"
+label = "normal"
+description = "Research is a worthwhile form of work that the community needs."
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+displayOrderInIssue = "20"
+defaultSelectionWeight = "1"

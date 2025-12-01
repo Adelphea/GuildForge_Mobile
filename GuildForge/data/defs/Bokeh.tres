@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Bokeh.tres")"
+fleckSystemClass = "FleckSystemThrown"
+graphicData = SubResource(1)
+altitudeLayer = "LightingOverlay"
+solidTime = "0.5"
+fadeInTime = "0.3"
+fadeOutTime = "0.3"
+acceleration = Vector3(0, 0.0, 0.4)

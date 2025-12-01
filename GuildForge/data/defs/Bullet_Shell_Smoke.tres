@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Bullet_Shell_Smoke.tres")"
+label = "smoke shell"
+graphicData = SubResource(1)
+thingClass = "Projectile_Explosive"
+projectile = SubResource(2)

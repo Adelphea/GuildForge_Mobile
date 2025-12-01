@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BountyHunter93.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/BountyHunter93.tres")"
+slot = "Adulthood"
+title = "bounty hunter"
+titleShort = "hunter"
+description = "When the civil war ended, [PAWN_nameDef] had to find a new way to use [PAWN_possessive] fighting skills. [PAWN_pronoun] decided to hunt down war criminals and soon realized that [PAWN_pronoun] enjoyed capturing bad guys by any means necessary."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

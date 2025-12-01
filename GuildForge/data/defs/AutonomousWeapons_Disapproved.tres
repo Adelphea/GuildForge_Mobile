@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AutonomousWeapons_Disapproved.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/AutonomousWeapons.tres")"
+label = "disapproved"
+description = "Allowing a machine to decide to kill is an ugly thing."
+impact = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "100"
+associatedMemes = SubResource(1)
+comps = Array[SubResource(2)]

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ObservedLayingRottingCorpse.tres")"
+icon = "Things/Mote/ThoughtSymbol/Skull"
+showBubble = "true"
+thoughtClass = "Thought_MemoryObservation"
+durationDays = "0.5"
+stackedEffectMultiplier = "0.5"
+stackLimit = "5"
+nullifyingTraits = SubResource(1)
+stages = SubResource(2)

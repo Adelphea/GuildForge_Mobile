@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AnimalLabTech39.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/AnimalLabTech39.tres")"
+slot = "Childhood"
+title = "animal lab tech"
+titleShort = "lab tech"
+description = "[PAWN_nameDef] worked as a technician in a lab studying animals.
+
+[PAWN_pronoun] spent [PAWN_possessive] days taking care of the animals and cleaning up after them. [PAWN_pronoun] dreamed of having [PAWN_possessive] own lab one day."
+skillGains = SubResource(1)
+workDisables = "PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

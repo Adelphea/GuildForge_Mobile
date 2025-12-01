@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_Cape.tres")"
+label = "cape"
+description = "A long cape of elegant design. It hangs over one side of the torso."
+possessionCount = "1"
+graphicData = SubResource(1)
+costStuffCount = "80"
+stuffCategories = SubResource(2)
+thingCategories = SubResource(3)
+statBases = SubResource(4)
+apparel = SubResource(5)
+colorGenerator = SubResource(9)
+recipeMaker = SubResource(10)

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ExplorerWriter10.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/ExplorerWriter10.tres")"
+slot = "Adulthood"
+title = "explorer-writer"
+titleShort = "explorer"
+description = Color([PAWN_nameDef] traveled from planet to planet, gathering samples, stories, and research.\n\n[PAWN_possessive] goal was to bring together enough knowledge to make a survival guide for future generations.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

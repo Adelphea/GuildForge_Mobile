@@ -1,0 +1,37 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BiomeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BiomeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SeaIce.tres")"
+label = "sea ice"
+description = Color(Permanent ice sheets floating on water. There is no soil for plants to grow, no minerals to mine, and almost no animal life., 1.0)
+workerClass = "BiomeWorker_SeaIce"
+settleWarning = "Sea ice is extremely inhospitable. There is no soil for plants and almost no animal life. Long-term survival is a challenge."
+canAutoChoose = "false"
+allowRoads = "false"
+allowRivers = "false"
+allowFarmingCamps = "false"
+animalDensity = "0.1"
+plantDensity = "0"
+hasVirtualPlants = "false"
+hasBedrock = "false"
+settlementSelectionWeight = "0.01"
+campSelectionWeight = "0.1"
+movementDifficulty = "1.5"
+texture = "World/Biomes/IceSheetOcean"
+forageability = "0"
+isExtremeBiome = "true"
+coastalBeachTerrain = "ExtResource("res://GuildForge/data/defs/Ice.tres")"
+lakeBeachTerrain = "ExtResource("res://GuildForge/data/defs/Ice.tres")"
+mudTerrain = "ExtResource("res://GuildForge/data/defs/Ice.tres")"
+maxFishPopulation = "650"
+fishTypes = SubResource(1)
+soundsAmbient = SubResource(12)
+diseaseMtbDays = "90"
+diseases = SubResource(13)
+terrainsByFertility = SubResource(21)
+terrainPatchMakers = SubResource(23)
+baseWeatherCommonalities = SubResource(27)
+wildAnimals = SubResource(32)
+coastalWildAnimals = SubResource(33)
+allowedPackAnimals = SubResource(36)

@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SlabBed.tres")"
+label = "slab bed"
+description = "A slab of hard material made to sleep on. Slab beds are uncomfortable, but some see their use as a demonstration of moral good."
+graphicData = SubResource(1)
+canGenerateDefaultDesignator = "false"
+statBases = SubResource(2)
+size = Vector2(1, 2)
+building = SubResource(3)
+stuffCategories = SubResource(4)
+costStuffCount = "30"
+fillPercent = "0.3"
+pathCost = "20"
+staticSunShadowHeight = "0.17"
+castEdgeShadows = "True"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc2.tres")"
+techLevel = "Medieval"
+uiIconScale = "0.90"
+uiOrder = "2030"

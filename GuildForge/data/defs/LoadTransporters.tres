@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/LoadTransporters.tres")"
+label = "load transporters"
+giverClass = "WorkGiver_LoadTransporters"
+workType = "ExtResource("res://GuildForge/data/defs/Hauling.tres")"
+verb = "load"
+gerund = "loading"
+priorityInType = "110"
+requiredCapacities = SubResource(1)

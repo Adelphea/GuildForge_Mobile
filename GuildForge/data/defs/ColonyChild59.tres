@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ColonyChild59.tres")"
+title = "colony child"
+titleShort = "colonist"
+description = "[PAWN_nameDef] grew up in our colony."
+slot = "Childhood"
+spawnCategories = SubResource(1)
+requiresSpawnCategory = "true"

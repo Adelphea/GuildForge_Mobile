@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BeautyOutdoors.tres")"
+label = "outdoor beauty"
+description = "How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty."

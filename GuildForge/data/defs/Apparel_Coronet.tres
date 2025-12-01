@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_Coronet.tres")"
+label = "coronet"
+description = "A small crown-like piece of headwear made of metal."
+smeltable = "true"
+thingCategories = SubResource(1)
+recipeMaker = SubResource(2)
+graphicData = SubResource(8)
+uiIconScale = "1.15"
+costStuffCount = "50"
+stuffCategories = SubResource(9)
+statBases = SubResource(10)
+equippedStatOffsets = SubResource(11)
+apparel = SubResource(13)
+colorGenerator = SubResource(17)
+tradeTags = SubResource(18)

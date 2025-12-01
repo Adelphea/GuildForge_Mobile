@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Drill.tres")"
+label = "drill at deep drill"
+giverClass = "WorkGiver_DeepDrill"
+workType = "ExtResource("res://GuildForge/data/defs/Mining.tres")"
+priorityInType = "50"
+verb = "drill"
+gerund = "drilling"
+requiredCapacities = SubResource(1)
+canBeDoneByMechs = "false"

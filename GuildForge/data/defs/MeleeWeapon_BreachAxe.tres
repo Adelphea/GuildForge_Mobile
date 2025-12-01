@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeleeWeapon_BreachAxe.tres")"
+label = "breach axe"
+description = Color(A combined blade and tool-head attached to a sturdy haft. While slightly less effective than other weapons against human enemies, it excels at tearing down walls, doors, and other structures thanks to its integrated tool-head.)
+graphicData = SubResource(1)
+equippedAngleOffset = "-65"
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+weaponTags = SubResource(2)
+costStuffCount = "50"
+statBases = SubResource(3)
+stuffCategories = SubResource(4)
+tools = SubResource(5)
+recipeMaker = SubResource(10)

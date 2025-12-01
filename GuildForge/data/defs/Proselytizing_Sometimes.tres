@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Proselytizing_Sometimes.tres")"
+label = "sometimes"
+description = "Those who know the truth should bring it to others at every opportunity."
+displayOrderInIssue = "10"
+statFactors = SubResource(1)

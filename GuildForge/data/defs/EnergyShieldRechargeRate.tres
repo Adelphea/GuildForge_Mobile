@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/EnergyShieldRechargeRate.tres")"
+label = "Shield recharge rate"
+description = "The rate at which a shield gains energy as long as it is not broken."
+category = "ExtResource("res://GuildForge/data/defs/Apparel.tres")"
+minValue = "0"
+defaultBaseValue = "0.45"
+toStringStyle = "PercentZero"
+formatString = "{0}/s"
+showIfUndefined = "false"
+displayPriorityInCategory = "69"
+parts = SubResource(1)

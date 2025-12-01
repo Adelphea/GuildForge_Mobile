@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Martyrs.tres")"
+label = "martyrs"
+description = Color(Admitting our corrupt, sinful nature is as crucial as suffering for it. Pain and sacrifices are approved, while physical love and comfort are shameful., 1.0)
+categoryDef = "ExtResource("res://GuildForge/data/defs/Strong.tres")"
+memes = SubResource(1)

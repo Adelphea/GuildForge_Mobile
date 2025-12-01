@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Flake.tres")"
+label = "flake"
+description = Color(A flaky white preparation of psychite that can be smoked to induce a short but powerful euphoric state. While it is cheap to produce and extremely pleasurable to use, it is exceptionally addictive. Flake is known for destroying lives, communities, and entire societies.)
+descriptionHyperlinks = SubResource(1)
+graphicData = SubResource(2)
+rotatable = "false"
+statBases = SubResource(3)
+techLevel = "Industrial"
+minRewardCount = "10"
+ingestible = SubResource(4)
+recipeMaker = SubResource(11)
+costList = SubResource(13)
+comps = Array[SubResource(14)]

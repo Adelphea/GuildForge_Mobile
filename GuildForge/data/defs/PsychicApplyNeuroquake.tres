@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PsychicApplyNeuroquake.tres")"
+altitudeLayer = "MoteOverhead"
+fadeInTime = "0.04"
+fadeOutTime = "0.6"
+solidTime = "4.5"
+growthRate = "3.0"
+graphicData = SubResource(1)

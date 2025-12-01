@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Tinkerer11.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Tinkerer11.tres")"
+slot = "Childhood"
+title = "tinkerer"
+titleShort = "tinkerer"
+description = "[PAWN_nameDef] spent [PAWN_possessive] spare time creating things from [PAWN_possessive] imagination out of scrap metal and discarded machinery.
+
+[PAWN_pronoun] created simple robots and small tools, for both for fun and for utility."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

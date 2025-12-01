@@ -1,0 +1,31 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GroundPenetratingScanner.tres")"
+label = "ground-penetrating scanner"
+description = "A sensor unit used by researchers to search for buried resources. The chance to find a resource depends on the operator's research ability. It consumes a lot of electricity. If you find a buried resource, you'll need to use deep drills to extract it. It doesn't work under a roof."
+graphicData = SubResource(1)
+costList = SubResource(3)
+building = SubResource(4)
+comps = Array[SubResource(5), SubResource(6), SubResource(7), SubResource(8), SubResource(9)]
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+canBeUsedUnderRoof = "false"
+statBases = SubResource(10)
+hasInteractionCell = "true"
+interactionCellOffset = Vector3(0, 0, 2)
+interactionCellIcon = "ExtResource("res://GuildForge/data/defs/DiningChair.tres")"
+interactionCellIconReverse = "true"
+fillPercent = "0.40"
+leaveResourcesWhenKilled = "false"
+passability = "PassThroughOnly"
+pathCost = "50"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+rotatable = "true"
+canOverlapZones = "false"
+size = Vector2(3, 3)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+placeWorkers = SubResource(11)
+defaultPlacingRot = "South"
+researchPrerequisites = SubResource(12)
+constructionSkillPrerequisite = "8"

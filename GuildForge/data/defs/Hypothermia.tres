@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Hypothermia.tres")"
+label = "hypothermia"
+description = "Dangerously low core body temperature. Unless re-warmed, hypothermia gets worse and ends in death. Recovery is quick once the victim is re-warmed. Avoid hypothermia by wearing warm clothes in cold environments."
+defaultLabelColor = Vector3(0.8, 0.8, 1)
+lethalSeverity = "1"
+canApplyDodChanceForCapacityChanges = "true"
+taleOnVisible = "ExtResource("res://GuildForge/data/defs/HypothermiaRevealed.tres")"
+stages = SubResource(1)

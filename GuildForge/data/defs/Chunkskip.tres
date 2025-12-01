@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Chunkskip.tres")"
+label = "chunk skip"
+description = "Skip the closest 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations."
+level = "1"
+iconPath = "UI/Abilities/Chunkskip"
+writeCombatLog = "True"
+hotKey = "ExtResource("res://GuildForge/data/defs/Misc10.tres")"
+hostile = "false"
+casterMustBeCapableOfViolence = "false"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(4)]

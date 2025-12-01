@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Infantry99.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Infantry99.tres")"
+slot = "Childhood"
+title = "infantry"
+titleShort = "infantry"
+description = "[PAWN_nameDef] was raised on a world wracked by war.
+
+At an early age, [PAWN_pronoun] was shown how to use guns and cruelty to project [PAWN_possessive] will. [PAWN_pronoun] later distinguished [PAWN_objective]self by committing atrocities with more enthusiasm than anyone else."
+skillGains = SubResource(1)
+workDisables = "Caring"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

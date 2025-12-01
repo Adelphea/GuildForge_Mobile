@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_Gunlink.tres")"
+label = "gunlink"
+description = Color(A targeting computer that helps the user aim. It detects and analyzes targets using infrared, visible, and millimeter-wave electromagnetic sensors. An onboard targeting computer displays firing solutions on a retinal projection. It offers no protection at all., 1.0)
+graphicData = SubResource(1)
+equippedStatOffsets = SubResource(2)
+statBases = SubResource(4)
+recipeMaker = SubResource(5)
+costList = SubResource(6)
+apparel = SubResource(7)
+tradeTags = SubResource(12)
+thingSetMakerTags = SubResource(13)
+comps = Array[SubResource(14), SubResource(15), SubResource(16), SubResource(17)]

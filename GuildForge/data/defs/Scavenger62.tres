@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Scavenger62.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Scavenger62.tres")"
+slot = "Childhood"
+title = "scavenger"
+titleShort = "scavenger"
+description = "[PAWN_nameDef] grew up in one of the few remaining cities on a world ravaged by nuclear war.
+
+[PAWN_pronoun] learned to survive on [PAWN_possessive] own in this post-apocalyptic wasteland by scavenging for technology and supplies."
+skillGains = SubResource(1)
+workDisables = "Intellectual, Artistic"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

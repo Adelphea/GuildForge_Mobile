@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InteractionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InteractionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SparkJailbreak.tres")"
+label = "spark jailbreak"
+symbol = "Things/Mote/SpeechSymbols/SparkJailbreak"
+workerClass = "InteractionWorker_SparkJailbreak"
+initiatorXpGainSkill = "ExtResource("res://GuildForge/data/defs/Social.tres")"
+initiatorXpGainAmount = "230"
+logRulesInitiator = SubResource(1)

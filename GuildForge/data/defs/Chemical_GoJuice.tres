@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_NeedDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_NeedDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Chemical_GoJuice.tres")"
+needClass = "Need_Chemical"
+label = "go-juice"
+description = "Because of a go-juice addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms."
+fallPerDay = "0.333"
+listPriority = "45"

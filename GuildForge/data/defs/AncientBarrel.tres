@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientBarrel.tres")"
+label = "ancient barrel"
+description = "An ancient, broken barrel that looks like it once contained waste of some sort. The only thing it contains now is a smear of dried sludge."
+rotatable = "false"
+noRightClickDraftAttack = "true"
+graphicData = SubResource(1)
+size = Vector2(1, 1)
+fillPercent = "0.30"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(3)
+passability = "PassThroughOnly"
+pathCost = "50"
+building = SubResource(4)

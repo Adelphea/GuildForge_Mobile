@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MaxFlightTime.tres")"
+label = "max flight time"
+description = "The maximum amount of time this creature can stay in flight before landing."
+category = "ExtResource("res://GuildForge/data/defs/BasicsPawn.tres")"
+toStringStyle = "FloatMaxOne"
+showIfUndefined = "false"
+defaultBaseValue = "0"
+formatString = "{0}s"
+cacheable = "true"
+showOnDrones = "false"

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/UrbworldSergeant50.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/UrbworldSergeant50.tres")"
+slot = "Adulthood"
+title = "urbworld sergeant"
+titleShort = "sergeant"
+description = "[PAWN_nameDef]'s passion for all things militaristic kept with [PAWN_objective] all the way to adulthood.\n\nAfter enrolling as a local policeman, [PAWN_pronoun] was soon promoted to sergeant."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

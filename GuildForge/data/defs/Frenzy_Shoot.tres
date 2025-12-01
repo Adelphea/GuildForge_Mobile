@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InspirationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InspirationDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Frenzy_Shoot.tres")"
+label = "shoot frenzy"
+baseDurationDays = "8"
+beginLetter = "[PAWN_pronoun] will shoot more accurately for the next 8 days."
+beginLetterDef = "ExtResource("res://GuildForge/data/defs/PositiveEvent.tres")"
+endMessage = "{0} is no longer inspired (shoot frenzy)."
+baseInspectLine = "Inspired: Shoot frenzy"
+minAge = "8"
+requiredNonDisabledStats = SubResource(1)
+statOffsets = SubResource(2)
+associatedSkills = SubResource(3)

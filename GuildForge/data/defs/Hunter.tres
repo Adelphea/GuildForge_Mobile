@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Hunter.tres")"
+label = "hunter"
+combatPower = "52"
+backstoryFiltersOverride = SubResource(1)
+itemQuality = "Poor"
+isFighter = "false"
+gearHealthRange = "0.2~2.0"
+apparelRequired = SubResource(4)
+weaponTags = SubResource(5)
+weaponMoney = "140~250"
+apparelMoney = "200~400"
+apparelAllowHeadgearChance = "0.4"
+techHediffsChance = "0.06"
+techHediffsMoney = "50~600"
+techHediffsTags = SubResource(6)
+initialWillRange = "1~2"
+initialResistanceRange = "10~17"

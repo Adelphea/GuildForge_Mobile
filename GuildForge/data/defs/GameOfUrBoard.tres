@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GameOfUrBoard.tres")"
+label = "Game-of-Ur board"
+description = "Dating from 2500BC, this exciting yet infuriating board game can be played by one or two people. It trains intellectual skills."
+graphicData = SubResource(1)
+castEdgeShadows = "false"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+rotatable = "true"
+socialPropernessMatters = "true"
+fillPercent = "0.20"
+maxTechLevelToBuild = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+building = SubResource(2)
+statBases = SubResource(3)
+stuffCategories = SubResource(4)
+costStuffCount = "35"
+pathCost = "14"
+passability = "PassThroughOnly"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Joy.tres")"

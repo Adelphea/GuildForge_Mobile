@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CosmeticReject64.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/CosmeticReject64.tres")"
+slot = "Adulthood"
+title = "cosmetic reject"
+titleShort = "reject"
+description = Color(Living on the streets, [PAWN_nameDef] submitted [PAWN_objective]self to an unethical cosmetics lab in exchange for food and shelter.\n\nAfter some painful cosmetic modification, [PAWN_nameDef] barely resembles [PAWN_possessive] former self. Having been forced to work for the lab until [PAWN_pronoun] was rescued, [PAWN_nameDef] is now too afraid to lash out at anyone.)
+skillGains = SubResource(1)
+workDisables = "Violent"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

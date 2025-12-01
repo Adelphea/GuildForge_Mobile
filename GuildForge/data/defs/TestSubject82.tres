@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TestSubject82.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/TestSubject82.tres")"
+slot = "Childhood"
+title = "test subject"
+titleShort = "subject"
+description = Color(Test subject #11, 529, 914 of experiment #56, 048 spent [PAWN_possessive] childhood in white rooms performing mental and physical tests.
+
+[PAWN_possessive] only companion was a voice that called itself Mother. Mother rewarded success with praise - and failure with harsh punishment.)
+skillGains = SubResource(1)
+workDisables = Color(Social, PlantWork, Mining, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Sand.tres")"
+label = "sand"
+texturePath = "Terrain/Surfaces/Sand"
+pollutedTexturePath = "Terrain/Surfaces/SandPolluted"
+pollutionOverlayTexturePath = "Terrain/Surfaces/PollutionSand"
+edgeType = "FadeRough"
+categoryType = "ExtResource("res://GuildForge/data/defs/Sand.tres")"
+renderPrecedence = "350"
+pathCost = "4"
+statBases = SubResource(1)
+scatterType = "SoftDry"
+affordances = SubResource(2)
+generatedFilth = "ExtResource("res://GuildForge/data/defs/Filth_Sand.tres")"
+fertility = "0.10"
+takeFootprints = "True"
+tools = SubResource(3)
+pollutionColor = Color((1, 1, 1, 0.25))

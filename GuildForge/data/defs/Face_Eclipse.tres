@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TattooDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TattooDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Face_Eclipse.tres")"
+label = "eclipse"
+texPath = "Things/Pawn/Humanlike/Tattoos/Face_Eclipse/FaceTattooEclipse"
+tattooType = "Face"
+category = "ExtResource("res://GuildForge/data/defs/Tribal.tres")"
+styleTags = SubResource(1)

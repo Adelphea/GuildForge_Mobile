@@ -1,0 +1,30 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Vent.tres")"
+label = "vent"
+description = "A vent for equalizing the temperature between two rooms without allowing people to walk between them."
+thingClass = "Building_Vent"
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "Impassable"
+blockWind = "true"
+fillPercent = "1"
+coversFloor = "true"
+blockLight = "true"
+blockWeather = "true"
+castEdgeShadows = "true"
+canOverlapZones = "false"
+staticSunShadowHeight = "1.0"
+statBases = SubResource(3)
+tickerType = "Rare"
+costList = SubResource(4)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+placeWorkers = SubResource(5)
+drawPlaceWorkersWhileSelected = "true"
+building = SubResource(6)
+researchPrerequisites = SubResource(7)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Temperature.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc8.tres")"
+comps = Array[SubResource(8)]

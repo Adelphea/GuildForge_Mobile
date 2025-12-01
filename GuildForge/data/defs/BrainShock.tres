@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BrainShock.tres")"
+label = "brain shock"
+labelNoun = "a brain shock"
+description = "After-effects of an electrical shock to the brain. This is generally cause by feedback from brain implants hit by EMP pulses."
+hediffClass = "HediffWithComps"
+comps = Array[SubResource(1)]
+stages = SubResource(2)

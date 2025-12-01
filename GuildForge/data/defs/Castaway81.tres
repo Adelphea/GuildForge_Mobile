@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Castaway81.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/Castaway81.tres")"
+slot = "Adulthood"
+title = "castaway"
+titleShort = "castaway"
+description = "[PAWN_nameDef] was a passenger on a routine interstellar transit. When [PAWN_possessive] ship was destroyed, [PAWN_pronoun] lived as a castaway on an uninhabited planet for several years."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

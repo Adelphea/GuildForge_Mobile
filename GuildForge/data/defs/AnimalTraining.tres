@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AnimalTraining.tres")"
+label = "Animal training"
+priority = "10"
+helpText = "You can assign a tame animal to be trained in specific skills on its TRAINING tab or on the ANIMALS tab.\n\nAnimals can't be trained continuously; they need time between training sessions."
+highlightTags = SubResource(1)

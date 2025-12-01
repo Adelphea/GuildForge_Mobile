@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SoftwareDeveloper84.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/SoftwareDeveloper84.tres")"
+slot = "Adulthood"
+title = "software developer"
+titleShort = "developer"
+description = "After [PAWN_pronoun] gained the ability to use automation to remove tedium, [PAWN_nameDef] could no longer tolerate traditional education and employment."
+skillGains = SubResource(1)
+workDisables = Color(ManualDumb, Cleaning, Hauling, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

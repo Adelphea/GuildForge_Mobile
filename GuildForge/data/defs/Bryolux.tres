@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Bryolux.tres")"
+label = "bryolux"
+description = Color(A blue moss typically found in deep, dark caves. It is sticky, with tangled fibers, which slows anyone walking over it. Dies when exposed to light.)
+statBases = SubResource(1)
+graphicData = SubResource(2)
+selectable = "true"
+pathCost = "30"
+ingestible = None
+plant = SubResource(3)
+comps = Array[SubResource(4)]

@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_CultureDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_CultureDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Kriminul.tres")"
+label = "kriminul"
+description = "A broad category describing the styles and practices of many pirate groups."
+ideoNameMaker = SubResource(1)
+deityNameMaker = SubResource(2)
+deityTypeMaker = SubResource(3)
+leaderTitleMaker = SubResource(4)
+festivalNameMaker = SubResource(5)
+allowedPlaceTags = SubResource(6)
+iconPath = "World/WorldObjects/Expanding/PirateOutpost"
+thingStyleCategories = SubResource(7)
+styleItemTags = SubResource(9)

@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/IdeoRole_AnimalsSpecialist.tres")"
+label = "Animals specialist"
+description = "A special ideoligious status focusing on animals to the exclusion of all else. This specialized role gives increased taming and training efficiency. Holders of this role will refuse to perform some non-animals-related tasks."
+iconPath = "UI/Roles/SpecialistAnimals"
+nameMaker = "ExtResource("res://GuildForge/data/defs/NamerRoleAnimalsSpecialist.tres")"
+roleRequirements = SubResource(1)
+roleRequiredWorkTagAny = SubResource(4)
+roleTags = SubResource(5)
+requiredMemes = SubResource(6)
+roleEffects = SubResource(7)
+displayOrderInImpact = "2"
+grantedAbilities = SubResource(13)
+roleDisabledWorkTags = SubResource(14)

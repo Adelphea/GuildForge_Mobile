@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MilitaryCadet46.tres")"
+title = "military cadet"
+titleShort = "cadet"
+description = "[PAWN_nameDef] was levied from [PAWN_possessive] family at a young age to become a soldier. [PAWN_pronoun] lived in barracks with other military kids, learning about duty, weapons, pain, and victory.
+\nThe trainers sometimes let the kids escape the base to enjoy the wider world. They wanted soldiers who can think independently."
+slot = "Childhood"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)
+workDisables = SubResource(3)

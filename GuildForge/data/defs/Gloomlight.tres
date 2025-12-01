@@ -1,0 +1,23 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gloomlight.tres")"
+label = "mech node"
+description = "A self-powered mechanoid node of unknown function. Mech nodes can be deconstructed to yield valuable resources - but only if they are captured intact. The internal micro power cell will flame out and ruin the materials if the unit takes too much damage."
+noRightClickDraftAttack = "true"
+size = Vector2(1, 1)
+passability = "PassThroughOnly"
+pathCost = "30"
+stealable = "true"
+fillPercent = "0.5"
+statBases = SubResource(1)
+graphicData = SubResource(2)
+drawerType = "MapMeshAndRealTime"
+building = SubResource(5)
+thingCategories = SubResource(7)
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+comps = Array[SubResource(8), SubResource(9)]
+leaveResourcesWhenKilled = "false"
+resourcesFractionWhenDeconstructed = "1"
+costList = SubResource(10)

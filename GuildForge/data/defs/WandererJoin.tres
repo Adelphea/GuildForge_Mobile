@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WandererJoin.tres")"
+label = "wanderer join"
+category = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_GiveQuest"
+questScriptDef = "ExtResource("res://GuildForge/data/defs/WandererJoins.tres")"
+baseChance = "0.4"
+pawnKind = "ExtResource("res://GuildForge/data/defs/Villager.tres")"
+populationEffect = "IncreaseEasy"

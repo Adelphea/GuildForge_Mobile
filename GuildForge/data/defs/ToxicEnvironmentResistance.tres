@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ToxicEnvironmentResistance.tres")"
+label = "toxic environment resistance"
+description = "How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison."
+category = "ExtResource("res://GuildForge/data/defs/PawnResistances.tres")"
+toStringStyle = "PercentZero"
+defaultBaseValue = "0"
+hideAtValue = "0"
+minValue = "0"
+maxValue = "1"
+displayPriorityInCategory = "3450"

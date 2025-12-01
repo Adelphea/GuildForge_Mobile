@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TechScholar75.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/TechScholar75.tres")"
+slot = "Childhood"
+title = "farm kid"
+titleShort = "farm kid"
+description = "[PAWN_nameDef] hung around a group of local luddite farmers on [PAWN_possessive] midworld. They helped [PAWN_objective] practice shooting every single day, and passed on some basic farming skills. They also taught [PAWN_nameDef] how to focus on working hard with your hands instead of getting distracted by highfalutin' ideas and clever machines."
+workDisables = "ExtResource("res://GuildForge/data/defs/Intellectual.tres")"
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+shuffleable = "false"

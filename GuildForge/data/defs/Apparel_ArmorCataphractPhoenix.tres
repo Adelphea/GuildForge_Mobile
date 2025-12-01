@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_ArmorCataphractPhoenix.tres")"
+label = "phoenix armor"
+description = "A variant of cataphract armor with a shoulder-mounted flamebolt launcher. This armor is slightly less protective than standard cataphract armor against normal damage, but is especially flame-resistant. The flamebolt launcher has very limited ammo and must be reloaded after use.\n\nPhoenixes specialize in clearing out very confined spaces full of enemies, as in underground or shipborne operations. They can absorb hits while moving down a corridor, fill rooms with flame, and emerge from the smoke unscathed."
+statBases = SubResource(1)
+equippedStatOffsets = SubResource(2)
+costList = SubResource(3)
+graphicData = SubResource(4)
+apparel = SubResource(5)
+comps = Array[SubResource(6)]
+verbs = SubResource(7)
+tradeTags = SubResource(10)
+recipeMaker = SubResource(11)

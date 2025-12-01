@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/LoveEnhancer.tres")"
+label = "love enhancer"
+description = "Humans have always tried to use every new technology to enhance sexual satisfaction. Bionics were no exception. This implant makes physical and chemical changes to the body which enhance the experience of lovin' for both partners - both physically and psychologically. The implant unit can adapt to enhance both men and women upon being implanted."
+descriptionHyperlinks = SubResource(1)
+thingSetMakerTags = SubResource(2)
+costList = SubResource(3)
+recipeMaker = SubResource(4)

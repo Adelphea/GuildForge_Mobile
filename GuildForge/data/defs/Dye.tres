@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Dye.tres")"
+label = "dye"
+description = Color(Dye extracted from a tinctoria plant. It can be used to change the color of walls, buildings, and more., 1.0)
+possessionCount = "25"
+descriptionHyperlinks = SubResource(1)
+resourceReadoutPriority = "Last"
+statBases = SubResource(2)
+graphicData = SubResource(3)
+thingCategories = SubResource(4)

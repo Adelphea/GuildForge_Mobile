@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WeaponTraitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WeaponTraitDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/NeverBond.tres")"
+label = "freewielder"
+description = "This weapon's persona does not form bonds in the normal way. Anyone can pick it up and use it."
+neverBond = "true"
+commonality = "1"
+exclusionTags = SubResource(1)

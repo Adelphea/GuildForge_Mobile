@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeditationSpot.tres")"
+label = "meditation spot"
+description = Color(Designates a spot for meditation. Psycasters can meditate here to gain psyfocus. If a focus object like a sculpture is nearby, the psycaster will be able to focus on it to boost their psyfocus gain. However, different people are able to use different focus objects., 1.0)
+graphicData = SubResource(1)
+altitudeLayer = "FloorEmplacement"
+statBases = SubResource(2)
+rotatable = "false"
+scatterableOnMapGen = "false"
+useHitPoints = "False"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+uiOrder = "2000"
+passability = "Standable"
+drawGUIOverlay = "true"
+building = SubResource(3)
+comps = Array[SubResource(4), SubResource(5)]
+placeWorkers = SubResource(6)
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc12.tres")"

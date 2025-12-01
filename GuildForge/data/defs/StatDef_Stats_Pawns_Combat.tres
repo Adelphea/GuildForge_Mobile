@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+category = "ExtResource("res://GuildForge/data/defs/PawnCombat.tres")"
+minValue = "0.01"
+defaultBaseValue = "1"
+hideAtValue = "1"
+toStringStyle = "PercentZero"
+showOnAnimals = "false"
+showDevelopmentalStageFilter = "Child, Adult"

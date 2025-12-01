@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/IndworldUrchin73.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/IndworldUrchin73.tres")"
+slot = "Childhood"
+title = "indworld urchin"
+titleShort = "urchin"
+description = Color([PAWN_nameDef] grew up on the streets of a world in the early stages of its industrial revolution. [PAWN_pronoun] passed [PAWN_possessive] days stealing, begging and tinkering with discarded machine scraps, always on the lookout for a way to escape poverty., 1.0)
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = "PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

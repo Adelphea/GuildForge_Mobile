@@ -1,0 +1,25 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Neuroquake.tres")"
+label = "neuroquake"
+description = "Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature in range but outside of the safe, inner, circle will be driven violently insane. Casting this takes 12 seconds of meditation, and afterwards, the caster will go into a five-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions."
+level = "6"
+iconPath = "UI/Abilities/Neuroquake"
+hotKey = "ExtResource("res://GuildForge/data/defs/Misc12.tres")"
+jobDef = "ExtResource("res://GuildForge/data/defs/CastAbilityOnThingUninterruptible.tres")"
+targetRequired = "False"
+canUseAoeToGetTargets = "False"
+showPsycastEffects = "False"
+showCastingProgressBar = "True"
+warmupMote = "ExtResource("res://GuildForge/data/defs/Mote_WarmupNeuroquake.tres")"
+warmupStartSound = "ExtResource("res://GuildForge/data/defs/Psycast_Neuroquake_CastStart.tres")"
+warmupSound = "ExtResource("res://GuildForge/data/defs/Psycast_Neuroquake_CastLoop.tres")"
+warmupPreEndSound = "ExtResource("res://GuildForge/data/defs/Psycast_Neuroquake_CastEnd.tres")"
+warmupPreEndSoundSeconds = "5"
+hostile = "false"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(4), SubResource(5), SubResource(6)]
+confirmationDialogText = "If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes 12 seconds to cast, and cannot be interrupted. When complete, the caster will fall into a psychic coma for 5 days.\n\nEveryone in range except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake?"

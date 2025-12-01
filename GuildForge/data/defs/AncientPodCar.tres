@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientPodCar.tres")"
+label = "ancient pod car"
+description = "An ancient pod car once capable of automated flight. Its valuable parts were looted long ago, and the rest is badly deteriorated."
+rotatable = "false"
+graphicData = SubResource(1)
+size = Vector2(3, 2)
+fillPercent = "0.5"
+passability = "PassThroughOnly"
+pathCost = "50"
+statBases = SubResource(3)
+killedLeavings = SubResource(4)

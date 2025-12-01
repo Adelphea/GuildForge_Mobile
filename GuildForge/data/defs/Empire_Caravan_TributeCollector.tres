@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TraderKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TraderKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Empire_Caravan_TributeCollector.tres")"
+label = "royal tribute collector"
+requestable = "False"
+commonality = "1"
+category = "TributeCollector"
+tradeCurrency = "Favor"
+faction = "ExtResource("res://GuildForge/data/defs/Empire.tres")"
+hideThingsNotWillingToTrade = "True"
+stockGenerators = SubResource(1)

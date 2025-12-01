@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShipboundLordling12.tres")"
+title = "shipbound lordling"
+titleFemale = "shipbound lady"
+titleShort = "ship lord"
+titleShortFemale = "ship lady"
+description = Color([PAWN_nameDef]'s family held their power base on a grand, ancient starship. Born and raised on the ship, [PAWN_nameDef] learned all about the rigors of shipboard life, and the politics and methods of interstellar battle and orbital invasion.
+\n[PAWN_pronoun] learned to feel most at home with strong walls close on all sides and the gentle hiss of atmosphere regulators.)
+slot = "Childhood"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)
+forcedTraits = SubResource(3)

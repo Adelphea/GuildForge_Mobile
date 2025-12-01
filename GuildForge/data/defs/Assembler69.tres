@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Assembler69.tres")"
+title = "assembler"
+titleShort = "assembler"
+description = "[PAWN_nameDef] worked on factory assembly lines, putting together products with the help of robots."
+slot = "Adulthood"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+spawnCategories = SubResource(1)
+requiredWorkTags = SubResource(2)
+skillGains = SubResource(3)

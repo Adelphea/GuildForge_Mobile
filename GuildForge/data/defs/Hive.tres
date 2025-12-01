@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Hive.tres")"
+label = "hive"
+description = Color(A hive of giant insects. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly., 1.0)
+thingClass = "ExtResource("res://GuildForge/data/defs/Hive.tres")"
+graphicData = SubResource(1)
+uiIconScale = "0.65"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+rotatable = "false"
+fillPercent = "0.5"
+statBases = SubResource(2)
+pathCost = "42"
+receivesSignals = "true"
+blockWind = "true"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+passability = "PassThroughOnly"
+killedLeavings = SubResource(3)
+comps = Array[SubResource(4), SubResource(5), SubResource(6), SubResource(9), SubResource(10), SubResource(11), SubResource(12), SubResource(13), SubResource(14), SubResource(15)]

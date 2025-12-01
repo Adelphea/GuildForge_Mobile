@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Greatbow.tres")"
+label = "greatbow"
+description = "Craft greatbows for killing enemies at great range."
+baseCost = "600"
+techLevel = "Medieval"
+prerequisites = SubResource(1)
+researchViewX = "1.00"
+researchViewY = "0.70"
+generalRules = SubResource(2)

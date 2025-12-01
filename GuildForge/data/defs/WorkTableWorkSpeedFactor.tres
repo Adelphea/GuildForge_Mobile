@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WorkTableWorkSpeedFactor.tres")"
+label = "work speed factor"
+description = "Work speed is multiplied by this value."
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+defaultBaseValue = "1"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+showOnNonWorkTables = "false"
+parts = SubResource(1)
+displayPriorityInCategory = "3000"

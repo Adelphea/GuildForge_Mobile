@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DestroyApparel.tres")"
+label = "destroy apparel"
+description = Color(Use heat to destroy unwanted apparel. This process is faster than smelting, and works on non-smeltable items, but yields no resources., 1.0)
+jobString = "Destroying apparel."
+workAmount = "400"
+workSpeedStat = "ExtResource("res://GuildForge/data/defs/SmeltingSpeed.tres")"
+effectWorking = "ExtResource("res://GuildForge/data/defs/Smelt.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/defs/Recipe_Smelt.tres")"
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)
+defaultIngredientFilter = SubResource(7)

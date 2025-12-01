@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ResearchSpeedFactor.tres")"
+label = "research speed factor"
+description = "The speed at which people do research is multiplied by this value."
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+defaultBaseValue = "1"
+minValue = "0.25"
+toStringStyle = "PercentZero"
+showIfUndefined = "false"
+parts = SubResource(1)
+displayPriorityInCategory = "1000"

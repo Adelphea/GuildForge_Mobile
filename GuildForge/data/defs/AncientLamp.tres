@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientLamp.tres")"
+label = "ancient lamp"
+description = "An ancient self-powered lamp. Its internal power supply is badly depleted, but it still emits a weak glow."
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+selectable = "true"
+fillPercent = "0.20"
+pathCost = "14"
+leaveResourcesWhenKilled = "false"
+soundImpactDefault = "ExtResource("res://GuildForge/data/defs/BulletImpact_Metal.tres")"
+rotatable = "false"
+noRightClickDraftAttack = "true"
+graphicData = SubResource(1)
+comps = Array[SubResource(2)]
+statBases = SubResource(3)
+building = SubResource(4)

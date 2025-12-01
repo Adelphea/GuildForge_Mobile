@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ColorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ColorDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Structure_YellowPastel.tres")"
+label = "pastel yellow"
+color = Vector3(204, 204, 100)
+displayOrder = "510"

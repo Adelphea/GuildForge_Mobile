@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Empire_Royal_Bestower.tres")"
+label = "bestower"
+factionHostileOnDeath = "true"
+combatPower = "50"
+weaponMoney = "99999"
+specificApparelRequirements = SubResource(1)
+techHediffsMoney = "1000~4000"
+apparelColor = Vector3(114, 12, 12)
+xenotypeSet = SubResource(6)
+useFactionXenotypes = "false"
+weaponTags = SubResource(9)
+requiredWorkTags = SubResource(10)
+minGenerationAge = "50"
+techHediffsMaxAmount = "3"
+initialWillRange = "6~8"
+initialResistanceRange = "30~46"
+humanPregnancyChance = "0"

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpeedBoost.tres")"
+label = "psychic speed"
+description = "Movement is sped up by the psychic influence of a wielded weapon."
+isBad = "false"
+duplicationAllowed = "false"
+stages = SubResource(1)

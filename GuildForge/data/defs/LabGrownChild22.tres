@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/LabGrownChild22.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/LabGrownChild22.tres")"
+slot = "Childhood"
+title = "lab-grown child"
+titleShort = "lab-grown"
+description = Color([PAWN_nameDef] was born in a laboratory as part of a altruistic but failed attempt to create a new class of human.
+
+[PAWN_possessive] childhood was filled with books and one-on-one tutoring. [PAWN_pronoun] was awkward, shy, and naive to the true nature of humanity., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Animals.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

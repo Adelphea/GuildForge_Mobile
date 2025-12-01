@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientRustedCarFrame.tres")"
+label = "ancient car frame"
+description = "An ancient, rusted car frame. The body shell has long since rusted away to nothing."
+graphicData = SubResource(1)
+size = Vector2(2, 3)
+fillPercent = "0.5"
+passability = "PassThroughOnly"
+pathCost = "50"
+statBases = SubResource(3)
+killedLeavings = SubResource(4)

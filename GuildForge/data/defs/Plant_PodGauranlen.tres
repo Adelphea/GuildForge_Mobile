@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_PodGauranlen.tres")"
+label = "Gauranlen pod"
+description = "A small pod that protects a single Gauranlen seed. This seed can be harvested and used to plant a Gauranlen tree."
+statBases = SubResource(1)
+graphicData = SubResource(2)
+descriptionHyperlinks = SubResource(3)
+selectable = "true"
+neverMultiSelect = "false"
+pathCost = "14"
+preventSkyfallersLandingOn = "true"
+plant = SubResource(4)

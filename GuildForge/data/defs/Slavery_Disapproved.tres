@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Slavery_Disapproved.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Slavery.tres")"
+label = "disapproved"
+description = "Slavery is part of life, though it is extremely distasteful."
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+displayOrderInIssue = "20"
+displayOrderInImpact = "1000"
+defaultSelectionWeight = "1"
+conflictingMemes = SubResource(1)
+associatedMemes = SubResource(2)
+comps = Array[SubResource(3), SubResource(4), SubResource(5), SubResource(6), SubResource(7), SubResource(8), SubResource(9)]

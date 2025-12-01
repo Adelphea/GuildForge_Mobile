@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_AuthorityCap.tres")"
+label = "authority cap"
+description = "A hat with a stiff brim and peaked top. It's not particularly protective, but it creates a sense of authority and makes the wearer more effective in suppressing slaves."
+graphicData = SubResource(1)
+costStuffCount = "25"
+stuffCategories = SubResource(2)
+statBases = SubResource(3)
+equippedStatOffsets = SubResource(4)
+apparel = SubResource(5)
+colorGenerator = SubResource(9)
+tradeTags = SubResource(10)
+recipeMaker = SubResource(11)

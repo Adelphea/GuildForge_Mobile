@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DoBillsStonecut.tres")"
+label = "make stone blocks"
+giverClass = "WorkGiver_DoBill"
+workType = "ExtResource("res://GuildForge/data/defs/Crafting.tres")"
+priorityInType = "90"
+fixedBillGiverDefs = SubResource(1)
+verb = "cut stone blocks at"
+gerund = "cutting stone blocks at"
+requiredCapacities = SubResource(2)
+prioritizeSustains = "true"

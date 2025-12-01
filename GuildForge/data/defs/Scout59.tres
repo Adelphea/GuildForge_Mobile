@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Scout59.tres")"
+title = "scout"
+titleShort = "scout"
+description = "Since [PAWN_possessive] tribe made contact with local outlanders, [PAWN_nameDef] contracted [PAWN_possessive] services out as a guide. Frequent contact with ancient technology made [PAWN_objective] comfortable with the lost machines."
+slot = "Adulthood"
+spawnCategories = SubResource(1)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+skillGains = SubResource(2)
+requiredWorkTags = SubResource(3)
+forcedTraits = SubResource(4)
+possessions = SubResource(5)

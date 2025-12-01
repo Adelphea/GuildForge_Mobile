@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SmokeleafLeaves.tres")"
+label = "smokeleaf leaves"
+description = "Raw cut leaves of a smokeleaf plant. Can be rolled into smokeable joints at a crafting spot."
+graphicData = SubResource(1)
+statBases = SubResource(2)
+comps = Array[SubResource(3)]
+thingCategories = SubResource(4)
+ingestible = SubResource(5)

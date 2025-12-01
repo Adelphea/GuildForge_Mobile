@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Rhinoceros.tres")"
+label = "rhinoceros"
+labelPlural = "rhinoceroses"
+race = "ExtResource("res://GuildForge/data/defs/Rhinoceros.tres")"
+combatPower = "270"
+ecoSystemWeight = "1.5"
+wildGroupSize = "1~4"
+lifeStages = SubResource(1)

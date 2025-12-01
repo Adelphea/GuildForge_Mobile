@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TraderKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TraderKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Orbital_CombatSupplier.tres")"
+label = "combat supplier"
+orbital = "true"
+faction = SubResource(1)
+stockGenerators = SubResource(2)

@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SteamworldTinker38.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SteamworldTinker38.tres")"
+slot = "Childhood"
+title = "steamworld tinker"
+titleShort = "tinker"
+description = Color(In the slums of a steamworld, [PAWN_nameDef] developed a fascination with machines and contraptions. [PAWN_pronoun] found [PAWN_pronoun] preferred their company to that of other people. \n\n[PAWN_possessive] remarkable dexterity earned [PAWN_objective] a steady stream of pocket change, and [PAWN_pronoun] spent every penny on spare parts and tools to play with., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"
+possessions = SubResource(2)

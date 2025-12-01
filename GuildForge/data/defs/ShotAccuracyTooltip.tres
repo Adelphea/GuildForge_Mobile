@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShotAccuracyTooltip.tres")"
+label = "Shot accuracy tooltip"
+priority = "1"
+helpText = Color(You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers.)

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WakeUpAddiction.tres")"
+label = "wake-up addiction"
+description = "A chemical addiction to wake-up. Long-term presence of wake-up has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of wake-up, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction."
+hediffClass = "Hediff_Addiction"
+chemicalNeed = "ExtResource("res://GuildForge/data/defs/Chemical_WakeUp.tres")"
+comps = Array[SubResource(1)]
+stages = SubResource(2)

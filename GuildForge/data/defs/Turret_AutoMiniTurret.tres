@@ -1,0 +1,27 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Turret_AutoMiniTurret.tres")"
+label = "mini-slugger turret"
+description = "A self-powered defense turret mounted with a weak but long-ranged slug-thrower. May explode when damaged."
+thingClass = "Building_TurretGun"
+drawerType = "MapMeshAndRealTime"
+graphicData = SubResource(1)
+receivesSignals = "true"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+stealable = "false"
+rotatable = "false"
+drawHighlight = "true"
+drawHighlightOnlyForHostile = "true"
+statBases = SubResource(4)
+damageMultipliers = SubResource(5)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+comps = Array[SubResource(7), SubResource(8), SubResource(9), SubResource(10), SubResource(13)]
+killedLeavings = SubResource(14)
+passability = "PassThroughOnly"
+pathCost = "50"
+fillPercent = "0.4"
+hasTooltip = "true"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+building = SubResource(15)

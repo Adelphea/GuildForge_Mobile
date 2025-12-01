@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+canOverlapZones = "false"
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+thingCategories = SubResource(1)
+statBases = SubResource(2)
+interactionCellIcon = "ExtResource("res://GuildForge/data/defs/DiningChair.tres")"
+noRightClickDraftAttack = "true"
+comps = Array[SubResource(3)]
+placeWorkers = SubResource(4)
+building = SubResource(5)

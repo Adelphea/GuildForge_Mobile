@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BeardDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BeardDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TriBraid.tres")"
+label = "tri-braid"
+texPath = "Things/Pawn/Humanlike/Beards/BeardNori"
+styleGender = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+category = "ExtResource("res://GuildForge/data/defs/Tribal.tres")"
+styleTags = SubResource(1)

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Mech_Scyther.tres")"
+label = "scyther"
+race = "ExtResource("res://GuildForge/data/defs/Mech_Scyther.tres")"
+combatPower = "150"
+lifeStages = SubResource(1)
+weaponMoney = "0~0"
+defendPointRadius = "0"
+weaponTags = None
+techHediffsChance = "1"
+techHediffsMoney = "9999~9999"

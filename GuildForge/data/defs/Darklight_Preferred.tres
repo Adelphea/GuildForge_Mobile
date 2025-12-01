@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Darklight_Preferred.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Lighting.tres")"
+label = "darklight preferred"
+description = "Normal lights are too bright. Darklights are better."
+impact = "ExtResource("res://GuildForge/data/defs/High.tres")"
+displayOrderInIssue = "0"
+associatedMemes = SubResource(1)
+conflictingMemes = SubResource(2)
+prefersDarkness = "true"
+comps = Array[SubResource(3), SubResource(4), SubResource(5)]

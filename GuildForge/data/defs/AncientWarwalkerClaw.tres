@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientWarwalkerClaw.tres")"
+label = "ancient warwalker claw"
+description = "The assault claw of an ancient mid-scale warwalker. This weapon specialized in tearing through heavy plasteel armor at close range. Its valuable components were looted long ago."
+graphicData = SubResource(1)
+size = Vector2(1, 2)
+fillPercent = "0.5"
+passability = "PassThroughOnly"
+pathCost = "50"
+statBases = SubResource(3)
+killedLeavings = SubResource(4)

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Blind_Psysense.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/BlindPsysense.tres")"
+label = "strong"
+description = "Our blind have special ways of connecting with the psychic aether."
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+displayOrderInImpact = "100"
+defaultSelectionWeight = "0"
+blindPsychicSensitivityOffset = "0.3"
+approvesOfBlindness = "true"
+requiredMemes = SubResource(1)

@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ButcheryMechanoidSpeed.tres")"
+label = "mechanoid shredding speed"
+description = "The speed at which this person can shred a mechanoid for resources."
+skillNeedFactors = SubResource(1)
+displayPriorityInCategory = "4521"

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_JoyGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_JoyGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BuildSnowman.tres")"
+giverClass = "JoyGiver_BuildSnowman"
+baseChance = "0.75"
+jobDef = "ExtResource("res://GuildForge/data/defs/BuildSnowman.tres")"
+joyKind = "ExtResource("res://GuildForge/data/defs/Meditative.tres")"
+requiredCapacities = SubResource(1)
+requiresEnjoyOutdoors = "true"

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_Chokevine.tres")"
+label = "chokevine"
+description = Color(Tangled masses of cord-like, spiky vines which coil in great masses along the ground. Chokevine greatly slows down anyone who moves over it. Multiple tribes have independently generated stories of chokevine strangling children to death in the night, as a way to scare kids into coming home before dark., 1.0)
+statBases = SubResource(1)
+pathCost = "42"
+graphicData = SubResource(2)
+ingestible = None
+plant = SubResource(3)

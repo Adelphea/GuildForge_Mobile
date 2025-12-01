@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SoftSand.tres")"
+label = "soft sand"
+texturePath = "Terrain/Surfaces/SoftSand"
+edgeType = "FadeRough"
+renderPrecedence = "352"
+pathCost = "14"
+driesTo = "ExtResource("res://GuildForge/data/defs/Sand.tres")"
+categoryType = "ExtResource("res://GuildForge/data/defs/Sand.tres")"
+statBases = SubResource(1)
+affordances = SubResource(2)
+generatedFilth = "ExtResource("res://GuildForge/data/defs/Filth_Sand.tres")"
+fertility = "0"
+takeFootprints = "true"
+tools = SubResource(3)
+pollutionColor = Color((1, 1, 1, 0.25))

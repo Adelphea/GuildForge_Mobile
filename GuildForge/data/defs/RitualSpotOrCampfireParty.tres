@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualObligationTargetFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualObligationTargetFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RitualSpotOrCampfireParty.tres")"
+workerClass = "RitualObligationTargetWorker_CampfireParty"
+maxDrumDistance = "12"
+thingDefs = SubResource(1)

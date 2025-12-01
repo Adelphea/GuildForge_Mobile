@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RapportBuilt.tres")"
+thoughtClass = "Thought_MemorySocial"
+durationDays = "20"
+stackedEffectMultiplier = "1"
+stackLimit = "300"
+stackLimitForSameOtherPawn = "50"
+developmentalStageFilter = Color(Baby, Child, Adult, 1.0)
+socialTargetDevelopmentalStageFilter = Color(Baby, Child, Adult, 1.0)
+stages = SubResource(1)

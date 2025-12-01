@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Indoors_Acceptable.tres")"
+label = "preferred"
+issue = "ExtResource("res://GuildForge/data/defs/Indoors.tres")"
+description = "We were meant to live indoors. There's nothing bothersome about being in tight quarters."
+impact = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+displayOrderInImpact = "100"
+requiredMemes = SubResource(1)
+enablesNeeds = SubResource(3)
+disablesNeeds = SubResource(4)

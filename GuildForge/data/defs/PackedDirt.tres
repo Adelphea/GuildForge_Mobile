@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PackedDirt.tres")"
+label = "packed dirt"
+texturePath = "Terrain/Surfaces/PackedDirt"
+edgeType = "FadeRough"
+categoryType = "ExtResource("res://GuildForge/data/defs/Soil.tres")"
+renderPrecedence = "360"
+pathCost = "1"
+resourcesFractionWhenDeconstructed = "0"
+statBases = SubResource(1)
+scatterType = "Rocky"
+affordances = SubResource(2)
+generatedFilth = "ExtResource("res://GuildForge/data/defs/Filth_Dirt.tres")"
+fertility = "0.0"
+tags = SubResource(3)

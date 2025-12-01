@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/KneelPillow.tres")"
+label = "kneel pillow"
+description = Color(A pillow on which believers kneel while observing rituals, praying, or discussing., 1.0)
+altitudeLayer = "FloorEmplacement"
+graphicData = SubResource(1)
+fillPercent = "0.05"
+size = Vector2(1, 1)
+stuffCategories = SubResource(2)
+costStuffCount = "25"
+statBases = SubResource(3)
+building = SubResource(4)

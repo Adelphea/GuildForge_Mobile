@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PlantHarvestYield.tres")"
+label = "plant harvest yield"
+description = "The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest."
+category = "ExtResource("res://GuildForge/data/defs/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+maxValue = "1.5"
+toStringStyle = "PercentZero"
+neverDisabled = "true"
+skillNeedFactors = SubResource(1)
+capacityFactors = SubResource(4)
+scenarioRandomizable = "true"
+displayPriorityInCategory = "4551"

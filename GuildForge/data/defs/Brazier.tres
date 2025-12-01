@@ -1,0 +1,30 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Brazier.tres")"
+label = "brazier"
+description = "A bowl-shaped furnishing used to hold a fire. Will light the surroundings and create heat."
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+drawerType = "RealtimeOnly"
+fillPercent = "0.15"
+statBases = SubResource(1)
+selectable = "true"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Furniture.tres")"
+uiOrder = "2820"
+uiIconOffset = Vector2(0, -0.04)
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+stuffCategories = SubResource(2)
+costStuffCount = "50"
+placeWorkers = SubResource(3)
+drawPlaceWorkersWhileSelected = "true"
+comps = Array[SubResource(4), SubResource(7), SubResource(8), SubResource(9), SubResource(10)]
+canOverlapZones = "false"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+pathCost = "42"
+rotatable = "false"
+researchPrerequisites = SubResource(20)
+graphicData = SubResource(21)
+building = SubResource(24)

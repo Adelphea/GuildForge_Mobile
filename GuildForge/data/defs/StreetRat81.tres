@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/StreetRat81.tres")"
+title = "street rat"
+titleShort = "street rat"
+description = Color([PAWN_nameDef] belonged to a gang of street thieves. [PAWN_possessive] days were spent picking pockets, settling disputes over territory, or high on whatever drugs [PAWN_pronoun] could get [PAWN_possessive] hands on., 1.0)
+slot = "Childhood"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)
+requiredWorkTags = SubResource(3)
+forcedTraits = SubResource(4)

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AllowChildOnlyApparel.tres")"
+label = "allow child-only apparel"
+description = "Allow clothing that can only be worn by children."
+parentCategory = "ExtResource("res://GuildForge/data/defs/Apparel.tres")"
+allowedByDefault = "true"
+configurable = "false"
+saveKey = "allowChildOnlyApparel"
+workerClass = "SpecialThingFilterWorker_ChildOnlyApparel"

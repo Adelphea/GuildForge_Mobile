@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_MachinePistol.tres")"
+label = "machine pistol"
+description = "A micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness."
+graphicData = SubResource(1)
+uiIconScale = "1.4"
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_SMG.tres")"
+weaponClasses = SubResource(2)
+weaponTags = SubResource(3)
+recipeMaker = SubResource(4)
+statBases = SubResource(6)
+costList = SubResource(7)
+verbs = SubResource(8)
+tools = SubResource(10)

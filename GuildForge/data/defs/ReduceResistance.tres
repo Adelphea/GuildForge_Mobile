@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PrisonerInteractionModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PrisonerInteractionModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ReduceResistance.tres")"
+label = "reduce resistance only"
+isChildInteraction = "true"
+listOrder = "11"
+allowOnWildMan = "False"
+description = "If the prisoner still has resistance, wardens will speak to them to reduce it. No recruit attempts will be made."
+hideIfNotRecruitable = "true"

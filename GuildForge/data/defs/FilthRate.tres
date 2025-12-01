@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FilthRate.tres")"
+label = "filth rate"
+description = "How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem."
+category = "ExtResource("res://GuildForge/data/defs/BasicsPawn.tres")"
+showOnMechanoids = "false"
+showOnEntities = "false"
+showOnDrones = "false"
+defaultBaseValue = "1"
+minValue = "0"
+toStringStyle = "FloatOne"
+displayPriorityInCategory = "2203"

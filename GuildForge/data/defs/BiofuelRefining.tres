@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BiofuelRefining.tres")"
+label = "biofuel refining"
+description = "Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs."
+baseCost = "700"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+researchViewX = "7.00"
+researchViewY = "2.70"
+generalRules = SubResource(2)

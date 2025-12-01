@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SlaveFarmer99.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SlaveFarmer99.tres")"
+slot = "Childhood"
+title = "slave farmer"
+titleShort = "slave"
+description = Color(Abandoned as a little girl, [PAWN_nameDef] was found by a farmer. Being infertile [PAWN_objective]self, the farmer kept [PAWN_objective] as a slave. The constant beatings left [PAWN_objective] scarred and unable to handle violence. After many years, [PAWN_pronoun] ran away.)
+skillGains = SubResource(1)
+workDisables = "Violent"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+shuffleable = "False"

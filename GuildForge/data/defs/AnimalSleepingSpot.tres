@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AnimalSleepingSpot.tres")"
+thingClass = "Building_Bed"
+label = "animal sleeping spot"
+description = "Designates a spot on the ground where animals should sleep."
+size = Vector2(1, 1)
+passability = "Standable"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Furniture.tres")"
+uiOrder = "2035"
+scatterableOnMapGen = "false"
+useHitPoints = "False"
+altitudeLayer = "FloorEmplacement"
+rotatable = "false"
+graphicData = SubResource(1)
+uiIconScale = "0.80"
+statBases = SubResource(2)
+drawGUIOverlay = "true"
+building = SubResource(3)
+comps = Array[SubResource(4)]

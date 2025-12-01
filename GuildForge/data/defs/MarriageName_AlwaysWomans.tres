@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MarriageName_AlwaysWomans.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/MarriageName.tres")"
+label = "always woman's"
+description = "Couples must share the woman's name."
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+displayOrderInIssue = "30"
+displayOrderInImpact = "-1000"
+associatedMemes = SubResource(1)
+comps = Array[SubResource(2), SubResource(3)]

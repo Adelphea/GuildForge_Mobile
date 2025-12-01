@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PackagedSurvivalMeal.tres")"
+label = "packaged survival meal"
+description = "Produce packaged survival meals which never go bad. Great for traveling."
+baseCost = "500"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+researchViewX = "9.00"
+researchViewY = "1.50"
+generalRules = SubResource(2)

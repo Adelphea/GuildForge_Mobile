@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TaleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TaleDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TornadoFromItem.tres")"
+label = "tornado"
+taleClass = "Tale_DoublePawn"
+type = "Volatile"
+baseInterest = "50"
+firstPawnSymbol = "ATTACKER"
+secondPawnSymbol = "COLONIST"
+rulePack = SubResource(1)

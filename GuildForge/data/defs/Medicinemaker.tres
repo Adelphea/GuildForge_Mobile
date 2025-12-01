@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_GauranlenTreeModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_GauranlenTreeModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Medicinemaker.tres")"
+label = "medicinemaker"
+description = Color(A dryad caste specialized in medicine production. Together with its Gauranlen tree, this dryad can generate medicinal herbs on an ongoing basis. However, it is slow and ineffective at work or combat., 1.0)
+drawPosition = Vector2(0, 0.665)
+pawnKindDef = "ExtResource("res://GuildForge/data/defs/Dryad_Medicinemaker.tres")"
+displayedStats = SubResource(1)
+hyperlinks = SubResource(2)

@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/StudentEngineer34.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/StudentEngineer34.tres")"
+slot = "Childhood"
+title = "student engineer"
+titleShort = "engineer"
+description = Color(A genius child, [PAWN_nameDef] was put in a special training program covering aerospace warfare and engineering.
+
+One day, [PAWN_pronoun] tried to befriend a squirrel by giving it a bracelet. The squirrel bit [PAWN_objective], earning [PAWN_objective] the nickname “Squirrel {PAWN_gender ? Boy : Girl}”.
+
+[PAWN_nameDef] came to believe that work involving manual labor is beneath [PAWN_objective].)
+skillGains = SubResource(1)
+workDisables = "ManualDumb"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

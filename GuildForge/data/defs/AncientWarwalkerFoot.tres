@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientWarwalkerFoot.tres")"
+label = "ancient warwalker foot"
+description = "A massive foot from an ancient warwalker. It seems to have been torn free from its owner by some kind of heavy weapon. All the useful components were looted or deteriorated long ago."
+rotatable = "false"
+graphicData = SubResource(1)
+size = Vector2(2, 2)
+fillPercent = "0.5"
+passability = "PassThroughOnly"
+pathCost = "50"
+statBases = SubResource(3)
+killedLeavings = SubResource(4)

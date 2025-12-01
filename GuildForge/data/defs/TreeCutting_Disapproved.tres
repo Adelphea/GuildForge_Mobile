@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TreeCutting_Disapproved.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/TreeCutting.tres")"
+label = "disapproved"
+description = "To cut down a tree is a distasteful thing to do."
+impact = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "1000"
+warnPlayerOnDesignateChopTree = "true"
+conflictingMemes = SubResource(1)
+associatedMemes = SubResource(2)
+disallowLoggingCamps = "true"
+comps = Array[SubResource(3), SubResource(4), SubResource(5), SubResource(6)]

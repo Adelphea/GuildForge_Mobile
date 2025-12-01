@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_GrassAnima.tres")"
+label = "anima grass"
+description = "A grass infused with luminous microorganisms. Tribal peoples find that anima grass grows around the base of an anima tree as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nOffworld scientists have tried to study the phenomenon, but the grass degenerates into normal plant matter when observed too closely.\n\nAnimals refuse eat anima grass. Tribal stories say this is done out of respect and fear."
+statBases = SubResource(1)
+graphicData = SubResource(2)
+plant = SubResource(3)

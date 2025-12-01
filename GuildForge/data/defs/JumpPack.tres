@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/JumpPack.tres")"
+label = "jump packs"
+description = "Build jump packs to perform aerial assaults during combat."
+baseCost = "2000"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+techprintCount = "1"
+techprintCommonality = "2"
+techprintMarketValue = "2000"
+heldByFactionCategoryTags = SubResource(3)
+requiredResearchBuilding = "ExtResource("res://GuildForge/data/defs/HiTechResearchBench.tres")"
+researchViewX = "11.00"
+researchViewY = "2.40"
+generalRules = SubResource(4)

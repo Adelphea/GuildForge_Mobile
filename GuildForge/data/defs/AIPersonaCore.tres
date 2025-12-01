@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AIPersonaCore.tres")"
+label = "persona core"
+description = Color(A hyper-advanced computer core that houses a peak-human-equivalent machine persona. In its isolated state, the core is dormant. Installed in a proper support structure, however, it can become a mind of great power.)
+graphicData = SubResource(1)
+resourceReadoutPriority = "ExtResource("res://GuildForge/data/defs/Middle.tres")"
+soundInteract = "ExtResource("res://GuildForge/data/defs/Metal_Drop.tres")"
+soundDrop = "ExtResource("res://GuildForge/data/defs/Metal_Drop.tres")"
+stackLimit = "1"
+useHitPoints = "true"
+statBases = SubResource(2)
+thingCategories = SubResource(3)
+drawGUIOverlay = "false"
+tradeability = "Sellable"
+techLevel = "Ultra"
+tradeTags = SubResource(4)

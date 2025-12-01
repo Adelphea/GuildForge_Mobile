@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HistoryAutoRecorderDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HistoryAutoRecorderDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ColonistMood.tres")"
+label = "mood"
+graphColor = Color((0, 1, 0, 1))
+recordTicksFrequency = "30000"
+workerClass = "HistoryAutoRecorderWorker_ColonistMood"
+valueFormat = "{0}%"

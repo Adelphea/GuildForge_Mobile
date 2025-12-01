@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Pickpocket82.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Pickpocket82.tres")"
+slot = "Childhood"
+title = "pickpocket"
+titleShort = "pickpocket"
+description = "Orphaned and abandoned on the tumultuous streets of [PAWN_possessive] polluted, teeming homeworld, [PAWN_nameDef] survived by deft hand and fleet foot. A natural born thief and trickster, [PAWN_pronoun] rose to prominence early, running the notorious and violent urchin gang 'Doomben Rats'."
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = "Cleaning, PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

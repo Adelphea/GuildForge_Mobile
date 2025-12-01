@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MilitaryRecruit49.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MilitaryRecruit49.tres")"
+slot = "Childhood"
+title = "military recruit"
+titleShort = "recruit"
+description = "[PAWN_nameDef] was born on a midworld run by an intensely militaristic dictatorship.
+
+From a young age, [PAWN_pronoun] was trained to be a good soldier. They taught [PAWN_objective] how to use a gun and how to fight with melee weapons."
+skillGains = SubResource(1)
+workDisables = "Caring"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

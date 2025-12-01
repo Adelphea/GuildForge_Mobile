@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/VatgrownChild11.tres")"
+title = "vatgrown child"
+titleShort = "child"
+description = "[PAWN_nameDef] spent most of [PAWN_possessive] childhood in a growth vat."
+slot = "Childhood"
+spawnCategories = SubResource(1)
+requiresSpawnCategory = "true"

@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WeaponTraitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WeaponTraitDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PsyfocusMeditationBonus.tres")"
+label = "psy-meditative"
+description = "This weapon's persona is naturally meditative and helps its wielder focus in psychic meditation. The wielder gains an extra 10% psyfocus per day of meditation, as long as the weapon is held."
+equippedStatOffsets = SubResource(1)
+commonality = "1"
+marketValueOffset = "500"

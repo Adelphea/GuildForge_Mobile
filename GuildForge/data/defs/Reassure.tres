@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InteractionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InteractionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Reassure.tres")"
+label = "reassurance"
+symbol = "UI/Abilities/Reassure"
+logRulesInitiator = SubResource(1)

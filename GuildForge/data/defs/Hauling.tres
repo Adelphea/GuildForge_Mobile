@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Hauling.tres")"
+labelShort = "haul"
+pawnLabel = "Hauler"
+gerundLabel = "hauling"
+description = "Carry things to where they need to be."
+verb = "ExtResource("res://GuildForge/data/defs/Haul.tres")"
+naturalPriority = "300"
+alwaysStartActive = "true"
+requireCapableColonist = "true"
+workTags = SubResource(1)

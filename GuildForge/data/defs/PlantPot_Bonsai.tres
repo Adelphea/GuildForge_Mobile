@@ -1,0 +1,23 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PlantPot_Bonsai.tres")"
+label = "bonsai pot"
+description = "This special pot is suitable for planting bonsai trees, which can improve the mood of people nearby and satisfy ideoligious requirements."
+thingClass = "Building_PlantGrower"
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+fillPercent = "0.20"
+statBases = SubResource(2)
+stuffCategories = SubResource(3)
+costStuffCount = "24"
+comps = Array[SubResource(4)]
+researchPrerequisites = SubResource(5)
+fertility = "1.0"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc9.tres")"
+uiOrder = "2610"
+leaveResourcesWhenKilled = "false"
+building = SubResource(6)
+rotatable = "false"

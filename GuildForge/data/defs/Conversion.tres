@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualOutcomeEffectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualOutcomeEffectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Conversion.tres")"
+description = Color(If it goes well, target's ideoligion certainty will be reduced or they will convert. If it goes badly, they will gain certainty in their old beliefs., 1.0)
+workerClass = "RitualOutcomeEffectWorker_Conversion"
+comps = Array[SubResource(1), SubResource(4), SubResource(7), SubResource(10)]
+outcomeChances = SubResource(12)

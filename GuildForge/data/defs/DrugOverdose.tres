@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DrugOverdose.tres")"
+label = "drug overdose"
+labelNoun = "a drug overdose"
+description = "Generalized toxic effects due to over-concentration of drugs in the bloodstream."
+hediffClass = "HediffWithComps"
+defaultLabelColor = Vector3(1, 0, 0.5)
+lethalSeverity = "1"
+comps = Array[SubResource(1), SubResource(2)]
+stages = SubResource(3)

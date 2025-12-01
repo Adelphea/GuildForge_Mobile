@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FallenProdigy40.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/FallenProdigy40.tres")"
+slot = "Childhood"
+title = "fallen prodigy"
+titleShort = "prodigy"
+description = "[PAWN_nameDef] was born on a glitterworld falling into chaos. [PAWN_possessive] father was killed in action.
+
+[PAWN_pronoun] struggled for a scholarship at Utmaior Academy and had to prove [PAWN_possessive] right to be there. A child genius, [PAWN_pronoun] was bullied as a charity case and couldn't make friends with the other kids."
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = "ExtResource("res://GuildForge/data/defs/Social.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

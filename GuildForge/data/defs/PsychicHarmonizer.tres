@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PsychicHarmonizer.tres")"
+label = "psychic harmonizer"
+description = "This brain implant projects the user's mood in a spherical psychic field, forcing others nearby to feel a blurred, simplified version of their emotions. It can be a powerful tool to keep morale high, but if the user becomes unhappy, it can lead to collective disaster."
+descriptionHyperlinks = SubResource(1)
+statBases = SubResource(2)

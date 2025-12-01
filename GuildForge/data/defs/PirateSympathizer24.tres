@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PirateSympathizer24.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/PirateSympathizer24.tres")"
+slot = "Adulthood"
+title = "pirate sympathizer"
+titleShort = "pirate"
+description = Color(From [PAWN_possessive] youth, [PAWN_nameDef] developed connections in the underworld. There [PAWN_pronoun] trained in melee combat and became a trusted underworld advisor.\n\nAfter participating in a failed rebellion, [PAWN_pronoun] fled [PAWN_possessive] homeworld to travel with a pirate band., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+shuffleable = "False"

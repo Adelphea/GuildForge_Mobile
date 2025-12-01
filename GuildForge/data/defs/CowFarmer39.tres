@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CowFarmer39.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/CowFarmer39.tres")"
+slot = "Childhood"
+title = "cow farmer"
+titleShort = "farmer"
+description = "[PAWN_nameDef] grew up on a rimworld, under the tyranny of [PAWN_possessive] father, who forced [PAWN_objective] to work every day on the farm. [PAWN_pronoun] dreamed of escaping [PAWN_possessive] father and exploring the universe.
+
+One day, when the trade ship was overhead, [PAWN_pronoun] stowed away among the goods in the launch pods, and escaped into space."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

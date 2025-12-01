@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InteractionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InteractionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Slight.tres")"
+label = "slight"
+workerClass = "InteractionWorker_Slight"
+symbol = "Things/Mote/SpeechSymbols/Slight"
+socialFightBaseChance = "0.005"
+recipientThought = "ExtResource("res://GuildForge/data/defs/Slighted.tres")"
+logRulesInitiator = SubResource(1)

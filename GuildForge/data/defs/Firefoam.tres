@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Firefoam.tres")"
+label = "firefoam"
+description = "Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames."
+baseCost = "600"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+researchViewX = "7.00"
+researchViewY = "1.50"
+generalRules = SubResource(2)

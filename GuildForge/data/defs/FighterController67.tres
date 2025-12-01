@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FighterController67.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/FighterController67.tres")"
+slot = "Adulthood"
+title = "fighter controller"
+titleShort = "controller"
+description = "During the Zartha crisis, [PAWN_nameDef] fought across many worlds, providing the vital link between the ground and the air as a fighter controller. During the campaign, [PAWN_pronoun] saw friends injured and killed. This mental trauma haunts [PAWN_possessive] dreams to this day, but [PAWN_possessive] aim remains sharp."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Intellectual.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+disallowedTraits = SubResource(3)
+shuffleable = "False"

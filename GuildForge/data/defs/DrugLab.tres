@@ -1,0 +1,31 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DrugLab.tres")"
+label = "drug lab"
+description = Color(A work bench equipped with containers, heaters, and measurement devices for producing various drugs., 1.0)
+thingClass = "Building_WorkTable"
+graphicData = SubResource(1)
+castEdgeShadows = "true"
+staticSunShadowHeight = "0.20"
+costStuffCount = "50"
+stuffCategories = SubResource(3)
+costList = SubResource(4)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+fillPercent = "0.5"
+useHitPoints = "True"
+statBases = SubResource(5)
+size = Vector2(3, 1)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Production.tres")"
+passability = "PassThroughOnly"
+pathCost = "50"
+hasInteractionCell = "True"
+interactionCellOffset = Vector3(0, 0, -1)
+surfaceType = "Item"
+constructionSkillPrerequisite = "4"
+inspectorTabs = SubResource(6)
+building = SubResource(7)
+comps = Array[SubResource(8)]
+placeWorkers = SubResource(10)
+researchPrerequisites = SubResource(11)

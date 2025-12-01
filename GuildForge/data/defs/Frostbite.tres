@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Frostbite.tres")"
+label = "frostbite"
+description = "Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost."
+displayWound = "false"
+comps = Array[SubResource(1), SubResource(2), SubResource(3)]
+injuryProps = SubResource(4)

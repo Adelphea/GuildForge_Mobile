@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Make_Kibble.tres")"
+label = "make kibble"
+description = "Make animal kibble by combining raw meat and plants."
+jobString = "Making kibble."
+workAmount = "450"
+workSpeedStat = "ExtResource("res://GuildForge/data/defs/CookSpeed.tres")"
+effectWorking = "ExtResource("res://GuildForge/data/defs/Cook.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/defs/Recipe_CookMeal.tres")"
+allowMixingIngredients = "true"
+ingredientValueGetterClass = "IngredientValueGetter_Nutrition"
+ingredients = SubResource(1)
+products = SubResource(9)
+fixedIngredientFilter = SubResource(10)
+defaultIngredientFilter = SubResource(13)
+workSkill = "ExtResource("res://GuildForge/data/defs/Cooking.tres")"

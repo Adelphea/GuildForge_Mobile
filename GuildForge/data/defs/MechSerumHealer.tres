@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MechSerumHealer.tres")"
+label = "healer mech serum"
+description = "A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed."
+graphicData = SubResource(1)
+stackLimit = "10"
+statBases = SubResource(2)
+thingCategories = SubResource(3)
+tradeability = "Sellable"
+comps = Array[SubResource(4), SubResource(5), SubResource(6), SubResource(7)]
+thingSetMakerTags = SubResource(8)

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Delinquent13.tres")"
+title = "delinquent"
+titleShort = "delinquent"
+description = "[PAWN_nameDef] spent most of [PAWN_possessive] childhood behind bars. Following an unsuccessful escape attempt, [PAWN_pronoun] was pressed into the military."
+slot = "Childhood"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)
+requiredWorkTags = SubResource(3)
+workDisables = SubResource(4)

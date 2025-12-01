@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Nudity_Male_UncoveredGroinDisapproved.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Nudity_Male.tres")"
+label = "pants"
+description = "Men must cover their groin. The rest of the body may be covered, or not."
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+displayOrderInIssue = "70"
+displayOrderInImpact = "750"
+defaultSelectionWeight = "1"
+classic = "true"
+comps = Array[SubResource(1), SubResource(2)]

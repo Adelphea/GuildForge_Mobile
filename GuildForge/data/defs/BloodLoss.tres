@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BloodLoss.tres")"
+label = "blood loss"
+description = Color(A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.
+\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply., 1.0)
+lethalSeverity = "1"
+stages = SubResource(1)

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_TreePine.tres")"
+label = "pine tree"
+description = "A large conifer covered with prickly pine cones. It grows in a distinctive conical shape."
+graphicData = SubResource(1)
+statBases = SubResource(3)
+ingestible = None
+plant = SubResource(4)

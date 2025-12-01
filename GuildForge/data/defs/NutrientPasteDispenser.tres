@@ -1,0 +1,30 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/NutrientPasteDispenser.tres")"
+label = "nutrient paste dispenser"
+description = "A machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay."
+thingClass = "Building_NutrientPasteDispenser"
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "Impassable"
+blockWind = "true"
+fillPercent = "1"
+statBases = SubResource(4)
+building = SubResource(5)
+comps = Array[SubResource(7), SubResource(8), SubResource(9)]
+size = Vector2(3, 4)
+costList = SubResource(10)
+placeWorkers = SubResource(11)
+socialPropernessMatters = "true"
+interactionCellOffset = Vector3(0, 0, 3)
+hasInteractionCell = "true"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Production.tres")"
+uiOrder = "2130"
+constructEffect = "ExtResource("res://GuildForge/data/defs/ConstructMetal.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc6.tres")"
+canOverlapZones = "false"
+constructionSkillPrerequisite = "5"
+researchPrerequisites = SubResource(12)

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AlcoholHigh.tres")"
+label = "alcohol"
+labelNoun = "drunkenness"
+description = "Alcohol in the bloodstream. It makes people happy, but reduces capacities."
+hediffClass = "Hediff_Alcohol"
+defaultLabelColor = Vector3(1, 0, 0.5)
+scenarioCanAdd = "true"
+isBad = "false"
+comps = Array[SubResource(1), SubResource(2)]
+stages = SubResource(3)

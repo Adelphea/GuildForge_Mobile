@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/LostMarine81.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/LostMarine81.tres")"
+slot = "Adulthood"
+title = "lost marine"
+titleShort = "traitor"
+description = Color(Shortly after being promoted to a respected position in [PAWN_possessive] planet's military, [PAWN_nameDef] disappeared without a trace.\n\nLater, [PAWN_pronoun] reappeared at the head of [PAWN_possessive] own military force. No one knows why [PAWN_pronoun] became who [PAWN_pronoun] was., 1.0)
+skillGains = SubResource(1)
+workDisables = "ManualDumb, Mining"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+shuffleable = "False"

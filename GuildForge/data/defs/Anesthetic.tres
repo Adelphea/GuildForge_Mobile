@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Anesthetic.tres")"
+label = "anesthetic"
+description = "Sleep drugs in the bloodstream. Anesthetic renders creatures unconscious."
+isBad = "false"
+initialSeverity = "1"
+maxSeverity = "1"
+comps = Array[SubResource(1), SubResource(2)]
+stages = SubResource(3)

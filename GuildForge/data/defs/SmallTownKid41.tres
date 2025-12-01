@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SmallTownKid41.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SmallTownKid41.tres")"
+slot = "Childhood"
+title = "small town kid"
+titleShort = "town kid"
+description = Color([PAWN_nameDef] grew up in an isolated midworld village, surrounded by opticows and countryside.
+
+[PAWN_possessive] parents taught [PAWN_objective] a wide range of useful domestic skills, but a peaceful and secure childhood left [PAWN_objective] with little understanding of the harder parts of life., 1.0)
+skillGains = SubResource(1)
+workDisables = "Violent"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

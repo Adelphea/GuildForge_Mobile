@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PsychiteTea.tres")"
+label = "psychite tea"
+description = Color(A fragrant tea infused with leaves of the psychoid plant. Drinking it induces a subtle psychite euphoria. This tea is easy to produce at cooking facilities, but can produce psychite addiction if consumed too often.\n\nMany tribes use psychoid tea, both as a daily energizer and as part of social and religious rituals., 1.0)
+descriptionHyperlinks = SubResource(1)
+graphicData = SubResource(2)
+rotatable = "false"
+statBases = SubResource(3)
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+ingestible = SubResource(4)
+recipeMaker = SubResource(11)
+costList = SubResource(14)
+comps = Array[SubResource(15)]

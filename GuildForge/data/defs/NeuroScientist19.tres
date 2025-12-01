@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/NeuroScientist19.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/NeuroScientist19.tres")"
+slot = "Adulthood"
+title = "neuro scientist"
+titleShort = "scientist"
+description = "[PAWN_nameDef] worked for a long time to improve mankind's understanding of the human brain.\n\nAfter succeeding in mapping the whole brain, [PAWN_nameDef] joined a team of scientists on a quest to map the brains of the most exotic altered humans."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

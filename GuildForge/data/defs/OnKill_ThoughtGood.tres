@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WeaponTraitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WeaponTraitDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OnKill_ThoughtGood.tres")"
+label = "kill-happy"
+description = Color(This weapon's persona loves to kill. If this weapon kills someone, its joy will transmit psychically to the wielder, making them happier for a few days., 1.0)
+killThought = "ExtResource("res://GuildForge/data/defs/OnKill_GoodThought.tres")"
+commonality = "1"
+marketValueOffset = "500"
+exclusionTags = SubResource(1)

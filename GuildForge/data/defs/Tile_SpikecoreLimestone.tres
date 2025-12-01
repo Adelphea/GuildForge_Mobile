@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Tile_SpikecoreLimestone.tres")"
+label = "limestone spikecore tile"
+color = Vector3(158, 153, 135)
+costList = SubResource(1)

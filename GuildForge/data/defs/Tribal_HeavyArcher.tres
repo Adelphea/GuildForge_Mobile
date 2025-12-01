@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Tribal_HeavyArcher.tres")"
+label = "heavy archer"
+combatPower = "75"
+apparelMoney = "200~550"
+apparelRequired = SubResource(1)
+weaponMoney = "250~250"
+weaponTags = SubResource(2)
+disallowedTraits = SubResource(3)
+requiredWorkTags = SubResource(4)
+initialWillRange = "2~4"
+initialResistanceRange = "14~22"

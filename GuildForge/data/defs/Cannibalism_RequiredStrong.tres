@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Cannibalism_RequiredStrong.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Cannibalism.tres")"
+label = "required (strong)"
+description = "Consuming human flesh is important. It should be in every meal."
+impact = "ExtResource("res://GuildForge/data/defs/High.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "100"
+likesHumanLeatherApparel = "true"
+requiredMemes = SubResource(1)
+comps = Array[SubResource(2), SubResource(3), SubResource(4), SubResource(5), SubResource(6)]

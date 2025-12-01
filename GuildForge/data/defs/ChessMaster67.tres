@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ChessMaster67.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/ChessMaster67.tres")"
+slot = "Childhood"
+title = "chess master"
+titleShort = "chesshead"
+description = "[PAWN_nameDef] loved to play chess. [PAWN_pronoun] even earned the nickname [PAWN_nameDef] for some of [PAWN_possessive] craftier moves.
+
+[PAWN_pronoun] never got into trouble - mostly because [PAWN_pronoun] was good at not getting caught."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

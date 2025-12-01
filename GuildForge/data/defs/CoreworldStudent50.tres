@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CoreworldStudent50.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/CoreworldStudent50.tres")"
+slot = "Childhood"
+title = "coreworld student"
+titleShort = "student"
+description = "Born a male named Alex, [PAWN_nameDef] didn't fit in well with the other boys. When very young, [PAWN_pronoun] preferred creative pursuits, such as crafting jewelry, over sports. [PAWN_pronoun] felt [PAWN_pronoun] had the wrong body. Luckily, [PAWN_possessive] family and friends supported [PAWN_possessive] sex reassignment; as a teen, [PAWN_pronoun] underwent surgery to become a female."
+skillGains = SubResource(1)
+workDisables = "Cooking, PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

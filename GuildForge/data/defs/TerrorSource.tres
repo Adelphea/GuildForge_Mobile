@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TerrorSource.tres")"
+label = "terror"
+description = "The intensity of terror this object induces when viewed."
+category = "ExtResource("res://GuildForge/data/defs/Basics.tres")"
+defaultBaseValue = "0"
+hideAtValue = "0"
+toStringStyle = "Integer"
+formatString = "{0}%"
+showOnPawns = "false"
+displayPriorityInCategory = "3600"
+showIfUndefined = "false"
+parts = SubResource(1)

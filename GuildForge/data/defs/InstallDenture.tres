@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InstallDenture.tres")"
+label = "install denture"
+description = "Install a denture."
+jobString = "Installing denture."
+workAmount = "1500"
+skillRequirements = SubResource(1)
+appliedOnFixedBodyParts = SubResource(2)
+addsHediff = "ExtResource("res://GuildForge/data/defs/Denture.tres")"

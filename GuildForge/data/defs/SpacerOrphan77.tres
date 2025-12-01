@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpacerOrphan77.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SpacerOrphan77.tres")"
+slot = "Childhood"
+title = "spacer orphan"
+titleShort = "orphan"
+description = Color(Born among stars to a spacefaring family, the [PAWN_nameDef] was the only survivor when [PAWN_possessive] family's ship was destroyed.
+
+[PAWN_pronoun] was forced to find a way to survive, and seek the joy of knowing another family., 1.0)
+skillGains = SubResource(1)
+workDisables = "Artistic, Mining"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CombatNegotiator31.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/CombatNegotiator31.tres")"
+slot = "Adulthood"
+title = "combat negotiator"
+titleShort = "negotiator"
+description = "After escaping [PAWN_possessive] homeworld, [PAWN_nameDef] took [PAWN_possessive] skills to the stars.\n\n[PAWN_pronoun] chose to operate as a hired gun, working for various rebel organizations, enslaved groups, and merchant enclaves. [PAWN_possessive] specialty was negotiation in combat situations."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

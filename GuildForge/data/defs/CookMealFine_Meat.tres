@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CookMealFine_Meat.tres")"
+label = "cook carnivore fine meal"
+description = "Cook a somewhat complex meal from meat ingredients."
+jobString = "Cooking carnivore fine meal."
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)
+products = SubResource(7)
+displayPriority = "1100"

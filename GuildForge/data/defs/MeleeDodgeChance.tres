@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeleeDodgeChance.tres")"
+label = "melee dodge chance"
+description = "Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon."
+category = "ExtResource("res://GuildForge/data/defs/PawnCombat.tres")"
+neverDisabled = "true"
+defaultBaseValue = "0"
+minValue = "0"
+toStringStyle = "PercentZero"
+toStringStyleUnfinalized = "FloatOne"
+noSkillOffset = "0"
+skillNeedOffsets = SubResource(1)
+capacityOffsets = SubResource(3)
+postProcessCurve = SubResource(6)
+displayPriorityInCategory = "4100"
+showDevelopmentalStageFilter = "Child, Adult"

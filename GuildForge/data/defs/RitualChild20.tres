@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RitualChild20.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/RitualChild20.tres")"
+slot = "Childhood"
+title = "ritual child"
+titleShort = "sacrifice"
+description = Color(Born with a special mark on [PAWN_possessive] neck, [PAWN_nameDef]'s tribe chose to sacrifice [PAWN_objective] in a blood ritual. They left [PAWN_objective] in the forest to die. A pack of arctic wolves found and adopted [PAWN_objective].
+
+Over time, [PAWN_pronoun] learned to make tools to hunt with the pack., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Social.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

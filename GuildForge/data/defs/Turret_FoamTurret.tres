@@ -1,0 +1,33 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Turret_FoamTurret.tres")"
+label = "foam turret"
+description = "An activatable turret for extinguishing fires. The turret stands idle until someone approaches and activates it, after which it will automatically spray large amounts of firefoam on any flames in sight."
+thingClass = "Building_TurretFoam"
+drawerType = "MapMeshAndRealTime"
+graphicData = SubResource(1)
+uiIconPath = "Things/Building/Security/TurretFoam_MenuIcon"
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+stealable = "false"
+rotatable = "false"
+thingCategories = SubResource(2)
+statBases = SubResource(3)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+comps = Array[SubResource(4), SubResource(5), SubResource(6), SubResource(7), SubResource(8), SubResource(9), SubResource(12), SubResource(14)]
+passability = "PassThroughOnly"
+pathCost = "50"
+fillPercent = "0.4"
+hasTooltip = "true"
+stuffCategories = SubResource(16)
+costStuffCount = "30"
+costList = SubResource(17)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Security.tres")"
+constructionSkillPrerequisite = "5"
+building = SubResource(18)
+placeWorkers = SubResource(19)
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc2.tres")"
+researchPrerequisites = SubResource(20)

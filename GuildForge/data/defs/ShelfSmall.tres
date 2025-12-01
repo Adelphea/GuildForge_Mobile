@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShelfSmall.tres")"
+label = "small shelf"
+description = Color(A small triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses.)
+graphicData = SubResource(1)
+uiIconScale = "0.5"
+costStuffCount = "10"
+statBases = SubResource(2)
+size = Vector2(1, 1)
+building = SubResource(4)

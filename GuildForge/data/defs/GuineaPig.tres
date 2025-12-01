@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GuineaPig.tres")"
+label = "guinea pig"
+race = "ExtResource("res://GuildForge/data/defs/GuineaPig.tres")"
+combatPower = "33"
+ecoSystemWeight = "0.3"
+wildGroupSize = "3~8"
+alternateGraphicChance = "0.99"
+alternateGraphics = SubResource(1)
+lifeStages = SubResource(7)

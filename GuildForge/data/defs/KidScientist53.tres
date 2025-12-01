@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/KidScientist53.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/KidScientist53.tres")"
+slot = "Childhood"
+title = "kid scientist"
+titleShort = "scientist"
+description = Color(Born into an influential family, [PAWN_nameDef] received the best education money could buy. [PAWN_possessive] intellect soon proved to be superior to many. However, [PAWN_possessive] lack of empathy quickly put [PAWN_objective] at odds with [PAWN_possessive] teachers and [PAWN_possessive] parents., 1.0)
+skillGains = SubResource(1)
+workDisables = "ManualDumb, Social"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

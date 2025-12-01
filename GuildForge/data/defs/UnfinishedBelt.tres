@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/UnfinishedBelt.tres")"
+label = "unfinished belt"
+description = "An unfinished piece of a belt."
+statBases = SubResource(1)
+graphicData = SubResource(2)
+stuffCategories = SubResource(3)

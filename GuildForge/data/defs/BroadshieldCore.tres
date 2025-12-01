@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BroadshieldCore.tres")"
+label = "shield core"
+description = "A piece of ultratechnology that can generate a momentum-repulsor shield. This can't do anything on its own, but it is necessary to craft some other usable shield items.\n\nShield cores can be obtained by deconstructing mechanoid shield generators."
+graphicData = SubResource(1)
+resourceReadoutPriority = "ExtResource("res://GuildForge/data/defs/Middle.tres")"
+soundInteract = "ExtResource("res://GuildForge/data/defs/Metal_Drop.tres")"
+soundDrop = "ExtResource("res://GuildForge/data/defs/Metal_Drop.tres")"
+stackLimit = "1"
+useHitPoints = "true"
+statBases = SubResource(2)
+thingCategories = SubResource(3)
+drawGUIOverlay = "false"
+techLevel = "Spacer"
+tradeTags = SubResource(4)

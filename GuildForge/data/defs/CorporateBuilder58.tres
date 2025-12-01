@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CorporateBuilder58.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/CorporateBuilder58.tres")"
+slot = "Adulthood"
+title = "corporate builder"
+titleShort = "builder"
+description = Color(Even as [PAWN_pronoun] stewed in [PAWN_possessive] own wasted potential, [PAWN_nameDef] found [PAWN_pronoun] had a knack for moving objects quickly. It was just what the planetary mega-corps wanted in their construction divisions.\n\nUnfortunately, the monotonous work erased [PAWN_possessive] remaining creative impulses., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DeepSpaceSurveyor1.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/DeepSpaceSurveyor1.tres")"
+slot = "Adulthood"
+title = "deep space surveyor"
+titleShort = "surveyor"
+description = Color([PAWN_nameDef] was a deep space surveyor. [PAWN_pronoun] studied which worlds were the most suitable for colonization.\n\n[PAWN_possessive] expeditions were met by hostile natives, green-painted space-women, and wannabe Greek gods. Surviving many firefights, [PAWN_pronoun] learned to build rudimentary lathes and rock cannons to fend off enemies.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+shuffleable = "False"

@@ -1,0 +1,28 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Slave.tres")"
+label = "slave"
+combatPower = "30"
+race = "ExtResource("res://GuildForge/data/defs/Human.tres")"
+backstoryFiltersOverride = SubResource(1)
+defaultFactionDef = "ExtResource("res://GuildForge/data/defs/OutlanderCivil.tres")"
+itemQuality = "Poor"
+backstoryCryptosleepCommonality = "0.10"
+isFighter = "false"
+chemicalAddictionChance = "0.05"
+gearHealthRange = "0.2~0.8"
+apparelTags = SubResource(4)
+apparelMoney = "0~350"
+apparelAllowHeadgearChance = "0"
+techHediffsChance = "0.03"
+techHediffsMoney = "50~800"
+techHediffsTags = SubResource(5)
+apparelIgnoreSeasons = "true"
+apparelIgnorePollution = SubResource(6)
+invNutrition = "1"
+invFoodDef = "ExtResource("res://GuildForge/data/defs/Pemmican.tres")"
+initialWillRange = "0~0"
+initialResistanceRange = "10~17"
+xenotypeSet = SubResource(7)

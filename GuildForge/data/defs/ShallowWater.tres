@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainAffordanceDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainAffordanceDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShallowWater.tres")"
+label = "shallow water"
+order = "2200"
+visualizeOnAffordanceOverlay = "true"
+affordanceOverlayColor = Vector3(0, 0, 100)

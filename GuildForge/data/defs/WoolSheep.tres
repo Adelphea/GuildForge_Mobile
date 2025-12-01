@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WoolSheep.tres")"
+label = "sheep wool"
+description = "Sheep's wool. It provides good insulation."
+possessionCount = "30"
+statBases = SubResource(1)
+stuffProps = SubResource(2)
+graphicData = SubResource(3)

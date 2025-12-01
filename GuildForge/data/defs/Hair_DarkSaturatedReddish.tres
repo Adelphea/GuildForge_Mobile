@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_GeneDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_GeneDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Hair_DarkSaturatedReddish.tres")"
+label = "dark-brown hair"
+hairColorOverride = Vector3(56, 36, 18)
+selectionWeight = "1.5"
+displayOrderInCategory = "90"

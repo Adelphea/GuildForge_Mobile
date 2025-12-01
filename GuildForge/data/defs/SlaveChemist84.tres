@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SlaveChemist84.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/SlaveChemist84.tres")"
+slot = "Adulthood"
+title = "slave chemist"
+titleShort = "chemist"
+description = "[PAWN_nameDef] became a gifted pharmaceutical scientist, but was captured by slavers. [PAWN_pronoun] was sold to a warlord and forced to create drugs to test on other slaves. This left [PAWN_objective] with deep and troubling questions on the ethics of scientific research and medicine."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

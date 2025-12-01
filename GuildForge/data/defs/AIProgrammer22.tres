@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AIProgrammer22.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/AIProgrammer22.tres")"
+slot = "Adulthood"
+title = "AI programmer"
+titleShort = "programmer"
+description = Color([PAWN_nameDef] enlisted in the military's robotics division, developing smarter combat AI.\n\nThe whole time [PAWN_pronoun] was there, [PAWN_pronoun] never spoke with another human. [PAWN_pronoun] spent all [PAWN_possessive] time conversing with the AI [PAWN_pronoun] was developing., 1.0)
+skillGains = SubResource(1)
+workDisables = "PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

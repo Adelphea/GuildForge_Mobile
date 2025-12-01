@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/JungleKid35.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/JungleKid35.tres")"
+slot = "Childhood"
+title = "jungle kid"
+titleShort = "jungle kid"
+description = Color([PAWN_nameDef] was abandoned as a newborn, and grew up among the animals of [PAWN_possessive] homeworld's dense jungles.
+
+When [PAWN_pronoun] was a teenager, a traveling doctor found [PAWN_objective] injured near a road, hissing and meowing. [PAWN_pronoun] rescued [PAWN_objective] and took [PAWN_objective] on as an apprentice.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

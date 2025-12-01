@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RemoveGastroAnalyzer.tres")"
+label = "remove gastro-analyzer"
+description = "Remove gastro-analyzer."
+descriptionHyperlinks = SubResource(1)
+jobString = "Removing gastro-analyzer."
+removesHediff = "ExtResource("res://GuildForge/data/defs/GastroAnalyzer.tres")"

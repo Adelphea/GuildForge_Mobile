@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SculptureSmall.tres")"
+label = "small sculpture"
+description = "A torso-sized piece of material sculpted into an artistic form."
+graphicData = SubResource(1)
+fillPercent = "0.35"
+rotatable = "false"
+statBases = SubResource(2)
+stuffCategories = SubResource(4)
+costStuffCount = "50"

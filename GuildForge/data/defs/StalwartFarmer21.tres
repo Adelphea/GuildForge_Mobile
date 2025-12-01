@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/StalwartFarmer21.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/StalwartFarmer21.tres")"
+slot = "Adulthood"
+title = "stalwart farmer"
+titleShort = "farmer"
+description = "With the farm under constant threat from brigands, [PAWN_nameDef] learned to defend [PAWN_objective]self with [PAWN_possessive] father's hunting rifle. [PAWN_pronoun] also mastered how to construct fences to keep livestock in and the local wildlife out. [PAWN_nameDef] tried to paint a picture of [PAWN_possessive] home and learned [PAWN_pronoun] can only draw scribbles and ducks."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+possessions = SubResource(3)
+shuffleable = "False"

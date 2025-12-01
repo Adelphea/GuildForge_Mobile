@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WorldSlider42.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/WorldSlider42.tres")"
+slot = "Childhood"
+title = "world slider"
+titleShort = "slider"
+description = "[PAWN_nameDef] was raised by a world-hopping band of criminals. [PAWN_pronoun] learned not to leave evidence of [PAWN_possessive] presence in case the group had to leave in a hurry. [PAWN_pronoun] also learned about medicine and hand-to-hand combat from [PAWN_possessive] fellow criminals."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

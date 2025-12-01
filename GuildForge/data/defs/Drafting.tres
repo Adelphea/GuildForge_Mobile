@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Drafting.tres")"
+label = "Drafting for combat"
+highlightTags = SubResource(1)
+helpText = Color(To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy., 1.0)

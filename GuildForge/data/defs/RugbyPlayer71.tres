@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RugbyPlayer71.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/RugbyPlayer71.tres")"
+slot = "Adulthood"
+title = "rugby player"
+titleShort = "winger"
+description = Color(After years of addiction to virtual reality games, [PAWN_nameDef] was saved when the doctors unplugged him.\n\nUnfortunately, they unplugged [PAWN_objective] during a match of Rugby Rampage 4. The mental backlash merged [PAWN_possessive] real identity and [PAWN_possessive] virtual identity, leaving [PAWN_objective] with the personality and skills of a rugby player.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Cleaning.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

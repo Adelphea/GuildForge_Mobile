@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WarChief97.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/WarChief97.tres")"
+slot = "Adulthood"
+title = "war chief"
+titleShort = "chief"
+description = Color([PAWN_nameDef] was a tribal gang leader on a rimworld. For [PAWN_objective], the battlefield is a game, and there is nothing more fun than the fires of war., 1.0)
+skillGains = SubResource(1)
+workDisables = "Hauling, PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

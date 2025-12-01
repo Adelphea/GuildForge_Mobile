@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GauranlenPodSpawn.tres")"
+label = "Gauranlen pod sprout"
+category = "ExtResource("res://GuildForge/data/defs/Special.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_GauranlenPodSpawn"
+letterLabel = "Gauranlen pod sprout"
+letterText = "A Gauranlen pod has sprouted nearby!\n\nHarvest it to collect a Gauranlen seed. This special seed can be used to plant the majestic Gauranlen tree.\n\nYour colonists can connect with Gauranlen trees and make them spawn resources and helpful dryads to work or fight for you."
+letterDef = "ExtResource("res://GuildForge/data/defs/PositiveEvent.tres")"
+disallowedBiomes = SubResource(2)

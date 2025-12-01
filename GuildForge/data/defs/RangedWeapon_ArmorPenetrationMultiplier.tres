@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RangedWeapon_ArmorPenetrationMultiplier.tres")"
+label = "armor penetration multiplier"
+description = "A multiplier applied to armor penetration."
+category = "ExtResource("res://GuildForge/data/defs/Weapon_Ranged.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+alwaysHide = "true"
+toStringStyle = "PercentZero"
+displayPriorityInCategory = "5399"
+parts = SubResource(1)
+scenarioRandomizable = "true"

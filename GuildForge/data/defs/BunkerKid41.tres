@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BunkerKid41.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/BunkerKid41.tres")"
+slot = "Childhood"
+title = "bunker kid"
+titleShort = "bunker kid"
+description = Color([PAWN_nameDef] grew up in an underground shelter, waiting for radioactive fallout to subside. [PAWN_possessive] rich family had gained access to a luxury bunker city, while billions died on the surface.
+
+Determined to one day seek revenge against the hated enemy, [PAWN_nameDef] spent most of [PAWN_possessive] time practicing shooting in [PAWN_possessive] private training facility.)
+skillGains = SubResource(1)
+workDisables = "Artistic, PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

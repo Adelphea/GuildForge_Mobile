@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Nudity_Female_NoRules.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Nudity_Female.tres")"
+label = "no rules"
+description = "A woman may display or cover any part of her body."
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+displayOrderInIssue = "80"
+displayOrderInImpact = "-100"
+associatedMemes = SubResource(1)

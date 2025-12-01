@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientWarwalkerShell.tres")"
+label = "ancient warwalker shell"
+description = "Most of the armored shell of a warwalker. It appears to have been torn off by some colossal weapon system. All the valuable parts were looted, and the rest is badly deteriorated."
+rotatable = "false"
+graphicData = SubResource(1)
+size = Vector2(5, 3)
+fillPercent = "0.5"
+passability = "PassThroughOnly"
+pathCost = "50"
+statBases = SubResource(3)
+killedLeavings = SubResource(4)

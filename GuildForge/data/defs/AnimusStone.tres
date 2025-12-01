@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AnimusStone.tres")"
+label = "animus stone"
+description = Color(An ancient jade stone marked with sacred tribal carvings. Tribal psycasters can focus on these stones during meditation to increase their psyfocus gain more than a typical nature shrine.\n\nDifferent tribal cultures tell different stories about these stones, but most agree that they were crafted by an ancient world spirit during a time of great power. Since they look like natural objects to unobservant outsiders, raiders will generally ignore them., 1.0)
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+thingCategories = SubResource(3)
+fillPercent = "0.35"
+rotatable = "false"
+tradeability = "Buyable"
+statBases = SubResource(4)
+placeWorkers = SubResource(5)
+building = SubResource(6)
+comps = Array[SubResource(7)]

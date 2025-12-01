@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_TreeAnima.tres")"
+label = "anima tree"
+description = "A rare tree with warm, skin-smooth bark and long iridescent leaves. Infused with bioluminescent micro-organisms, anima trees develop a unique form of psychic symbiosis with surrounding lifeforms, allowing them to grow in a wide variety of biomes.\n\nIf a person (psycaster or not) meditates near an anima tree, it will grow anima grass around its base. Once enough grass is grown, it becomes possible to carry out a psychic linking ritual with the tree and upgrade a person's psychic powers. Only tribal peoples know the secret of this ritual. Tribal psycasters are also able to draw psyfocus from anima trees while meditating to them.\n\nAnima trees' psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.\n\nMost tribes believe that anima trees are not simply trees, but are rather the physical extremities of a single world spirit."
+graphicData = SubResource(1)
+drawGUIOverlay = "True"
+minifiedDef = SubResource(3)
+statBases = SubResource(4)
+ingestible = None
+preventSkyfallersLandingOn = "true"
+canScatterOver = "false"
+plant = SubResource(5)
+comps = Array[SubResource(8), SubResource(16), SubResource(17), SubResource(18), SubResource(20), SubResource(21), SubResource(22), SubResource(23), SubResource(24)]

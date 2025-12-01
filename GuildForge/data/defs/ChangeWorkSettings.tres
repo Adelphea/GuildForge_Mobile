@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ChangeWorkSettings.tres")"
+text = Color(You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often!)
+eventTagInitiate = "InstructionDeactivated-OpenMainTabWork"
+instructionClass = "Instruction_LearnConcept"
+concept = "ExtResource("res://GuildForge/data/defs/WorkTab.tres")"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+rejectInputMessage = "Please open the 'Work' tab and change some settings."

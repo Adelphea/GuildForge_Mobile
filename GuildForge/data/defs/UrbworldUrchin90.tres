@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/UrbworldUrchin90.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/UrbworldUrchin90.tres")"
+slot = "Childhood"
+title = "urbworld urchin"
+titleShort = "urchin"
+description = "Abandoned among the filthy concrete spires, [PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_pronoun] never received formal education, and often resorted to doing menial labor in exchange for food. Sometimes [PAWN_pronoun] lied, cheated, and stole to survive."
+skillGains = SubResource(1)
+workDisables = "Artistic, Crafting"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

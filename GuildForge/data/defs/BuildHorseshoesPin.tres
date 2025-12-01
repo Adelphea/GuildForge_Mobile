@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BuildHorseshoesPin.tres")"
+text = "Your colonists need sources of recreation or they'll get sad over time.\n\nBuild a HORSESHOES pin outside, near the room."
+instructionClass = "Instruction_BuildNearRoom"
+eventTagInitiate = "InstructionDeactivated-BuildAnimalSleepingSpot"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+thingDef = "ExtResource("res://GuildForge/data/defs/HorseshoesPin.tres")"
+targetCount = "1"
+onMapInstruction = "Build a horseshoes pin\noutside the room"
+rejectInputMessage = "Please place a horseshoes pin somewhere near the room."

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualBehaviorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualBehaviorDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ThroneSpeech.tres")"
+workerClass = "RitualBehaviorWorker_ThroneSpeech"
+durationTicks = "5000"
+letterTitle = "Speech from the throne"
+letterText = Color({ORGANIZER_labelShort} is giving a speech from the throne.
+\nIf all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities.)
+roles = SubResource(1)
+stages = SubResource(3)

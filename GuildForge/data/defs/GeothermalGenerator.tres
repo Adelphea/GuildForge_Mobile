@@ -1,0 +1,33 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GeothermalGenerator.tres")"
+label = "geothermal generator"
+description = "Produces electricity from geothermal steam geysers. Must be placed on a steam geyser."
+thingClass = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+drawerType = "MapMeshAndRealTime"
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "Impassable"
+blockWind = "true"
+scatterableOnMapGen = "false"
+fillPercent = "1"
+blockLight = "true"
+canOverlapZones = "false"
+statBases = SubResource(4)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+size = Vector2(6, 6)
+costList = SubResource(5)
+bringAlongOnGravship = "false"
+comps = Array[SubResource(6), SubResource(7), SubResource(8), SubResource(10)]
+rotatable = "false"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Power.tres")"
+uiOrder = "2110"
+placeWorkers = SubResource(11)
+building = SubResource(12)
+constructEffect = "ExtResource("res://GuildForge/data/defs/ConstructMetal.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc6.tres")"
+researchPrerequisites = SubResource(13)
+constructionSkillPrerequisite = "8"

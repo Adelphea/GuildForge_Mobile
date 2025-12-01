@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CochlearImplant.tres")"
+label = "cochlear implant"
+labelNoun = "a cochlear implant"
+description = Color(An installed cochlear implant. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf., 1.0)
+descriptionHyperlinks = SubResource(1)
+spawnThingOnRemoved = "ExtResource("res://GuildForge/data/defs/CochlearImplant.tres")"
+addedPartProps = SubResource(2)

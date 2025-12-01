@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_KeyBindingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_KeyBindingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShowCellInspector.tres")"
+label = "show cell inspector"
+defaultKeyCodeA = "LeftAlt"
+defaultKeyCodeB = "RightAlt"

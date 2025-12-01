@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ExplosivesExpert26.tres")"
+title = "explosives expert"
+titleShort = "blaster"
+description = "[PAWN_nameDef] was an explosive engineer employed in mines. [PAWN_pronoun] took [PAWN_possessive] job very seriously and was well-versed in the technicalities - so much so that [PAWN_pronoun] refused to demean [PAWN_objective]self by helping with the clean-up once [PAWN_possessive] carefully-calculated explosion was complete."
+slot = "Adulthood"
+workDisables = SubResource(1)
+requiredWorkTags = SubResource(2)
+skillGains = SubResource(3)
+spawnCategories = SubResource(4)
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+possessions = SubResource(5)

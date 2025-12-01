@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CallTransportShuttle.tres")"
+label = "call transport shuttle"
+description = Color(Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles., 1.0)
+workerClass = "RoyalTitlePermitWorker_CallShuttle"
+minTitle = "ExtResource("res://GuildForge/data/defs/Knight.tres")"
+faction = "ExtResource("res://GuildForge/data/defs/Empire.tres")"
+permitPointCost = "1"
+cooldownDays = "40"
+usableOnWorldMap = "true"
+uiPosition = Vector2(0, 6)
+royalAid = SubResource(1)
+layerBlacklist = SubResource(2)

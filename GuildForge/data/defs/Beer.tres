@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Beer.tres")"
+label = "beer"
+description = Color(The first beverage besides water ever consumed by mankind. Beer can taste good, but its main effect is intoxication. Excessive consumption can lead to alcohol blackouts and, over time, addiction.)
+descriptionHyperlinks = SubResource(1)
+possessionCount = "6"
+graphicData = SubResource(2)
+equippedAngleOffset = "-150"
+rotatable = "false"
+stackLimit = "25"
+statBases = SubResource(3)
+ingestible = SubResource(4)
+equipmentType = "Primary"
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+comps = Array[SubResource(10), SubResource(11)]
+weaponClasses = SubResource(12)
+tools = SubResource(13)
+allowedArchonexusCount = "50"

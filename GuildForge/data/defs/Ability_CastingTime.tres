@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Ability_CastingTime.tres")"
+label = "casting time"
+category = "ExtResource("res://GuildForge/data/defs/Ability.tres")"
+description = "How long it takes to perform this ability."
+defaultBaseValue = "1"
+minValue = "0"
+formatString = "{0} s"
+toStringStyle = "FloatOne"
+showIfUndefined = "false"
+displayPriorityInCategory = "1004"
+showIfModsLoaded = SubResource(1)

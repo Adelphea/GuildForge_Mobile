@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CookSpeed.tres")"
+label = "cooking speed"
+description = "The speed at which this person cooks meals."
+category = "ExtResource("res://GuildForge/data/defs/PawnWork.tres")"
+defaultBaseValue = "0"
+noSkillOffset = "20"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+toStringStyleUnfinalized = "FloatOne"
+postProcessStatFactors = SubResource(1)
+skillNeedOffsets = SubResource(2)
+capacityOffsets = SubResource(4)
+postProcessCurve = SubResource(7)
+displayPriorityInCategory = "4541"

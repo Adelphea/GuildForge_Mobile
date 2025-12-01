@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Leather_Heavy.tres")"
+label = "heavy fur"
+description = Color(Thick leather covered in a long, rugged mat of fur. Harvested from a large, hardy animal. This thick skin insulates and protects very well., 1.0)
+graphicData = SubResource(1)
+statBases = SubResource(2)
+stuffProps = SubResource(3)

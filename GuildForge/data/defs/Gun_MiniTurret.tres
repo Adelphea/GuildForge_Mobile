@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_MiniTurret.tres")"
+label = "mini-turret gun"
+description = "A simple automatic gun made to be mounted on a turret."
+graphicData = SubResource(1)
+statBases = SubResource(2)
+verbs = SubResource(3)

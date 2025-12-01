@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WeatherDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WeatherDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Clear.tres")"
+label = "clear"
+description = "A clear day. No penalties or modifiers."
+repeatable = "true"
+favorability = "Good"
+perceivePriority = "0"
+ambientSounds = SubResource(1)
+skyColorsDay = SubResource(2)
+skyColorsDusk = SubResource(3)
+skyColorsNightEdge = SubResource(4)
+skyColorsNightMid = SubResource(5)

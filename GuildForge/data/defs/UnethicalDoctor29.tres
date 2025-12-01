@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/UnethicalDoctor29.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/UnethicalDoctor29.tres")"
+slot = "Adulthood"
+title = "unethical doctor"
+titleShort = "doctor"
+description = "[PAWN_nameDef] became a doctor to save lives and research medicine. [PAWN_pronoun] soon realized the only way to make progress on [PAWN_possessive] research was to perform experiments on human patients.\n\n[PAWN_pronoun] often used patients for [PAWN_possessive] experiments - whether they were willing or not."
+skillGains = SubResource(1)
+workDisables = "ManualDumb, Social"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+possessions = SubResource(3)
+shuffleable = "False"

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DoBillsSculpt.tres")"
+label = "make things at art bench"
+giverClass = "WorkGiver_DoBill"
+workType = "ExtResource("res://GuildForge/data/defs/Art.tres")"
+priorityInType = "100"
+fixedBillGiverDefs = SubResource(1)
+verb = "sculpt at"
+gerund = "sculpting at"
+requiredCapacities = SubResource(2)
+prioritizeSustains = "true"

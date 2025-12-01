@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Stool.tres")"
+label = "stool"
+description = Color(A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.)
+replaceTags = SubResource(1)
+graphicData = SubResource(2)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(5)
+socialPropernessMatters = "true"
+stuffCategories = SubResource(7)
+costStuffCount = "25"
+pathCost = "30"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc6.tres")"
+uiOrder = "2400"
+fillPercent = "0.20"
+building = SubResource(8)
+uiIconOffset = Vector2(0, -0.05)
+comps = Array[SubResource(9)]

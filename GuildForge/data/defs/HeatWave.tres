@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HeatWave.tres")"
+label = "heat wave"
+category = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_HeatWave"
+gameCondition = "ExtResource("res://GuildForge/data/defs/HeatWave.tres")"
+letterLabel = "Heat wave"
+letterDef = "ExtResource("res://GuildForge/data/defs/ThreatSmall.tres")"
+baseChance = "1.0"
+minRefireDays = "30"
+durationDays = "1.5~3.5"

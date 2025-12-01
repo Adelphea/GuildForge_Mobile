@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ColorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ColorDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Structure_DarkMauve.tres")"
+label = "dark mauve"
+color = Vector3(131, 78, 101)
+displayOrder = "60"

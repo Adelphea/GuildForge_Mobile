@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MidworldSketcher71.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MidworldSketcher71.tres")"
+slot = "Childhood"
+title = "midworld sketcher"
+titleShort = "sketcher"
+description = "[PAWN_nameDef] was born into a loving but poor family.
+
+[PAWN_pronoun] discovered [PAWN_pronoun] had an artistic talent which [PAWN_pronoun] inherited from [PAWN_possessive] father. [PAWN_possessive] mother taught [PAWN_objective] the benefits of hard work and determination. As [PAWN_pronoun] grew older, [PAWN_nameDef] developed a fascination with technology and military history."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

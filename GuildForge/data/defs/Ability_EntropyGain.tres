@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Ability_EntropyGain.tres")"
+label = "neural heat gain"
+category = "ExtResource("res://GuildForge/data/defs/Ability.tres")"
+description = "How much neural heat will be added as a result of performing this ability."
+defaultBaseValue = "5"
+minValue = "0"
+showIfUndefined = "false"
+displayPriorityInCategory = "1003"
+showIfModsLoaded = SubResource(1)

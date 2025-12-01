@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BlocksMarble.tres")"
+label = "marble blocks"
+description = Color(Blocks of solid marble. Marble is a soft, beautiful stone, known for being easy to sculpt., 1.0)
+graphicData = SubResource(1)
+statBases = SubResource(2)
+stuffProps = SubResource(3)

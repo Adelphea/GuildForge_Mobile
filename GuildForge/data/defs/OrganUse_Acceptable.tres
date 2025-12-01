@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OrganUse_Acceptable.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/OrganUse.tres")"
+label = "acceptable"
+description = Color(It's okay to harvest, buy, install, or sell organs.)
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "-100"
+associatedMemes = SubResource(1)
+comps = None

@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Euthanize.tres")"
+label = "euthanize by cut"
+description = "Euthanize a creature by cutting."
+workerClass = "Recipe_ExecuteByCut"
+jobString = "Euthanizing by cutting."
+workAmount = "500"
+hideBodyPartNames = "true"
+isViolation = "true"
+targetsBodyPart = "false"
+surgerySuccessChanceFactor = "5"
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AWOLSoldier49.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/AWOLSoldier49.tres")"
+slot = "Adulthood"
+title = "AWOL soldier"
+titleShort = "soldier"
+description = "[PAWN_nameDef] was an infantryman. When [PAWN_pronoun] was informed of [PAWN_possessive] assignment to the Xennoa-Zartza War, [PAWN_pronoun] decided [PAWN_pronoun] did not want to be a soldier. [PAWN_pronoun] was able to escape via military spacejet."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

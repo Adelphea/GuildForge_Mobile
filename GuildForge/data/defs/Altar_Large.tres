@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Altar_Large.tres")"
+label = "large altar"
+description = "A large platform that plays a role in ideoligious rituals."
+graphicData = SubResource(1)
+size = Vector2(3, 2)
+castEdgeShadows = "true"
+costStuffCount = "200"
+statBases = SubResource(3)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Medium.tres")"

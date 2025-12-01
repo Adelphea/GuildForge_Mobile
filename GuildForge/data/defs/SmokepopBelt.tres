@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SmokepopBelt.tres")"
+label = "smokepop packs"
+description = "Build smokepop packs which allow the wearer to deploy a defensive smokescreen."
+baseCost = "300"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+researchViewX = "6.00"
+researchViewY = "4.80"
+generalRules = SubResource(3)

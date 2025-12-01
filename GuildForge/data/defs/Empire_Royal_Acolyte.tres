@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Empire_Royal_Acolyte.tres")"
+label = "acolyte"
+combatPower = "125"
+titleRequired = "ExtResource("res://GuildForge/data/defs/Acolyte.tres")"
+specificApparelRequirements = SubResource(1)
+techHediffsMoney = "300~800"
+initialWillRange = "8~11"
+initialResistanceRange = "37~56"
+useFactionXenotypes = "false"
+xenotypeSet = SubResource(9)

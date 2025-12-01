@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OskarCustomAdulthood.tres")"
+slot = "Adulthood"
+title = "mod designer"
+titleShort = "modder"
+description = Color([PAWN_nameDef] designed combat modifications for frontline soldiers.\n\nOne night, in a nightmare, [PAWN_nameDef] was confronted by all the men and women killed by [PAWN_possessive] work. [PAWN_pronoun] decided to travel to the rimworlds and use [PAWN_possessive] skills for good., 1.0)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = SubResource(3)

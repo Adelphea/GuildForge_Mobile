@@ -1,0 +1,24 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Harp.tres")"
+label = "harp"
+description = "A simple stationary musical instrument. A row of strings are stretched over a frame and plucked directly by a musician's fingers.\n\nIt can be crafted at a crafting spot or smithy."
+possessionCount = "1"
+descriptionHyperlinks = SubResource(1)
+size = Vector2(1, 1)
+pathCost = "30"
+minTechLevelToBuild = "Medieval"
+interactionCellOffset = Vector3(0, 0, -1)
+soundPlayInstrument = "ExtResource("res://GuildForge/data/defs/Harp_Play.tres")"
+researchPrerequisites = SubResource(2)
+thingSetMakerTags = SubResource(3)
+statBases = SubResource(4)
+recipeMaker = SubResource(5)
+costList = SubResource(8)
+building = SubResource(9)
+uiIconOffset = Vector2(0, 0.08)
+uiIconScale = "0.5"
+minifiedDrawScale = "0.5"
+graphicData = SubResource(10)

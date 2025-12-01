@@ -1,0 +1,26 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PokerTable.tres")"
+label = "poker table"
+description = "A table designed for playing gambling card games like poker. A great way to test your strategic skills and a bit of luck.\n\nThis building requires adjacent chairs or stools to use."
+graphicData = SubResource(1)
+rotatable = "false"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+socialPropernessMatters = "true"
+fillPercent = "0.40"
+building = SubResource(3)
+statBases = SubResource(4)
+size = Vector2(2, 2)
+stuffCategories = SubResource(5)
+costStuffCount = "50"
+costList = SubResource(6)
+pathCost = "42"
+passability = "PassThroughOnly"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Joy.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc5.tres")"
+canOverlapZones = "false"
+researchPrerequisites = SubResource(7)
+constructionSkillPrerequisite = "6"
+uiIconScale = "0.9"

@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ColiseumFighter22.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/ColiseumFighter22.tres")"
+slot = "Adulthood"
+title = "coliseum fighter"
+titleShort = "fighter"
+description = "Applying the knowledge that [PAWN_pronoun] gained from years around fighters, [PAWN_pronoun] became a successful gladiator in the coliseum that [PAWN_pronoun] once cleaned."
+skillGains = SubResource(1)
+workDisables = Color(Caring, Artistic, PlantWork, Mining)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

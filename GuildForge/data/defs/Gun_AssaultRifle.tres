@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_AssaultRifle.tres")"
+label = "assault rifle"
+description = Color(A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy., 1.0)
+graphicData = SubResource(1)
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_Rifle.tres")"
+recipeMaker = SubResource(2)
+thingSetMakerTags = SubResource(4)
+statBases = SubResource(5)
+costList = SubResource(6)
+verbs = SubResource(7)
+weaponTags = SubResource(9)
+tools = SubResource(10)

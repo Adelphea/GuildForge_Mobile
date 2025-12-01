@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InstallNaturalHeart.tres")"
+label = "install heart"
+description = "Install a biological heart."
+descriptionHyperlinks = SubResource(1)
+jobString = "Installing heart."
+deathOnFailedSurgeryChance = "0.25"
+skillRequirements = SubResource(2)
+ingredients = SubResource(3)
+fixedIngredientFilter = SubResource(7)
+appliedOnFixedBodyParts = SubResource(9)

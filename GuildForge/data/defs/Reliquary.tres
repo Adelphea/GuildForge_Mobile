@@ -1,0 +1,33 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Reliquary.tres")"
+label = "reliquary"
+description = Color(A ceremonial building that protects and displays a relic. Relics are ancient objects venerated by some cultures, belief systems, or religions., 1.0)
+statBases = SubResource(1)
+graphicData = SubResource(2)
+castEdgeShadows = "true"
+drawerType = "MapMeshAndRealTime"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+defaultPlacingRot = "South"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+size = Vector2(3, 2)
+containedItemsSelectable = "true"
+researchPrerequisites = SubResource(5)
+pathCost = "30"
+fillPercent = "0.4"
+uiIconOffset = Vector2(0, -0.02)
+uiIconScale = "1.2"
+stuffCategories = SubResource(6)
+costStuffCount = "300"
+costList = SubResource(7)
+building = SubResource(8)
+hasInteractionCell = "true"
+interactionCellOffset = Vector3(0, 0, 2)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Ideology.tres")"
+uiOrder = "2040"
+comps = Array[SubResource(9)]
+placeWorkers = SubResource(10)

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Make_ChemfuelFromOrganics.tres")"
+label = "make chemfuel from organics"
+description = "Make a batch of chemfuel by extracting biofuel from organic feedstocks."
+jobString = "Refining chemfuel from organics."
+effectWorking = "ExtResource("res://GuildForge/data/defs/Cremate.tres")"
+soundWorking = "ExtResource("res://GuildForge/data/defs/Recipe_Cremate.tres")"
+workAmount = "2500"
+workSpeedStat = "ExtResource("res://GuildForge/data/defs/GeneralLaborSpeed.tres")"
+allowMixingIngredients = "true"
+ingredientValueGetterClass = "IngredientValueGetter_Nutrition"
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(7)
+defaultIngredientFilter = SubResource(13)
+products = SubResource(16)

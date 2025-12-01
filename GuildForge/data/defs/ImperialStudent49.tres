@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ImperialStudent49.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/ImperialStudent49.tres")"
+slot = "Childhood"
+title = "imperial student"
+titleShort = "student"
+description = "[PAWN_nameDef] studied on an imperial midworld where guns were banned and self-defense study was encouraged. The relative safety allowed [PAWN_objective] to focus on [PAWN_possessive] botanical research."
+skillGains = SubResource(1)
+workDisables = Color(Crafting, Firefighting, Cleaning, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

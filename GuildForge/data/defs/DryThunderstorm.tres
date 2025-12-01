@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WeatherDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WeatherDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DryThunderstorm.tres")"
+label = "dry thunderstorm"
+isBad = "false"
+description = "Dry thunderstorms are dangerous because the lightning can start fires and there is no rain to put them out."
+temperatureRange = "0~999"
+windSpeedFactor = "1.5"
+windSpeedOffset = "1.25"
+favorability = "VeryBad"
+perceivePriority = "2"
+ambientSounds = SubResource(1)
+durationRange = "15000~40000"
+eventMakers = SubResource(2)
+skyColorsDay = SubResource(5)
+skyColorsDusk = SubResource(6)
+skyColorsNightEdge = SubResource(7)
+skyColorsNightMid = SubResource(8)

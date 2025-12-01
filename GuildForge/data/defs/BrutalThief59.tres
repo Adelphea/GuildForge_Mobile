@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BrutalThief59.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/BrutalThief59.tres")"
+slot = "Childhood"
+title = "brutal thief"
+titleShort = "thief"
+description = Color(Growing up in a gang, [PAWN_nameDef] learned the brutality of the streets.
+
+Knowing that showing weakness could be fatal, [PAWN_pronoun] closed [PAWN_objective]self off from others., 1.0)
+skillGains = SubResource(1)
+workDisables = "Caring, Artistic"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

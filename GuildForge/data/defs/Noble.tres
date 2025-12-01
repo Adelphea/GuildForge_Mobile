@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ExpectationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ExpectationDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Noble.tres")"
+label = "noble"
+order = "8"
+thoughtStage = "6"
+joyKindsNeeded = "6"
+joyToleranceDropPerDay = "0.07"

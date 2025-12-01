@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gnomebiologist96.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/Gnomebiologist96.tres")"
+slot = "Adulthood"
+title = "gnomebiologist"
+titleShort = "biologist"
+description = Color([PAWN_nameDef] was a xenobiology professor in a glitterworld university. [PAWN_pronoun] went to conferences and managed an art gallery.\n\nHowever, [PAWN_pronoun] never stopped sculpting yard gnomes, and considers this to be [PAWN_possessive] true profession., 1.0)
+skillGains = SubResource(1)
+workDisables = Color(Cooking, Firefighting, Cleaning, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

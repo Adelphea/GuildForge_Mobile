@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TileInspector.tres")"
+label = "Tile inspector"
+priority = "2"
+helpText = Color(You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more.)

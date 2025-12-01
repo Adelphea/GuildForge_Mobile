@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CosmeticSurgeon36.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/CosmeticSurgeon36.tres")"
+slot = "Adulthood"
+title = "cosmetic surgeon"
+titleShort = "surgeon"
+description = "[PAWN_nameDef] had a terrible bedside manner due to [PAWN_possessive] abrasiveness. [PAWN_pronoun] often bullied [PAWN_possessive] patients into getting cosmetic surgery. [PAWN_pronoun] made a lot of money this way.\n\nWhile very studious and careful in [PAWN_possessive] work, [PAWN_pronoun] never had to lift a finger doing domestic chores."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Cooking.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+forcedTraits = SubResource(3)
+possessions = SubResource(4)
+shuffleable = "False"

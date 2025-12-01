@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CoreDilettante33.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/CoreDilettante33.tres")"
+slot = "Childhood"
+title = "core dilettante"
+titleShort = "dilettante"
+description = Color([PAWN_nameDef] spent [PAWN_possessive] formative years on a glitterworld in the core region, where [PAWN_pronoun] and [PAWN_possessive] friends pursued lives of idle pleasure.
+
+As [PAWN_pronoun] grew up, [PAWN_pronoun] began to find the life of ease unfulfilling. [PAWN_pronoun] decided to look for a more challenging path., 1.0)
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = "ManualDumb, Violent"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

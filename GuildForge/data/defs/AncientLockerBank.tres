@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientLockerBank.tres")"
+label = "ancient locker bank"
+description = "An ancient, rusted bank of lockers. All of the lockers have been forced open with nothing valuable left behind."
+noRightClickDraftAttack = "true"
+graphicData = SubResource(1)
+size = Vector2(3, 1)
+fillPercent = "0.50"
+defaultPlacingRot = "South"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(3)
+passability = "PassThroughOnly"
+pathCost = "50"
+building = SubResource(4)

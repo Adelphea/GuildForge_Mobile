@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpaceyachtPilot89.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SpaceyachtPilot89.tres")"
+slot = "Childhood"
+title = "spaceyacht pilot"
+titleShort = "pilot"
+description = "[PAWN_nameDef] ferried wealthy businessmen and politicians to and from [PAWN_possessive] home world.
+
+        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Cooking.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

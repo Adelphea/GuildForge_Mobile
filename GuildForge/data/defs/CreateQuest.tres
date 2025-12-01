@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ScenPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ScenPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CreateQuest.tres")"
+label = "create quest"
+scenPartClass = "ScenPart_CreateQuest"
+category = "Rule"
+selectionWeight = "1.0"
+summaryPriority = "361"

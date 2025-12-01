@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/IngestedHardDrug_Horrible.tres")"
+durationDays = "3"
+stages = SubResource(1)
+nullifyingTraitDegrees = SubResource(3)

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientWarwalkerLeg.tres")"
+label = "ancient warwalker leg"
+description = "The shattered leg of a mid-scale warwalker that fell here long ago. It has been picked clean by looters, and no valuable components remain."
+graphicData = SubResource(1)
+size = Vector2(2, 4)
+fillPercent = "0.5"
+passability = "PassThroughOnly"
+pathCost = "50"
+statBases = SubResource(3)
+killedLeavings = SubResource(4)

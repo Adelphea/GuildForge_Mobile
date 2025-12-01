@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SkillDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SkillDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Intellectual.tres")"
+description = "Researching and drug synthesis."
+skillLabel = "intellectual"
+pawnCreatorSummaryVisible = "true"
+listOrder = "10"
+lessonInteraction = SubResource(1)
+generalRules = SubResource(2)

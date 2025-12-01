@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CountryChild95.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/CountryChild95.tres")"
+slot = "Childhood"
+title = "country child"
+titleShort = "hick kid"
+description = "[PAWN_nameDef] was raised up to fear God and love [PAWN_possessive] country. [PAWN_pronoun] was a genuine backwoods kid. [PAWN_pronoun] always worked hard to earn respect rather than demanding it."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

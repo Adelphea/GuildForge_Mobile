@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SmoothedGranite.tres")"
+label = "smoothed granite"
+description = Color(A very hard igneous rock. The shining surface is filled with a mosaic of black, white, and pink speckles., 1.0)
+uiIconPath = "Things/Building/Linked/WallSmooth_MenuIcon"
+graphicData = SubResource(1)
+statBases = SubResource(2)
+building = SubResource(3)
+saveCompressible = "false"
+repairEffect = "ExtResource("res://GuildForge/data/defs/Repair.tres")"

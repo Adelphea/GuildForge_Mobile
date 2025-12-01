@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_FleckDef.gd")
+altitudeLayer = "MetaOverlays"
+realTime = "true"
+solidTime = "0.25"
+fadeOutTime = "0.15"
+growthRate = "-0.3"
+graphicData = SubResource(1)

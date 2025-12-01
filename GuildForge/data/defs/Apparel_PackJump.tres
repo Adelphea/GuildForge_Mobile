@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_PackJump.tres")"
+label = "jump pack"
+description = Color(A single-person burst rocket for short-ranged flight. With its integrated harness and guidance assistant, the jump pack allows anyone to leap long distances at high speed, even over obstacles. It must be recharged after several uses.\n\nSome spacer tech militaries have melee combat specialists who use jump packs to bypass obstacles and rapidly close with the enemy., 1.0)
+techLevel = "Industrial"
+comps = Array[SubResource(1)]
+verbs = SubResource(2)
+recipeMaker = SubResource(5)
+costList = SubResource(8)
+graphicData = SubResource(9)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+statBases = SubResource(10)
+thingSetMakerTags = SubResource(11)
+thingCategories = SubResource(12)
+apparel = SubResource(13)
+tradeTags = SubResource(31)
+colorGenerator = SubResource(32)
+allowedArchonexusCount = "1"

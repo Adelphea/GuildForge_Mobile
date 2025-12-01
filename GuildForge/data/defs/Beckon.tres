@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Beckon.tres")"
+label = "beckon"
+description = "Psychically command the target to approach the caster."
+level = "3"
+iconPath = "UI/Abilities/Beckon"
+writeCombatLog = "True"
+hotKey = "ExtResource("res://GuildForge/data/defs/Misc6.tres")"
+casterMustBeCapableOfViolence = "false"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(4), SubResource(5)]

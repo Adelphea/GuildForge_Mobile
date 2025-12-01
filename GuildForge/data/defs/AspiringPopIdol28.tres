@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AspiringPopIdol28.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/AspiringPopIdol28.tres")"
+slot = "Childhood"
+title = "aspiring pop idol"
+titleShort = "pop idol"
+description = "[PAWN_nameDef] was being trained in song and dance to become the next big pop idol. [PAWN_pronoun] grew up being taken care of by company handlers.
+
+[PAWN_pronoun] never knew manual labor, but learned a lot about music and social etiquette."
+skillGains = SubResource(1)
+workDisables = "ManualDumb, Cleaning, Hauling, PlantWork, Mining"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

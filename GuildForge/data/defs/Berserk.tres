@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Berserk.tres")"
+label = "berserk"
+description = "Induce an angry psychosis in the target's mind, causing them to attack anyone nearby."
+level = "5"
+iconPath = "UI/Abilities/Berserk"
+writeCombatLog = "True"
+hotKey = "ExtResource("res://GuildForge/data/defs/Misc12.tres")"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(4), SubResource(5)]

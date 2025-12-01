@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TaleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TaleDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PutIntoCryptosleep.tres")"
+label = "put into cryptosleep"
+taleClass = "Tale_DoublePawn"
+type = "Volatile"
+baseInterest = "5"
+firstPawnSymbol = "CARRIER"
+secondPawnSymbol = "SLEEPER"
+rulePack = SubResource(1)

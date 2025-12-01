@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Comfort_Ignored.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Comfort.tres")"
+label = "ignored"
+description = "We should pay no attention to comfort."
+impact = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+displayOrderInImpact = "100"
+requiredMemes = SubResource(1)

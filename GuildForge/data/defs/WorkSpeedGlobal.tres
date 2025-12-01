@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WorkSpeedGlobal.tres")"
+label = "global work speed"
+description = "A multiplier on a character's speed at doing any kind of work."
+category = "ExtResource("res://GuildForge/data/defs/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0.3"
+toStringStyle = "PercentZero"
+parts = SubResource(1)
+scenarioRandomizable = "true"
+displayPriorityInCategory = "5000"
+showOnPlayerMechanoids = "true"

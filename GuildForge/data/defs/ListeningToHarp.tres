@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ListeningToHarp.tres")"
+workerClass = "ThoughtWorker_ListeningToHarp"
+developmentalStageFilter = Color(Baby, Child, Adult, 1.0)
+stages = SubResource(1)

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Door.tres")"
+label = "door"
+description = "Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of."
+statBases = SubResource(1)
+graphicData = SubResource(2)
+uiIconPath = "Things/Building/Door/DoorSimple_MenuIcon"
+costStuffCount = "25"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc1.tres")"
+building = SubResource(4)

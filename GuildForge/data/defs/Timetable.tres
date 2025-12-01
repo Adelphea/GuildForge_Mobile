@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnColumnDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnColumnDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Timetable.tres")"
+workerClass = "PawnColumnWorker_Timetable"
+sortable = "true"

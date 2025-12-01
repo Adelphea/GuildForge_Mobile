@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RenownedProfessor51.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/RenownedProfessor51.tres")"
+slot = "Adulthood"
+title = "renowned professor"
+titleShort = "professor"
+description = "[PAWN_nameDef]'s bottomless compassion and love of knowledge drove [PAWN_objective] to a life of teaching. [PAWN_pronoun] became one of the best-known names in academia throughout the urbworld bubble.\n\n[PAWN_possessive] holo-lectures were revered by all that watched, and the few students [PAWN_pronoun] accepted into [PAWN_possessive] seminars spoke widely of [PAWN_possessive] kindness and patience."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

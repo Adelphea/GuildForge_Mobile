@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SoundDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SoundDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Psycast_Neuroquake_CastLoop.tres")"
+context = "MapOnly"
+maxSimultaneous = "5"
+priorityMode = "PrioritizeNearest"
+sustain = "True"
+sustainFadeoutTime = "0.1"
+subSounds = SubResource(1)

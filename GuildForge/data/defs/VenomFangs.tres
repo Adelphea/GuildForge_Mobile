@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/VenomFangs.tres")"
+label = "venom fangs"
+description = Color(A pair of injectors implanted through the canine teeth, connected to a venom pump. The user can bite an enemy, extend the injectors, and pump venom into the target.)
+descriptionHyperlinks = SubResource(1)
+thingSetMakerTags = SubResource(2)
+costList = SubResource(3)
+recipeMaker = SubResource(4)
+violentTechHediff = "true"
+techHediffsTags = SubResource(5)

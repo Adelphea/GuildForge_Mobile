@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SocialPariah3.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SocialPariah3.tres")"
+slot = "Childhood"
+title = "social pariah"
+titleShort = "pariah"
+description = Color([PAWN_nameDef]'s family never fit in. They were oddballs who couldn't conform to their regimented society. Because of this, they were forced into cryptosleep and sent to different rimworlds, never to see each other again., 1.0)
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

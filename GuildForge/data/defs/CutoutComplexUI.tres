@@ -1,0 +1,6 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ShaderTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ShaderTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CutoutComplexUI.tres")"
+shaderPath = "Map/CutoutComplexUI"

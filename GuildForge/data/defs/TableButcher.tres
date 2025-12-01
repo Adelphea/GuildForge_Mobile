@@ -1,0 +1,32 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TableButcher.tres")"
+label = "butcher table"
+description = "A heavy table for butchering dead creatures into pieces of raw meat. Rotting or dessicated corpses cannot be butchered."
+thingClass = "Building_WorkTable"
+graphicData = SubResource(1)
+castEdgeShadows = "true"
+staticSunShadowHeight = "0.20"
+costStuffCount = "75"
+costList = SubResource(3)
+stuffCategories = SubResource(4)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+fillPercent = "0.5"
+useHitPoints = "True"
+statBases = SubResource(5)
+size = Vector2(3, 1)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Production.tres")"
+uiOrder = "2100"
+passability = "PassThroughOnly"
+pathCost = "50"
+hasInteractionCell = "True"
+interactionCellOffset = Vector3(0, 0, -1)
+surfaceType = "Item"
+recipes = SubResource(6)
+inspectorTabs = SubResource(7)
+building = SubResource(8)
+comps = Array[SubResource(9)]
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc3.tres")"
+placeWorkers = SubResource(11)

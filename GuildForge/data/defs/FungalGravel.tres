@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FungalGravel.tres")"
+label = "fungal gravel"
+description = "A spreadable form of gravel for growing fungal crops underground. It must be placed under overhead mountain so the dank coolness of the depths can nourish the fungal spores."
+texturePath = "Terrain/Surfaces/FungalGravel"
+edgeType = "FadeRough"
+renderPrecedence = "320"
+pathCost = "2"
+fertility = "0.7"
+canGenerateDefaultDesignator = "false"
+placeWorkers = SubResource(1)
+statBases = SubResource(2)
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc6.tres")"

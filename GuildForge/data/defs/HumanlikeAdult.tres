@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_LifeStageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_LifeStageDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HumanlikeAdult.tres")"
+label = "adult"
+workerClass = SubResource(1)
+visible = "false"
+reproductive = "true"
+sittingOffset = "0.18"
+silhouetteGraphicData = SubResource(2)

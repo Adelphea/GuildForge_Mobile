@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RunawayDancer35.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/RunawayDancer35.tres")"
+slot = "Adulthood"
+title = "runaway dancer"
+titleShort = "dancer"
+description = Color(Grown by and for science, [PAWN_nameDef] gave it up. Instead, [PAWN_pronoun] wanted to dance for crowds across many worlds, from the glamor of the glitterworlds to the dangers of the rim.\n\nSuch work required wearing a smile on [PAWN_possessive] face and a pistol under [PAWN_possessive] costume.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+shuffleable = "False"

@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AspiringPhysicist47.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/AspiringPhysicist47.tres")"
+slot = "Childhood"
+title = "aspiring physicist"
+titleShort = "student"
+description = "The daughter of an engineer and doctor, [PAWN_nameDef]'s early life was intellectually rich. After visiting a physics lab, [PAWN_pronoun] decided [PAWN_pronoun] wanted to be a quantum physicist.
+
+Bitten by a camel, kicked off a horse, and chased by dogs, [PAWN_nameDef] developed a fear of animals."
+skillGains = SubResource(1)
+workDisables = Color(Caring, Animals, Cooking, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

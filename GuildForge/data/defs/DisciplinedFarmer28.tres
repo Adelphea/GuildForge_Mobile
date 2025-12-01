@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DisciplinedFarmer28.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/DisciplinedFarmer28.tres")"
+slot = "Childhood"
+title = "disciplined farmer"
+titleShort = "farmer"
+description = Color([PAWN_nameDef] was the younger of two sons on the family farm, a frontier plot that struggled to turn a profit. [PAWN_nameDef]'s father was a strict disciplinarian, constantly at [PAWN_possessive] sons to work harder and keep quiet. [PAWN_nameDef] burnt [PAWN_possessive] hand making breakfast once and swore to cook only when [PAWN_possessive] life was in danger., 1.0)
+skillGains = SubResource(1)
+workDisables = "Social, Cooking"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+forcedTraits = SubResource(3)
+shuffleable = "False"

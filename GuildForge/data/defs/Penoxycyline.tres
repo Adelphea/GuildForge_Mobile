@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Penoxycyline.tres")"
+label = "penoxycyline"
+description = Color(A drug for preventing infections before they take hold. Blocks malaria, sleeping sickness, plague. Must be taken every five days to remain effective.\n\nThis drug only prevents new infections. It does not cure existing infections - even those that are not yet discovered., 1.0)
+possessionCount = "10"
+descriptionHyperlinks = SubResource(1)
+graphicData = SubResource(2)
+socialPropernessMatters = "false"
+rotatable = "false"
+statBases = SubResource(3)
+techLevel = "Industrial"
+ingestible = SubResource(4)
+recipeMaker = SubResource(7)
+costList = SubResource(9)
+comps = Array[SubResource(10)]

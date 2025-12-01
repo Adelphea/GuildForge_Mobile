@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BuildRoomDoor.tres")"
+text = "Now just place a DOOR over any one of the room walls.\n\nDOOR is right beside WALL in the ARCHITECT menu."
+instructionClass = "Instruction_BuildRoomDoor"
+eventTagInitiate = "InstructionDeactivated-BuildRoomWalls"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+onMapInstruction = "Build a door over one wall"
+rejectInputMessage = "Please build a wooden door over one of your room walls."
+resetBuildDesignatorStuffs = "true"

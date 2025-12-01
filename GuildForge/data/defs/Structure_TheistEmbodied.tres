@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Structure_TheistEmbodied.tres")"
+label = "embodied theist"
+description = "The god(s) walk the planets like us, yet they are powerful and immortal as we are not. They decide the moral structure of the universe."
+category = "ExtResource("res://GuildForge/data/defs/Structure.tres")"
+groupDef = "ExtResource("res://GuildForge/data/defs/Theist_Embodied.tres")"
+iconPath = "UI/Structures/Structure_EmbodiedTheist"
+impact = "0"
+worshipRoomLabel = "pantheon"
+deityCount = "2~4"
+generalRules = SubResource(1)
+descriptionMaker = SubResource(3)
+symbolPacks = SubResource(10)

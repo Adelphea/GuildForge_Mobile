@@ -1,0 +1,34 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Sarcophagus.tres")"
+label = "sarcophagus"
+description = "An ornamented burial receptacle for the honored dead."
+thingClass = "Building_Sarcophagus"
+containedPawnsSelectable = "true"
+graphicData = SubResource(1)
+size = Vector2(1, 2)
+pathCost = "42"
+castEdgeShadows = "true"
+fillPercent = "0.5"
+tickerType = "Rare"
+canOverlapZones = "false"
+constructionSkillPrerequisite = "5"
+building = SubResource(3)
+statBases = SubResource(15)
+stuffCategories = SubResource(16)
+inspectorTabs = SubResource(17)
+comps = Array[SubResource(18), SubResource(19), SubResource(20), SubResource(21)]
+costStuffCount = "60"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+blockWind = "true"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+staticSunShadowHeight = "0.3"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+uiOrder = "2050"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc9.tres")"
+researchPrerequisites = SubResource(28)
+placeWorkers = SubResource(29)
+ritualFocus = SubResource(30)

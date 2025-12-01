@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MortarMissRadiusFactor.tres")"
+label = "Mortar miss radius multiplier"
+labelForFullStatList = "Mortar miss radius multiplier"
+description = "A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells."
+category = "ExtResource("res://GuildForge/data/defs/PawnCombat.tres")"
+showOnAnimals = "false"
+showOnMechanoids = "false"
+showOnEntities = "false"
+showOnDrones = "false"
+defaultBaseValue = "1"
+minValue = "0"
+toStringStyle = "PercentZero"
+toStringStyleUnfinalized = "FloatOne"
+finalizeEquippedStatOffset = "false"
+noSkillOffset = "0"
+skillNeedOffsets = SubResource(1)
+capacityOffsets = SubResource(3)
+displayPriorityInCategory = "4060"

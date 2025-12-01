@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/YouthSoldier99.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/YouthSoldier99.tres")"
+slot = "Childhood"
+title = "youth soldier"
+titleShort = "soldier"
+description = Color(Born to a long line of soldiers, [PAWN_nameDef] joined a military training program.
+
+[PAWN_pronoun] excelled in physical training, and even passed most of the intellectual exams. While [PAWN_pronoun] was never particularly bright or nimble, [PAWN_nameDef] learned the value of hard work and suffering.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

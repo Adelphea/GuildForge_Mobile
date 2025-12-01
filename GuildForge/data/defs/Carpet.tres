@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainTemplateDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainTemplateDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Carpet.tres")"
+label = "carpet ({0})"
+description = Color(Soft carpet made from fibers dyed a single color. It's welcoming, cozy, and boosts the beauty of the room it's in. It's also quite flammable, and cleaning it is a laborious process.)
+texturePath = "Terrain/Surfaces/Carpet"
+researchPrerequisites = SubResource(1)
+ignoreIllegalLabelCharacterConfigError = "true"
+burnedDef = "ExtResource("res://GuildForge/data/defs/BurnedCarpet.tres")"
+designatorDropdown = "ExtResource("res://GuildForge/data/defs/Floor_Carpet.tres")"
+costList = SubResource(2)
+tags = SubResource(3)
+statBases = SubResource(4)
+uiOrder = "2100"
+renderPrecedenceStart = "200"

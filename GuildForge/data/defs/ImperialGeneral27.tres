@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ImperialGeneral27.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/ImperialGeneral27.tres")"
+slot = "Adulthood"
+title = "imperial general"
+titleShort = "general"
+description = "[PAWN_nameDef]'s thirst for power defined [PAWN_objective]. [PAWN_pronoun] quickly rose through the military ranks and soon attained the rank of general.\n\n[PAWN_pronoun] was given the most challenging task - conquering distant and unexplored rimworlds. Victory here could even position [PAWN_objective] as a successor to the emperor."
+skillGains = SubResource(1)
+workDisables = "ManualDumb"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Fat.tres")"
+shuffleable = "False"

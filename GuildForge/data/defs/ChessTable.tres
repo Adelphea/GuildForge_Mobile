@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ChessTable.tres")"
+label = "chess table"
+description = "The ancient game of kings. Fun for a few hours here and there, even playing alone. It trains intellectual skills.\n\nThis building requires adjacent chairs or stools to use."
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+rotatable = "false"
+socialPropernessMatters = "true"
+fillPercent = "0.40"
+minTechLevelToBuild = "Medieval"
+building = SubResource(4)
+researchPrerequisites = SubResource(5)
+statBases = SubResource(6)
+stuffCategories = SubResource(7)
+costStuffCount = "70"
+pathCost = "30"
+passability = "PassThroughOnly"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Joy.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc2.tres")"

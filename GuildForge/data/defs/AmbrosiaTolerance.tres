@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AmbrosiaTolerance.tres")"
+label = "ambrosia tolerance"
+description = "A built-up tolerance to ambrosia. The more severe this tolerance is, the more ambrosia it takes to get the same effect."
+comps = Array[SubResource(1), SubResource(2)]

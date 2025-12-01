@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MedicSoldier54.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/MedicSoldier54.tres")"
+slot = "Adulthood"
+title = "medic soldier"
+titleShort = "medic"
+description = "[PAWN_nameDef] enrolled in [PAWN_possessive] planetary army as a frontline medic. [PAWN_pronoun] soon knew the horrors of war and was deeply marked by them.\n\n[PAWN_pronoun] left the military and [PAWN_possessive] homeworld and began researching medicine and helping those [PAWN_pronoun] came across."
+skillGains = SubResource(1)
+workDisables = "Violent"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

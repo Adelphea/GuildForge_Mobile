@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Feminine_Ravagers.tres")"
+label = "feminine ravagers"
+description = "Women should assert their natural power by reigning over men and pillaging weaker peoples.\n\nUnlocks melee and shooting specialist roles. Will have gladiator duels."
+categoryDef = "ExtResource("res://GuildForge/data/defs/Strong.tres")"
+memes = SubResource(1)

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PartySpot.tres")"
+label = "party spot"
+description = "Designates a spot for throwing parties."
+graphicData = SubResource(1)
+altitudeLayer = "FloorEmplacement"
+statBases = SubResource(2)
+rotatable = "false"
+scatterableOnMapGen = "false"
+useHitPoints = "False"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+uiOrder = "2000"
+passability = "Standable"
+building = SubResource(3)
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc11.tres")"

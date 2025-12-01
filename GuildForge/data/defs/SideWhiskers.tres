@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BeardDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BeardDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SideWhiskers.tres")"
+label = "side whiskers"
+texPath = "Things/Pawn/Humanlike/Beards/BeardSideWhiskers"
+styleGender = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+category = "ExtResource("res://GuildForge/data/defs/Rural.tres")"
+styleTags = SubResource(1)

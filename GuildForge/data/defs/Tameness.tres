@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TrainableDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TrainableDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Tameness.tres")"
+label = "tameness"
+description = "The animal can learn to consider itself a member of your colony."
+icon = "UI/Icons/Trainables/Tameness"
+listPriority = "2000"
+difficulty = "100"
+requiredTrainability = "ExtResource("res://GuildForge/data/defs/None.tres")"
+steps = "5"
+defaultTrainable = "true"

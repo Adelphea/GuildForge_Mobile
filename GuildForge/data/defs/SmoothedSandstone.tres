@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SmoothedSandstone.tres")"
+label = "smoothed sandstone"
+description = "A sedimentary rock composed of sand particles compressed together. The sand layers have been polished to a flat, smooth surface."
+uiIconPath = "Things/Building/Linked/WallSmooth_MenuIcon"
+graphicData = SubResource(1)
+statBases = SubResource(2)
+building = SubResource(3)
+saveCompressible = "false"
+repairEffect = "ExtResource("res://GuildForge/data/defs/Repair.tres")"

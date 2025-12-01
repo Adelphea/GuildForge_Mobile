@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnsArrivalModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnsArrivalModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RandomDrop.tres")"
+workerClass = "PawnsArrivalModeWorker_RandomDrop"
+layerWhitelist = SubResource(1)
+selectionWeightCurve = SubResource(3)
+selectionWeightCurvesPerFaction = SubResource(5)
+pointsFactorCurve = SubResource(9)
+minTechLevel = "Industrial"
+textEnemy = "A group of {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area!"
+textFriendly = "A group of friendly {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area!"
+textWillArrive = "{0_pawnsPluralDef} will arrive in transport pods."

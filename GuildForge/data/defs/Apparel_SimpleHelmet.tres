@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_SimpleHelmet.tres")"
+label = "simple helmet"
+description = "A simple helmet which gives moderate protection against sharp attacks. Not effective against blunt weapons."
+techLevel = "Industrial"
+graphicData = SubResource(1)
+uiIconScale = "1.4"
+stuffCategories = SubResource(2)
+costStuffCount = "40"
+tradeTags = SubResource(3)
+statBases = SubResource(4)
+recipeMaker = SubResource(5)
+apparel = SubResource(7)

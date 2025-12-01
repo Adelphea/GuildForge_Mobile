@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ComputerGeek62.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/ComputerGeek62.tres")"
+slot = "Childhood"
+title = "computer geek"
+titleShort = "geek"
+description = Color([PAWN_nameDef] spent most of [PAWN_possessive] childhood on [PAWN_possessive] computer, typing away, never knowing when to get up and eat.
+
+[PAWN_pronoun] had a very narrow interest: hacking cryptosleep safety protocols., 1.0)
+skillGains = SubResource(1)
+workDisables = Color(Social, Cooking, PlantWork, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

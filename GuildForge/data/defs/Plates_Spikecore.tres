@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plates_Spikecore.tres")"
+label = "spikecore plates"
+description = "Fine steel plates decorated in an aggressive spikecore style."
+texturePath = "Terrain/Surfaces/SpikecorePlates"
+renderPrecedence = "240"
+canGenerateDefaultDesignator = "false"
+constructionSkillPrerequisite = "6"
+dominantStyleCategory = "ExtResource("res://GuildForge/data/defs/Spikecore.tres")"
+color = Vector3(105, 105, 105)
+costList = SubResource(1)
+statBases = SubResource(2)
+tags = SubResource(3)

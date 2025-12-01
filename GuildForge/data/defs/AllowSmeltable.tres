@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AllowSmeltable.tres")"
+label = "allow smeltable"
+parentCategory = "ExtResource("res://GuildForge/data/defs/Weapons.tres")"
+allowedByDefault = "true"
+saveKey = "allowSmeltable"
+workerClass = "SpecialThingFilterWorker_Smeltable"

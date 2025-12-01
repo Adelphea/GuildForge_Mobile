@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/EndGame_ArchonexusVictory_FirstCycle.tres")"
+sendAvailableLetter = "true"
+affectedByPoints = "false"
+questDescriptionRules = SubResource(1)
+root = SubResource(3)

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientLargeRustedEngineBlock.tres")"
+label = "ancient macro-engine block"
+description = Color(A large, ancient engine block from some giant vehicle or power source. It's rusted through, and all the useful components are gone. No repair could salvage this., 1.0)
+rotatable = "false"
+graphicData = SubResource(1)
+size = Vector2(2, 1)
+fillPercent = "0.5"
+statBases = SubResource(3)
+passability = "PassThroughOnly"
+pathCost = "50"

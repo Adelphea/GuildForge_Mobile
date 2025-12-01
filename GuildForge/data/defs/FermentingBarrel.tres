@@ -1,0 +1,26 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FermentingBarrel.tres")"
+label = "fermenting barrel"
+description = "A barrel for fermenting raw wort into beer."
+thingClass = "Building_FermentingBarrel"
+drawerType = "MapMeshAndRealTime"
+graphicData = SubResource(1)
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+fillPercent = "0.45"
+pathCost = "42"
+thingCategories = SubResource(4)
+statBases = SubResource(5)
+costList = SubResource(6)
+comps = Array[SubResource(7)]
+tickerType = "Rare"
+rotatable = "true"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Production.tres")"
+uiOrder = "2710"
+constructEffect = "ExtResource("res://GuildForge/data/defs/ConstructWood.tres")"
+building = SubResource(8)
+researchPrerequisites = SubResource(10)

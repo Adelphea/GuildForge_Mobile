@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_NeedDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_NeedDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Suppression.tres")"
+needClass = "Need_Suppression"
+label = "suppression"
+showOnNeedList = "false"
+baseLevel = "0.5"
+slavesOnly = "true"
+fallPerDay = "0"

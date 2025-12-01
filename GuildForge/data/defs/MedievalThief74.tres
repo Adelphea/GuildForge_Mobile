@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MedievalThief74.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MedievalThief74.tres")"
+slot = "Childhood"
+title = "medieval thief"
+titleShort = "thief"
+description = Color([PAWN_nameDef] grew up poor and hungry on a medieval planet, learning to fend for [PAWN_objective]self.
+
+At first, [PAWN_pronoun] only took what [PAWN_pronoun] needed. Then [PAWN_pronoun] learned to take what [PAWN_pronoun] wanted., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TorchLamp.tres")"
+label = "torch lamp"
+description = "A wooden torch for lighting an area. People need light to move and work at full speed. Can be automatically refueled with wood. Produces a small amount of heat."
+graphicData = SubResource(1)
+uiIconPath = "Things/Building/Misc/TorchLamp_MenuIcon"
+uiIconScale = "0.85"
+statBases = SubResource(3)
+placeWorkers = SubResource(5)
+drawPlaceWorkersWhileSelected = "true"
+comps = Array[SubResource(6), SubResource(7)]
+designationCategory = "ExtResource("res://GuildForge/data/defs/Furniture.tres")"
+uiOrder = "2800"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc10.tres")"

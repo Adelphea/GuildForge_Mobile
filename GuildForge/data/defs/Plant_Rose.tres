@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_Rose.tres")"
+label = "rose"
+description = "A beautiful cultivated flower, the rose has been a symbol of love since Earth's ancient era."
+statBases = SubResource(1)
+graphicData = SubResource(2)
+altitudeLayer = "Item"
+selectable = "true"
+ingestible = SubResource(3)
+plant = SubResource(4)

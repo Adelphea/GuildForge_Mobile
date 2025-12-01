@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AllowPlantFood.tres")"
+label = "allow plant food"
+description = "Allow foods that are of quality equivalent to unharvested plants, like hay."
+parentCategory = "ExtResource("res://GuildForge/data/defs/Foods.tres")"
+allowedByDefault = "true"
+saveKey = "allowPlantFood"
+configurable = "false"
+workerClass = "SpecialThingFilterWorker_PlantFood"

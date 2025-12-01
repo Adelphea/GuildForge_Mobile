@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Empire_Fighter_Grenadier.tres")"
+label = "imperial grenadier"
+apparelColor = Vector3(142, 159, 123)
+canBeSapper = "true"
+isGoodBreacher = "true"
+combatPower = "100"
+weaponTags = SubResource(1)
+apparelMoney = "6000~9000"
+apparelRequired = SubResource(2)
+techHediffsTags = SubResource(3)
+skills = SubResource(4)
+disallowedTraits = SubResource(6)
+initialWillRange = "2~4"
+initialResistanceRange = "13~21"
+xenotypeSet = SubResource(7)

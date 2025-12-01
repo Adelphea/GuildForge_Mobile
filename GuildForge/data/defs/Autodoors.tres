@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Autodoors.tres")"
+label = "autodoor"
+description = "Build autodoors which automatically open when someone approaches, without slowing anyone down."
+baseCost = "600"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+researchViewX = "6.00"
+researchViewY = "0.30"
+generalRules = SubResource(2)

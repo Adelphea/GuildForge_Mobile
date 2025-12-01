@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AnimalGatherYield.tres")"
+label = "animal gather yield"
+description = Color(The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product., 1.0)
+category = "ExtResource("res://GuildForge/data/defs/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+toStringStyle = "PercentZero"
+skillNeedFactors = SubResource(1)
+capacityFactors = SubResource(4)
+displayPriorityInCategory = "4502"

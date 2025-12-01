@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpoiledBrat59.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SpoiledBrat59.tres")"
+slot = "Childhood"
+title = "spoiled brat"
+titleShort = "brat"
+description = Color(Born in a rich family, [PAWN_nameDef] was given everything, and never developed basic work ethic or the foundations of a non-dependent personality.
+
+[PAWN_pronoun] was expected to become one of the best doctors in the world., 1.0)
+skillGains = SubResource(1)
+workDisables = Color(ManualSkilled, Social, Intellectual, Cooking)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

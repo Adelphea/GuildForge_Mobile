@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Weapon_GrenadeFrag.tres")"
+label = "frag grenades"
+description = Color(Old-school fragmentation grenades. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby., 1.0)
+recipeMaker = SubResource(1)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+graphicData = SubResource(2)
+uiIconScale = "1.3"
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_Grenade.tres")"
+techLevel = "Industrial"
+statBases = SubResource(3)
+costList = SubResource(4)
+weaponTags = SubResource(5)
+thingCategories = SubResource(6)
+smeltable = "true"
+verbs = SubResource(7)
+comps = Array[SubResource(10)]

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CarpetMaking.tres")"
+label = "carpet-making"
+description = "Weave beautiful carpets from cloth."
+baseCost = "800"
+techLevel = "Medieval"
+researchViewX = "1.00"
+researchViewY = "2.10"
+generalRules = SubResource(1)

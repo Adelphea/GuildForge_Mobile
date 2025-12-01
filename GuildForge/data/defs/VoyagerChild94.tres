@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/VoyagerChild94.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/VoyagerChild94.tres")"
+slot = "Childhood"
+title = "voyager child"
+titleShort = "voyager"
+description = Color([PAWN_nameDef] was raised on an R&D starship, and spent most of [PAWN_possessive] childhood travelling through the void.
+
+Approaching a mysterious planetoid, the ship was severely damaged. [PAWN_possessive] next memory is of the ship heading out of orbit, fully repaired. [PAWN_pronoun] soon developed an unnatural gift for technological research.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Social.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

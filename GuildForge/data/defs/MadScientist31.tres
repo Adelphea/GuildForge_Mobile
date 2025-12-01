@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MadScientist31.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/MadScientist31.tres")"
+slot = "Adulthood"
+title = "mad scientist"
+titleShort = "scientist"
+description = "After finishing [PAWN_possessive] education, [PAWN_nameDef] was hired by the planet's leading genetic researcher. Later, [PAWN_pronoun] was caught running illegal, inhumane experiments.\n\nDespite [PAWN_possessive] family's influence, [PAWN_pronoun] was convicted and sentenced to hard labor on a penal colony."
+skillGains = SubResource(1)
+workDisables = "PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

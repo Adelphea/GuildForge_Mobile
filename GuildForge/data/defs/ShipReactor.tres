@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShipReactor.tres")"
+label = "starship reactor"
+description = "Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders."
+baseCost = "6000"
+techLevel = "Spacer"
+prerequisites = SubResource(1)
+researchViewX = "21.00"
+researchViewY = "4.30"
+generalRules = SubResource(2)

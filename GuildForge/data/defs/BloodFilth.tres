@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BloodFilth.tres")"
+fleckSystemClass = "FleckSystemThrown"
+graphicData = SubResource(1)
+altitudeLayer = "MoteLow"
+solidTime = "125"
+fadeInTime = "0.2"
+fadeOutTime = "0.9"

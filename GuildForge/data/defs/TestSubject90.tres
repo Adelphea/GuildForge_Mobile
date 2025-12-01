@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TestSubject90.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/TestSubject90.tres")"
+slot = "Adulthood"
+title = "test subject"
+titleShort = "experiment"
+description = "Kidnapped as a teenager, [PAWN_nameDef] was an unwilling test subject in experimental gene therapies. Labs and scientists scare [PAWN_objective]."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Intellectual.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

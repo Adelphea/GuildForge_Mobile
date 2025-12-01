@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_GauranlenTreeModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_GauranlenTreeModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Barkskin.tres")"
+label = "barkskin"
+description = "A dryad caste specialized in absorbing hits during combat. Barkskin dryads are covered by a thick bark-like hide which is partly formed by the Gauranlen tree itself. Under human influence, it can act as a damage-absorbing fighter."
+pawnKindDef = "ExtResource("res://GuildForge/data/defs/Dryad_Barkskin.tres")"
+drawPosition = Vector2(0, 0.1665)
+displayedStats = SubResource(1)
+hyperlinks = SubResource(2)

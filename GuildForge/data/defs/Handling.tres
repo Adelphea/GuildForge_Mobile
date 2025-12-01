@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Handling.tres")"
+labelShort = "handle"
+pawnLabel = "Handler"
+gerundLabel = "handling"
+description = Color(Tame, train, harvest resources from and slaughter animals., 1.0)
+verb = "Handle"
+naturalPriority = "1050"
+relevantSkills = SubResource(1)
+workTags = SubResource(2)

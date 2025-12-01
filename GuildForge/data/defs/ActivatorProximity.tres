@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ActivatorProximity.tres")"
+label = "proximity activator"
+description = "A proximity alarm for dormant mechanoids. If it detects a human-like threat nearby, it will awaken any nearby dormant mechanoids or structures."
+size = Vector2(1, 1)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+receivesSignals = "true"
+fillPercent = "0.25"
+pathCost = "30"
+statBases = SubResource(1)
+graphicData = SubResource(2)
+building = SubResource(5)
+drawPlaceWorkersWhileSelected = "true"
+drawerType = "MapMeshAndRealTime"
+placeWorkers = SubResource(7)
+comps = Array[SubResource(8), SubResource(9), SubResource(10), SubResource(11), SubResource(12)]
+costList = SubResource(13)

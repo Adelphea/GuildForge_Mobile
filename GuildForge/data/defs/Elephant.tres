@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Elephant.tres")"
+label = "elephant"
+race = "ExtResource("res://GuildForge/data/defs/Elephant.tres")"
+combatPower = "260"
+ecoSystemWeight = "2.0"
+wildGroupSize = "3~7"
+abilities = SubResource(1)
+lifeStages = SubResource(3)

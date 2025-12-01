@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Painful_Purists.tres")"
+label = "purist flagellators"
+description = "Suffering purifies and ennobles. Modifying the body to ease your life is the way of the filthy.\n\nUnlocks the medical specialist role. These people have reduced comfort expectations. Will have gladiator duels and sacrifices."
+categoryDef = "ExtResource("res://GuildForge/data/defs/Strong.tres")"
+memes = SubResource(1)

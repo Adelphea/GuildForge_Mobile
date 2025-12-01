@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Urn.tres")"
+label = "urn"
+description = "An ancient-style decorative container."
+noRightClickDraftAttack = "true"
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+possessionCount = "1"
+thingCategories = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+fillPercent = "0.40"
+statBases = SubResource(2)
+stuffCategories = SubResource(3)
+costStuffCount = "20"
+canOverlapZones = "false"
+pathCost = "30"
+rotatable = "false"
+building = SubResource(4)
+graphicData = SubResource(5)

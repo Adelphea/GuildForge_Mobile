@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Human.tres")"
+label = "human"
+description = "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets."
+statBases = SubResource(1)
+tools = SubResource(2)
+race = SubResource(17)
+recipes = SubResource(43)
+ingredient = SubResource(60)
+comps = Array[SubResource(62), SubResource(63)]

@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ShieldBelt.tres")"
+label = "shields"
+description = "Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary."
+baseCost = "1000"
+techLevel = "Spacer"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+requiredResearchBuilding = "ExtResource("res://GuildForge/data/defs/HiTechResearchBench.tres")"
+researchViewX = "11.00"
+researchViewY = "1.20"
+generalRules = SubResource(3)

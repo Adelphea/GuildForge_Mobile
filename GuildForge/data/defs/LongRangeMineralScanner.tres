@@ -1,0 +1,31 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/LongRangeMineralScanner.tres")"
+label = "long-range mineral scanner"
+description = "A lateral sensor unit used by researchers to detect a specific type of mineral across the planet. The chance to find a resource depends on the operator's research ability. This sensor can be tuned to target a specific resource type. It consumes a lot of electricity. If you find a resource, you'll need to travel to collect it."
+graphicData = SubResource(1)
+costList = SubResource(3)
+building = SubResource(4)
+comps = Array[SubResource(5), SubResource(6), SubResource(7), SubResource(8), SubResource(9)]
+placeWorkers = SubResource(10)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+canBeUsedUnderRoof = "false"
+statBases = SubResource(11)
+fillPercent = "0.40"
+leaveResourcesWhenKilled = "false"
+passability = "PassThroughOnly"
+pathCost = "50"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+rotatable = "true"
+hasInteractionCell = "true"
+interactionCellOffset = Vector3(0, 0, 2)
+interactionCellIcon = "ExtResource("res://GuildForge/data/defs/DiningChair.tres")"
+interactionCellIconReverse = "true"
+defaultPlacingRot = "South"
+canOverlapZones = "false"
+size = Vector2(3, 3)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+researchPrerequisites = SubResource(12)
+constructionSkillPrerequisite = "8"

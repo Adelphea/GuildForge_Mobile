@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/EmergeFromWater.tres")"
+workerClass = "RaidStrategyWorker_ImmediateAttack"
+selectionWeightPerPointsCurve = SubResource(1)
+selectionWeightCurvesPerFaction = SubResource(3)
+pointsFactorCurve = SubResource(7)
+arriveModes = SubResource(9)
+letterLabelEnemy = "ExtResource("res://GuildForge/data/defs/Raid.tres")"
+arrivalTextEnemy = "They are attacking immediately."
+letterLabelFriendly = "Friendlies"
+arrivalTextFriendly = "They are moving in to help you immediately."

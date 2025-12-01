@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FillFermentingBarrel.tres")"
+label = "fill fermenting barrels"
+giverClass = "WorkGiver_FillFermentingBarrel"
+workType = "ExtResource("res://GuildForge/data/defs/Hauling.tres")"
+verb = "fill"
+gerund = "filling"
+priorityInType = "19"
+requiredCapacities = SubResource(1)
+canBeDoneByMechs = "false"

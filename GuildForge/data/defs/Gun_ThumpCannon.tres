@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_ThumpCannon.tres")"
+label = "thump cannon"
+description = "A breaching explosive launcher used by mechanoids. It fires a concussion bomb that is extremely effective against walls and structures, but does much less damage to small targets."
+techLevel = "Spacer"
+graphicData = SubResource(1)
+tradeability = "ExtResource("res://GuildForge/data/defs/None.tres")"
+destroyOnDrop = "true"
+statBases = SubResource(2)
+relicChance = "0"
+weaponTags = SubResource(3)
+verbs = SubResource(4)
+tools = SubResource(7)

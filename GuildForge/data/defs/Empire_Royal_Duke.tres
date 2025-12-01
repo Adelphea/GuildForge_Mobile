@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Empire_Royal_Duke.tres")"
+label = "dominus"
+titleRequired = "ExtResource("res://GuildForge/data/defs/Duke.tres")"
+combatPower = "135"
+apparelMoney = "9999999"
+specificApparelRequirements = SubResource(1)
+techHediffsChance = "0.25"
+techHediffsMoney = "1000~2500"
+techHediffsMaxAmount = "2"
+initialWillRange = "14~17"
+initialResistanceRange = "38~58"
+useFactionXenotypes = "false"
+xenotypeSet = SubResource(8)

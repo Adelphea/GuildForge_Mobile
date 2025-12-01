@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GiveQuest_Beggars.tres")"
+category = "ExtResource("res://GuildForge/data/defs/GiveQuest.tres")"
+label = "beggars arrive"
+targetTags = SubResource(1)
+letterLabel = "beggars arrive"
+questScriptDef = "ExtResource("res://GuildForge/data/defs/Beggars.tres")"
+workerClass = "IncidentWorker_GiveQuest"
+baseChance = "0"
+requireColonistsPresent = "True"

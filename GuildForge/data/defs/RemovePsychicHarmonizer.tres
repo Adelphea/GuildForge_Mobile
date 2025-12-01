@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RemovePsychicHarmonizer.tres")"
+label = "remove psychic harmonizer"
+description = "Remove psychic harmonizer."
+descriptionHyperlinks = SubResource(1)
+jobString = "Removing psychic harmonizer."
+removesHediff = "ExtResource("res://GuildForge/data/defs/PsychicHarmonizer.tres")"

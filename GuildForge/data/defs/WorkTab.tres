@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WorkTab.tres")"
+label = "Work settings"
+priority = "20"
+helpText = Color(You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done., 1.0)
+highlightTags = SubResource(1)

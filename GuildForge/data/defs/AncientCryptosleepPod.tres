@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientCryptosleepPod.tres")"
+label = "ancient cryptosleep pod"
+thingClass = "Building_AncientCryptosleepPod"
+containedPawnsSelectable = "true"
+description = "A single-use pod for preserving one person in a state of suspended animation. Unlike cryptosleep caskets, cryptosleep pods can only be used once."
+graphicData = SubResource(1)
+building = SubResource(2)
+researchPrerequisites = SubResource(3)
+hasInteractionCell = "false"
+statBases = SubResource(4)
+designationCategory = SubResource(5)
+costList = SubResource(6)
+comps = SubResource(7)

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TaleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TaleDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/KilledLongRange.tres")"
+label = "killed at distance"
+taleClass = "Tale_DoublePawnAndDef"
+type = "Volatile"
+firstPawnSymbol = "KILLER"
+secondPawnSymbol = "VICTIM"
+defSymbol = "WEAPON"
+baseInterest = "4"
+rulePack = SubResource(1)

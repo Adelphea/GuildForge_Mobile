@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StorytellerDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StorytellerDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Tutor.tres")"
+label = "Tutor Hidden"
+populationIntentFactorFromPopCurve = SubResource(1)
+listVisible = "false"
+listOrder = "1000"
+tutorialMode = "true"
+disableAdaptiveTraining = "true"
+disableAlerts = "true"
+disablePermadeath = "true"
+forcedDifficulty = "ExtResource("res://GuildForge/data/defs/Easy.tres")"
+comps = SubResource(3)

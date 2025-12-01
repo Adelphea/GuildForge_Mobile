@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DeconstructForBlueprint.tres")"
+label = "deconstruct structures for blueprints"
+giverClass = "WorkGiver_DeconstructForBlueprint"
+workType = "ExtResource("res://GuildForge/data/defs/Construction.tres")"
+priorityInType = "85"
+verb = "deconstruct"
+gerund = "deconstructing"
+requiredCapacities = SubResource(1)

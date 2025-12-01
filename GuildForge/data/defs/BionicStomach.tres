@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BionicStomach.tres")"
+label = "bionic stomach"
+labelNoun = "a bionic stomach"
+description = "An installed bionic stomach. A person with this has a much lower chance of getting food poisoning, and is immune to some stomach diseases. An integrated lattice-dust healing system automatically repairs any damage to the artificial organ. It is better than a biological stomach in almost every way."
+descriptionHyperlinks = SubResource(1)
+spawnThingOnRemoved = "ExtResource("res://GuildForge/data/defs/BionicStomach.tres")"
+stages = SubResource(2)
+addedPartProps = SubResource(5)

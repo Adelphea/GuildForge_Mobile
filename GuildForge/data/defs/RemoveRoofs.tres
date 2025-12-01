@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RemoveRoofs.tres")"
+label = "remove roofs"
+giverClass = "WorkGiver_RemoveRoof"
+workType = "ExtResource("res://GuildForge/data/defs/Construction.tres")"
+priorityInType = "90"
+verb = "remove roof"
+gerund = "removing roof"
+scanThings = "false"
+scanCells = "true"
+requiredCapacities = SubResource(1)

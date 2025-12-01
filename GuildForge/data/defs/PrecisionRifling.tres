@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PrecisionRifling.tres")"
+label = "precision rifling"
+description = "Craft precisely-machined guns like assault rifles and sniper rifles."
+baseCost = "1400"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+requiredResearchBuilding = "ExtResource("res://GuildForge/data/defs/HiTechResearchBench.tres")"
+researchViewX = "11.00"
+researchViewY = "3.60"
+generalRules = SubResource(2)

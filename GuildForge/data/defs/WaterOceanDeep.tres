@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WaterOceanDeep.tres")"
+label = "deep ocean water"
+renderPrecedence = "397"
+waterBodyType = "Saltwater"
+gravshipReplacementTerrain = "ExtResource("res://GuildForge/data/defs/WaterOceanShallow.tres")"
+tags = SubResource(1)

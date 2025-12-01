@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_GameConditionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_GameConditionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GiantSmokeCloud.tres")"
+conditionClass = "GameCondition_SmokeSpewer"
+label = "giant smoke cloud"
+description = "A nearby smoke spewer is reducing sunlight in this region."
+letterText = "A smoke spewer machine has begun obscuring the sun."
+canBePermanent = "false"
+natural = "false"

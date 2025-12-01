@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+workAmount = "1500"
+skillRequirements = SubResource(1)
+ingredients = SubResource(2)
+fixedIngredientFilter = SubResource(6)

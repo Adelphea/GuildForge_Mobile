@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Trees_Desired.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Trees.tres")"
+label = "desired"
+description = "It's essential to live surrounded by beautiful trees."
+impact = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+displayOrderInImpact = "100"
+associatedMemes = SubResource(1)
+comps = Array[SubResource(2), SubResource(3)]

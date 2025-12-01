@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Colonist22.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Colonist22.tres")"
+slot = "Childhood"
+title = "colonist"
+titleShort = "colonist"
+description = "As a child, [PAWN_pronoun] was launched into space as part of an interstellar colonization program."
+skillGains = SubResource(1)
+workDisables = "Artistic, Firefighting"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

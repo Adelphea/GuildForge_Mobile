@@ -1,0 +1,23 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Ideogram.tres")"
+label = "ideogram"
+description = "A large image drawn on the ground and reinforced with metal edges. It is used as a focus for rituals."
+graphicData = SubResource(1)
+size = Vector2(3, 3)
+costList = SubResource(3)
+statBases = SubResource(4)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+ideoBuildingNamerBase = "ExtResource("res://GuildForge/data/defs/NamerIdeogram.tres")"
+passability = "Standable"
+selectable = "true"
+useHitPoints = "true"
+isAltar = "true"
+hasInteractionCell = "True"
+interactionCellOffset = Vector3(0, 0, -1)
+canEditAnyStyle = "true"
+building = SubResource(5)
+placeWorkers = SubResource(8)
+drawPlaceWorkersWhileSelected = "True"

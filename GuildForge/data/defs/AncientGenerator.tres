@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientGenerator.tres")"
+label = "ancient generator"
+description = "An ancient electrical generator. Its usable parts were smashed or looted long ago, and the rest has rusted into uselessness."
+rotatable = "false"
+noRightClickDraftAttack = "true"
+graphicData = SubResource(1)
+size = Vector2(2, 2)
+fillPercent = "0.5"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(3)
+passability = "PassThroughOnly"
+pathCost = "50"
+building = SubResource(4)

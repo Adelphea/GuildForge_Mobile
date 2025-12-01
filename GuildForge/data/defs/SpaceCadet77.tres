@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpaceCadet77.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SpaceCadet77.tres")"
+slot = "Childhood"
+title = "space cadet"
+titleShort = "cadet"
+description = Color(Growing up on a rural farm-world leaves little opportunity for excitement and adventure, so when the Royal Fleet began a recruiting program on [PAWN_possessive] home planet, [PAWN_nameDef] threw down [PAWN_possessive] hoe and cattle prod to took up arms for the crown.
+
+[PAWN_pronoun] served on the interplanetary super-destroyer HMS Thunder-Child., 1.0)
+skillGains = SubResource(1)
+workDisables = "PlantWork"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

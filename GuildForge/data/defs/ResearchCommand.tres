@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ResearchCommand.tres")"
+label = "research command"
+description = "This person is using a special ability to provide suggestions and mental support, boosting the research speed of everyone nearby."
+hediffClass = "HediffWithComps"
+comps = Array[SubResource(1), SubResource(2), SubResource(3)]
+isBad = "false"

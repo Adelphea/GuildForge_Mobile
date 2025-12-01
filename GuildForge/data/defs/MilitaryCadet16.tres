@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MilitaryCadet16.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MilitaryCadet16.tres")"
+slot = "Childhood"
+title = "military cadet"
+titleShort = "cadet"
+description = Color(Orphaned as a child, [PAWN_nameDef] was sent to a secret military school on a harsh deadworld.
+
+Taking quickly to firearms and survival training, [PAWN_pronoun] graduated with honor, transitioning into a leadership position in covert operations.)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Artistic.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

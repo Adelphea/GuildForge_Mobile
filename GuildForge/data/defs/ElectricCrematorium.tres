@@ -1,0 +1,33 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ElectricCrematorium.tres")"
+label = "electric crematorium"
+description = "A huge stone crematorium which vaporizes corpses with extremely high temperatures."
+thingClass = "Building_WorkTable_HeatPush"
+graphicData = SubResource(1)
+stuffCategories = SubResource(4)
+costStuffCount = "150"
+costList = SubResource(5)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+useHitPoints = "True"
+statBases = SubResource(6)
+size = Vector2(3, 2)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Production.tres")"
+fillPercent = "1"
+passability = "Impassable"
+hasInteractionCell = "True"
+interactionCellOffset = Vector3(0, 0, -1)
+interactionCellIcon = "ExtResource("res://GuildForge/data/defs/DiningChair.tres")"
+surfaceType = "Item"
+canOverlapZones = "false"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+constructionSkillPrerequisite = "4"
+recipes = SubResource(7)
+inspectorTabs = SubResource(8)
+comps = Array[SubResource(9), SubResource(10), SubResource(11), SubResource(12)]
+building = SubResource(13)
+placeWorkers = SubResource(15)
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc5.tres")"
+researchPrerequisites = SubResource(16)

@@ -1,0 +1,21 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_ShieldBelt.tres")"
+label = "shield belt"
+description = Color(A projectile-repulsion device. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP., 1.0)
+thingClass = "ExtResource("res://GuildForge/data/defs/Apparel.tres")"
+graphicData = SubResource(1)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+techLevel = "Spacer"
+statBases = SubResource(2)
+thingSetMakerTags = SubResource(3)
+costList = SubResource(4)
+recipeMaker = SubResource(5)
+thingCategories = SubResource(8)
+apparel = SubResource(9)
+colorGenerator = SubResource(13)
+comps = Array[SubResource(19)]
+allowedArchonexusCount = "1"
+tradeTags = SubResource(20)

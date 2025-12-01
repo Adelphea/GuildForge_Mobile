@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RemoveBodyPart.tres")"
+label = "remove part"
+description = "Remove a body part."
+workerClass = "Recipe_RemoveBodyPart"
+jobString = "Removing body part."
+workAmount = "2000"
+surgerySuccessChanceFactor = "1.2"
+developmentalStageFilter = "Child, Adult"
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)

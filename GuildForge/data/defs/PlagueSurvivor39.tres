@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PlagueSurvivor39.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/PlagueSurvivor39.tres")"
+slot = "Childhood"
+title = "plague survivor"
+titleShort = "survivor"
+description = Color([PAWN_nameDef] watched as a mysterious plague spread through [PAWN_possessive] town, killing [PAWN_possessive] family and friends.
+
+[PAWN_pronoun] learned some medicine from watching the plague doctors, but was mentally scarred by the ordeal., 1.0)
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

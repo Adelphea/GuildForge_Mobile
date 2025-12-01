@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RoyalBastard64.tres")"
+title = "royal bastard"
+titleShort = "bastard"
+description = "[PAWN_nameDef] was the child of a lord and a prostitute.
+\n[PAWN_possessive] father's line was secure and his holdings strong. Nobody ever came to [PAWN_nameDef] to endorse a bid for the title. [PAWN_pronoun] earned [PAWN_possessive] bread cleaning the brothel, but always felt [PAWN_pronoun] deserved much more."
+slot = "Childhood"
+spawnCategories = SubResource(1)
+skillGains = SubResource(2)
+forcedTraits = SubResource(3)

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TotemicSlab_Medium.tres")"
+label = "totemic slab (medium)"
+description = "A wooden bas relief of totemic imagery for decorating a floor."
+dominantStyleCategory = "ExtResource("res://GuildForge/data/defs/Totemic.tres")"
+statBases = SubResource(1)
+graphicData = SubResource(2)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+stuffCategories = SubResource(3)
+costStuffCount = "100"

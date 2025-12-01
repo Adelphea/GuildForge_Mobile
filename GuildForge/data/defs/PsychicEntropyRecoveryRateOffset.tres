@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PsychicEntropyRecoveryRateOffset.tres")"
+label = "neural heat recovery rate offset"
+description = "An offset applied to the user's neural heat recovery rate."
+category = "ExtResource("res://GuildForge/data/defs/Basics.tres")"
+defaultBaseValue = "0"
+hideAtValue = "0"
+formatString = "{0}/s"
+toStringStyle = "FloatTwo"
+showOnAnimals = "false"
+displayPriorityInCategory = "3550"
+showIfUndefined = "false"
+showOnPawns = "false"
+showIfModsLoadedAny = SubResource(1)

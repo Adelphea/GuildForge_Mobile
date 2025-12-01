@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ThreatReward_GameCondition_ItemPod.tres")"
+rootSelectionWeight = "0.7"
+rootMinPoints = "0"
+expireDaysRange = "4~8"
+canGiveRoyalFavor = "true"
+questNameRules = SubResource(1)
+questDescriptionRules = SubResource(3)
+root = SubResource(5)

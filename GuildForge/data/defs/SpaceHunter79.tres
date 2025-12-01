@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpaceHunter79.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/SpaceHunter79.tres")"
+slot = "Adulthood"
+title = "space hunter"
+titleShort = "huntsman"
+description = Color(Now a man as well as proficient hunter and marksman, [PAWN_nameDef] yearned for more. [PAWN_pronoun] took leave from [PAWN_possessive] birth world, traveling the great expanse in search of exotic game., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

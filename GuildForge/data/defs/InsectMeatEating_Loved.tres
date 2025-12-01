@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InsectMeatEating_Loved.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/InsectMeat.tres")"
+label = "loved"
+description = "There is nothing more divine than the succulent, slimy flesh of an insect."
+impact = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+displayOrderInIssue = "0"
+displayOrderInImpact = "100"
+associatedMemes = SubResource(1)
+exclusionTags = SubResource(2)
+comps = Array[SubResource(3), SubResource(4)]

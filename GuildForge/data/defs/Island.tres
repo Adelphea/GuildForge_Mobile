@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_FeatureDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_FeatureDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Island.tres")"
+workerClass = "FeatureWorker_Island"
+order = "10"
+minSize = "15"
+maxSize = "350"
+nameMaker = "ExtResource("res://GuildForge/data/defs/NamerIsland.tres")"

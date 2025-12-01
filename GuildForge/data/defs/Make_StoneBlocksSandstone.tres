@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Make_StoneBlocksSandstone.tres")"
+label = "make sandstone blocks"
+description = "Cuts sandstone chunks into usable blocks."
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)
+products = SubResource(7)

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MercenaryLord13.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/MercenaryLord13.tres")"
+slot = "Adulthood"
+title = "mercenary lord"
+titleShort = "merc lord"
+description = Color([PAWN_nameDef] formed a mercenary company out of freelancers who wanted to make good money while also making slightly better-than-average moral choices. [PAWN_pronoun] called it the Ashmarines.\n\nTo avoid the coreworlds' military forces, [PAWN_pronoun] moved [PAWN_possessive] company to the rimworlds. There, [PAWN_pronoun] established bases and communities. In ruling, [PAWN_pronoun] maintained a form of order among the raiders and madmen of deep space.)
+skillGains = SubResource(1)
+workDisables = "Animals, Mining"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

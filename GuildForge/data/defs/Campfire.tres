@@ -1,0 +1,34 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Campfire.tres")"
+label = "campfire"
+description = Color(Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable., 1.0)
+thingClass = "Building_WorkTable"
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+graphicData = SubResource(1)
+uiIconPath = "Things/Building/Misc/Campfire_MenuIcon"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+pathCost = "42"
+constructEffect = "ExtResource("res://GuildForge/data/defs/ConstructDirt.tres")"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+drawerType = "RealtimeOnly"
+fillPercent = "0.20"
+statBases = SubResource(3)
+selectable = "true"
+costList = SubResource(4)
+soundImpactDefault = "ExtResource("res://GuildForge/data/defs/BulletImpact_Ground.tres")"
+leaveResourcesWhenKilled = "false"
+resourcesFractionWhenDeconstructed = "0"
+placeWorkers = SubResource(5)
+drawPlaceWorkersWhileSelected = "true"
+comps = Array[SubResource(6), SubResource(9), SubResource(10), SubResource(11), SubResource(12), SubResource(13)]
+designationCategory = "ExtResource("res://GuildForge/data/defs/Temperature.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc1.tres")"
+hasInteractionCell = "True"
+interactionCellOffset = Vector3(0, 0, -1)
+recipes = SubResource(23)
+inspectorTabs = SubResource(26)
+building = SubResource(27)

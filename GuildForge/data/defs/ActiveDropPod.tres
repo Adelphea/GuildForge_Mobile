@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ActiveDropPod.tres")"
+label = "drop pod"
+category = "Item"
+drawerType = "MapMeshAndRealTime"
+thingClass = "ActiveTransporter"
+scatterableOnMapGen = "false"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+soundOpen = "ExtResource("res://GuildForge/data/defs/DropPod_Open.tres")"
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+blockWind = "true"
+useHitPoints = "true"
+statBases = SubResource(3)
+selectable = "true"

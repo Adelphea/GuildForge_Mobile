@@ -1,0 +1,29 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/NeuralSupercharger.tres")"
+label = "neural supercharger"
+description = "A neuron-sensitizing device that can deliver one neural supercharge each day. A person with a neural supercharge will think and learn faster, but will also consume more food. The effect wears off in one day. Neural superchargers consume a lot of electricity."
+graphicData = SubResource(1)
+researchPrerequisites = SubResource(3)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+passability = "PassThroughOnly"
+pathCost = "42"
+canOverlapZones = "false"
+fillPercent = "0.25"
+hasInteractionCell = "True"
+interactionCellOffset = Vector3(0, 0, 2)
+defaultPlacingRot = "South"
+statBases = SubResource(4)
+size = Vector2(1, 3)
+costList = SubResource(5)
+building = SubResource(6)
+canGenerateDefaultDesignator = "false"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Ideology.tres")"
+uiOrder = "2520"
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+thingCategories = SubResource(7)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+comps = Array[SubResource(8), SubResource(9), SubResource(10)]

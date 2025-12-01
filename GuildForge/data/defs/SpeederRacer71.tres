@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpeederRacer71.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/SpeederRacer71.tres")"
+slot = "Childhood"
+title = "speeder racer"
+titleShort = "racer"
+description = "[PAWN_nameDef] was the son of a fern farmer in the towering forests of Khalderia.
+
+[PAWN_pronoun] found [PAWN_possessive] first love in speeder racing, zipping in and out of the massive canopies and gorgeous vistas of [PAWN_possessive] homeworld. The seedy underworld of racing also forced [PAWN_objective] to learn to defend [PAWN_objective]self with a quick word or a quicker shot."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

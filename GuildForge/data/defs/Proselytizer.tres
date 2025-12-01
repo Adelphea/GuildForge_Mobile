@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Proselytizer.tres")"
+label = "proselytizer"
+description = "It is our duty to spread our beliefs."
+iconPath = "UI/Memes/Proselytizer"
+groupDef = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+impact = "2"
+renderOrder = "80"
+generalRules = SubResource(1)
+descriptionMaker = SubResource(3)
+requireOne = SubResource(6)
+symbolPacks = SubResource(8)

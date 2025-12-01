@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/IndustrialOrphan13.tres")"
+title = "industrial orphan"
+titleShort = "orphan"
+description = "[PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_possessive] earliest memories were of drudgery in the mines and workhouses of [PAWN_possessive] industrial world.\n\nBecause of this, [PAWN_pronoun] never received a proper education."
+slot = "Childhood"
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)

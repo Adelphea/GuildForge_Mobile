@@ -1,0 +1,25 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Column.tres")"
+label = "column"
+description = "A column capable of holding a roof. Does not block sight or movement and looks quite nice."
+designationCategory = "ExtResource("res://GuildForge/data/defs/Structure.tres")"
+uiOrder = "2040"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+fillPercent = "0.25"
+pathCost = "0"
+uiIconScale = "1.2"
+statBases = SubResource(1)
+stuffCategories = SubResource(3)
+costStuffCount = "20"
+holdsRoof = "true"
+canOverlapZones = "false"
+rotatable = "false"
+fertility = "0"
+specialDisplayRadius = "6.9"
+building = SubResource(4)
+graphicData = SubResource(5)
+comps = Array[SubResource(8)]

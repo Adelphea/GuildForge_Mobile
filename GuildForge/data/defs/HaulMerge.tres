@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HaulMerge.tres")"
+label = "merge things"
+giverClass = "WorkGiver_Merge"
+workType = "ExtResource("res://GuildForge/data/defs/Hauling.tres")"
+verb = "merge"
+gerund = "merging"
+priorityInType = "5"
+requiredCapacities = SubResource(1)

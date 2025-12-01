@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientComplex_Mission.tres")"
+rootSelectionWeight = "0"
+defaultChallengeRating = "1"
+isRootSpecial = "true"
+affectedByPopulation = "true"
+epicParent = "ExtResource("res://GuildForge/data/defs/RelicHunt.tres")"
+questDescriptionAndNameRules = SubResource(1)
+questNameRules = SubResource(3)
+questDescriptionRules = SubResource(5)
+questContentRules = SubResource(7)
+root = SubResource(9)

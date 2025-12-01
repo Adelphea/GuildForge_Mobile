@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CaveworldTender26.tres")"
+title = "caveworld tender"
+titleShort = "cave kid"
+description = "[PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe's fungus crops."
+slot = "Childhood"
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+forcedTraits = SubResource(3)

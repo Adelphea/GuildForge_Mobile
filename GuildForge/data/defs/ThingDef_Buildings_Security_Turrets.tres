@@ -1,0 +1,27 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+thingClass = "Building_TurretGun"
+drawerType = "MapMeshAndRealTime"
+drawHighlight = "true"
+drawHighlightOnlyForHostile = "true"
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+stealable = "false"
+rotatable = "false"
+size = Vector2(2, 2)
+statBases = SubResource(4)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+passability = "PassThroughOnly"
+pathCost = "50"
+fillPercent = "0.5"
+hasTooltip = "true"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Security.tres")"
+constructionSkillPrerequisite = "6"
+building = SubResource(5)
+placeWorkers = SubResource(6)
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc3.tres")"
+uiIconScale = "0.95"
+comps = Array[SubResource(7)]

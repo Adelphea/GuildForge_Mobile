@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoIconDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoIconDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpikeyD.tres")"
+iconPath = "UI/Ideoligions/SpikeyD"
+cultures = SubResource(1)
+memes = SubResource(2)

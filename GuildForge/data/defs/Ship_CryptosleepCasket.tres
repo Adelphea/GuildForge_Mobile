@@ -1,0 +1,33 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Ship_CryptosleepCasket.tres")"
+label = "ship cryptosleep casket"
+description = "A cryptosleep casket hardened against the dangers of space. Capable of maintaining a person in cryptosleep for centuries and surviving atmospheric re-entry."
+thingClass = "Building_CryptosleepCasket"
+containedPawnsSelectable = "true"
+drawerType = "RealtimeOnly"
+graphicData = SubResource(1)
+researchPrerequisites = SubResource(3)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+pathCost = "42"
+blockWind = "true"
+fillPercent = "0.5"
+canOverlapZones = "false"
+statBases = SubResource(4)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+size = Vector2(1, 2)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Ship.tres")"
+hasInteractionCell = "true"
+interactionCellOffset = Vector3(1, 0, 0)
+comps = Array[SubResource(5), SubResource(6), SubResource(7), SubResource(8)]
+placeWorkers = SubResource(10)
+defaultPlacingRot = "South"
+building = SubResource(11)
+costList = SubResource(12)
+inspectorTabs = SubResource(13)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc2.tres")"
+constructionSkillPrerequisite = "8"

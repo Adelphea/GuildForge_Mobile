@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ExpectationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ExpectationDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ExtremelyLow.tres")"
+label = "extremely low"
+order = "0"
+thoughtStage = "5"
+maxMapWealth = "15000"
+joyKindsNeeded = "2"
+joyToleranceDropPerDay = "0.18"
+ritualQualityOffset = "0.5"

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ArmorskinGland.tres")"
+label = "armorskin gland"
+description = Color(This bionic gland releases chemicals and nanomachines that toughen the skin and add flexible subdermal keratin plates at strategic points. This makes the user more resistant to damage across their whole body. Unfortunately, these changes make the skin appear leathery, with wrinkles across the whole body and face, which is generally considered ugly.)
+descriptionHyperlinks = SubResource(1)
+thingSetMakerTags = SubResource(2)
+costList = SubResource(3)
+recipeMaker = SubResource(4)

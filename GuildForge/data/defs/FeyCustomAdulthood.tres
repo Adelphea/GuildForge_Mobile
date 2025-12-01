@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FeyCustomAdulthood.tres")"
+title = "game master"
+titleShort = "game master"
+description = "[PAWN_nameDef] spent all [PAWN_possessive] time running tabletop role-playing games as a way to connect socially with others. The game changed every year, and other players always loved [PAWN_possessive] worldbuilding and stories."
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+skillGains = SubResource(1)
+forcedTraits = SubResource(2)
+spawnCategories = SubResource(3)

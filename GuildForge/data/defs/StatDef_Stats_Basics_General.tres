@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+workerClass = "StatWorker_MarketValue"
+category = "ExtResource("res://GuildForge/data/defs/BasicsImportant.tres")"
+minValue = "0"
+toStringStyle = "Money"
+roundToFiveOver = "200"
+displayPriorityInCategory = "2510"
+minifiedThingInherits = "true"
+showOnUntradeables = "false"
+scenarioRandomizable = "true"
+parts = SubResource(1)

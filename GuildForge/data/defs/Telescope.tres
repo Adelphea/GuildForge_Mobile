@@ -1,0 +1,24 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Telescope.tres")"
+label = "telescope"
+description = "A telescope for doing amateur astronomy. It's a relaxing hobby for a certain kind of person. Can only be used outdoors."
+possessionCount = "1"
+graphicData = SubResource(1)
+canBeUsedUnderRoof = "false"
+fillPercent = "0.15"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+hasInteractionCell = "true"
+interactionCellOffset = Vector3(0, 0, 1)
+passability = "PassThroughOnly"
+pathCost = "30"
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+socialPropernessMatters = "true"
+thingCategories = SubResource(3)
+thingSetMakerTags = SubResource(4)
+building = SubResource(5)
+costList = SubResource(6)
+statBases = SubResource(7)
+placeWorkers = SubResource(8)

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BuildAnimalSleepingSpot.tres")"
+text = "So your pet will sleep inside with you, place an ANIMAL SLEEPING SPOT inside the room.\n\nSleeping spots aren't real buildings - they're just spots on the ground designated for a sleeping."
+instructionClass = "Instruction_BuildInRoom"
+eventTagInitiate = "InstructionDeactivated-BuildTorchLamp"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+thingDef = "ExtResource("res://GuildForge/data/defs/AnimalSleepingSpot.tres")"
+targetCount = "1"
+onMapInstruction = "Build an animal sleeping spot\ninside the room"
+rejectInputMessage = "Please place an animal sleeping spot inside the room."

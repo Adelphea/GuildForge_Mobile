@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BodyTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BodyTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+headOffset = Vector2(0.10, 0.34)
+bodyNakedGraphicPath = "Things/Pawn/Humanlike/Bodies/Naked_Female"
+bodyDessicatedGraphicPath = "Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin"
+bodyGraphicScale = Vector2(1, 1)
+woundAnchors = SubResource(1)
+attachPoints = SubResource(20)
+attachPointsDessicated = SubResource(25)

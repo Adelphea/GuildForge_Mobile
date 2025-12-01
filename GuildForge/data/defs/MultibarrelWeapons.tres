@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MultibarrelWeapons.tres")"
+label = "multibarrel weapons"
+description = "Assemble miniguns."
+baseCost = "2600"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+requiredResearchBuilding = "ExtResource("res://GuildForge/data/defs/HiTechResearchBench.tres")"
+researchViewX = "12.00"
+researchViewY = "3.60"
+generalRules = SubResource(3)

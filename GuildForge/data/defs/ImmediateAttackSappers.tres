@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ImmediateAttackSappers.tres")"
+workerClass = "RaidStrategyWorker_ImmediateAttackSappers"
+minPawns = "2"
+pointsFactorCurve = SubResource(1)
+selectionWeightPerPointsCurve = SubResource(3)
+arriveModes = SubResource(5)
+letterLabelEnemy = "ExtResource("res://GuildForge/data/defs/Raid.tres")"
+arrivalTextEnemy = "It looks like they want to use sappers to tunnel around your defenses."

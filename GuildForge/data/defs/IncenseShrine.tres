@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/IncenseShrine.tres")"
+label = "incense shrine"
+description = "A collection of packed incense containers. It can be ignited and produce a powerful incense effect as a focus for rituals. It is destroyed after it burns down."
+graphicData = SubResource(1)
+size = Vector2(2, 2)
+costList = SubResource(3)
+statBases = SubResource(4)
+comps = Array[SubResource(5)]

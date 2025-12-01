@@ -1,0 +1,27 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Dresser.tres")"
+label = "dresser"
+description = "A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect."
+graphicData = SubResource(1)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+fillPercent = "0.4"
+castEdgeShadows = "true"
+pathCost = "42"
+stuffCategories = SubResource(3)
+defaultPlacingRot = "South"
+costStuffCount = "50"
+statBases = SubResource(4)
+size = Vector2(2, 1)
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc12.tres")"
+uiOrder = "2070"
+staticSunShadowHeight = "0.5"
+surfaceType = "Item"
+canOverlapZones = "false"
+placeWorkers = SubResource(5)
+researchPrerequisites = SubResource(6)
+building = SubResource(7)
+comps = Array[SubResource(8)]

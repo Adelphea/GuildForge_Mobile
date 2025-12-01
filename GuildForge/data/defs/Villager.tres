@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Villager.tres")"
+label = "villager"
+combatPower = "45"
+itemQuality = "Poor"
+isFighter = "false"
+gearHealthRange = "0.2~2.0"
+weaponTags = SubResource(1)
+weaponMoney = "65~250"
+apparelMoney = "200~400"
+apparelAllowHeadgearChance = "0.4"
+techHediffsChance = "0.06"
+techHediffsMoney = "50~600"
+techHediffsTags = SubResource(2)
+initialWillRange = "0~1"
+initialResistanceRange = "10~17"

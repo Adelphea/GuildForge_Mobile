@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FleshShaping.tres")"
+label = "flesh shaping"
+description = "Craft bionics which induce the reshaping of natural flesh, usually for the purposes of aesthetic enhancement or personal pleasure."
+prerequisites = SubResource(1)
+hiddenPrerequisites = SubResource(2)
+researchViewX = "18.00"
+researchViewY = "4.80"
+generalRules = SubResource(3)

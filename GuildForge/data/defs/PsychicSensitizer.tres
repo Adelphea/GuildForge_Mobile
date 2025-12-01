@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PsychicSensitizer.tres")"
+label = "psychic sensitizer"
+description = "This brain implant stimulates growth in the regions of the brain related to psychic interaction, thus increasing psychic sensitivity."
+descriptionHyperlinks = SubResource(1)
+statBases = SubResource(2)

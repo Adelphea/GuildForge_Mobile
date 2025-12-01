@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpaceMarine19.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/SpaceMarine19.tres")"
+slot = "Adulthood"
+title = "space marine"
+titleShort = "marine"
+description = "[PAWN_nameDef] joined a squad of space marines known for their brutal efficiency at killing. [PAWN_possessive] last name and [PAWN_possessive] lack of emotion during combat inspired [PAWN_possessive] nickname."
+skillGains = SubResource(1)
+workDisables = "Caring, Social"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+shuffleable = "False"

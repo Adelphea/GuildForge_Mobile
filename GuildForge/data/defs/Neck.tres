@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BodyPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BodyPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Neck.tres")"
+label = "neck"
+hitPoints = "25"
+bleedRate = "4"
+skinCovered = "true"
+tags = SubResource(1)
+canSuggestAmputation = "false"
+executionPartPriority = "1000"

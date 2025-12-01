@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RaidStrategyDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/StageThenAttack.tres")"
+workerClass = "RaidStrategyWorker_StageThenAttack"
+selectionWeightPerPointsCurve = SubResource(1)
+selectionWeightCurvesPerFaction = SubResource(3)
+pointsFactorCurve = SubResource(7)
+arriveModes = SubResource(9)
+letterLabelEnemy = "ExtResource("res://GuildForge/data/defs/Raid.tres")"
+arrivalTextEnemy = "They will prepare for a while, then attack.\n\nPrepare a defense or attack them pre-emptively."
+letterLabelFriendly = "Friendlies"
+arrivalTextFriendly = "They will prepare for a while before moving in to help you."

@@ -1,0 +1,29 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Heater.tres")"
+label = "heater"
+description = "A device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature."
+thingClass = "Building_Heater"
+graphicData = SubResource(1)
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+pathCost = "30"
+blockWind = "true"
+rotatable = "false"
+fillPercent = "0.4"
+thingCategories = SubResource(4)
+statBases = SubResource(5)
+tickerType = "Rare"
+building = SubResource(6)
+costList = SubResource(7)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+placeWorkers = SubResource(8)
+drawPlaceWorkersWhileSelected = "true"
+comps = Array[SubResource(9), SubResource(10), SubResource(11), SubResource(12), SubResource(13)]
+designationCategory = "ExtResource("res://GuildForge/data/defs/Temperature.tres")"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc2.tres")"
+researchPrerequisites = SubResource(14)
+constructionSkillPrerequisite = "5"

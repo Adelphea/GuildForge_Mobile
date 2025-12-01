@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_QuestScriptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_QuestScriptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WandererJoinAbasia.tres")"
+autoAccept = "true"
+defaultCharity = "true"
+successHistoryEvent = SubResource(1)
+failedOrExpiredHistoryEvent = SubResource(2)
+defaultHidden = "true"
+isRootSpecial = "true"
+questNameRules = SubResource(3)
+questDescriptionRules = SubResource(5)
+everAcceptableInSpace = "true"
+root = SubResource(7)

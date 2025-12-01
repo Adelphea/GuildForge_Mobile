@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MechanoidNerd10.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MechanoidNerd10.tres")"
+slot = "Childhood"
+title = "mechanoid nerd"
+titleShort = "mechanerd"
+description = "[PAWN_nameDef] grew up in an urbworld as the only child of a pair of mechanoid designers.
+They encouraged [PAWN_possessive] interest in the machines. Eventually, [PAWN_pronoun] became obsessed with building [PAWN_possessive] own.
+
+Unfortunately this also lead to [PAWN_objective] being a loner as [PAWN_pronoun] preferred technical books to friends."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+disallowedTraits = SubResource(2)
+shuffleable = "False"

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Biosculpting.tres")"
+label = "biosculpting"
+description = "Construct biosculpter pods which can perform various biological alterations to colonists. These are especially important to believers in transhumanism."
+baseCost = "1500"
+techLevel = "Industrial"
+requiredResearchBuilding = "ExtResource("res://GuildForge/data/defs/HiTechResearchBench.tres")"
+prerequisites = SubResource(1)
+researchViewX = "13.00"
+researchViewY = "0.60"
+generalRules = SubResource(2)

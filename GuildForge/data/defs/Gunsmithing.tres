@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gunsmithing.tres")"
+label = "gunsmithing"
+description = Color(Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers.)
+baseCost = "500"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+researchViewX = "6.00"
+researchViewY = "3.40"
+generalRules = SubResource(2)

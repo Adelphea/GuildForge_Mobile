@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_ArmorHelmetReconPrestige.tres")"
+label = "prestige recon helmet"
+description = "A high-tech armored helmet with a built-in status computer and a protective plasteel-weave plate.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity."
+graphicData = SubResource(1)
+statBases = SubResource(2)
+equippedStatOffsets = SubResource(3)
+costList = SubResource(4)
+apparel = SubResource(5)
+tradeTags = SubResource(8)
+recipeMaker = SubResource(9)

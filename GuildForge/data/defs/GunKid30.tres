@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GunKid30.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/GunKid30.tres")"
+slot = "Childhood"
+title = "gun kid"
+titleShort = "gun kid"
+description = "Growing up in a urbworld, [PAWN_nameDef] never had it easy. Every day was a struggle and pollution, hunger, and gangs of older kids.
+
+In the little space [PAWN_pronoun] had to [PAWN_objective]self, [PAWN_pronoun] studied [PAWN_possessive] passion - guns, combat tactics, and war history."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

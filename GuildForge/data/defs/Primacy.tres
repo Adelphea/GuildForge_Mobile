@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_MemeGroupDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_MemeGroupDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Primacy.tres")"
+drawOffset = Vector2(0.37, 0.23)
+maxRows = "1"
+renderOrder = "1900"

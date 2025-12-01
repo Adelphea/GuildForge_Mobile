@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ComplexClothing.tres")"
+label = "complex clothing"
+description = Color(Tailor complicated garments like pants, dusters, and cowboy hats., 1.0)
+baseCost = "600"
+techLevel = "Medieval"
+researchViewX = "0.00"
+researchViewY = "4.90"
+tags = SubResource(1)
+generalRules = SubResource(2)

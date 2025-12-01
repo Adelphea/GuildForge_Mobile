@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ExpectationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ExpectationDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Moderate.tres")"
+label = "moderate"
+order = "3"
+thoughtStage = "2"
+maxMapWealth = "182000"
+joyKindsNeeded = "4"
+joyToleranceDropPerDay = "0.10"

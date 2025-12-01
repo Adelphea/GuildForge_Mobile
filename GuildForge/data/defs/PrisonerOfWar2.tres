@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PrisonerOfWar2.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/PrisonerOfWar2.tres")"
+slot = "Adulthood"
+title = "prisoner of war"
+titleShort = "prisoner"
+description = Color([PAWN_nameDef] was captured and put on death row for war crimes.\n\nFortunately for [PAWN_objective], someone cut the power to [PAWN_possessive] cell block. Riots ignited. Guards and trained wargs were deployed to quell the uprising. Organizing a few other inmates, [PAWN_nameDef] escaped in a small spacecraft., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Animals.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+shuffleable = "False"

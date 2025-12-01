@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_MentalStateDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_MentalStateDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PanicFlee.tres")"
+label = "panic fleeing"
+stateClass = "MentalState_PanicFlee"
+category = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+nameColor = Vector3(0.65, 0.9, 0.93)
+beginLetterLabel = "flee"
+beginLetter = "{0} is fleeing in panic."
+recoveryMessage = "{0} is no longer fleeing in panic."
+baseInspectLine = "Mental state: Fleeing in panic"
+blockNormalThoughts = "true"
+inCaravanCanDo = "true"

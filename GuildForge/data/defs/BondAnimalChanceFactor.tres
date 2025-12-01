@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BondAnimalChanceFactor.tres")"
+label = "bond chance factor"
+description = "A multiplier on the chance to bond with an animal when interacting with it."
+category = "ExtResource("res://GuildForge/data/defs/PawnSocial.tres")"
+defaultBaseValue = "1"
+minValue = "0"
+hideAtValue = "1"
+toStringStyle = "PercentTwo"
+displayPriorityInCategory = "1890"

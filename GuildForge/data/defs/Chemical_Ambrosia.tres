@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_NeedDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_NeedDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Chemical_Ambrosia.tres")"
+needClass = "Need_Chemical"
+label = "ambrosia"
+description = "Because of an ambrosia addiction, this person needs to regularly consume ambrosia to avoid withdrawal symptoms."
+listPriority = "20"

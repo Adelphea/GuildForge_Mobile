@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnsArrivalModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnsArrivalModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MechClusterDrop.tres")"
+workerClass = "PawnsArrivalModeWorker_ClusterDrop"
+textEnemy = "A cluster of {0} have landed in drop pods nearby."
+textWillArrive = "The mech cluster will arrive in drop pods."
+layerWhitelist = SubResource(1)
+selectionWeightCurve = SubResource(3)

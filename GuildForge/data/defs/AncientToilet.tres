@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientToilet.tres")"
+label = "ancient toilet"
+description = "An ancient toilet. Smashed long ago, it is completely useless now."
+graphicData = SubResource(1)
+statBases = SubResource(3)
+rotatable = "true"

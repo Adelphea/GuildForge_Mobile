@@ -1,0 +1,26 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CraftingSpot.tres")"
+label = "crafting spot"
+description = "A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools."
+thingClass = "Building_WorkTable"
+graphicData = SubResource(1)
+altitudeLayer = "FloorEmplacement"
+statBases = SubResource(2)
+scatterableOnMapGen = "false"
+useHitPoints = "false"
+size = Vector2(1, 1)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Production.tres")"
+uiOrder = "2000"
+passability = "Standable"
+hasInteractionCell = "True"
+interactionCellOffset = Vector3(0, 0, -1)
+surfaceType = "Item"
+recipes = SubResource(3)
+inspectorTabs = SubResource(4)
+building = SubResource(5)
+comps = Array[SubResource(7), SubResource(9)]
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc1.tres")"
+placeWorkers = SubResource(10)

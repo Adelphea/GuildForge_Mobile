@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ImmunityGainSpeed.tres")"
+label = "immunity gain speed"
+description = "The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity."
+category = "ExtResource("res://GuildForge/data/defs/PawnHealth.tres")"
+showOnEntities = "false"
+defaultBaseValue = "1"
+minValue = "0"
+toStringStyle = "PercentZero"
+capacityFactors = SubResource(1)
+parts = SubResource(3)
+scenarioRandomizable = "true"
+displayPriorityInCategory = "2000"
+showOnMechanoids = "false"
+showOnDrones = "false"

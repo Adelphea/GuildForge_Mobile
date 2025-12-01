@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_GameConditionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_GameConditionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ClimateAdjustment.tres")"
+conditionClass = "GameCondition_TemperatureOffset"
+label = "climate adjustment"
+description = "A nearby climate adjuster is shifting the temperature."
+letterText = "A climate adjuster machine has begun shifting the temperature."
+letterDef = "ExtResource("res://GuildForge/data/defs/NegativeEvent.tres")"
+canBePermanent = "false"
+natural = "false"

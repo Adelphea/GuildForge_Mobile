@@ -1,0 +1,34 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GibbetCage.tres")"
+label = "gibbet cage"
+description = "A metal cage for holding and displaying corpses. This horrifying sight inspires terror and disgust in observers. It is an especially brutal and effective way to terrorize slaves."
+thingClass = "Building_GibbetCage"
+drawerType = "MapMeshAndRealTime"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+graphicData = SubResource(1)
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+thingCategories = SubResource(2)
+uiIconPath = "Things/Building/Misc/GibbetCage_MenuIcon"
+passability = "PassThroughOnly"
+pathCost = "42"
+blockWind = "true"
+fillPercent = "0.5"
+canOverlapZones = "false"
+statBases = SubResource(3)
+tickerType = "Rare"
+size = Vector2(1, 1)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Ideology.tres")"
+uiOrder = "3000"
+defaultPlacingRot = "North"
+rotatable = "false"
+building = SubResource(5)
+stuffCategories = SubResource(16)
+costStuffCount = "60"
+comps = Array[SubResource(17), SubResource(18)]
+placeWorkers = SubResource(19)
+inspectorTabs = SubResource(20)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+constructionSkillPrerequisite = "4"

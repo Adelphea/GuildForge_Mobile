@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientFence.tres")"
+label = "ancient fence"
+description = "An ancient fence made of reinforced concrete posts joined by concrete panels."
+noRightClickDraftAttack = "true"
+graphicData = SubResource(1)
+statBases = SubResource(5)
+leaveResourcesWhenKilled = "false"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+pathCost = "60"
+blockWind = "false"
+fillPercent = "0.55"
+tickerType = "Never"
+rotatable = "false"
+selectable = "true"
+neverMultiSelect = "true"
+fertility = "0"
+building = SubResource(6)

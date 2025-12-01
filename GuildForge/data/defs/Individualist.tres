@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_MemeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_MemeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Individualist.tres")"
+label = "individualist"
+description = "Each person is a free individual with the right to their own ideas and decisions. Nobody should be made to conform."
+iconPath = "UI/Memes/Individualist"
+allowDuringTutorial = "true"
+groupDef = "ExtResource("res://GuildForge/data/defs/Individualism.tres")"
+impact = "1"
+consumableBuildings = SubResource(1)
+exclusionTags = SubResource(2)
+generalRules = SubResource(3)
+descriptionMaker = SubResource(5)
+symbolPacks = SubResource(8)
+styleItemTags = SubResource(13)

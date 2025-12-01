@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FeudalLordling56.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/FeudalLordling56.tres")"
+slot = "Childhood"
+title = "feudal lordling"
+titleShort = "lordling"
+description = "[PAWN_nameDef] grew up on a feudal world that was part of a multi-planet empire. As the son of a high lord, [PAWN_pronoun] enjoyed many privileges.
+
+[PAWN_pronoun] learned to maneuver in both the political landscape and in close quarters combat."
+skillGains = SubResource(1)
+workDisables = "ManualDumb"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_Revolver.tres")"
+label = "revolver"
+description = "An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw."
+possessionCount = "1"
+graphicData = SubResource(1)
+uiIconScale = "1.4"
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_Revolver.tres")"
+statBases = SubResource(2)
+weaponTags = SubResource(3)
+weaponClasses = SubResource(4)
+costList = SubResource(5)
+recipeMaker = SubResource(6)
+verbs = SubResource(8)
+tools = SubResource(10)

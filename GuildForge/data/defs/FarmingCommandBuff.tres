@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FarmingCommandBuff.tres")"
+label = "farming command"
+description = "This person's farming abilities are boosted thanks to being near someone who is using the farming command ability."
+debugLabelExtra = "other"
+stages = SubResource(1)

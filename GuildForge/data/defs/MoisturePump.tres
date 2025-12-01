@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MoisturePump.tres")"
+label = "moisture pump"
+description = Color(Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water., 1.0)
+graphicData = SubResource(1)
+comps = Array[SubResource(4), SubResource(5), SubResource(6)]
+tickerType = "Rare"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(7)
+fillPercent = "0.15"
+building = SubResource(8)
+costList = SubResource(9)
+specialDisplayRadius = "6.9"
+pathCost = "30"
+passability = "PassThroughOnly"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+rotatable = "false"
+researchPrerequisites = SubResource(10)
+constructionSkillPrerequisite = "6"

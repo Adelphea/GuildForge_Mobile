@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WakeUpProduction.tres")"
+label = "wake-up production"
+description = "Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep."
+baseCost = "600"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+researchViewX = "3.00"
+researchViewY = "1.40"
+generalRules = SubResource(2)

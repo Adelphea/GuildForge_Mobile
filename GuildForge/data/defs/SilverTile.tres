@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TerrainDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TerrainDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SilverTile.tres")"
+label = "silver tile"
+renderPrecedence = "241"
+description = "For a futuristic but royal look, silver tiles fit perfectly into luxurious rooms. They are quick to clean and get a bonus to cleanliness."
+color = Vector3(0.45, 0.45, 0.45)
+statBases = SubResource(1)
+costList = SubResource(2)
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc2.tres")"
+tags = SubResource(3)

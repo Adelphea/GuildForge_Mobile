@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BodyPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BodyPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Elytra.tres")"
+label = "elytra"
+hitPoints = "30"
+frostbiteVulnerability = "0.5"
+permanentInjuryChanceFactor = "0"
+skinCovered = "false"
+alive = "false"
+bleedRate = "0"

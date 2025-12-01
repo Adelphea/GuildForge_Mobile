@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ChildTribal.tres")"
+title = "child"
+titleShort = "child"
+description = "[PAWN_nameDef] is a child. The story of [PAWN_possessive] childhood is still being written."
+slot = "Childhood"
+spawnCategories = SubResource(1)
+requiresSpawnCategory = "true"

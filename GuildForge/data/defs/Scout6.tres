@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Scout6.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Scout6.tres")"
+slot = "Childhood"
+title = "scout"
+titleShort = "scout"
+description = "[PAWN_nameDef] loved being outdoors. [PAWN_possessive] parents enrolled [PAWN_objective] in a program that taught military scouting skills. [PAWN_pronoun] thrived when [PAWN_pronoun] was left alone in the wilderness.
+
+Unfortunately, [PAWN_nameDef] did not learn the basic technological skills that are taken for granted by many others."
+skillGains = SubResource(1)
+workDisables = "Intellectual, Artistic"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

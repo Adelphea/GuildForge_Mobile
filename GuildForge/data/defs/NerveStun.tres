@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_DamageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_DamageDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/NerveStun.tres")"
+label = "nerve stun"
+causeStun = "true"
+stunAdaptationTicks = "240"

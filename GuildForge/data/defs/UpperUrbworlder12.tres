@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/UpperUrbworlder12.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/UpperUrbworlder12.tres")"
+slot = "Childhood"
+title = "upper urbworlder"
+titleShort = "high urber"
+description = "[PAWN_nameDef] had a privileged childhood on a major urbworld. Living in an apartment far above the dense poverty of the city, [PAWN_pronoun] spent most of [PAWN_possessive] time reading or drawing the cityscape [PAWN_pronoun] saw through [PAWN_possessive] window."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

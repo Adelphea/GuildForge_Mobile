@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TileMutatorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TileMutatorDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Mountain.tres")"
+label = "mountain"
+description = "A mountain fills one side of this tile."
+categories = SubResource(1)
+workerClass = "TileMutatorWorker_Mountain"
+genOrder = "-200"

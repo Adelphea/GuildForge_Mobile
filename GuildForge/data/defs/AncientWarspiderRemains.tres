@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientWarspiderRemains.tres")"
+label = "ancient warspider remains"
+description = "The ruined remains of an ancient mid-scale warspider. It has been picked over many times, and there is nothing valuable left to loot."
+rotatable = "false"
+graphicData = SubResource(1)
+size = Vector2(5, 5)
+fillPercent = "0.5"
+passability = "PassThroughOnly"
+pathCost = "50"
+statBases = SubResource(3)
+killedLeavings = SubResource(4)

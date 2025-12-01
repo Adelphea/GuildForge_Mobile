@@ -1,0 +1,7 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoIconDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoIconDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Archist_Lance.tres")"
+iconPath = "UI/Ideoligions/Archist_Lance"
+memes = SubResource(1)

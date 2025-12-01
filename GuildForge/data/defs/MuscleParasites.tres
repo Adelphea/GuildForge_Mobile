@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MuscleParasites.tres")"
+label = "muscle parasites"
+description = "Parasitic creatures in the muscles. These cause weakness and a lack of coordination."
+hediffClass = "HediffWithComps"
+makesSickThought = "true"
+tendable = "true"
+stages = SubResource(1)
+comps = Array[SubResource(7)]

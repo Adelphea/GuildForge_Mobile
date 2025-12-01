@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ConceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ConceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeditationDesiredPsyfocus.tres")"
+label = "Meditation desired psyfocus"
+helpText = Color(You can set a desired psyfocus level for each colonist. To do this, select a colonist with psylink, and click on their psyfocus bar.\n\nIf a colonist's psyfocus is below their desired level, they will meditate automatically during the "Anything" time assignment.)
+highlightTags = SubResource(1)

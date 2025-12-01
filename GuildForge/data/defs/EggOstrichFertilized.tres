@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/EggOstrichFertilized.tres")"
+label = "ostrich egg (fert.)"
+description = Color(A fertilized ostrich egg. If all goes well, it should hatch into a baby ostrich. It can be eaten raw, but it's much better cooked., 1.0)
+possessionCount = "1"
+graphicData = SubResource(1)
+statBases = SubResource(2)
+comps = Array[SubResource(3)]

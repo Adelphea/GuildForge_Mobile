@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MadAccountant61.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/MadAccountant61.tres")"
+slot = "Adulthood"
+title = "mad accountant"
+titleShort = "accountant"
+description = "As an accountant, [PAWN_nameDef] often socialized with colleagues, and made many friends in upper management.\n\nOne day, [PAWN_nameDef] discovered a corruption racket run by some of [PAWN_possessive] bosses. After reporting this, [PAWN_pronoun] was fired. Wishing to hunt down those responsible, [PAWN_pronoun] went on a mass murder spree."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

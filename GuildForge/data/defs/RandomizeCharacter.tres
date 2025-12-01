@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RandomizeCharacter.tres")"
+text = "If you don't like a character, you can regenerate them!\n\nClick the RANDOMIZE button to randomize the character."
+eventTagInitiate = "ReorderPawnOptionalToStarting"
+eventTagInitiateSource = "ExtResource("res://GuildForge/data/defs/ReorderCharacters.tres")"
+actionTagsAllowed = SubResource(1)
+eventTagsEnd = SubResource(2)
+highlightTags = SubResource(3)
+rejectInputMessage = "Please click the RANDOMIZE button to randomize the character."

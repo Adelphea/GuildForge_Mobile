@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DoBillsProduceDrugs.tres")"
+label = "synthesize drugs"
+giverClass = "WorkGiver_DoBill"
+workType = "ExtResource("res://GuildForge/data/defs/Crafting.tres")"
+workTags = SubResource(1)
+priorityInType = "95"
+fixedBillGiverDefs = SubResource(2)
+verb = "produce drugs at"
+gerund = "producing drugs at"
+requiredCapacities = SubResource(3)
+prioritizeSustains = "true"

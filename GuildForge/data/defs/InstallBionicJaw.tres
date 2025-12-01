@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InstallBionicJaw.tres")"
+label = "Install bionic jaw"
+description = "Install bionic jaw."
+jobString = "Installing bionic jaw."
+ingredients = SubResource(1)
+fixedIngredientFilter = SubResource(5)
+appliedOnFixedBodyParts = SubResource(7)
+addsHediff = "ExtResource("res://GuildForge/data/defs/BionicJaw.tres")"

@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ChemicalDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ChemicalDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Luciferium.tres")"
+label = "luciferium"
+addictionHediff = "ExtResource("res://GuildForge/data/defs/LuciferiumAddiction.tres")"
+canBinge = "false"
+generateAddictionGenes = "false"

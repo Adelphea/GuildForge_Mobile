@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Thrumbo.tres")"
+label = "thrumbo"
+race = "ExtResource("res://GuildForge/data/defs/Thrumbo.tres")"
+combatPower = "500"
+canArriveManhunter = "false"
+ecoSystemWeight = "1"
+abilities = SubResource(1)
+lifeStages = SubResource(3)

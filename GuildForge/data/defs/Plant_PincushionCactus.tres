@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_PincushionCactus.tres")"
+label = "pincushion cactus"
+description = "A short cactus. It is so named because it resembles a pincushion."
+statBases = SubResource(1)
+graphicData = SubResource(2)
+selectable = "true"
+pathCost = "30"
+ingestible = None
+plant = SubResource(3)

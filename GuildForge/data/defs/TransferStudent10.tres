@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TransferStudent10.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/TransferStudent10.tres")"
+slot = "Childhood"
+title = "transfer student"
+titleShort = "student"
+description = Color(A midworld child, [PAWN_nameDef]'s wealthy parents sent [PAWN_objective] to a nearby glitterworld to receive a better education.
+
+[PAWN_nameDef] was a talented student. However, due to [PAWN_possessive] family's wealth, [PAWN_pronoun] never had to do dumb labor.)
+skillGains = SubResource(1)
+workDisables = "ManualDumb"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

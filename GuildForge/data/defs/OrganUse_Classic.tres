@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OrganUse_Classic.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/OrganUse.tres")"
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+classic = "true"
+visible = "false"
+comps = Array[SubResource(1), SubResource(2), SubResource(3), SubResource(4)]

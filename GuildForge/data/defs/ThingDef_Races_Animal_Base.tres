@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+statBases = SubResource(1)
+race = SubResource(2)
+thingCategories = SubResource(4)
+recipes = SubResource(5)
+comps = Array[SubResource(10), SubResource(11)]

@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualAttachableOutcomeEffectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualAttachableOutcomeEffectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/NearbyFactionGoodwill.tres")"
+label = "nearby faction goodwill"
+effectDesc = "you will gain goodwill from the nearest faction base."
+letterInfoText = "You gained {AMOUNT} goodwill with {FACTION_name}."
+workerClass = "RitualAttachableOutcomeEffectWorker_NearbyFactionGoodwill"

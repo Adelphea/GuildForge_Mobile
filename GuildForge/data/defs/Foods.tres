@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Foods.tres")"
+label = "foods"
+parent = "ExtResource("res://GuildForge/data/defs/Root.tres")"
+resourceReadoutRoot = "true"
+iconPath = "UI/Icons/ThingCategories/Foods"

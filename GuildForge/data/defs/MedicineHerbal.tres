@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MedicineHerbal.tres")"
+label = "herbal medicine"
+description = "A pack of herbal concoctions extracted from the healroot plant. It is less potent than industrial pharmaceuticals, but much better than nothing."
+possessionCount = "4"
+graphicData = SubResource(1)
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+statBases = SubResource(2)
+tickerType = "Rare"
+comps = Array[SubResource(3)]
+allowedArchonexusCount = "20"

@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CleanClearSnow.tres")"
+label = "clear snow"
+giverClass = "WorkGiver_ClearSnowOrSand"
+workType = "ExtResource("res://GuildForge/data/defs/Cleaning.tres")"
+verb = "clear snow"
+gerund = "clearing snow"
+priorityInType = "10"
+scanThings = "false"
+scanCells = "true"
+requiredCapacities = SubResource(1)

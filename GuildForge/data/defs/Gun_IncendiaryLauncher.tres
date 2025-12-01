@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_IncendiaryLauncher.tres")"
+label = "incendiary launcher"
+description = "A wide-barreled incendiary bolt launcher. The bolts create small incendiary explosions on impact, starting fires."
+graphicData = SubResource(1)
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_Rifle.tres")"
+generateCommonality = "0.3"
+weaponClasses = SubResource(2)
+statBases = SubResource(3)
+costList = SubResource(4)
+recipeMaker = SubResource(5)
+verbs = SubResource(7)
+tools = SubResource(10)

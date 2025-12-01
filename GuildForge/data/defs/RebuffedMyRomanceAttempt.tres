@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RebuffedMyRomanceAttempt.tres")"
+thoughtClass = "Thought_MemorySocial"
+developmentalStageFilter = "Adult"
+durationDays = "10"
+stackLimit = "300"
+stackLimitForSameOtherPawn = "5"
+stackedEffectMultiplier = "0.9"
+stages = SubResource(1)
+thoughtToMake = "ExtResource("res://GuildForge/data/defs/RebuffedMyRomanceAttemptMood.tres")"

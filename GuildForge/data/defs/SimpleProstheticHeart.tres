@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SimpleProstheticHeart.tres")"
+label = "prosthetic heart"
+labelNoun = "a prosthetic heart"
+description = "An installed prosthetic heart. It contains an electric motor that pumps blood smoothly around the body. Users often report feeling tired, but it's better than the alternative."
+descriptionHyperlinks = SubResource(1)
+spawnThingOnRemoved = "ExtResource("res://GuildForge/data/defs/SimpleProstheticHeart.tres")"
+addedPartProps = SubResource(2)

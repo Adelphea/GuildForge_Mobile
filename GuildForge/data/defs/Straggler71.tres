@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Straggler71.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Straggler71.tres")"
+slot = "Childhood"
+title = "straggler"
+titleShort = "straggler"
+description = "Despite being blessed with parental love, [PAWN_nameDef] hardly knew [PAWN_possessive] parents.
+
+[PAWN_pronoun] was frequently left to [PAWN_possessive] own devices which meant more time devoted to exploring [PAWN_possessive] interests... and getting into trouble."
+skillGains = SubResource(1)
+workDisables = "Caring, Social"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PlantsCut.tres")"
+label = "cut plants"
+giverClass = "WorkGiver_PlantsCut"
+workType = "ExtResource("res://GuildForge/data/defs/PlantCutting.tres")"
+verb = "cut"
+gerund = "cutting"
+requiredCapacities = SubResource(1)

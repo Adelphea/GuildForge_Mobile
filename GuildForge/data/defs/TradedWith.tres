@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TaleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TaleDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TradedWith.tres")"
+label = "traded with someone"
+taleClass = "Tale_DoublePawn"
+type = "Volatile"
+firstPawnSymbol = "BUYER"
+secondPawnSymbol = "SELLER"
+baseInterest = "1"
+rulePack = SubResource(1)

@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FixBrokenDownBuilding.tres")"
+label = "fix broken-down buildings"
+giverClass = "WorkGiver_FixBrokenDownBuilding"
+workType = "ExtResource("res://GuildForge/data/defs/Construction.tres")"
+priorityInType = "120"
+verb = "replace broken components in"
+gerund = "replacing broken components in"
+requiredCapacities = SubResource(1)
+prioritizeSustains = "true"

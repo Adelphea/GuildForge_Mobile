@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Gun_DoomsdayRocket.tres")"
+label = "doomsday rocket launcher"
+description = Color(A single-use rocket launcher that fires a massive explosive projectile. Good against large groups of soft targets. Starts fires.\n\nBecause of its unwieldiness, single-use limitation, and the massive destruction it causes, it's said that one must be slightly crazy to use this weapon.)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+techLevel = "Spacer"
+smeltable = "false"
+graphicData = SubResource(1)
+statBases = SubResource(2)
+weaponTags = SubResource(3)
+weaponClasses = SubResource(4)
+tradeTags = SubResource(5)
+thingSetMakerTags = SubResource(6)
+relicChance = "0"
+verbs = SubResource(7)
+tools = SubResource(10)
+comps = Array[SubResource(13), SubResource(14)]

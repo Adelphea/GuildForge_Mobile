@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Cleanliness.tres")"
+label = "cleanliness"
+description = "How much an object contributes to an area's cleanliness score."
+category = "ExtResource("res://GuildForge/data/defs/BasicsNonPawn.tres")"
+defaultBaseValue = "0"
+maxValue = "1000"
+minValue = "-1000"
+hideAtValue = "0"
+toStringStyle = "FloatOne"
+applyFactorsIfNegative = "false"
+displayPriorityInCategory = "3000"

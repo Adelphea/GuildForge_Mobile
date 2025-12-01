@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RecurveBow.tres")"
+label = "recurve bow"
+description = "Build the recurve bow, an effective and inexpensive ranged weapon."
+baseCost = "400"
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+tags = SubResource(1)
+researchViewX = "0.00"
+researchViewY = "0.70"
+generalRules = SubResource(2)

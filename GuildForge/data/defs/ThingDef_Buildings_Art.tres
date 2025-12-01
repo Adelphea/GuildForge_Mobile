@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+thingCategories = SubResource(1)
+thingSetMakerTags = SubResource(2)
+statBases = SubResource(3)
+comps = Array[SubResource(4)]
+placeWorkers = SubResource(5)
+tradeTags = SubResource(6)
+recipeMaker = SubResource(7)
+ideoBuildingNamerBase = SubResource(14)
+building = SubResource(15)

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ColonialGovernor78.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/ColonialGovernor78.tres")"
+slot = "Adulthood"
+title = "colonial governor"
+titleShort = "governor"
+description = Color(Disillusioned by rampant government corruption, [PAWN_nameDef] ran for governor and won. However, the local gangs and their pet officials soon forced [PAWN_objective] out of power.\n\n[PAWN_pronoun] left the community to return to [PAWN_possessive] life as a marshal., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

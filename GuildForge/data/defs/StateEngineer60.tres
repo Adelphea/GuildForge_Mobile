@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/StateEngineer60.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/StateEngineer60.tres")"
+slot = "Adulthood"
+title = "state engineer"
+titleShort = "engineer"
+description = "[PAWN_nameDef] enrolled in the state weapons research program.\n\nWhile brilliant in [PAWN_possessive] work, [PAWN_pronoun] was so enthusiastic in testing [PAWN_possessive] creations that [PAWN_pronoun] accidentally wounded some colleagues and was marked as unfit for service."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

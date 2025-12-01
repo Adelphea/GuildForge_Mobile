@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Scrounger25.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/Scrounger25.tres")"
+slot = "Childhood"
+title = "scrounger"
+titleShort = "scrounger"
+description = "[PAWN_nameDef] would dive into junk mounds in search for valuables and items of interest.
+
+[PAWN_pronoun] was never bothered by the stink, or dangers that could leave [PAWN_objective] wounded for weeks."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Cleaning.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

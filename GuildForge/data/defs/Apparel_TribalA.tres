@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_TribalA.tres")"
+label = "tribalwear"
+description = "A full-body garment crafted using neolithic tools. While it may look primitive, it is effective at insulating the wearer."
+graphicData = SubResource(1)
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+costStuffCount = "60"
+stuffCategories = SubResource(2)
+tradeability = "Sellable"
+statBases = SubResource(3)
+thingCategories = SubResource(4)
+apparel = SubResource(5)
+recipeMaker = SubResource(10)
+colorGenerator = SubResource(12)
+tradeTags = SubResource(17)

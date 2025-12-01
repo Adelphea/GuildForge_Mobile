@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MarksmanCommandBuff.tres")"
+label = "marksman command"
+description = "Someone is using the marksman command ability nearby, boosting this person's shooting abilities."
+debugLabelExtra = "other"
+stages = SubResource(1)

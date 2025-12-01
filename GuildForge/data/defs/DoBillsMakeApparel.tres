@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DoBillsMakeApparel.tres")"
+label = "make apparel"
+giverClass = "WorkGiver_DoBill"
+workType = "ExtResource("res://GuildForge/data/defs/Tailoring.tres")"
+priorityInType = "110"
+fixedBillGiverDefs = SubResource(1)
+verb = "tailor at"
+gerund = "tailoring at"
+requiredCapacities = SubResource(2)
+prioritizeSustains = "true"

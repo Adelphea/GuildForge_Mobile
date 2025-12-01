@@ -1,0 +1,35 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Barricade.tres")"
+label = "barricade"
+description = "A waist-high barrier for use as cover from incoming shots. Barricades are ugly, but provide better cover than other low objects. Barricades will block certain kinds of animals the same way that fences do."
+thingClass = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+replaceTags = SubResource(1)
+graphicData = SubResource(2)
+uiIconPath = "Things/Building/Linked/Barricade_MenuIcon"
+uiIconScale = "1.2"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+pathCost = "42"
+pathCostIgnoreRepeat = "true"
+passability = "PassThroughOnly"
+castEdgeShadows = "true"
+fillPercent = "0.55"
+canOverlapZones = "false"
+uiOrder = "10"
+statBases = SubResource(4)
+building = SubResource(5)
+drawStyleCategory = "ExtResource("res://GuildForge/data/defs/Defenses.tres")"
+stuffCategories = SubResource(7)
+costStuffCount = "5"
+filthLeaving = "ExtResource("res://GuildForge/data/defs/Filth_RubbleBuilding.tres")"
+rotatable = "false"
+selectable = "true"
+neverMultiSelect = "true"
+useStuffTerrainAffordance = "true"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Security.tres")"
+staticSunShadowHeight = "0.20"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc1.tres")"

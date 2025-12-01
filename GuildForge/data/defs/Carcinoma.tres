@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Carcinoma.tres")"
+label = "carcinoma"
+labelNoun = "a carcinoma"
+description = Color(A lump of cancerous tissue. Without treatment, the carcinoma will grow over time, causing worsening symptoms and eventually killing the patient.
+\nA skilled doctor can excise the carcinoma. An unskilled doctor may be able to simply amputate the body part which contains the carcinoma., 1.0)
+hediffClass = "HediffWithComps"
+initialSeverity = "0.3"
+chanceToCauseNoPain = "0.3"
+tendable = "true"
+removeOnQuestLodgers = "true"
+stages = SubResource(1)
+comps = Array[SubResource(8), SubResource(9)]

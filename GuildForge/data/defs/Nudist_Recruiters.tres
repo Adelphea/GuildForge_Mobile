@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Nudist_Recruiters.tres")"
+label = "nudist recruiters"
+description = "We must prance free of constraining clothes, and constantly invite others to join us."
+categoryDef = "ExtResource("res://GuildForge/data/defs/Strong.tres")"
+memes = SubResource(1)

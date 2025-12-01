@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ForestChild83.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/ForestChild83.tres")"
+slot = "Childhood"
+title = "forest child"
+titleShort = "forest kid"
+description = Color(When [PAWN_pronoun] was a baby, [PAWN_nameDef]'s mother went insane and left [PAWN_objective] in the woods.
+
+Raised by wild people, [PAWN_nameDef] was known for both loving and killing animals., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Intellectual.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+shuffleable = "False"

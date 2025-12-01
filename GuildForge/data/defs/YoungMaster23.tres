@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/YoungMaster23.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/YoungMaster23.tres")"
+slot = "Childhood"
+title = "young master"
+titleShort = "master"
+description = Color(Born to two medics, [PAWN_nameDef] longed for power. [PAWN_possessive] keen intellect and charisma helped [PAWN_objective] gain the respect of [PAWN_possessive] peers.
+
+Deciding that the best way to gain power was to climb the ranks of the imperial military, [PAWN_pronoun] joined at the youngest possible age., 1.0)
+skillGains = SubResource(1)
+workDisables = "ManualDumb"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

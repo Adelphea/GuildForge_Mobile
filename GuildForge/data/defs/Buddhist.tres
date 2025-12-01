@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StyleCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StyleCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Buddhist.tres")"
+label = "ExtResource("res://GuildForge/data/defs/Buddhist.tres")"
+iconPath = "UI/StyleCategories/Buddhism"
+soundOngoingRitual = "ExtResource("res://GuildForge/data/defs/RitualSustainer_Buddhist.tres")"
+ritualVisualEffectDef = "ExtResource("res://GuildForge/data/defs/Buddhist.tres")"
+thingDefStyles = SubResource(1)

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ChildKnave69.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/ChildKnave69.tres")"
+slot = "Childhood"
+title = "child-knave"
+titleShort = "knave"
+description = "[PAWN_nameDef] was a child-knave of King Loteric. [PAWN_pronoun] enjoyed the training with wooden sticks and engaging others in close combat. [PAWN_pronoun] adapted quickly to the heat of battle and was good at spreading fire.
+
+[PAWN_pronoun] served [PAWN_possessive] lord well, until the king died in an unfortunate accident."
+skillGains = SubResource(1)
+workDisables = "Firefighting"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

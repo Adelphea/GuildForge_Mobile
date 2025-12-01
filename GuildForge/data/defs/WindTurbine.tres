@@ -1,0 +1,35 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WindTurbine.tres")"
+thingClass = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+drawerType = "MapMeshAndRealTime"
+label = "wind turbine"
+description = "A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow."
+graphicData = SubResource(1)
+uiIconPath = "Things/Building/Power/WindTurbine/WindTurbine_MenuIcon"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+pathCost = "50"
+canOverlapZones = "false"
+blockWind = "true"
+fillPercent = "0.5"
+statBases = SubResource(4)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+size = Vector2(7, 2)
+selectable = "true"
+drawPlaceWorkersWhileSelected = "true"
+rotatable = "true"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Power.tres")"
+uiOrder = "2100"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+building = SubResource(5)
+costList = SubResource(6)
+constructEffect = "ExtResource("res://GuildForge/data/defs/ConstructMetal.tres")"
+placeWorkers = SubResource(7)
+comps = Array[SubResource(8), SubResource(9), SubResource(10), SubResource(11)]
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc7.tres")"
+researchPrerequisites = SubResource(13)
+constructionSkillPrerequisite = "4"
+inspectorTabs = SubResource(14)

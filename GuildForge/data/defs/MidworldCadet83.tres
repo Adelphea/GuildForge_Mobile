@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MidworldCadet83.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MidworldCadet83.tres")"
+slot = "Childhood"
+title = "midworld cadet"
+titleShort = "cadet"
+description = Color(Growing up on a high-tech midworld with a flourishing space transit industry, [PAWN_nameDef] wished to leave for the stars and live among the growing spacer class.
+
+[PAWN_pronoun] excelled in [PAWN_possessive] studies, and gained entry to [PAWN_possessive] homeworld's most prestigious naval academy., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

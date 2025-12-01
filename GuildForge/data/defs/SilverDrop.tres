@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SilverDrop.tres")"
+label = "silver drop"
+description = "Call for a drop of 500 silver."
+minTitle = "ExtResource("res://GuildForge/data/defs/Knight.tres")"
+uiPosition = Vector2(0, 4)
+royalAid = SubResource(1)

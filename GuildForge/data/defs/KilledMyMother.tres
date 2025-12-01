@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/KilledMyMother.tres")"
+thoughtClass = "Thought_MemorySocial"
+durationDays = "120"
+stackLimit = "300"
+stackLimitForSameOtherPawn = "10"
+stages = SubResource(1)

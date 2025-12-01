@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpikecoreFloorStar_Medium.tres")"
+label = "spikecore floor-star (medium)"
+description = "A radial arrangement of metal pieces in a spikecore style, for decorating a floor."
+dominantStyleCategory = "ExtResource("res://GuildForge/data/defs/Spikecore.tres")"
+graphicData = SubResource(1)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Heavy.tres")"
+costList = SubResource(2)

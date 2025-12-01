@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BloodRot.tres")"
+label = "blood rot"
+description = Color(A slow-growing bacterial disease. The bacteria have little effect on the victim during their growing phase, but upon reaching saturation levels will induce a toxin storm that leads to immediate death.\n\nThe body's immune system will clear blood rot eventually, so the standard treatment is to use normal medicine to suppress it until that happens. Glitterworld doctors can use a massive mechanite dose to clear the infection immediately, but it is expensive.)
+descriptionShort = "A slow-growing bacterial disease. Upon reaching full saturation, it will kill the affected individual."
+hediffClass = "HediffWithComps"
+lethalSeverity = "1"
+makesSickThought = "true"
+minSeverity = "0.001"
+initialSeverity = "0.001"
+stages = SubResource(1)
+tendable = "true"
+comps = Array[SubResource(14), SubResource(15), SubResource(16)]

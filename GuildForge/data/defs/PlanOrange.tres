@@ -1,0 +1,6 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ColorDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ColorDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PlanOrange.tres")"
+color = Color((0.9, 0.7, 0.4, 0.4))

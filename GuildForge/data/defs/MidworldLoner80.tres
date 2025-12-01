@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MidworldLoner80.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MidworldLoner80.tres")"
+slot = "Childhood"
+title = "midworld loner"
+titleShort = "loner"
+description = "[PAWN_nameDef] was born on a peaceful, unimportant midworld.
+
+While [PAWN_pronoun] had a few friends, [PAWN_pronoun] preferred to spend [PAWN_possessive] time in solitude, tinkering on [PAWN_possessive] autocycle while listening to netcasts, or plinking at plastic soldiers with a new rifle [PAWN_pronoun] had just put together."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

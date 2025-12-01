@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ChemicalDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ChemicalDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Alcohol.tres")"
+label = "alcohol"
+addictionHediff = "ExtResource("res://GuildForge/data/defs/AlcoholAddiction.tres")"
+toleranceHediff = "ExtResource("res://GuildForge/data/defs/AlcoholTolerance.tres")"
+onGeneratedAddictedToleranceChance = "0.8"
+onGeneratedAddictedEvents = SubResource(1)
+geneToleranceBuildupFactorResist = "0.5"
+geneToleranceBuildupFactorImmune = "0"

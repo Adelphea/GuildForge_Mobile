@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OrbitalTargeterMechCluster.tres")"
+label = "orbital mech cluster targeter"
+description = Color(An ancient military targeting device. It signals an orbital platform to drop a mechanoid combat cluster at the targeted point. The cluster may include any mixture of mechanoids and mech defense structures.
+\nThough they may have once had some allegiance to the ancient army that created this unit, any mechs dropped now will indiscriminately attack any human they see - including the one that summoned them.
+\nThe unit only contains one usage code, so it can only be used once., 1.0)
+graphicData = SubResource(1)
+apparel = SubResource(2)
+verbs = SubResource(22)
+comps = Array[SubResource(25)]
+requiresFactionToAcquire = "ExtResource("res://GuildForge/data/defs/Mechanoid.tres")"

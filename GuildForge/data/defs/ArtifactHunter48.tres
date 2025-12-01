@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ArtifactHunter48.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/ArtifactHunter48.tres")"
+slot = "Adulthood"
+title = "artifact hunter"
+titleShort = "artifacter"
+description = "[PAWN_nameDef] became depressed and lost interest in life. [PAWN_pronoun] traveled from planet to planet, searching for psychic artifacts amid mechanoid ruins in the hope that they would cure the pain in [PAWN_possessive] soul.\n\nA steady trigger finger and careful planning kept [PAWN_nameDef] alive."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Social.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

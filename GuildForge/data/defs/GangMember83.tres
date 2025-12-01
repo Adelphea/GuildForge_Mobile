@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GangMember83.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/GangMember83.tres")"
+slot = "Childhood"
+title = "gang member"
+titleShort = "ganger"
+description = Color([PAWN_nameDef] grew up homeless on an urbworld. [PAWN_pronoun] was forced to fight and struggle for everything, making [PAWN_objective] hard and ruthless long before adulthood.
+
+[PAWN_nameDef] would have stayed in those streets, had [PAWN_pronoun] not been injured in a shootout and had [PAWN_possessive] body confiscated for use by one of the worldwide city's ruling corporations., 1.0)
+skillGains = SubResource(1)
+workDisables = "Social, Intellectual"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

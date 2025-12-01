@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnColumnDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnColumnDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FollowDrafted.tres")"
+workerClass = "PawnColumnWorker_FollowDrafted"
+sortable = "true"
+headerIcon = "UI/Icons/Animal/FollowDrafted"
+headerTip = "Follow master while the master is drafted."
+paintable = "true"

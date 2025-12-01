@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DrillArm.tres")"
+label = "drill arm"
+description = Color(A mechanical arm replacement for speeding up mining. It has a built-in snake drill, which allows the miner to rapidly find and exploit weak lines in the rock. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly., 1.0)
+descriptionHyperlinks = SubResource(1)
+thingSetMakerTags = SubResource(2)
+costList = SubResource(3)
+recipeMaker = SubResource(4)
+techHediffsTags = SubResource(5)

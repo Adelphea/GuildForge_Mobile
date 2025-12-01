@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Weapon_GrenadeEMP.tres")"
+label = "EMP grenades"
+description = "Electromagnetic pulse grenades damaging to electronic equipment."
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+graphicData = SubResource(1)
+uiIconScale = "1.3"
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_Grenade.tres")"
+techLevel = "Industrial"
+statBases = SubResource(2)
+costList = SubResource(3)
+recipeMaker = SubResource(4)
+weaponTags = SubResource(5)
+thingCategories = SubResource(6)
+verbs = SubResource(7)
+comps = Array[SubResource(10)]
+smeltable = "true"

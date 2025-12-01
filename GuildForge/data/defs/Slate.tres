@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Slate.tres")"
+label = "slate"
+description = "A dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage."
+graphicData = SubResource(1)
+statBases = SubResource(2)
+building = SubResource(3)

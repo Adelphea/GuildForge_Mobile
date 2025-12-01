@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RusticRug_Broad.tres")"
+label = "rustic rug (broad)"
+description = "A homey rug with a rustic-style pattern, for decorating a floor."
+dominantStyleCategory = "ExtResource("res://GuildForge/data/defs/Rustic.tres")"
+statBases = SubResource(1)
+graphicData = SubResource(2)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+building = SubResource(3)
+comps = Array[SubResource(4)]
+costList = SubResource(5)

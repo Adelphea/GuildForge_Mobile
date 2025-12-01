@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DreadedDude58.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/DreadedDude58.tres")"
+slot = "Adulthood"
+title = "dreaded dude"
+titleShort = "dude"
+description = "Some followers say that [PAWN_nameDef] and [PAWN_possessive] crew of misfits found the fountain of youth, many, many centuries ago, and that they caused the extinction of the dinosaurs on many planets.\n\nThere's even a religion about them, somewhere, involving noodles and meatballs."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Cleaning.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

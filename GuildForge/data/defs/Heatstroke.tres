@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Heatstroke.tres")"
+label = "heatstroke"
+description = "A generalized disruption to body functioning caused by excessive exposure to heat and sun. The victim becomes dizzy, weak, and confused. Recovery is quick once in a cool area, but if heat exposure continues, heat stroke gets worse until death."
+defaultLabelColor = Vector3(0.8, 0.8, 0.35)
+lethalSeverity = "1"
+canApplyDodChanceForCapacityChanges = "true"
+taleOnVisible = "ExtResource("res://GuildForge/data/defs/HeatstrokeRevealed.tres")"
+stages = SubResource(1)

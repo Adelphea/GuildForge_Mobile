@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CrimeLord10.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/CrimeLord10.tres")"
+slot = "Adulthood"
+title = "crime lord"
+titleShort = "crime lord"
+description = "Through brutality and cruelty, [PAWN_nameDef] rose to become a crime lord.\n\n[PAWN_pronoun] relied less on [PAWN_possessive] fists and more on [PAWN_possessive] guns. [PAWN_possessive] reputation spread quickly due to [PAWN_possessive] cold-bloodedness and ruthless methods."
+skillGains = SubResource(1)
+workDisables = Color(Caring, Artistic, Cleaning, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

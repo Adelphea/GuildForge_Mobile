@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SunLamp.tres")"
+label = "sun lamp"
+description = "An industrial lamp which lights an area brightly enough to grow crops, but consumes a huge amount of power. Automatically turns itself off at night."
+thingClass = "Building_SunLamp"
+graphicData = SubResource(1)
+blockWind = "true"
+tickerType = "Rare"
+statBases = SubResource(3)
+costList = SubResource(4)
+uiOrder = "2995"
+comps = Array[SubResource(5), SubResource(6), SubResource(7), SubResource(8)]
+specialDisplayRadius = "5.8"

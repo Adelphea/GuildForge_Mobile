@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BadBack.tres")"
+label = "bad back"
+labelNoun = "a bad back"
+description = "Degradation in the spinal column and surrounding musculature. This makes it hard to move and bend smoothly."
+stages = SubResource(1)

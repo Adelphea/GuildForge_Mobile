@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/UnstableButcher31.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/UnstableButcher31.tres")"
+slot = "Adulthood"
+title = "unstable butcher"
+titleShort = "butcher"
+description = Color([PAWN_nameDef] began hearing voices. The animals were talking to [PAWN_objective], insulting him. [PAWN_pronoun] came to hate them, and eventually killed [PAWN_possessive] furry former friends. [PAWN_pronoun] started selling the meat just to get human interaction., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Hulk.tres")"
+shuffleable = "False"

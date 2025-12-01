@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MakeGrowingZone.tres")"
+text = "The house is being built!\n\nYour colonists will need something to eat, so place a GROWING ZONE as indicated on the map.\n\nThis is where your colonists will sow crops."
+instructionClass = "Instruction_PlaceGrowingZone"
+eventTagInitiate = "InstructionDeactivated-BuildHorseshoesPin"
+actionTagsAllowed = SubResource(1)
+eventTagsEnd = SubResource(2)
+rejectInputMessage = "Please make a growing zone on the indicated area."
+highlightTags = SubResource(3)
+onMapInstruction = "Place growing zone here\n(drag corner-to-corner)"

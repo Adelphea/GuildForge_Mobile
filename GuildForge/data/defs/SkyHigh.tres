@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ExpectationDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ExpectationDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SkyHigh.tres")"
+label = "sky high"
+order = "5"
+thoughtStage = "0"
+maxMapWealth = "1000000000"
+joyKindsNeeded = "6"
+joyToleranceDropPerDay = "0.07"

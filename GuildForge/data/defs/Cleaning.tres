@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Cleaning.tres")"
+labelShort = "clean"
+pawnLabel = "Cleaner"
+gerundLabel = "cleaning"
+description = "Clear snow and clean the floor in the home area."
+verb = "ExtResource("res://GuildForge/data/defs/Clean.tres")"
+naturalPriority = "200"
+alwaysStartActive = "true"
+requireCapableColonist = "true"
+workTags = SubResource(1)

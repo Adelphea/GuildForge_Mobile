@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OpenMainTabResearch.tres")"
+text = "Excellent! Next, you'll want to select what you want to be researched.\n\nOpen the RESEARCH tab."
+eventTagInitiate = "InstructionDeactivated-BuildSimpleResearchBench"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+eventTagsEnd = SubResource(3)
+rejectInputMessage = "Please open the 'Research' tab."

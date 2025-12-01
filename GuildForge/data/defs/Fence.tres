@@ -1,0 +1,34 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Fence.tres")"
+label = "fence"
+description = "A fence made of posts joined by crossbars used for building pens for certain kinds of animals. Some kinds of animals can get past fences. Predators will not hunt creatures on the other side of a fence, but may still wander inside."
+thingClass = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+replaceTags = SubResource(1)
+graphicData = SubResource(2)
+uiIconPath = "Things/Building/Linked/Fence_MenuIcon"
+uiIconPathsStuff = SubResource(10)
+statBases = SubResource(12)
+costStuffCount = "1"
+leaveResourcesWhenKilled = "false"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "PassThroughOnly"
+pathCost = "80"
+blockWind = "false"
+fillPercent = "0.25"
+drawStyleCategory = "ExtResource("res://GuildForge/data/defs/Defenses.tres")"
+tickerType = "Never"
+rotatable = "false"
+selectable = "true"
+neverMultiSelect = "true"
+useStuffTerrainAffordance = "true"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Structure.tres")"
+uiOrder = "2020"
+canOverlapZones = "false"
+fertility = "0"
+stuffCategories = SubResource(13)
+building = SubResource(14)

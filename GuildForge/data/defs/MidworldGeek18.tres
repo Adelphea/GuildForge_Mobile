@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MidworldGeek18.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MidworldGeek18.tres")"
+slot = "Childhood"
+title = "midworld geek"
+titleShort = "geek"
+description = "[PAWN_nameDef] grew up in a quiet suburban neighborhood. [PAWN_pronoun] was never a master of social interaction, but [PAWN_possessive] interest in computers blossomed into a true talent at an early age."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

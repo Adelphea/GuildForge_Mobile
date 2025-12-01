@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BionicArm.tres")"
+label = "bionic arm"
+labelNoun = "a bionic arm"
+description = "An installed bionic arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way."
+descriptionHyperlinks = SubResource(1)
+comps = Array[SubResource(2)]
+spawnThingOnRemoved = "ExtResource("res://GuildForge/data/defs/BionicArm.tres")"
+addedPartProps = SubResource(6)

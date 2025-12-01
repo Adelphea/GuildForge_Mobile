@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BloodgameSurvivor6.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/BloodgameSurvivor6.tres")"
+slot = "Adulthood"
+title = "bloodgame survivor"
+titleShort = "bloodgamer"
+description = Color([PAWN_nameDef] was sold to the Corestars Entertainment Company and used as meat in one of the company's system-wide broadcast shows.
+ 
+[PAWN_possessive] manipulative nature made [PAWN_objective] quite a nightmare, even to the audience. [PAWN_pronoun] was kicked out and exiled to a planet full of deadly animals, criminals and armed camera-drones., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Crafting.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

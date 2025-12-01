@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ClanChief14.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/ClanChief14.tres")"
+slot = "Adulthood"
+title = "clan chief"
+titleShort = "chief"
+description = "[PAWN_nameDef] managed a small criminal clan on an outlying trade hub world."
+skillGains = SubResource(1)
+workDisables = "Caring"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

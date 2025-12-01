@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ResourcePodCrash.tres")"
+label = "resource pod crash"
+category = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_ResourcePodCrash"
+baseChance = "1.0"
+canOccurOnAllPlanetLayers = "true"

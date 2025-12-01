@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Table1x2c.tres")"
+label = "table (1x2)"
+graphicData = SubResource(1)
+uiIconScale = "0.8"
+statBases = SubResource(3)
+size = Vector2(1, 2)
+costStuffCount = "28"

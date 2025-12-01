@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Storyteller63.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/Storyteller63.tres")"
+slot = "Adulthood"
+title = "storyteller"
+titleShort = "fabulist"
+description = Color([PAWN_nameDef] traveled [PAWN_possessive] world recounting the legends that [PAWN_pronoun] had studied.\n\nObsessed with the legends of [PAWN_possessive] people, [PAWN_nameDef] seeks someone who can help [PAWN_objective] grow scales on [PAWN_possessive] skin, so [PAWN_pronoun] too can be as the ancients were., 1.0)
+skillGains = SubResource(1)
+workDisables = "Cooking, Mining"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

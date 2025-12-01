@@ -1,0 +1,25 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientRazorWire.tres")"
+label = "ancient razor wire"
+description = "A piece of ancient razor wire. It has been deteriorating for many years and no longer poses any danger."
+graphicData = SubResource(1)
+uiIconPath = "Things/Building/Ruins/RustedBarbedWireFence_MenuIcon"
+blockLight = "false"
+blockWind = "false"
+passability = "PassThroughOnly"
+castEdgeShadows = "false"
+pathCost = "90"
+pathCostIgnoreRepeat = "false"
+neverMultiSelect = "false"
+holdsRoof = "false"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+drawerType = "MapMeshAndRealTime"
+rotatable = "false"
+building = SubResource(4)
+size = Vector2(1, 1)
+fillPercent = "0.1"
+statBases = SubResource(6)
+staticSunShadowHeight = "0"

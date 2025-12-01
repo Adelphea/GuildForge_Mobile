@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Defector95.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/Defector95.tres")"
+slot = "Adulthood"
+title = "defector"
+titleShort = "defector"
+description = Color([PAWN_nameDef] decided to leave the oppressive dictatorship where [PAWN_pronoun] lived. [PAWN_possessive] defection was not well-received, and agents were sent after [PAWN_objective].\n\n[PAWN_pronoun] spent years on the run. Since [PAWN_pronoun] could trust no doctor, [PAWN_pronoun] treated [PAWN_possessive] own wounds. The ordeal made [PAWN_objective] bitter and untrusting., 1.0)
+skillGains = SubResource(1)
+workDisables = "Animals, Artistic"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

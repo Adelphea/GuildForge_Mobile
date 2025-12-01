@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Nutrition.tres")"
+label = "nutrition"
+description = "How nutritious this food is."
+category = "ExtResource("res://GuildForge/data/defs/BasicsNonPawnImportant.tres")"
+defaultBaseValue = "0"
+minValue = "0"
+showIfUndefined = "false"
+toStringStyle = "FloatTwo"
+parts = SubResource(1)
+displayPriorityInCategory = "3000"
+cacheable = "true"

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ComputerEngineer10.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/ComputerEngineer10.tres")"
+slot = "Adulthood"
+title = "computer engineer"
+titleShort = "tech head"
+description = Color(Bored of [PAWN_possessive] code-monkey office job and missing the glory days of the Academy, [PAWN_nameDef] saw a commercial about the frontier where "only the strong survive".\n\nWith [PAWN_possessive] wife Morgan, [PAWN_nameDef] undertook a journey into the unknown., 1.0)
+skillGains = SubResource(1)
+workDisables = "ManualDumb, Violent"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

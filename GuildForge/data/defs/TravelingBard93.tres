@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TravelingBard93.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/TravelingBard93.tres")"
+slot = "Adulthood"
+title = "Traveling bard"
+titleShort = "Musician"
+description = "[PAWN_nameDef] joined the famous Star Pilots On Channel K (aka S.P.O.C.K) and toured the star system, but eventually the band split up and their fame faded away.\n\n[PAWN_pronoun] ended up as a travelling bard playing on [PAWN_possessive] portable synthesizer as [PAWN_pronoun] traveled from spaceport to spaceport."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Intellectual.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "False"

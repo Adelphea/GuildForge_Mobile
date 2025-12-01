@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatCategoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatCategoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Meditation.tres")"
+label = "ExtResource("res://GuildForge/data/defs/Meditation.tres")"
+displayOrder = "13"
+displayAllByDefault = "True"

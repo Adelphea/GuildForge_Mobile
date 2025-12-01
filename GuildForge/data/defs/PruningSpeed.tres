@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PruningSpeed.tres")"
+label = "pruning speed"
+description = "A multiplier on how fast this person can prune a Gauranlen tree to maintain their connection with it.\n\nPruning is more of a contemplative psychic task than a physical one, so health factors like vision are unimportant here."
+category = "ExtResource("res://GuildForge/data/defs/PawnWork.tres")"
+defaultBaseValue = "1"
+minValue = "0.1"
+toStringStyle = "PercentZero"
+statFactors = SubResource(1)
+skillNeedFactors = SubResource(2)

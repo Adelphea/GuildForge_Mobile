@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeleeWeapon_Club.tres")"
+label = "club"
+description = Color(A shaped stick, heavy at one end, for bashing enemies to death. This weapon is so old it's part of human biology. Evolutionary biologists say that a major reason humans can tilt our wrists side-to-side (instead of just forward-and-back like other primates) is to be able to better swing a club., 1.0)
+graphicData = SubResource(1)
+uiIconScale = "1.1"
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+weaponTags = SubResource(2)
+weaponClasses = SubResource(3)
+costStuffCount = "40"
+statBases = SubResource(4)
+equippedAngleOffset = "-65"
+stuffCategories = SubResource(5)
+recipeMaker = SubResource(6)
+tools = SubResource(8)

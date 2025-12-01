@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Disease_OrganDecay.tres")"
+label = "organ decay"
+diseaseIncident = "ExtResource("res://GuildForge/data/defs/OrganDecay.tres")"
+diseaseMaxVictims = "1"
+letterLabel = "Organ decay: {PAWN_labelShort}"
+letterText = Color({PAWN_labelShort} has developed a flesh-eating infection known as organ decay in {PAWN_possessive} {2}!\n\nThe affected organ will slowly lose function over the next {3} days, before dying completely.\n\nIf you want {PAWN_labelShort} to stay healthy, install a replacement {2}. This could be a bionic, or a natural organ taken from a donor.)
+diseaseLethalLetterText = "Without a cure or replacement of some kind, {PAWN_labelShort} will die."
+letterSingularForm = "true"
+ignoreRecentSelectionWeighting = "true"
+diseaseDevelopmentStage = "Adult, Child"
+diseasePartsToAffect = SubResource(1)

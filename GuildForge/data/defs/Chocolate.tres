@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Chocolate.tres")"
+label = "chocolate"
+description = "A delicious preparation of cocoa seeds ground together with sugar and vanilla. It fulfills the need for recreation, but it is not very nutritious."
+graphicData = SubResource(1)
+soundInteract = "ExtResource("res://GuildForge/data/defs/Standard_Drop.tres")"
+soundDrop = "ExtResource("res://GuildForge/data/defs/Standard_Drop.tres")"
+socialPropernessMatters = "true"
+statBases = SubResource(2)
+thingCategories = SubResource(3)
+ingestible = SubResource(4)
+allowedArchonexusCount = "80"
+possessionCount = "10"

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GaumakerCocoon.tres")"
+label = "gaumaker pod"
+thingClass = "ThingWithComps"
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+description = Color(The result of the merging of several Gaumaker dryads, this symbiotic plant/animal pod is an essential part of the Gauranlen life cycle. After some time, it will flower into a mature Gauranlen pod which can be harvested to plant a new Gauranlen tree., 1.0)
+drawerType = "MapMeshAndRealTime"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+building = SubResource(1)
+graphicData = SubResource(2)
+statBases = SubResource(3)
+fillPercent = "0.5"
+selectable = "true"
+comps = Array[SubResource(4)]

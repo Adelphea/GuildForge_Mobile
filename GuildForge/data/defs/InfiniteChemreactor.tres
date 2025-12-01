@@ -1,0 +1,26 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InfiniteChemreactor.tres")"
+label = "infinite chemreactor"
+description = "Slowly generates chemfuel by a complex series of chemical reactions, using atoms extracted from the air."
+graphicData = SubResource(1)
+thingCategories = SubResource(3)
+costList = SubResource(4)
+building = SubResource(5)
+comps = Array[SubResource(6), SubResource(7), SubResource(8), SubResource(9), SubResource(11)]
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(12)
+thingSetMakerTags = SubResource(13)
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+size = Vector2(2, 2)
+fillPercent = "1.0"
+leaveResourcesWhenKilled = "false"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+passability = "Impassable"
+rotatable = "false"
+canOverlapZones = "false"
+minifiedDef = "ExtResource("res://GuildForge/data/defs/MinifiedThing.tres")"
+tradeability = "Sellable"
+tradeTags = SubResource(14)

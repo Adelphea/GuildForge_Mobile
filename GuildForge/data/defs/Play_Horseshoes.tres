@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_JoyGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_JoyGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Play_Horseshoes.tres")"
+giverClass = "JoyGiver_WatchBuilding"
+baseChance = "2.5"
+thingDefs = SubResource(1)
+jobDef = "ExtResource("res://GuildForge/data/defs/Play_Horseshoes.tres")"
+desireSit = "false"
+joyKind = "ExtResource("res://GuildForge/data/defs/Gaming_Dexterity.tres")"
+requiredCapacities = SubResource(2)

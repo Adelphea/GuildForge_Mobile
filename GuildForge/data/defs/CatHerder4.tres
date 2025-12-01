@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CatHerder4.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/CatHerder4.tres")"
+slot = "Childhood"
+title = "cat herder"
+titleShort = "herder"
+description = "[PAWN_nameDef] helped out in [PAWN_possessive] father's cat breeding business, socializing, herding, and feeding hundreds of cats.
+
+When [PAWN_pronoun] refused to clean up after the cats, [PAWN_pronoun] was transferred to the breeding science division."
+skillGains = SubResource(1)
+workDisables = "Cleaning, Hauling"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

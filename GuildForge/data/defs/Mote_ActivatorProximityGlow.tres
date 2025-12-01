@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+altitudeLayer = "MoteOverhead"
+defName = "ExtResource("res://GuildForge/data/defs/Mote_ActivatorProximityGlow.tres")"
+mote = SubResource(1)
+graphicData = SubResource(2)

@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_InstructionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_InstructionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BuildSimpleResearchBench.tres")"
+text = "To advance, you'll need to research new technologies.\n\nBuild a wooden SIMPLE RESEARCH BENCH inside your room."
+eventTagInitiate = "InstructionDeactivated-ChangeWorkSettings"
+instructionClass = "Instruction_BuildInRoom"
+actionTagsAllowed = SubResource(1)
+highlightTags = SubResource(2)
+thingDef = "ExtResource("res://GuildForge/data/defs/SimpleResearchBench.tres")"
+targetCount = "1"
+onMapInstruction = "Build a wooden simple research bench\ninside the room"
+rejectInputMessage = "Please place a wooden simple research bench inside the room you built earlier."
+resetBuildDesignatorStuffs = "true"

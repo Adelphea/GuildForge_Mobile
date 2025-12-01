@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/WakeUpHigh.tres")"
+label = "high on wake-up"
+labelNoun = "a wake-up high"
+description = Color(Wake-up in the bloodstream. It fills the need for rest by stimulating the brain, and increases focus, allowing faster work. It also increases the psyfocus gains from meditation., 1.0)
+hediffClass = "Hediff_High"
+defaultLabelColor = Vector3(1, 0, 0.5)
+scenarioCanAdd = "true"
+maxSeverity = "1.0"
+isBad = "false"
+comps = Array[SubResource(1)]
+stages = SubResource(2)

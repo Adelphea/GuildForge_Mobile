@@ -1,0 +1,25 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+thingClass = "Book"
+category = "Item"
+selectable = "true"
+rotatable = "True"
+altitudeLayer = "Item"
+tickerType = "Rare"
+alwaysHaulable = "true"
+burnableByRecipe = "true"
+useHitPoints = "true"
+healthAffectsPrice = "true"
+drawGUIOverlay = "true"
+tradeNeverStack = "true"
+neverMultiSelect = "true"
+stackLimit = "1"
+tradeNeverGenerateStacked = "true"
+comps = Array[SubResource(1), SubResource(2)]
+thingCategories = SubResource(3)
+inspectorTabs = SubResource(4)
+statBases = SubResource(5)
+thingSetMakerTags = SubResource(6)
+possessionCount = "1"

@@ -1,0 +1,20 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SpaceBartender0.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/SpaceBartender0.tres")"
+slot = "Adulthood"
+title = "space bartender"
+titleShort = "bartender"
+description = "[PAWN_nameDef] became a bartender on a space station. [PAWN_pronoun] interacted with and befriended many strangers.\n\nAs time went on, [PAWN_nameDef] used [PAWN_possessive] knowledge of herbs to craft [PAWN_possessive] own strange concoctions for [PAWN_possessive] customers."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+forcedTraits = SubResource(3)
+possessions = SubResource(4)
+shuffleable = "False"

@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_Collar.tres")"
+label = "slave collar"
+description = "An uncomfortable collar made for slaves. It reminds the wearer of their slave status and psychologically suppresses them, reducing the chance of a slave rebellion."
+graphicData = SubResource(1)
+costStuffCount = "25"
+stuffCategories = SubResource(2)
+statBases = SubResource(3)
+equippedStatOffsets = SubResource(4)
+apparel = SubResource(5)
+colorGenerator = SubResource(13)
+recipeMaker = SubResource(14)

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_GameConditionDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_GameConditionDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ToxicSpewer.tres")"
+conditionClass = "GameCondition_ToxicFallout"
+label = "toxic spewer"
+description = "A nearby toxic spewer is blanketing this whole region with poison."
+letterText = "A toxic spewer machine has begun blanketing the whole region with poison."
+canBePermanent = "false"
+natural = "false"

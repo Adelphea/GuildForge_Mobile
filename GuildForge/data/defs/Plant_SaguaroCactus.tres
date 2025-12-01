@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Plant_SaguaroCactus.tres")"
+label = "saguaro cactus"
+description = "A large cactus native to arid Earth environments. Though it is not a tree, it yields a small amount of fibrous material that can be used like wood."
+minifiedDef = SubResource(1)
+statBases = SubResource(2)
+graphicData = SubResource(3)
+fillPercent = "0.35"
+plant = SubResource(5)

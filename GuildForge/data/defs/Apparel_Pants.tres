@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_Pants.tres")"
+label = "pants"
+description = "A simple set of pants."
+recipeMaker = SubResource(1)
+graphicData = SubResource(2)
+costStuffCount = "40"
+stuffCategories = SubResource(3)
+thingCategories = SubResource(4)
+statBases = SubResource(5)
+apparel = SubResource(6)
+colorGenerator = SubResource(11)
+tradeTags = SubResource(12)

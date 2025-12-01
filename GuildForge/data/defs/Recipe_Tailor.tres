@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SoundDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SoundDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Recipe_Tailor.tres")"
+sustain = "True"
+context = "MapOnly"
+maxVoices = "3"
+priorityMode = "PrioritizeNearest"
+sustainStartSound = "ExtResource("res://GuildForge/data/defs/Tailor_Start.tres")"
+sustainStopSound = "ExtResource("res://GuildForge/data/defs/Tailor_Start.tres")"
+subSounds = SubResource(1)

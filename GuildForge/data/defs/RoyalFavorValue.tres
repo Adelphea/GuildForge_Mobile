@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RoyalFavorValue.tres")"
+label = "honor value"
+description = "The amount of honor your trader will earn for giving this to a tribute collector."
+category = "ExtResource("res://GuildForge/data/defs/BasicsImportant.tres")"
+defaultBaseValue = "0"
+minValue = "0"
+toStringStyle = "FloatMaxThree"
+showIfUndefined = "false"
+showIfModsLoaded = SubResource(1)
+displayPriorityInCategory = "2508"

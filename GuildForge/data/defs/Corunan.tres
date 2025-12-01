@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_CultureDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_CultureDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Corunan.tres")"
+label = "corunan"
+description = "An ancient culture common among rimworld tribes."
+pawnNameMaker = "ExtResource("res://GuildForge/data/defs/NamerPersonCorunan.tres")"
+ideoNameMaker = SubResource(1)
+deityNameMaker = SubResource(2)
+deityTypeMaker = SubResource(3)
+festivalNameMaker = SubResource(4)
+leaderTitleMaker = SubResource(5)
+allowedPlaceTags = SubResource(6)
+iconPath = "World/WorldObjects/Expanding/Village"
+preferredWeaponClasses = SubResource(7)
+thingStyleCategories = SubResource(8)
+styleItemTags = SubResource(10)

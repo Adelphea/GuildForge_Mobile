@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Bed.tres")"
+label = "bed"
+description = "A cozy mattress and sheets on a frame for resting."
+graphicData = SubResource(1)
+statBases = SubResource(3)
+size = Vector2(1, 2)
+costStuffCount = "45"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc2.tres")"
+uiOrder = "2010"
+building = SubResource(4)

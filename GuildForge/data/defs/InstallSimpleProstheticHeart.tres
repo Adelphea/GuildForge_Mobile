@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InstallSimpleProstheticHeart.tres")"
+label = "install prosthetic heart"
+description = "Install a prosthetic heart."
+descriptionHyperlinks = SubResource(1)
+jobString = "Installing prosthetic heart."
+deathOnFailedSurgeryChance = "0.25"
+ingredients = SubResource(2)
+fixedIngredientFilter = SubResource(6)
+appliedOnFixedBodyParts = SubResource(8)
+addsHediff = "ExtResource("res://GuildForge/data/defs/SimpleProstheticHeart.tres")"

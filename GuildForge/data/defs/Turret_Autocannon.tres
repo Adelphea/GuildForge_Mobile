@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Turret_Autocannon.tres")"
+label = "autocannon turret"
+description = Color(A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged., 1.0)
+uiIconPath = "Things/Building/Security/TurretAutocannon_MenuIcon"
+statBases = SubResource(1)
+costList = SubResource(2)
+comps = Array[SubResource(3), SubResource(4), SubResource(5), SubResource(6), SubResource(7), SubResource(8)]
+building = SubResource(11)
+researchPrerequisites = SubResource(12)

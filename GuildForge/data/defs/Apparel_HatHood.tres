@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_HatHood.tres")"
+label = "hood"
+description = "A draped hood which covers the head and ears."
+graphicData = SubResource(1)
+uiIconScale = "1.15"
+statBases = SubResource(2)
+equippedStatOffsets = SubResource(3)
+costStuffCount = "50"
+stuffCategories = SubResource(4)
+apparel = SubResource(5)
+colorGenerator = SubResource(9)
+tradeTags = SubResource(10)
+recipeMaker = SubResource(11)

@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/VersatileWorker13.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/VersatileWorker13.tres")"
+slot = "Adulthood"
+title = "versatile worker"
+titleShort = "worker"
+description = "Spending [PAWN_possessive] later teenage years in a colony of settlers, [PAWN_pronoun] offered what little skills [PAWN_pronoun] had to anyone who would take him.\n\nBeing a quick learner, [PAWN_pronoun] honed many of [PAWN_possessive] skills and, apart from [PAWN_possessive] crippling inability to understand fire, is now a fully functioning adult."
+skillGains = SubResource(1)
+workDisables = Color(Social, Intellectual, Firefighting, 1.0)
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

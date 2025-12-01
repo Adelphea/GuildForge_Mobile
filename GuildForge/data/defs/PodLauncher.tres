@@ -1,0 +1,29 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PodLauncher.tres")"
+label = "pod launcher"
+description = "A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other."
+thingClass = "Building_PodLauncher"
+graphicData = SubResource(1)
+drawerType = "MapMeshAndRealTime"
+size = Vector2(1, 2)
+rotatable = "true"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+passability = "Impassable"
+castEdgeShadows = "true"
+fillPercent = "1.0"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+uiOrder = "2200"
+canOverlapZones = "false"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+building = SubResource(2)
+statBases = SubResource(3)
+costList = SubResource(4)
+comps = Array[SubResource(5)]
+placeWorkers = SubResource(8)
+drawPlaceWorkersWhileSelected = "true"
+researchPrerequisites = SubResource(9)
+constructionSkillPrerequisite = "6"
+uiIconScale = "0.9"

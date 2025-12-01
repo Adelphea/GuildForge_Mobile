@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ToasterRepairman22.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/ToasterRepairman22.tres")"
+slot = "Adulthood"
+title = "toaster repairman"
+titleShort = "repairman"
+description = Color(Good with [PAWN_possessive] hands and passionate about technology, [PAWN_nameDef] aspired to invent gadgets and machines that would change [PAWN_possessive] home world forever.\n\nA few failed and occasionally disastrous creations later, [PAWN_pronoun] gave up on [PAWN_possessive] dream and took a job more befitting [PAWN_possessive] skill set., 1.0)
+skillGains = SubResource(1)
+workDisables = "Intellectual, Artistic"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

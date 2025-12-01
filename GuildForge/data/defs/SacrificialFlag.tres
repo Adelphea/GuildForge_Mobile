@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/SacrificialFlag.tres")"
+label = "sacrificial flag"
+description = "A flag representing enemies, ready to be burned as part of a ritual."
+ideoBuildingNamerBase = "ExtResource("res://GuildForge/data/defs/NamerBurnTarget.tres")"
+graphicData = SubResource(1)
+size = Vector2(1, 1)
+costList = SubResource(3)
+statBases = SubResource(4)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+passability = "PassThroughOnly"
+comps = Array[SubResource(5), SubResource(6)]

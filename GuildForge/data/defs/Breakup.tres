@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_TaleDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_TaleDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Breakup.tres")"
+label = "breakup"
+taleClass = "Tale_DoublePawn"
+type = "Volatile"
+baseInterest = "10"
+firstPawnSymbol = "DUMPER"
+secondPawnSymbol = "REJECTED"
+rulePack = SubResource(1)

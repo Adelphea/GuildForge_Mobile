@@ -1,0 +1,30 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/HandTailoringBench.tres")"
+label = "hand tailor bench"
+description = "A workbench for tailoring clothes by hand. Works at 50% of the speed of an electric tailoring bench."
+thingClass = "Building_WorkTable"
+graphicData = SubResource(1)
+castEdgeShadows = "true"
+staticSunShadowHeight = "0.20"
+costStuffCount = "75"
+stuffCategories = SubResource(3)
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+fillPercent = "0.5"
+useHitPoints = "True"
+statBases = SubResource(4)
+size = Vector2(3, 1)
+designationCategory = "ExtResource("res://GuildForge/data/defs/Production.tres")"
+uiOrder = "2400"
+passability = "PassThroughOnly"
+pathCost = "50"
+hasInteractionCell = "True"
+interactionCellOffset = Vector3(0, 0, -1)
+surfaceType = "Item"
+inspectorTabs = SubResource(5)
+building = SubResource(6)
+comps = Array[SubResource(7)]
+placeWorkers = SubResource(9)
+researchPrerequisites = SubResource(10)

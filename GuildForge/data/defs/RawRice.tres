@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RawRice.tres")"
+label = "rice"
+description = "Raw rice."
+soundInteract = "ExtResource("res://GuildForge/data/defs/Grain_Drop.tres")"
+soundDrop = "ExtResource("res://GuildForge/data/defs/Grain_Drop.tres")"
+graphicData = SubResource(1)
+statBases = SubResource(2)
+ingestible = SubResource(3)
+comps = Array[SubResource(4)]

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FlightCooldown.tres")"
+label = "flight cooldown"
+description = "The rest time needed before this creature can fly again."
+category = "ExtResource("res://GuildForge/data/defs/BasicsPawn.tres")"
+toStringStyle = "FloatMaxOne"
+showIfUndefined = "false"
+defaultBaseValue = "0"
+formatString = "{0}s"

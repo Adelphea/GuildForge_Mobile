@@ -1,0 +1,10 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GiveQuest_WorkSite.tres")"
+label = "work site"
+letterLabel = "Work site"
+questScriptDef = "ExtResource("res://GuildForge/data/defs/OpportunitySite_WorkSite.tres")"
+pointsScaleable = "true"
+baseChance = "0"

@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_Headwrap.tres")"
+label = "headwrap"
+description = "A wrapped piece of fabric which covers the wearer's hair."
+techLevel = "ExtResource("res://GuildForge/data/defs/Neolithic.tres")"
+graphicData = SubResource(1)
+stuffCategories = SubResource(2)
+costStuffCount = "20"
+statBases = SubResource(3)
+apparel = SubResource(4)
+colorGenerator = SubResource(8)
+recipeMaker = SubResource(9)

@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IdeoPresetDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Human_Purists.tres")"
+label = "human purists"
+description = "The human race is superior and the human body is sacred. We disdain body modification, scarification and drug use.\n\nUnlocks the medical and production specialist roles."
+categoryDef = "ExtResource("res://GuildForge/data/defs/Mild.tres")"
+memes = SubResource(1)

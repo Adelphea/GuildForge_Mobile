@@ -1,0 +1,31 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Defoliator.tres")"
+label = "defoliator"
+description = "An area-denial device which annihilates nearby plants without affecting animals.\n\nIn planetary wars, these weapons are scattered across farmlands or jungles to deny the enemy food or cover. They're usually associated with orbital-drop mechanoid swarms."
+size = Vector2(3, 3)
+pathCost = "50"
+blockWind = "true"
+passability = "PassThroughOnly"
+fillPercent = "0.5"
+tickerType = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+leaveResourcesWhenKilled = "false"
+receivesSignals = "true"
+isMechClusterThreat = "true"
+killedLeavings = SubResource(1)
+rotatable = "true"
+selectable = "true"
+neverMultiSelect = "true"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+soundImpactDefault = "ExtResource("res://GuildForge/data/defs/BulletImpact_Metal.tres")"
+repairEffect = "ExtResource("res://GuildForge/data/defs/ConstructMetal.tres")"
+forceDebugSpawnable = "true"
+building = SubResource(2)
+drawPlaceWorkersWhileSelected = "true"
+placeWorkers = SubResource(4)
+statBases = SubResource(5)
+damageMultipliers = SubResource(6)
+graphicData = SubResource(8)
+comps = Array[SubResource(9), SubResource(12), SubResource(13), SubResource(14)]

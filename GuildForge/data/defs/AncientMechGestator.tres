@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientMechGestator.tres")"
+label = "ancient mech gestator"
+description = "An ancient mech gestator. Valuable parts are missing, and everything else is degraded to uselessness."
+rotatable = "true"
+graphicData = SubResource(1)
+size = Vector2(3, 2)
+statBases = SubResource(3)
+building = SubResource(4)
+killedLeavings = SubResource(5)

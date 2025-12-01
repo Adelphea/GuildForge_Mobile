@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkTypeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkTypeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Firefighter.tres")"
+labelShort = "firefight"
+pawnLabel = "ExtResource("res://GuildForge/data/defs/Firefighter.tres")"
+gerundLabel = "firefighting"
+description = "Extinguish fires in the colony."
+verb = "ExtResource("res://GuildForge/data/defs/Extinguish.tres")"
+naturalPriority = "1400"
+alwaysStartActive = "true"
+requireCapableColonist = "true"
+workTags = SubResource(1)

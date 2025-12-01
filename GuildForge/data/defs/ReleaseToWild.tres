@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ReleaseToWild.tres")"
+label = "release to wild"
+giverClass = "WorkGiver_ReleaseAnimalsToWild"
+workType = "ExtResource("res://GuildForge/data/defs/Handling.tres")"
+verb = "release"
+gerund = "releasing"
+priorityInType = "100"
+requiredCapacities = SubResource(1)

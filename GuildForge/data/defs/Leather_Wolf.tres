@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Leather_Wolf.tres")"
+label = "wolfskin"
+description = "A soft furry pelt harvested from a wolf-like creature. It is difficult to pierce and insulates well against cold."
+possessionCount = "20"
+graphicData = SubResource(1)
+statBases = SubResource(2)
+stuffProps = SubResource(3)

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SitePartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SitePartDef.gd")
+workerClass = "SitePartWorker_ConditionCauser"
+siteTexture = "World/WorldObjects/Sites/GenericSite"
+expandingIconTexture = "World/WorldObjects/Expanding/Sites/ConditionCauser"
+wantsThreatPoints = "true"
+badEvenIfNoMap = "true"
+gravShipsCanLandOn = "true"
+tags = SubResource(1)

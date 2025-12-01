@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RaiderKing38.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/RaiderKing38.tres")"
+slot = "Adulthood"
+title = "raider king"
+titleShort = "ExtResource("res://GuildForge/data/defs/Pirate.tres")"
+description = "Starting as nothing more than a slave, [PAWN_nameDef] rose quickly among the raider ranks until all knew [PAWN_possessive] name and [PAWN_possessive] ruthlessness."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Intellectual.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+forcedTraits = SubResource(3)
+shuffleable = "False"

@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ChristmasTree.tres")"
+label = "christmas tree"
+description = "A celebratory tree decorated with ornaments and lights traditionally made as part of Christmas celebrations."
+ideoBuildingNamerBase = "ExtResource("res://GuildForge/data/defs/NamerChristmasTree.tres")"
+uiOrder = "2050"
+graphicData = SubResource(1)
+size = Vector2(1, 1)
+uiIconScale = "0.5"
+costList = SubResource(3)
+statBases = SubResource(4)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+passability = "PassThroughOnly"
+rotatable = "false"
+comps = Array[SubResource(5), SubResource(6), SubResource(7)]

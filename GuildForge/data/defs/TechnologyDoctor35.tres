@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TechnologyDoctor35.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/TechnologyDoctor35.tres")"
+slot = "Adulthood"
+title = "soldier-farmer"
+titleShort = "soldier"
+description = Color([PAWN_nameDef] was a farmer on [PAWN_possessive] midworld, and spent [PAWN_possessive] free time practicing with guns. [PAWN_pronoun] knew how important the skills of farming and shooting would be in hard times, and trained to serve in a local militia., 1.0)
+skillGains = SubResource(1)
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Thin.tres")"
+shuffleable = "false"

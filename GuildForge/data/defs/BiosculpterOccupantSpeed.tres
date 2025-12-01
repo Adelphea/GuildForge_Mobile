@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BiosculpterOccupantSpeed.tres")"
+label = "biosculpter occupant speed"
+description = "A multiplier on how quickly this person will complete a biosculpter pod cycle."
+category = "ExtResource("res://GuildForge/data/defs/PawnMisc.tres")"
+defaultBaseValue = "1"
+hideAtValue = "1"
+toStringStyle = "PercentZero"
+showOnAnimals = "false"
+showOnMechanoids = "false"
+scenarioRandomizable = "true"
+displayPriorityInCategory = "1900"
+parts = SubResource(1)

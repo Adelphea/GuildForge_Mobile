@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientLargeContainer.tres")"
+label = "ancient container"
+description = "A shipping container from some ancient freight-carrying vehicle. It has long since deteriorated into uselessness."
+graphicData = SubResource(1)
+size = Vector2(3, 5)
+fillPercent = "1"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(3)
+passability = "Impassable"
+killedLeavings = SubResource(4)

@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AnyBodyPartButGroinCovered_Disapproved_Male.tres")"
+workerClass = "ThoughtWorker_Precept_AnyBodyPartButGroinCovered"
+gender = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+producesMemoryThought = "ExtResource("res://GuildForge/data/defs/AnyBodyPartButGroinCovered_Disapproved_Memory.tres")"
+stages = SubResource(1)

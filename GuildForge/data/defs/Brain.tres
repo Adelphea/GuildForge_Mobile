@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BodyPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BodyPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Brain.tres")"
+label = "brain"
+hitPoints = "10"
+permanentInjuryChanceFactor = "9999999"
+delicate = "true"
+skinCovered = "false"
+tags = SubResource(1)
+canSuggestAmputation = "false"

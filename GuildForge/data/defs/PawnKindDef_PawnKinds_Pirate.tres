@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+combatPower = "50"
+initialWillRange = "1~3"
+backstoryCryptosleepCommonality = "0.05"
+itemQuality = "Poor"
+apparelTags = SubResource(1)
+gearHealthRange = "0.4~1.1"
+apparelAllowHeadgearChance = "0.4"
+techHediffsMoney = "50~50"
+techHediffsTags = SubResource(2)
+techHediffsChance = "0.04"
+inventoryOptions = SubResource(3)

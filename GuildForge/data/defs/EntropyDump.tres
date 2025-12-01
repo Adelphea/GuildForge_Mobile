@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_AbilityDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_AbilityDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/EntropyDump.tres")"
+label = "neural heat dump"
+description = Color(Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted., 1.0)
+level = "2"
+iconPath = "UI/Abilities/EntropyDump"
+hotKey = "ExtResource("res://GuildForge/data/defs/Misc12.tres")"
+statBases = SubResource(1)
+verbProperties = SubResource(2)
+comps = Array[SubResource(4), SubResource(5), SubResource(6)]

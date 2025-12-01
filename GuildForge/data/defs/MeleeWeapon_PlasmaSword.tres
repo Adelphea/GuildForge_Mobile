@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeleeWeapon_PlasmaSword.tres")"
+label = "plasmasword"
+description = Color(A metal-cored sword with a cutting edge. Plasma is wrapped around the core, held in place by an energy field. Targets are both sliced by the metal core, as well as burned or ignited by the plasma sheath., 1.0)
+soundInteract = "ExtResource("res://GuildForge/data/defs/Interact_PlasmaSword.tres")"
+meleeHitSound = "ExtResource("res://GuildForge/data/defs/MeleeHit_PlasmaSword.tres")"
+equippedAngleOffset = "-65"
+relicChance = "3"
+smeltable = "false"
+weaponClasses = SubResource(1)
+graphicData = SubResource(2)
+tools = SubResource(3)

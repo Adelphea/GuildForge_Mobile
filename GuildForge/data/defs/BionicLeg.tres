@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BionicLeg.tres")"
+label = "bionic leg"
+labelNoun = "a bionic leg"
+description = Color(An installed bionic leg. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological leg in almost every way.)
+descriptionHyperlinks = SubResource(1)
+spawnThingOnRemoved = "ExtResource("res://GuildForge/data/defs/BionicLeg.tres")"
+addedPartProps = SubResource(2)

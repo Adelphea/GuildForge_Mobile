@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ToughskinGland.tres")"
+label = "toughskin gland"
+description = Color(This bionic gland releases chemicals and nanomachines that toughen the skin, making it somewhat more resistant to damage. While it doesn't add as much protection as some other skin-hardening glands, the toughskin gland has the advantage of not noticeably altering the user's appearance., 1.0)
+descriptionHyperlinks = SubResource(1)
+thingSetMakerTags = SubResource(2)
+costList = SubResource(3)
+recipeMaker = SubResource(4)

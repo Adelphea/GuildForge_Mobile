@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecordDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecordDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PawnsDownedHumanlikes.tres")"
+label = "enemies downed (humanlikes)"
+description = "The number of humanlike creatures I have downed."
+type = "Int"
+displayOrder = "1"

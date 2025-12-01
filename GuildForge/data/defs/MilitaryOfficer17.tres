@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MilitaryOfficer17.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/MilitaryOfficer17.tres")"
+slot = "Adulthood"
+title = "military officer"
+titleShort = "officer"
+description = Color(Obsessed with interstellar travel, [PAWN_nameDef] left [PAWN_possessive] desolate life behind to join a military academy in hopes of becoming a pilot.\n\n[PAWN_pronoun] was trained in advanced combat and survival skills. While [PAWN_pronoun] excelled in [PAWN_possessive] studies, [PAWN_nameDef] was a loner and never cared about [PAWN_possessive] crewmates., 1.0)
+skillGains = SubResource(1)
+workDisables = "Caring"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Female.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

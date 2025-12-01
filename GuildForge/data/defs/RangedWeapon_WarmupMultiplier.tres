@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RangedWeapon_WarmupMultiplier.tres")"
+label = "aiming time multiplier"
+description = "A multiplier applied to this weapon's aiming time."
+category = "ExtResource("res://GuildForge/data/defs/Weapon_Ranged.tres")"
+alwaysHide = "true"
+minValue = "0.01"
+hideAtValue = "1"
+toStringStyle = "PercentZero"
+displayPriorityInCategory = "3554"

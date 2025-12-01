@@ -1,0 +1,36 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PowerConduit.tres")"
+label = "power conduit"
+description = "A bundle of electrical cables for moving power around. Can be placed under walls and other buildings."
+thingClass = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+category = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+noRightClickDraftAttack = "true"
+graphicData = SubResource(1)
+uiIconPath = "Things/Building/Linked/PowerConduit_MenuIcon"
+uiIconScale = "0.7"
+building = SubResource(4)
+drawerType = "MapMeshOnly"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Conduits.tres")"
+passability = "Standable"
+leaveResourcesWhenKilled = "false"
+resourcesFractionWhenDeconstructed = "0"
+statBases = SubResource(6)
+drawStyleCategory = "ExtResource("res://GuildForge/data/defs/Conduits.tres")"
+costList = SubResource(7)
+comps = Array[SubResource(8)]
+placeWorkers = SubResource(9)
+rotatable = "false"
+selectable = "true"
+neverMultiSelect = "true"
+soundImpactDefault = "ExtResource("res://GuildForge/data/defs/BulletImpact_Metal.tres")"
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Light.tres")"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Power.tres")"
+uiOrder = "2000"
+constructEffect = "ExtResource("res://GuildForge/data/defs/ConstructMetal.tres")"
+clearBuildingArea = "false"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc1.tres")"
+researchPrerequisites = SubResource(10)
+replaceTags = SubResource(11)

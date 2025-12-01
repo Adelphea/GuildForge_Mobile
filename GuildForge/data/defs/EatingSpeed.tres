@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/EatingSpeed.tres")"
+label = "eating speed"
+description = "A multiplier on eating speed."
+category = "ExtResource("res://GuildForge/data/defs/PawnFood.tres")"
+defaultBaseValue = "1"
+toStringStyle = "PercentZero"
+hideAtValue = "1"
+minValue = "0.15"
+showOnMechanoids = "false"
+showOnEntities = "false"
+showOnDrones = "false"
+capacityFactors = SubResource(1)
+displayPriorityInCategory = "1000"

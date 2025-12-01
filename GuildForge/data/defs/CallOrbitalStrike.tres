@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RoyalTitlePermitDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CallOrbitalStrike.tres")"
+label = "call aerodrone strike"
+description = "Call a single-impact aerodrone strike at a target position."
+workerClass = "RoyalTitlePermitWorker_OrbitalStrike"
+minTitle = "ExtResource("res://GuildForge/data/defs/Knight.tres")"
+faction = "ExtResource("res://GuildForge/data/defs/Empire.tres")"
+permitPointCost = "1"
+cooldownDays = "45"
+uiPosition = Vector2(0, 5)
+royalAid = SubResource(1)
+layerBlacklist = SubResource(2)

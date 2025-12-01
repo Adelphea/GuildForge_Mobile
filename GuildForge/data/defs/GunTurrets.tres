@@ -1,0 +1,14 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ResearchProjectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GunTurrets.tres")"
+label = "gun turrets"
+description = "Produce simple automated gun turrets."
+baseCost = "500"
+techLevel = "Industrial"
+prerequisites = SubResource(1)
+hideWhen = SubResource(2)
+researchViewX = "8.00"
+researchViewY = "4.10"
+generalRules = SubResource(3)

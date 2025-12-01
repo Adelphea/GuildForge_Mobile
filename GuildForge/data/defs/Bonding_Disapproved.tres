@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Bonding_Disapproved.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Bonding.tres")"
+label = "disapproved"
+description = "To emotionally bond with a lower being is a shameful act."
+impact = "ExtResource("res://GuildForge/data/defs/Low.tres")"
+requiredMemes = SubResource(1)
+comps = Array[SubResource(2)]

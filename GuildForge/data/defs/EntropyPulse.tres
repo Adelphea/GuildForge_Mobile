@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_FleckDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_FleckDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/EntropyPulse.tres")"
+altitudeLayer = "MoteOverhead"
+fadeInTime = "0.1"
+fadeOutTime = "0.35"
+solidTime = "0.1"
+attachedToHead = "True"
+graphicData = SubResource(1)

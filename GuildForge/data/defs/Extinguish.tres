@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_DamageDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_DamageDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Extinguish.tres")"
+label = "extinguish"
+workerClass = "DamageWorker_Extinguish"
+canInterruptJobs = "false"
+makesBlood = "false"
+defaultDamage = "999999"
+hediff = "ExtResource("res://GuildForge/data/defs/CoveredInFirefoam.tres")"
+explosionCellFleck = "ExtResource("res://GuildForge/data/defs/BlastExtinguisher.tres")"
+explosionColorEdge = Color((1, 1, 1, 0.05))
+soundExplosion = "ExtResource("res://GuildForge/data/defs/Explosion_Stun.tres")"
+harmsHealth = "false"
+combatLogRules = "ExtResource("res://GuildForge/data/defs/Damage_Extinguish.tres")"
+consideredHelpful = "true"

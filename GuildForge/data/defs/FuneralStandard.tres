@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualPatternDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualPatternDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/FuneralStandard.tres")"
+nameMaker = "ExtResource("res://GuildForge/data/defs/NamerRitualFuneral.tres")"
+ritualExpectedDesc = "You can hold a {IDEOLIGION_adjective} funeral for {PAWN_nameDef}."
+ritualExpectedDescNoAdjective = "You can hold a funeral for {PAWN_nameDef}."
+ritualObligationTriggers = SubResource(1)
+ritualObligationTargetFilter = "ExtResource("res://GuildForge/data/defs/GraveWithTargetsCorpse.tres")"
+ritualBehavior = "ExtResource("res://GuildForge/data/defs/Funeral.tres")"
+ritualOutcomeEffect = "ExtResource("res://GuildForge/data/defs/AttendedFuneral.tres")"

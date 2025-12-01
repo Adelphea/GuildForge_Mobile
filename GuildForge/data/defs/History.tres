@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_MainButtonDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_MainButtonDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/History.tres")"
+label = "history"
+description = "Review historical records."
+tabWindowClass = "MainTabWindow_History"
+order = "80"
+defaultHotKey = "F9"
+validWithoutMap = "true"
+minimized = "True"
+iconPath = "UI/Buttons/MainButtons/History"

@@ -1,0 +1,28 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Grave.tres")"
+label = "grave"
+description = "A decent final resting place. Colonists will visit full graves to gain meditative joy."
+thingClass = "Building_Grave"
+containedPawnsSelectable = "true"
+graphicData = SubResource(1)
+constructEffect = "ExtResource("res://GuildForge/data/defs/ConstructDirt.tres")"
+altitudeLayer = "FloorEmplacement"
+useHitPoints = "false"
+size = Vector2(1, 2)
+tickerType = "Rare"
+canOverlapZones = "false"
+statBases = SubResource(2)
+passability = "Standable"
+defaultPlacingRot = "South"
+building = SubResource(3)
+inspectorTabs = SubResource(14)
+terrainAffordanceNeeded = "ExtResource("res://GuildForge/data/defs/Diggable.tres")"
+designationCategory = "ExtResource("res://GuildForge/data/defs/Misc.tres")"
+uiOrder = "2050"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc8.tres")"
+comps = Array[SubResource(15), SubResource(16)]
+placeWorkers = SubResource(23)
+ritualFocus = SubResource(24)

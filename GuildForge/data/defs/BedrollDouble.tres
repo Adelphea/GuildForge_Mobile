@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/BedrollDouble.tres")"
+label = "double bedroll"
+description = Color(A simple double-wide bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed. Caravans can use bedrolls while traveling for better sleep.)
+graphicData = SubResource(1)
+castEdgeShadows = "True"
+statBases = SubResource(2)
+comps = Array[SubResource(3)]
+size = Vector2(2, 2)
+stuffCategories = SubResource(6)
+costStuffCount = "85"
+building = SubResource(7)
+pathCost = "14"
+passability = "Standable"
+designationHotKey = "ExtResource("res://GuildForge/data/defs/Misc3.tres")"
+uiOrder = "2025"

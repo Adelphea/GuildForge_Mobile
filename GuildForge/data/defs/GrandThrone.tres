@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/GrandThrone.tres")"
+label = "grand meditation throne"
+description = Color(A massive, ornate chair, designed for a dignity-focused psycaster to sit and meditate. Reigning on a throne is a form of meditation that builds up psyfocus. For dignity psycasters, more impressive meditation thrones and thronerooms increase the rate of psyfocus gain.)
+castEdgeShadows = "True"
+size = Vector2(3, 2)
+interactionCellOffset = Vector3(0, 0, 1)
+statBases = SubResource(1)
+constructionSkillPrerequisite = "6"
+stuffCategories = SubResource(2)
+costStuffCount = "300"
+costList = SubResource(3)
+building = SubResource(4)
+uiIconOffset = Vector2(0, 0.04)
+uiIconScale = "1"
+graphicData = SubResource(5)

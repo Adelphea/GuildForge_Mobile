@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RangedCooldownFactor.tres")"
+label = "ranged cooldown multiplier"
+description = "A multiplier on the cooldown between bursts when using a ranged weapon."
+category = "ExtResource("res://GuildForge/data/defs/PawnCombat.tres")"
+toStringStyle = "PercentZero"
+defaultBaseValue = "1"
+minValue = "0.01"
+hideAtValue = "1"
+displayPriorityInCategory = "1205"

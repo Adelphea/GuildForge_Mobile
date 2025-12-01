@@ -1,0 +1,22 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PawnKindDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PawnKindDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Town_Trader.tres")"
+label = "town trader"
+trader = "true"
+combatPower = "45"
+isFighter = "false"
+gearHealthRange = "1~1"
+itemQuality = "ExtResource("res://GuildForge/data/defs/Normal.tres")"
+weaponTags = SubResource(1)
+weaponMoney = "200~200"
+apparelMoney = "400~600"
+apparelTags = SubResource(2)
+apparelRequired = SubResource(3)
+techHediffsChance = "0.15"
+techHediffsMoney = "600~1500"
+techHediffsTags = SubResource(4)
+initialWillRange = "2~4"
+initialResistanceRange = "12~20"
+xenotypeSet = SubResource(5)

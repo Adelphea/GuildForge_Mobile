@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BodyPartDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BodyPartDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Sternum.tres")"
+label = "sternum"
+hitPoints = "20"
+permanentInjuryChanceFactor = "0"
+skinCovered = "false"
+solid = "true"
+bleedRate = "0"
+tags = SubResource(1)
+destroyableByDamage = "false"

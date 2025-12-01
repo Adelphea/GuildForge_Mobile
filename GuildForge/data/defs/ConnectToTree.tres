@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RitualOutcomeEffectDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RitualOutcomeEffectDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/ConnectToTree.tres")"
+description = "The connector will connect to the tree."
+workerClass = "RitualOutcomeEffectWorker_ConnectToTree"
+givesDevelopmentPoints = "false"
+extraPredictedOutcomeDescriptions = SubResource(1)
+warnOnLowQuality = "false"
+comps = Array[SubResource(2)]

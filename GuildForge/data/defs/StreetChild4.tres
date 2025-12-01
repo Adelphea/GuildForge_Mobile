@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/StreetChild4.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/StreetChild4.tres")"
+slot = "Childhood"
+title = "street child"
+titleShort = "street"
+description = "[PAWN_nameDef]'s drug-addicted mother died, leaving [PAWN_objective] an orphan at a young age. To stay alive, [PAWN_pronoun] resorted to theft, and when necessary, prostitution. When [PAWN_nameDef] was caught stealing from a church, the priestess saw a wounded but smart child, and took [PAWN_objective] in to give [PAWN_objective] a second chance at life."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

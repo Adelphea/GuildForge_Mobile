@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/InstallNaturalKidney.tres")"
+label = "install kidney"
+description = "Install a biological kidney."
+descriptionHyperlinks = SubResource(1)
+jobString = "Installing kidney."
+ingredients = SubResource(2)
+fixedIngredientFilter = SubResource(6)
+appliedOnFixedBodyParts = SubResource(8)

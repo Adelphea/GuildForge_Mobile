@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_RecipeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_RecipeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AdministerMechSerumHealer.tres")"
+label = "administer healer mech serum"
+description = "Administer a healer mech serum."
+workerClass = "Recipe_AdministerUsableItem"
+jobString = "Administering healer mech serum."
+targetsBodyPart = "false"
+anesthetize = "false"
+workAmount = "600"
+dontShowIfAnyIngredientMissing = "true"
+surgeryOutcomeEffect = SubResource(1)
+ingredients = SubResource(2)
+fixedIngredientFilter = SubResource(6)

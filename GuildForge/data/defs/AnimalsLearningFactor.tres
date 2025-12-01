@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AnimalsLearningFactor.tres")"
+label = "animals learning factor"
+description = "A multiplier on the learning rate for animals skill."
+category = "ExtResource("res://GuildForge/data/defs/PawnHealth.tres")"
+defaultBaseValue = "1.0"
+toStringStyle = "PercentZero"
+showOnAnimals = "false"
+showOnDrones = "false"
+hideAtValue = "1"
+minValue = "0"
+displayPriorityInCategory = "3500"
+scenarioRandomizable = "true"

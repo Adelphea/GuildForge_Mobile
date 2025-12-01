@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PlanetLayerDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PlanetLayerDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Surface.tres")"
+label = "planet"
+viewGizmoTooltip = "View locations that are on the surface."
+viewGizmoTexPath = "UI/Commands/ViewPlanet"
+layerType = "SurfaceLayer"
+tileType = "SurfaceTile"
+elevationString = "{0}m"
+gerundLabel = "on the"
+backgroundBiome = "ExtResource("res://GuildForge/data/defs/Ocean.tres")"
+worldGenSteps = SubResource(1)
+worldDrawLayers = SubResource(4)
+worldTabs = SubResource(6)

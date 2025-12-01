@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MedievalPlower14.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/MedievalPlower14.tres")"
+slot = "Childhood"
+title = "medieval plower"
+titleShort = "plower"
+description = "[PAWN_nameDef] lived on a planet where kings and queens ruled with little regard for the peasants beneath them. [PAWN_possessive] family owned a large farm, but the king took most of the food it produced. This left [PAWN_nameDef]'s family poor, and unable to pay for [PAWN_possessive] education. Instead, [PAWN_pronoun] was required to work the fields with [PAWN_possessive] parents, and never had time to practice creativity."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+forcedTraits = SubResource(2)
+shuffleable = "False"

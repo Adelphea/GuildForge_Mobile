@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_WorkGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_WorkGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/RemovePaintFloor.tres")"
+label = "remove floor paint"
+giverClass = "WorkGiver_RemovePaintFloor"
+workType = "ExtResource("res://GuildForge/data/defs/Art.tres")"
+priorityInType = "202"
+verb = "remove paint"
+gerund = "removing paint from"
+scanThings = "false"
+scanCells = "true"
+requiredCapacities = SubResource(1)
+canBeDoneByMechs = "false"

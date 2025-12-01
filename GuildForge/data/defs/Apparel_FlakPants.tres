@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Apparel_FlakPants.tres")"
+label = "flak pants"
+description = "A pair of pants with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable."
+recipeMaker = SubResource(1)
+graphicData = SubResource(3)
+statBases = SubResource(4)
+equippedStatOffsets = SubResource(5)
+thingCategories = SubResource(6)
+costList = SubResource(7)
+apparel = SubResource(8)
+colorGenerator = SubResource(13)
+tradeTags = SubResource(17)

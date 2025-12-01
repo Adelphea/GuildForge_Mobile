@@ -1,0 +1,18 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/CivilEngineer2.tres")"
+identifier = "ExtResource("res://GuildForge/data/defs/CivilEngineer2.tres")"
+slot = "Adulthood"
+title = "civil engineer"
+titleShort = "engineer"
+description = "[PAWN_nameDef] was a well-known civil engineer. [PAWN_possessive] job involved designing and maintaining rock fortification structures. [PAWN_pronoun] did enough statistical analysis to keep [PAWN_possessive] mind sharp."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/None.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+spawnCategories = SubResource(2)
+bodyTypeGlobal = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeFemale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+bodyTypeMale = "ExtResource("res://GuildForge/data/defs/Male.tres")"
+shuffleable = "False"

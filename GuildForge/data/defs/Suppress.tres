@@ -1,0 +1,8 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SlaveInteractionModeDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SlaveInteractionModeDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Suppress.tres")"
+label = "suppress"
+listOrder = "10"
+description = "Wardens will periodically intimidate the slave to increase their suppression level and reduce the chance of rebellion."

@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_JoyGiverDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_JoyGiverDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Play_GameOfUr.tres")"
+giverClass = "JoyGiver_InteractBuildingSitAdjacent"
+baseChance = "2"
+requireChair = "false"
+thingDefs = SubResource(1)
+jobDef = "ExtResource("res://GuildForge/data/defs/Play_GameOfUr.tres")"
+joyKind = "ExtResource("res://GuildForge/data/defs/Gaming_Cerebral.tres")"
+requiredCapacities = SubResource(2)

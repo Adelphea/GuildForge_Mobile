@@ -1,0 +1,19 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MentalBreakThreshold.tres")"
+label = "mental break threshold"
+description = "As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are."
+category = "ExtResource("res://GuildForge/data/defs/PawnResistances.tres")"
+defaultBaseValue = "0.35"
+minValue = "0.01"
+maxValue = "0.50"
+toStringStyle = "PercentZero"
+showOnAnimals = "false"
+showOnMechanoids = "false"
+showOnEntities = "false"
+showOnDrones = "false"
+displayPriorityInCategory = "2000"
+scenarioRandomizable = "true"
+cacheable = "true"

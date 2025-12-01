@@ -1,0 +1,9 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_SpecialThingFilterDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AllowBookMining.tres")"
+label = "mining"
+description = "Allow books which teach mining skills."
+saveKey = "allowBookMining"
+workerClass = "SpecialThingFilterWorker_AllowBookMining"

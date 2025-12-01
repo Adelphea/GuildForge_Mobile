@@ -1,0 +1,16 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_HediffDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_HediffDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/LungRot.tres")"
+label = "lung rot"
+description = Color(A bacterial disease that targets an individual's lungs. Minor cases are little more than an irritation, but if left unchecked the bacterial growth results in an increasing amount of fluid buildup in the victim's lungs, eventually resulting in death.\n\nIf treated properly, the body's immune system will eventually clear lung rot.)
+descriptionShort = "A painful bacterial disease caused by exposure to rot stink gas. Upon reaching full saturation, it will kill the affected individual."
+hediffClass = "HediffWithComps"
+lethalSeverity = "1"
+makesSickThought = "true"
+minSeverity = "0.001"
+initialSeverity = "0.001"
+stages = SubResource(1)
+tendable = "true"
+comps = Array[SubResource(12), SubResource(13), SubResource(14)]

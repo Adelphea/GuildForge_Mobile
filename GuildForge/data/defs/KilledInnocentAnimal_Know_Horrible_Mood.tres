@@ -1,0 +1,13 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThoughtDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThoughtDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/KilledInnocentAnimal_Know_Horrible_Mood.tres")"
+thoughtClass = "Thought_Memory"
+durationDays = "6"
+stackLimit = "5"
+stackedEffectMultiplier = "0.75"
+doNotApplyToQuestLodgers = "true"
+nullifyingTraits = SubResource(1)
+nullifyingHediffs = SubResource(2)
+stages = SubResource(4)

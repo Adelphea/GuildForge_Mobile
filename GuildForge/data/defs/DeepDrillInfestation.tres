@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_IncidentDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_IncidentDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/DeepDrillInfestation.tres")"
+label = "deep drill infestation"
+targetTags = SubResource(1)
+workerClass = "IncidentWorker_DeepDrillInfestation"
+letterLabel = "Too deep: Infestation"
+letterText = "Vibrations from your deep drills have angered some underground insects. Now they're tunneling upwards to seek revenge!\n\nBeware - the insects have been angered and will try to destroy your base."
+letterDef = "ExtResource("res://GuildForge/data/defs/ThreatBig.tres")"
+baseChance = "1"
+category = "ExtResource("res://GuildForge/data/defs/DeepDrillInfestation.tres")"
+pointsScaleable = "true"
+tale = "ExtResource("res://GuildForge/data/defs/Infestation.tres")"

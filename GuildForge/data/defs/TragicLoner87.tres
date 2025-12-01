@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/TragicLoner87.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/TragicLoner87.tres")"
+slot = "Childhood"
+title = "tragic loner"
+titleShort = "loner"
+description = "[PAWN_nameDef] was involved in a traumatic accident that resulted in [PAWN_objective] killing [PAWN_possessive] own family.
+
+Cast out from society, [PAWN_pronoun] was left with only [PAWN_possessive] animal companions and several engineering textbooks to keep [PAWN_objective] company."
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Social.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

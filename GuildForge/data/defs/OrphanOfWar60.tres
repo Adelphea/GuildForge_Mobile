@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_BackstoryDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_BackstoryDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/OrphanOfWar60.tres")"
+ignoreIllegalLabelCharacterConfigError = "False"
+identifier = "ExtResource("res://GuildForge/data/defs/OrphanOfWar60.tres")"
+slot = "Childhood"
+title = "orphan of war"
+titleShort = "orphan"
+description = Color([PAWN_nameDef] lost [PAWN_possessive] family and home early in life. [PAWN_possessive] life became emotionally hollow, but [PAWN_possessive] painful memories drove [PAWN_objective] to survive.
+
+[PAWN_pronoun] took several jobs, but never achieved more than a basic education., 1.0)
+skillGains = SubResource(1)
+workDisables = "ExtResource("res://GuildForge/data/defs/Social.tres")"
+requiredWorkTags = "ExtResource("res://GuildForge/data/defs/None.tres")"
+shuffleable = "False"

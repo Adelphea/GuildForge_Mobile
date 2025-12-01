@@ -1,0 +1,15 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/MeleeDPS.tres")"
+workerClass = "StatWorker_MeleeDPS"
+label = "melee DPS"
+description = "Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor."
+category = "ExtResource("res://GuildForge/data/defs/PawnCombat.tres")"
+defaultBaseValue = "0"
+minValue = "0"
+toStringStyle = "FloatTwo"
+forInformationOnly = "true"
+displayPriorityInCategory = "5100"
+showDevelopmentalStageFilter = "Child, Adult"

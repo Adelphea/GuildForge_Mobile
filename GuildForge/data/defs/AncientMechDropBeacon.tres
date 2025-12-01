@@ -1,0 +1,17 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_ThingDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_ThingDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/AncientMechDropBeacon.tres")"
+label = "ancient mech drop beacon"
+description = "The broken shell of a mech drop beacon. Its useful components are missing and the shell has deteriorated after many years."
+noRightClickDraftAttack = "true"
+rotatable = "false"
+graphicData = SubResource(1)
+size = Vector2(1, 1)
+fillPercent = "0.15"
+altitudeLayer = "ExtResource("res://GuildForge/data/defs/Building.tres")"
+statBases = SubResource(3)
+passability = "PassThroughOnly"
+pathCost = "50"
+building = SubResource(4)

@@ -1,0 +1,11 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_StatDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_StatDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/PawnBeauty.tres")"
+label = "beauty"
+description = "How physically attractive this person is. This affects social interactions."
+category = "ExtResource("res://GuildForge/data/defs/PawnSocial.tres")"
+defaultBaseValue = "0"
+toStringStyle = "FloatOne"
+displayPriorityInCategory = "2000"

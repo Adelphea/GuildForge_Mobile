@@ -1,0 +1,12 @@
+[gd_resource type="Script" path="res://GuildForge/scripts/resources/CR_PreceptDef.gd" id=1]
+
+[resource]
+script = ExtResource("res://res://GuildForge/scripts/resources/CR_PreceptDef.gd")
+defName = "ExtResource("res://GuildForge/data/defs/Lovin_FreeApproved.tres")"
+issue = "ExtResource("res://GuildForge/data/defs/Lovin.tres")"
+label = "free and approved"
+description = "The physical act of love is a noble thing, no matter who does it with whom."
+impact = "ExtResource("res://GuildForge/data/defs/Medium.tres")"
+displayOrderInIssue = "0"
+associatedMemes = SubResource(1)
+comps = Array[SubResource(2)]
