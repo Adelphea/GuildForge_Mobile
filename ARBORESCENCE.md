@@ -1,48 +1,500 @@
 # ARBORESCENCE DU PROJET
 
-.
+```
+GuildForge_Mobile
+├── .gitignore
 ├── ARBORESCENCE.md
 ├── CONTRIBUTING.md
 ├── GuildForge
 │   ├── README.md
+│   ├── data
+│   │   └── defs
 │   └── scripts
+│       ├── .gitignore
 │       └── resources
-│           ├── BackstoryDef.gd
-│           ├── BeardDef.gd
-│           ├── BiomeDef.gd
-│           ├── BodyDef.gd
-│           ├── BodyPartDef.gd
-│           ├── BodyPartGroupDef.gd
+│           ├── CR_AbilityCategoryDef.gd
+│           ├── CR_AbilityDef.gd
+│           ├── CR_AbilityGroupDef.gd
+│           ├── CR_ApparelLayerDef.gd
+│           ├── CR_BackStoryDef.gd
+│           ├── CR_BackstoryDef.gd
 │           ├── CR_Base.gd
+│           ├── CR_BeardDef.gd
+│           ├── CR_BillRepeatModeDef.gd
+│           ├── CR_BillStoreModeDef.gd
 │           ├── CR_BiomeDef.gd
+│           ├── CR_BodyDef.gd
+│           ├── CR_BodyPartDef.gd
+│           ├── CR_BodyPartGroupDef.gd
+│           ├── CR_BodyPartTagDef.gd
+│           ├── CR_BodyTypeDef.gd
+│           ├── CR_ChemicalDef.gd
+│           ├── CR_ClamorDef.gd
+│           ├── CR_ColorDef.gd
 │           ├── CR_CompProperties.gd
-│           ├── Color.gd
-│           ├── CombatLogRules.gd
-│           ├── CompProperties.gd
-│           ├── CompProperties_Storable.gd
-│           ├── DamageMultiplier.gd
-│           ├── Def.gd
-│           ├── Effecter.gd
-│           ├── EffecterChild.gd
-│           ├── Fleck.gd
-│           ├── FloatRange.gd
-│           ├── HairDef.gd
-│           ├── HeadTypeDef.gd
-│           ├── HediffDef.gd
-│           ├── HediffGiver.gd
-│           ├── HediffStage.gd
-│           ├── IntRange.gd
-│           ├── IntVec2.gd
-│           ├── NameMaker.gd
-│           ├── RecipeDef.gd
-│           ├── SkillRecord.gd
-│           ├── StatModifier.gd
-│           ├── StyleItemTag.gd
-│           ├── ThingDef.gd
-│           ├── ThingDefCountClass.gd
-│           ├── Tool.gd
-│           ├── TraitDef.gd
-│           └── VerbProperties.gd
+│           ├── CR_CompProperties_AIUSablePack.gd
+│           ├── CR_CompProperties_AbilityChunkskip.gd
+│           ├── CR_CompProperties_AbilityConvert.gd
+│           ├── CR_CompProperties_AbilityCounsel.gd
+│           ├── CR_CompProperties_AbilityEffectWithDuration.gd
+│           ├── CR_CompProperties_AbilityEffecterOnTarget.gd
+│           ├── CR_CompProperties_AbilityFarskip.gd
+│           ├── CR_CompProperties_AbilityFlashstorm.gd
+│           ├── CR_CompProperties_AbilityFleckOnTarget.gd
+│           ├── CR_CompProperties_AbilityForceJob.gd
+│           ├── CR_CompProperties_AbilityGiveHediff.gd
+│           ├── CR_CompProperties_AbilityGiveInspiration.gd
+│           ├── CR_CompProperties_AbilityGiveMentalState.gd
+│           ├── CR_CompProperties_AbilityMustBeCapableOf.gd
+│           ├── CR_CompProperties_AbilityNeuroquake.gd
+│           ├── CR_CompProperties_AbilityOffsetPrisonerResistance.gd
+│           ├── CR_CompProperties_AbilityReassure.gd
+│           ├── CR_CompProperties_AbilityRequiresCapacity.gd
+│           ├── CR_CompProperties_AbilityShowTargetIdeoCertainty.gd
+│           ├── CR_CompProperties_AbilitySmokepop.gd
+│           ├── CR_CompProperties_AbilitySocialInteraction.gd
+│           ├── CR_CompProperties_AbilitySpawn.gd
+│           ├── CR_CompProperties_AbilityStartConversion.gd
+│           ├── CR_CompProperties_AbilityStartRitual.gd
+│           ├── CR_CompProperties_AbilityStartTrial.gd
+│           ├── CR_CompProperties_AbilityStopMentalState.gd
+│           ├── CR_CompProperties_AbilityTeleport.gd
+│           ├── CR_CompProperties_AbilityTransferEntropy.gd
+│           ├── CR_CompProperties_AbilityWallraise.gd
+│           ├── CR_CompProperties_AbilityWaterskip.gd
+│           ├── CR_CompProperties_AbilityWordOfLove.gd
+│           ├── CR_CompProperties_AffectedByFacilities.gd
+│           ├── CR_CompProperties_AffectsSky.gd
+│           ├── CR_CompProperties_AmbientSound.gd
+│           ├── CR_CompProperties_AnimalInsanityPulser.gd
+│           ├── CR_CompProperties_AnimalPenMarker.gd
+│           ├── CR_CompProperties_ApparelReloadable.gd
+│           ├── CR_CompProperties_Art.gd
+│           ├── CR_CompProperties_AssignableToPawn.gd
+│           ├── CR_CompProperties_Battery.gd
+│           ├── CR_CompProperties_Biocodable.gd
+│           ├── CR_CompProperties_BiosculpterPod.gd
+│           ├── CR_CompProperties_BiosculpterPod_AgeReversalCycle.gd
+│           ├── CR_CompProperties_BiosculpterPod_HealingCycle.gd
+│           ├── CR_CompProperties_BiosculpterPod_PleasureCycle.gd
+│           ├── CR_CompProperties_BladelinkWeapon.gd
+│           ├── CR_CompProperties_Book.gd
+│           ├── CR_CompProperties_Breakdownable.gd
+│           ├── CR_CompProperties_CameraShaker.gd
+│           ├── CR_CompProperties_CanBeDormant.gd
+│           ├── CR_CompProperties_CauseHediff_Apparel.gd
+│           ├── CR_CompProperties_CausesGameCondition.gd
+│           ├── CR_CompProperties_CausesGameCondition_ClimateAdjuster.gd
+│           ├── CR_CompProperties_CausesGameCondition_PsychicEmanation.gd
+│           ├── CR_CompProperties_ChangeableProjectile.gd
+│           ├── CR_CompProperties_CreatesInfestations.gd
+│           ├── CR_CompProperties_DamageOnInterval.gd
+│           ├── CR_CompProperties_DarklightOverlay.gd
+│           ├── CR_CompProperties_DeepDrill.gd
+│           ├── CR_CompProperties_DestroyAfterDelay.gd
+│           ├── CR_CompProperties_Drug.gd
+│           ├── CR_CompProperties_DryadCocoon.gd
+│           ├── CR_CompProperties_Effecter.gd
+│           ├── CR_CompProperties_EggLayer.gd
+│           ├── CR_CompProperties_EmptyStateGraphic.gd
+│           ├── CR_CompProperties_Explosive.gd
+│           ├── CR_CompProperties_Facility.gd
+│           ├── CR_CompProperties_FacilityInUse.gd
+│           ├── CR_CompProperties_FadesInOut.gd
+│           ├── CR_CompProperties_FireOverlay.gd
+│           ├── CR_CompProperties_FireOverlayRitual.gd
+│           ├── CR_CompProperties_FleckEmitter.gd
+│           ├── CR_CompProperties_Flickable.gd
+│           ├── CR_CompProperties_FoodPoisonable.gd
+│           ├── CR_CompProperties_Forbiddable.gd
+│           ├── CR_CompProperties_GeneratedName.gd
+│           ├── CR_CompProperties_GiveHediffSeverity.gd
+│           ├── CR_CompProperties_GiveThoughtToAllMapPawnsOnDestroy.gd
+│           ├── CR_CompProperties_Glower.gd
+│           ├── CR_CompProperties_Hackable.gd
+│           ├── CR_CompProperties_HasSources.gd
+│           ├── CR_CompProperties_Hatcher.gd
+│           ├── CR_CompProperties_HeatPusher.gd
+│           ├── CR_CompProperties_Hibernatable.gd
+│           ├── CR_CompProperties_HitchingSpot.gd
+│           ├── CR_CompProperties_HoldingPlatformTarget.gd
+│           ├── CR_CompProperties_Ingredients.gd
+│           ├── CR_CompProperties_Initiatable.gd
+│           ├── CR_CompProperties_InspectString.gd
+│           ├── CR_CompProperties_Interactable.gd
+│           ├── CR_CompProperties_Launchable_TransportPod.gd
+│           ├── CR_CompProperties_LeaveFilthOnDestroyed.gd
+│           ├── CR_CompProperties_Lifespan.gd
+│           ├── CR_CompProperties_Lightball.gd
+│           ├── CR_CompProperties_LongRangeMineralScanner.gd
+│           ├── CR_CompProperties_Loudspeaker.gd
+│           ├── CR_CompProperties_Maintainable.gd
+│           ├── CR_CompProperties_Mannable.gd
+│           ├── CR_CompProperties_MechGestatorTank.gd
+│           ├── CR_CompProperties_MechRepairable.gd
+│           ├── CR_CompProperties_MeditationFocus.gd
+│           ├── CR_CompProperties_MetalhorrorInfectible.gd
+│           ├── CR_CompProperties_Milkable.gd
+│           ├── CR_CompProperties_MoteEmitter.gd
+│           ├── CR_CompProperties_MoteEmitterProximityScan.gd
+│           ├── CR_CompProperties_MoteEmitterRandomColor.gd
+│           ├── CR_CompProperties_NeuralSupercharger.gd
+│           ├── CR_CompProperties_OrbitalBeam.gd
+│           ├── CR_CompProperties_OverseerSubject.gd
+│           ├── CR_CompProperties_PawnSpawnOnWakeup.gd
+│           ├── CR_CompProperties_PlantDamager.gd
+│           ├── CR_CompProperties_PlantHarmRadius.gd
+│           ├── CR_CompProperties_PlantPreventCutting.gd
+│           ├── CR_CompProperties_Plantable.gd
+│           ├── CR_CompProperties_PlaySoundOnDestroy.gd
+│           ├── CR_CompProperties_PolluteOverTime.gd
+│           ├── CR_CompProperties_Power.gd
+│           ├── CR_CompProperties_PreachHealth.gd
+│           ├── CR_CompProperties_ProjectileInterceptor.gd
+│           ├── CR_CompProperties_ProximityFuse.gd
+│           ├── CR_CompProperties_Psylinkable.gd
+│           ├── CR_CompProperties_Refuelable.gd
+│           ├── CR_CompProperties_ReportWorkSpeed.gd
+│           ├── CR_CompProperties_RitualEffectConstantCircle.gd
+│           ├── CR_CompProperties_RitualEffectDrum.gd
+│           ├── CR_CompProperties_RitualEffectIntervalSpawnArea.gd
+│           ├── CR_CompProperties_RitualEffectIntervalSpawnCircle.gd
+│           ├── CR_CompProperties_RitualEffectIntervalSpawnDividedCircle.gd
+│           ├── CR_CompProperties_RitualEffectLightball.gd
+│           ├── CR_CompProperties_RitualEffectSpawnOnPawn.gd
+│           ├── CR_CompProperties_RitualEffectSpawnOnRole.gd
+│           ├── CR_CompProperties_RitualEffectStaticAreaRandomMote.gd
+│           ├── CR_CompProperties_RitualHediffGiverInRoom.gd
+│           ├── CR_CompProperties_RitualSeat.gd
+│           ├── CR_CompProperties_RitualSignalSender.gd
+│           ├── CR_CompProperties_RitualTargetEffecterSpawner.gd
+│           ├── CR_CompProperties_Rottable.gd
+│           ├── CR_CompProperties_ScannerMineralsDeep.gd
+│           ├── CR_CompProperties_Schedule.gd
+│           ├── CR_CompProperties_SelfhealHitpoints.gd
+│           ├── CR_CompProperties_SendSignalOnCountdown.gd
+│           ├── CR_CompProperties_SendSignalOnMotion.gd
+│           ├── CR_CompProperties_Shearable.gd
+│           ├── CR_CompProperties_Shield.gd
+│           ├── CR_CompProperties_ShipLandingBeacon.gd
+│           ├── CR_CompProperties_ShipPart.gd
+│           ├── CR_CompProperties_Shuttle.gd
+│           ├── CR_CompProperties_SkyfallerRandomizeDirection.gd
+│           ├── CR_CompProperties_SmokeCloudMaker.gd
+│           ├── CR_CompProperties_SpawnEffecterOnDestroy.gd
+│           ├── CR_CompProperties_SpawnEffectersInRoom.gd
+│           ├── CR_CompProperties_SpawnSubplant.gd
+│           ├── CR_CompProperties_Spawner.gd
+│           ├── CR_CompProperties_SpawnerFilth.gd
+│           ├── CR_CompProperties_SpawnerHives.gd
+│           ├── CR_CompProperties_SpawnerPawn.gd
+│           ├── CR_CompProperties_StopManhunter.gd
+│           ├── CR_CompProperties_Studiable.gd
+│           ├── CR_CompProperties_Stunnable.gd
+│           ├── CR_CompProperties_Styleable.gd
+│           ├── CR_CompProperties_TargetEffectResurrect.gd
+│           ├── CR_CompProperties_TargetEffect_BrainDamageChance.gd
+│           ├── CR_CompProperties_TargetEffect_FleckConnecting.gd
+│           ├── CR_CompProperties_TargetEffect_FleckOnTarget.gd
+│           ├── CR_CompProperties_TargetEffect_GoodwillImpact.gd
+│           ├── CR_CompProperties_Targetable.gd
+│           ├── CR_CompProperties_TempControl.gd
+│           ├── CR_CompProperties_TemperatureRuinable.gd
+│           ├── CR_CompProperties_TerrainPumpDry.gd
+│           ├── CR_CompProperties_ThingContainer.gd
+│           ├── CR_CompProperties_ThrownFleckEmitter.gd
+│           ├── CR_CompProperties_ThrownMoteEmitter.gd
+│           ├── CR_CompProperties_ToggleDrawAffectedMeditationFoci.gd
+│           ├── CR_CompProperties_Transporter.gd
+│           ├── CR_CompProperties_TreeConnection.gd
+│           ├── CR_CompProperties_Usable.gd
+│           ├── CR_CompProperties_UseEffect.gd
+│           ├── CR_CompProperties_UseEffectArtifact.gd
+│           ├── CR_CompProperties_UseEffectDestroySelf.gd
+│           ├── CR_CompProperties_UseEffectInstallImplant.gd
+│           ├── CR_CompProperties_UseEffectPlaySound.gd
+│           ├── CR_CompProperties_UseEffectPlayWarmupSound.gd
+│           ├── CR_CompProperties_Useable_CallBossgroup.gd
+│           ├── CR_CompProperties_UsesMeditationFocus.gd
+│           ├── CR_CompProperties_WakeUpDormant.gd
+│           ├── CR_CompProperties_WindSource.gd
+│           ├── CR_ComplexLayoutDef.gd
+│           ├── CR_ComplexThreatDef.gd
+│           ├── CR_ConceptDef.gd
+│           ├── CR_CultureDef.gd
+│           ├── CR_DamageArmorCategoryDef.gd
+│           ├── CR_DamageDef.gd
+│           ├── CR_DebugTabMenuDef.gd
+│           ├── CR_DesignationCategoryDef.gd
+│           ├── CR_DesignationDef.gd
+│           ├── CR_DesignatorDropdownGroupDef.gd
+│           ├── CR_DifficultyDef.gd
+│           ├── CR_DrawStyleCategoryDef.gd
+│           ├── CR_DrawStyleDef.gd
+│           ├── CR_DrugPolicyDef.gd
+│           ├── CR_DutyDef.gd
+│           ├── CR_EffecterDef.gd
+│           ├── CR_ExpansionDef.gd
+│           ├── CR_ExpectationDef.gd
+│           ├── CR_FactionDef.gd
+│           ├── CR_FeatureDef.gd
+│           ├── CR_FleckDef.gd
+│           ├── CR_FleshTypeDef.gd
+│           ├── CR_GameConditionDef.gd
+│           ├── CR_GameSetupStepDef.gd
+│           ├── CR_GatheringDef.gd
+│           ├── CR_GauranlenTreeModeDef.gd
+│           ├── CR_GenStepDef.gd
+│           ├── CR_GeneCategoryDef.gd
+│           ├── CR_GeneDef.gd
+│           ├── CR_GlobalWorldDrawLayerDef.gd
+│           ├── CR_GoodwillSituationDef.gd
+│           ├── CR_GraphicStateDef.gd
+│           ├── CR_HairDef.gd
+│           ├── CR_HeadTypeDef.gd
+│           ├── CR_HediffCompProperties.gd
+│           ├── CR_HediffCompProperties_ChanceToRemove.gd
+│           ├── CR_HediffCompProperties_DestroyOrgan.gd
+│           ├── CR_HediffCompProperties_Disappears.gd
+│           ├── CR_HediffCompProperties_DisappearsOnDeath.gd
+│           ├── CR_HediffCompProperties_Discoverable.gd
+│           ├── CR_HediffCompProperties_Disorientation.gd
+│           ├── CR_HediffCompProperties_DissolveGearOnDeath.gd
+│           ├── CR_HediffCompProperties_DrugEffectFactor.gd
+│           ├── CR_HediffCompProperties_Effecter.gd
+│           ├── CR_HediffCompProperties_EntropyLink.gd
+│           ├── CR_HediffCompProperties_GetsPermanent.gd
+│           ├── CR_HediffCompProperties_GiveHediff.gd
+│           ├── CR_HediffCompProperties_GiveHediffLungRot.gd
+│           ├── CR_HediffCompProperties_GiveHediffsInRange.gd
+│           ├── CR_HediffCompProperties_GiveNeurocharge.gd
+│           ├── CR_HediffCompProperties_GrowthMode.gd
+│           ├── CR_HediffCompProperties_HealPermanentWounds.gd
+│           ├── CR_HediffCompProperties_Immunizable.gd
+│           ├── CR_HediffCompProperties_Infecter.gd
+│           ├── CR_HediffCompProperties_Invisibility.gd
+│           ├── CR_HediffCompProperties_Link.gd
+│           ├── CR_HediffCompProperties_MessageAfterTicks.gd
+│           ├── CR_HediffCompProperties_PsychicHarmonizer.gd
+│           ├── CR_HediffCompProperties_ReactOnDamage.gd
+│           ├── CR_HediffCompProperties_RecoveryThought.gd
+│           ├── CR_HediffCompProperties_RemoveIfApparelDropped.gd
+│           ├── CR_HediffCompProperties_SelfHeal.gd
+│           ├── CR_HediffCompProperties_SeverityFromEntropy.gd
+│           ├── CR_HediffCompProperties_SeverityFromGas.gd
+│           ├── CR_HediffCompProperties_SeverityPerDay.gd
+│           ├── CR_HediffCompProperties_SkillDecay.gd
+│           ├── CR_HediffCompProperties_SurgeryInspectable.gd
+│           ├── CR_HediffCompProperties_TendDuration.gd
+│           ├── CR_HediffCompProperties_VerbGiver.gd
+│           ├── CR_HediffDef.gd
+│           ├── CR_HediffGiverSetDef.gd
+│           ├── CR_HibernatableStateDef.gd
+│           ├── CR_HistoryAutoRecorderDef.gd
+│           ├── CR_HistoryAutoRecorderGroupDef.gd
+│           ├── CR_HistoryEventDef.gd
+│           ├── CR_IdeoColorDef.gd
+│           ├── CR_IdeoFoundationDef.gd
+│           ├── CR_IdeoIconDef.gd
+│           ├── CR_IdeoPresetCategoryDef.gd
+│           ├── CR_IdeoPresetDef.gd
+│           ├── CR_IdeoStoryPatternDef.gd
+│           ├── CR_ImpactSoundTypeDef.gd
+│           ├── CR_ImplementOwnerTypeDef.gd
+│           ├── CR_IncidentCategoryDef.gd
+│           ├── CR_IncidentDef.gd
+│           ├── CR_IncidentTargetTagDef.gd
+│           ├── CR_InfectionPathwayDef.gd
+│           ├── CR_InspirationDef.gd
+│           ├── CR_InstructionDef.gd
+│           ├── CR_InteractionDef.gd
+│           ├── CR_InventoryStockGroupDef.gd
+│           ├── CR_IssueDef.gd
+│           ├── CR_JobDef.gd
+│           ├── CR_JoyGiverDef.gd
+│           ├── CR_JoyKindDef.gd
+│           ├── CR_KeyBindingCategoryDef.gd
+│           ├── CR_KeyBindingDef.gd
+│           ├── CR_LayoutRoomDef.gd
+│           ├── CR_LetterDef.gd
+│           ├── CR_LifeStageDef.gd
+│           ├── CR_LogEntryDef.gd
+│           ├── CR_MainButtonDef.gd
+│           ├── CR_ManeuverDef.gd
+│           ├── CR_MapGeneratorDef.gd
+│           ├── CR_MapMeshFlagDef.gd
+│           ├── CR_MechWeightClassDef.gd
+│           ├── CR_MeditationFocusDef.gd
+│           ├── CR_MemeDef.gd
+│           ├── CR_MemeGroupDef.gd
+│           ├── CR_MentalBreakDef.gd
+│           ├── CR_MentalStateDef.gd
+│           ├── CR_MessageTypeDef.gd
+│           ├── CR_NeedDef.gd
+│           ├── CR_OptionCategoryDef.gd
+│           ├── CR_OrderedTakeGroupDef.gd
+│           ├── CR_PathGridDef.gd
+│           ├── CR_PawnCapacityDef.gd
+│           ├── CR_PawnColumnDef.gd
+│           ├── CR_PawnGroupKindDef.gd
+│           ├── CR_PawnKindDef.gd
+│           ├── CR_PawnRelationDef.gd
+│           ├── CR_PawnRenderNodeTagDef.gd
+│           ├── CR_PawnRenderTreeDef.gd
+│           ├── CR_PawnTableDef.gd
+│           ├── CR_PawnsArrivalModeDef.gd
+│           ├── CR_PlaceDef.gd
+│           ├── CR_PlanetLayerDef.gd
+│           ├── CR_PlanetLayerSettingsDef.gd
+│           ├── CR_PreceptComp_Apparel_Desired.gd
+│           ├── CR_PreceptComp_Apparel_DesiredStrong.gd
+│           ├── CR_PreceptComp_BedThought.gd
+│           ├── CR_PreceptComp_DevelopmentPoints.gd
+│           ├── CR_PreceptComp_KnowsMemoryThought.gd
+│           ├── CR_PreceptComp_SelfTookMemoryThought.gd
+│           ├── CR_PreceptComp_SituationalThought.gd
+│           ├── CR_PreceptComp_UnwillingToDo.gd
+│           ├── CR_PreceptComp_UnwillingToDo_Chance.gd
+│           ├── CR_PreceptComp_UnwillingToDo_Gendered.gd
+│           ├── CR_PreceptDef.gd
+│           ├── CR_PrefabDef.gd
+│           ├── CR_PrisonerInteractionModeDef.gd
+│           ├── CR_QuestScriptDef.gd
+│           ├── CR_RaidStrategyDef.gd
+│           ├── CR_RecipeDef.gd
+│           ├── CR_RecordDef.gd
+│           ├── CR_RenderSkipFlagDef.gd
+│           ├── CR_ResearchProjectDef.gd
+│           ├── CR_ResearchProjectTagDef.gd
+│           ├── CR_ResearchTabDef.gd
+│           ├── CR_ReservationLayerDef.gd
+│           ├── CR_RitualAttachableOutcomeEffectDef.gd
+│           ├── CR_RitualBehaviorDef.gd
+│           ├── CR_RitualObligationTargetFilterDef.gd
+│           ├── CR_RitualOutcomeComp_BuildingOfDefUsed.gd
+│           ├── CR_RitualOutcomeComp_DestroyConsumableBuilding.gd
+│           ├── CR_RitualOutcomeComp_DuelistDied.gd
+│           ├── CR_RitualOutcomeComp_NumActiveLoudspeakers.gd
+│           ├── CR_RitualOutcomeComp_NumParticipantsWithTag.gd
+│           ├── CR_RitualOutcomeComp_NumPlayedDrums.gd
+│           ├── CR_RitualOutcomeComp_ParticipantCount.gd
+│           ├── CR_RitualOutcomeComp_PawnExpectations.gd
+│           ├── CR_RitualOutcomeComp_PawnStatScaled.gd
+│           ├── CR_RitualOutcomeComp_RitualSeatPresent.gd
+│           ├── CR_RitualOutcomeComp_RitualTargetDefs.gd
+│           ├── CR_RitualOutcomeComp_RoleChangeParticipants.gd
+│           ├── CR_RitualOutcomeComp_RolePresentNotSubstituted.gd
+│           ├── CR_RitualOutcomeComp_RoomStat.gd
+│           ├── CR_RitualOutcomeComp_WeaponUsed.gd
+│           ├── CR_RitualOutcomeEffectDef.gd
+│           ├── CR_RitualPatternDef.gd
+│           ├── CR_RitualTargetFilterDef.gd
+│           ├── CR_RitualVisualEffectDef.gd
+│           ├── CR_RiverDef.gd
+│           ├── CR_RoadDef.gd
+│           ├── CR_RoadPathingDef.gd
+│           ├── CR_RoadWorldLayerDef.gd
+│           ├── CR_RoofDef.gd
+│           ├── CR_RoomRoleDef.gd
+│           ├── CR_RoomStatDef.gd
+│           ├── CR_RoyalTitleDef.gd
+│           ├── CR_RoyalTitlePermitDef.gd
+│           ├── CR_RuleDef.gd
+│           ├── CR_RulePackDef.gd
+│           ├── CR_ScatterableDef.gd
+│           ├── CR_ScenPartDef.gd
+│           ├── CR_ScenarioDef.gd
+│           ├── CR_ShaderTypeDef.gd
+│           ├── CR_ShipJobDef.gd
+│           ├── CR_SitePartDef.gd
+│           ├── CR_SketchResolverDef.gd
+│           ├── CR_SkillDef.gd
+│           ├── CR_SlaveInteractionModeDef.gd
+│           ├── CR_SongDef.gd
+│           ├── CR_SoundDef.gd
+│           ├── CR_SpecialThingFilterDef.gd
+│           ├── CR_StatCategoryDef.gd
+│           ├── CR_StatDef.gd
+│           ├── CR_StorytellerCompProperties_CategoryIndividualMTBByBiome.gd
+│           ├── CR_StorytellerCompProperties_CategoryMTB.gd
+│           ├── CR_StorytellerCompProperties_ClassicIntro.gd
+│           ├── CR_StorytellerCompProperties_DeepDrillInfestation.gd
+│           ├── CR_StorytellerCompProperties_Disease.gd
+│           ├── CR_StorytellerCompProperties_DissolutionTriggered.gd
+│           ├── CR_StorytellerCompProperties_FactionInteraction.gd
+│           ├── CR_StorytellerCompProperties_GauranlenPodSpawn.gd
+│           ├── CR_StorytellerCompProperties_ImportantQuest.gd
+│           ├── CR_StorytellerCompProperties_MechanitorComplexQuest.gd
+│           ├── CR_StorytellerCompProperties_MonolithMigration.gd
+│           ├── CR_StorytellerCompProperties_NoxiousHaze.gd
+│           ├── CR_StorytellerCompProperties_OnOffCycle.gd
+│           ├── CR_StorytellerCompProperties_RandomEpicQuest.gd
+│           ├── CR_StorytellerCompProperties_RandomMain.gd
+│           ├── CR_StorytellerCompProperties_RandomQuest.gd
+│           ├── CR_StorytellerCompProperties_RefiringUniqueQuest.gd
+│           ├── CR_StorytellerCompProperties_ShipChunkDrop.gd
+│           ├── CR_StorytellerCompProperties_SingleOnceFixed.gd
+│           ├── CR_StorytellerCompProperties_ThreatsGenerator.gd
+│           ├── CR_StorytellerCompProperties_Triggered.gd
+│           ├── CR_StorytellerCompProperties_WorkSite.gd
+│           ├── CR_StorytellerDef.gd
+│           ├── CR_StuffAppearanceDef.gd
+│           ├── CR_StuffCategoryDef.gd
+│           ├── CR_StyleCategoryDef.gd
+│           ├── CR_StyleItemCategoryDef.gd
+│           ├── CR_SubcameraDef.gd
+│           ├── CR_SurgeryOutcomeComp_BedAndRoomQuality.gd
+│           ├── CR_SurgeryOutcomeComp_ClampToRange.gd
+│           ├── CR_SurgeryOutcomeComp_Inspired.gd
+│           ├── CR_SurgeryOutcomeComp_MedicineQuality.gd
+│           ├── CR_SurgeryOutcomeComp_RecipeSuccessChance.gd
+│           ├── CR_SurgeryOutcomeComp_SurgeonSuccessChance.gd
+│           ├── CR_SurgeryOutcomeEffectDef.gd
+│           ├── CR_TaleDef.gd
+│           ├── CR_TattooDef.gd
+│           ├── CR_TerrainAffordanceDef.gd
+│           ├── CR_TerrainDef.gd
+│           ├── CR_TerrainTemplateDef.gd
+│           ├── CR_ThingCategoryDef.gd
+│           ├── CR_ThingDef.gd
+│           ├── CR_ThingSetMakerDef.gd
+│           ├── CR_ThingStyleDef.gd
+│           ├── CR_ThinkTreeDef.gd
+│           ├── CR_ThoughtDef.gd
+│           ├── CR_TileMutatorDef.gd
+│           ├── CR_TimeAssignmentDef.gd
+│           ├── CR_TipSetDef.gd
+│           ├── CR_ToolCapacityDef.gd
+│           ├── CR_TraderKindDef.gd
+│           ├── CR_TrainabilityDef.gd
+│           ├── CR_TrainableDef.gd
+│           ├── CR_TraitDef.gd
+│           ├── CR_TransferableSorterDef.gd
+│           ├── CR_TransportShipDef.gd
+│           ├── CR_WeaponCategoryDef.gd
+│           ├── CR_WeaponClassDef.gd
+│           ├── CR_WeaponClassPairDef.gd
+│           ├── CR_WeaponTraitDef.gd
+│           ├── CR_WeatherDef.gd
+│           ├── CR_WorkGiverDef.gd
+│           ├── CR_WorkGiverEquivalenceGroupDef.gd
+│           ├── CR_WorkTypeDef.gd
+│           ├── CR_WorldGenStepDef.gd
+│           ├── CR_WorldObjectCompProperties_Abandon.gd
+│           ├── CR_WorldObjectCompProperties_DebugArena.gd
+│           ├── CR_WorldObjectCompProperties_DefeatAllEnemiesQuest.gd
+│           ├── CR_WorldObjectCompProperties_DownedRefugee.gd
+│           ├── CR_WorldObjectCompProperties_EnterCooldown.gd
+│           ├── CR_WorldObjectCompProperties_EscapeShip.gd
+│           ├── CR_WorldObjectCompProperties_FormCaravan.gd
+│           ├── CR_WorldObjectCompProperties_ItemStashContents.gd
+│           ├── CR_WorldObjectCompProperties_PrisonerWillingToJoin.gd
+│           ├── CR_WorldObjectCompProperties_TimedDetectionRaids.gd
+│           ├── CR_WorldObjectCompProperties_TimedMakeFactionHostile.gd
+│           ├── CR_WorldObjectCompProperties_Timeout.gd
+│           ├── CR_WorldObjectCompProperties_TradeRequest.gd
+│           ├── CR_WorldObjectDef.gd
+│           └── CR_jobDef.gd
 ├── LICENSE
 ├── README.md
 ├── TREE.md
@@ -3168,57 +3620,59 @@
 │           ├── CompProperties_UseEffectPlayWarmupSound.gd
 │           ├── CompProperties_Useable_CallBossgroup.gd
 │           └── CompProperties_WakeUpDormant.gd
-└── docs
-    ├── GDD
-    │   ├── 00_vision_globale.md
-    │   ├── GDD-00_vision_globale.md
-    │   ├── GDD-01_systeme_monde.md
-    │   ├── GDD-02_systeme_conteur_ia.md
-    │   ├── GDD-03_systeme_personnages.md
-    │   ├── GDD-04_systeme_faune_et_flore.md
-    │   ├── GDD-05_systeme_construction.md
-    │   ├── GDD-06_systeme_ressources_et_production.md
-    │   ├── GDD-07_systeme_combat.md
-    │   ├── GDD-08_systeme_diplomatie_et_commerce.md
-    │   ├── GDD-09_systeme_recherche_et_progression.md
-    │   ├── GDD-10_systeme_interface_et_ux.md
-    │   ├── GDD-11_systeme_progression_et_objectifs.md
-    │   ├── GDD-12_systeme_modding_et_extensibilite.md
-    │   └── README.md
-    ├── GDD_Refonte_Rapport_Final.md
-    ├── PMD
-    │   ├── README.md
-    │   ├── aspects_legaux.md
-    │   ├── conventions_generales.md
-    │   ├── conventions_techniques.md
-    │   ├── feuille_route
-    │   │   ├── README.md
-    │   │   ├── backlog_fonctionnalites.md
-    │   │   └── jalons_objectifs.md
-    │   ├── glossaire.md
-    │   ├── modele_economique.md
-    │   └── principes_fondamentaux.md
-    ├── README.md
-    └── TDD
-        ├── Pipeline_Analysis
-        │   ├── README.md
-        │   ├── analyse_20_incompatibilites_tdd.md
-        │   ├── analyse_approfondie_justification.md
-        │   ├── analyse_approfondie_justification_v2.md
-        │   ├── analyse_critique_consolidee.md
-        │   ├── analyse_exhaustive_lacunes.md
-        │   ├── analyse_fidelite_xml.md
-        │   ├── analyse_lacunes_final.md
-        │   ├── analyse_lacunes_supplementaires.md
-        │   ├── analyse_pipeline_xml_cr.md
-        │   ├── analyse_tres_vs_res.md
-        │   └── rapport_chantier_cr_xml.md
-        ├── README.md
-        ├── TDD-00_fondations_et_conventions.md
-        ├── TDD-01_architecture_de_donnees.md
-        ├── TDD-02_architecture_des_systemes_de_base.md
-        ├── TDD-03_gestion_des_actifs_et_integration.md
-        ├── TDD-04_specifications_des_systemes_de_jeu.md
-        └── TDD-05_operations_performance_et_extensibilite.md
+├── docs
+│   ├── GDD
+│   │   ├── 00_vision_globale.md
+│   │   ├── GDD-00_vision_globale.md
+│   │   ├── GDD-01_systeme_monde.md
+│   │   ├── GDD-02_systeme_conteur_ia.md
+│   │   ├── GDD-03_systeme_personnages.md
+│   │   ├── GDD-04_systeme_faune_et_flore.md
+│   │   ├── GDD-05_systeme_construction.md
+│   │   ├── GDD-06_systeme_ressources_et_production.md
+│   │   ├── GDD-07_systeme_combat.md
+│   │   ├── GDD-08_systeme_diplomatie_et_commerce.md
+│   │   ├── GDD-09_systeme_recherche_et_progression.md
+│   │   ├── GDD-10_systeme_interface_et_ux.md
+│   │   ├── GDD-11_systeme_progression_et_objectifs.md
+│   │   ├── GDD-12_systeme_modding_et_extensibilite.md
+│   │   └── README.md
+│   ├── GDD_Refonte_Rapport_Final.md
+│   ├── PMD
+│   │   ├── README.md
+│   │   ├── aspects_legaux.md
+│   │   ├── conventions_generales.md
+│   │   ├── conventions_techniques.md
+│   │   ├── feuille_route
+│   │   │   ├── README.md
+│   │   │   ├── backlog_fonctionnalites.md
+│   │   │   └── jalons_objectifs.md
+│   │   ├── glossaire.md
+│   │   ├── modele_economique.md
+│   │   └── principes_fondamentaux.md
+│   ├── README.md
+│   └── TDD
+│       ├── Pipeline_Analysis
+│       │   ├── README.md
+│       │   ├── analyse_approfondie_justification.md
+│       │   ├── analyse_approfondie_justification_v2.md
+│       │   ├── analyse_critique_consolidee.md
+│       │   ├── analyse_exhaustive_lacunes.md
+│       │   ├── analyse_fidelite_xml.md
+│       │   ├── analyse_lacunes_final.md
+│       │   ├── analyse_lacunes_supplementaires.md
+│       │   ├── analyse_pipeline_xml_cr.md
+│       │   ├── analyse_tres_vs_res.md
+│       │   └── rapport_chantier_cr_xml.md
+│       ├── README.md
+│       ├── TDD-00_fondations_et_conventions.md
+│       ├── TDD-01_architecture_de_donnees.md
+│       ├── TDD-02_architecture_des_systemes_de_base.md
+│       ├── TDD-03_gestion_des_actifs_et_integration.md
+│       ├── TDD-04_specifications_des_systemes_de_jeu.md
+│       └── TDD-05_operations_performance_et_extensibilite.md
+├── generate_tree.py
+└── xml_to_cr_pipeline.py
 
-548 directories, 2671 files
+550 directories, 3121 files
+```
