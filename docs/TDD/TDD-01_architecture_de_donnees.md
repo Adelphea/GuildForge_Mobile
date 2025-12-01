@@ -59,10 +59,25 @@ Le script `xml_to_cr_pipeline.py` implémente les 10 fonctionnalités suivantes,
 | **P8** | **Filtre de Chargement Conditionnel** | Identification des Defs avec des conditions de chargement (ex: `LoadIfModActive`) pour une gestion ultérieure par le `DefManager` en jeu. | Fonction `_load_all_defs()` |
 | **P9** | **Initialisation des Valeurs par Défaut** | Assure que les propriétés non définies dans un Def concret héritent correctement de la valeur par défaut de son parent abstrait (couvert par P1). | Fonction `_resolve_inheritance()` |
 | **P10** | **Validation et Optimisation Finale des Ressources** | Vérification de l'intégrité des Defs concrets (ex: présence de `defName` et `defType`) après résolution de l'héritage. | Fonction `_final_validation()` |
-
-## III. Le DefManager (P3)
-
-Le `DefManager` est le point d'accès unique et centralisé à toutes les données de *design* (Defs).
+62	
+63	### II.4. Améliorations de la Qualité et de la Maintenabilité du Pipeline
+64	
+65	Ces fonctionnalités, bien que non critiques pour la conversion initiale, sont essentielles pour garantir la robustesse, la traçabilité et la conformité du pipeline aux standards de développement. Elles seront implémentées pour renforcer la qualité du code généré et la facilité de débogage.
+66	
+67	| Domaine | Amélioration | Objectif |
+68	| :--- | :--- | :--- |
+69	| **Qualité du Code** | **Génération de Docstrings** : Utilisation des balises XML pour enrichir les classes GDScript générées avec des Docstrings. | Clarté et documentation automatique. |
+70	| **Conformité** | **Vérification des Conventions** : Validation que les noms de Defs et de fichiers respectent les conventions de nommage du projet. | Cohérence du projet. |
+71	| **Robustesse** | **Détection des Cycles de Dépendance** : Identification et signalement des références circulaires entre les Defs. | Prévention des erreurs de chargement. |
+72	| **Sécurité des Types** | **Conversion Stricte des Primitifs** : Assurer la conversion des types primitifs (int, float, bool) en types Godot stricts. | Sécurité et performance. |
+73	| **Performance Mobile** | **Génération Binaire Optionnelle** : Ajout d'une option pour générer directement des fichiers `.res` (binaire) pour l'export final. | Optimisation pour la performance mobile. |
+74	| **Fidélité des Données** | **Gestion des Listes Hétérogènes** : Support des listes XML qui contiennent des types d'éléments différents. | Fidélité aux données source. |
+75	| **Contrôle Qualité** | **Intégration du Linter** : Exécution d'un linter GDScript sur les classes générées. | Qualité du code. |
+76	| **Documentation** | **Génération de Schéma de Données** : Création d'un schéma décrivant la structure finale de chaque Custom Resource. | Facilité de référence pour les développeurs. |
+77	| **Métadonnées** | **Gestion des Attributs Spéciaux** : Prise en compte des attributs XML spécifiques (Ex: `IsAbstract`, `MayRequire`) comme métadonnées. | Préservation des informations critiques. |
+78	| **Débogage** | **Journalisation Avancée** : Amélioration de la journalisation pour enregistrer le DefName et le chemin du fichier XML exact en cas d'erreur de conversion. | Facilité de débogage. |
+79	
+80	## III. Le DefManager (P3)DefManager` est le point d'accès unique et centralisé à toutes les données de *design* (Defs).
 
 ### III.1. Responsabilités
 
