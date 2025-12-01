@@ -2,10 +2,5 @@
 
 [resource]
 script = ExtResource("res://res://GuildForge/scripts/resources/GuildForge/scripts/resources/other_defs/CR_FleckDef.gd")
-defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/m/MechDropBeaconActivated.tres")"
+defName = "ExtResource("res://GuildForge/data/resources/royalty/other_defs/f/FlashstormAreaEffect.tres")"
 graphicData = SubResource(1)
-altitudeLayer = "MetaOverlays"
-fadeInTime = "0.1"
-solidTime = "0.8"
-fadeOutTime = "0.1"
-growthRate = "0.5"

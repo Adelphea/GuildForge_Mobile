@@ -78,10 +78,10 @@ def get_tres_output_path(module_name, def_type, def_name=""):
     else:
         folder = "other_defs"
         
-        # Sous-classification par première lettre du defName si le dossier est other_defs
+        # Sous-classification par première lettre du defName pour tous les dossiers
         base_path = os.path.join(TRES_OUTPUT_PATH, module_name, folder)
         
-        if folder == "other_defs" and def_name and def_name[0].isalpha():
+        if def_name and def_name[0].isalpha():
             sub_folder = def_name[0].lower()
             path = os.path.join(base_path, sub_folder)
         else:
@@ -99,9 +99,9 @@ def generate_gdscript_class(def_type, is_comp_property=False):
 
     # Déterminer la classe parente (P24)
     if is_comp_property:
-        parent_class = "CR_CompProperties"
+        parent_class = "res://GuildForge/scripts/resources/base_classes/CR_CompProperties.gd"
     else:
-        parent_class = "CR_Base"
+        parent_class = "res://GuildForge/scripts/resources/base_classes/CR_Base.gd"
 
     # Si la classe de base existe déjà, on ne la recrée pas.
     if class_name in ["CR_Base", "CR_CompProperties"]:
@@ -457,6 +457,11 @@ def run_pipeline():
                                 
                                 # P6: Récupération du defName
                                 def_name = get_def_name_from_xml(def_data)
+                                
+                                # P21: Nettoyage des Duplications (Defs Abstraits)
+                                if isinstance(def_data, dict) and def_data.get("@Abstract") == "True":
+                                    print(f"Ignoré (Abstract Def): {def_name}")
+                                    continue
                                 
                                 # Si le defName est "UnknownDef", on utilise le nom du fichier + type pour l'unicité
                                 if def_name == "UnknownDef":
