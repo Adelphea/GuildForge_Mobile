@@ -1,0 +1,81 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://createur_personnage/scripts/interface/PanneauInformation.gd" id="1_script"]
+
+[node name="PanneauInformation" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 560.0
+offset_bottom = 760.0
+script = ExtResource("1_script")
+
+[node name="FondBleu" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0.1, 1, 1)
+
+[node name="Pages" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Identite" type="VBoxContainer" parent="Pages"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="Competences" type="ScrollContainer" parent="Pages"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Liste" type="VBoxContainer" parent="Pages/Competences"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Relations" type="Control" parent="Pages"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BoutonsViolets" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 526.0
+offset_top = -1.0
+offset_right = 639.0
+offset_bottom = 341.0
+theme_override_constants/separation = 7
+
+[node name="BoutonIdentite" type="Button" parent="BoutonsViolets"]
+custom_minimum_size = Vector2(113, 115)
+layout_mode = 2
+text = "ID"
+
+[node name="BoutonCompetences" type="Button" parent="BoutonsViolets"]
+custom_minimum_size = Vector2(113, 115)
+layout_mode = 2
+text = "SK"
+
+[node name="BoutonRelations" type="Button" parent="BoutonsViolets"]
+custom_minimum_size = Vector2(113, 115)
+layout_mode = 2
+text = "RL"

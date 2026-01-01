@@ -1,0 +1,127 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://createur_personnage/scripts/interface/CreateurPersonnage.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://createur_personnage/scenes/interface/PanneauInformation.tscn" id="2_scene"]
+[ext_resource type="PackedScene" path="res://createur_personnage/scenes/interface/PanneauCatalogue.tscn" id="3_scene"]
+[ext_resource type="PackedScene" path="res://createur_personnage/scenes/personnage/ZoneVisualisation.tscn" id="4_scene"]
+
+[node name="CreateurPersonnage" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="FondVert" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 1, 0, 1)
+
+[node name="PanneauInformation" parent="." instance=ExtResource("2_scene")]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 120.0
+offset_right = 600.0
+offset_bottom = 880.0
+
+[node name="PanneauCatalogue" parent="." instance=ExtResource("3_scene")]
+layout_mode = 0
+offset_left = 1320.0
+offset_top = 120.0
+offset_right = 1880.0
+offset_bottom = 880.0
+
+[node name="ZoneVisualisation" parent="." instance=ExtResource("4_scene")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -300.0
+offset_right = 200.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="FlecheGauche" type="Button" parent="."]
+layout_mode = 0
+offset_left = 681.0
+offset_top = 537.0
+offset_right = 800.0
+offset_bottom = 624.0
+text = "←"
+
+[node name="FlecheDroite" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1121.0
+offset_top = 537.0
+offset_right = 1239.0
+offset_bottom = 624.0
+text = "→"
+
+[node name="BarreInferieure" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -160.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 2
+
+[node name="TypeSlot" type="Button" parent="BarreInferieure"]
+custom_minimum_size = Vector2(160, 160)
+layout_mode = 2
+
+[node name="ListeSlots" type="HBoxContainer" parent="BarreInferieure"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="Slot1" type="Button" parent="BarreInferieure/ListeSlots"]
+custom_minimum_size = Vector2(160, 160)
+layout_mode = 2
+
+[node name="SlotAjout" type="Button" parent="BarreInferieure/ListeSlots"]
+custom_minimum_size = Vector2(160, 160)
+layout_mode = 2
+text = "+"
+
+[node name="BoutonsAction" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -480.0
+offset_top = -160.0
+grow_horizontal = 0
+grow_vertical = 0
+color = Color(0, 0.73, 0.7, 1)
+
+[node name="HBox" type="HBoxContainer" parent="BoutonsAction"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BoutonRetour" type="Button" parent="BoutonsAction/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "RETOUR"
+
+[node name="BoutonDemarrer" type="Button" parent="BoutonsAction/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "DEMARRER"
